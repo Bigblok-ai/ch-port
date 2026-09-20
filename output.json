@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-c7ad011f38",
+          "name": "Seo / Capito vs Filler / Filler | 09:59 21/09 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c7ad011f38",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c7ad011f38",
+                  "name": "Seo / Capito vs Filler / Filler",
+                  "streams": [
+                    {
+                      "id": "st-c7ad011f38",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c7ad011f38",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8096/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | Billiards Mixed Doubles Open",
+            "team_a": "Seo / Capito",
+            "team_b": "Filler / Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789941232368_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789941242523_Joshua%20Filler.jpg",
+            "time": "09:59:00",
+            "date": "21/09",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c7ad011f38_a978b62c_20260921.png?v=a978b62c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ca1698ff68",
           "name": "Bryant B / Sanchez Ruiz F vs Han Yu / Wu KL | 10:00 21/09",
           "type": "single",
@@ -68,7 +140,7 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 | Billiards Mixed Doubles Open",
+            "league": "TV4 | Billiards Mixed Doubles Open",
             "team_a": "Bryant B / Sanchez Ruiz F",
             "team_b": "Han Yu / Wu KL",
             "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
@@ -89,80 +161,8 @@
           }
         },
         {
-          "id": "chtv-c7ad011f38",
-          "name": "Seo / Capito vs Filler / Filler | 10:00 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c7ad011f38",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c7ad011f38",
-                  "name": "Seo / Capito vs Filler / Filler",
-                  "streams": [
-                    {
-                      "id": "st-c7ad011f38",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c7ad011f38",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8096/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | Billiards Mixed Doubles Open",
-            "team_a": "Seo / Capito",
-            "team_b": "Filler / Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789941232368_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789941242523_Joshua%20Filler.jpg",
-            "time": "10:00:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c7ad011f38_a978b62c_20260921.png?v=a978b62c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ed2895ab34",
-          "name": "Chou / Gorst vs Easton / Van Boening | 10:00 21/09",
+          "name": "Chou / Gorst vs Easton / Van Boening | 10:00 21/09 | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -189,7 +189,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-ed2895ab34",
-                          "name": "Stream",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8097/index.m3u8",
@@ -219,7 +219,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1789941482700_Shane%20Van%20Boening.jpg",
             "time": "10:00:00",
             "date": "21/09",
-            "blv": "",
+            "blv": "BÚN CHÓ",
             "is_live": false,
             "cate_type": "billiards"
           },
