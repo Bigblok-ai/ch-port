@@ -1,0 +1,31 @@
+name: Run Scraper
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests Pillow
+      - name: Run scraper
+        run: python scraper.py
+        env:
+          REPO_RAW: https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/main
+      - name: Commit output
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output.json thumbs/
+          git diff --cached --quiet || git commit -m "Update output [skip ci]"
+          git push
