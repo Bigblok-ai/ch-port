@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "chtv-69795628d6",
+          "name": "Marion Jude vs Bùi Xuân Vàng | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69795628d6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-69795628d6",
+                  "name": "Marion Jude vs Bùi Xuân Vàng",
+                  "streams": [
+                    {
+                      "id": "st-69795628d6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69795628d6",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8110/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  | SAIGON 9BALL WOMEN'S OPEN",
+            "team_a": "Marion Jude",
+            "team_b": "Bùi Xuân Vàng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789961600725_Marion%20Jude.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789961637846_B%C3%B9i%20Xu%C3%A2n%20V%C3%A0ng.jpg",
+            "time": "15:00:00",
+            "date": "21/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-69795628d6_a81070c4_20260921.png?v=a81070c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ffd72fdbc5",
           "name": "Tzu-Chien Wei vs Venus Lim | Lee Min Hoo",
           "type": "single",
@@ -233,78 +305,6 @@
           }
         },
         {
-          "id": "chtv-69795628d6",
-          "name": "Marion Jude vs Bùi Xuân Vàng | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69795628d6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-69795628d6",
-                  "name": "Marion Jude vs Bùi Xuân Vàng",
-                  "streams": [
-                    {
-                      "id": "st-69795628d6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69795628d6",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8110/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3  | SAIGON 9BALL WOMEN'S OPEN",
-            "team_a": "Marion Jude",
-            "team_b": "Bùi Xuân Vàng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789961600725_Marion%20Jude.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789961637846_B%C3%B9i%20Xu%C3%A2n%20V%C3%A0ng.jpg",
-            "time": "15:00:00",
-            "date": "21/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-69795628d6_a81070c4_20260921.png?v=a81070c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9e59d69b0f",
           "name": "Tkon vs Jakub Koniar | 17:30 21/09",
           "type": "single",
@@ -372,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9e59d69b0f_d0b4f736_20260921.png?v=d0b4f736",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fdee5fa4bc",
-          "name": "Carlo Biado vs Henry Nguyen | 17:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fdee5fa4bc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fdee5fa4bc",
-                  "name": "Carlo Biado vs Henry Nguyen",
-                  "streams": [
-                    {
-                      "id": "st-fdee5fa4bc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fdee5fa4bc",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8114/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Carlo Biado",
-            "team_b": "Henry Nguyen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962123167_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "17:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fdee5fa4bc_2dd1eb66_20260921.png?v=2dd1eb66",
             "width": 1600,
             "height": 1200
           }
@@ -593,8 +521,8 @@
           }
         },
         {
-          "id": "chtv-bc0534225a",
-          "name": "Shane Van Boening vs Mauricio Garcia | 17:30 21/09",
+          "id": "chtv-fdee5fa4bc",
+          "name": "Carlo Biado vs Henry Nguyen | 17:30 21/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -608,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-bc0534225a",
+              "id": "src-fdee5fa4bc",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bc0534225a",
-                  "name": "Shane Van Boening vs Mauricio Garcia",
+                  "id": "ct-fdee5fa4bc",
+                  "name": "Carlo Biado vs Henry Nguyen",
                   "streams": [
                     {
-                      "id": "st-bc0534225a",
+                      "id": "st-fdee5fa4bc",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bc0534225a",
+                          "id": "lnk-fdee5fa4bc",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8112/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8114/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -644,11 +572,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 |  WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Shane Van Boening",
-            "team_b": "Mauricio Garcia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789961937483_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789961934581_Mauricio%20Garcia.jpg",
+            "league": "TV3 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Carlo Biado",
+            "team_b": "Henry Nguyen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962123167_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
             "time": "17:30:00",
             "date": "21/09",
             "blv": "",
@@ -659,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc0534225a_40534efa_20260921.png?v=40534efa",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fdee5fa4bc_2dd1eb66_20260921.png?v=2dd1eb66",
             "width": 1600,
             "height": 1200
           }
@@ -737,6 +665,78 @@
           }
         },
         {
+          "id": "chtv-bc0534225a",
+          "name": "Shane Van Boening vs Mauricio Garcia | 17:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc0534225a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bc0534225a",
+                  "name": "Shane Van Boening vs Mauricio Garcia",
+                  "streams": [
+                    {
+                      "id": "st-bc0534225a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc0534225a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8112/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 |  WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Shane Van Boening",
+            "team_b": "Mauricio Garcia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789961937483_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789961934581_Mauricio%20Garcia.jpg",
+            "time": "17:30:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc0534225a_40534efa_20260921.png?v=40534efa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-60d33e50ed",
           "name": "Olivér Szolnoki vs Alvaro Canóniga | 19:30 21/09",
           "type": "single",
@@ -804,78 +804,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60d33e50ed_2cc9e627_20260921.png?v=2cc9e627",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-58ad341517",
-          "name": "Sanjin Pehlivanovic vs Max Lechner | 19:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58ad341517",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-58ad341517",
-                  "name": "Sanjin Pehlivanovic vs Max Lechner",
-                  "streams": [
-                    {
-                      "id": "st-58ad341517",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58ad341517",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8118/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Sanjin Pehlivanovic",
-            "team_b": "Max Lechner",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962688799_Sanjin%20Pehlivanovic.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962688169_Max%20Lechner.jpg",
-            "time": "19:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58ad341517_e8bdd9ae_20260921.png?v=e8bdd9ae",
             "width": 1600,
             "height": 1200
           }
@@ -953,6 +881,78 @@
           }
         },
         {
+          "id": "chtv-6d91b4f5f6",
+          "name": "David Alcaide vs Ruslan Chinakhov | 19:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6d91b4f5f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6d91b4f5f6",
+                  "name": "David Alcaide vs Ruslan Chinakhov",
+                  "streams": [
+                    {
+                      "id": "st-6d91b4f5f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6d91b4f5f6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8119/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "David Alcaide",
+            "team_b": "Ruslan Chinakhov",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962753088_David%20Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962756322_Ruslan%20CHINAKHOV.jpg",
+            "time": "19:30:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6d91b4f5f6_1f9cf774_20260921.png?v=1f9cf774",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-50c7f688d3",
           "name": "Thorsten Hohmann vs Felix Vogel | 19:30 21/09",
           "type": "single",
@@ -1025,8 +1025,8 @@
           }
         },
         {
-          "id": "chtv-6d91b4f5f6",
-          "name": "David Alcaide vs Ruslan Chinakhov | 19:30 21/09",
+          "id": "chtv-58ad341517",
+          "name": "Sanjin Pehlivanovic vs Max Lechner | 19:30 21/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1040,23 +1040,23 @@
           ],
           "sources": [
             {
-              "id": "src-6d91b4f5f6",
+              "id": "src-58ad341517",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6d91b4f5f6",
-                  "name": "David Alcaide vs Ruslan Chinakhov",
+                  "id": "ct-58ad341517",
+                  "name": "Sanjin Pehlivanovic vs Max Lechner",
                   "streams": [
                     {
-                      "id": "st-6d91b4f5f6",
+                      "id": "st-58ad341517",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6d91b4f5f6",
+                          "id": "lnk-58ad341517",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8119/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8118/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1076,11 +1076,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "David Alcaide",
-            "team_b": "Ruslan Chinakhov",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962753088_David%20Alcaide.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962756322_Ruslan%20CHINAKHOV.jpg",
+            "league": "TV1 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Sanjin Pehlivanovic",
+            "team_b": "Max Lechner",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962688799_Sanjin%20Pehlivanovic.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962688169_Max%20Lechner.jpg",
             "time": "19:30:00",
             "date": "21/09",
             "blv": "",
@@ -1091,7 +1091,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6d91b4f5f6_1f9cf774_20260921.png?v=1f9cf774",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58ad341517_e8bdd9ae_20260921.png?v=e8bdd9ae",
             "width": 1600,
             "height": 1200
           }
