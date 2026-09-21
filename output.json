@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ce33c49dd7",
-          "name": "KYLE AMOROTO vs YOW (4/7/9/10) | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce33c49dd7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ce33c49dd7",
-                  "name": "KYLE AMOROTO vs YOW (4/7/9/10)",
-                  "streams": [
-                    {
-                      "id": "st-ce33c49dd7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce33c49dd7",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8138/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Get ready for an intense live billiards match",
-            "team_a": "KYLE AMOROTO",
-            "team_b": "YOW (4/7/9/10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790009494324_kyle%20amoroto.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
-            "date": "21/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1789923600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce33c49dd7_18dff168_20260922.png?v=18dff168",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-cce4808610",
           "name": "James Aranas vs EMONG 810 | Thập Cẩm",
