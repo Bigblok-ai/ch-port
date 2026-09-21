@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests Pillow
       - name: Run scraper
-        run: python scraper.py
+        run: python chport.py
         env:
           REPO_RAW: https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/main
       - name: Commit output
