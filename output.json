@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "chtv-23cc982bd8",
-          "name": "Chia-Chia Chou vs Rubilen Amit | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23cc982bd8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-23cc982bd8",
-                  "name": "Chia-Chia Chou vs Rubilen Amit",
-                  "streams": [
-                    {
-                      "id": "st-23cc982bd8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23cc982bd8",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8104/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN",
-            "team_a": "Chia-Chia Chou",
-            "team_b": "Rubilen Amit",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789960710610_Chia-Chia%20Chou.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789960718577_Rubilen%20Amit.jpg",
-            "time": "13:00:00",
-            "date": "21/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-23cc982bd8_ab62e825_20260921.png?v=ab62e825",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ffd72fdbc5",
           "name": "Tzu-Chien Wei vs Venus Lim | Lee Min Hoo",
           "type": "single",
@@ -228,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ffd72fdbc5_f859748d_20260921.png?v=f859748d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-69795628d6",
-          "name": "Marion Jude vs Bùi Xuân Vàng | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69795628d6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-69795628d6",
-                  "name": "Marion Jude vs Bùi Xuân Vàng",
-                  "streams": [
-                    {
-                      "id": "st-69795628d6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69795628d6",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8110/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3  | SAIGON 9BALL WOMEN'S OPEN",
-            "team_a": "Marion Jude",
-            "team_b": "Bùi Xuân Vàng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789961600725_Marion%20Jude.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789961637846_B%C3%B9i%20Xu%C3%A2n%20V%C3%A0ng.jpg",
-            "time": "15:00:00",
-            "date": "21/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-69795628d6_a81070c4_20260921.png?v=a81070c4",
             "width": 1600,
             "height": 1200
           }
@@ -377,6 +233,78 @@
           }
         },
         {
+          "id": "chtv-69795628d6",
+          "name": "Marion Jude vs Bùi Xuân Vàng | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69795628d6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-69795628d6",
+                  "name": "Marion Jude vs Bùi Xuân Vàng",
+                  "streams": [
+                    {
+                      "id": "st-69795628d6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69795628d6",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8110/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  | SAIGON 9BALL WOMEN'S OPEN",
+            "team_a": "Marion Jude",
+            "team_b": "Bùi Xuân Vàng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789961600725_Marion%20Jude.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789961637846_B%C3%B9i%20Xu%C3%A2n%20V%C3%A0ng.jpg",
+            "time": "15:00:00",
+            "date": "21/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-69795628d6_a81070c4_20260921.png?v=a81070c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-9e59d69b0f",
           "name": "Tkon vs Jakub Koniar | 17:30 21/09",
           "type": "single",
@@ -444,150 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9e59d69b0f_d0b4f736_20260921.png?v=d0b4f736",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-64bff0cbf4",
-          "name": "Dương Quốc Hoàng vs Shahbaaz Adil Khan | 17:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-64bff0cbf4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-64bff0cbf4",
-                  "name": "Dương Quốc Hoàng vs Shahbaaz Adil Khan",
-                  "streams": [
-                    {
-                      "id": "st-64bff0cbf4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-64bff0cbf4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8117/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Shahbaaz Adil Khan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765129769098_hoang.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226076176_de.png",
-            "time": "17:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-64bff0cbf4_70ee496a_20260921.png?v=70ee496a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5affc63dd2",
-          "name": "Albert Januarta vs Ameer Ali | 17:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5affc63dd2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5affc63dd2",
-                  "name": "Albert Januarta vs Ameer Ali",
-                  "streams": [
-                    {
-                      "id": "st-5affc63dd2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5affc63dd2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8115/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Albert Januarta",
-            "team_b": "Ameer Ali",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962195855_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962211986_AMEER%20ALI.jpg",
-            "time": "17:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5affc63dd2_a23dfc19_20260921.png?v=a23dfc19",
             "width": 1600,
             "height": 1200
           }
@@ -665,8 +449,8 @@
           }
         },
         {
-          "id": "chtv-7d5710c4eb",
-          "name": "Thiện Lương vs Sean Mark Malayan | 17:30 21/09",
+          "id": "chtv-5affc63dd2",
+          "name": "Albert Januarta vs Ameer Ali | 17:30 21/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -680,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-7d5710c4eb",
+              "id": "src-5affc63dd2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7d5710c4eb",
-                  "name": "Thiện Lương vs Sean Mark Malayan",
+                  "id": "ct-5affc63dd2",
+                  "name": "Albert Januarta vs Ameer Ali",
                   "streams": [
                     {
-                      "id": "st-7d5710c4eb",
+                      "id": "st-5affc63dd2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7d5710c4eb",
+                          "id": "lnk-5affc63dd2",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8113/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8115/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -716,11 +500,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Thiện Lương",
-            "team_b": "Sean Mark Malayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962054285_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962045445_SEAN%20MARK%20MALAYAN.jpg",
+            "league": "TV4 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Albert Januarta",
+            "team_b": "Ameer Ali",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962195855_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962211986_AMEER%20ALI.jpg",
             "time": "17:30:00",
             "date": "21/09",
             "blv": "",
@@ -731,7 +515,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d5710c4eb_d32abe8d_20260921.png?v=d32abe8d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5affc63dd2_a23dfc19_20260921.png?v=a23dfc19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-64bff0cbf4",
+          "name": "Dương Quốc Hoàng vs Shahbaaz Adil Khan | 17:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64bff0cbf4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-64bff0cbf4",
+                  "name": "Dương Quốc Hoàng vs Shahbaaz Adil Khan",
+                  "streams": [
+                    {
+                      "id": "st-64bff0cbf4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64bff0cbf4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8117/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Shahbaaz Adil Khan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765129769098_hoang.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226076176_de.png",
+            "time": "17:30:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-64bff0cbf4_70ee496a_20260921.png?v=70ee496a",
             "width": 1600,
             "height": 1200
           }
@@ -804,6 +660,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc0534225a_40534efa_20260921.png?v=40534efa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7d5710c4eb",
+          "name": "Thiện Lương vs Sean Mark Malayan | 17:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d5710c4eb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7d5710c4eb",
+                  "name": "Thiện Lương vs Sean Mark Malayan",
+                  "streams": [
+                    {
+                      "id": "st-7d5710c4eb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d5710c4eb",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8113/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Thiện Lương",
+            "team_b": "Sean Mark Malayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962054285_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962045445_SEAN%20MARK%20MALAYAN.jpg",
+            "time": "17:30:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d5710c4eb_d32abe8d_20260921.png?v=d32abe8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-60d33e50ed",
+          "name": "Olivér Szolnoki vs Alvaro Canóniga | 19:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60d33e50ed",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-60d33e50ed",
+                  "name": "Olivér Szolnoki vs Alvaro Canóniga",
+                  "streams": [
+                    {
+                      "id": "st-60d33e50ed",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60d33e50ed",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8124/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Olivér Szolnoki",
+            "team_b": "Alvaro Canóniga",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789963159918_Oliv%C3%A9r%20SZOLNOKI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789963156988_Alvaro%20Can%C3%B3niga.jpg",
+            "time": "19:30:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60d33e50ed_2cc9e627_20260921.png?v=2cc9e627",
             "width": 1600,
             "height": 1200
           }
@@ -948,78 +948,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09158321cc_6a49305d_20260921.png?v=6a49305d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-60d33e50ed",
-          "name": "Olivér Szolnoki vs Alvaro Canóniga | 19:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60d33e50ed",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-60d33e50ed",
-                  "name": "Olivér Szolnoki vs Alvaro Canóniga",
-                  "streams": [
-                    {
-                      "id": "st-60d33e50ed",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-60d33e50ed",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8124/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Olivér Szolnoki",
-            "team_b": "Alvaro Canóniga",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789963159918_Oliv%C3%A9r%20SZOLNOKI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789963156988_Alvaro%20Can%C3%B3niga.jpg",
-            "time": "19:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60d33e50ed_2cc9e627_20260921.png?v=2cc9e627",
             "width": 1600,
             "height": 1200
           }
