@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-3659c6ebf1",
-          "name": "RoLand Garcia vs Donnel Guevara | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3659c6ebf1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3659c6ebf1",
-                  "name": "RoLand Garcia vs Donnel Guevara",
-                  "streams": [
-                    {
-                      "id": "st-3659c6ebf1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3659c6ebf1",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8129/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "RoLand Garcia",
-            "team_b": "Donnel Guevara",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789984749189_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789984748906_phil.png",
-            "time": "00:00:00",
-            "date": "21/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3659c6ebf1_a096f962_20260921.png?v=a096f962",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b58d740745",
           "name": "RWIN GRACIA vs UNRIEL PALAWAN | Đại Kê",
           "type": "single",
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b58d740745_344f68bf_20260921.png?v=344f68bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3659c6ebf1",
+          "name": "RoLand Garcia vs Donnel Guevara | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3659c6ebf1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3659c6ebf1",
+                  "name": "RoLand Garcia vs Donnel Guevara",
+                  "streams": [
+                    {
+                      "id": "st-3659c6ebf1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3659c6ebf1",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8129/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "RoLand Garcia",
+            "team_b": "Donnel Guevara",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789984749189_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789984748906_phil.png",
+            "time": "00:00:00",
+            "date": "21/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3659c6ebf1_a096f962_20260921.png?v=a096f962",
             "width": 1600,
             "height": 1200
           }
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "chtv-ed3041e6cd",
+          "name": "Tyler Styer vs Daniel Macioł | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ed3041e6cd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ed3041e6cd",
+                  "name": "Tyler Styer vs Daniel Macioł",
+                  "streams": [
+                    {
+                      "id": "st-ed3041e6cd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed3041e6cd",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8131/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Tyler Styer",
+            "team_b": "Daniel Macioł",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789985506902_Screenshot%202026-09-21%20171120.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789985495781_Screenshot%202026-09-21%20171129.png",
+            "time": "17:30:00",
+            "date": "21/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed3041e6cd_86c079d2_20260921.png?v=86c079d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-fdee5fa4bc",
           "name": "Carlo Biado vs Henry Nguyen | Xinh Yeu",
           "type": "single",
@@ -444,294 +516,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d5710c4eb_d32abe8d_20260921.png?v=d32abe8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ed3041e6cd",
-          "name": "Tyler Styer vs Daniel Macioł | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed3041e6cd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ed3041e6cd",
-                  "name": "Tyler Styer vs Daniel Macioł",
-                  "streams": [
-                    {
-                      "id": "st-ed3041e6cd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed3041e6cd",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8131/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Tyler Styer",
-            "team_b": "Daniel Macioł",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789985506902_Screenshot%202026-09-21%20171120.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789985495781_Screenshot%202026-09-21%20171129.png",
-            "time": "17:30:00",
-            "date": "21/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed3041e6cd_86c079d2_20260921.png?v=86c079d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-58ad341517",
-          "name": "Sanjin Pehlivanovic vs Max Lechner | 19:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58ad341517",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-58ad341517",
-                  "name": "Sanjin Pehlivanovic vs Max Lechner",
-                  "streams": [
-                    {
-                      "id": "st-58ad341517",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58ad341517",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8118/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Sanjin Pehlivanovic",
-            "team_b": "Max Lechner",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962688799_Sanjin%20Pehlivanovic.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962688169_Max%20Lechner.jpg",
-            "time": "19:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58ad341517_e8bdd9ae_20260921.png?v=e8bdd9ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-09158321cc",
-          "name": "Hoàng Phú Thọ vs Alex Pagulayan | 19:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09158321cc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-09158321cc",
-                  "name": "Hoàng Phú Thọ vs Alex Pagulayan",
-                  "streams": [
-                    {
-                      "id": "st-09158321cc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09158321cc",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8120/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Hoàng Phú Thọ",
-            "team_b": "Alex Pagulayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962824719_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962820579_Alex%20Pagulayan.jpg",
-            "time": "19:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09158321cc_6a49305d_20260921.png?v=6a49305d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-60d33e50ed",
-          "name": "Olivér Szolnoki vs Alvaro Canóniga | 19:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60d33e50ed",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-60d33e50ed",
-                  "name": "Olivér Szolnoki vs Alvaro Canóniga",
-                  "streams": [
-                    {
-                      "id": "st-60d33e50ed",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-60d33e50ed",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8124/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Olivér Szolnoki",
-            "team_b": "Alvaro Canóniga",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789963159918_Oliv%C3%A9r%20SZOLNOKI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789963156988_Alvaro%20Can%C3%B3niga.jpg",
-            "time": "19:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60d33e50ed_2cc9e627_20260921.png?v=2cc9e627",
             "width": 1600,
             "height": 1200
           }
@@ -881,8 +665,8 @@
           }
         },
         {
-          "id": "chtv-1e40fa3a13",
-          "name": "Aloysius Yapp vs Cedric Gonzales | 19:31 21/09",
+          "id": "chtv-09158321cc",
+          "name": "Hoàng Phú Thọ vs Alex Pagulayan | 19:30 21/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -896,23 +680,95 @@
           ],
           "sources": [
             {
-              "id": "src-1e40fa3a13",
+              "id": "src-09158321cc",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1e40fa3a13",
-                  "name": "Aloysius Yapp vs Cedric Gonzales",
+                  "id": "ct-09158321cc",
+                  "name": "Hoàng Phú Thọ vs Alex Pagulayan",
                   "streams": [
                     {
-                      "id": "st-1e40fa3a13",
+                      "id": "st-09158321cc",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1e40fa3a13",
+                          "id": "lnk-09158321cc",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8123/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8120/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Hoàng Phú Thọ",
+            "team_b": "Alex Pagulayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962824719_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962820579_Alex%20Pagulayan.jpg",
+            "time": "19:30:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09158321cc_6a49305d_20260921.png?v=6a49305d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-60d33e50ed",
+          "name": "Olivér Szolnoki vs Alvaro Canóniga | 19:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60d33e50ed",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-60d33e50ed",
+                  "name": "Olivér Szolnoki vs Alvaro Canóniga",
+                  "streams": [
+                    {
+                      "id": "st-60d33e50ed",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60d33e50ed",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8124/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -933,11 +789,11 @@
           ],
           "org_metadata": {
             "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Cedric Gonzales",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789963065784_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789963080084_Cedric%20Gonzales.png",
-            "time": "19:31:00",
+            "team_a": "Olivér Szolnoki",
+            "team_b": "Alvaro Canóniga",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789963159918_Oliv%C3%A9r%20SZOLNOKI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789963156988_Alvaro%20Can%C3%B3niga.jpg",
+            "time": "19:30:00",
             "date": "21/09",
             "blv": "",
             "is_live": false,
@@ -947,7 +803,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1e40fa3a13_319cb126_20260921.png?v=319cb126",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60d33e50ed_2cc9e627_20260921.png?v=2cc9e627",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-58ad341517",
+          "name": "Sanjin Pehlivanovic vs Max Lechner | 19:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58ad341517",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-58ad341517",
+                  "name": "Sanjin Pehlivanovic vs Max Lechner",
+                  "streams": [
+                    {
+                      "id": "st-58ad341517",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58ad341517",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8118/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Sanjin Pehlivanovic",
+            "team_b": "Max Lechner",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962688799_Sanjin%20Pehlivanovic.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962688169_Max%20Lechner.jpg",
+            "time": "19:30:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58ad341517_e8bdd9ae_20260921.png?v=e8bdd9ae",
             "width": 1600,
             "height": 1200
           }
@@ -1020,6 +948,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-48c6a4be0e_07aa01b0_20260921.png?v=07aa01b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1e40fa3a13",
+          "name": "Aloysius Yapp vs Cedric Gonzales | 19:31 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e40fa3a13",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1e40fa3a13",
+                  "name": "Aloysius Yapp vs Cedric Gonzales",
+                  "streams": [
+                    {
+                      "id": "st-1e40fa3a13",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1e40fa3a13",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8123/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Cedric Gonzales",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789963065784_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789963080084_Cedric%20Gonzales.png",
+            "time": "19:31:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1e40fa3a13_319cb126_20260921.png?v=319cb126",
             "width": 1600,
             "height": 1200
           }
