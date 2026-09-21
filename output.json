@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-f172dca37b",
+          "name": "Chezka Centeno vs Yuki Hiraguchi | 10:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f172dca37b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f172dca37b",
+                  "name": "Chezka Centeno vs Yuki Hiraguchi",
+                  "streams": [
+                    {
+                      "id": "st-f172dca37b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f172dca37b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8143/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "| SAIGON 9BALL WOMEN'S OPEN (nhánh thắng)",
+            "team_a": "Chezka Centeno",
+            "team_b": "Yuki Hiraguchi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790030830603_Chezka%20Centeno.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790031010310_Yuki%20Hiraguchi.jpg",
+            "time": "10:00:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790046000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f172dca37b_bac44df4_20260922.png?v=bac44df4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-1644274d7a",
           "name": "Xiaofang Fu vs Kristina Zlateva | 10:00 22/09",
           "type": "single",
@@ -309,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-f172dca37b",
-          "name": "Chezka Centeno vs Yuki Hiraguchi | 10:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f172dca37b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f172dca37b",
-                  "name": "Chezka Centeno vs Yuki Hiraguchi",
-                  "streams": [
-                    {
-                      "id": "st-f172dca37b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f172dca37b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8143/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "| SAIGON 9BALL WOMEN'S OPEN (nhánh thắng)",
-            "team_a": "Chezka Centeno",
-            "team_b": "Yuki Hiraguchi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790030830603_Chezka%20Centeno.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790031010310_Yuki%20Hiraguchi.jpg",
-            "time": "10:00:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790046000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f172dca37b_bac44df4_20260922.png?v=bac44df4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c096520565",
           "name": "Harin Lee vs Tzu-Chien Wei | 10:00 22/09",
           "type": "single",
@@ -528,8 +528,8 @@
           }
         },
         {
-          "id": "chtv-3cc7363de4",
-          "name": "Huế Trân vs Yu Wen Hsieh | 12:00 22/09",
+          "id": "chtv-5a131279a0",
+          "name": "Lena Primus vs Shasha Liu | 12:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -543,23 +543,23 @@
           ],
           "sources": [
             {
-              "id": "src-3cc7363de4",
+              "id": "src-5a131279a0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3cc7363de4",
-                  "name": "Huế Trân vs Yu Wen Hsieh",
+                  "id": "ct-5a131279a0",
+                  "name": "Lena Primus vs Shasha Liu",
                   "streams": [
                     {
-                      "id": "st-3cc7363de4",
+                      "id": "st-5a131279a0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3cc7363de4",
+                          "id": "lnk-5a131279a0",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8147/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8148/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -579,11 +579,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 | SAIGON 9BALL WOMEN'S OPEN(nhánh thua)",
-            "team_a": "Huế Trân",
-            "team_b": "Yu Wen Hsieh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790031559839_Hu%E1%BA%BF%20Tr%C3%A2n.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790031496302_Yu%20Wen%20Hsieh.jpg",
+            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN(nhánh thua)",
+            "team_a": "Lena Primus",
+            "team_b": "Shasha Liu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790031681146_Lena%20Primus.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790031659198_Shasha%20Liu.jpg",
             "time": "12:00:00",
             "date": "22/09",
             "blv": "",
@@ -595,7 +595,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3cc7363de4_be32d207_20260922.png?v=be32d207",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5a131279a0_0d15dd21_20260922.png?v=0d15dd21",
             "width": 1600,
             "height": 1200
           }
@@ -669,6 +669,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f35bb7ea7f_3dd2170f_20260922.png?v=3dd2170f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3cc7363de4",
+          "name": "Huế Trân vs Yu Wen Hsieh | 12:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3cc7363de4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3cc7363de4",
+                  "name": "Huế Trân vs Yu Wen Hsieh",
+                  "streams": [
+                    {
+                      "id": "st-3cc7363de4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3cc7363de4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8147/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN(nhánh thua)",
+            "team_a": "Huế Trân",
+            "team_b": "Yu Wen Hsieh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790031559839_Hu%E1%BA%BF%20Tr%C3%A2n.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790031496302_Yu%20Wen%20Hsieh.jpg",
+            "time": "12:00:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790053200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3cc7363de4_be32d207_20260922.png?v=be32d207",
             "width": 1600,
             "height": 1200
           }
