@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-cce4808610",
-          "name": "James Aranas vs EMONG 810 | Thập Cẩm",
+          "id": "chtv-91f45dcdec",
+          "name": "Seo Seoa vs Silviana Lu | 10:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-cce4808610",
+              "id": "src-91f45dcdec",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-cce4808610",
-                  "name": "James Aranas vs EMONG 810",
+                  "id": "ct-91f45dcdec",
+                  "name": "Seo Seoa vs Silviana Lu",
                   "streams": [
                     {
-                      "id": "st-cce4808610",
+                      "id": "st-91f45dcdec",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-cce4808610",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-91f45dcdec",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8136/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8139/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Choáng đã quay trở lại và mạnh hơn xưa",
-            "team_a": "James Aranas",
-            "team_b": "EMONG 810",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790007537913_JAMES%20ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
-            "date": "21/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1789923600,
+            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN",
+            "team_a": "Seo Seoa",
+            "team_b": "Silviana Lu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790029715766_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790029736573_SILVIANA%20LU.jpg",
+            "time": "10:00:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790046000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cce4808610_16fe704d_20260922.png?v=16fe704d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-91f45dcdec_133d914e_20260922.png?v=133d914e",
             "width": 1600,
             "height": 1200
           }
