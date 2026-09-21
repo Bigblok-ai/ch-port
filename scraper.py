@@ -18,8 +18,33 @@ VN_TZ = timezone(timedelta(hours=7))
 FULL_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
            "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 
+# Session dung chung (keep-alive) — giam chi phi TLS, on dinh hon
+SESSION = requests.Session()
+SESSION.headers.update({"User-Agent": FULL_UA})
+
+# Cache domain resolve 12h — tranh fallback ve domain chet khi site entry cham
+DOMAIN_CACHE_FILE = "domain_cache.json"
+
+
 def now_vn() -> datetime:
     return datetime.now(tz=VN_TZ)
+
+
+def http_get(url, *, max_retries=3, backoff=2, **kwargs):
+    """GET co retry + backoff. Mac dinh timeout=(10, 30)."""
+    kwargs.setdefault("timeout", (10, 30))
+    last_exc = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            return SESSION.get(url, **kwargs)
+        except Exception as e:
+            last_exc = e
+            if attempt < max_retries:
+                wait = backoff * attempt
+                print(f"    ⚠️  HTTP loi ({attempt}/{max_retries}): {e} -> retry sau {wait}s")
+                time.sleep(wait)
+    raise last_exc
+
 
 def parse_kickoff(time_str: str):
     if not time_str: return None
@@ -36,13 +61,16 @@ def parse_kickoff(time_str: str):
     except Exception:
         return None
 
+
 def format_match_time(time_str: str) -> str:
     dt = parse_kickoff(time_str)
     return dt.strftime("%H:%M %d/%m") if dt else time_str
 
+
 def parse_time_sort(time_str: str) -> int:
     dt = parse_kickoff(time_str)
     return int(dt.timestamp()) if dt else 9999999999
+
 
 # Sửa mojibake (UTF-8 bị đọc nhầm Latin-1/cp1252) + percent-encode URL an toàn
 def sanitize_url(url: str) -> str:
@@ -67,6 +95,7 @@ def sanitize_url(url: str) -> str:
         pass
     return u
 
+
 # Tách giờ/ngày theo schema Giovang: time="HH:MM:SS", date="dd/MM"
 def split_match_datetime(time_raw: str, time_display: str):
     dt = parse_kickoff(time_raw)
@@ -77,74 +106,97 @@ def split_match_datetime(time_raw: str, time_display: str):
         return f"{m.group(1)}:00", m.group(2)
     return (time_display or ""), ""
 
+
 def make_id(text, prefix):
     return f"{prefix}-{hashlib.md5(text.encode()).hexdigest()[:10]}"
 
+
 def fetch_image(url):
     try:
-        res = requests.get(url, headers=HEADERS, timeout=8)
+        res = SESSION.get(url, headers=HEADERS, timeout=8)
         return Image.open(BytesIO(res.content)).convert("RGBA")
     except Exception:
         return None
 
-def validate_stream(url, match):
+
+def validate_stream(url, match, max_retries=3):
+    """Probe HLS co retry. Chi drop kenh sau khi thu het so lan.
+    LOI CHAC CHAN (404/403 khi khong future_safe) -> khong retry."""
     is_live = match.get("is_live", False)
-    try:
-        kickoff = parse_kickoff(match.get("time_raw", ""))
-        now = now_vn()
-        is_future_safe = (not is_live) and kickoff and kickoff > now + timedelta(minutes=15)
-        res = requests.get(url, headers=HEADERS, timeout=6, stream=True)
-        if res.status_code in [404, 500, 502, 503, 504] and is_future_safe:
-            res.close()
-            return True
-        if res.status_code != 200:
-            res.close()
-            print(f"    ❌ HTTP {res.status_code} từ stream")
-            return False
-        first_chunk = next(res.iter_content(1024), b"")
-        res.close()
-        if b"#EXTM3U" in first_chunk or b"#EXTINF" in first_chunk or b"#EXT-X" in first_chunk:
-            return True
-        print(f"    ❌ Không phải HLS, first bytes: {first_chunk[:100]}")
-        return is_future_safe
-    except Exception as e:
-        print(f"    ❌ Exception khi validate stream: {e}")
-        if is_live:
-            return False
-        kickoff = parse_kickoff(match.get("time_raw", ""))
-        now = now_vn()
-        return bool(kickoff and kickoff > now + timedelta(minutes=15))
+    kickoff = parse_kickoff(match.get("time_raw", ""))
+    future_safe = (not is_live) and bool(kickoff) and kickoff > now_vn() + timedelta(minutes=15)
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            res = SESSION.get(url, headers=HEADERS, timeout=(6, 10), stream=True)
+            with res:
+                if res.status_code in (404, 500, 502, 503, 504) and future_safe:
+                    return True
+                if res.status_code != 200:
+                    print(f"    ❌ HTTP {res.status_code} tu stream (lan {attempt}/{max_retries})")
+                    if res.status_code not in (500, 502, 503, 504):
+                        return False          # loi chac chan, khong retry
+                    time.sleep(attempt)
+                    continue
+                first = next(res.iter_content(1024), b"")
+                if b"#EXTM3U" in first or b"#EXTINF" in first or b"#EXT-X" in first:
+                    return True
+                print(f"    ❌ Khong phai HLS, first bytes: {first[:100]}")
+                return future_safe
+        except Exception as e:
+            print(f"    ⚠️  Loi mang khi probe stream (lan {attempt}/{max_retries}): {e}")
+            time.sleep(attempt)
+
+    # Het retry: LIVE -> that bai; SAP tuong lai -> van giu (CDN chua bat som)
+    return future_safe
+
 
 # ─────────────────────────────────────────────────────────────────────────────
-# AUTO-RESOLVE SITE DOMAIN
+# AUTO-RESOLVE SITE DOMAIN (co cache 12h)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def resolve_site_domain(entry_url, default_domain):
+    cache = None
+    if os.path.exists(DOMAIN_CACHE_FILE):
+        try:
+            with open(DOMAIN_CACHE_FILE, encoding="utf-8") as f:
+                c = json.load(f)
+            if c.get("site_url") and time.time() - c.get("ts", 0) < 12 * 3600:
+                cache = c
+        except Exception:
+            pass
+
+    def _save(site, referer, api_dom):
+        try:
+            with open(DOMAIN_CACHE_FILE, "w", encoding="utf-8") as f:
+                json.dump({"site_url": site, "referer": referer,
+                           "api_domain": api_dom, "ts": time.time()}, f)
+        except Exception:
+            pass
+
+    default_site = f"https://{default_domain}"
     try:
         print(f"  Dang kiem tra redirect tu: {entry_url}")
-        res = requests.get(
-            entry_url,
-            headers={"User-Agent": FULL_UA},
-            timeout=10,
-            allow_redirects=True
-        )
-        final_url = res.url
-        parsed = urlparse(final_url)
-        netloc = parsed.netloc
-        if netloc.startswith("www."):
-            netloc = netloc[4:]
+        res = http_get(entry_url, headers={"User-Agent": FULL_UA},
+                       timeout=(10, 15), max_retries=2, allow_redirects=True)
+        parsed = urlparse(res.url)
+        netloc = parsed.netloc[4:] if parsed.netloc.startswith("www.") else parsed.netloc
         site_url = f"{parsed.scheme}://{netloc}"
-        api_domain = netloc
-        if site_url and site_url != entry_url.rstrip('/'):
+        if site_url and site_url.rstrip("/") != entry_url.rstrip("/"):
             print(f"  ✅ Phat hien domain moi: {site_url}")
-            print(f"  ✅ API domain: api.{api_domain}")
-            return site_url, site_url + "/", api_domain
-        else:
-            print(f"  ℹ️  Khong co redirect, giu nguyen: {default_domain}")
-            return f"https://{default_domain}", f"https://{default_domain}/", default_domain
+            print(f"  ✅ API domain: api.{netloc}")
+            _save(site_url, site_url + "/", netloc)
+            return site_url, site_url + "/", netloc
+        print(f"  ℹ️  Khong co redirect, giu nguyen: {default_domain}")
+        _save(default_site, default_site + "/", default_domain)
+        return default_site, default_site + "/", default_domain
     except Exception as e:
-        print(f"  ⚠️  Loi khi resolve domain: {e} -> dung gia tri mac dinh")
-        return f"https://{default_domain}", f"https://{default_domain}/", default_domain
+        if cache:
+            print(f"  ⚠️  Resolve loi ({e}) -> dung CACHE: {cache['site_url']}")
+            return cache["site_url"], cache["referer"], cache["api_domain"]
+        print(f"  ⚠️  Resolve loi ({e}) -> dung gia tri mac dinh")
+        return default_site, default_site + "/", default_domain
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CONFIG
@@ -168,6 +220,62 @@ THUMB_VER  = "v1"
 # 🛡️ Regex patterns phân loại bộ môn (Word Boundary)
 BILLIARD_PATTERN = re.compile(r'\b(pool|billiard|bida|9[- ]?ball|10[- ]?ball|8[- ]?ball|carom|snooker)\b', re.IGNORECASE)
 MARTIAL_PATTERN  = re.compile(r'\b(inner\s*circle|võ\s+thuật|mma|muay|ufc|boxing|kickboxing)\b', re.IGNORECASE)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# FAIL-SAFE: BAO VE OUTPUT KHI SCRAPE THIEU DU LIEU
+# ─────────────────────────────────────────────────────────────────────────────
+
+def load_prev_output():
+    try:
+        with open("output.json", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def prev_channels(prev):
+    if not prev:
+        return []
+    return [ch for g in prev.get("groups", []) for ch in g.get("channels", [])]
+
+
+def split_by_cate(channels):
+    vo, bi = [], []
+    for ch in channels:
+        if ch.get("org_metadata", {}).get("cate_type") == "martial":
+            vo.append(ch)
+        else:
+            bi.append(ch)
+    return vo, bi
+
+
+def merge_preserve(new_channels, old_channels):
+    """Giu lai kenh cu con trong cua so hop le khi lan scrape nay thieu du lieu.
+    LIVE cu: giu toi da 5h keo dai. SAP cu: giu neu con trong tuong lai."""
+    by_id = {ch.get("id"): ch for ch in new_channels}
+    now_ts = int(now_vn().timestamp())
+    kept = 0
+    for ch in old_channels:
+        cid = ch.get("id")
+        if not cid or cid in by_id:
+            continue
+        md = ch.get("org_metadata", {})
+        ts = md.get("time_sort", 0) or 0
+        if not ts:
+            continue
+        if md.get("is_live") and now_ts - 5 * 3600 <= ts <= now_ts:
+            by_id[cid] = ch
+            kept += 1
+        elif (not md.get("is_live")) and now_ts <= ts <= now_ts + 6 * 3600:
+            by_id[cid] = ch
+            kept += 1
+    if kept:
+        print(f"  ♻️  Giu lai {kept} kenh tu output cu (lan scrape nay thieu du lieu)")
+    chans = list(by_id.values())
+    chans.sort(key=lambda ch: (0 if ch.get("org_metadata", {}).get("is_live") else 1,
+                               ch.get("org_metadata", {}).get("time_sort", 0)))
+    return chans
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # THUMBNAIL
@@ -273,6 +381,7 @@ def make_thumbnail(match, channel_id):
     bg.save(out_path, "PNG", optimize=True)
     return out_path
 
+
 def cleanup_old_thumbs(days: int = 3):
     if not os.path.exists(THUMBS_DIR): return
     cutoff  = now_vn() - timedelta(days=days)
@@ -292,6 +401,7 @@ def cleanup_old_thumbs(days: int = 3):
     if removed:
         print(f"Da xoa {removed} thumbnail cu (>{days} ngay)")
 
+
 # ─────────────────────────────────────────────────────────────────────────────
 # SCRAPE MATCHES
 # ─────────────────────────────────────────────────────────────────────────────
@@ -304,19 +414,22 @@ def get_matches():
         today + timedelta(days=1)
     ]
 
-    all_matches = []
-    seen_ids    = set()
+    all_matches  = []
+    seen_ids     = set()
+    failed_dates = []
 
     for date in dates_to_fetch:
         date_str = date.strftime("%Y-%m-%d")
         try:
-            res = requests.get(API_URL, params={"date": date_str}, headers=HEADERS, timeout=15)
+            res = http_get(API_URL, params={"date": date_str}, headers=HEADERS,
+                           max_retries=4, backoff=3)
             data = res.json()
+            if data.get("code") != 200:
+                raise RuntimeError(f"API code={data.get('code')}")
         except Exception as e:
-            print(f"  ❌ Loi API date={date_str}: {e}")
+            print(f"  ❌ Loi API date={date_str} (da retry): {e}")
+            failed_dates.append(date_str)
             continue
-
-        if data.get("code") != 200: continue
 
         for item in data.get("data", []):
             match_id = str(item.get("id", ""))
@@ -462,7 +575,8 @@ def get_matches():
         for m in live_matches:
             print(f"    - ID {m['match_id']}: {m['name']} | {m['time']}")
 
-    return final_matches
+    return final_matches, failed_dates
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # BUILD CHANNEL
@@ -515,6 +629,7 @@ def build_channel(match, thumb_url="", cate_type="billiards"):
             "date": match.get("date_only", ""),
             "blv": match.get("caster", ""),
             "is_live": match["is_live"],
+            "time_sort": match.get("time_sort", 0),
             "cate_type": cate_type,
         },
     }
@@ -526,6 +641,7 @@ def build_channel(match, thumb_url="", cate_type="billiards"):
             "width": 1600, "height": 1200,
         }
     return channel
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # MAIN
@@ -550,9 +666,20 @@ def main():
     print(f"  -> CDN_BASE : {CDN_BASE} (giu nguyen)")
     print("\nLay danh sach tran tu API...")
 
-    matches = get_matches()
+    matches, failed_dates = get_matches()
+
+    if failed_dates:
+        print(f"  ⛔ Cac date fetch THAT BAI (da retry): {', '.join(failed_dates)}")
+
+    # Fail-safe 1: fetch fail hoan toan -> giu nguyen output cu, khong ghi de
+    if not matches and failed_dates:
+        print("⛔ Scrape that bai hoan toan -> GIU NGUYEN output.json cu")
+        return
+
     live_count = sum(1 for m in matches if m["is_live"])
     print(f"\nTong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
+
+    prev_chs = prev_channels(load_prev_output())
 
     billiard_channels = []
     vo_thuat_channels = []
@@ -562,7 +689,7 @@ def main():
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']}) | BLV: {match['caster']}")
 
         if not validate_stream(match["stream_url"], match):
-            print(f"  ⚠️  Stream không hợp lệ, bỏ qua: {match['stream_url']}")
+            print(f"  ⚠️  Stream khong hop le, bo qua: {match['stream_url']}")
             continue
 
         uid        = make_id(match["stream_url"], "chtv")
@@ -585,6 +712,17 @@ def main():
             billiard_channels.append(ch)
 
         time.sleep(0.2)
+
+    # Fail-safe 2: co date fail -> merge giu lai kenh cu con han
+    new_channels = billiard_channels + vo_thuat_channels
+
+    if failed_dates:
+        merged = merge_preserve(new_channels, prev_chs)
+        vo_thuat_channels, billiard_channels = split_by_cate(merged)
+    elif not new_channels and prev_chs:
+        # Fail-safe 3: API tra rong bat thuong -> giu output cu
+        print("⛔ API tra rong du output cu co kenh -> nghi loi, giu output cu")
+        return
 
     groups = []
     if vo_thuat_channels:
@@ -631,6 +769,7 @@ def main():
     else:
         os.remove(staging)
         print(f"\nXong! {total} kenh -> Khong co thay doi, giu nguyen output.json")
+
 
 if __name__ == "__main__":
     main()
