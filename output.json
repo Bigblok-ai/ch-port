@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-0398a48606",
-          "name": "hopper zamboanga vs efren | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0398a48606",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0398a48606",
-                  "name": "hopper zamboanga vs efren",
-                  "streams": [
-                    {
-                      "id": "st-0398a48606",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0398a48606",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8132/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "hopper zamboanga",
-            "team_b": "efren",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789989857162_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789989856820_phil.png",
-            "time": "00:00:00",
-            "date": "21/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0398a48606_1abca0aa_20260921.png?v=1abca0aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-3659c6ebf1",
           "name": "RoLand Garcia vs Donnel Guevara | Thập Cẩm",
@@ -161,8 +89,8 @@
           }
         },
         {
-          "id": "chtv-fdee5fa4bc",
-          "name": "Carlo Biado vs Henry Nguyen | Xinh Yeu",
+          "id": "chtv-0398a48606",
+          "name": "hopper zamboanga vs efren | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +104,23 @@
           ],
           "sources": [
             {
-              "id": "src-fdee5fa4bc",
+              "id": "src-0398a48606",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fdee5fa4bc",
-                  "name": "Carlo Biado vs Henry Nguyen",
+                  "id": "ct-0398a48606",
+                  "name": "hopper zamboanga vs efren",
                   "streams": [
                     {
-                      "id": "st-fdee5fa4bc",
+                      "id": "st-0398a48606",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fdee5fa4bc",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-0398a48606",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8114/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8132/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -212,14 +140,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Carlo Biado",
-            "team_b": "Henry Nguyen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962123167_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "17:30:00",
+            "league": "phi bịp",
+            "team_a": "hopper zamboanga",
+            "team_b": "efren",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789989857162_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789989856820_phil.png",
+            "time": "00:00:00",
             "date": "21/09",
-            "blv": "Xinh Yeu",
+            "blv": "Tào A Man",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fdee5fa4bc_2dd1eb66_20260921.png?v=2dd1eb66",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0398a48606_1abca0aa_20260921.png?v=1abca0aa",
             "width": 1600,
             "height": 1200
           }
@@ -305,8 +233,8 @@
           }
         },
         {
-          "id": "chtv-bc0534225a",
-          "name": "Shane Van Boening vs Mauricio Garcia | Đại Kê",
+          "id": "chtv-ed3041e6cd",
+          "name": "Tyler Styer vs Daniel Macioł | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -320,23 +248,23 @@
           ],
           "sources": [
             {
-              "id": "src-bc0534225a",
+              "id": "src-ed3041e6cd",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bc0534225a",
-                  "name": "Shane Van Boening vs Mauricio Garcia",
+                  "id": "ct-ed3041e6cd",
+                  "name": "Tyler Styer vs Daniel Macioł",
                   "streams": [
                     {
-                      "id": "st-bc0534225a",
+                      "id": "st-ed3041e6cd",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bc0534225a",
-                          "name": "Đại Kê",
+                          "id": "lnk-ed3041e6cd",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8112/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8131/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -356,14 +284,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 |  WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Shane Van Boening",
-            "team_b": "Mauricio Garcia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789961937483_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789961934581_Mauricio%20Garcia.jpg",
+            "league": "TV4 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Tyler Styer",
+            "team_b": "Daniel Macioł",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789985506902_Screenshot%202026-09-21%20171120.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789985495781_Screenshot%202026-09-21%20171129.png",
             "time": "17:30:00",
             "date": "21/09",
-            "blv": "Đại Kê",
+            "blv": "Bỉm Sữa",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -371,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc0534225a_40534efa_20260921.png?v=40534efa",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed3041e6cd_86c079d2_20260921.png?v=86c079d2",
             "width": 1600,
             "height": 1200
           }
@@ -449,8 +377,8 @@
           }
         },
         {
-          "id": "chtv-ed3041e6cd",
-          "name": "Tyler Styer vs Daniel Macioł | Bỉm Sữa",
+          "id": "chtv-bc0534225a",
+          "name": "Shane Van Boening vs Mauricio Garcia | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -464,23 +392,23 @@
           ],
           "sources": [
             {
-              "id": "src-ed3041e6cd",
+              "id": "src-bc0534225a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ed3041e6cd",
-                  "name": "Tyler Styer vs Daniel Macioł",
+                  "id": "ct-bc0534225a",
+                  "name": "Shane Van Boening vs Mauricio Garcia",
                   "streams": [
                     {
-                      "id": "st-ed3041e6cd",
+                      "id": "st-bc0534225a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ed3041e6cd",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-bc0534225a",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8131/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8112/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -500,14 +428,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Tyler Styer",
-            "team_b": "Daniel Macioł",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789985506902_Screenshot%202026-09-21%20171120.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789985495781_Screenshot%202026-09-21%20171129.png",
+            "league": "TV1 |  WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Shane Van Boening",
+            "team_b": "Mauricio Garcia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789961937483_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789961934581_Mauricio%20Garcia.jpg",
             "time": "17:30:00",
             "date": "21/09",
-            "blv": "Bỉm Sữa",
+            "blv": "Đại Kê",
             "is_live": true,
             "cate_type": "billiards"
           },
@@ -515,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed3041e6cd_86c079d2_20260921.png?v=86c079d2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc0534225a_40534efa_20260921.png?v=40534efa",
             "width": 1600,
             "height": 1200
           }
@@ -593,8 +521,8 @@
           }
         },
         {
-          "id": "chtv-09158321cc",
-          "name": "Hoàng Phú Thọ vs Alex Pagulayan | 19:30 21/09",
+          "id": "chtv-50c7f688d3",
+          "name": "Thorsten Hohmann vs Felix Vogel | 19:30 21/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -608,23 +536,23 @@
           ],
           "sources": [
             {
-              "id": "src-09158321cc",
+              "id": "src-50c7f688d3",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-09158321cc",
-                  "name": "Hoàng Phú Thọ vs Alex Pagulayan",
+                  "id": "ct-50c7f688d3",
+                  "name": "Thorsten Hohmann vs Felix Vogel",
                   "streams": [
                     {
-                      "id": "st-09158321cc",
+                      "id": "st-50c7f688d3",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-09158321cc",
+                          "id": "lnk-50c7f688d3",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8120/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8121/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -644,11 +572,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Hoàng Phú Thọ",
-            "team_b": "Alex Pagulayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962824719_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962820579_Alex%20Pagulayan.jpg",
+            "league": "TV4 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Thorsten Hohmann",
+            "team_b": "Felix Vogel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962908101_Thorsten%20Hohmann.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962911206_Felix%20Vogel.jpg",
             "time": "19:30:00",
             "date": "21/09",
             "blv": "",
@@ -659,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09158321cc_6a49305d_20260921.png?v=6a49305d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-50c7f688d3_2b42bc05_20260921.png?v=2b42bc05",
             "width": 1600,
             "height": 1200
           }
@@ -809,8 +737,8 @@
           }
         },
         {
-          "id": "chtv-50c7f688d3",
-          "name": "Thorsten Hohmann vs Felix Vogel | 19:30 21/09",
+          "id": "chtv-09158321cc",
+          "name": "Hoàng Phú Thọ vs Alex Pagulayan | 19:30 21/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -824,23 +752,23 @@
           ],
           "sources": [
             {
-              "id": "src-50c7f688d3",
+              "id": "src-09158321cc",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-50c7f688d3",
-                  "name": "Thorsten Hohmann vs Felix Vogel",
+                  "id": "ct-09158321cc",
+                  "name": "Hoàng Phú Thọ vs Alex Pagulayan",
                   "streams": [
                     {
-                      "id": "st-50c7f688d3",
+                      "id": "st-09158321cc",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-50c7f688d3",
+                          "id": "lnk-09158321cc",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8121/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8120/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -860,11 +788,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Thorsten Hohmann",
-            "team_b": "Felix Vogel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962908101_Thorsten%20Hohmann.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962911206_Felix%20Vogel.jpg",
+            "league": "TV3 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Hoàng Phú Thọ",
+            "team_b": "Alex Pagulayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962824719_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962820579_Alex%20Pagulayan.jpg",
             "time": "19:30:00",
             "date": "21/09",
             "blv": "",
@@ -875,7 +803,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-50c7f688d3_2b42bc05_20260921.png?v=2b42bc05",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09158321cc_6a49305d_20260921.png?v=6a49305d",
             "width": 1600,
             "height": 1200
           }
