@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c7ad011f38",
-          "name": "Seo / Capito vs Filler / Filler | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c7ad011f38",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c7ad011f38",
-                  "name": "Seo / Capito vs Filler / Filler",
-                  "streams": [
-                    {
-                      "id": "st-c7ad011f38",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c7ad011f38",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8096/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | Billiards Mixed Doubles Open",
-            "team_a": "Seo / Capito",
-            "team_b": "Filler / Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789941232368_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789941242523_Joshua%20Filler.jpg",
-            "time": "09:59:00",
-            "date": "21/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c7ad011f38_a978b62c_20260921.png?v=a978b62c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-ca1698ff68",
           "name": "Bryant B / Sanchez Ruiz F vs Han Yu / Wu KL | SÊ KÔÔ",
@@ -737,78 +665,6 @@
           }
         },
         {
-          "id": "chtv-7d5710c4eb",
-          "name": "Thiện Lương vs Sean Mark Malayan | 17:30 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d5710c4eb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7d5710c4eb",
-                  "name": "Thiện Lương vs Sean Mark Malayan",
-                  "streams": [
-                    {
-                      "id": "st-7d5710c4eb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d5710c4eb",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8113/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 | WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Thiện Lương",
-            "team_b": "Sean Mark Malayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789962054285_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789962045445_SEAN%20MARK%20MALAYAN.jpg",
-            "time": "17:30:00",
-            "date": "21/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d5710c4eb_d32abe8d_20260921.png?v=d32abe8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5affc63dd2",
           "name": "Albert Januarta vs Ameer Ali | 17:30 21/09",
           "type": "single",
@@ -1020,6 +876,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc0534225a_40534efa_20260921.png?v=40534efa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7d5710c4eb",
+          "name": "Thiện Lương vs Sean Mark Malayan | 17:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d5710c4eb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7d5710c4eb",
+                  "name": "Thiện Lương vs Sean Mark Malayan",
+                  "streams": [
+                    {
+                      "id": "st-7d5710c4eb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d5710c4eb",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8113/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 | WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Thiện Lương",
+            "team_b": "Sean Mark Malayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789962054285_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789962045445_SEAN%20MARK%20MALAYAN.jpg",
+            "time": "17:30:00",
+            "date": "21/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d5710c4eb_d32abe8d_20260921.png?v=d32abe8d",
             "width": 1600,
             "height": 1200
           }
