@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-2bc7f8fcf2",
-          "name": "Shasha Liu vs Annita Kanjaya | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2bc7f8fcf2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2bc7f8fcf2",
-                  "name": "Shasha Liu vs Annita Kanjaya",
-                  "streams": [
-                    {
-                      "id": "st-2bc7f8fcf2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2bc7f8fcf2",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8106/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3  | SAIGON 9BALL WOMEN'S OPEN",
-            "team_a": "Shasha Liu",
-            "team_b": "Annita Kanjaya",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789960901365_Shasha%20Liu.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789960919666_Annita%20Kanjaya.jpg",
-            "time": "13:00:00",
-            "date": "21/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2bc7f8fcf2_8e3ba40e_20260921.png?v=8e3ba40e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-0e0fa006a1",
           "name": "Huang Qing Ning vs Kelly Fisher | BÚN CHÓ",
           "type": "single",
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-20a3620af2_66af6d98_20260921.png?v=66af6d98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2bc7f8fcf2",
+          "name": "Shasha Liu vs Annita Kanjaya | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2bc7f8fcf2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2bc7f8fcf2",
+                  "name": "Shasha Liu vs Annita Kanjaya",
+                  "streams": [
+                    {
+                      "id": "st-2bc7f8fcf2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2bc7f8fcf2",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8106/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  | SAIGON 9BALL WOMEN'S OPEN",
+            "team_a": "Shasha Liu",
+            "team_b": "Annita Kanjaya",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789960901365_Shasha%20Liu.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789960919666_Annita%20Kanjaya.jpg",
+            "time": "13:00:00",
+            "date": "21/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2bc7f8fcf2_8e3ba40e_20260921.png?v=8e3ba40e",
             "width": 1600,
             "height": 1200
           }
