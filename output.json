@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-32a5f06dcb",
-          "name": "Kledio Kaçi vs Skyler Woodward | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32a5f06dcb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-32a5f06dcb",
-                  "name": "Kledio Kaçi vs Skyler Woodward",
-                  "streams": [
-                    {
-                      "id": "st-32a5f06dcb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32a5f06dcb",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8150/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | WPA Men’s 10-Ball World Championship (nhánh thắng)",
-            "team_a": "Kledio Kaçi",
-            "team_b": "Skyler Woodward",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790032342303_Kledio%20Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790032348685_Skyler%20Woodward.jpg",
-            "time": "14:30:00",
-            "date": "22/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790062200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-32a5f06dcb_98030367_20260922.png?v=98030367",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c884c0a91d",
           "name": "Mario He vs Wu Kun Lin | Xinh Yeu",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-25365fff06_254cfd65_20260922.png?v=254cfd65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4f12b530ff",
+          "name": "Albert Januarta vs Jakub Koniar | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f12b530ff",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4f12b530ff",
+                  "name": "Albert Januarta vs Jakub Koniar",
+                  "streams": [
+                    {
+                      "id": "st-4f12b530ff",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4f12b530ff",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8162/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Albert Januarta",
+            "team_b": "Jakub Koniar",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790035474684_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790035472328_Jakub%20Koniar.jpg",
+            "time": "16:30:00",
+            "date": "22/09",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1790069400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4f12b530ff_5af93bba_20260922.png?v=5af93bba",
             "width": 1600,
             "height": 1200
           }
@@ -455,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-8c32965eff",
-          "name": "Liu SS / Hsieh CC vs Wang / Alcaide | 19:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c32965eff",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c32965eff",
-                  "name": "Liu SS / Hsieh CC vs Wang / Alcaide",
-                  "streams": [
-                    {
-                      "id": "st-8c32965eff",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c32965eff",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8170/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ kết 4 | Billiards Mixed Doubles Open",
-            "team_a": "Liu SS / Hsieh CC",
-            "team_b": "Wang / Alcaide",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790044319230_Liu%20Sha%20Sha.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790044333258_David%20Alcaide.jpg",
-            "time": "19:30:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790080200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c32965eff_8293249a_20260922.png?v=8293249a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-d1fe857d27",
           "name": "Lu / Yapp vs Chua J / Shi T | 19:30 22/09 | GIÀNG A PHỌ",
           "type": "single",
@@ -596,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d1fe857d27_5a95625f_20260922.png?v=5a95625f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8c32965eff",
+          "name": "Liu SS / Hsieh CC vs Wang / Alcaide | 19:30 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c32965eff",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8c32965eff",
+                  "name": "Liu SS / Hsieh CC vs Wang / Alcaide",
+                  "streams": [
+                    {
+                      "id": "st-8c32965eff",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c32965eff",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8170/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ kết 4 | Billiards Mixed Doubles Open",
+            "team_a": "Liu SS / Hsieh CC",
+            "team_b": "Wang / Alcaide",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790044319230_Liu%20Sha%20Sha.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790044333258_David%20Alcaide.jpg",
+            "time": "19:30:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790080200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c32965eff_8293249a_20260922.png?v=8293249a",
             "width": 1600,
             "height": 1200
           }
