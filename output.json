@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1644274d7a_543987a8_20260922.png?v=543987a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f172dca37b",
-          "name": "Chezka Centeno vs Yuki Hiraguchi | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f172dca37b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f172dca37b",
-                  "name": "Chezka Centeno vs Yuki Hiraguchi",
-                  "streams": [
-                    {
-                      "id": "st-f172dca37b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f172dca37b",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8143/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "| SAIGON 9BALL WOMEN'S OPEN (nhánh thắng)",
-            "team_a": "Chezka Centeno",
-            "team_b": "Yuki Hiraguchi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790030830603_Chezka%20Centeno.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790031010310_Yuki%20Hiraguchi.jpg",
-            "time": "10:00:00",
-            "date": "22/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790046000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f172dca37b_bac44df4_20260922.png?v=bac44df4",
             "width": 1600,
             "height": 1200
           }
