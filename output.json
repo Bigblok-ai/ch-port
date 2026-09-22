@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-98accdf54e",
+          "name": "Đặng Thành Kiên vs ZHOU Chuandong | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98accdf54e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-98accdf54e",
+                  "name": "Đặng Thành Kiên vs ZHOU Chuandong",
+                  "streams": [
+                    {
+                      "id": "st-98accdf54e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-98accdf54e",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8179/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "choangtv",
+            "team_a": "Đặng Thành Kiên",
+            "team_b": "ZHOU Chuandong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790074197592_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790074197442_china.png",
+            "time": "00:00:00",
+            "date": "22/09",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1790010000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-98accdf54e_3953d4f9_20260922.png?v=3953d4f9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-25365fff06",
           "name": "Phương Nam Phạm vs Ralf Souquet | Kèn Kèn",
@@ -158,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-821cad4126_d8a349f8_20260922.png?v=d8a349f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a62f43b44a",
+          "name": "Carlo Biado vs Khứa tóc dài | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a62f43b44a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a62f43b44a",
+                  "name": "Carlo Biado vs Khứa tóc dài",
+                  "streams": [
+                    {
+                      "id": "st-a62f43b44a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a62f43b44a",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8165/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Carlo Biado",
+            "team_b": "Khứa tóc dài",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790038056522_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767841046741_Arseni%20Sevastyanov.jpg",
+            "time": "16:30:00",
+            "date": "22/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790069400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a62f43b44a_8d1b6a43_20260922.png?v=8d1b6a43",
             "width": 1600,
             "height": 1200
           }
@@ -309,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-a62f43b44a",
-          "name": "Carlo Biado vs Khứa tóc dài | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a62f43b44a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a62f43b44a",
-                  "name": "Carlo Biado vs Khứa tóc dài",
-                  "streams": [
-                    {
-                      "id": "st-a62f43b44a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a62f43b44a",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8165/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Carlo Biado",
-            "team_b": "Khứa tóc dài",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790038056522_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767841046741_Arseni%20Sevastyanov.jpg",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790069400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a62f43b44a_8d1b6a43_20260922.png?v=8d1b6a43",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8c32965eff",
           "name": "Liu SS / Hsieh CC vs Wang / Alcaide | 19:30 22/09",
           "type": "single",
@@ -455,79 +528,6 @@
           }
         },
         {
-          "id": "chtv-143a631ab6",
-          "name": "Han Yu / Wu KL vs Chou / Gorst | 19:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-143a631ab6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-143a631ab6",
-                  "name": "Han Yu / Wu KL vs Chou / Gorst",
-                  "streams": [
-                    {
-                      "id": "st-143a631ab6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-143a631ab6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8169/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ kết 3 | Billiards Mixed Doubles Open",
-            "team_a": "Han Yu / Wu KL",
-            "team_b": "Chou / Gorst",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790044153823_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790044176609_Fedor%20Gorst.jpg",
-            "time": "19:30:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790080200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-143a631ab6_9192438d_20260922.png?v=9192438d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8825cfc147",
           "name": "Seo / Capito vs Oi N / Chien WT | 19:30 22/09",
           "type": "single",
@@ -596,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8825cfc147_e88081eb_20260922.png?v=e88081eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-143a631ab6",
+          "name": "Han Yu / Wu KL vs Chou / Gorst | 19:30 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-143a631ab6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-143a631ab6",
+                  "name": "Han Yu / Wu KL vs Chou / Gorst",
+                  "streams": [
+                    {
+                      "id": "st-143a631ab6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-143a631ab6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8169/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ kết 3 | Billiards Mixed Doubles Open",
+            "team_a": "Han Yu / Wu KL",
+            "team_b": "Chou / Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790044153823_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790044176609_Fedor%20Gorst.jpg",
+            "time": "19:30:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790080200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-143a631ab6_9192438d_20260922.png?v=9192438d",
             "width": 1600,
             "height": 1200
           }
