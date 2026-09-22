@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-3cc7363de4",
-          "name": "Huế Trân vs Yu Wen Hsieh | Tào A Man",
+          "id": "chtv-04bd741908",
+          "name": "Zhang Muyan vs Chia-Chia Chou | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-3cc7363de4",
+              "id": "src-04bd741908",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3cc7363de4",
-                  "name": "Huế Trân vs Yu Wen Hsieh",
+                  "id": "ct-04bd741908",
+                  "name": "Zhang Muyan vs Chia-Chia Chou",
                   "streams": [
                     {
-                      "id": "st-3cc7363de4",
+                      "id": "st-04bd741908",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3cc7363de4",
-                          "name": "Tào A Man",
+                          "id": "lnk-04bd741908",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8147/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8145/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN(nhánh thua)",
-            "team_a": "Huế Trân",
-            "team_b": "Yu Wen Hsieh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790031559839_Hu%E1%BA%BF%20Tr%C3%A2n.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790031496302_Yu%20Wen%20Hsieh.jpg",
+            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN(nhánh thua)",
+            "team_a": "Zhang Muyan",
+            "team_b": "Chia-Chia Chou",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790031181871_Zhang%20Muyan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790031193071_Chia-Chia%20Chou.jpg",
             "time": "12:00:00",
             "date": "22/09",
-            "blv": "Tào A Man",
+            "blv": "Lee Min Hoo",
             "is_live": true,
             "time_sort": 1790053200,
             "cate_type": "billiards"
@@ -157,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3cc7363de4_be32d207_20260922.png?v=be32d207",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-04bd741908_3e21609a_20260922.png?v=3e21609a",
             "width": 1600,
             "height": 1200
           }
@@ -231,6 +231,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5a131279a0_0d15dd21_20260922.png?v=0d15dd21",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3cc7363de4",
+          "name": "Huế Trân vs Yu Wen Hsieh | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3cc7363de4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3cc7363de4",
+                  "name": "Huế Trân vs Yu Wen Hsieh",
+                  "streams": [
+                    {
+                      "id": "st-3cc7363de4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3cc7363de4",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8147/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN(nhánh thua)",
+            "team_a": "Huế Trân",
+            "team_b": "Yu Wen Hsieh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790031559839_Hu%E1%BA%BF%20Tr%C3%A2n.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790031496302_Yu%20Wen%20Hsieh.jpg",
+            "time": "12:00:00",
+            "date": "22/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790053200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3cc7363de4_be32d207_20260922.png?v=be32d207",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-eec7c625f8",
+          "name": "Hong Xin Yu vs Nguyen Bich Tram | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eec7c625f8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-eec7c625f8",
+                  "name": "Hong Xin Yu vs Nguyen Bich Tram",
+                  "streams": [
+                    {
+                      "id": "st-eec7c625f8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eec7c625f8",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8149/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SAIGON 9BALL WOMEN'S OPEN(nhánh thua)",
+            "team_a": "Hong Xin Yu",
+            "team_b": "Nguyen Bich Tram",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790031862832_Hong%20Xin%20Yu.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790031913190_NGUYEN%20BICH%20TRAM.jpg",
+            "time": "12:01:00",
+            "date": "22/09",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1790053260,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eec7c625f8_eff087c2_20260922.png?v=eff087c2",
             "width": 1600,
             "height": 1200
           }
@@ -1112,6 +1258,79 @@
           }
         },
         {
+          "id": "chtv-3e0f63dd6a",
+          "name": "Tạ Phương Nam vs Ralf Souquet | 16:30 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e0f63dd6a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3e0f63dd6a",
+                  "name": "Tạ Phương Nam vs Ralf Souquet",
+                  "streams": [
+                    {
+                      "id": "st-3e0f63dd6a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e0f63dd6a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8164/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Tạ Phương Nam",
+            "team_b": "Ralf Souquet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790037525751_Ralf%20Souquet.jpg",
+            "time": "16:30:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790069400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3e0f63dd6a_e7ae5468_20260922.png?v=e7ae5468",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-80f47fb986",
           "name": "Johann Chua vs Emil André Gangfløt | 16:30 22/09",
           "type": "single",
@@ -1326,79 +1545,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4f12b530ff_5af93bba_20260922.png?v=5af93bba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3e0f63dd6a",
-          "name": "Tạ Phương Nam vs Ralf Souquet | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e0f63dd6a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3e0f63dd6a",
-                  "name": "Tạ Phương Nam vs Ralf Souquet",
-                  "streams": [
-                    {
-                      "id": "st-3e0f63dd6a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3e0f63dd6a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8164/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Tạ Phương Nam",
-            "team_b": "Ralf Souquet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790037525751_Ralf%20Souquet.jpg",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790069400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3e0f63dd6a_e7ae5468_20260922.png?v=e7ae5468",
             "width": 1600,
             "height": 1200
           }
