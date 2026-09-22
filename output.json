@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-94402de356",
-          "name": "Mieszko Fortuński vs Roman Hybler | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-94402de356",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-94402de356",
-                  "name": "Mieszko Fortuński vs Roman Hybler",
-                  "streams": [
-                    {
-                      "id": "st-94402de356",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-94402de356",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8171/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ú",
-            "team_a": "Mieszko Fortuński",
-            "team_b": "Roman Hybler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790065323458_2.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790065338405_phil.png",
-            "time": "13:42:00",
-            "date": "22/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790059320,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-94402de356_6b3a8869_20260922.png?v=6b3a8869",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4d207b6928",
-          "name": "robbie captio vs Szymon Kural | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d207b6928",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4d207b6928",
-                  "name": "robbie captio vs Szymon Kural",
-                  "streams": [
-                    {
-                      "id": "st-4d207b6928",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d207b6928",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8172/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U",
-            "team_a": "robbie captio",
-            "team_b": "Szymon Kural",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790065345880_images%20(1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790065347933_images%20(1).png",
-            "time": "13:44:00",
-            "date": "22/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1790059440,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d207b6928_c5f4109e_20260922.png?v=c5f4109e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-924c1fa0ed",
           "name": "Niels Feijen vs Albin Ouschan | Bỉm Sữa",
@@ -231,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-924c1fa0ed_cc9622d5_20260922.png?v=cc9622d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c884c0a91d",
-          "name": "Mario He vs Wu Kun Lin | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c884c0a91d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c884c0a91d",
-                  "name": "Mario He vs Wu Kun Lin",
-                  "streams": [
-                    {
-                      "id": "st-c884c0a91d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c884c0a91d",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8155/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thắng)",
-            "team_a": "Mario He",
-            "team_b": "Wu Kun Lin",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790033101637_Mario%20He.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790033105800_WU%20KUN%20LIN.jpg",
-            "time": "14:30:00",
-            "date": "22/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790062200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c884c0a91d_4539fc45_20260922.png?v=4539fc45",
             "width": 1600,
             "height": 1200
           }
@@ -382,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-821cad4126",
-          "name": "Hoàng PT vs David Alcaide | 16:29 22/09",
+          "id": "chtv-c884c0a91d",
+          "name": "Mario He vs Wu Kun Lin | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-821cad4126",
+              "id": "src-c884c0a91d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-821cad4126",
-                  "name": "Hoàng PT vs David Alcaide",
+                  "id": "ct-c884c0a91d",
+                  "name": "Mario He vs Wu Kun Lin",
                   "streams": [
                     {
-                      "id": "st-821cad4126",
+                      "id": "st-c884c0a91d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-821cad4126",
-                          "name": "Stream",
+                          "id": "lnk-c884c0a91d",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8161/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8155/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -433,60 +214,60 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3  WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Hoàng PT",
-            "team_b": "David Alcaide",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790034902428_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790034908875_David%20Alcaide.jpg",
-            "time": "16:29:00",
+            "league": "WPA Men’s 10-Ball World Championship (nhánh thắng)",
+            "team_a": "Mario He",
+            "team_b": "Wu Kun Lin",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790033101637_Mario%20He.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790033105800_WU%20KUN%20LIN.jpg",
+            "time": "14:30:00",
             "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790069340,
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790062200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-821cad4126_d8a349f8_20260922.png?v=d8a349f8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c884c0a91d_4539fc45_20260922.png?v=4539fc45",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-7977d21c34",
-          "name": "Pijus Labutis vs Aloysius Yapp | 16:29 22/09",
+          "id": "chtv-25365fff06",
+          "name": "Phương Nam Phạm vs Ralf Souquet | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-7977d21c34",
+              "id": "src-25365fff06",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7977d21c34",
-                  "name": "Pijus Labutis vs Aloysius Yapp",
+                  "id": "ct-25365fff06",
+                  "name": "Phương Nam Phạm vs Ralf Souquet",
                   "streams": [
                     {
-                      "id": "st-7977d21c34",
+                      "id": "st-25365fff06",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7977d21c34",
-                          "name": "Stream",
+                          "id": "lnk-25365fff06",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8166/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8174/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -506,468 +287,30 @@
             }
           ],
           "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Pijus Labutis",
-            "team_b": "Aloysius Yapp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790040959442_Pijus%20Labutis.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790040971298_YAPP%20B%C3%A9o.jpg",
-            "time": "16:29:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790069340,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7977d21c34_9fb408ec_20260922.png?v=9fb408ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-efb08037fc",
-          "name": "Hoàng Sao vs Daniel Macioł | 16:30 22/09 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efb08037fc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-efb08037fc",
-                  "name": "Hoàng Sao vs Daniel Macioł",
-                  "streams": [
-                    {
-                      "id": "st-efb08037fc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-efb08037fc",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8163/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Hoàng Sao",
-            "team_b": "Daniel Macioł",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790036662611_Daniel%20Macio%C5%82.png",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": false,
-            "time_sort": 1790069400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-efb08037fc_5b5c1a7b_20260922.png?v=5b5c1a7b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a62f43b44a",
-          "name": "Carlo Biado vs Khứa tóc dài | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a62f43b44a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a62f43b44a",
-                  "name": "Carlo Biado vs Khứa tóc dài",
-                  "streams": [
-                    {
-                      "id": "st-a62f43b44a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a62f43b44a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8165/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Carlo Biado",
-            "team_b": "Khứa tóc dài",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790038056522_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767841046741_Arseni%20Sevastyanov.jpg",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790069400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a62f43b44a_8d1b6a43_20260922.png?v=8d1b6a43",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-80f47fb986",
-          "name": "Johann Chua vs Emil André Gangfløt | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80f47fb986",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-80f47fb986",
-                  "name": "Johann Chua vs Emil André Gangfløt",
-                  "streams": [
-                    {
-                      "id": "st-80f47fb986",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80f47fb986",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8159/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Johann Chua",
-            "team_b": "Emil André Gangfløt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790034282646_JOHANN%20CHUA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790034305226_Emil%20Andr%C3%A9%20Gangfl%C3%B8t.png",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790069400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-80f47fb986_58829be8_20260922.png?v=58829be8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-83fdd64a7c",
-          "name": "Irsal Afrineza Nasution vs Shane Van Boening | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-83fdd64a7c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-83fdd64a7c",
-                  "name": "Irsal Afrineza Nasution vs Shane Van Boening",
-                  "streams": [
-                    {
-                      "id": "st-83fdd64a7c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-83fdd64a7c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8160/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Irsal Afrineza Nasution",
-            "team_b": "Shane Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790034564722_Shane%20Van%20Boening.jpg",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790069400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-83fdd64a7c_fc7cbf8e_20260922.png?v=fc7cbf8e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4f12b530ff",
-          "name": "Albert Januarta vs Jakub Koniar | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4f12b530ff",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4f12b530ff",
-                  "name": "Albert Januarta vs Jakub Koniar",
-                  "streams": [
-                    {
-                      "id": "st-4f12b530ff",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f12b530ff",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8162/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Albert Januarta",
-            "team_b": "Jakub Koniar",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790035474684_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790035472328_Jakub%20Koniar.jpg",
-            "time": "16:30:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790069400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4f12b530ff_5af93bba_20260922.png?v=5af93bba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3e0f63dd6a",
-          "name": "Tạ Phương Nam vs Ralf Souquet | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3e0f63dd6a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3e0f63dd6a",
-                  "name": "Tạ Phương Nam vs Ralf Souquet",
-                  "streams": [
-                    {
-                      "id": "st-3e0f63dd6a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3e0f63dd6a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8164/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Tạ Phương Nam",
+            "league": "vn",
+            "team_a": "Phương Nam Phạm",
             "team_b": "Ralf Souquet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790037525751_Ralf%20Souquet.jpg",
-            "time": "16:30:00",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790067638140_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790067641285_6.jpg",
+            "time": "16:00:00",
             "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790069400,
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790067600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3e0f63dd6a_e7ae5468_20260922.png?v=e7ae5468",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-25365fff06_254cfd65_20260922.png?v=254cfd65",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-8c32965eff",
-          "name": "Liu SS / Hsieh CC vs Wang / Alcaide | 19:30 22/09",
+          "id": "chtv-8825cfc147",
+          "name": "Seo / Capito vs Oi N / Chien WT | 19:30 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -981,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-8c32965eff",
+              "id": "src-8825cfc147",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8c32965eff",
-                  "name": "Liu SS / Hsieh CC vs Wang / Alcaide",
+                  "id": "ct-8825cfc147",
+                  "name": "Seo / Capito vs Oi N / Chien WT",
                   "streams": [
                     {
-                      "id": "st-8c32965eff",
+                      "id": "st-8825cfc147",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8c32965eff",
+                          "id": "lnk-8825cfc147",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8170/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8168/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1017,11 +360,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Tứ kết 4 | Billiards Mixed Doubles Open",
-            "team_a": "Liu SS / Hsieh CC",
-            "team_b": "Wang / Alcaide",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790044319230_Liu%20Sha%20Sha.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790044333258_David%20Alcaide.jpg",
+            "league": "Tứ kết 2 | Billiards Mixed Doubles Open",
+            "team_a": "Seo / Capito",
+            "team_b": "Oi N / Chien WT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790043394558_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790043402719_NAOYUKI%20OI.jpg",
             "time": "19:30:00",
             "date": "22/09",
             "blv": "",
@@ -1033,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c32965eff_8293249a_20260922.png?v=8293249a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8825cfc147_e88081eb_20260922.png?v=e88081eb",
             "width": 1600,
             "height": 1200
           }
@@ -1112,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-8825cfc147",
-          "name": "Seo / Capito vs Oi N / Chien WT | 19:30 22/09",
+          "id": "chtv-8c32965eff",
+          "name": "Liu SS / Hsieh CC vs Wang / Alcaide | 19:30 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1127,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-8825cfc147",
+              "id": "src-8c32965eff",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8825cfc147",
-                  "name": "Seo / Capito vs Oi N / Chien WT",
+                  "id": "ct-8c32965eff",
+                  "name": "Liu SS / Hsieh CC vs Wang / Alcaide",
                   "streams": [
                     {
-                      "id": "st-8825cfc147",
+                      "id": "st-8c32965eff",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8825cfc147",
+                          "id": "lnk-8c32965eff",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8168/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8170/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1163,11 +506,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Tứ kết 2 | Billiards Mixed Doubles Open",
-            "team_a": "Seo / Capito",
-            "team_b": "Oi N / Chien WT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790043394558_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790043402719_NAOYUKI%20OI.jpg",
+            "league": "Tứ kết 4 | Billiards Mixed Doubles Open",
+            "team_a": "Liu SS / Hsieh CC",
+            "team_b": "Wang / Alcaide",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790044319230_Liu%20Sha%20Sha.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790044333258_David%20Alcaide.jpg",
             "time": "19:30:00",
             "date": "22/09",
             "blv": "",
@@ -1179,7 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8825cfc147_e88081eb_20260922.png?v=e88081eb",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c32965eff_8293249a_20260922.png?v=8293249a",
             "width": 1600,
             "height": 1200
           }
