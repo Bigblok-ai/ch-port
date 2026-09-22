@@ -528,79 +528,6 @@
           }
         },
         {
-          "id": "chtv-8825cfc147",
-          "name": "Seo / Capito vs Oi N / Chien WT | 19:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8825cfc147",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8825cfc147",
-                  "name": "Seo / Capito vs Oi N / Chien WT",
-                  "streams": [
-                    {
-                      "id": "st-8825cfc147",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8825cfc147",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8168/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ kết 2 | Billiards Mixed Doubles Open",
-            "team_a": "Seo / Capito",
-            "team_b": "Oi N / Chien WT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790043394558_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790043402719_NAOYUKI%20OI.jpg",
-            "time": "19:30:00",
-            "date": "22/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790080200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8825cfc147_e88081eb_20260922.png?v=e88081eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-143a631ab6",
           "name": "Han Yu / Wu KL vs Chou / Gorst | 19:30 22/09",
           "type": "single",
@@ -747,7 +674,80 @@
           }
         },
         {
-          "id": "chtv-459c9cd65e",
+          "id": "chtv-8825cfc147",
+          "name": "Seo / Capito vs Oi N / Chien WT | 19:30 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8825cfc147",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8825cfc147",
+                  "name": "Seo / Capito vs Oi N / Chien WT",
+                  "streams": [
+                    {
+                      "id": "st-8825cfc147",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8825cfc147",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8168/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ kết 2 | Billiards Mixed Doubles Open",
+            "team_a": "Seo / Capito",
+            "team_b": "Oi N / Chien WT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790043394558_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790043402719_NAOYUKI%20OI.jpg",
+            "time": "19:30:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790080200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8825cfc147_e88081eb_20260922.png?v=e88081eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-87462e51bf",
           "name": "Văn Sinh vs Tiến Minh | 20:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -762,23 +762,23 @@
           ],
           "sources": [
             {
-              "id": "src-459c9cd65e",
+              "id": "src-87462e51bf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-459c9cd65e",
+                  "id": "ct-87462e51bf",
                   "name": "Văn Sinh vs Tiến Minh",
                   "streams": [
                     {
-                      "id": "st-459c9cd65e",
+                      "id": "st-87462e51bf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-459c9cd65e",
+                          "id": "lnk-87462e51bf",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8180/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8182/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -801,8 +801,8 @@
             "league": "CHOANGTV",
             "team_a": "Văn Sinh",
             "team_b": "Tiến Minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790074583724_Screenshot%202026-09-22%20175524.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790074583454_Screenshot%202026-09-22%20175559.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790074705626_Screenshot%202026-09-22%20175524.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790074704847_Screenshot%202026-09-22%20175559.png",
             "time": "20:00:00",
             "date": "22/09",
             "blv": "",
@@ -814,7 +814,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-459c9cd65e_f477efbc_20260922.png?v=f477efbc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-87462e51bf_99c59ef8_20260922.png?v=99c59ef8",
             "width": 1600,
             "height": 1200
           }
