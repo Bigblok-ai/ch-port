@@ -818,6 +818,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-924c1fa0ed",
+          "name": "Niels Feijen vs Albin Ouschan | 14:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-924c1fa0ed",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-924c1fa0ed",
+                  "name": "Niels Feijen vs Albin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-924c1fa0ed",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-924c1fa0ed",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8151/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 | WPA Men’s 10-Ball World Championship (nhánh thắng)",
+            "team_a": "Niels Feijen",
+            "team_b": "Albin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790032436434_Niels%20Feijen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790032443007_Albin%20Ouschan.jpg",
+            "time": "14:00:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790060400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-924c1fa0ed_cc9622d5_20260922.png?v=cc9622d5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
