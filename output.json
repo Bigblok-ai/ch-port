@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-98accdf54e",
-          "name": "Đặng Thành Kiên vs ZHOU Chuandong | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98accdf54e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-98accdf54e",
-                  "name": "Đặng Thành Kiên vs ZHOU Chuandong",
-                  "streams": [
-                    {
-                      "id": "st-98accdf54e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-98accdf54e",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8179/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "choangtv",
-            "team_a": "Đặng Thành Kiên",
-            "team_b": "ZHOU Chuandong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790074197592_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790074197442_china.png",
-            "time": "00:00:00",
-            "date": "22/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1790010000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-98accdf54e_3953d4f9_20260922.png?v=3953d4f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-25365fff06",
           "name": "Phương Nam Phạm vs Ralf Souquet | Kèn Kèn",
