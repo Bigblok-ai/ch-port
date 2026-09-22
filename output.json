@@ -745,6 +745,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-459c9cd65e",
+          "name": "Văn Sinh vs Tiến Minh | 20:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-459c9cd65e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-459c9cd65e",
+                  "name": "Văn Sinh vs Tiến Minh",
+                  "streams": [
+                    {
+                      "id": "st-459c9cd65e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-459c9cd65e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8180/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOANGTV",
+            "team_a": "Văn Sinh",
+            "team_b": "Tiến Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790074583724_Screenshot%202026-09-22%20175524.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790074583454_Screenshot%202026-09-22%20175559.png",
+            "time": "20:00:00",
+            "date": "22/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790082000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-459c9cd65e_f477efbc_20260922.png?v=f477efbc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
