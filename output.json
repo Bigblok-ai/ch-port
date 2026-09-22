@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -382,6 +382,79 @@
           }
         },
         {
+          "id": "chtv-a62f43b44a",
+          "name": "Carlo Biado vs Khứa tóc dài | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a62f43b44a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a62f43b44a",
+                  "name": "Carlo Biado vs Khứa tóc dài",
+                  "streams": [
+                    {
+                      "id": "st-a62f43b44a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a62f43b44a",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8165/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Carlo Biado",
+            "team_b": "Khứa tóc dài",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790038056522_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767841046741_Arseni%20Sevastyanov.jpg",
+            "time": "16:30:00",
+            "date": "22/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790069400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a62f43b44a_8d1b6a43_20260922.png?v=8d1b6a43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-efb08037fc",
           "name": "Hoàng Sao vs Daniel Macioł | GIÀNG A PHỌ",
           "type": "single",
@@ -450,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-efb08037fc_5b5c1a7b_20260922.png?v=5b5c1a7b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-83fdd64a7c",
+          "name": "Irsal Afrineza Nasution vs Shane Van Boening | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83fdd64a7c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-83fdd64a7c",
+                  "name": "Irsal Afrineza Nasution vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-83fdd64a7c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83fdd64a7c",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8160/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Irsal Afrineza Nasution",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790034564722_Shane%20Van%20Boening.jpg",
+            "time": "16:30:00",
+            "date": "22/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790069400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-83fdd64a7c_fc7cbf8e_20260922.png?v=fc7cbf8e",
             "width": 1600,
             "height": 1200
           }
