@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-afcc5b13e2",
-          "name": "Margarita Fefilova vs Kelly Fisher | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afcc5b13e2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-afcc5b13e2",
-                  "name": "Margarita Fefilova vs Kelly Fisher",
-                  "streams": [
-                    {
-                      "id": "st-afcc5b13e2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afcc5b13e2",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8205/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Margarita Fefilova",
-            "team_b": "Kelly Fisher",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134514053_Margarita%20Fefilova.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134510689_Kelly%20Fisher.jpg",
-            "time": "14:00:00",
-            "date": "23/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afcc5b13e2_3c5cffa3_20260923.png?v=3c5cffa3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-656399c283",
           "name": "Pia Filler vs Chihiro Kawahara | Bỉm Sữa",
@@ -163,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-afcc5b13e2",
+          "name": "Margarita Fefilova vs Kelly Fisher | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afcc5b13e2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-afcc5b13e2",
+                  "name": "Margarita Fefilova vs Kelly Fisher",
+                  "streams": [
+                    {
+                      "id": "st-afcc5b13e2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afcc5b13e2",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8205/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Margarita Fefilova",
+            "team_b": "Kelly Fisher",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134514053_Margarita%20Fefilova.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134510689_Kelly%20Fisher.jpg",
+            "time": "14:00:00",
+            "date": "23/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afcc5b13e2_3c5cffa3_20260923.png?v=3c5cffa3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-0a128be975",
           "name": "Han Yu / Wu KL vs Liu SS / Hsieh CC | BÚN CHÓ",
           "type": "single",
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a128be975_26bdafe7_20260923.png?v=26bdafe7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f3e358cfb7",
+          "name": "Lu / Yapp vs Seo / Capito | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3e358cfb7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f3e358cfb7",
+                  "name": "Lu / Yapp vs Seo / Capito",
+                  "streams": [
+                    {
+                      "id": "st-f3e358cfb7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3e358cfb7",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8210/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bán kết 1 | Billiards Mixed Doubles Open",
+            "team_a": "Lu / Yapp",
+            "team_b": "Seo / Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134850997_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134856117_SEO%20SEOA.jpg",
+            "time": "23:00:00",
+            "date": "23/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1790179200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f3e358cfb7_71e83dac_20260923.png?v=71e83dac",
             "width": 1600,
             "height": 1200
           }
