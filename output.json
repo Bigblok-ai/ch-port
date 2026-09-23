@@ -17,6 +17,79 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-8cb8929f9f",
+          "name": "AJ MANAS vs AIVHAN MALUTO | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8cb8929f9f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8cb8929f9f",
+                  "name": "AJ MANAS vs AIVHAN MALUTO",
+                  "streams": [
+                    {
+                      "id": "st-8cb8929f9f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cb8929f9f",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8220/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "AJ MANAS",
+            "team_b": "AIVHAN MALUTO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790181710589_AJ%20MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790181713572_AIVHAN%20MALUTO.jpg",
+            "time": "00:00:00",
+            "date": "23/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790096400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8cb8929f9f_d2878898_20260923.png?v=d2878898",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-4fdd6b8196",
           "name": "JAYBEE SUCAL vs ALLAN 8/10 | Kèn Kèn",
           "type": "single",
@@ -85,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4fdd6b8196_7cf8d19a_20260923.png?v=7cf8d19a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8cb8929f9f",
-          "name": "AJ MANAS vs AIVHAN MALUTO | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8cb8929f9f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8cb8929f9f",
-                  "name": "AJ MANAS vs AIVHAN MALUTO",
-                  "streams": [
-                    {
-                      "id": "st-8cb8929f9f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8cb8929f9f",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8220/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "AJ MANAS",
-            "team_b": "AIVHAN MALUTO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790176102901_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790176102617_phil.png",
-            "time": "00:00:00",
-            "date": "23/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790096400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8cb8929f9f_99100cdb_20260923.png?v=99100cdb",
             "width": 1600,
             "height": 1200
           }
