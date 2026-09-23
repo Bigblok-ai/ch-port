@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,152 +236,6 @@
           }
         },
         {
-          "id": "chtv-f9eba4d46b",
-          "name": "Moritz Neuhausen vs Mario He | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9eba4d46b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f9eba4d46b",
-                  "name": "Moritz Neuhausen vs Mario He",
-                  "streams": [
-                    {
-                      "id": "st-f9eba4d46b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f9eba4d46b",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8202/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥",
-            "team_a": "Moritz Neuhausen",
-            "team_b": "Mario He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790119670564_Moritz%20Neuhausen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790119673766_Mario%20He.jpg",
-            "time": "12:01:00",
-            "date": "23/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790139660,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9eba4d46b_685b2409_20260923.png?v=685b2409",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d07934b0c3",
-          "name": "Carlo Biado vs Mi Le | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d07934b0c3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d07934b0c3",
-                  "name": "Carlo Biado vs Mi Le",
-                  "streams": [
-                    {
-                      "id": "st-d07934b0c3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d07934b0c3",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8200/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥",
-            "team_a": "Carlo Biado",
-            "team_b": "Mi Le",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790119469693_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790119473922_Mi%20Le.png",
-            "time": "12:01:00",
-            "date": "23/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1790139660,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d07934b0c3_34a6163f_20260923.png?v=34a6163f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-79ffdadde8",
           "name": "Johann Chua vs Luca Menn | SÊ KÔÔ",
           "type": "single",
@@ -450,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79ffdadde8_2480884d_20260923.png?v=2480884d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f9eba4d46b",
+          "name": "Moritz Neuhausen vs Mario He | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9eba4d46b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f9eba4d46b",
+                  "name": "Moritz Neuhausen vs Mario He",
+                  "streams": [
+                    {
+                      "id": "st-f9eba4d46b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9eba4d46b",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8202/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥",
+            "team_a": "Moritz Neuhausen",
+            "team_b": "Mario He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790119670564_Moritz%20Neuhausen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790119673766_Mario%20He.jpg",
+            "time": "12:01:00",
+            "date": "23/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790139660,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9eba4d46b_685b2409_20260923.png?v=685b2409",
             "width": 1600,
             "height": 1200
           }
