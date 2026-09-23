@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-79ffdadde8",
-          "name": "Johann Chua vs Luca Menn | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79ffdadde8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-79ffdadde8",
-                  "name": "Johann Chua vs Luca Menn",
-                  "streams": [
-                    {
-                      "id": "st-79ffdadde8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79ffdadde8",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8201/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥",
-            "team_a": "Johann Chua",
-            "team_b": "Luca Menn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790119581121_JOHANN%20CHUA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790119612740_Luca%20Menn.jpg",
-            "time": "12:01:00",
-            "date": "23/09",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1790139660,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79ffdadde8_2480884d_20260923.png?v=2480884d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-233b5d54ce",
           "name": "Chia Hua Chen vs Seo Seoa | Đại Kê",
           "type": "single",
@@ -377,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-233b5d54ce_8232a0d7_20260923.png?v=8232a0d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e3594fe44c",
+          "name": "Chezka Centeno vs Jasmin Ouschan | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e3594fe44c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e3594fe44c",
+                  "name": "Chezka Centeno vs Jasmin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-e3594fe44c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3594fe44c",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8203/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Chezka Centeno",
+            "team_b": "Jasmin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134382451_Chezka%20Centeno.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134387909_Jasmin%20Ouschan.jpg",
+            "time": "14:00:00",
+            "date": "23/09",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3594fe44c_0271f54b_20260923.png?v=0271f54b",
             "width": 1600,
             "height": 1200
           }
@@ -455,38 +455,38 @@
           }
         },
         {
-          "id": "chtv-739546f701",
-          "name": "Lu / Yapp vs Seo / Capito | 16:30 23/09 | BÚN CHÓ",
+          "id": "chtv-a6d6a0d86c",
+          "name": "Shi Tianqi vs Harin Lee | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-739546f701",
+              "id": "src-a6d6a0d86c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-739546f701",
-                  "name": "Lu / Yapp vs Seo / Capito",
+                  "id": "ct-a6d6a0d86c",
+                  "name": "Shi Tianqi vs Harin Lee",
                   "streams": [
                     {
-                      "id": "st-739546f701",
+                      "id": "st-a6d6a0d86c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-739546f701",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-a6d6a0d86c",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8209/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8208/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -506,23 +506,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Bán kết 1 | Billiards Mixed Doubles Open",
-            "team_a": "Lu / Yapp",
-            "team_b": "Seo / Capito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134766462_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134779873_SEO%20SEOA.jpg",
-            "time": "16:30:00",
+            "league": "SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Shi Tianqi",
+            "team_b": "Harin Lee",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134677635_SHI%20Tianqi.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134680949_Harin%20Lee.jpg",
+            "time": "14:00:00",
             "date": "23/09",
-            "blv": "BÚN CHÓ",
-            "is_live": false,
-            "time_sort": 1790155800,
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790146800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-739546f701_6c9ff2b6_20260923.png?v=6c9ff2b6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6d6a0d86c_e7b5474e_20260923.png?v=e7b5474e",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a128be975_26bdafe7_20260923.png?v=26bdafe7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-739546f701",
+          "name": "Lu / Yapp vs Seo / Capito | 16:30 23/09 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-739546f701",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-739546f701",
+                  "name": "Lu / Yapp vs Seo / Capito",
+                  "streams": [
+                    {
+                      "id": "st-739546f701",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-739546f701",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8209/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bán kết 1 | Billiards Mixed Doubles Open",
+            "team_a": "Lu / Yapp",
+            "team_b": "Seo / Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134766462_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134779873_SEO%20SEOA.jpg",
+            "time": "16:30:00",
+            "date": "23/09",
+            "blv": "BÚN CHÓ",
+            "is_live": false,
+            "time_sort": 1790155800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-739546f701_6c9ff2b6_20260923.png?v=6c9ff2b6",
             "width": 1600,
             "height": 1200
           }
