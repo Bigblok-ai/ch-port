@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-9c1050159d",
-          "name": "Andri Januarta vs đối | BÚN CHÓ",
+          "id": "chtv-4a573bcc2b",
+          "name": "Kelly Fisher vs Han Yu | 10:00 24/09 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-9c1050159d",
+              "id": "src-4a573bcc2b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9c1050159d",
-                  "name": "Andri Januarta vs đối",
+                  "id": "ct-4a573bcc2b",
+                  "name": "Kelly Fisher vs Han Yu",
                   "streams": [
                     {
-                      "id": "st-9c1050159d",
+                      "id": "st-4a573bcc2b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9c1050159d",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-4a573bcc2b",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8225/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8226/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,96 @@
             }
           ],
           "org_metadata": {
-            "league": "( -_•)▄︻━一💥",
-            "team_a": "Andri Januarta",
-            "team_b": "đối",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790192120044_Andri%20Januarta.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "00:00:00",
+            "league": "TV1 ( -_•)▄︻━一💥 Losers qualification",
+            "team_a": "Kelly Fisher",
+            "team_b": "Han Yu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790206304047_Kelly%20Fisher.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790206301401_Han%20Yu.jpg",
+            "time": "10:00:00",
             "date": "24/09",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "time_sort": 1790182800,
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1790218800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c1050159d_ef1e03a6_20260924.png?v=ef1e03a6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4a573bcc2b_5176f77d_20260924.png?v=5176f77d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-11cd8c6bf9",
+          "name": "Gao Meng vs Kristina Tkach | 10:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11cd8c6bf9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-11cd8c6bf9",
+                  "name": "Gao Meng vs Kristina Tkach",
+                  "streams": [
+                    {
+                      "id": "st-11cd8c6bf9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11cd8c6bf9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8227/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ( -_•)▄︻━一💥 Losers qualification",
+            "team_a": "Gao Meng",
+            "team_b": "Kristina Tkach",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767593384244_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790206382415_Kristina%20Tkach.jpg",
+            "time": "10:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790218800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11cd8c6bf9_f09d552e_20260924.png?v=f09d552e",
             "width": 1600,
             "height": 1200
           }
