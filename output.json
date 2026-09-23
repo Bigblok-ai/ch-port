@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-e3594fe44c",
+          "name": "Chezka Centeno vs Jasmin Ouschan | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e3594fe44c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e3594fe44c",
+                  "name": "Chezka Centeno vs Jasmin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-e3594fe44c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3594fe44c",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8203/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Chezka Centeno",
+            "team_b": "Jasmin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134382451_Chezka%20Centeno.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134387909_Jasmin%20Ouschan.jpg",
+            "time": "14:00:00",
+            "date": "23/09",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3594fe44c_0271f54b_20260923.png?v=0271f54b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a6d6a0d86c",
           "name": "Shi Tianqi vs Harin Lee | SÊ KÔÔ",
           "type": "single",
@@ -304,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e3594fe44c",
-          "name": "Chezka Centeno vs Jasmin Ouschan | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e3594fe44c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e3594fe44c",
-                  "name": "Chezka Centeno vs Jasmin Ouschan",
-                  "streams": [
-                    {
-                      "id": "st-e3594fe44c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3594fe44c",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8203/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Chezka Centeno",
-            "team_b": "Jasmin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134382451_Chezka%20Centeno.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134387909_Jasmin%20Ouschan.jpg",
-            "time": "14:00:00",
-            "date": "23/09",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3594fe44c_0271f54b_20260923.png?v=0271f54b",
             "width": 1600,
             "height": 1200
           }
