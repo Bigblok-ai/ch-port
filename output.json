@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,17 +163,90 @@
           }
         },
         {
-          "id": "chtv-d07934b0c3",
-          "name": "Carlo Biado vs Mi Le | 12:01 23/09 | Đại Kê",
+          "id": "chtv-4b1ca56415",
+          "name": "David Alcaide vs Albin Ouschan | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b1ca56415",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4b1ca56415",
+                  "name": "David Alcaide vs Albin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-4b1ca56415",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b1ca56415",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8198/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "David Alcaide",
+            "team_b": "Albin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790119205572_David%20Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790119209580_Albin%20Ouschan.jpg",
+            "time": "12:00:00",
+            "date": "23/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790139600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b1ca56415_00e83957_20260923.png?v=00e83957",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d07934b0c3",
+          "name": "Carlo Biado vs Mi Le | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +295,7 @@
             "time": "12:01:00",
             "date": "23/09",
             "blv": "Đại Kê",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1790139660,
             "cate_type": "billiards"
           },
@@ -237,16 +310,16 @@
         },
         {
           "id": "chtv-f9eba4d46b",
-          "name": "Moritz Neuhausen vs Mario He | 12:01 23/09 | Kèn Kèn",
+          "name": "Moritz Neuhausen vs Mario He | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +368,7 @@
             "time": "12:01:00",
             "date": "23/09",
             "blv": "Kèn Kèn",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1790139660,
             "cate_type": "billiards"
           },
@@ -304,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9eba4d46b_685b2409_20260923.png?v=685b2409",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-79ffdadde8",
+          "name": "Johann Chua vs Luca Menn | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79ffdadde8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-79ffdadde8",
+                  "name": "Johann Chua vs Luca Menn",
+                  "streams": [
+                    {
+                      "id": "st-79ffdadde8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-79ffdadde8",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8201/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥",
+            "team_a": "Johann Chua",
+            "team_b": "Luca Menn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790119581121_JOHANN%20CHUA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790119612740_Luca%20Menn.jpg",
+            "time": "12:01:00",
+            "date": "23/09",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790139660,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79ffdadde8_2480884d_20260923.png?v=2480884d",
             "width": 1600,
             "height": 1200
           }
@@ -382,79 +528,6 @@
           }
         },
         {
-          "id": "chtv-656399c283",
-          "name": "Pia Filler vs Chihiro Kawahara | 14:00 23/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-656399c283",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-656399c283",
-                  "name": "Pia Filler vs Chihiro Kawahara",
-                  "streams": [
-                    {
-                      "id": "st-656399c283",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-656399c283",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8206/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Pia Filler",
-            "team_b": "Chihiro Kawahara",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134572885_Pia%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134576572_CHIHIRO%20KAWAHARA.jpg",
-            "time": "14:00:00",
-            "date": "23/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a6d6a0d86c",
           "name": "Shi Tianqi vs Harin Lee | 14:00 23/09 | SÊ KÔÔ",
           "type": "single",
@@ -523,79 +596,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6d6a0d86c_e7b5474e_20260923.png?v=e7b5474e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ef025e55e8",
-          "name": "Kristina Tkach vs Rubilen Amit | 14:00 23/09 | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef025e55e8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef025e55e8",
-                  "name": "Kristina Tkach vs Rubilen Amit",
-                  "streams": [
-                    {
-                      "id": "st-ef025e55e8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef025e55e8",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8204/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Kristina Tkach",
-            "team_b": "Rubilen Amit",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134457205_Kristina%20Tkach.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134460133_Rubilen%20Amit.jpg",
-            "time": "14:00:00",
-            "date": "23/09",
-            "blv": "Tào A Man",
-            "is_live": false,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ef025e55e8_548c6b06_20260923.png?v=548c6b06",
             "width": 1600,
             "height": 1200
           }
@@ -747,8 +747,8 @@
           }
         },
         {
-          "id": "chtv-0a128be975",
-          "name": "Han Yu / Wu KL vs Liu SS / Hsieh CC | 16:30 23/09",
+          "id": "chtv-656399c283",
+          "name": "Pia Filler vs Chihiro Kawahara | 14:00 23/09 | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -762,23 +762,23 @@
           ],
           "sources": [
             {
-              "id": "src-0a128be975",
+              "id": "src-656399c283",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0a128be975",
-                  "name": "Han Yu / Wu KL vs Liu SS / Hsieh CC",
+                  "id": "ct-656399c283",
+                  "name": "Pia Filler vs Chihiro Kawahara",
                   "streams": [
                     {
-                      "id": "st-0a128be975",
+                      "id": "st-656399c283",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0a128be975",
-                          "name": "Stream",
+                          "id": "lnk-656399c283",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8211/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8206/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -798,23 +798,96 @@
             }
           ],
           "org_metadata": {
-            "league": "Bán kết 2 | Billiards Mixed Doubles Open",
-            "team_a": "Han Yu / Wu KL",
-            "team_b": "Liu SS / Hsieh CC",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134905293_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134910705_Liu%20Sha%20Sha.jpg",
-            "time": "16:30:00",
+            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Pia Filler",
+            "team_b": "Chihiro Kawahara",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134572885_Pia%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134576572_CHIHIRO%20KAWAHARA.jpg",
+            "time": "14:00:00",
             "date": "23/09",
-            "blv": "",
+            "blv": "Bỉm Sữa",
             "is_live": false,
-            "time_sort": 1790155800,
+            "time_sort": 1790146800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a128be975_26bdafe7_20260923.png?v=26bdafe7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ef025e55e8",
+          "name": "Kristina Tkach vs Rubilen Amit | 14:00 23/09 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef025e55e8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ef025e55e8",
+                  "name": "Kristina Tkach vs Rubilen Amit",
+                  "streams": [
+                    {
+                      "id": "st-ef025e55e8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef025e55e8",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8204/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Kristina Tkach",
+            "team_b": "Rubilen Amit",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134457205_Kristina%20Tkach.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134460133_Rubilen%20Amit.jpg",
+            "time": "14:00:00",
+            "date": "23/09",
+            "blv": "Tào A Man",
+            "is_live": false,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ef025e55e8_548c6b06_20260923.png?v=548c6b06",
             "width": 1600,
             "height": 1200
           }
@@ -888,6 +961,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-739546f701_6c9ff2b6_20260923.png?v=6c9ff2b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0a128be975",
+          "name": "Han Yu / Wu KL vs Liu SS / Hsieh CC | 16:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a128be975",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0a128be975",
+                  "name": "Han Yu / Wu KL vs Liu SS / Hsieh CC",
+                  "streams": [
+                    {
+                      "id": "st-0a128be975",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a128be975",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8211/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bán kết 2 | Billiards Mixed Doubles Open",
+            "team_a": "Han Yu / Wu KL",
+            "team_b": "Liu SS / Hsieh CC",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134905293_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134910705_Liu%20Sha%20Sha.jpg",
+            "time": "16:30:00",
+            "date": "23/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790155800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a128be975_26bdafe7_20260923.png?v=26bdafe7",
             "width": 1600,
             "height": 1200
           }
