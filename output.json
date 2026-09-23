@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-115045f080",
-          "name": "Wan-Ling Wang vs Gao Meng | Bỉm Sữa",
+          "id": "chtv-7929bf2a33",
+          "name": "Kennedy Meyman vs Tzu-Chien Wei | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-115045f080",
+              "id": "src-7929bf2a33",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-115045f080",
-                  "name": "Wan-Ling Wang vs Gao Meng",
+                  "id": "ct-7929bf2a33",
+                  "name": "Kennedy Meyman vs Tzu-Chien Wei",
                   "streams": [
                     {
-                      "id": "st-115045f080",
+                      "id": "st-7929bf2a33",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-115045f080",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-7929bf2a33",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8195/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8194/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Wan-Ling Wang",
-            "team_b": "Gao Meng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790118720297_Wan-Ling%20Wang.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
+            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Kennedy Meyman",
+            "team_b": "Tzu-Chien Wei",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790118552835_Kennedy%20Meyman.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790118525692_Tzu-Chien%20Wei.jpg",
             "time": "10:00:00",
             "date": "23/09",
-            "blv": "Bỉm Sữa",
+            "blv": "Lee Min Hoo",
             "is_live": true,
             "time_sort": 1790132400,
             "cate_type": "billiards"
@@ -84,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-115045f080_f0d90b93_20260923.png?v=f0d90b93",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7929bf2a33_a29ffed4_20260923.png?v=a29ffed4",
             "width": 1600,
             "height": 1200
           }
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-115045f080",
+          "name": "Wan-Ling Wang vs Gao Meng | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-115045f080",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-115045f080",
+                  "name": "Wan-Ling Wang vs Gao Meng",
+                  "streams": [
+                    {
+                      "id": "st-115045f080",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-115045f080",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8195/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Wan-Ling Wang",
+            "team_b": "Gao Meng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790118720297_Wan-Ling%20Wang.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
+            "time": "10:00:00",
+            "date": "23/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790132400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-115045f080_f0d90b93_20260923.png?v=f0d90b93",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-39013956c6",
           "name": "Dương Quốc Hoàng vs Eklent Kaçi | 12:00 23/09",
           "type": "single",
@@ -231,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-39013956c6_d1ed7c8d_20260923.png?v=d1ed7c8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e60105e20e",
+          "name": "Shane Van Boening vs Casper Matikainen | 12:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e60105e20e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e60105e20e",
+                  "name": "Shane Van Boening vs Casper Matikainen",
+                  "streams": [
+                    {
+                      "id": "st-e60105e20e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e60105e20e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8197/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Shane Van Boening",
+            "team_b": "Casper Matikainen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790119095278_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790119098208_Casper%20Matikainen.jpg",
+            "time": "12:00:00",
+            "date": "23/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790139600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e60105e20e_45ab5db9_20260923.png?v=45ab5db9",
             "width": 1600,
             "height": 1200
           }
@@ -377,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0aa2f3d866_3a107575_20260923.png?v=3a107575",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e60105e20e",
-          "name": "Shane Van Boening vs Casper Matikainen | 12:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e60105e20e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e60105e20e",
-                  "name": "Shane Van Boening vs Casper Matikainen",
-                  "streams": [
-                    {
-                      "id": "st-e60105e20e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e60105e20e",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8197/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Shane Van Boening",
-            "team_b": "Casper Matikainen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790119095278_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790119098208_Casper%20Matikainen.jpg",
-            "time": "12:00:00",
-            "date": "23/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790139600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e60105e20e_45ab5db9_20260923.png?v=45ab5db9",
             "width": 1600,
             "height": 1200
           }
