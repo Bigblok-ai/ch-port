@@ -17,6 +17,79 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-4fdd6b8196",
+          "name": "JAYVEE SUCAL vs ALLAN 8/10 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4fdd6b8196",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4fdd6b8196",
+                  "name": "JAYVEE SUCAL vs ALLAN 8/10",
+                  "streams": [
+                    {
+                      "id": "st-4fdd6b8196",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fdd6b8196",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8222/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JAYVEE SUCAL",
+            "team_b": "ALLAN 8/10",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790177872946_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790177872719_phil.png",
+            "time": "00:00:00",
+            "date": "23/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790096400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4fdd6b8196_7cf8d19a_20260923.png?v=7cf8d19a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-8cb8929f9f",
           "name": "AJ MANAS vs AIVHAN MALUTO | Thập Cẩm",
           "type": "single",
@@ -158,152 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-290a07ecfe_a094566c_20260923.png?v=a094566c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ce37f38202",
-          "name": "Lu / Yapp vs Liu SS / Hsieh CC | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce37f38202",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ce37f38202",
-                  "name": "Lu / Yapp vs Liu SS / Hsieh CC",
-                  "streams": [
-                    {
-                      "id": "st-ce37f38202",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce37f38202",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8217/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chung kết | Billiards Mixed Doubles Open",
-            "team_a": "Lu / Yapp",
-            "team_b": "Liu SS / Hsieh CC",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790167169925_Screenshot%202026-09-23%20193750.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790167511587_Screenshot%202026-09-23%20194450.png",
-            "time": "19:30:00",
-            "date": "23/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1790166600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce37f38202_95596847_20260923.png?v=95596847",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a9bca5e4f2",
-          "name": "Chắc chắn vào Last 16 vs E là đau khổ | 23:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9bca5e4f2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a9bca5e4f2",
-                  "name": "Chắc chắn vào Last 16 vs E là đau khổ",
-                  "streams": [
-                    {
-                      "id": "st-a9bca5e4f2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a9bca5e4f2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7469/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Vô địch Thế giới 10-Ball 2026 hay không",
-            "team_a": "Chắc chắn vào Last 16",
-            "team_b": "E là đau khổ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1776921989502_KO.jpg",
-            "time": "23:00:00",
-            "date": "23/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790179200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a9bca5e4f2_2410757e_20260923.png?v=2410757e",
             "width": 1600,
             "height": 1200
           }
