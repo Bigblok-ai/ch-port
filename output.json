@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a6d6a0d86c",
-          "name": "Shi Tianqi vs Harin Lee | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6d6a0d86c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a6d6a0d86c",
-                  "name": "Shi Tianqi vs Harin Lee",
-                  "streams": [
-                    {
-                      "id": "st-a6d6a0d86c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6d6a0d86c",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8208/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Shi Tianqi",
-            "team_b": "Harin Lee",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134677635_SHI%20Tianqi.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134680949_Harin%20Lee.jpg",
-            "time": "14:00:00",
-            "date": "23/09",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6d6a0d86c_e7b5474e_20260923.png?v=e7b5474e",
             "width": 1600,
             "height": 1200
           }
