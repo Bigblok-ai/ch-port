@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-f9eba4d46b",
+          "name": "Moritz Neuhausen vs Mario He | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9eba4d46b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f9eba4d46b",
+                  "name": "Moritz Neuhausen vs Mario He",
+                  "streams": [
+                    {
+                      "id": "st-f9eba4d46b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9eba4d46b",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8202/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥",
+            "team_a": "Moritz Neuhausen",
+            "team_b": "Mario He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790119670564_Moritz%20Neuhausen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790119673766_Mario%20He.jpg",
+            "time": "12:01:00",
+            "date": "23/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790139660,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9eba4d46b_685b2409_20260923.png?v=685b2409",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-79ffdadde8",
           "name": "Johann Chua vs Luca Menn | SÊ KÔÔ",
           "type": "single",
@@ -236,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-f9eba4d46b",
-          "name": "Moritz Neuhausen vs Mario He | Kèn Kèn",
+          "id": "chtv-233b5d54ce",
+          "name": "Chia Hua Chen vs Seo Seoa | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-f9eba4d46b",
+              "id": "src-233b5d54ce",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f9eba4d46b",
-                  "name": "Moritz Neuhausen vs Mario He",
+                  "id": "ct-233b5d54ce",
+                  "name": "Chia Hua Chen vs Seo Seoa",
                   "streams": [
                     {
-                      "id": "st-f9eba4d46b",
+                      "id": "st-233b5d54ce",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f9eba4d46b",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-233b5d54ce",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8202/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8207/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,23 +360,96 @@
             }
           ],
           "org_metadata": {
-            "league": "( -_•)▄︻━一💥",
-            "team_a": "Moritz Neuhausen",
-            "team_b": "Mario He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790119670564_Moritz%20Neuhausen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790119673766_Mario%20He.jpg",
-            "time": "12:01:00",
+            "league": "SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Chia Hua Chen",
+            "team_b": "Seo Seoa",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134614616_Chia%20Hua%20Chen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134622576_SEO%20SEOA.jpg",
+            "time": "14:00:00",
             "date": "23/09",
-            "blv": "Kèn Kèn",
+            "blv": "Đại Kê",
             "is_live": true,
-            "time_sort": 1790139660,
+            "time_sort": 1790146800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9eba4d46b_685b2409_20260923.png?v=685b2409",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-233b5d54ce_8232a0d7_20260923.png?v=8232a0d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-afcc5b13e2",
+          "name": "Margarita Fefilova vs Kelly Fisher | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afcc5b13e2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-afcc5b13e2",
+                  "name": "Margarita Fefilova vs Kelly Fisher",
+                  "streams": [
+                    {
+                      "id": "st-afcc5b13e2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afcc5b13e2",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8205/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Margarita Fefilova",
+            "team_b": "Kelly Fisher",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134514053_Margarita%20Fefilova.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134510689_Kelly%20Fisher.jpg",
+            "time": "14:00:00",
+            "date": "23/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afcc5b13e2_3c5cffa3_20260923.png?v=3c5cffa3",
             "width": 1600,
             "height": 1200
           }
