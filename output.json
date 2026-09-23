@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-656399c283",
-          "name": "Pia Filler vs Chihiro Kawahara | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-656399c283",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-656399c283",
-                  "name": "Pia Filler vs Chihiro Kawahara",
-                  "streams": [
-                    {
-                      "id": "st-656399c283",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-656399c283",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8206/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Pia Filler",
-            "team_b": "Chihiro Kawahara",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134572885_Pia%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134576572_CHIHIRO%20KAWAHARA.jpg",
-            "time": "14:00:00",
-            "date": "23/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-afcc5b13e2",
           "name": "Margarita Fefilova vs Kelly Fisher | Lee Min Hoo",
@@ -163,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-656399c283",
+          "name": "Pia Filler vs Chihiro Kawahara | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-656399c283",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-656399c283",
+                  "name": "Pia Filler vs Chihiro Kawahara",
+                  "streams": [
+                    {
+                      "id": "st-656399c283",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-656399c283",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8206/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Pia Filler",
+            "team_b": "Chihiro Kawahara",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134572885_Pia%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134576572_CHIHIRO%20KAWAHARA.jpg",
+            "time": "14:00:00",
+            "date": "23/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-0a128be975",
           "name": "Han Yu / Wu KL vs Liu SS / Hsieh CC | BÚN CHÓ",
           "type": "single",
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a128be975_26bdafe7_20260923.png?v=26bdafe7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-739546f701",
+          "name": "Lu / Yapp vs Seo / Capito | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-739546f701",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-739546f701",
+                  "name": "Lu / Yapp vs Seo / Capito",
+                  "streams": [
+                    {
+                      "id": "st-739546f701",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-739546f701",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8209/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bán kết 1 | Billiards Mixed Doubles Open",
+            "team_a": "Lu / Yapp",
+            "team_b": "Seo / Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134766462_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134779873_SEO%20SEOA.jpg",
+            "time": "16:30:00",
+            "date": "23/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790155800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-739546f701_6c9ff2b6_20260923.png?v=6c9ff2b6",
             "width": 1600,
             "height": 1200
           }
