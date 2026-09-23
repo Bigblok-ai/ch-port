@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-14e3ffc2c3",
-          "name": "Vogel vs Laszkowski | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14e3ffc2c3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-14e3ffc2c3",
-                  "name": "Vogel vs Laszkowski",
-                  "streams": [
-                    {
-                      "id": "st-14e3ffc2c3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14e3ffc2c3",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8214/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 2026 Iwan Simonis WPA Men’s 10-Ball World Championship",
-            "team_a": "Vogel",
-            "team_b": "Laszkowski",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790139234067_6.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790139236839_6.jpg",
-            "time": "11:54:00",
-            "date": "23/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790139240,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14e3ffc2c3_73445f86_20260923.png?v=73445f86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-39013956c6",
           "name": "Dương Quốc Hoàng vs Eklent Kaçi | BÚN CHÓ",
@@ -163,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-4b1ca56415",
-          "name": "David Alcaide vs Albin Ouschan | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b1ca56415",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4b1ca56415",
-                  "name": "David Alcaide vs Albin Ouschan",
-                  "streams": [
-                    {
-                      "id": "st-4b1ca56415",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b1ca56415",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8198/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "David Alcaide",
-            "team_b": "Albin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790119205572_David%20Alcaide.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790119209580_Albin%20Ouschan.jpg",
-            "time": "12:00:00",
-            "date": "23/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790139600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b1ca56415_00e83957_20260923.png?v=00e83957",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-0aa2f3d866",
           "name": "Aloysius Yapp vs Konrad Juszczyszyn | Bỉm Sữa",
           "type": "single",
@@ -304,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0aa2f3d866_3a107575_20260923.png?v=3a107575",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4b1ca56415",
+          "name": "David Alcaide vs Albin Ouschan | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b1ca56415",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4b1ca56415",
+                  "name": "David Alcaide vs Albin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-4b1ca56415",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b1ca56415",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8198/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "David Alcaide",
+            "team_b": "Albin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790119205572_David%20Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790119209580_Albin%20Ouschan.jpg",
+            "time": "12:00:00",
+            "date": "23/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790139600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b1ca56415_00e83957_20260923.png?v=00e83957",
             "width": 1600,
             "height": 1200
           }
@@ -601,6 +528,79 @@
           }
         },
         {
+          "id": "chtv-e3594fe44c",
+          "name": "Chezka Centeno vs Jasmin Ouschan | 14:00 23/09 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e3594fe44c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e3594fe44c",
+                  "name": "Chezka Centeno vs Jasmin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-e3594fe44c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3594fe44c",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8203/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Chezka Centeno",
+            "team_b": "Jasmin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134382451_Chezka%20Centeno.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134387909_Jasmin%20Ouschan.jpg",
+            "time": "14:00:00",
+            "date": "23/09",
+            "blv": "BÚN CHÓ",
+            "is_live": false,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3594fe44c_0271f54b_20260923.png?v=0271f54b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-afcc5b13e2",
           "name": "Margarita Fefilova vs Kelly Fisher | 14:00 23/09 | Lee Min Hoo",
           "type": "single",
@@ -747,152 +747,6 @@
           }
         },
         {
-          "id": "chtv-ef025e55e8",
-          "name": "Kristina Tkach vs Rubilen Amit | 14:00 23/09 | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef025e55e8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef025e55e8",
-                  "name": "Kristina Tkach vs Rubilen Amit",
-                  "streams": [
-                    {
-                      "id": "st-ef025e55e8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef025e55e8",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8204/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Kristina Tkach",
-            "team_b": "Rubilen Amit",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134457205_Kristina%20Tkach.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134460133_Rubilen%20Amit.jpg",
-            "time": "14:00:00",
-            "date": "23/09",
-            "blv": "Tào A Man",
-            "is_live": false,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ef025e55e8_548c6b06_20260923.png?v=548c6b06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e3594fe44c",
-          "name": "Chezka Centeno vs Jasmin Ouschan | 14:00 23/09 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e3594fe44c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e3594fe44c",
-                  "name": "Chezka Centeno vs Jasmin Ouschan",
-                  "streams": [
-                    {
-                      "id": "st-e3594fe44c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3594fe44c",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8203/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Chezka Centeno",
-            "team_b": "Jasmin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134382451_Chezka%20Centeno.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134387909_Jasmin%20Ouschan.jpg",
-            "time": "14:00:00",
-            "date": "23/09",
-            "blv": "BÚN CHÓ",
-            "is_live": false,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3594fe44c_0271f54b_20260923.png?v=0271f54b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-656399c283",
           "name": "Pia Filler vs Chihiro Kawahara | 14:00 23/09 | Bỉm Sữa",
           "type": "single",
@@ -961,6 +815,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ef025e55e8",
+          "name": "Kristina Tkach vs Rubilen Amit | 14:00 23/09 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef025e55e8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ef025e55e8",
+                  "name": "Kristina Tkach vs Rubilen Amit",
+                  "streams": [
+                    {
+                      "id": "st-ef025e55e8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef025e55e8",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8204/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Kristina Tkach",
+            "team_b": "Rubilen Amit",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134457205_Kristina%20Tkach.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134460133_Rubilen%20Amit.jpg",
+            "time": "14:00:00",
+            "date": "23/09",
+            "blv": "Tào A Man",
+            "is_live": false,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ef025e55e8_548c6b06_20260923.png?v=548c6b06",
             "width": 1600,
             "height": 1200
           }
