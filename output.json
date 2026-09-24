@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e9fe6c0191",
-          "name": "Niels Feijen vs Eklent Kaçi | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9fe6c0191",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e9fe6c0191",
-                  "name": "Niels Feijen vs Eklent Kaçi",
-                  "streams": [
-                    {
-                      "id": "st-e9fe6c0191",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9fe6c0191",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8241/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Niels Feijen",
-            "team_b": "Eklent Kaçi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211369149_Niels%20Feijen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211359308_Eklent%20Ka%C3%A7i.jpg",
-            "time": "15:00:00",
-            "date": "24/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790236800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9fe6c0191_a3f7976b_20260924.png?v=a3f7976b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-04398ad8c5",
           "name": "Naoyuki Oi vs Aloysius Yapp | Kèn Kèn",
           "type": "single",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-a05dd34c8e",
-          "name": "Jayson Shaw vs Shane Van Boening | GIÀNG A PHỌ",
+          "id": "chtv-e9fe6c0191",
+          "name": "Niels Feijen vs Eklent Kaçi | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-a05dd34c8e",
+              "id": "src-e9fe6c0191",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a05dd34c8e",
-                  "name": "Jayson Shaw vs Shane Van Boening",
+                  "id": "ct-e9fe6c0191",
+                  "name": "Niels Feijen vs Eklent Kaçi",
                   "streams": [
                     {
-                      "id": "st-a05dd34c8e",
+                      "id": "st-e9fe6c0191",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a05dd34c8e",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-e9fe6c0191",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8239/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8241/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Jayson Shaw",
-            "team_b": "Shane Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211191544_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211194037_Shane%20Van%20Boening.jpg",
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Niels Feijen",
+            "team_b": "Eklent Kaçi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211369149_Niels%20Feijen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211359308_Eklent%20Ka%C3%A7i.jpg",
             "time": "15:00:00",
             "date": "24/09",
-            "blv": "GIÀNG A PHỌ",
+            "blv": "Xinh Yeu",
             "is_live": true,
             "time_sort": 1790236800,
             "cate_type": "billiards"
@@ -230,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a05dd34c8e_0f471f56_20260924.png?v=0f471f56",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9fe6c0191_a3f7976b_20260924.png?v=a3f7976b",
             "width": 1600,
             "height": 1200
           }
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6795023c82_a839933e_20260924.png?v=a839933e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a05dd34c8e",
+          "name": "Jayson Shaw vs Shane Van Boening | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a05dd34c8e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a05dd34c8e",
+                  "name": "Jayson Shaw vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-a05dd34c8e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a05dd34c8e",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8239/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Jayson Shaw",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211191544_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211194037_Shane%20Van%20Boening.jpg",
+            "time": "15:00:00",
+            "date": "24/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1790236800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a05dd34c8e_0f471f56_20260924.png?v=0f471f56",
             "width": 1600,
             "height": 1200
           }
