@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-d244357244",
-          "name": "Tzu-Chien Wei vs Chia Hua Chen | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d244357244",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d244357244",
-                  "name": "Tzu-Chien Wei vs Chia Hua Chen",
-                  "streams": [
-                    {
-                      "id": "st-d244357244",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d244357244",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8228/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3  ( -_•)▄︻━一💥 Losers qualification",
-            "team_a": "Tzu-Chien Wei",
-            "team_b": "Chia Hua Chen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790206427114_Tzu-Chien%20Wei.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790206432178_Chia%20Hua%20Chen.jpg",
-            "time": "00:00:00",
-            "date": "24/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790182800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d244357244_43753ce2_20260924.png?v=43753ce2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-60f7170ace",
           "name": "Shasha Liu vs Chihiro Kawahara | Tào A Man",
@@ -236,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-11cd8c6bf9",
-          "name": "Gao Meng vs Kristina Tkach | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11cd8c6bf9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-11cd8c6bf9",
-                  "name": "Gao Meng vs Kristina Tkach",
-                  "streams": [
-                    {
-                      "id": "st-11cd8c6bf9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11cd8c6bf9",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8227/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥 Losers qualification",
-            "team_a": "Gao Meng",
-            "team_b": "Kristina Tkach",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1767593384244_images.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790206382415_Kristina%20Tkach.jpg",
-            "time": "10:00:00",
-            "date": "24/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1790218800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11cd8c6bf9_f09d552e_20260924.png?v=f09d552e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-3fda18a4af",
           "name": "Shui Ching Chiang vs Jasmin Ouschan | Xinh Yeu",
           "type": "single",
@@ -382,38 +236,38 @@
           }
         },
         {
-          "id": "chtv-547aca0694",
-          "name": "Pia Filler vs Drawn from match: 97-104 | 13:00 24/09",
+          "id": "chtv-11cd8c6bf9",
+          "name": "Gao Meng vs Kristina Tkach | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-547aca0694",
+              "id": "src-11cd8c6bf9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-547aca0694",
-                  "name": "Pia Filler vs Drawn from match: 97-104",
+                  "id": "ct-11cd8c6bf9",
+                  "name": "Gao Meng vs Kristina Tkach",
                   "streams": [
                     {
-                      "id": "st-547aca0694",
+                      "id": "st-11cd8c6bf9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-547aca0694",
-                          "name": "Stream",
+                          "id": "lnk-11cd8c6bf9",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8232/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8227/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -433,96 +287,23 @@
             }
           ],
           "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Pia Filler",
-            "team_b": "Drawn from match: 97-104",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790207902376_Pia%20Filler.jpg",
-            "logo_b": "",
-            "time": "13:00:00",
+            "league": "TV2 ( -_•)▄︻━一💥 Losers qualification",
+            "team_a": "Gao Meng",
+            "team_b": "Kristina Tkach",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767593384244_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790206382415_Kristina%20Tkach.jpg",
+            "time": "10:00:00",
             "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790229600,
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790218800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-547aca0694_593eacb2_20260924.png?v=593eacb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-78833641ce",
-          "name": "Chezka Centeno vs Drawn from match: 97-104 | 13:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78833641ce",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-78833641ce",
-                  "name": "Chezka Centeno vs Drawn from match: 97-104",
-                  "streams": [
-                    {
-                      "id": "st-78833641ce",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-78833641ce",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8233/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Chezka Centeno",
-            "team_b": "Drawn from match: 97-104",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790207970904_Chezka%20Centeno.jpg",
-            "logo_b": "",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-78833641ce_7ead0d22_20260924.png?v=7ead0d22",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11cd8c6bf9_f09d552e_20260924.png?v=f09d552e",
             "width": 1600,
             "height": 1200
           }
@@ -820,79 +601,6 @@
           }
         },
         {
-          "id": "chtv-75341fef98",
-          "name": "Rubilen Amit vs Drawn from match: 97-104 | 13:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-75341fef98",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-75341fef98",
-                  "name": "Rubilen Amit vs Drawn from match: 97-104",
-                  "streams": [
-                    {
-                      "id": "st-75341fef98",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75341fef98",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8235/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Rubilen Amit",
-            "team_b": "Drawn from match: 97-104",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790208058867_Rubilen%20Amit.jpg",
-            "logo_b": "",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-75341fef98_841f19ef_20260924.png?v=841f19ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e00e6015da",
           "name": "Seo Seoa vs Drawn from match: 97-104 | 13:00 24/09",
           "type": "single",
@@ -966,8 +674,8 @@
           }
         },
         {
-          "id": "chtv-a05dd34c8e",
-          "name": "Jayson Shaw vs Shane Van Boening | 15:00 24/09",
+          "id": "chtv-547aca0694",
+          "name": "Pia Filler vs Drawn from match: 97-104 | 13:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -981,23 +689,23 @@
           ],
           "sources": [
             {
-              "id": "src-a05dd34c8e",
+              "id": "src-547aca0694",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a05dd34c8e",
-                  "name": "Jayson Shaw vs Shane Van Boening",
+                  "id": "ct-547aca0694",
+                  "name": "Pia Filler vs Drawn from match: 97-104",
                   "streams": [
                     {
-                      "id": "st-a05dd34c8e",
+                      "id": "st-547aca0694",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a05dd34c8e",
+                          "id": "lnk-547aca0694",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8239/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8232/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1017,11 +725,230 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Jayson Shaw",
-            "team_b": "Shane Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211191544_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211194037_Shane%20Van%20Boening.jpg",
+            "league": "( -_•)▄︻━一💥 Last thirtytwo",
+            "team_a": "Pia Filler",
+            "team_b": "Drawn from match: 97-104",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790207902376_Pia%20Filler.jpg",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790229600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-547aca0694_593eacb2_20260924.png?v=593eacb2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-78833641ce",
+          "name": "Chezka Centeno vs Drawn from match: 97-104 | 13:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78833641ce",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-78833641ce",
+                  "name": "Chezka Centeno vs Drawn from match: 97-104",
+                  "streams": [
+                    {
+                      "id": "st-78833641ce",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-78833641ce",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8233/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Last thirtytwo",
+            "team_a": "Chezka Centeno",
+            "team_b": "Drawn from match: 97-104",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790207970904_Chezka%20Centeno.jpg",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790229600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-78833641ce_7ead0d22_20260924.png?v=7ead0d22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-75341fef98",
+          "name": "Rubilen Amit vs Drawn from match: 97-104 | 13:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75341fef98",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-75341fef98",
+                  "name": "Rubilen Amit vs Drawn from match: 97-104",
+                  "streams": [
+                    {
+                      "id": "st-75341fef98",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75341fef98",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8235/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Last thirtytwo",
+            "team_a": "Rubilen Amit",
+            "team_b": "Drawn from match: 97-104",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790208058867_Rubilen%20Amit.jpg",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790229600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-75341fef98_841f19ef_20260924.png?v=841f19ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6795023c82",
+          "name": "Fedor Gorst vs Kledio Kaçi | 15:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6795023c82",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6795023c82",
+                  "name": "Fedor Gorst vs Kledio Kaçi",
+                  "streams": [
+                    {
+                      "id": "st-6795023c82",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6795023c82",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8240/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Fedor Gorst",
+            "team_b": "Kledio Kaçi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211299149_Fedor%20Gorst.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211308767_Kledio%20Kaci.jpg",
             "time": "15:00:00",
             "date": "24/09",
             "blv": "",
@@ -1033,7 +960,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a05dd34c8e_0f471f56_20260924.png?v=0f471f56",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6795023c82_a839933e_20260924.png?v=a839933e",
             "width": 1600,
             "height": 1200
           }
@@ -1112,6 +1039,79 @@
           }
         },
         {
+          "id": "chtv-a05dd34c8e",
+          "name": "Jayson Shaw vs Shane Van Boening | 15:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a05dd34c8e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a05dd34c8e",
+                  "name": "Jayson Shaw vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-a05dd34c8e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a05dd34c8e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8239/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Jayson Shaw",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211191544_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211194037_Shane%20Van%20Boening.jpg",
+            "time": "15:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790236800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a05dd34c8e_0f471f56_20260924.png?v=0f471f56",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e9fe6c0191",
           "name": "Niels Feijen vs Eklent Kaçi | 15:00 24/09",
           "type": "single",
@@ -1180,79 +1180,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9fe6c0191_a3f7976b_20260924.png?v=a3f7976b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6795023c82",
-          "name": "Fedor Gorst vs Kledio Kaçi | 15:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6795023c82",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6795023c82",
-                  "name": "Fedor Gorst vs Kledio Kaçi",
-                  "streams": [
-                    {
-                      "id": "st-6795023c82",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6795023c82",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8240/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Fedor Gorst",
-            "team_b": "Kledio Kaçi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211299149_Fedor%20Gorst.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211308767_Kledio%20Kaci.jpg",
-            "time": "15:00:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790236800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6795023c82_a839933e_20260924.png?v=a839933e",
             "width": 1600,
             "height": 1200
           }
@@ -1404,6 +1331,79 @@
           }
         },
         {
+          "id": "chtv-27630a338d",
+          "name": "Robbie Capito vs Albin Ouschan | 15:01 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27630a338d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-27630a338d",
+                  "name": "Robbie Capito vs Albin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-27630a338d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27630a338d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8244/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Robbie Capito",
+            "team_b": "Albin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790213190064_ROBBIE%20CAPITO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790213224309_Albin%20Ouschan.jpg",
+            "time": "15:01:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790236860,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-27630a338d_0cbf8b2c_20260924.png?v=0cbf8b2c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3a46164bb6",
           "name": "Yuma Dörner vs Johann Chua | 15:01 24/09",
           "type": "single",
@@ -1545,79 +1545,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1afd86bc0_67273da9_20260924.png?v=67273da9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-27630a338d",
-          "name": "Robbie Capito vs Albin Ouschan | 15:01 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27630a338d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-27630a338d",
-                  "name": "Robbie Capito vs Albin Ouschan",
-                  "streams": [
-                    {
-                      "id": "st-27630a338d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27630a338d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8244/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Robbie Capito",
-            "team_b": "Albin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790213190064_ROBBIE%20CAPITO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790213224309_Albin%20Ouschan.jpg",
-            "time": "15:01:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790236860,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-27630a338d_0cbf8b2c_20260924.png?v=0cbf8b2c",
             "width": 1600,
             "height": 1200
           }
