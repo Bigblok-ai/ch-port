@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-f610753bbe",
-          "name": "Edgie vs utoy 910down | Tào A Man",
+          "id": "chtv-c664feca12",
+          "name": "Jonas Souto vs Joshua Filler | 09:59 25/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-f610753bbe",
+              "id": "src-c664feca12",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f610753bbe",
-                  "name": "Edgie vs utoy 910down",
+                  "id": "ct-c664feca12",
+                  "name": "Jonas Souto vs Joshua Filler",
                   "streams": [
                     {
-                      "id": "st-f610753bbe",
+                      "id": "st-c664feca12",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f610753bbe",
-                          "name": "Tào A Man",
+                          "id": "lnk-c664feca12",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8270/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8272/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,242 @@
             }
           ],
           "org_metadata": {
-            "league": "▄︻デ𝒜ℛℐℱ━一💥 race 15",
-            "team_a": "Edgie",
-            "team_b": "utoy 910down",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1776458426424_Screenshot%202026-04-18%20034023.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1776458232080_Screenshot%202026-04-18%20033642.png",
-            "time": "00:00:00",
-            "date": "24/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790182800,
+            "league": "TV1 ( -_•)▄︻━一💥Last sixteen",
+            "team_a": "Jonas Souto",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790292683950_Jonas%20Souto.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790292686369_Joshua%20Filler.jpg",
+            "time": "09:59:00",
+            "date": "25/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790305140,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f610753bbe_3a24896a_20260925.png?v=3a24896a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c664feca12_1e7b8cbb_20260925.png?v=1e7b8cbb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-796e6931a4",
+          "name": "Wu Kun Lin vs Sanjin Pehlivanovic | 10:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-796e6931a4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-796e6931a4",
+                  "name": "Wu Kun Lin vs Sanjin Pehlivanovic",
+                  "streams": [
+                    {
+                      "id": "st-796e6931a4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-796e6931a4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8274/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥Last sixteen",
+            "team_a": "Wu Kun Lin",
+            "team_b": "Sanjin Pehlivanovic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790292808306_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790292805487_Sanjin%20Pehlivanovic.jpg",
+            "time": "10:00:00",
+            "date": "25/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790305200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-796e6931a4_0a01c674_20260925.png?v=0a01c674",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-03cdef877e",
+          "name": "Mario He vs Sanchez Ruiz | 10:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03cdef877e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-03cdef877e",
+                  "name": "Mario He vs Sanchez Ruiz",
+                  "streams": [
+                    {
+                      "id": "st-03cdef877e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03cdef877e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8273/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ( -_•)▄︻━一💥Last sixteen",
+            "team_a": "Mario He",
+            "team_b": "Sanchez Ruiz",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790292734878_Mario%20He.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
+            "time": "10:00:00",
+            "date": "25/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790305200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03cdef877e_5575f410_20260925.png?v=5575f410",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9c160119f4",
+          "name": "Jayson Shaw vs Robbie Capito | 10:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c160119f4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9c160119f4",
+                  "name": "Jayson Shaw vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-9c160119f4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c160119f4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8275/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥Last sixteen",
+            "team_a": "Jayson Shaw",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790292875401_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790292872600_ROBBIE%20CAPITO.jpg",
+            "time": "10:00:00",
+            "date": "25/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790305200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c160119f4_0c768cfd_20260925.png?v=0c768cfd",
             "width": 1600,
             "height": 1200
           }
