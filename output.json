@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-3fda18a4af",
-          "name": "Shui Ching Chiang vs Jasmin Ouschan | Xinh Yeu",
+          "id": "chtv-e9fe6c0191",
+          "name": "Niels Feijen vs Eklent Kaçi | 15:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3fda18a4af",
+              "id": "src-e9fe6c0191",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3fda18a4af",
-                  "name": "Shui Ching Chiang vs Jasmin Ouschan",
+                  "id": "ct-e9fe6c0191",
+                  "name": "Niels Feijen vs Eklent Kaçi",
                   "streams": [
                     {
-                      "id": "st-3fda18a4af",
+                      "id": "st-e9fe6c0191",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3fda18a4af",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-e9fe6c0191",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8229/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8241/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4  ( -_•)▄︻━一💥 Losers qualification",
-            "team_a": "Shui Ching Chiang",
-            "team_b": "Jasmin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790206504099_Shui%20Ching%20Chiang.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790206507048_Jasmin%20Ouschan.jpg",
-            "time": "10:00:00",
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Niels Feijen",
+            "team_b": "Eklent Kaçi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211369149_Niels%20Feijen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211359308_Eklent%20Ka%C3%A7i.jpg",
+            "time": "15:00:00",
             "date": "24/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790218800,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790236800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3fda18a4af_a839f659_20260924.png?v=a839f659",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9fe6c0191_a3f7976b_20260924.png?v=a3f7976b",
             "width": 1600,
             "height": 1200
           }
@@ -236,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-e9fe6c0191",
-          "name": "Niels Feijen vs Eklent Kaçi | 15:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9fe6c0191",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e9fe6c0191",
-                  "name": "Niels Feijen vs Eklent Kaçi",
-                  "streams": [
-                    {
-                      "id": "st-e9fe6c0191",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9fe6c0191",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8241/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Niels Feijen",
-            "team_b": "Eklent Kaçi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211369149_Niels%20Feijen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211359308_Eklent%20Ka%C3%A7i.jpg",
-            "time": "15:00:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790236800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9fe6c0191_a3f7976b_20260924.png?v=a3f7976b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a05dd34c8e",
           "name": "Jayson Shaw vs Shane Van Boening | 15:00 24/09",
           "type": "single",
@@ -382,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-349aeffafe",
-          "name": "Sanchez Ruiz vs Bader Alawadhi | 15:01 24/09",
+          "id": "chtv-3a46164bb6",
+          "name": "Yuma Dörner vs Johann Chua | 15:01 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-349aeffafe",
+              "id": "src-3a46164bb6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-349aeffafe",
-                  "name": "Sanchez Ruiz vs Bader Alawadhi",
+                  "id": "ct-3a46164bb6",
+                  "name": "Yuma Dörner vs Johann Chua",
                   "streams": [
                     {
-                      "id": "st-349aeffafe",
+                      "id": "st-3a46164bb6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-349aeffafe",
+                          "id": "lnk-3a46164bb6",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8245/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8247/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -434,10 +361,10 @@
           ],
           "org_metadata": {
             "league": "▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Sanchez Ruiz",
-            "team_b": "Bader Alawadhi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790213257160_BADER%20ALAWADHI.jpg",
+            "team_a": "Yuma Dörner",
+            "team_b": "Johann Chua",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790215294415_Yuma%20D%C3%B6rner.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790213478500_JOHANN%20CHUA.jpg",
             "time": "15:01:00",
             "date": "24/09",
             "blv": "",
@@ -449,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-349aeffafe_42051326_20260924.png?v=42051326",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3a46164bb6_51d58f6a_20260924.png?v=51d58f6a",
             "width": 1600,
             "height": 1200
           }
@@ -674,8 +601,8 @@
           }
         },
         {
-          "id": "chtv-3a46164bb6",
-          "name": "Yuma Dörner vs Johann Chua | 15:01 24/09",
+          "id": "chtv-349aeffafe",
+          "name": "Sanchez Ruiz vs Bader Alawadhi | 15:01 24/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -689,23 +616,23 @@
           ],
           "sources": [
             {
-              "id": "src-3a46164bb6",
+              "id": "src-349aeffafe",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3a46164bb6",
-                  "name": "Yuma Dörner vs Johann Chua",
+                  "id": "ct-349aeffafe",
+                  "name": "Sanchez Ruiz vs Bader Alawadhi",
                   "streams": [
                     {
-                      "id": "st-3a46164bb6",
+                      "id": "st-349aeffafe",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3a46164bb6",
+                          "id": "lnk-349aeffafe",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8247/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8245/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -726,10 +653,10 @@
           ],
           "org_metadata": {
             "league": "▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Yuma Dörner",
-            "team_b": "Johann Chua",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790215294415_Yuma%20D%C3%B6rner.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790213478500_JOHANN%20CHUA.jpg",
+            "team_a": "Sanchez Ruiz",
+            "team_b": "Bader Alawadhi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790213257160_BADER%20ALAWADHI.jpg",
             "time": "15:01:00",
             "date": "24/09",
             "blv": "",
@@ -741,7 +668,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3a46164bb6_51d58f6a_20260924.png?v=51d58f6a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-349aeffafe_42051326_20260924.png?v=42051326",
             "width": 1600,
             "height": 1200
           }
