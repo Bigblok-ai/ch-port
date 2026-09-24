@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-04398ad8c5",
-          "name": "Naoyuki Oi vs Aloysius Yapp | Kèn Kèn",
+          "id": "chtv-a05dd34c8e",
+          "name": "Jayson Shaw vs Shane Van Boening | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-04398ad8c5",
+              "id": "src-a05dd34c8e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-04398ad8c5",
-                  "name": "Naoyuki Oi vs Aloysius Yapp",
+                  "id": "ct-a05dd34c8e",
+                  "name": "Jayson Shaw vs Shane Van Boening",
                   "streams": [
                     {
-                      "id": "st-04398ad8c5",
+                      "id": "st-a05dd34c8e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-04398ad8c5",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-a05dd34c8e",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8242/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8239/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Naoyuki Oi",
-            "team_b": "Aloysius Yapp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211411134_NAOYUKI%20OI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211423455_YAPP%20B%C3%A9o.jpg",
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Jayson Shaw",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211191544_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211194037_Shane%20Van%20Boening.jpg",
             "time": "15:00:00",
             "date": "24/09",
-            "blv": "Kèn Kèn",
+            "blv": "GIÀNG A PHỌ",
             "is_live": true,
             "time_sort": 1790236800,
             "cate_type": "billiards"
@@ -84,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-04398ad8c5_34467d47_20260924.png?v=34467d47",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a05dd34c8e_0f471f56_20260924.png?v=0f471f56",
             "width": 1600,
             "height": 1200
           }
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6795023c82_a839933e_20260924.png?v=a839933e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a05dd34c8e",
-          "name": "Jayson Shaw vs Shane Van Boening | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a05dd34c8e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a05dd34c8e",
-                  "name": "Jayson Shaw vs Shane Van Boening",
-                  "streams": [
-                    {
-                      "id": "st-a05dd34c8e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a05dd34c8e",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8239/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Jayson Shaw",
-            "team_b": "Shane Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211191544_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211194037_Shane%20Van%20Boening.jpg",
-            "time": "15:00:00",
-            "date": "24/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790236800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a05dd34c8e_0f471f56_20260924.png?v=0f471f56",
             "width": 1600,
             "height": 1200
           }
@@ -528,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-43be35ee54",
-          "name": "Han Yu vs Shi Tianqi | 19:30 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43be35ee54",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-43be35ee54",
-                  "name": "Han Yu vs Shi Tianqi",
-                  "streams": [
-                    {
-                      "id": "st-43be35ee54",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43be35ee54",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8266/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT ( -_•)▄︻━一💥",
-            "team_a": "Han Yu",
-            "team_b": "Shi Tianqi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790243965712_Screenshot%202026-09-24%20165922.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790243950685_china.png",
-            "time": "19:30:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790253000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43be35ee54_9aa3d0e7_20260924.png?v=9aa3d0e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1adfc98441",
           "name": "Rubilen Amit vs Chezka Centeno | 19:30 24/09",
           "type": "single",
@@ -669,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1adfc98441_fa71ce43_20260924.png?v=fa71ce43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-43be35ee54",
+          "name": "Han Yu vs Shi Tianqi | 19:30 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43be35ee54",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-43be35ee54",
+                  "name": "Han Yu vs Shi Tianqi",
+                  "streams": [
+                    {
+                      "id": "st-43be35ee54",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43be35ee54",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8266/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT ( -_•)▄︻━一💥",
+            "team_a": "Han Yu",
+            "team_b": "Shi Tianqi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790243965712_Screenshot%202026-09-24%20165922.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790243950685_china.png",
+            "time": "19:30:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790253000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43be35ee54_9aa3d0e7_20260924.png?v=9aa3d0e7",
             "width": 1600,
             "height": 1200
           }
