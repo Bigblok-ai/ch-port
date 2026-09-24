@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-d244357244",
+          "name": "Tzu-Chien Wei vs Chia Hua Chen | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d244357244",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d244357244",
+                  "name": "Tzu-Chien Wei vs Chia Hua Chen",
+                  "streams": [
+                    {
+                      "id": "st-d244357244",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d244357244",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8228/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  ( -_•)▄︻━一💥 Losers qualification",
+            "team_a": "Tzu-Chien Wei",
+            "team_b": "Chia Hua Chen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790206427114_Tzu-Chien%20Wei.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790206432178_Chia%20Hua%20Chen.jpg",
+            "time": "00:00:00",
+            "date": "24/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790182800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d244357244_43753ce2_20260924.png?v=43753ce2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-60f7170ace",
           "name": "Shasha Liu vs Chihiro Kawahara | Tào A Man",
@@ -163,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-11cd8c6bf9",
-          "name": "Gao Meng vs Kristina Tkach | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11cd8c6bf9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-11cd8c6bf9",
-                  "name": "Gao Meng vs Kristina Tkach",
-                  "streams": [
-                    {
-                      "id": "st-11cd8c6bf9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11cd8c6bf9",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8227/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥 Losers qualification",
-            "team_a": "Gao Meng",
-            "team_b": "Kristina Tkach",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1767593384244_images.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790206382415_Kristina%20Tkach.jpg",
-            "time": "10:00:00",
-            "date": "24/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1790218800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11cd8c6bf9_f09d552e_20260924.png?v=f09d552e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-3fda18a4af",
           "name": "Shui Ching Chiang vs Jasmin Ouschan | Xinh Yeu",
           "type": "single",
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3fda18a4af_a839f659_20260924.png?v=a839f659",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-11cd8c6bf9",
+          "name": "Gao Meng vs Kristina Tkach | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11cd8c6bf9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-11cd8c6bf9",
+                  "name": "Gao Meng vs Kristina Tkach",
+                  "streams": [
+                    {
+                      "id": "st-11cd8c6bf9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11cd8c6bf9",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8227/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ( -_•)▄︻━一💥 Losers qualification",
+            "team_a": "Gao Meng",
+            "team_b": "Kristina Tkach",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767593384244_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790206382415_Kristina%20Tkach.jpg",
+            "time": "10:00:00",
+            "date": "24/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790218800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11cd8c6bf9_f09d552e_20260924.png?v=f09d552e",
             "width": 1600,
             "height": 1200
           }
@@ -674,79 +747,6 @@
           }
         },
         {
-          "id": "chtv-e00e6015da",
-          "name": "Seo Seoa vs Drawn from match: 97-104 | 13:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e00e6015da",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e00e6015da",
-                  "name": "Seo Seoa vs Drawn from match: 97-104",
-                  "streams": [
-                    {
-                      "id": "st-e00e6015da",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e00e6015da",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8231/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥   Last thirtytwo",
-            "team_a": "Seo Seoa",
-            "team_b": "Drawn from match: 97-104",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790207793526_SEO%20SEOA.jpg",
-            "logo_b": "",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e00e6015da_cff8ff06_20260924.png?v=cff8ff06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1531583ece",
           "name": "Shi Tianqi vs Drawn from match: 97-104 | 13:00 24/09",
           "type": "single",
@@ -888,6 +888,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-75341fef98_841f19ef_20260924.png?v=841f19ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e00e6015da",
+          "name": "Seo Seoa vs Drawn from match: 97-104 | 13:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e00e6015da",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e00e6015da",
+                  "name": "Seo Seoa vs Drawn from match: 97-104",
+                  "streams": [
+                    {
+                      "id": "st-e00e6015da",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e00e6015da",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8231/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥   Last thirtytwo",
+            "team_a": "Seo Seoa",
+            "team_b": "Drawn from match: 97-104",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790207793526_SEO%20SEOA.jpg",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790229600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e00e6015da_cff8ff06_20260924.png?v=cff8ff06",
             "width": 1600,
             "height": 1200
           }
