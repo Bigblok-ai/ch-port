@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-60f7170ace",
+          "name": "Shasha Liu vs Chihiro Kawahara | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60f7170ace",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-60f7170ace",
+                  "name": "Shasha Liu vs Chihiro Kawahara",
+                  "streams": [
+                    {
+                      "id": "st-60f7170ace",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60f7170ace",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8230/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Losers qualification",
+            "team_a": "Shasha Liu",
+            "team_b": "Chihiro Kawahara",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790206586744_Shasha%20Liu.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790206590536_CHIHIRO%20KAWAHARA.jpg",
+            "time": "09:59:00",
+            "date": "24/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790218740,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60f7170ace_beb2206a_20260924.png?v=beb2206a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-4a573bcc2b",
           "name": "Kelly Fisher vs Han Yu | Lee Min Hoo",
@@ -158,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11cd8c6bf9_f09d552e_20260924.png?v=f09d552e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3fda18a4af",
+          "name": "Shui Ching Chiang vs Jasmin Ouschan | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3fda18a4af",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3fda18a4af",
+                  "name": "Shui Ching Chiang vs Jasmin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-3fda18a4af",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3fda18a4af",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8229/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  ( -_•)▄︻━一💥 Losers qualification",
+            "team_a": "Shui Ching Chiang",
+            "team_b": "Jasmin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790206504099_Shui%20Ching%20Chiang.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790206507048_Jasmin%20Ouschan.jpg",
+            "time": "10:00:00",
+            "date": "24/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790218800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3fda18a4af_a839f659_20260924.png?v=a839f659",
             "width": 1600,
             "height": 1200
           }
@@ -528,79 +674,6 @@
           }
         },
         {
-          "id": "chtv-1531583ece",
-          "name": "Shi Tianqi vs Drawn from match: 97-104 | 13:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1531583ece",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1531583ece",
-                  "name": "Shi Tianqi vs Drawn from match: 97-104",
-                  "streams": [
-                    {
-                      "id": "st-1531583ece",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1531583ece",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8238/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Shi Tianqi",
-            "team_b": "Drawn from match: 97-104",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790208195449_SHI%20Tianqi.jpg",
-            "logo_b": "",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1531583ece_be856e67_20260924.png?v=be856e67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e00e6015da",
           "name": "Seo Seoa vs Drawn from match: 97-104 | 13:00 24/09",
           "type": "single",
@@ -669,6 +742,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e00e6015da_cff8ff06_20260924.png?v=cff8ff06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1531583ece",
+          "name": "Shi Tianqi vs Drawn from match: 97-104 | 13:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1531583ece",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1531583ece",
+                  "name": "Shi Tianqi vs Drawn from match: 97-104",
+                  "streams": [
+                    {
+                      "id": "st-1531583ece",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1531583ece",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8238/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Last thirtytwo",
+            "team_a": "Shi Tianqi",
+            "team_b": "Drawn from match: 97-104",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790208195449_SHI%20Tianqi.jpg",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790229600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1531583ece_be856e67_20260924.png?v=be856e67",
             "width": 1600,
             "height": 1200
           }
