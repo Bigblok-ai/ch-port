@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6be88d6f7b_92df858b_20260924.png?v=92df858b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ae4c755d6c",
+          "name": "JAMES ARANAS vs GIO SILANG | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae4c755d6c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ae4c755d6c",
+                  "name": "JAMES ARANAS vs GIO SILANG",
+                  "streams": [
+                    {
+                      "id": "st-ae4c755d6c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae4c755d6c",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8267/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHỦI PHIL",
+            "team_a": "JAMES ARANAS",
+            "team_b": "GIO SILANG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790262038478_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790262038981_phil.png",
+            "time": "22:00:00",
+            "date": "24/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790262000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ae4c755d6c_9cc6ef53_20260924.png?v=9cc6ef53",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-309290aa67",
+          "name": "SOFHIA ROSALES vs JOLLIBEE CAVITE | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-309290aa67",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-309290aa67",
+                  "name": "SOFHIA ROSALES vs JOLLIBEE CAVITE",
+                  "streams": [
+                    {
+                      "id": "st-309290aa67",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-309290aa67",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8268/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHỦI PHIK",
+            "team_a": "SOFHIA ROSALES",
+            "team_b": "JOLLIBEE CAVITE",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790262323695_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790262326849_phil.png",
+            "time": "22:06:00",
+            "date": "24/09",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "time_sort": 1790262360,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-309290aa67_b8e627ec_20260924.png?v=b8e627ec",
             "width": 1600,
             "height": 1200
           }
