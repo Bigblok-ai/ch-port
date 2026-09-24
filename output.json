@@ -11,11 +11,157 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (8 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-e00e6015da",
+          "name": "Seo Seoa vs XIAOFANG | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e00e6015da",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e00e6015da",
+                  "name": "Seo Seoa vs XIAOFANG",
+                  "streams": [
+                    {
+                      "id": "st-e00e6015da",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e00e6015da",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8231/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥   Last thirtytwo",
+            "team_a": "Seo Seoa",
+            "team_b": "XIAOFANG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790207793526_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790230416844_china.png",
+            "time": "13:00:00",
+            "date": "24/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1790229600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e00e6015da_71a1c1a8_20260924.png?v=71a1c1a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-75341fef98",
+          "name": "Rubilen Amit vs OUSCHAN | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75341fef98",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-75341fef98",
+                  "name": "Rubilen Amit vs OUSCHAN",
+                  "streams": [
+                    {
+                      "id": "st-75341fef98",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75341fef98",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8235/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Last thirtytwo",
+            "team_a": "Rubilen Amit",
+            "team_b": "OUSCHAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790208058867_Rubilen%20Amit.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790230489655_2.jpg",
+            "time": "13:00:00",
+            "date": "24/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790229600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-75341fef98_a1fbd30c_20260924.png?v=a1fbd30c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-53afbc67c3",
           "name": "Margarita Fefilova vs WEI CHIEN | Thập Cẩm",
@@ -163,590 +309,6 @@
           }
         },
         {
-          "id": "chtv-78833641ce",
-          "name": "Chezka Centeno vs LEEHARIN | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78833641ce",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-78833641ce",
-                  "name": "Chezka Centeno vs LEEHARIN",
-                  "streams": [
-                    {
-                      "id": "st-78833641ce",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-78833641ce",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8233/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Chezka Centeno",
-            "team_b": "LEEHARIN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790207970904_Chezka%20Centeno.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790230468258_H%C3%80N%20QU%E1%BB%90C.png",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-78833641ce_6fc01789_20260924.png?v=6fc01789",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-547aca0694",
-          "name": "Pia Filler vs HUNG MENG- HSIA | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-547aca0694",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-547aca0694",
-                  "name": "Pia Filler vs HUNG MENG- HSIA",
-                  "streams": [
-                    {
-                      "id": "st-547aca0694",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-547aca0694",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8232/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Pia Filler",
-            "team_b": "HUNG MENG- HSIA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790207902376_Pia%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790230432565_new.png",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-547aca0694_43d4d547_20260924.png?v=43d4d547",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e00e6015da",
-          "name": "Seo Seoa vs XIAOFANG | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e00e6015da",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e00e6015da",
-                  "name": "Seo Seoa vs XIAOFANG",
-                  "streams": [
-                    {
-                      "id": "st-e00e6015da",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e00e6015da",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8231/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥   Last thirtytwo",
-            "team_a": "Seo Seoa",
-            "team_b": "XIAOFANG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790207793526_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790230416844_china.png",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e00e6015da_71a1c1a8_20260924.png?v=71a1c1a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1531583ece",
-          "name": "Shi Tianqi vs MENG GAO | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1531583ece",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1531583ece",
-                  "name": "Shi Tianqi vs MENG GAO",
-                  "streams": [
-                    {
-                      "id": "st-1531583ece",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1531583ece",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8238/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Shi Tianqi",
-            "team_b": "MENG GAO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790208195449_SHI%20Tianqi.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790230509323_china.png",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1531583ece_924d6b02_20260924.png?v=924d6b02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-75341fef98",
-          "name": "Rubilen Amit vs OUSCHAN | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-75341fef98",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-75341fef98",
-                  "name": "Rubilen Amit vs OUSCHAN",
-                  "streams": [
-                    {
-                      "id": "st-75341fef98",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75341fef98",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8235/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Rubilen Amit",
-            "team_b": "OUSCHAN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790208058867_Rubilen%20Amit.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790230489655_2.jpg",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-75341fef98_a1fbd30c_20260924.png?v=a1fbd30c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fc08855b69",
-          "name": "Chieh-Yu Chou vs CHIHIRO | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc08855b69",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fc08855b69",
-                  "name": "Chieh-Yu Chou vs CHIHIRO",
-                  "streams": [
-                    {
-                      "id": "st-fc08855b69",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc08855b69",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8234/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Chieh-Yu Chou",
-            "team_b": "CHIHIRO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790207995430_Chieh-Yu%20Chou.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790230239105_15.jpg",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fc08855b69_fa6fd564_20260924.png?v=fa6fd564",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a05dd34c8e",
-          "name": "Jayson Shaw vs Shane Van Boening | 15:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a05dd34c8e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a05dd34c8e",
-                  "name": "Jayson Shaw vs Shane Van Boening",
-                  "streams": [
-                    {
-                      "id": "st-a05dd34c8e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a05dd34c8e",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8239/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Jayson Shaw",
-            "team_b": "Shane Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211191544_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211194037_Shane%20Van%20Boening.jpg",
-            "time": "15:00:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790236800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a05dd34c8e_0f471f56_20260924.png?v=0f471f56",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e9fe6c0191",
-          "name": "Niels Feijen vs Eklent Kaçi | 15:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9fe6c0191",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e9fe6c0191",
-                  "name": "Niels Feijen vs Eklent Kaçi",
-                  "streams": [
-                    {
-                      "id": "st-e9fe6c0191",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9fe6c0191",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8241/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
-            "team_a": "Niels Feijen",
-            "team_b": "Eklent Kaçi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790211369149_Niels%20Feijen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790211359308_Eklent%20Ka%C3%A7i.jpg",
-            "time": "15:00:00",
-            "date": "24/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790236800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9fe6c0191_a3f7976b_20260924.png?v=a3f7976b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-04398ad8c5",
           "name": "Naoyuki Oi vs Aloysius Yapp | 15:00 24/09",
           "type": "single",
@@ -888,6 +450,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6795023c82_a839933e_20260924.png?v=a839933e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e9fe6c0191",
+          "name": "Niels Feijen vs Eklent Kaçi | 15:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9fe6c0191",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e9fe6c0191",
+                  "name": "Niels Feijen vs Eklent Kaçi",
+                  "streams": [
+                    {
+                      "id": "st-e9fe6c0191",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9fe6c0191",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8241/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Niels Feijen",
+            "team_b": "Eklent Kaçi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211369149_Niels%20Feijen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211359308_Eklent%20Ka%C3%A7i.jpg",
+            "time": "15:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790236800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9fe6c0191_a3f7976b_20260924.png?v=a3f7976b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a05dd34c8e",
+          "name": "Jayson Shaw vs Shane Van Boening | 15:00 24/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a05dd34c8e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a05dd34c8e",
+                  "name": "Jayson Shaw vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-a05dd34c8e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a05dd34c8e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8239/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Jayson Shaw",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211191544_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211194037_Shane%20Van%20Boening.jpg",
+            "time": "15:00:00",
+            "date": "24/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790236800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a05dd34c8e_0f471f56_20260924.png?v=0f471f56",
             "width": 1600,
             "height": 1200
           }
