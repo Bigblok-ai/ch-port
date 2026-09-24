@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-90bd0c10b1",
-          "name": "Savannah Easton vs HAN YU | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90bd0c10b1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-90bd0c10b1",
-                  "name": "Savannah Easton vs HAN YU",
-                  "streams": [
-                    {
-                      "id": "st-90bd0c10b1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90bd0c10b1",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8237/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Last thirtytwo",
-            "team_a": "Savannah Easton",
-            "team_b": "HAN YU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790208176135_Savannah%20Easton.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790230542244_china.png",
-            "time": "13:00:00",
-            "date": "24/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1790229600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90bd0c10b1_63b98860_20260924.png?v=63b98860",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-75341fef98",
           "name": "Rubilen Amit vs OUSCHAN | Kèn Kèn",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e00e6015da_71a1c1a8_20260924.png?v=71a1c1a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6795023c82",
+          "name": "Fedor Gorst vs Kledio Kaçi | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6795023c82",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6795023c82",
+                  "name": "Fedor Gorst vs Kledio Kaçi",
+                  "streams": [
+                    {
+                      "id": "st-6795023c82",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6795023c82",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8240/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥Last thirtytwo",
+            "team_a": "Fedor Gorst",
+            "team_b": "Kledio Kaçi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790211299149_Fedor%20Gorst.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790211308767_Kledio%20Kaci.jpg",
+            "time": "15:00:00",
+            "date": "24/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790236800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6795023c82_a839933e_20260924.png?v=a839933e",
             "width": 1600,
             "height": 1200
           }
