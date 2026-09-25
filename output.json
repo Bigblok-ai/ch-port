@@ -11,242 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-c664feca12",
-          "name": "Jonas Souto vs Joshua Filler | 09:59 25/09 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c664feca12",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c664feca12",
-                  "name": "Jonas Souto vs Joshua Filler",
-                  "streams": [
-                    {
-                      "id": "st-c664feca12",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c664feca12",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8272/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Jonas Souto",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790292683950_Jonas%20Souto.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790292686369_Joshua%20Filler.jpg",
-            "time": "09:59:00",
-            "date": "25/09",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "time_sort": 1790305140,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c664feca12_1e7b8cbb_20260925.png?v=1e7b8cbb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-03cdef877e",
-          "name": "Mario He vs Sanchez Ruiz | 10:00 25/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03cdef877e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-03cdef877e",
-                  "name": "Mario He vs Sanchez Ruiz",
-                  "streams": [
-                    {
-                      "id": "st-03cdef877e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03cdef877e",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8273/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Mario He",
-            "team_b": "Sanchez Ruiz",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790292734878_Mario%20He.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
-            "time": "10:00:00",
-            "date": "25/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790305200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03cdef877e_5575f410_20260925.png?v=5575f410",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-796e6931a4",
-          "name": "Wu Kun Lin vs Sanjin Pehlivanovic | 10:00 25/09 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-796e6931a4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-796e6931a4",
-                  "name": "Wu Kun Lin vs Sanjin Pehlivanovic",
-                  "streams": [
-                    {
-                      "id": "st-796e6931a4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-796e6931a4",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8274/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Wu Kun Lin",
-            "team_b": "Sanjin Pehlivanovic",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790292808306_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790292805487_Sanjin%20Pehlivanovic.jpg",
-            "time": "10:00:00",
-            "date": "25/09",
-            "blv": "Lee Min Hoo",
-            "is_live": false,
-            "time_sort": 1790305200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-796e6931a4_0a01c674_20260925.png?v=0a01c674",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9c160119f4",
-          "name": "Jayson Shaw vs Robbie Capito | 10:00 25/09 | Tào A Man",
+          "name": "Jayson Shaw vs Robbie Capito | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +76,7 @@
             "time": "10:00:00",
             "date": "25/09",
             "blv": "Tào A Man",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1790305200,
             "cate_type": "billiards"
           },
@@ -304,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c160119f4_0c768cfd_20260925.png?v=0c768cfd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b22332af95",
-          "name": "Felix Vogel vs Mieszko Fortuński | 10:01 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b22332af95",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b22332af95",
-                  "name": "Felix Vogel vs Mieszko Fortuński",
-                  "streams": [
-                    {
-                      "id": "st-b22332af95",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b22332af95",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8278/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Felix Vogel",
-            "team_b": "Mieszko Fortuński",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790293086957_Felix%20Vogel.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790293102283_Mieszko%20Fortu%C5%84ski.png",
-            "time": "10:01:00",
-            "date": "25/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790305260,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b22332af95_f39c6480_20260925.png?v=f39c6480",
             "width": 1600,
             "height": 1200
           }
@@ -450,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b66814dc5c_c126b927_20260925.png?v=c126b927",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b22332af95",
+          "name": "Felix Vogel vs Mieszko Fortuński | 10:01 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b22332af95",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b22332af95",
+                  "name": "Felix Vogel vs Mieszko Fortuński",
+                  "streams": [
+                    {
+                      "id": "st-b22332af95",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b22332af95",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8278/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥Last sixteen",
+            "team_a": "Felix Vogel",
+            "team_b": "Mieszko Fortuński",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790293086957_Felix%20Vogel.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790293102283_Mieszko%20Fortu%C5%84ski.png",
+            "time": "10:01:00",
+            "date": "25/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790305260,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b22332af95_f39c6480_20260925.png?v=f39c6480",
             "width": 1600,
             "height": 1200
           }
@@ -601,6 +382,79 @@
           }
         },
         {
+          "id": "chtv-1b6dfa16e6",
+          "name": "Rubilen Amit vs Shi Tianqi | 14:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1b6dfa16e6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1b6dfa16e6",
+                  "name": "Rubilen Amit vs Shi Tianqi",
+                  "streams": [
+                    {
+                      "id": "st-1b6dfa16e6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1b6dfa16e6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8281/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( ๏ 人 ๏ ) Semi final",
+            "team_a": "Rubilen Amit",
+            "team_b": "Shi Tianqi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790294593467_Rubilen%20Amit.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790294590592_SHI%20Tianqi.jpg",
+            "time": "14:00:00",
+            "date": "25/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790319600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1b6dfa16e6_701bb21a_20260925.png?v=701bb21a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-87536d15ed",
           "name": "Pia Filler vs Chieh-Yu Chou | 14:00 25/09",
           "type": "single",
@@ -669,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-87536d15ed_30521257_20260925.png?v=30521257",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c16768ee22",
-          "name": "Rubilen Amit vs Shi Tianqi | 14:00 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c16768ee22",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c16768ee22",
-                  "name": "Rubilen Amit vs Shi Tianqi",
-                  "streams": [
-                    {
-                      "id": "st-c16768ee22",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c16768ee22",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8282/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( ๏ 人 ๏ ) Semi final",
-            "team_a": "Rubilen Amit",
-            "team_b": "Shi Tianqi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790294649034_Rubilen%20Amit.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790294651982_SHI%20Tianqi.jpg",
-            "time": "14:00:00",
-            "date": "25/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790319600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c16768ee22_f0da8dca_20260925.png?v=f0da8dca",
             "width": 1600,
             "height": 1200
           }
