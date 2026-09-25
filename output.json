@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,38 +90,38 @@
           }
         },
         {
-          "id": "chtv-b66814dc5c",
-          "name": "Wojciech Szewczyk vs Johann Chua | Kèn Kèn",
+          "id": "chtv-c16768ee22",
+          "name": "Rubilen Amit vs Shi Tianqi | 14:00 25/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-b66814dc5c",
+              "id": "src-c16768ee22",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b66814dc5c",
-                  "name": "Wojciech Szewczyk vs Johann Chua",
+                  "id": "ct-c16768ee22",
+                  "name": "Rubilen Amit vs Shi Tianqi",
                   "streams": [
                     {
-                      "id": "st-b66814dc5c",
+                      "id": "st-c16768ee22",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b66814dc5c",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-c16768ee22",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8279/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8282/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +141,23 @@
             }
           ],
           "org_metadata": {
-            "league": "( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Wojciech Szewczyk",
-            "team_b": "Johann Chua",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790294001045_Wojciech%20Szewczyk.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790294005219_JOHANN%20CHUA.jpg",
-            "time": "10:01:00",
+            "league": "( ๏ 人 ๏ ) Semi final",
+            "team_a": "Rubilen Amit",
+            "team_b": "Shi Tianqi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790294649034_Rubilen%20Amit.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790294651982_SHI%20Tianqi.jpg",
+            "time": "14:00:00",
             "date": "25/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790305260,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790319600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b66814dc5c_c126b927_20260925.png?v=c126b927",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c16768ee22_f0da8dca_20260925.png?v=f0da8dca",
             "width": 1600,
             "height": 1200
           }
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-87536d15ed_30521257_20260925.png?v=30521257",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1b6dfa16e6",
-          "name": "Rubilen Amit vs Shi Tianqi | 14:00 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1b6dfa16e6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1b6dfa16e6",
-                  "name": "Rubilen Amit vs Shi Tianqi",
-                  "streams": [
-                    {
-                      "id": "st-1b6dfa16e6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1b6dfa16e6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8281/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( ๏ 人 ๏ ) Semi final",
-            "team_a": "Rubilen Amit",
-            "team_b": "Shi Tianqi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790294593467_Rubilen%20Amit.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790294590592_SHI%20Tianqi.jpg",
-            "time": "14:00:00",
-            "date": "25/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790319600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1b6dfa16e6_701bb21a_20260925.png?v=701bb21a",
             "width": 1600,
             "height": 1200
           }
