@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-87536d15ed",
-          "name": "Pia Filler vs Chieh-Yu Chou | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-87536d15ed",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-87536d15ed",
-                  "name": "Pia Filler vs Chieh-Yu Chou",
-                  "streams": [
-                    {
-                      "id": "st-87536d15ed",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87536d15ed",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8280/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( ๏ 人 ๏ )   Semi final",
-            "team_a": "Pia Filler",
-            "team_b": "Chieh-Yu Chou",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790294520911_Pia%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790294536188_Chieh-Yu%20Chou.jpg",
-            "time": "14:00:00",
-            "date": "25/09",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "time_sort": 1790319600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-87536d15ed_30521257_20260925.png?v=30521257",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-1b6dfa16e6",
           "name": "Rubilen Amit vs Shi Tianqi | Bỉm Sữa",
