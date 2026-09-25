@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,225 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1b6dfa16e6_701bb21a_20260925.png?v=701bb21a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1ad48083a2",
+          "name": "SZEWCZYL vs RUIZ | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ad48083a2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1ad48083a2",
+                  "name": "SZEWCZYL vs RUIZ",
+                  "streams": [
+                    {
+                      "id": "st-1ad48083a2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ad48083a2",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8283/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "z",
+            "team_a": "SZEWCZYL",
+            "team_b": "RUIZ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790325958278_2.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790325961057_3.jpg",
+            "time": "16:00:00",
+            "date": "25/09",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790326800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1ad48083a2_9f4a3a68_20260925.png?v=9f4a3a68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-87ed7740b1",
+          "name": "CAPITO vs KACI | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87ed7740b1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-87ed7740b1",
+                  "name": "CAPITO vs KACI",
+                  "streams": [
+                    {
+                      "id": "st-87ed7740b1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-87ed7740b1",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8286/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Z",
+            "team_a": "CAPITO",
+            "team_b": "KACI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790326059888_9.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790326067512_8.jpg",
+            "time": "16:00:00",
+            "date": "25/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790326800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-87ed7740b1_09b70ca9_20260925.png?v=09b70ca9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cff8aba2ae",
+          "name": "ALOYSIUS YAPP vs JOSHUA FILLER | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cff8aba2ae",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cff8aba2ae",
+                  "name": "ALOYSIUS YAPP vs JOSHUA FILLER",
+                  "streams": [
+                    {
+                      "id": "st-cff8aba2ae",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cff8aba2ae",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8288/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Z",
+            "team_a": "ALOYSIUS YAPP",
+            "team_b": "JOSHUA FILLER",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790326092764_24.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790326095108_6.jpg",
+            "time": "16:00:00",
+            "date": "25/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790326800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cff8aba2ae_39c3ba7f_20260925.png?v=39c3ba7f",
             "width": 1600,
             "height": 1200
           }
