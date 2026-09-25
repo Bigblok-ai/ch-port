@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-169d0980da",
-          "name": "Pia Filler vs Shi Tianqi | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-169d0980da",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-169d0980da",
-                  "name": "Pia Filler vs Shi Tianqi",
-                  "streams": [
-                    {
-                      "id": "st-169d0980da",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-169d0980da",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8295/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHUNG KẾT NỮ-CHOANGTV",
-            "team_a": "Pia Filler",
-            "team_b": "Shi Tianqi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790329848802_Screenshot%202026-09-25%20164802.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790329844717_Screenshot%202026-09-25%20164826.png",
-            "time": "20:00:00",
-            "date": "25/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790341200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-169d0980da_50407248_20260925.png?v=50407248",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-edf677fa07",
           "name": "Pia Filler vs Shi Tianqi | Thập Cẩm",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-04a9fb2164_17ade0be_20260925.png?v=17ade0be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-169d0980da",
+          "name": "Pia Filler vs Shi Tianqi | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-169d0980da",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-169d0980da",
+                  "name": "Pia Filler vs Shi Tianqi",
+                  "streams": [
+                    {
+                      "id": "st-169d0980da",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-169d0980da",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8295/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHUNG KẾT NỮ-CHOANGTV",
+            "team_a": "Pia Filler",
+            "team_b": "Shi Tianqi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790329848802_Screenshot%202026-09-25%20164802.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790329844717_Screenshot%202026-09-25%20164826.png",
+            "time": "20:00:00",
+            "date": "25/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790341200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-169d0980da_50407248_20260925.png?v=50407248",
             "width": 1600,
             "height": 1200
           }
