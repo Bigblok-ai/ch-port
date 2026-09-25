@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-1ad48083a2",
-          "name": "Wojciech Szewczyk vs Francisco Sanchez Ruiz | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ad48083a2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1ad48083a2",
-                  "name": "Wojciech Szewczyk vs Francisco Sanchez Ruiz",
-                  "streams": [
-                    {
-                      "id": "st-1ad48083a2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1ad48083a2",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8283/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "choangtv",
-            "team_a": "Wojciech Szewczyk",
-            "team_b": "Francisco Sanchez Ruiz",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790328213724_Screenshot%202026-09-25%20161843.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790328213166_Screenshot%202026-09-25%20161853.png",
-            "time": "16:00:00",
-            "date": "25/09",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1790326800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1ad48083a2_7ac4f455_20260925.png?v=7ac4f455",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-87ed7740b1",
           "name": "Robbie Capito vs Eklent Kaçi | Thập Cẩm",
           "type": "single",
@@ -236,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-cff8aba2ae",
-          "name": "ALOYSIUS YAPP vs JOSHUA FILLER | Kèn Kèn",
+          "id": "chtv-1ad48083a2",
+          "name": "Wojciech Szewczyk vs Francisco Sanchez Ruiz | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-cff8aba2ae",
+              "id": "src-1ad48083a2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-cff8aba2ae",
-                  "name": "ALOYSIUS YAPP vs JOSHUA FILLER",
+                  "id": "ct-1ad48083a2",
+                  "name": "Wojciech Szewczyk vs Francisco Sanchez Ruiz",
                   "streams": [
                     {
-                      "id": "st-cff8aba2ae",
+                      "id": "st-1ad48083a2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-cff8aba2ae",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-1ad48083a2",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8288/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8283/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,13 +215,13 @@
           ],
           "org_metadata": {
             "league": "choangtv",
-            "team_a": "ALOYSIUS YAPP",
-            "team_b": "JOSHUA FILLER",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790328112366_Screenshot%202026-09-25%20162036.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790328112337_Screenshot%202026-09-25%20162045.png",
+            "team_a": "Wojciech Szewczyk",
+            "team_b": "Francisco Sanchez Ruiz",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790328213724_Screenshot%202026-09-25%20161843.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790328213166_Screenshot%202026-09-25%20161853.png",
             "time": "16:00:00",
             "date": "25/09",
-            "blv": "Kèn Kèn",
+            "blv": "SÊ KÔÔ",
             "is_live": true,
             "time_sort": 1790326800,
             "cate_type": "billiards"
@@ -303,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cff8aba2ae_0ba07b53_20260925.png?v=0ba07b53",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1ad48083a2_7ac4f455_20260925.png?v=7ac4f455",
             "width": 1600,
             "height": 1200
           }
