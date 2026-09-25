@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c664feca12",
-          "name": "Jonas Souto vs Joshua Filler | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c664feca12",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c664feca12",
-                  "name": "Jonas Souto vs Joshua Filler",
-                  "streams": [
-                    {
-                      "id": "st-c664feca12",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c664feca12",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8272/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Jonas Souto",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790292683950_Jonas%20Souto.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790292686369_Joshua%20Filler.jpg",
-            "time": "09:59:00",
-            "date": "25/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790305140,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c664feca12_1e7b8cbb_20260925.png?v=1e7b8cbb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9c160119f4",
-          "name": "Jayson Shaw vs Robbie Capito | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c160119f4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9c160119f4",
-                  "name": "Jayson Shaw vs Robbie Capito",
-                  "streams": [
-                    {
-                      "id": "st-9c160119f4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c160119f4",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8275/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Jayson Shaw",
-            "team_b": "Robbie Capito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790292875401_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790292872600_ROBBIE%20CAPITO.jpg",
-            "time": "10:00:00",
-            "date": "25/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790305200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c160119f4_0c768cfd_20260925.png?v=0c768cfd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-796e6931a4",
           "name": "Wu Kun Lin vs Sanjin Pehlivanovic | Lee Min Hoo",
@@ -236,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-03cdef877e",
-          "name": "Mario He vs Sanchez Ruiz | Bỉm Sữa",
+          "id": "chtv-9c160119f4",
+          "name": "Jayson Shaw vs Robbie Capito | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-03cdef877e",
+              "id": "src-9c160119f4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-03cdef877e",
-                  "name": "Mario He vs Sanchez Ruiz",
+                  "id": "ct-9c160119f4",
+                  "name": "Jayson Shaw vs Robbie Capito",
                   "streams": [
                     {
-                      "id": "st-03cdef877e",
+                      "id": "st-9c160119f4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-03cdef877e",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-9c160119f4",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8273/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8275/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Mario He",
-            "team_b": "Sanchez Ruiz",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790292734878_Mario%20He.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
+            "league": "TV4 ( -_•)▄︻━一💥Last sixteen",
+            "team_a": "Jayson Shaw",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790292875401_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790292872600_ROBBIE%20CAPITO.jpg",
             "time": "10:00:00",
             "date": "25/09",
-            "blv": "Bỉm Sữa",
+            "blv": "Tào A Man",
             "is_live": true,
             "time_sort": 1790305200,
             "cate_type": "billiards"
@@ -303,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03cdef877e_5575f410_20260925.png?v=5575f410",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c160119f4_0c768cfd_20260925.png?v=0c768cfd",
             "width": 1600,
             "height": 1200
           }
