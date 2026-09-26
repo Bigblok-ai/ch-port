@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-96c835a417",
+          "name": "quang con vs trung nguyên | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-96c835a417",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-96c835a417",
+                  "name": "quang con vs trung nguyên",
+                  "streams": [
+                    {
+                      "id": "st-96c835a417",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96c835a417",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8340/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "giải 99",
+            "team_a": "quang con",
+            "team_b": "trung nguyên",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790421203038_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790421202818_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "00:00:00",
+            "date": "26/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790355600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-96c835a417_9a00026f_20260926.png?v=9a00026f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-ae2045d626",
           "name": "JAYVEE SUCAL vs OWAT LUZON 8/10 PARTIDA ANOOOOO | Kèn Kèn",
@@ -90,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-96c835a417",
-          "name": "quang con vs trung nguyên | Thập Cẩm",
+          "id": "chtv-6a15f93b16",
+          "name": "Bảo Ngô vs Nam Phong | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-96c835a417",
+              "id": "src-6a15f93b16",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-96c835a417",
-                  "name": "quang con vs trung nguyên",
+                  "id": "ct-6a15f93b16",
+                  "name": "Bảo Ngô vs Nam Phong",
                   "streams": [
                     {
-                      "id": "st-96c835a417",
+                      "id": "st-6a15f93b16",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-96c835a417",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-6a15f93b16",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8340/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8337/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "giải 99",
-            "team_a": "quang con",
-            "team_b": "trung nguyên",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790421203038_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790421202818_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
+            "league": "TV2 99 TITANIUM CHAMPIONSHIP-nhánh thua",
+            "team_a": "Bảo Ngô",
+            "team_b": "Nam Phong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790418670009_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790418669699_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "18:00:00",
             "date": "26/09",
-            "blv": "Thập Cẩm",
+            "blv": "Xinh Yeu",
             "is_live": true,
-            "time_sort": 1790355600,
+            "time_sort": 1790420400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-96c835a417_9a00026f_20260926.png?v=9a00026f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6a15f93b16_2509bab7_20260926.png?v=2509bab7",
             "width": 1600,
             "height": 1200
           }
@@ -236,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-6a15f93b16",
-          "name": "Bảo Ngô vs Nam Phong | Xinh Yeu",
+          "id": "chtv-a288ac715d",
+          "name": "Văn Sinh vs Lê Quang Trung | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-6a15f93b16",
+              "id": "src-a288ac715d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6a15f93b16",
-                  "name": "Bảo Ngô vs Nam Phong",
+                  "id": "ct-a288ac715d",
+                  "name": "Văn Sinh vs Lê Quang Trung",
                   "streams": [
                     {
-                      "id": "st-6a15f93b16",
+                      "id": "st-a288ac715d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6a15f93b16",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-a288ac715d",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8337/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8336/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,14 +360,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 99 TITANIUM CHAMPIONSHIP-nhánh thua",
-            "team_a": "Bảo Ngô",
-            "team_b": "Nam Phong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790418670009_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790418669699_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "league": "TV1 99 TITANIUM CHAMPIONSHIP-nhánh thua",
+            "team_a": "Văn Sinh",
+            "team_b": "Lê Quang Trung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790418604319_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790418603636_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
             "time": "18:00:00",
             "date": "26/09",
-            "blv": "Xinh Yeu",
+            "blv": "Bỉm Sữa",
             "is_live": true,
             "time_sort": 1790420400,
             "cate_type": "billiards"
@@ -303,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6a15f93b16_2509bab7_20260926.png?v=2509bab7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a288ac715d_e44aa8a0_20260926.png?v=e44aa8a0",
             "width": 1600,
             "height": 1200
           }
