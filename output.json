@@ -17,6 +17,152 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-e03da8eb81",
+          "name": "Tiến Minh TH vs Bảo Châu | 10:00 26/09 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e03da8eb81",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e03da8eb81",
+                  "name": "Tiến Minh TH vs Bảo Châu",
+                  "streams": [
+                    {
+                      "id": "st-e03da8eb81",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e03da8eb81",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8303/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 Billard Siêu không bịp",
+            "team_a": "Tiến Minh TH",
+            "team_b": "Bảo Châu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790382103735_Ti%E1%BA%BFn%20Minh%20TH.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "10:00:00",
+            "date": "26/09",
+            "blv": "Bỉm Sữa",
+            "is_live": false,
+            "time_sort": 1790391600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e03da8eb81_51e3fff4_20260926.png?v=51e3fff4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5f02b66e69",
+          "name": "Khải Tony vs Tuấn Minh Magic | 10:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5f02b66e69",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5f02b66e69",
+                  "name": "Khải Tony vs Tuấn Minh Magic",
+                  "streams": [
+                    {
+                      "id": "st-5f02b66e69",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f02b66e69",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8304/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 Billard Siêu không bịp",
+            "team_a": "Khải Tony",
+            "team_b": "Tuấn Minh Magic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790382223405_KH%E1%BA%A2I%20TONY.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "10:00:00",
+            "date": "26/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790391600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5f02b66e69_a6b1d90c_20260926.png?v=a6b1d90c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-03d375903f",
           "name": "Eklent Kaçi vs Joshua Filler | 11:59 26/09",
           "type": "single",
@@ -158,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-387cd5791c_531f290b_20260926.png?v=531f290b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f48f4fda28",
+          "name": "Eklent Kaçi vs Joshua Filler | 12:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f48f4fda28",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f48f4fda28",
+                  "name": "Eklent Kaçi vs Joshua Filler",
+                  "streams": [
+                    {
+                      "id": "st-f48f4fda28",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f48f4fda28",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8302/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥Semi final",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790381993944_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790381997311_Joshua%20Filler.jpg",
+            "time": "12:00:00",
+            "date": "26/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790398800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f48f4fda28_f706947b_20260926.png?v=f706947b",
             "width": 1600,
             "height": 1200
           }
