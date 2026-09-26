@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a03de7f136_f2dadc8e_20260926.png?v=f2dadc8e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-da441b7b8f",
-          "name": "SZEWCZYK Wojciech vs Eklent Kaçi | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da441b7b8f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-da441b7b8f",
-                  "name": "SZEWCZYK Wojciech vs Eklent Kaçi",
-                  "streams": [
-                    {
-                      "id": "st-da441b7b8f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da441b7b8f",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8332/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHUNG KẾT NAM - CHOANGTV",
-            "team_a": "SZEWCZYK Wojciech",
-            "team_b": "Eklent Kaçi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790413301456_Wojciech%20Szewczyk.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790413142154_Kaci.jpg",
-            "time": "18:00:00",
-            "date": "26/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790420400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-da441b7b8f_5dbcd6b4_20260926.png?v=5dbcd6b4",
             "width": 1600,
             "height": 1200
           }
