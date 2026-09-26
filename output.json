@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-03d375903f",
-          "name": "Eklent Kaçi vs Joshua Filler | 11:59 26/09 | BÚN CHÓ",
+          "id": "chtv-137134d674",
+          "name": "Thiện lương vs Nguyên ht | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-03d375903f",
+              "id": "src-137134d674",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-03d375903f",
-                  "name": "Eklent Kaçi vs Joshua Filler",
+                  "id": "ct-137134d674",
+                  "name": "Thiện lương vs Nguyên ht",
                   "streams": [
                     {
-                      "id": "st-03d375903f",
+                      "id": "st-137134d674",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-03d375903f",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-137134d674",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8301/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8306/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,169 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "( -_•)▄︻━一💥Semi final",
-            "team_a": "Eklent Kaçi",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790381950660_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790381953528_Joshua%20Filler.jpg",
-            "time": "11:59:00",
+            "league": "Vb",
+            "team_a": "Thiện lương",
+            "team_b": "Nguyên ht",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226347251_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00:00",
             "date": "26/09",
-            "blv": "BÚN CHÓ",
-            "is_live": false,
-            "time_sort": 1790398740,
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790395200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03d375903f_9f97a7f8_20260926.png?v=9f97a7f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f48f4fda28",
-          "name": "Eklent Kaçi vs Joshua Filler | 12:00 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f48f4fda28",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f48f4fda28",
-                  "name": "Eklent Kaçi vs Joshua Filler",
-                  "streams": [
-                    {
-                      "id": "st-f48f4fda28",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f48f4fda28",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8302/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥Semi final",
-            "team_a": "Eklent Kaçi",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790381993944_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790381997311_Joshua%20Filler.jpg",
-            "time": "12:00:00",
-            "date": "26/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790398800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f48f4fda28_f706947b_20260926.png?v=f706947b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-387cd5791c",
-          "name": "Wojciech Szewczyk vs Sanjin Pehlivanovic | 12:00 26/09 | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-387cd5791c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-387cd5791c",
-                  "name": "Wojciech Szewczyk vs Sanjin Pehlivanovic",
-                  "streams": [
-                    {
-                      "id": "st-387cd5791c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-387cd5791c",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8300/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥Semi final",
-            "team_a": "Wojciech Szewczyk",
-            "team_b": "Sanjin Pehlivanovic",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790381812635_Wojciech%20Szewczyk.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790381829451_Sanjin%20Pehlivanovic.jpg",
-            "time": "12:00:00",
-            "date": "26/09",
-            "blv": "Kèn Kèn",
-            "is_live": false,
-            "time_sort": 1790398800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-387cd5791c_531f290b_20260926.png?v=531f290b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-137134d674_c33568bb_20260926.png?v=c33568bb",
             "width": 1600,
             "height": 1200
           }
