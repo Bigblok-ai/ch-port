@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-8949dd66c4",
-          "name": "Efren reyes vs marvin benguet | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8949dd66c4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8949dd66c4",
-                  "name": "Efren reyes vs marvin benguet",
-                  "streams": [
-                    {
-                      "id": "st-8949dd66c4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8949dd66c4",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8314/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PHỦI PHIL",
-            "team_a": "Efren reyes",
-            "team_b": "marvin benguet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790403995764_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790403999995_phil.png",
-            "time": "13:26:00",
-            "date": "26/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790403960,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8949dd66c4_bcba5a54_20260926.png?v=bcba5a54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-5ba1c14eae",
           "name": "ĐĂNG BN vs DŨNG HÀN | Xinh Yeu",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9ce558bfae_d4e8244d_20260926.png?v=d4e8244d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-da441b7b8f",
+          "name": "SZEWCZYK Wojciech vs Eklent Kaçi | 18:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da441b7b8f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-da441b7b8f",
+                  "name": "SZEWCZYK Wojciech vs Eklent Kaçi",
+                  "streams": [
+                    {
+                      "id": "st-da441b7b8f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da441b7b8f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8332/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "z",
+            "team_a": "SZEWCZYK Wojciech",
+            "team_b": "Eklent Kaçi",
+            "logo_a": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790413142154_Kaci.jpg",
+            "time": "18:00:00",
+            "date": "26/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790420400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-da441b7b8f_e8005daf_20260926.png?v=e8005daf",
             "width": 1600,
             "height": 1200
           }
