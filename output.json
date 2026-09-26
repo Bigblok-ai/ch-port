@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-6f19336334",
+          "name": "Quang thiện vs Ngọc Xăm | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f19336334",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6f19336334",
+                  "name": "Quang thiện vs Ngọc Xăm",
+                  "streams": [
+                    {
+                      "id": "st-6f19336334",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f19336334",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8317/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vn",
+            "team_a": "Quang thiện",
+            "team_b": "Ngọc Xăm",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "26/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790402400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6f19336334_6654c734_20260926.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-8949dd66c4",
           "name": "Efren reyes vs marvin benguet | GIÀNG A PHỌ",
           "type": "single",
@@ -231,6 +304,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8949dd66c4_bcba5a54_20260926.png?v=bcba5a54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4ee187d7e0",
+          "name": "Văn Bản vs Khải Tony | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ee187d7e0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4ee187d7e0",
+                  "name": "Văn Bản vs Khải Tony",
+                  "streams": [
+                    {
+                      "id": "st-4ee187d7e0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ee187d7e0",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8315/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vn",
+            "team_a": "Văn Bản",
+            "team_b": "Khải Tony",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "13:41:00",
+            "date": "26/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790404860,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ee187d7e0_6654c734_20260926.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1d00a94f58",
+          "name": "Nam Phong vs Hà Thành | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d00a94f58",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1d00a94f58",
+                  "name": "Nam Phong vs Hà Thành",
+                  "streams": [
+                    {
+                      "id": "st-1d00a94f58",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1d00a94f58",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8316/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vn",
+            "team_a": "Nam Phong",
+            "team_b": "Hà Thành",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "13:42:00",
+            "date": "26/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790404920,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1d00a94f58_6654c734_20260926.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
