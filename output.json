@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-1f2fb9c1ba",
-          "name": "Hà Thành vs Anh Minh | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f2fb9c1ba",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1f2fb9c1ba",
-                  "name": "Hà Thành vs Anh Minh",
-                  "streams": [
-                    {
-                      "id": "st-1f2fb9c1ba",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f2fb9c1ba",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8309/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vn",
-            "team_a": "Hà Thành",
-            "team_b": "Anh Minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765344622261_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765417293942_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "11:00:00",
-            "date": "26/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790395200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1f2fb9c1ba_7a73186a_20260926.png?v=7a73186a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-137134d674",
-          "name": "Thiện lương vs Nguyên ht | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-137134d674",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-137134d674",
-                  "name": "Thiện lương vs Nguyên ht",
-                  "streams": [
-                    {
-                      "id": "st-137134d674",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-137134d674",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8306/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vb",
-            "team_a": "Thiện lương",
-            "team_b": "Nguyên ht",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226347251_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "11:00:00",
-            "date": "26/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1790395200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-137134d674_c33568bb_20260926.png?v=c33568bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-31e545b7ab",
           "name": "Khải Tony vs Bình Ốc | Xinh Yeu",
@@ -231,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-31e545b7ab_186aecfb_20260926.png?v=186aecfb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1f2fb9c1ba",
+          "name": "Hà Thành vs Anh Minh | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f2fb9c1ba",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1f2fb9c1ba",
+                  "name": "Hà Thành vs Anh Minh",
+                  "streams": [
+                    {
+                      "id": "st-1f2fb9c1ba",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f2fb9c1ba",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8309/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vn",
+            "team_a": "Hà Thành",
+            "team_b": "Anh Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765344622261_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765417293942_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00:00",
+            "date": "26/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790395200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1f2fb9c1ba_7a73186a_20260926.png?v=7a73186a",
             "width": 1600,
             "height": 1200
           }
