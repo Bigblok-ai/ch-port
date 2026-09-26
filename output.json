@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-eca6f538c8",
-          "name": "Hòa sv với Đức Vinh vs Duy Đen với Khanh Trần | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eca6f538c8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eca6f538c8",
-                  "name": "Hòa sv với Đức Vinh vs Duy Đen với Khanh Trần",
-                  "streams": [
-                    {
-                      "id": "st-eca6f538c8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eca6f538c8",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8335/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Hòa sv với Đức Vinh",
-            "team_b": "Duy Đen với Khanh Trần",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790415829834_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790415829782_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
-            "date": "26/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790355600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eca6f538c8_43fadae4_20260926.png?v=43fadae4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6a15f93b16",
-          "name": "Bảo Ngô vs Nam Phong | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6a15f93b16",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6a15f93b16",
-                  "name": "Bảo Ngô vs Nam Phong",
-                  "streams": [
-                    {
-                      "id": "st-6a15f93b16",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6a15f93b16",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8337/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 99 TITANIUM CHAMPIONSHIP-nhánh thua",
-            "team_a": "Bảo Ngô",
-            "team_b": "Nam Phong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790418670009_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790418669699_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "18:00:00",
-            "date": "26/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790420400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6a15f93b16_2509bab7_20260926.png?v=2509bab7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-da441b7b8f",
           "name": "SZEWCZYK Wojciech vs Eklent Kaçi | GIÀNG A PHỌ",
@@ -236,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-efc1ae08e6",
-          "name": "Nguyễn Bảo Châu vs Ngọc Xăm | Thập Cẩm",
+          "id": "chtv-6a15f93b16",
+          "name": "Bảo Ngô vs Nam Phong | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-efc1ae08e6",
+              "id": "src-6a15f93b16",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-efc1ae08e6",
-                  "name": "Nguyễn Bảo Châu vs Ngọc Xăm",
+                  "id": "ct-6a15f93b16",
+                  "name": "Bảo Ngô vs Nam Phong",
                   "streams": [
                     {
-                      "id": "st-efc1ae08e6",
+                      "id": "st-6a15f93b16",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-efc1ae08e6",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-6a15f93b16",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8338/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8337/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 99 TITANIUM CHAMPIONSHIP-nhánh thua",
-            "team_a": "Nguyễn Bảo Châu",
-            "team_b": "Ngọc Xăm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790418750591_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790418750240_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "league": "TV2 99 TITANIUM CHAMPIONSHIP-nhánh thua",
+            "team_a": "Bảo Ngô",
+            "team_b": "Nam Phong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790418670009_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790418669699_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
             "time": "18:00:00",
             "date": "26/09",
-            "blv": "Thập Cẩm",
+            "blv": "Xinh Yeu",
             "is_live": true,
             "time_sort": 1790420400,
             "cate_type": "billiards"
@@ -303,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-efc1ae08e6_157c9eb3_20260926.png?v=157c9eb3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6a15f93b16_2509bab7_20260926.png?v=2509bab7",
             "width": 1600,
             "height": 1200
           }
