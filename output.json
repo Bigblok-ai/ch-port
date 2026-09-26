@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-5ba1c14eae",
-          "name": "ĐĂNG BN vs DŨNG HÀN | Xinh Yeu",
+          "id": "chtv-6a15f93b16",
+          "name": "Bảo Ngô vs Nam Phong | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-5ba1c14eae",
+              "id": "src-6a15f93b16",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5ba1c14eae",
-                  "name": "ĐĂNG BN vs DŨNG HÀN",
+                  "id": "ct-6a15f93b16",
+                  "name": "Bảo Ngô vs Nam Phong",
                   "streams": [
                     {
-                      "id": "st-5ba1c14eae",
+                      "id": "st-6a15f93b16",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5ba1c14eae",
+                          "id": "lnk-6a15f93b16",
                           "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8324/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8337/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,87 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "VN",
-            "team_a": "ĐĂNG BN",
-            "team_b": "DŨNG HÀN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790412299556_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765418775237_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "15:45:00",
-            "date": "26/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790412300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5ba1c14eae_d52f167c_20260926.png?v=d52f167c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a288ac715d",
-          "name": "Văn Sinh vs Lê Quang Trung | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a288ac715d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a288ac715d",
-                  "name": "Văn Sinh vs Lê Quang Trung",
-                  "streams": [
-                    {
-                      "id": "st-a288ac715d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a288ac715d",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8336/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 99 TITANIUM CHAMPIONSHIP-nhánh thua",
-            "team_a": "Văn Sinh",
-            "team_b": "Lê Quang Trung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790418604319_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790418603636_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "league": "TV2 99 TITANIUM CHAMPIONSHIP-nhánh thua",
+            "team_a": "Bảo Ngô",
+            "team_b": "Nam Phong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790418670009_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790418669699_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
             "time": "18:00:00",
             "date": "26/09",
-            "blv": "Bỉm Sữa",
+            "blv": "Xinh Yeu",
             "is_live": true,
             "time_sort": 1790420400,
             "cate_type": "billiards"
@@ -230,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a288ac715d_e44aa8a0_20260926.png?v=e44aa8a0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6a15f93b16_2509bab7_20260926.png?v=2509bab7",
             "width": 1600,
             "height": 1200
           }
@@ -304,6 +231,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-da441b7b8f_5dbcd6b4_20260926.png?v=5dbcd6b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-efc1ae08e6",
+          "name": "Nguyễn Bảo Châu vs Ngọc Xăm | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-efc1ae08e6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-efc1ae08e6",
+                  "name": "Nguyễn Bảo Châu vs Ngọc Xăm",
+                  "streams": [
+                    {
+                      "id": "st-efc1ae08e6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-efc1ae08e6",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8338/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 99 TITANIUM CHAMPIONSHIP-nhánh thua",
+            "team_a": "Nguyễn Bảo Châu",
+            "team_b": "Ngọc Xăm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790418750591_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790418750240_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "18:00:00",
+            "date": "26/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790420400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-efc1ae08e6_157c9eb3_20260926.png?v=157c9eb3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a288ac715d",
+          "name": "Văn Sinh vs Lê Quang Trung | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a288ac715d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a288ac715d",
+                  "name": "Văn Sinh vs Lê Quang Trung",
+                  "streams": [
+                    {
+                      "id": "st-a288ac715d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a288ac715d",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8336/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 99 TITANIUM CHAMPIONSHIP-nhánh thua",
+            "team_a": "Văn Sinh",
+            "team_b": "Lê Quang Trung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790418604319_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790418603636_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "18:00:00",
+            "date": "26/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790420400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a288ac715d_e44aa8a0_20260926.png?v=e44aa8a0",
             "width": 1600,
             "height": 1200
           }
