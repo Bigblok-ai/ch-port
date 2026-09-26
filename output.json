@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-4d5b3ddfba",
+          "name": "Linh TQ vs Bình ốC | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d5b3ddfba",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4d5b3ddfba",
+                  "name": "Linh TQ vs Bình ốC",
+                  "streams": [
+                    {
+                      "id": "st-4d5b3ddfba",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d5b3ddfba",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8348/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "toptop",
+            "team_a": "Linh TQ",
+            "team_b": "Bình ốC",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790437798630_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790437798835_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "00:00:00",
+            "date": "26/09",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790355600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d5b3ddfba_fd35648d_20260926.png?v=fd35648d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-0b02b81703",
           "name": "Ian Tojerros vs Anthony Figueroa | Thập Cẩm",
