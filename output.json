@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-469dcb679f",
-          "name": "LINH TQ vs DŨNG MOI | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-469dcb679f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-469dcb679f",
-                  "name": "LINH TQ vs DŨNG MOI",
-                  "streams": [
-                    {
-                      "id": "st-469dcb679f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-469dcb679f",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8325/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "LINH TQ",
-            "team_b": "DŨNG MOI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "16:00:00",
-            "date": "26/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790413200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-469dcb679f_ea598d41_20260926.png?v=ea598d41",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9ce558bfae",
           "name": "BÌNH ỐC vs TRUNG LẠNG | Bỉm Sữa",
           "type": "single",
@@ -236,7 +163,153 @@
           }
         },
         {
-          "id": "chtv-8bdb2c8f83",
+          "id": "chtv-7f1e88a0c8",
+          "name": "THIỆN LƯƠNG vs BÙI TRUNG NGHUYÊN | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f1e88a0c8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7f1e88a0c8",
+                  "name": "THIỆN LƯƠNG vs BÙI TRUNG NGHUYÊN",
+                  "streams": [
+                    {
+                      "id": "st-7f1e88a0c8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7f1e88a0c8",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8329/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "THIỆN LƯƠNG",
+            "team_b": "BÙI TRUNG NGHUYÊN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "16:00:00",
+            "date": "26/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790413200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7f1e88a0c8_2df00492_20260926.png?v=2df00492",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-469dcb679f",
+          "name": "LINH TQ vs DŨNG MOI | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-469dcb679f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-469dcb679f",
+                  "name": "LINH TQ vs DŨNG MOI",
+                  "streams": [
+                    {
+                      "id": "st-469dcb679f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-469dcb679f",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8325/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "LINH TQ",
+            "team_b": "DŨNG MOI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "16:00:00",
+            "date": "26/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790413200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-469dcb679f_ea598d41_20260926.png?v=ea598d41",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c21fecae33",
           "name": "SZEWCZYK Wojciech vs Eklent Kaçi | 18:00 26/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -251,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-8bdb2c8f83",
+              "id": "src-c21fecae33",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8bdb2c8f83",
+                  "id": "ct-c21fecae33",
                   "name": "SZEWCZYK Wojciech vs Eklent Kaçi",
                   "streams": [
                     {
-                      "id": "st-8bdb2c8f83",
+                      "id": "st-c21fecae33",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8bdb2c8f83",
+                          "id": "lnk-c21fecae33",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8334/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8333/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -290,8 +363,8 @@
             "league": "z",
             "team_a": "SZEWCZYK Wojciech",
             "team_b": "Eklent Kaçi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790413287957_Wojciech%20Szewczyk.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790413238333_Kaci.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790413296177_Wojciech%20Szewczyk.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790413193525_Kaci.jpg",
             "time": "18:00:00",
             "date": "26/09",
             "blv": "",
@@ -303,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8bdb2c8f83_8366c9d0_20260926.png?v=8366c9d0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c21fecae33_7098cf1a_20260926.png?v=7098cf1a",
             "width": 1600,
             "height": 1200
           }
