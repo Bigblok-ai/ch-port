@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-03d375903f",
-          "name": "Eklent Kaçi vs Joshua Filler | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03d375903f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-03d375903f",
-                  "name": "Eklent Kaçi vs Joshua Filler",
-                  "streams": [
-                    {
-                      "id": "st-03d375903f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03d375903f",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8301/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥Semi final",
-            "team_a": "Eklent Kaçi",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790381950660_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790381953528_Joshua%20Filler.jpg",
-            "time": "11:59:00",
-            "date": "26/09",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "time_sort": 1790398740,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03d375903f_9f97a7f8_20260926.png?v=9f97a7f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8949dd66c4",
           "name": "Efren reyes vs marvin benguet | GIÀNG A PHỌ",
           "type": "single",
@@ -237,16 +164,16 @@
         },
         {
           "id": "chtv-9ce558bfae",
-          "name": "BÌNH ỐC vs TRUNG LẠNG | 16:00 26/09 | Bỉm Sữa",
+          "name": "BÌNH ỐC vs TRUNG LẠNG | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +222,7 @@
             "time": "16:00:00",
             "date": "26/09",
             "blv": "Bỉm Sữa",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1790413200,
             "cate_type": "billiards"
           },
