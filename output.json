@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,152 @@
           }
         },
         {
+          "id": "chtv-cf1eef3e14",
+          "name": "Cường cá vs Quang trung | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf1eef3e14",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cf1eef3e14",
+                  "name": "Cường cá vs Quang trung",
+                  "streams": [
+                    {
+                      "id": "st-cf1eef3e14",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf1eef3e14",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8319/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vn",
+            "team_a": "Cường cá",
+            "team_b": "Quang trung",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "26/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790402400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cf1eef3e14_6654c734_20260926.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-92a0b8de7f",
+          "name": "Khánh Huy vs Văn Sinh | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92a0b8de7f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-92a0b8de7f",
+                  "name": "Khánh Huy vs Văn Sinh",
+                  "streams": [
+                    {
+                      "id": "st-92a0b8de7f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-92a0b8de7f",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8320/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vn",
+            "team_a": "Khánh Huy",
+            "team_b": "Văn Sinh",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "13:00:00",
+            "date": "26/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790402400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-92a0b8de7f_6654c734_20260926.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6f19336334",
           "name": "Quang thiện vs Ngọc Xăm | Xinh Yeu",
           "type": "single",
@@ -304,79 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8949dd66c4_bcba5a54_20260926.png?v=bcba5a54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4ee187d7e0",
-          "name": "Văn Bản vs Khải Tony | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4ee187d7e0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4ee187d7e0",
-                  "name": "Văn Bản vs Khải Tony",
-                  "streams": [
-                    {
-                      "id": "st-4ee187d7e0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ee187d7e0",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8315/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vn",
-            "team_a": "Văn Bản",
-            "team_b": "Khải Tony",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "13:41:00",
-            "date": "26/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790404860,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ee187d7e0_6654c734_20260926.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
