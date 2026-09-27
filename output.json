@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-cc1e4d395a",
-          "name": "Thành Nam vs Đãng BN | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc1e4d395a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cc1e4d395a",
-                  "name": "Thành Nam vs Đãng BN",
-                  "streams": [
-                    {
-                      "id": "st-cc1e4d395a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc1e4d395a",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8371/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Thành Nam",
-            "team_b": "Đãng BN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790501627498_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790501627290_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
-            "date": "27/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790442000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cc1e4d395a_5b4ed93c_20260927.png?v=5b4ed93c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-4000857eab",
           "name": "Django vs Pogs Race19 Parehas | SÊ KÔÔ",
