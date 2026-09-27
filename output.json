@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-e1f0728bda",
-          "name": "PHONG NAM vs THIỆN LƯƠNG | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1f0728bda",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e1f0728bda",
-                  "name": "PHONG NAM vs THIỆN LƯƠNG",
-                  "streams": [
-                    {
-                      "id": "st-e1f0728bda",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1f0728bda",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8360/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vn",
-            "team_a": "PHONG NAM",
-            "team_b": "THIỆN LƯƠNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "14:00:00",
-            "date": "27/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790492400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e1f0728bda_2df00492_20260927.png?v=2df00492",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-de008b7d0e",
           "name": "DŨNG MOI vs DŨNG TB | GIÀNG A PHỌ",
           "type": "single",
@@ -236,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-5a39b7f2cd",
-          "name": "DINH ĐINH vs THẦY NAM | SÊ KÔÔ",
+          "id": "chtv-e1f0728bda",
+          "name": "PHONG NAM vs THIỆN LƯƠNG | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +178,96 @@
           ],
           "sources": [
             {
-              "id": "src-5a39b7f2cd",
+              "id": "src-e1f0728bda",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5a39b7f2cd",
-                  "name": "DINH ĐINH vs THẦY NAM",
+                  "id": "ct-e1f0728bda",
+                  "name": "PHONG NAM vs THIỆN LƯƠNG",
                   "streams": [
                     {
-                      "id": "st-5a39b7f2cd",
+                      "id": "st-e1f0728bda",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5a39b7f2cd",
+                          "id": "lnk-e1f0728bda",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8360/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "PHONG NAM",
+            "team_b": "THIỆN LƯƠNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "14:00:00",
+            "date": "27/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790492400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e1f0728bda_2df00492_20260927.png?v=2df00492",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-aa2205664a",
+          "name": "DUY ĐINH vs THẦY NAM | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa2205664a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-aa2205664a",
+                  "name": "DUY ĐINH vs THẦY NAM",
+                  "streams": [
+                    {
+                      "id": "st-aa2205664a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa2205664a",
                           "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8362/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8363/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,22 +288,95 @@
           ],
           "org_metadata": {
             "league": "VN",
-            "team_a": "DINH ĐINH",
+            "team_a": "DUY ĐINH",
             "team_b": "THẦY NAM",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "14:32:00",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "14:36:00",
             "date": "27/09",
             "blv": "SÊ KÔÔ",
             "is_live": true,
-            "time_sort": 1790494320,
+            "time_sort": 1790494560,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5a39b7f2cd_2724a14e_20260927.png?v=2724a14e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aa2205664a_2df00492_20260927.png?v=2df00492",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b11252f187",
+          "name": "DUY TO vs HÀ THÀNH | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b11252f187",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b11252f187",
+                  "name": "DUY TO vs HÀ THÀNH",
+                  "streams": [
+                    {
+                      "id": "st-b11252f187",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b11252f187",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8365/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "DUY TO",
+            "team_b": "HÀ THÀNH",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "14:42:00",
+            "date": "27/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790494920,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b11252f187_5c55f726_20260927.png?v=5c55f726",
             "width": 1600,
             "height": 1200
           }
