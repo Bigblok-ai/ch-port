@@ -307,6 +307,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-840630bbcb",
+          "name": "DŨNG TB vs LINH TQ | 12:00 27/09 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-840630bbcb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-840630bbcb",
+                  "name": "DŨNG TB vs LINH TQ",
+                  "streams": [
+                    {
+                      "id": "st-840630bbcb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-840630bbcb",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8355/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "DŨNG TB",
+            "team_b": "LINH TQ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765336336094_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "27/09",
+            "blv": "SÊ KÔÔ",
+            "is_live": false,
+            "time_sort": 1790485200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-840630bbcb_b2208a8e_20260927.png?v=b2208a8e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
