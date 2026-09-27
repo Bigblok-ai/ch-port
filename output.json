@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-0b7bf85d5f",
-          "name": "TRUNG LẠNG vs BẢO CHÂU | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b7bf85d5f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0b7bf85d5f",
-                  "name": "TRUNG LẠNG vs BẢO CHÂU",
-                  "streams": [
-                    {
-                      "id": "st-0b7bf85d5f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b7bf85d5f",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8358/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vn",
-            "team_a": "TRUNG LẠNG",
-            "team_b": "BẢO CHÂU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "14:00:00",
-            "date": "27/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790492400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0b7bf85d5f_372eb859_20260927.png?v=372eb859",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-de008b7d0e",
           "name": "DŨNG MOI vs DŨNG TB | GIÀNG A PHỌ",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-de008b7d0e_586f765a_20260927.png?v=586f765a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0b7bf85d5f",
+          "name": "TRUNG LẠNG vs BẢO CHÂU | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b7bf85d5f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0b7bf85d5f",
+                  "name": "TRUNG LẠNG vs BẢO CHÂU",
+                  "streams": [
+                    {
+                      "id": "st-0b7bf85d5f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b7bf85d5f",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8358/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "TRUNG LẠNG",
+            "team_b": "BẢO CHÂU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "14:00:00",
+            "date": "27/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790492400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0b7bf85d5f_372eb859_20260927.png?v=372eb859",
             "width": 1600,
             "height": 1200
           }
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c087717226_a0e82a26_20260927.png?v=a0e82a26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9c9926982b",
+          "name": "DUY ĐINH vs LINH TQ | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c9926982b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9c9926982b",
+                  "name": "DUY ĐINH vs LINH TQ",
+                  "streams": [
+                    {
+                      "id": "st-9c9926982b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c9926982b",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8368/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "DUY ĐINH",
+            "team_b": "LINH TQ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "15:43:00",
+            "date": "27/09",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790498580,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c9926982b_6b4218b9_20260927.png?v=6b4218b9",
             "width": 1600,
             "height": 1200
           }
