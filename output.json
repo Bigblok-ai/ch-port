@@ -163,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-aff54edd50",
-          "name": "DUY ĐINH vs THẦY NAM | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aff54edd50",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-aff54edd50",
-                  "name": "DUY ĐINH vs THẦY NAM",
-                  "streams": [
-                    {
-                      "id": "st-aff54edd50",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aff54edd50",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8364/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "DUY ĐINH",
-            "team_b": "THẦY NAM",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "14:36:00",
-            "date": "27/09",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1790494560,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aff54edd50_2df00492_20260927.png?v=2df00492",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b11252f187",
           "name": "DUY TO vs HÀ THÀNH | Xinh Yeu",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b11252f187_5c55f726_20260927.png?v=5c55f726",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c087717226",
+          "name": "SHAYNE ACEBAR vs KENJIE REYES | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c087717226",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c087717226",
+                  "name": "SHAYNE ACEBAR vs KENJIE REYES",
+                  "streams": [
+                    {
+                      "id": "st-c087717226",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c087717226",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8366/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHIL PHỦI",
+            "team_a": "SHAYNE ACEBAR",
+            "team_b": "KENJIE REYES",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "15:30:00",
+            "date": "27/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790497800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c087717226_a0e82a26_20260927.png?v=a0e82a26",
             "width": 1600,
             "height": 1200
           }
