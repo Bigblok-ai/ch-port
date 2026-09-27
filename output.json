@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e667f8a958",
-          "name": "JAYBEE SUCAL vs PALMA SURIGAO (8-10) | Xinh Yeu",
+          "id": "chtv-63c1c14965",
+          "name": "Duy Đen vs Ngọc Kem | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-e667f8a958",
+              "id": "src-63c1c14965",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e667f8a958",
-                  "name": "JAYBEE SUCAL vs PALMA SURIGAO (8-10)",
+                  "id": "ct-63c1c14965",
+                  "name": "Duy Đen vs Ngọc Kem",
                   "streams": [
                     {
-                      "id": "st-e667f8a958",
+                      "id": "st-63c1c14965",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e667f8a958",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-63c1c14965",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8372/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8376/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "JAYBEE SUCAL",
-            "team_b": "PALMA SURIGAO (8-10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790506674044_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790506673710_phil.png",
+            "league": "toptop",
+            "team_a": "Duy Đen",
+            "team_b": "Ngọc Kem",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790509307170_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790509306922_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
             "time": "00:00:00",
             "date": "27/09",
-            "blv": "Xinh Yeu",
+            "blv": "Kèn Kèn",
             "is_live": true,
             "time_sort": 1790442000,
             "cate_type": "billiards"
@@ -84,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e667f8a958_262cb093_20260927.png?v=262cb093",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-63c1c14965_8d434e52_20260927.png?v=8d434e52",
             "width": 1600,
             "height": 1200
           }
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-e667f8a958",
+          "name": "JAYBEE SUCAL vs PALMA SURIGAO (8-10) | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e667f8a958",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e667f8a958",
+                  "name": "JAYBEE SUCAL vs PALMA SURIGAO (8-10)",
+                  "streams": [
+                    {
+                      "id": "st-e667f8a958",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e667f8a958",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8372/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JAYBEE SUCAL",
+            "team_b": "PALMA SURIGAO (8-10)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790506674044_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790506673710_phil.png",
+            "time": "00:00:00",
+            "date": "27/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790442000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e667f8a958_262cb093_20260927.png?v=262cb093",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-c087717226",
           "name": "SHAYNE ACEBAR vs KENJIE REYES | Kèn Kèn",
           "type": "single",
@@ -231,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c087717226_a0e82a26_20260927.png?v=a0e82a26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c6197235bc",
-          "name": "Nguyễn Bảo Châu vs Bình Ốc | 19:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6197235bc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c6197235bc",
-                  "name": "Nguyễn Bảo Châu vs Bình Ốc",
-                  "streams": [
-                    {
-                      "id": "st-c6197235bc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6197235bc",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8375/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "chung kết 99",
-            "team_a": "Nguyễn Bảo Châu",
-            "team_b": "Bình Ốc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790508585407_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790508585091_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "19:00:00",
-            "date": "27/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790510400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c6197235bc_48bc0652_20260927.png?v=48bc0652",
             "width": 1600,
             "height": 1200
           }
