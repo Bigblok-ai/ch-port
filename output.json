@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a25f443ffc_d1014f15_20260928.png?v=d1014f15",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-514baef7fd",
-          "name": "Great Britain Men vs Spain Men | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-514baef7fd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-514baef7fd",
-                  "name": "Great Britain Men vs Spain Men",
-                  "streams": [
-                    {
-                      "id": "st-514baef7fd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-514baef7fd",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8394/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥Đấu Đội Nam",
-            "team_a": "Great Britain Men",
-            "team_b": "Spain Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790563183025_jayson%20shaw%201.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "time": "19:30:00",
-            "date": "28/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790598600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-514baef7fd_8cfe524e_20260928.png?v=8cfe524e",
             "width": 1600,
             "height": 1200
           }
@@ -304,6 +231,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-310a65bfd2_d0a9e20e_20260928.png?v=d0a9e20e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-514baef7fd",
+          "name": "Great Britain Men vs Spain Men | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-514baef7fd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-514baef7fd",
+                  "name": "Great Britain Men vs Spain Men",
+                  "streams": [
+                    {
+                      "id": "st-514baef7fd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-514baef7fd",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8394/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ( -_•)▄︻━一💥Đấu Đội Nam",
+            "team_a": "Great Britain Men",
+            "team_b": "Spain Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790563183025_jayson%20shaw%201.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "time": "19:30:00",
+            "date": "28/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790598600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-514baef7fd_8cfe524e_20260928.png?v=8cfe524e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d7abfd18c5",
+          "name": "Jaybee Suca vs Kyle Tubino | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d7abfd18c5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d7abfd18c5",
+                  "name": "Jaybee Suca vs Kyle Tubino",
+                  "streams": [
+                    {
+                      "id": "st-d7abfd18c5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d7abfd18c5",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8412/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHIL PHỦIL",
+            "team_a": "Jaybee Suca",
+            "team_b": "Kyle Tubino",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:00:00",
+            "date": "28/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790600400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d7abfd18c5_a0e82a26_20260928.png?v=a0e82a26",
             "width": 1600,
             "height": 1200
           }
