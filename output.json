@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d729ab367_db63dbe8_20260928.png?v=db63dbe8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-680a9a3da8",
-          "name": "Jasmin Ouschan vs Siming Chen | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-680a9a3da8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-680a9a3da8",
-                  "name": "Jasmin Ouschan vs Siming Chen",
-                  "streams": [
-                    {
-                      "id": "st-680a9a3da8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-680a9a3da8",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8384/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥",
-            "team_a": "Jasmin Ouschan",
-            "team_b": "Siming Chen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790560224184_Jasmin%20Ouschan.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790560227570_Siming%20Chen.jpg",
-            "time": "10:00:00",
-            "date": "28/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790564400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-680a9a3da8_7bae8849_20260928.png?v=7bae8849",
             "width": 1600,
             "height": 1200
           }
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7597b122b0_6654c734_20260928.png?v=6654c734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8275559f1f",
+          "name": "Alex Pagulayan vs Mieszko Fortuński | 13:00 28/09 | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8275559f1f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8275559f1f",
+                  "name": "Alex Pagulayan vs Mieszko Fortuński",
+                  "streams": [
+                    {
+                      "id": "st-8275559f1f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8275559f1f",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8391/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 ( -_•)▄︻━一💥MAN 10 BAll",
+            "team_a": "Alex Pagulayan",
+            "team_b": "Mieszko Fortuński",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790561425551_Alex%20Pagulayan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790561422986_Mieszko%20Fortu%C5%84ski.png",
+            "time": "13:00:00",
+            "date": "28/09",
+            "blv": "Xinh Yeu",
+            "is_live": false,
+            "time_sort": 1790575200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8275559f1f_02399b90_20260928.png?v=02399b90",
             "width": 1600,
             "height": 1200
           }
@@ -528,152 +528,6 @@
           }
         },
         {
-          "id": "chtv-8275559f1f",
-          "name": "Alex Pagulayan vs Mieszko Fortuński | 13:00 28/09 | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8275559f1f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8275559f1f",
-                  "name": "Alex Pagulayan vs Mieszko Fortuński",
-                  "streams": [
-                    {
-                      "id": "st-8275559f1f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8275559f1f",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8391/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ( -_•)▄︻━一💥MAN 10 BAll",
-            "team_a": "Alex Pagulayan",
-            "team_b": "Mieszko Fortuński",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790561425551_Alex%20Pagulayan.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790561422986_Mieszko%20Fortu%C5%84ski.png",
-            "time": "13:00:00",
-            "date": "28/09",
-            "blv": "Xinh Yeu",
-            "is_live": false,
-            "time_sort": 1790575200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8275559f1f_02399b90_20260928.png?v=02399b90",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f33f9be0ff",
-          "name": "Billy Thorpe vs Jonas Souto | 15:00 28/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f33f9be0ff",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f33f9be0ff",
-                  "name": "Billy Thorpe vs Jonas Souto",
-                  "streams": [
-                    {
-                      "id": "st-f33f9be0ff",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f33f9be0ff",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8397/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Billy Thorpe",
-            "team_b": "Jonas Souto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564118432_Billy%20Thorpe.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790564127481_Jonas%20Souto.jpg",
-            "time": "15:00:00",
-            "date": "28/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790582400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f33f9be0ff_a6448a00_20260928.png?v=a6448a00",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8c1f48ea68",
           "name": "Gerson Martinez Boza vs Roman Hybler | 15:00 28/09 | Thập Cẩm",
           "type": "single",
@@ -815,6 +669,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a914d25c58_bede4016_20260928.png?v=bede4016",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f33f9be0ff",
+          "name": "Billy Thorpe vs Jonas Souto | 15:00 28/09 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f33f9be0ff",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f33f9be0ff",
+                  "name": "Billy Thorpe vs Jonas Souto",
+                  "streams": [
+                    {
+                      "id": "st-f33f9be0ff",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f33f9be0ff",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8397/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ( -_•)▄︻━一💥Đơn Nam",
+            "team_a": "Billy Thorpe",
+            "team_b": "Jonas Souto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790564118432_Billy%20Thorpe.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790564127481_Jonas%20Souto.jpg",
+            "time": "15:00:00",
+            "date": "28/09",
+            "blv": "Bỉm Sữa",
+            "is_live": false,
+            "time_sort": 1790582400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f33f9be0ff_a6448a00_20260928.png?v=a6448a00",
             "width": 1600,
             "height": 1200
           }
