@@ -455,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-e00af46db0",
-          "name": "Marco Teutscher vs Shane Van Boening | 10:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e00af46db0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e00af46db0",
-                  "name": "Marco Teutscher vs Shane Van Boening",
-                  "streams": [
-                    {
-                      "id": "st-e00af46db0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e00af46db0",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8458/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Marco Teutscher",
-            "team_b": "Shane Van Boening",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790636685552_Marco%20Teutscher.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790636708243_Shane%20Van%20Boening.jpg",
-            "time": "10:00:00",
-            "date": "29/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790650800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e00af46db0_2060d3f5_20260929.png?v=2060d3f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-f3f6863a71",
           "name": "Carlo Biado vs Meshal Turki | 10:00 29/09",
           "type": "single",
@@ -579,7 +506,7 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥 Đơn Nam",
+            "league": "TV4 ( -_•)▄︻━一💥 Đơn Nam",
             "team_a": "Carlo Biado",
             "team_b": "Meshal Turki",
             "logo_a": "https://cdn-choangtv.com/img/logo/1790637016364_CARLO%20BIADO.jpg",
@@ -601,8 +528,81 @@
           }
         },
         {
+          "id": "chtv-e00af46db0",
+          "name": "Marco Teutscher vs Shane Van Boening | 10:00 29/09 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e00af46db0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e00af46db0",
+                  "name": "Marco Teutscher vs Shane Van Boening",
+                  "streams": [
+                    {
+                      "id": "st-e00af46db0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e00af46db0",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8458/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Marco Teutscher",
+            "team_b": "Shane Van Boening",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790636685552_Marco%20Teutscher.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790636708243_Shane%20Van%20Boening.jpg",
+            "time": "10:00:00",
+            "date": "29/09",
+            "blv": "BÚN CHÓ",
+            "is_live": false,
+            "time_sort": 1790650800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e00af46db0_2060d3f5_20260929.png?v=2060d3f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-fe14a91ce0",
-          "name": "Albert Januarta vs H Sihombing | 10:05 29/09",
+          "name": "Albert Januarta vs H Sihombing | 10:05 29/09 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -629,7 +629,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-fe14a91ce0",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8460/index.m3u8",
@@ -659,7 +659,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1777938473289_photo_2026-05-04_02-06-38.jpg",
             "time": "10:05:00",
             "date": "29/09",
-            "blv": "",
+            "blv": "Thập Cẩm",
             "is_live": false,
             "time_sort": 1790651100,
             "cate_type": "billiards"
@@ -675,7 +675,7 @@
         },
         {
           "id": "chtv-96e825a70b",
-          "name": "Dominik Jastrząb vs Joshua Filler | 10:10 29/09",
+          "name": "Dominik Jastrząb vs Joshua Filler | 10:10 29/09 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -702,7 +702,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-96e825a70b",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8459/index.m3u8",
@@ -732,7 +732,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1790636751814_Joshua%20Filler.jpg",
             "time": "10:10:00",
             "date": "29/09",
-            "blv": "",
+            "blv": "GIÀNG A PHỌ",
             "is_live": false,
             "time_sort": 1790651400,
             "cate_type": "billiards"
@@ -747,81 +747,8 @@
           }
         },
         {
-          "id": "chtv-d493010956",
-          "name": "Enjelika Fitri vs Margarita Fefilova | 12:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d493010956",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d493010956",
-                  "name": "Enjelika Fitri vs Margarita Fefilova",
-                  "streams": [
-                    {
-                      "id": "st-d493010956",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d493010956",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8464/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Enjelika Fitri",
-            "team_b": "Margarita Fefilova",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790637641296_Margarita%20Fefilova.jpg",
-            "time": "12:00:00",
-            "date": "29/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790658000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d493010956_615ece3b_20260929.png?v=615ece3b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-43e771d37e",
-          "name": "Diana Khodjaeva vs Rubilen Amit | 12:00 29/09",
+          "name": "Diana Khodjaeva vs Rubilen Amit | 12:00 29/09 | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -848,7 +775,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-43e771d37e",
-                          "name": "Stream",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8463/index.m3u8",
@@ -878,7 +805,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1790637571063_Rubilen%20Amit.jpg",
             "time": "12:00:00",
             "date": "29/09",
-            "blv": "",
+            "blv": "Bỉm Sữa",
             "is_live": false,
             "time_sort": 1790658000,
             "cate_type": "billiards"
@@ -966,8 +893,81 @@
           }
         },
         {
+          "id": "chtv-d493010956",
+          "name": "Enjelika Fitri vs Margarita Fefilova | 12:00 29/09 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d493010956",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d493010956",
+                  "name": "Enjelika Fitri vs Margarita Fefilova",
+                  "streams": [
+                    {
+                      "id": "st-d493010956",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d493010956",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8464/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Enjelika Fitri",
+            "team_b": "Margarita Fefilova",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790637641296_Margarita%20Fefilova.jpg",
+            "time": "12:00:00",
+            "date": "29/09",
+            "blv": "Tào A Man",
+            "is_live": false,
+            "time_sort": 1790658000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d493010956_615ece3b_20260929.png?v=615ece3b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-4600272872",
-          "name": "Angeline Ticoalu vs Zhang Muyan | 12:10 29/09",
+          "name": "Angeline Ticoalu vs Zhang Muyan | 12:10 29/09 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -994,7 +994,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-4600272872",
-                          "name": "Stream",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8462/index.m3u8",
@@ -1024,7 +1024,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1790637475698_Zhang%20Muyan.jpg",
             "time": "12:10:00",
             "date": "29/09",
-            "blv": "",
+            "blv": "Lee Min Hoo",
             "is_live": false,
             "time_sort": 1790658600,
             "cate_type": "billiards"
