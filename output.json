@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-a914d25c58",
+          "name": "Jeffrey De Luna vs Satoshi Kawabata | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a914d25c58",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a914d25c58",
+                  "name": "Jeffrey De Luna vs Satoshi Kawabata",
+                  "streams": [
+                    {
+                      "id": "st-a914d25c58",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a914d25c58",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8396/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ( -_•)▄︻━一💥Đơn Nam",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Satoshi Kawabata",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790564011397_JEFFREY%20DE%20LUNA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790564044834_Nh%E1%BA%ADt%20B%E1%BA%A3n.png",
+            "time": "15:00:00",
+            "date": "28/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790582400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a914d25c58_bede4016_20260928.png?v=bede4016",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-f33f9be0ff",
           "name": "Billy Thorpe vs Jonas Souto | Bỉm Sữa",
           "type": "single",
@@ -377,79 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ee6c991c26_982ae97a_20260928.png?v=982ae97a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a914d25c58",
-          "name": "Jeffrey De Luna vs Satoshi Kawabata | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a914d25c58",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a914d25c58",
-                  "name": "Jeffrey De Luna vs Satoshi Kawabata",
-                  "streams": [
-                    {
-                      "id": "st-a914d25c58",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a914d25c58",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8396/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Satoshi Kawabata",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564011397_JEFFREY%20DE%20LUNA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790564044834_Nh%E1%BA%ADt%20B%E1%BA%A3n.png",
-            "time": "15:00:00",
-            "date": "28/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790582400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a914d25c58_bede4016_20260928.png?v=bede4016",
             "width": 1600,
             "height": 1200
           }
