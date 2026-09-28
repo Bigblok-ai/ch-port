@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-8275559f1f",
-          "name": "Alex Pagulayan vs Mieszko Fortuński | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8275559f1f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8275559f1f",
-                  "name": "Alex Pagulayan vs Mieszko Fortuński",
-                  "streams": [
-                    {
-                      "id": "st-8275559f1f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8275559f1f",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8391/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ( -_•)▄︻━一💥MAN 10 BAll",
-            "team_a": "Alex Pagulayan",
-            "team_b": "Mieszko Fortuński",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790561425551_Alex%20Pagulayan.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790561422986_Mieszko%20Fortu%C5%84ski.png",
-            "time": "13:00:00",
-            "date": "28/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790575200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8275559f1f_02399b90_20260928.png?v=02399b90",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-5c4a89c890",
           "name": "Jeffrey Ignacio vs Sanjin Pehlivanovic | Bỉm Sữa",
@@ -158,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5c4a89c890_c4ea2f26_20260928.png?v=c4ea2f26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a6df3c7a73",
-          "name": "Kledio Kaçi vs Roland Garcia | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6df3c7a73",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a6df3c7a73",
-                  "name": "Kledio Kaçi vs Roland Garcia",
-                  "streams": [
-                    {
-                      "id": "st-a6df3c7a73",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6df3c7a73",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8388/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥MAN 10 BAll",
-            "team_a": "Kledio Kaçi",
-            "team_b": "Roland Garcia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790560803853_Kledio%20Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790560841919_Roland%20Garcia.jpg",
-            "time": "13:00:00",
-            "date": "28/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790575200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6df3c7a73_b6171efd_20260928.png?v=b6171efd",
             "width": 1600,
             "height": 1200
           }
@@ -309,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-f33f9be0ff",
-          "name": "Billy Thorpe vs Jonas Souto | 15:00 28/09 | Bỉm Sữa",
+          "id": "chtv-8275559f1f",
+          "name": "Alex Pagulayan vs Mieszko Fortuński | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-f33f9be0ff",
+              "id": "src-8275559f1f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f33f9be0ff",
-                  "name": "Billy Thorpe vs Jonas Souto",
+                  "id": "ct-8275559f1f",
+                  "name": "Alex Pagulayan vs Mieszko Fortuński",
                   "streams": [
                     {
-                      "id": "st-f33f9be0ff",
+                      "id": "st-8275559f1f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f33f9be0ff",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-8275559f1f",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8397/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8391/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -360,23 +214,169 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Billy Thorpe",
-            "team_b": "Jonas Souto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564118432_Billy%20Thorpe.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790564127481_Jonas%20Souto.jpg",
-            "time": "15:00:00",
+            "league": "TV4 ( -_•)▄︻━一💥MAN 10 BAll",
+            "team_a": "Alex Pagulayan",
+            "team_b": "Mieszko Fortuński",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790561425551_Alex%20Pagulayan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790561422986_Mieszko%20Fortu%C5%84ski.png",
+            "time": "13:00:00",
             "date": "28/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790582400,
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790575200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f33f9be0ff_a6448a00_20260928.png?v=a6448a00",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8275559f1f_02399b90_20260928.png?v=02399b90",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a6df3c7a73",
+          "name": "Kledio Kaçi vs Roland Garcia | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6df3c7a73",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a6df3c7a73",
+                  "name": "Kledio Kaçi vs Roland Garcia",
+                  "streams": [
+                    {
+                      "id": "st-a6df3c7a73",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6df3c7a73",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8388/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ( -_•)▄︻━一💥MAN 10 BAll",
+            "team_a": "Kledio Kaçi",
+            "team_b": "Roland Garcia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790560803853_Kledio%20Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790560841919_Roland%20Garcia.jpg",
+            "time": "13:00:00",
+            "date": "28/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1790575200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6df3c7a73_b6171efd_20260928.png?v=b6171efd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-272d2ccbad",
+          "name": "THÀNH NAM vs AN NHIỆT | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-272d2ccbad",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-272d2ccbad",
+                  "name": "THÀNH NAM vs AN NHIỆT",
+                  "streams": [
+                    {
+                      "id": "st-272d2ccbad",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-272d2ccbad",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8401/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "THÀNH NAM",
+            "team_b": "AN NHIỆT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "14:14:00",
+            "date": "28/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790579640,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-272d2ccbad_372eb859_20260928.png?v=372eb859",
             "width": 1600,
             "height": 1200
           }
@@ -528,6 +528,79 @@
           }
         },
         {
+          "id": "chtv-f33f9be0ff",
+          "name": "Billy Thorpe vs Jonas Souto | 15:00 28/09 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f33f9be0ff",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f33f9be0ff",
+                  "name": "Billy Thorpe vs Jonas Souto",
+                  "streams": [
+                    {
+                      "id": "st-f33f9be0ff",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f33f9be0ff",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8397/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ( -_•)▄︻━一💥Đơn Nam",
+            "team_a": "Billy Thorpe",
+            "team_b": "Jonas Souto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790564118432_Billy%20Thorpe.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790564127481_Jonas%20Souto.jpg",
+            "time": "15:00:00",
+            "date": "28/09",
+            "blv": "Bỉm Sữa",
+            "is_live": false,
+            "time_sort": 1790582400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f33f9be0ff_a6448a00_20260928.png?v=a6448a00",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ee6c991c26",
           "name": "Skyler Woodward vs Olivér Szolnoki | 15:00 28/09 | SÊ KÔÔ",
           "type": "single",
@@ -674,6 +747,79 @@
           }
         },
         {
+          "id": "chtv-514baef7fd",
+          "name": "Great Britain Men vs Spain Men | 19:30 28/09 | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-514baef7fd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-514baef7fd",
+                  "name": "Great Britain Men vs Spain Men",
+                  "streams": [
+                    {
+                      "id": "st-514baef7fd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-514baef7fd",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8394/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ( -_•)▄︻━一💥Đấu Đội Nam",
+            "team_a": "Great Britain Men",
+            "team_b": "Spain Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790563183025_jayson%20shaw%201.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "time": "19:30:00",
+            "date": "28/09",
+            "blv": "Xinh Yeu",
+            "is_live": false,
+            "time_sort": 1790598600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-514baef7fd_8cfe524e_20260928.png?v=8cfe524e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-310a65bfd2",
           "name": "Hong Kong Men vs Germany Men | 19:30 28/09 | Bỉm Sữa",
           "type": "single",
@@ -815,79 +961,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4aed5974de_d0cee883_20260928.png?v=d0cee883",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-514baef7fd",
-          "name": "Great Britain Men vs Spain Men | 19:30 28/09 | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-514baef7fd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-514baef7fd",
-                  "name": "Great Britain Men vs Spain Men",
-                  "streams": [
-                    {
-                      "id": "st-514baef7fd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-514baef7fd",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8394/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥Đấu Đội Nam",
-            "team_a": "Great Britain Men",
-            "team_b": "Spain Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790563183025_jayson%20shaw%201.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "time": "19:30:00",
-            "date": "28/09",
-            "blv": "Xinh Yeu",
-            "is_live": false,
-            "time_sort": 1790598600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-514baef7fd_8cfe524e_20260928.png?v=8cfe524e",
             "width": 1600,
             "height": 1200
           }
