@@ -11,11 +11,157 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-bd37914889",
+          "name": "ĐiChây Manắc vs Derin Asaku Sitorus | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd37914889",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bd37914889",
+                  "name": "ĐiChây Manắc vs Derin Asaku Sitorus",
+                  "streams": [
+                    {
+                      "id": "st-bd37914889",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bd37914889",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8390/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ( -_•)▄︻━一💥MAN 10 BAll",
+            "team_a": "ĐiChây Manắc",
+            "team_b": "Derin Asaku Sitorus",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767661470839_AJ%20Manas.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790561326666_DERIN%20ASAKU%20SITORUS.jpg",
+            "time": "13:00:00",
+            "date": "28/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790575200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bd37914889_58aa2a3a_20260928.png?v=58aa2a3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5c4a89c890",
+          "name": "Jeffrey Ignacio vs Sanjin Pehlivanovic | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c4a89c890",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5c4a89c890",
+                  "name": "Jeffrey Ignacio vs Sanjin Pehlivanovic",
+                  "streams": [
+                    {
+                      "id": "st-5c4a89c890",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c4a89c890",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8389/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  ( -_•)▄︻━一💥MAN 10 BAll",
+            "team_a": "Jeffrey Ignacio",
+            "team_b": "Sanjin Pehlivanovic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790561157149_Jeffrey%20Ignacio.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790561153965_Sanjin%20Pehlivanovic.jpg",
+            "time": "13:00:00",
+            "date": "28/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790575200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5c4a89c890_c4ea2f26_20260928.png?v=c4ea2f26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-f33f9be0ff",
           "name": "Billy Thorpe vs Jonas Souto | 15:00 28/09 | Bỉm Sữa",
