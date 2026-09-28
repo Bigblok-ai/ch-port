@@ -11,11 +11,157 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-db72c5aa21",
+          "name": "Zhu Qing Bi vs Margarita Fefilova | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db72c5aa21",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-db72c5aa21",
+                  "name": "Zhu Qing Bi vs Margarita Fefilova",
+                  "streams": [
+                    {
+                      "id": "st-db72c5aa21",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db72c5aa21",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8385/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ( -_•)▄︻━一💥",
+            "team_a": "Zhu Qing Bi",
+            "team_b": "Margarita Fefilova",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790560316298_Margarita%20Fefilova.jpg",
+            "time": "10:00:00",
+            "date": "28/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790564400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db72c5aa21_ada0b17b_20260928.png?v=ada0b17b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-680a9a3da8",
+          "name": "Jasmin Ouschan vs Siming Chen | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-680a9a3da8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-680a9a3da8",
+                  "name": "Jasmin Ouschan vs Siming Chen",
+                  "streams": [
+                    {
+                      "id": "st-680a9a3da8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-680a9a3da8",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8384/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ( -_•)▄︻━一💥",
+            "team_a": "Jasmin Ouschan",
+            "team_b": "Siming Chen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790560224184_Jasmin%20Ouschan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790560227570_Siming%20Chen.jpg",
+            "time": "10:00:00",
+            "date": "28/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790564400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-680a9a3da8_7bae8849_20260928.png?v=7bae8849",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-1870484792",
           "name": "Savannah Easton vs Sakura Muramatsu | SÊ KÔÔ",
@@ -90,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-db72c5aa21",
-          "name": "Zhu Qing Bi vs Margarita Fefilova | Tào A Man",
+          "id": "chtv-4d729ab367",
+          "name": "Silviana Lu vs Pia Filler | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-db72c5aa21",
+              "id": "src-4d729ab367",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-db72c5aa21",
-                  "name": "Zhu Qing Bi vs Margarita Fefilova",
+                  "id": "ct-4d729ab367",
+                  "name": "Silviana Lu vs Pia Filler",
                   "streams": [
                     {
-                      "id": "st-db72c5aa21",
+                      "id": "st-4d729ab367",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-db72c5aa21",
-                          "name": "Tào A Man",
+                          "id": "lnk-4d729ab367",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8385/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8386/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,14 +287,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥",
-            "team_a": "Zhu Qing Bi",
-            "team_b": "Margarita Fefilova",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790560316298_Margarita%20Fefilova.jpg",
+            "league": "TV3 ( -_•)▄︻━一💥",
+            "team_a": "Silviana Lu",
+            "team_b": "Pia Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790560390653_SILVIANA%20LU.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790560386882_Pia%20Filler.jpg",
             "time": "10:00:00",
             "date": "28/09",
-            "blv": "Tào A Man",
+            "blv": "Bỉm Sữa",
             "is_live": true,
             "time_sort": 1790564400,
             "cate_type": "billiards"
@@ -157,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db72c5aa21_ada0b17b_20260928.png?v=ada0b17b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d729ab367_db63dbe8_20260928.png?v=db63dbe8",
             "width": 1600,
             "height": 1200
           }
@@ -455,8 +601,8 @@
           }
         },
         {
-          "id": "chtv-ee6c991c26",
-          "name": "Skyler Woodward vs Olivér Szolnoki | 15:00 28/09",
+          "id": "chtv-8c1f48ea68",
+          "name": "Gerson Martinez Boza vs Roman Hybler | 15:00 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +616,23 @@
           ],
           "sources": [
             {
-              "id": "src-ee6c991c26",
+              "id": "src-8c1f48ea68",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ee6c991c26",
-                  "name": "Skyler Woodward vs Olivér Szolnoki",
+                  "id": "ct-8c1f48ea68",
+                  "name": "Gerson Martinez Boza vs Roman Hybler",
                   "streams": [
                     {
-                      "id": "st-ee6c991c26",
+                      "id": "st-8c1f48ea68",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ee6c991c26",
+                          "id": "lnk-8c1f48ea68",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8399/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8398/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,10 +653,10 @@
           ],
           "org_metadata": {
             "league": "TV3 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Skyler Woodward",
-            "team_b": "Olivér Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564306052_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790564303113_Oliv%C3%A9r%20SZOLNOKI.jpg",
+            "team_a": "Gerson Martinez Boza",
+            "team_b": "Roman Hybler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790564209842_Gerson%20Martinez%20Boza.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "15:00:00",
             "date": "28/09",
             "blv": "",
@@ -522,7 +668,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ee6c991c26_982ae97a_20260928.png?v=982ae97a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c1f48ea68_c2bcf244_20260928.png?v=c2bcf244",
             "width": 1600,
             "height": 1200
           }
@@ -601,6 +747,79 @@
           }
         },
         {
+          "id": "chtv-ee6c991c26",
+          "name": "Skyler Woodward vs Olivér Szolnoki | 15:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee6c991c26",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ee6c991c26",
+                  "name": "Skyler Woodward vs Olivér Szolnoki",
+                  "streams": [
+                    {
+                      "id": "st-ee6c991c26",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee6c991c26",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8399/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ( -_•)▄︻━一💥Đơn Nam",
+            "team_a": "Skyler Woodward",
+            "team_b": "Olivér Szolnoki",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790564306052_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790564303113_Oliv%C3%A9r%20SZOLNOKI.jpg",
+            "time": "15:00:00",
+            "date": "28/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790582400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ee6c991c26_982ae97a_20260928.png?v=982ae97a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-f33f9be0ff",
           "name": "Billy Thorpe vs Jonas Souto | 15:00 28/09",
           "type": "single",
@@ -669,79 +888,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f33f9be0ff_a6448a00_20260928.png?v=a6448a00",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8c1f48ea68",
-          "name": "Gerson Martinez Boza vs Roman Hybler | 15:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c1f48ea68",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c1f48ea68",
-                  "name": "Gerson Martinez Boza vs Roman Hybler",
-                  "streams": [
-                    {
-                      "id": "st-8c1f48ea68",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c1f48ea68",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8398/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Gerson Martinez Boza",
-            "team_b": "Roman Hybler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564209842_Gerson%20Martinez%20Boza.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "15:00:00",
-            "date": "28/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790582400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c1f48ea68_c2bcf244_20260928.png?v=c2bcf244",
             "width": 1600,
             "height": 1200
           }
