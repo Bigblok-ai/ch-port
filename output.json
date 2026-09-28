@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-17b5467ece",
-          "name": "SOFIA ROSALES vs MINI BULDOZER | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17b5467ece",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-17b5467ece",
-                  "name": "SOFIA ROSALES vs MINI BULDOZER",
-                  "streams": [
-                    {
-                      "id": "st-17b5467ece",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17b5467ece",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8406/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "SOFIA ROSALES",
-            "team_b": "MINI BULDOZER",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790587178964_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790587178610_phil.png",
-            "time": "00:00:00",
-            "date": "28/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790528400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17b5467ece_48a4a201_20260928.png?v=48a4a201",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-8e1dd4e866",
           "name": "Hoàng PT vs Ngọc Xăm | Thập Cẩm",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8e1dd4e866_d57bde78_20260928.png?v=d57bde78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-17b5467ece",
+          "name": "SOFIA ROSALES vs MINI BULDOZER | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17b5467ece",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-17b5467ece",
+                  "name": "SOFIA ROSALES vs MINI BULDOZER",
+                  "streams": [
+                    {
+                      "id": "st-17b5467ece",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17b5467ece",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8406/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "SOFIA ROSALES",
+            "team_b": "MINI BULDOZER",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790587178964_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790587178610_phil.png",
+            "time": "00:00:00",
+            "date": "28/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790528400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17b5467ece_48a4a201_20260928.png?v=48a4a201",
             "width": 1600,
             "height": 1200
           }
@@ -236,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-8d64098dbb",
-          "name": "Seoa Seo vs Rhaki Roj Constantino | GIÀNG A PHỌ",
+          "id": "chtv-8335ba28a7",
+          "name": "Shui Ching Chiang vs Chezka Centeno | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-8d64098dbb",
+              "id": "src-8335ba28a7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8d64098dbb",
-                  "name": "Seoa Seo vs Rhaki Roj Constantino",
+                  "id": "ct-8335ba28a7",
+                  "name": "Shui Ching Chiang vs Chezka Centeno",
                   "streams": [
                     {
-                      "id": "st-8d64098dbb",
+                      "id": "st-8335ba28a7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8d64098dbb",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-8335ba28a7",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8407/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8410/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,14 +287,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥Đơn Nữ",
-            "team_a": "Seoa Seo",
-            "team_b": "Rhaki Roj Constantino",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790587646883_H%C3%80N%20QU%E1%BB%90C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790587646399_phil.png",
+            "league": "TV4 ( -_•)▄︻━一💥Đơn Nữ",
+            "team_a": "Shui Ching Chiang",
+            "team_b": "Chezka Centeno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790587901659_Screenshot%202026-07-07%20002427.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790587911402_phil.png",
             "time": "17:30:00",
             "date": "28/09",
-            "blv": "GIÀNG A PHỌ",
+            "blv": "SÊ KÔÔ",
             "is_live": true,
             "time_sort": 1790591400,
             "cate_type": "billiards"
@@ -303,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8d64098dbb_177504a0_20260928.png?v=177504a0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8335ba28a7_c148f2c1_20260928.png?v=c148f2c1",
             "width": 1600,
             "height": 1200
           }
@@ -377,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-65ff5747c8_23062c56_20260928.png?v=23062c56",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8335ba28a7",
-          "name": "Shui Ching Chiang vs Chezka Centeno | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8335ba28a7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8335ba28a7",
-                  "name": "Shui Ching Chiang vs Chezka Centeno",
-                  "streams": [
-                    {
-                      "id": "st-8335ba28a7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8335ba28a7",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8410/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ( -_•)▄︻━一💥Đơn Nữ",
-            "team_a": "Shui Ching Chiang",
-            "team_b": "Chezka Centeno",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790587901659_Screenshot%202026-07-07%20002427.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790587911402_phil.png",
-            "time": "17:30:00",
-            "date": "28/09",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1790591400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8335ba28a7_c148f2c1_20260928.png?v=c148f2c1",
             "width": 1600,
             "height": 1200
           }
