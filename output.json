@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-a6df3c7a73",
+          "name": "Kledio Kaçi vs Roland Garcia | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6df3c7a73",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a6df3c7a73",
+                  "name": "Kledio Kaçi vs Roland Garcia",
+                  "streams": [
+                    {
+                      "id": "st-a6df3c7a73",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6df3c7a73",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8388/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ( -_•)▄︻━一💥MAN 10 BAll",
+            "team_a": "Kledio Kaçi",
+            "team_b": "Roland Garcia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790560803853_Kledio%20Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790560841919_Roland%20Garcia.jpg",
+            "time": "13:00:00",
+            "date": "28/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1790575200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6df3c7a73_b6171efd_20260928.png?v=b6171efd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-5c4a89c890",
           "name": "Jeffrey Ignacio vs Sanjin Pehlivanovic | Bỉm Sữa",
           "type": "single",
@@ -158,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5c4a89c890_c4ea2f26_20260928.png?v=c4ea2f26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8275559f1f",
+          "name": "Alex Pagulayan vs Mieszko Fortuński | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8275559f1f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8275559f1f",
+                  "name": "Alex Pagulayan vs Mieszko Fortuński",
+                  "streams": [
+                    {
+                      "id": "st-8275559f1f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8275559f1f",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8391/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 ( -_•)▄︻━一💥MAN 10 BAll",
+            "team_a": "Alex Pagulayan",
+            "team_b": "Mieszko Fortuński",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790561425551_Alex%20Pagulayan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790561422986_Mieszko%20Fortu%C5%84ski.png",
+            "time": "13:00:00",
+            "date": "28/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790575200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8275559f1f_02399b90_20260928.png?v=02399b90",
             "width": 1600,
             "height": 1200
           }
