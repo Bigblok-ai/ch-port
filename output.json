@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17b5467ece_48a4a201_20260928.png?v=48a4a201",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ee6c991c26",
-          "name": "Skyler Woodward vs Olivér Szolnoki | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee6c991c26",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ee6c991c26",
-                  "name": "Skyler Woodward vs Olivér Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-ee6c991c26",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee6c991c26",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8399/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Skyler Woodward",
-            "team_b": "Olivér Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564306052_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790564303113_Oliv%C3%A9r%20SZOLNOKI.jpg",
-            "time": "15:00:00",
-            "date": "28/09",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1790582400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ee6c991c26_982ae97a_20260928.png?v=982ae97a",
             "width": 1600,
             "height": 1200
           }
@@ -528,6 +455,79 @@
           }
         },
         {
+          "id": "chtv-514baef7fd",
+          "name": "Great Britain Men vs Spain Men | 19:30 28/09 | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-514baef7fd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-514baef7fd",
+                  "name": "Great Britain Men vs Spain Men",
+                  "streams": [
+                    {
+                      "id": "st-514baef7fd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-514baef7fd",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8394/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ( -_•)▄︻━一💥Đấu Đội Nam",
+            "team_a": "Great Britain Men",
+            "team_b": "Spain Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790563183025_jayson%20shaw%201.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "time": "19:30:00",
+            "date": "28/09",
+            "blv": "Xinh Yeu",
+            "is_live": false,
+            "time_sort": 1790598600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-514baef7fd_8cfe524e_20260928.png?v=8cfe524e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-4aed5974de",
           "name": "Chinese Taipei Men vs Japan Men | 19:30 28/09 | GIÀNG A PHỌ",
           "type": "single",
@@ -669,79 +669,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-310a65bfd2_d0a9e20e_20260928.png?v=d0a9e20e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-514baef7fd",
-          "name": "Great Britain Men vs Spain Men | 19:30 28/09 | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-514baef7fd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-514baef7fd",
-                  "name": "Great Britain Men vs Spain Men",
-                  "streams": [
-                    {
-                      "id": "st-514baef7fd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-514baef7fd",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8394/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥Đấu Đội Nam",
-            "team_a": "Great Britain Men",
-            "team_b": "Spain Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790563183025_jayson%20shaw%201.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "time": "19:30:00",
-            "date": "28/09",
-            "blv": "Xinh Yeu",
-            "is_live": false,
-            "time_sort": 1790598600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-514baef7fd_8cfe524e_20260928.png?v=8cfe524e",
             "width": 1600,
             "height": 1200
           }
