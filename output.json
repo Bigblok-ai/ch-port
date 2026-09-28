@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-8e1dd4e866",
-          "name": "Hoàng PT vs Ngọc Xăm | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e1dd4e866",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8e1dd4e866",
-                  "name": "Hoàng PT vs Ngọc Xăm",
-                  "streams": [
-                    {
-                      "id": "st-8e1dd4e866",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8e1dd4e866",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8411/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida 99",
-            "team_a": "Hoàng PT",
-            "team_b": "Ngọc Xăm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790592807030_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790592806997_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00:00",
-            "date": "28/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790528400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8e1dd4e866_d57bde78_20260928.png?v=d57bde78",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-8c1f48ea68",
           "name": "Gerson Martinez Boza vs Roman Hybler | Thập Cẩm",
@@ -158,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c1f48ea68_c2bcf244_20260928.png?v=c2bcf244",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-65ff5747c8",
-          "name": "Savannah Easton vs Desi Aristia | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-65ff5747c8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-65ff5747c8",
-                  "name": "Savannah Easton vs Desi Aristia",
-                  "streams": [
-                    {
-                      "id": "st-65ff5747c8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-65ff5747c8",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8408/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥Đơn Nữ",
-            "team_a": "Savannah Easton",
-            "team_b": "Desi Aristia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790587773838_images%20(1).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790587773495_Screenshot%202026-07-07%20004029.png",
-            "time": "17:30:00",
-            "date": "28/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790591400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-65ff5747c8_23062c56_20260928.png?v=23062c56",
             "width": 1600,
             "height": 1200
           }
@@ -382,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-4aed5974de",
-          "name": "Chinese Taipei Men vs Japan Men | 19:30 28/09 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4aed5974de",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4aed5974de",
-                  "name": "Chinese Taipei Men vs Japan Men",
-                  "streams": [
-                    {
-                      "id": "st-4aed5974de",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4aed5974de",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8392/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥Đấu Đội Nam",
-            "team_a": "Chinese Taipei Men",
-            "team_b": "Japan Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790562891760_Mi%20Le.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790562918497_NAOYUKI%20OI.jpg",
-            "time": "19:30:00",
-            "date": "28/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": false,
-            "time_sort": 1790598600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4aed5974de_d0cee883_20260928.png?v=d0cee883",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-310a65bfd2",
           "name": "Hong Kong Men vs Germany Men | 19:30 28/09 | Bỉm Sữa",
           "type": "single",
@@ -523,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-310a65bfd2_d0a9e20e_20260928.png?v=d0a9e20e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4aed5974de",
+          "name": "Chinese Taipei Men vs Japan Men | 19:30 28/09 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4aed5974de",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4aed5974de",
+                  "name": "Chinese Taipei Men vs Japan Men",
+                  "streams": [
+                    {
+                      "id": "st-4aed5974de",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4aed5974de",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8392/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ( -_•)▄︻━一💥Đấu Đội Nam",
+            "team_a": "Chinese Taipei Men",
+            "team_b": "Japan Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790562891760_Mi%20Le.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790562918497_NAOYUKI%20OI.jpg",
+            "time": "19:30:00",
+            "date": "28/09",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": false,
+            "time_sort": 1790598600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4aed5974de_d0cee883_20260928.png?v=d0cee883",
             "width": 1600,
             "height": 1200
           }
