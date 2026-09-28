@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-680a9a3da8",
+          "name": "Jasmin Ouschan vs Siming Chen | 10:00 28/09 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-680a9a3da8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-680a9a3da8",
+                  "name": "Jasmin Ouschan vs Siming Chen",
+                  "streams": [
+                    {
+                      "id": "st-680a9a3da8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-680a9a3da8",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8384/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ( -_•)▄︻━一💥",
+            "team_a": "Jasmin Ouschan",
+            "team_b": "Siming Chen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790560224184_Jasmin%20Ouschan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790560227570_Siming%20Chen.jpg",
+            "time": "10:00:00",
+            "date": "28/09",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1790564400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-680a9a3da8_7bae8849_20260928.png?v=7bae8849",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
