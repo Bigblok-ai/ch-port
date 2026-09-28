@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d7abfd18c5_a0e82a26_20260928.png?v=a0e82a26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e144cc9724",
+          "name": "Anthony Rosario vs Nonoy Dasma | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e144cc9724",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e144cc9724",
+                  "name": "Anthony Rosario vs Nonoy Dasma",
+                  "streams": [
+                    {
+                      "id": "st-e144cc9724",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e144cc9724",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8416/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "\"Trong những hình xăm khắc dấu thời gianTao đã lưu lại năm tháng hoang tàn",
+            "team_a": "Anthony Rosario",
+            "team_b": "Nonoy Dasma",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790608300676_%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202026-07-07%20214239.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "22:00:00",
+            "date": "28/09",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790607600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e144cc9724_3cb4c495_20260928.png?v=3cb4c495",
             "width": 1600,
             "height": 1200
           }
