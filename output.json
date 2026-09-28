@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-272d2ccbad",
-          "name": "THÀNH NAM vs AN NHIỆT | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-272d2ccbad",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-272d2ccbad",
-                  "name": "THÀNH NAM vs AN NHIỆT",
-                  "streams": [
-                    {
-                      "id": "st-272d2ccbad",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-272d2ccbad",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8401/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vn",
-            "team_a": "THÀNH NAM",
-            "team_b": "AN NHIỆT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "14:14:00",
-            "date": "28/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790579640,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-272d2ccbad_372eb859_20260928.png?v=372eb859",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ee6c991c26",
-          "name": "Skyler Woodward vs Olivér Szolnoki | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ee6c991c26",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ee6c991c26",
-                  "name": "Skyler Woodward vs Olivér Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-ee6c991c26",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee6c991c26",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8399/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Skyler Woodward",
-            "team_b": "Olivér Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564306052_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790564303113_Oliv%C3%A9r%20SZOLNOKI.jpg",
-            "time": "15:00:00",
-            "date": "28/09",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1790582400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ee6c991c26_982ae97a_20260928.png?v=982ae97a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a914d25c58",
           "name": "Jeffrey De Luna vs Satoshi Kawabata | Tào A Man",
@@ -304,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c1f48ea68_c2bcf244_20260928.png?v=c2bcf244",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ee6c991c26",
+          "name": "Skyler Woodward vs Olivér Szolnoki | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee6c991c26",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ee6c991c26",
+                  "name": "Skyler Woodward vs Olivér Szolnoki",
+                  "streams": [
+                    {
+                      "id": "st-ee6c991c26",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee6c991c26",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8399/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 ( -_•)▄︻━一💥Đơn Nam",
+            "team_a": "Skyler Woodward",
+            "team_b": "Olivér Szolnoki",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790564306052_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790564303113_Oliv%C3%A9r%20SZOLNOKI.jpg",
+            "time": "15:00:00",
+            "date": "28/09",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790582400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ee6c991c26_982ae97a_20260928.png?v=982ae97a",
             "width": 1600,
             "height": 1200
           }
