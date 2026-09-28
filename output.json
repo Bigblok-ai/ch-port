@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e144cc9724",
-          "name": "Anthony Rosario vs Nonoy Dasma | Tào A Man",
+          "id": "chtv-b4c7ae86a9",
+          "name": "Francisco Sanchez Ruiz vs Lee Van Corteza | 08:00 29/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-e144cc9724",
+              "id": "src-b4c7ae86a9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e144cc9724",
-                  "name": "Anthony Rosario vs Nonoy Dasma",
+                  "id": "ct-b4c7ae86a9",
+                  "name": "Francisco Sanchez Ruiz vs Lee Van Corteza",
                   "streams": [
                     {
-                      "id": "st-e144cc9724",
+                      "id": "st-b4c7ae86a9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e144cc9724",
-                          "name": "Tào A Man",
+                          "id": "lnk-b4c7ae86a9",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8416/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8451/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "\"Trong những hình xăm khắc dấu thời gianTao đã lưu lại năm tháng hoang tàn",
-            "team_a": "Anthony Rosario",
-            "team_b": "Nonoy Dasma",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790608300676_%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202026-07-07%20214239.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "22:00:00",
-            "date": "28/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790607600,
+            "league": "TV1  ( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Francisco Sanchez Ruiz",
+            "team_b": "Lee Van Corteza",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790635235943_Lee%20Van%20Corteza.jpg",
+            "time": "08:00:00",
+            "date": "29/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790643600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e144cc9724_3cb4c495_20260929.png?v=3cb4c495",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b4c7ae86a9_4b580e30_20260929.png?v=4b580e30",
             "width": 1600,
             "height": 1200
           }
