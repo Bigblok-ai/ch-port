@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -164,16 +164,16 @@
         },
         {
           "id": "chtv-d40b9026d9",
-          "name": "WPA Spain Men vs WPA Canada Men | 16:29 29/09 | Kèn Kèn",
+          "name": "WPA Spain Men vs WPA Canada Men | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +222,7 @@
             "time": "16:29:00",
             "date": "29/09",
             "blv": "Kèn Kèn",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1790674140,
             "cate_type": "billiards"
           },
@@ -236,90 +236,17 @@
           }
         },
         {
-          "id": "chtv-1af34c2511",
-          "name": "WPA Chinese Taipei Men vs WPA Austria Men | 16:30 29/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1af34c2511",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1af34c2511",
-                  "name": "WPA Chinese Taipei Men vs WPA Austria Men",
-                  "streams": [
-                    {
-                      "id": "st-1af34c2511",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1af34c2511",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8473/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  ▄︻デ𝒜ℛℐℱ━一💥 nhánh win",
-            "team_a": "WPA Chinese Taipei Men",
-            "team_b": "WPA Austria Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790639951685_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790640002190_Albin%20Ouschan.jpg",
-            "time": "16:30:00",
-            "date": "29/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790674200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1af34c2511_b89b1a24_20260929.png?v=b89b1a24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9b3c35e2f6",
-          "name": "WPA Greece Men vs WPA USA Men | 16:30 29/09 | BÚN CHÓ",
+          "name": "WPA Greece Men vs WPA USA Men | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -368,7 +295,7 @@
             "time": "16:30:00",
             "date": "29/09",
             "blv": "BÚN CHÓ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1790674200,
             "cate_type": "billiards"
           },
