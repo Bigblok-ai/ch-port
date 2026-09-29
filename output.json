@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-29f50a46bb",
-          "name": "WPA Iraq Men vs WPA Indonesia Men | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-29f50a46bb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-29f50a46bb",
-                  "name": "WPA Iraq Men vs WPA Indonesia Men",
-                  "streams": [
-                    {
-                      "id": "st-29f50a46bb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-29f50a46bb",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8467/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥 nhánh thua",
-            "team_a": "WPA Iraq Men",
-            "team_b": "WPA Indonesia Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790639211732_MOHAMMAD%20SOUFI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790639228427_ALBERT%20JANUARTA.jpg",
-            "time": "14:40:00",
-            "date": "29/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790667600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-29f50a46bb_664ed3eb_20260929.png?v=664ed3eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d40b9026d9",
           "name": "WPA Spain Men vs WPA Canada Men | Kèn Kèn",
@@ -163,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-9b3c35e2f6",
-          "name": "WPA Greece Men vs WPA USA Men | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b3c35e2f6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9b3c35e2f6",
-                  "name": "WPA Greece Men vs WPA USA Men",
-                  "streams": [
-                    {
-                      "id": "st-9b3c35e2f6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b3c35e2f6",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8472/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 nhánh win",
-            "team_a": "WPA Greece Men",
-            "team_b": "WPA USA Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790639828330_Alex%20Kazakis.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790639845456_Shane%20Van%20Boening.jpg",
-            "time": "16:30:00",
-            "date": "29/09",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "time_sort": 1790674200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9b3c35e2f6_5e31980e_20260929.png?v=5e31980e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1af34c2511",
           "name": "WPA Chinese Taipei Men vs WPA Austria Men | Bỉm Sữa",
           "type": "single",
@@ -304,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1af34c2511_b89b1a24_20260929.png?v=b89b1a24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9b3c35e2f6",
+          "name": "WPA Greece Men vs WPA USA Men | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b3c35e2f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9b3c35e2f6",
+                  "name": "WPA Greece Men vs WPA USA Men",
+                  "streams": [
+                    {
+                      "id": "st-9b3c35e2f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b3c35e2f6",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8472/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 nhánh win",
+            "team_a": "WPA Greece Men",
+            "team_b": "WPA USA Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790639828330_Alex%20Kazakis.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790639845456_Shane%20Van%20Boening.jpg",
+            "time": "16:30:00",
+            "date": "29/09",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "time_sort": 1790674200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9b3c35e2f6_5e31980e_20260929.png?v=5e31980e",
             "width": 1600,
             "height": 1200
           }
