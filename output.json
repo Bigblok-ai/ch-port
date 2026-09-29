@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-f9450dc59c",
-          "name": "PBS WPA Estonia Men vs PBS WPA Philippines Men | Xinh Yeu",
+          "id": "chtv-b3efb76273",
+          "name": "PBS WPA Indonesia Men vs PBS WPA Greece Men | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-f9450dc59c",
+              "id": "src-b3efb76273",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f9450dc59c",
-                  "name": "PBS WPA Estonia Men vs PBS WPA Philippines Men",
+                  "id": "ct-b3efb76273",
+                  "name": "PBS WPA Indonesia Men vs PBS WPA Greece Men",
                   "streams": [
                     {
-                      "id": "st-f9450dc59c",
+                      "id": "st-b3efb76273",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f9450dc59c",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-b3efb76273",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8479/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8480/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥",
-            "team_a": "PBS WPA Estonia Men",
-            "team_b": "PBS WPA Philippines Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790682697660_Screenshot%202026-09-29%20185135.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790682697265_Screenshot%202026-09-29%20185104.png",
+            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥",
+            "team_a": "PBS WPA Indonesia Men",
+            "team_b": "PBS WPA Greece Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790682876426_Screenshot%202026-09-29%20184411.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790682898291_Screenshot%202026-09-29%20185458.png",
             "time": "19:30:00",
             "date": "29/09",
-            "blv": "Xinh Yeu",
+            "blv": "Bỉm Sữa",
             "is_live": true,
             "time_sort": 1790685000,
             "cate_type": "billiards"
@@ -157,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9450dc59c_fbfed0a2_20260929.png?v=fbfed0a2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b3efb76273_b4e4f3e5_20260929.png?v=b4e4f3e5",
             "width": 1600,
             "height": 1200
           }
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f70a851eb2_d5d2c19a_20260929.png?v=d5d2c19a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f9450dc59c",
+          "name": "PBS WPA Estonia Men vs PBS WPA Philippines Men | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9450dc59c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f9450dc59c",
+                  "name": "PBS WPA Estonia Men vs PBS WPA Philippines Men",
+                  "streams": [
+                    {
+                      "id": "st-f9450dc59c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9450dc59c",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8479/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥",
+            "team_a": "PBS WPA Estonia Men",
+            "team_b": "PBS WPA Philippines Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790682697660_Screenshot%202026-09-29%20185135.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790682697265_Screenshot%202026-09-29%20185104.png",
+            "time": "19:30:00",
+            "date": "29/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790685000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9450dc59c_fbfed0a2_20260929.png?v=fbfed0a2",
             "width": 1600,
             "height": 1200
           }
