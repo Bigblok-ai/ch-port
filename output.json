@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-205d59ce06",
-          "name": "WPA Kuwait Men vs WPA Vietnam Men | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-205d59ce06",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-205d59ce06",
-                  "name": "WPA Kuwait Men vs WPA Vietnam Men",
-                  "streams": [
-                    {
-                      "id": "st-205d59ce06",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-205d59ce06",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8468/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 nhánh thua",
-            "team_a": "WPA Kuwait Men",
-            "team_b": "WPA Vietnam Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790639311518_BADER%20ALAWADHI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "time": "14:29:00",
-            "date": "29/09",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790666940,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-205d59ce06_5a51b55f_20260929.png?v=5a51b55f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-29f50a46bb",
           "name": "WPA Iraq Men vs WPA Indonesia Men | Thập Cẩm",
