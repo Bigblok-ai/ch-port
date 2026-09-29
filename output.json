@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-be22406512",
-          "name": "Olivia Cheng vs Silviana Lu | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be22406512",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-be22406512",
-                  "name": "Olivia Cheng vs Silviana Lu",
-                  "streams": [
-                    {
-                      "id": "st-be22406512",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be22406512",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8465/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Olivia Cheng",
-            "team_b": "Silviana Lu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765779193602_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790637772589_SILVIANA%20LU.jpg",
-            "time": "12:00:00",
-            "date": "29/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790658000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-be22406512_2195ea9a_20260929.png?v=2195ea9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-43e771d37e",
-          "name": "Diana Khodjaeva vs Rubilen Amit | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43e771d37e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-43e771d37e",
-                  "name": "Diana Khodjaeva vs Rubilen Amit",
-                  "streams": [
-                    {
-                      "id": "st-43e771d37e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43e771d37e",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8463/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Diana Khodjaeva",
-            "team_b": "Rubilen Amit",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790637558016_Diana%20Khodjaeva.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790637571063_Rubilen%20Amit.jpg",
-            "time": "12:00:00",
-            "date": "29/09",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "time_sort": 1790658000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43e771d37e_2879894e_20260929.png?v=2879894e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d493010956",
           "name": "Enjelika Fitri vs Margarita Fefilova | Tào A Man",
@@ -231,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d493010956_615ece3b_20260929.png?v=615ece3b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-be22406512",
+          "name": "Olivia Cheng vs Silviana Lu | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be22406512",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-be22406512",
+                  "name": "Olivia Cheng vs Silviana Lu",
+                  "streams": [
+                    {
+                      "id": "st-be22406512",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be22406512",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8465/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Olivia Cheng",
+            "team_b": "Silviana Lu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765779193602_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790637772589_SILVIANA%20LU.jpg",
+            "time": "12:00:00",
+            "date": "29/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790658000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-be22406512_2195ea9a_20260929.png?v=2195ea9a",
             "width": 1600,
             "height": 1200
           }
