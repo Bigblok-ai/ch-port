@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-fe14a91ce0",
-          "name": "Albert Januarta vs H Sihombing | Thập Cẩm",
+          "id": "chtv-be22406512",
+          "name": "Olivia Cheng vs Silviana Lu | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-fe14a91ce0",
+              "id": "src-be22406512",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fe14a91ce0",
-                  "name": "Albert Januarta vs H Sihombing",
+                  "id": "ct-be22406512",
+                  "name": "Olivia Cheng vs Silviana Lu",
                   "streams": [
                     {
-                      "id": "st-fe14a91ce0",
+                      "id": "st-be22406512",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fe14a91ce0",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-be22406512",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8460/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8465/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3  ( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Albert Januarta",
-            "team_b": "H Sihombing",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790636856370_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777938473289_photo_2026-05-04_02-06-38.jpg",
-            "time": "10:05:00",
+            "league": "TV4  Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Olivia Cheng",
+            "team_b": "Silviana Lu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765779193602_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790637772589_SILVIANA%20LU.jpg",
+            "time": "12:00:00",
             "date": "29/09",
-            "blv": "Thập Cẩm",
+            "blv": "Kèn Kèn",
             "is_live": true,
-            "time_sort": 1790651100,
+            "time_sort": 1790658000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fe14a91ce0_c885379b_20260929.png?v=c885379b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-be22406512_2195ea9a_20260929.png?v=2195ea9a",
             "width": 1600,
             "height": 1200
           }
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43e771d37e_2879894e_20260929.png?v=2879894e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-be22406512",
-          "name": "Olivia Cheng vs Silviana Lu | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be22406512",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-be22406512",
-                  "name": "Olivia Cheng vs Silviana Lu",
-                  "streams": [
-                    {
-                      "id": "st-be22406512",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be22406512",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8465/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Olivia Cheng",
-            "team_b": "Silviana Lu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765779193602_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790637772589_SILVIANA%20LU.jpg",
-            "time": "12:00:00",
-            "date": "29/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790658000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-be22406512_2195ea9a_20260929.png?v=2195ea9a",
             "width": 1600,
             "height": 1200
           }
@@ -455,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-b09e9e9f64",
-          "name": "WPA Japan Men vs WPA China Men | 14:30 29/09 | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b09e9e9f64",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b09e9e9f64",
-                  "name": "WPA Japan Men vs WPA China Men",
-                  "streams": [
-                    {
-                      "id": "st-b09e9e9f64",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b09e9e9f64",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8471/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥 nhánh thua đóng muộn",
-            "team_a": "WPA Japan Men",
-            "team_b": "WPA China Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790639541349_NAOYUKI%20OI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790639536358_Mi%20Le.png",
-            "time": "14:30:00",
-            "date": "29/09",
-            "blv": "Xinh Yeu",
-            "is_live": false,
-            "time_sort": 1790667000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b09e9e9f64_234725ee_20260929.png?v=234725ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-59cbc2d183",
           "name": "WPA Kuwait Men vs WPA Vietnam Men | 14:30 29/09",
           "type": "single",
@@ -596,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-59cbc2d183_a8d422d2_20260929.png?v=a8d422d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b09e9e9f64",
+          "name": "WPA Japan Men vs WPA China Men | 14:30 29/09 | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b09e9e9f64",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b09e9e9f64",
+                  "name": "WPA Japan Men vs WPA China Men",
+                  "streams": [
+                    {
+                      "id": "st-b09e9e9f64",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b09e9e9f64",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8471/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥 nhánh thua đóng muộn",
+            "team_a": "WPA Japan Men",
+            "team_b": "WPA China Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790639541349_NAOYUKI%20OI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790639536358_Mi%20Le.png",
+            "time": "14:30:00",
+            "date": "29/09",
+            "blv": "Xinh Yeu",
+            "is_live": false,
+            "time_sort": 1790667000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b09e9e9f64_234725ee_20260929.png?v=234725ee",
             "width": 1600,
             "height": 1200
           }
@@ -820,79 +747,6 @@
           }
         },
         {
-          "id": "chtv-1af34c2511",
-          "name": "WPA Chinese Taipei Men vs WPA Austria Men | 16:30 29/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1af34c2511",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1af34c2511",
-                  "name": "WPA Chinese Taipei Men vs WPA Austria Men",
-                  "streams": [
-                    {
-                      "id": "st-1af34c2511",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1af34c2511",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8473/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  ▄︻デ𝒜ℛℐℱ━一💥 nhánh win",
-            "team_a": "WPA Chinese Taipei Men",
-            "team_b": "WPA Austria Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790639951685_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790640002190_Albin%20Ouschan.jpg",
-            "time": "16:30:00",
-            "date": "29/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790674200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1af34c2511_b89b1a24_20260929.png?v=b89b1a24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9b3c35e2f6",
           "name": "WPA Greece Men vs WPA USA Men | 16:30 29/09 | Lee Min Hoo",
           "type": "single",
@@ -961,6 +815,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9b3c35e2f6_5e31980e_20260929.png?v=5e31980e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1af34c2511",
+          "name": "WPA Chinese Taipei Men vs WPA Austria Men | 16:30 29/09 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1af34c2511",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1af34c2511",
+                  "name": "WPA Chinese Taipei Men vs WPA Austria Men",
+                  "streams": [
+                    {
+                      "id": "st-1af34c2511",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1af34c2511",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8473/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  ▄︻デ𝒜ℛℐℱ━一💥 nhánh win",
+            "team_a": "WPA Chinese Taipei Men",
+            "team_b": "WPA Austria Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790639951685_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790640002190_Albin%20Ouschan.jpg",
+            "time": "16:30:00",
+            "date": "29/09",
+            "blv": "Bỉm Sữa",
+            "is_live": false,
+            "time_sort": 1790674200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1af34c2511_b89b1a24_20260929.png?v=b89b1a24",
             "width": 1600,
             "height": 1200
           }
