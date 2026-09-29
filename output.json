@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b4c7ae86a9",
-          "name": "Francisco Sanchez Ruiz vs Lee Van Corteza | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4c7ae86a9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b4c7ae86a9",
-                  "name": "Francisco Sanchez Ruiz vs Lee Van Corteza",
-                  "streams": [
-                    {
-                      "id": "st-b4c7ae86a9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b4c7ae86a9",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8451/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1  ( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Francisco Sanchez Ruiz",
-            "team_b": "Lee Van Corteza",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790635235943_Lee%20Van%20Corteza.jpg",
-            "time": "08:00:00",
-            "date": "29/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790643600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b4c7ae86a9_4b580e30_20260929.png?v=4b580e30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f3f6863a71",
           "name": "Carlo Biado vs Meshal Turki | Lee Min Hoo",
@@ -236,17 +163,90 @@
           }
         },
         {
-          "id": "chtv-96e825a70b",
-          "name": "Dominik Jastrząb vs Joshua Filler | 10:10 29/09 | GIÀNG A PHỌ",
+          "id": "chtv-fe14a91ce0",
+          "name": "Albert Januarta vs H Sihombing | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe14a91ce0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fe14a91ce0",
+                  "name": "Albert Januarta vs H Sihombing",
+                  "streams": [
+                    {
+                      "id": "st-fe14a91ce0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe14a91ce0",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8460/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  ( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Albert Januarta",
+            "team_b": "H Sihombing",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790636856370_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777938473289_photo_2026-05-04_02-06-38.jpg",
+            "time": "10:05:00",
+            "date": "29/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790651100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fe14a91ce0_c885379b_20260929.png?v=c885379b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-96e825a70b",
+          "name": "Dominik Jastrząb vs Joshua Filler | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +295,7 @@
             "time": "10:10:00",
             "date": "29/09",
             "blv": "GIÀNG A PHỌ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1790651400,
             "cate_type": "billiards"
           },
@@ -382,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-43e771d37e",
-          "name": "Diana Khodjaeva vs Rubilen Amit | 12:00 29/09 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43e771d37e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-43e771d37e",
-                  "name": "Diana Khodjaeva vs Rubilen Amit",
-                  "streams": [
-                    {
-                      "id": "st-43e771d37e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43e771d37e",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8463/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Diana Khodjaeva",
-            "team_b": "Rubilen Amit",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790637558016_Diana%20Khodjaeva.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790637571063_Rubilen%20Amit.jpg",
-            "time": "12:00:00",
-            "date": "29/09",
-            "blv": "BÚN CHÓ",
-            "is_live": false,
-            "time_sort": 1790658000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43e771d37e_2879894e_20260929.png?v=2879894e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-be22406512",
           "name": "Olivia Cheng vs Silviana Lu | 12:00 29/09 | Kèn Kèn",
           "type": "single",
@@ -523,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-be22406512_2195ea9a_20260929.png?v=2195ea9a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-43e771d37e",
+          "name": "Diana Khodjaeva vs Rubilen Amit | 12:00 29/09 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43e771d37e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-43e771d37e",
+                  "name": "Diana Khodjaeva vs Rubilen Amit",
+                  "streams": [
+                    {
+                      "id": "st-43e771d37e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43e771d37e",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8463/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Diana Khodjaeva",
+            "team_b": "Rubilen Amit",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790637558016_Diana%20Khodjaeva.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790637571063_Rubilen%20Amit.jpg",
+            "time": "12:00:00",
+            "date": "29/09",
+            "blv": "BÚN CHÓ",
+            "is_live": false,
+            "time_sort": 1790658000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43e771d37e_2879894e_20260929.png?v=2879894e",
             "width": 1600,
             "height": 1200
           }
@@ -674,79 +674,6 @@
           }
         },
         {
-          "id": "chtv-59cbc2d183",
-          "name": "WPA Kuwait Men vs WPA Vietnam Men | 14:30 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59cbc2d183",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-59cbc2d183",
-                  "name": "WPA Kuwait Men vs WPA Vietnam Men",
-                  "streams": [
-                    {
-                      "id": "st-59cbc2d183",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59cbc2d183",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8470/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 nhánh thua đóng muộn",
-            "team_a": "WPA Kuwait Men",
-            "team_b": "WPA Vietnam Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790639481018_BADER%20ALAWADHI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "time": "14:30:00",
-            "date": "29/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790667000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-59cbc2d183_a8d422d2_20260929.png?v=a8d422d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b09e9e9f64",
           "name": "WPA Japan Men vs WPA China Men | 14:30 29/09 | Xinh Yeu",
           "type": "single",
@@ -815,6 +742,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b09e9e9f64_234725ee_20260929.png?v=234725ee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-59cbc2d183",
+          "name": "WPA Kuwait Men vs WPA Vietnam Men | 14:30 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59cbc2d183",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-59cbc2d183",
+                  "name": "WPA Kuwait Men vs WPA Vietnam Men",
+                  "streams": [
+                    {
+                      "id": "st-59cbc2d183",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-59cbc2d183",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8470/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 nhánh thua đóng muộn",
+            "team_a": "WPA Kuwait Men",
+            "team_b": "WPA Vietnam Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790639481018_BADER%20ALAWADHI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "time": "14:30:00",
+            "date": "29/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790667000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-59cbc2d183_a8d422d2_20260929.png?v=a8d422d2",
             "width": 1600,
             "height": 1200
           }
