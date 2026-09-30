@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,6 +90,152 @@
           }
         },
         {
+          "id": "chtv-b1026f210c",
+          "name": "Margarita Fefilova vs Han Yu | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1026f210c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b1026f210c",
+                  "name": "Margarita Fefilova vs Han Yu",
+                  "streams": [
+                    {
+                      "id": "st-b1026f210c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1026f210c",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8497/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Margarita Fefilova",
+            "team_b": "Han Yu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790727224568_Margarita%20Fefilova.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790727227054_Han%20Yu.jpg",
+            "time": "13:00:00",
+            "date": "30/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790748000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1026f210c_86bf4a28_20260930.png?v=86bf4a28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-26068f51ce",
+          "name": "Harin Lee vs Jasmin Ouschan | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26068f51ce",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-26068f51ce",
+                  "name": "Harin Lee vs Jasmin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-26068f51ce",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-26068f51ce",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8499/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Harin Lee",
+            "team_b": "Jasmin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790727502028_Harin%20Lee.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790727499052_Jasmin%20Ouschan.jpg",
+            "time": "13:00:00",
+            "date": "30/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790748000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-26068f51ce_ded01d1a_20260930.png?v=ded01d1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-cfad8fe457",
           "name": "Tạ Phương Nam vs Mario He | 14:59 30/09",
           "type": "single",
@@ -158,6 +304,225 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cfad8fe457_8ed1fbaa_20260930.png?v=8ed1fbaa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1342e5a7e5",
+          "name": "Bader Alawadhi vs Jeffrey De Luna | 15:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1342e5a7e5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1342e5a7e5",
+                  "name": "Bader Alawadhi vs Jeffrey De Luna",
+                  "streams": [
+                    {
+                      "id": "st-1342e5a7e5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1342e5a7e5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8506/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 Thắng nam đóng muộn",
+            "team_a": "Bader Alawadhi",
+            "team_b": "Jeffrey De Luna",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790732665075_BADER%20ALAWADHI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790732668184_JEFFREY%20DE%20LUNA.jpg",
+            "time": "15:00:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790755200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1342e5a7e5_080d62d3_20260930.png?v=080d62d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cd48124c32",
+          "name": "Bader Alawadhi vs Jeffrey De Luna | 15:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd48124c32",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cd48124c32",
+                  "name": "Bader Alawadhi vs Jeffrey De Luna",
+                  "streams": [
+                    {
+                      "id": "st-cd48124c32",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd48124c32",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8505/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 Thắng nam",
+            "team_a": "Bader Alawadhi",
+            "team_b": "Jeffrey De Luna",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790732533377_BADER%20ALAWADHI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790732536499_JEFFREY%20DE%20LUNA.jpg",
+            "time": "15:00:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790755200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd48124c32_833a4734_20260930.png?v=833a4734",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-424b0e64cf",
+          "name": "Tạ Phương Nam vs Mario He | 15:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-424b0e64cf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-424b0e64cf",
+                  "name": "Tạ Phương Nam vs Mario He",
+                  "streams": [
+                    {
+                      "id": "st-424b0e64cf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-424b0e64cf",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8508/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥 Thắng nam",
+            "team_a": "Tạ Phương Nam",
+            "team_b": "Mario He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790732839872_Mario%20He.jpg",
+            "time": "15:00:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790755200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-424b0e64cf_b6f064a2_20260930.png?v=b6f064a2",
             "width": 1600,
             "height": 1200
           }
@@ -382,8 +747,8 @@
           }
         },
         {
-          "id": "chtv-cd48124c32",
-          "name": "Bader Alawadhi vs Jeffrey De Luna | 15:00 30/09",
+          "id": "chtv-3420ecb4bf",
+          "name": "Kristina Tkach vs Venus Lim | 17:00 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +762,23 @@
           ],
           "sources": [
             {
-              "id": "src-cd48124c32",
+              "id": "src-3420ecb4bf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-cd48124c32",
-                  "name": "Bader Alawadhi vs Jeffrey De Luna",
+                  "id": "ct-3420ecb4bf",
+                  "name": "Kristina Tkach vs Venus Lim",
                   "streams": [
                     {
-                      "id": "st-cd48124c32",
+                      "id": "st-3420ecb4bf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-cd48124c32",
+                          "id": "lnk-3420ecb4bf",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8505/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8511/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -433,230 +798,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 Thắng nam",
-            "team_a": "Bader Alawadhi",
-            "team_b": "Jeffrey De Luna",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790732533377_BADER%20ALAWADHI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790732536499_JEFFREY%20DE%20LUNA.jpg",
-            "time": "15:00:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790755200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd48124c32_833a4734_20260930.png?v=833a4734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1342e5a7e5",
-          "name": "Bader Alawadhi vs Jeffrey De Luna | 15:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1342e5a7e5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1342e5a7e5",
-                  "name": "Bader Alawadhi vs Jeffrey De Luna",
-                  "streams": [
-                    {
-                      "id": "st-1342e5a7e5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1342e5a7e5",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8506/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 Thắng nam đóng muộn",
-            "team_a": "Bader Alawadhi",
-            "team_b": "Jeffrey De Luna",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790732665075_BADER%20ALAWADHI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790732668184_JEFFREY%20DE%20LUNA.jpg",
-            "time": "15:00:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790755200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1342e5a7e5_080d62d3_20260930.png?v=080d62d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-424b0e64cf",
-          "name": "Tạ Phương Nam vs Mario He | 15:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-424b0e64cf",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-424b0e64cf",
-                  "name": "Tạ Phương Nam vs Mario He",
-                  "streams": [
-                    {
-                      "id": "st-424b0e64cf",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-424b0e64cf",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8508/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥 Thắng nam",
-            "team_a": "Tạ Phương Nam",
-            "team_b": "Mario He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790732839872_Mario%20He.jpg",
-            "time": "15:00:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790755200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-424b0e64cf_b6f064a2_20260930.png?v=b6f064a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4d883253d8",
-          "name": "Seoa Seo vs Chia-Chia Chou | 17:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d883253d8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4d883253d8",
-                  "name": "Seoa Seo vs Chia-Chia Chou",
-                  "streams": [
-                    {
-                      "id": "st-4d883253d8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d883253d8",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Seoa Seo",
-            "team_b": "Chia-Chia Chou",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
+            "league": "TV2 Ƹ̴Ӂ̴Ʒ nhánh thắng",
+            "team_a": "Kristina Tkach",
+            "team_b": "Venus Lim",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733119101_Kristina%20Tkach.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733115966_Venus%20Lim.jpg",
             "time": "17:00:00",
             "date": "30/09",
             "blv": "",
@@ -668,7 +814,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3420ecb4bf_9828f2eb_20260930.png?v=9828f2eb",
             "width": 1600,
             "height": 1200
           }
@@ -820,8 +966,8 @@
           }
         },
         {
-          "id": "chtv-3420ecb4bf",
-          "name": "Kristina Tkach vs Venus Lim | 17:00 30/09",
+          "id": "chtv-4d883253d8",
+          "name": "Seoa Seo vs Chia-Chia Chou | 17:00 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -835,23 +981,23 @@
           ],
           "sources": [
             {
-              "id": "src-3420ecb4bf",
+              "id": "src-4d883253d8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3420ecb4bf",
-                  "name": "Kristina Tkach vs Venus Lim",
+                  "id": "ct-4d883253d8",
+                  "name": "Seoa Seo vs Chia-Chia Chou",
                   "streams": [
                     {
-                      "id": "st-3420ecb4bf",
+                      "id": "st-4d883253d8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3420ecb4bf",
+                          "id": "lnk-4d883253d8",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8511/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -871,11 +1017,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Kristina Tkach",
-            "team_b": "Venus Lim",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733119101_Kristina%20Tkach.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733115966_Venus%20Lim.jpg",
+            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
+            "team_a": "Seoa Seo",
+            "team_b": "Chia-Chia Chou",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
             "time": "17:00:00",
             "date": "30/09",
             "blv": "",
@@ -887,7 +1033,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3420ecb4bf_9828f2eb_20260930.png?v=9828f2eb",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
             "width": 1600,
             "height": 1200
           }
