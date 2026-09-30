@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-496eeb4df8_4f1a8b44_20260930.png?v=4f1a8b44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ca090b7680",
+          "name": "WPA Germany Men vs WPA Poland Men | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca090b7680",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ca090b7680",
+                  "name": "WPA Germany Men vs WPA Poland Men",
+                  "streams": [
+                    {
+                      "id": "st-ca090b7680",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ca090b7680",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8516/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
+            "team_a": "WPA Germany Men",
+            "team_b": "WPA Poland Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790738143760_Joshua%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790738162033_Wojciech%20Szewczyk.jpg",
+            "time": "19:30:00",
+            "date": "30/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790771400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ca090b7680_653c7b47_20260930.png?v=653c7b47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-059d349516",
+          "name": "WPA Singapore Men vs WPA Vietnam Men | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-059d349516",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-059d349516",
+                  "name": "WPA Singapore Men vs WPA Vietnam Men",
+                  "streams": [
+                    {
+                      "id": "st-059d349516",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-059d349516",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8517/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
+            "team_a": "WPA Singapore Men",
+            "team_b": "WPA Vietnam Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790738237171_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "time": "19:30:00",
+            "date": "30/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790771400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-059d349516_61a39fcd_20260930.png?v=61a39fcd",
             "width": 1600,
             "height": 1200
           }
