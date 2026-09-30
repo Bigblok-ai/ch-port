@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,38 +90,38 @@
           }
         },
         {
-          "id": "chtv-4d883253d8",
-          "name": "Seoa Seo vs Chia-Chia Chou | Thập Cẩm",
+          "id": "chtv-059d349516",
+          "name": "WPA Singapore Men vs WPA Vietnam Men | 19:30 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-4d883253d8",
+              "id": "src-059d349516",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4d883253d8",
-                  "name": "Seoa Seo vs Chia-Chia Chou",
+                  "id": "ct-059d349516",
+                  "name": "WPA Singapore Men vs WPA Vietnam Men",
                   "streams": [
                     {
-                      "id": "st-4d883253d8",
+                      "id": "st-059d349516",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4d883253d8",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-059d349516",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8517/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +141,23 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Seoa Seo",
-            "team_b": "Chia-Chia Chou",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
-            "time": "17:00:00",
+            "league": "TV4  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
+            "team_a": "WPA Singapore Men",
+            "team_b": "WPA Vietnam Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790738237171_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "time": "19:30:00",
             "date": "30/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790762400,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790771400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-059d349516_61a39fcd_20260930.png?v=61a39fcd",
             "width": 1600,
             "height": 1200
           }
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d83cffaeef_36e6614c_20260930.png?v=36e6614c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-059d349516",
-          "name": "WPA Singapore Men vs WPA Vietnam Men | 19:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-059d349516",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-059d349516",
-                  "name": "WPA Singapore Men vs WPA Vietnam Men",
-                  "streams": [
-                    {
-                      "id": "st-059d349516",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-059d349516",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8517/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
-            "team_a": "WPA Singapore Men",
-            "team_b": "WPA Vietnam Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790738237171_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "time": "19:30:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790771400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-059d349516_61a39fcd_20260930.png?v=61a39fcd",
             "width": 1600,
             "height": 1200
           }
