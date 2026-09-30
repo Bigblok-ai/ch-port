@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-4600c87650",
+          "name": "Roland Garcia vs Derin Asaku Sitorus | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4600c87650",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4600c87650",
+                  "name": "Roland Garcia vs Derin Asaku Sitorus",
+                  "streams": [
+                    {
+                      "id": "st-4600c87650",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4600c87650",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8489/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
+            "team_a": "Roland Garcia",
+            "team_b": "Derin Asaku Sitorus",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790724834904_Roland%20Garcia.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790724837691_DERIN%20ASAKU%20SITORUS.jpg",
+            "time": "08:00:00",
+            "date": "30/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790730000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4600c87650_77527d61_20260930.png?v=77527d61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6e4a771579",
           "name": "John Morra vs Sanjin Pehlivanovic | Tào A Man",
           "type": "single",
@@ -231,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-af0dc2184c_c45aa141_20260930.png?v=c45aa141",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4600c87650",
-          "name": "Roland Garcia vs Derin Asaku Sitorus | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4600c87650",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4600c87650",
-                  "name": "Roland Garcia vs Derin Asaku Sitorus",
-                  "streams": [
-                    {
-                      "id": "st-4600c87650",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4600c87650",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8489/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
-            "team_a": "Roland Garcia",
-            "team_b": "Derin Asaku Sitorus",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790724834904_Roland%20Garcia.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790724837691_DERIN%20ASAKU%20SITORUS.jpg",
-            "time": "08:00:00",
-            "date": "30/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790730000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4600c87650_77527d61_20260930.png?v=77527d61",
             "width": 1600,
             "height": 1200
           }
@@ -601,152 +601,6 @@
           }
         },
         {
-          "id": "chtv-a8fe888728",
-          "name": "Zhang Muyan vs Soledad Ayala | 13:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8fe888728",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a8fe888728",
-                  "name": "Zhang Muyan vs Soledad Ayala",
-                  "streams": [
-                    {
-                      "id": "st-a8fe888728",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8fe888728",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8500/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Zhang Muyan",
-            "team_b": "Soledad Ayala",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790727652085_Zhang%20Muyan.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638102718_HUY%20TR%C3%82U.jpg",
-            "time": "13:00:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790748000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a8fe888728_5445e5c1_20260930.png?v=5445e5c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-26068f51ce",
-          "name": "Harin Lee vs Jasmin Ouschan | 13:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26068f51ce",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-26068f51ce",
-                  "name": "Harin Lee vs Jasmin Ouschan",
-                  "streams": [
-                    {
-                      "id": "st-26068f51ce",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26068f51ce",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8499/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Harin Lee",
-            "team_b": "Jasmin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790727502028_Harin%20Lee.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790727499052_Jasmin%20Ouschan.jpg",
-            "time": "13:00:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790748000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-26068f51ce_ded01d1a_20260930.png?v=ded01d1a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b1026f210c",
           "name": "Margarita Fefilova vs Han Yu | 13:00 30/09",
           "type": "single",
@@ -888,6 +742,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d392e4c198_5c544777_20260930.png?v=5c544777",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a8fe888728",
+          "name": "Zhang Muyan vs Soledad Ayala | 13:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8fe888728",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a8fe888728",
+                  "name": "Zhang Muyan vs Soledad Ayala",
+                  "streams": [
+                    {
+                      "id": "st-a8fe888728",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8fe888728",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8500/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Zhang Muyan",
+            "team_b": "Soledad Ayala",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790727652085_Zhang%20Muyan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638102718_HUY%20TR%C3%82U.jpg",
+            "time": "13:00:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790748000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a8fe888728_5445e5c1_20260930.png?v=5445e5c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-26068f51ce",
+          "name": "Harin Lee vs Jasmin Ouschan | 13:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26068f51ce",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-26068f51ce",
+                  "name": "Harin Lee vs Jasmin Ouschan",
+                  "streams": [
+                    {
+                      "id": "st-26068f51ce",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-26068f51ce",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8499/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Harin Lee",
+            "team_b": "Jasmin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790727502028_Harin%20Lee.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790727499052_Jasmin%20Ouschan.jpg",
+            "time": "13:00:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790748000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-26068f51ce_ded01d1a_20260930.png?v=ded01d1a",
             "width": 1600,
             "height": 1200
           }
