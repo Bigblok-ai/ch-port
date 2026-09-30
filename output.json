@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7b859cbb7e",
-          "name": "H Sihombing vs Dominik Jastrząb | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b859cbb7e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7b859cbb7e",
-                  "name": "H Sihombing vs Dominik Jastrząb",
-                  "streams": [
-                    {
-                      "id": "st-7b859cbb7e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b859cbb7e",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8496/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
-            "team_a": "H Sihombing",
-            "team_b": "Dominik Jastrząb",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778587777808_Screenshot%202026-05-12%20190932.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "time": "10:00:00",
-            "date": "30/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790737200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b859cbb7e_9026e329_20260930.png?v=9026e329",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-171bddd1bb",
           "name": "Shane Van Boening vs Nicholas Tan | Bỉm Sữa",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-b1026f210c",
-          "name": "Margarita Fefilova vs Han Yu | 13:00 30/09",
+          "id": "chtv-d392e4c198",
+          "name": "Silviana Lu vs Rhaki Roj Constantino | 13:00 30/09 | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-b1026f210c",
+              "id": "src-d392e4c198",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b1026f210c",
-                  "name": "Margarita Fefilova vs Han Yu",
+                  "id": "ct-d392e4c198",
+                  "name": "Silviana Lu vs Rhaki Roj Constantino",
                   "streams": [
                     {
-                      "id": "st-b1026f210c",
+                      "id": "st-d392e4c198",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b1026f210c",
-                          "name": "Stream",
+                          "id": "lnk-d392e4c198",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8497/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8498/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Margarita Fefilova",
-            "team_b": "Han Yu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790727224568_Margarita%20Fefilova.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790727227054_Han%20Yu.jpg",
+            "league": "TV2 Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Silviana Lu",
+            "team_b": "Rhaki Roj Constantino",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790727428120_SILVIANA%20LU.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "13:00:00",
             "date": "30/09",
-            "blv": "",
+            "blv": "Bỉm Sữa",
             "is_live": false,
             "time_sort": 1790748000,
             "cate_type": "billiards"
@@ -230,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1026f210c_86bf4a28_20260930.png?v=86bf4a28",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d392e4c198_5c544777_20260930.png?v=5c544777",
             "width": 1600,
             "height": 1200
           }
@@ -309,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-b1026f210c",
+          "name": "Margarita Fefilova vs Han Yu | 13:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1026f210c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b1026f210c",
+                  "name": "Margarita Fefilova vs Han Yu",
+                  "streams": [
+                    {
+                      "id": "st-b1026f210c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1026f210c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8497/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Ƹ̴Ӂ̴Ʒ nhánh thua",
+            "team_a": "Margarita Fefilova",
+            "team_b": "Han Yu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790727224568_Margarita%20Fefilova.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790727227054_Han%20Yu.jpg",
+            "time": "13:00:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790748000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1026f210c_86bf4a28_20260930.png?v=86bf4a28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a8fe888728",
           "name": "Zhang Muyan vs Soledad Ayala | 13:00 30/09 | Tào A Man",
           "type": "single",
@@ -377,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a8fe888728_5445e5c1_20260930.png?v=5445e5c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d392e4c198",
-          "name": "Silviana Lu vs Rhaki Roj Constantino | 13:00 30/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d392e4c198",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d392e4c198",
-                  "name": "Silviana Lu vs Rhaki Roj Constantino",
-                  "streams": [
-                    {
-                      "id": "st-d392e4c198",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d392e4c198",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8498/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Silviana Lu",
-            "team_b": "Rhaki Roj Constantino",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790727428120_SILVIANA%20LU.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "13:00:00",
-            "date": "30/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790748000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d392e4c198_5c544777_20260930.png?v=5c544777",
             "width": 1600,
             "height": 1200
           }
@@ -1039,6 +966,79 @@
           }
         },
         {
+          "id": "chtv-4d883253d8",
+          "name": "Seoa Seo vs Chia-Chia Chou | 17:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d883253d8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4d883253d8",
+                  "name": "Seoa Seo vs Chia-Chia Chou",
+                  "streams": [
+                    {
+                      "id": "st-4d883253d8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d883253d8",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
+            "team_a": "Seoa Seo",
+            "team_b": "Chia-Chia Chou",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
+            "time": "17:00:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790762400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3420ecb4bf",
           "name": "Kristina Tkach vs Venus Lim | 17:00 30/09",
           "type": "single",
@@ -1180,79 +1180,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-496eeb4df8_4f1a8b44_20260930.png?v=4f1a8b44",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4d883253d8",
-          "name": "Seoa Seo vs Chia-Chia Chou | 17:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d883253d8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4d883253d8",
-                  "name": "Seoa Seo vs Chia-Chia Chou",
-                  "streams": [
-                    {
-                      "id": "st-4d883253d8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d883253d8",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Seoa Seo",
-            "team_b": "Chia-Chia Chou",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
-            "time": "17:00:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790762400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
             "width": 1600,
             "height": 1200
           }
