@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-cfad8fe457",
-          "name": "Tạ Phương Nam vs Mario He | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfad8fe457",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cfad8fe457",
-                  "name": "Tạ Phương Nam vs Mario He",
-                  "streams": [
-                    {
-                      "id": "st-cfad8fe457",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cfad8fe457",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8507/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥 Thắng nam",
-            "team_a": "Tạ Phương Nam",
-            "team_b": "Mario He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790732772244_Mario%20He.jpg",
-            "time": "14:59:00",
-            "date": "30/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790755140,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cfad8fe457_8ed1fbaa_20260930.png?v=8ed1fbaa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-cd48124c32",
           "name": "Bader Alawadhi vs Jeffrey De Luna | Bỉm Sữa",
           "type": "single",
@@ -382,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-3420ecb4bf",
+          "name": "Kristina Tkach vs Venus Lim | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3420ecb4bf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3420ecb4bf",
+                  "name": "Kristina Tkach vs Venus Lim",
+                  "streams": [
+                    {
+                      "id": "st-3420ecb4bf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3420ecb4bf",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8511/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thắng",
+            "team_a": "Kristina Tkach",
+            "team_b": "Venus Lim",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733119101_Kristina%20Tkach.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733115966_Venus%20Lim.jpg",
+            "time": "17:00:00",
+            "date": "30/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790762400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3420ecb4bf_9828f2eb_20260930.png?v=9828f2eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-80b1f4d32e",
           "name": "WPA USA Men vs WPA Spain Men | 19:30 30/09",
           "type": "single",
@@ -450,6 +450,225 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-80b1f4d32e_e80d8705_20260930.png?v=e80d8705",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-becc7b568c",
+          "name": "WPA Albania Men vs WPA Philippines Men | 19:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-becc7b568c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-becc7b568c",
+                  "name": "WPA Albania Men vs WPA Philippines Men",
+                  "streams": [
+                    {
+                      "id": "st-becc7b568c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-becc7b568c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8513/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
+            "team_a": "WPA Albania Men",
+            "team_b": "WPA Philippines Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733843927_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733856705_CARLO%20BIADO.jpg",
+            "time": "19:30:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790771400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-becc7b568c_2b896be3_20260930.png?v=2b896be3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a45b10e87c",
+          "name": "WPA Albania Men vs WPA Philippines Men | 19:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a45b10e87c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a45b10e87c",
+                  "name": "WPA Albania Men vs WPA Philippines Men",
+                  "streams": [
+                    {
+                      "id": "st-a45b10e87c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a45b10e87c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8514/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội đóng muộn",
+            "team_a": "WPA Albania Men",
+            "team_b": "WPA Philippines Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733944834_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733956196_CARLO%20BIADO.jpg",
+            "time": "19:30:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790771400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a45b10e87c_c2a58f47_20260930.png?v=c2a58f47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-059d349516",
+          "name": "WPA Singapore Men vs WPA Vietnam Men | 19:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-059d349516",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-059d349516",
+                  "name": "WPA Singapore Men vs WPA Vietnam Men",
+                  "streams": [
+                    {
+                      "id": "st-059d349516",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-059d349516",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8517/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
+            "team_a": "WPA Singapore Men",
+            "team_b": "WPA Vietnam Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790738237171_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "time": "19:30:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790771400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-059d349516_61a39fcd_20260930.png?v=61a39fcd",
             "width": 1600,
             "height": 1200
           }
@@ -596,225 +815,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d83cffaeef_36e6614c_20260930.png?v=36e6614c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-059d349516",
-          "name": "WPA Singapore Men vs WPA Vietnam Men | 19:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-059d349516",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-059d349516",
-                  "name": "WPA Singapore Men vs WPA Vietnam Men",
-                  "streams": [
-                    {
-                      "id": "st-059d349516",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-059d349516",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8517/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
-            "team_a": "WPA Singapore Men",
-            "team_b": "WPA Vietnam Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790738237171_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "time": "19:30:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790771400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-059d349516_61a39fcd_20260930.png?v=61a39fcd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a45b10e87c",
-          "name": "WPA Albania Men vs WPA Philippines Men | 19:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a45b10e87c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a45b10e87c",
-                  "name": "WPA Albania Men vs WPA Philippines Men",
-                  "streams": [
-                    {
-                      "id": "st-a45b10e87c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a45b10e87c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8514/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội đóng muộn",
-            "team_a": "WPA Albania Men",
-            "team_b": "WPA Philippines Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733944834_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733956196_CARLO%20BIADO.jpg",
-            "time": "19:30:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790771400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a45b10e87c_c2a58f47_20260930.png?v=c2a58f47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-becc7b568c",
-          "name": "WPA Albania Men vs WPA Philippines Men | 19:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-becc7b568c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-becc7b568c",
-                  "name": "WPA Albania Men vs WPA Philippines Men",
-                  "streams": [
-                    {
-                      "id": "st-becc7b568c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-becc7b568c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8513/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
-            "team_a": "WPA Albania Men",
-            "team_b": "WPA Philippines Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733843927_Eklent%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733856705_CARLO%20BIADO.jpg",
-            "time": "19:30:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790771400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-becc7b568c_2b896be3_20260930.png?v=2b896be3",
             "width": 1600,
             "height": 1200
           }
