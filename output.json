@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-26068f51ce_ded01d1a_20260930.png?v=ded01d1a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a8fe888728",
-          "name": "Zhang Muyan vs Soledad Ayala | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8fe888728",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a8fe888728",
-                  "name": "Zhang Muyan vs Soledad Ayala",
-                  "streams": [
-                    {
-                      "id": "st-a8fe888728",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8fe888728",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8500/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 Ƹ̴Ӂ̴Ʒ nhánh thua",
-            "team_a": "Zhang Muyan",
-            "team_b": "Soledad Ayala",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790727652085_Zhang%20Muyan.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638102718_HUY%20TR%C3%82U.jpg",
-            "time": "13:00:00",
-            "date": "30/09",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790748000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a8fe888728_5445e5c1_20260930.png?v=5445e5c1",
             "width": 1600,
             "height": 1200
           }
@@ -893,79 +820,6 @@
           }
         },
         {
-          "id": "chtv-7358967e5c",
-          "name": "Chieh-Yu Chou vs Zhu Qing Bi | 17:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7358967e5c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7358967e5c",
-                  "name": "Chieh-Yu Chou vs Zhu Qing Bi",
-                  "streams": [
-                    {
-                      "id": "st-7358967e5c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7358967e5c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8512/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Chieh-Yu Chou",
-            "team_b": "Zhu Qing Bi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733163926_Chieh-Yu%20Chou.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "time": "17:00:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790762400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7358967e5c_1d869447_20260930.png?v=1d869447",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-496eeb4df8",
           "name": "Annita Kanjaya vs Pia Filler | 17:00 30/09",
           "type": "single",
@@ -1039,6 +893,79 @@
           }
         },
         {
+          "id": "chtv-7358967e5c",
+          "name": "Chieh-Yu Chou vs Zhu Qing Bi | 17:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7358967e5c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7358967e5c",
+                  "name": "Chieh-Yu Chou vs Zhu Qing Bi",
+                  "streams": [
+                    {
+                      "id": "st-7358967e5c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7358967e5c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8512/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thắng",
+            "team_a": "Chieh-Yu Chou",
+            "team_b": "Zhu Qing Bi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733163926_Chieh-Yu%20Chou.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "time": "17:00:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790762400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7358967e5c_1d869447_20260930.png?v=1d869447",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-4d883253d8",
           "name": "Seoa Seo vs Chia-Chia Chou | 17:00 30/09",
           "type": "single",
@@ -1107,6 +1034,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-80b1f4d32e",
+          "name": "WPA USA Men vs WPA Spain Men | 19:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80b1f4d32e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-80b1f4d32e",
+                  "name": "WPA USA Men vs WPA Spain Men",
+                  "streams": [
+                    {
+                      "id": "st-80b1f4d32e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80b1f4d32e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8515/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội đóng muộn",
+            "team_a": "WPA USA Men",
+            "team_b": "WPA Spain Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790735324256_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "time": "19:30:00",
+            "date": "30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790771400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-80b1f4d32e_e80d8705_20260930.png?v=e80d8705",
             "width": 1600,
             "height": 1200
           }
@@ -1472,79 +1472,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a45b10e87c_c2a58f47_20260930.png?v=c2a58f47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-80b1f4d32e",
-          "name": "WPA USA Men vs WPA Spain Men | 19:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80b1f4d32e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-80b1f4d32e",
-                  "name": "WPA USA Men vs WPA Spain Men",
-                  "streams": [
-                    {
-                      "id": "st-80b1f4d32e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80b1f4d32e",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8515/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội đóng muộn",
-            "team_a": "WPA USA Men",
-            "team_b": "WPA Spain Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790735324256_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "time": "19:30:00",
-            "date": "30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790771400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-80b1f4d32e_e80d8705_20260930.png?v=e80d8705",
             "width": 1600,
             "height": 1200
           }
