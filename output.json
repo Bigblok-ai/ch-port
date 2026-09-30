@@ -528,6 +528,79 @@
           }
         },
         {
+          "id": "chtv-552bf6aa82",
+          "name": "Lee Van Corteza vs David Žalman | 10:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-552bf6aa82",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-552bf6aa82",
+                  "name": "Lee Van Corteza vs David Žalman",
+                  "streams": [
+                    {
+                      "id": "st-552bf6aa82",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-552bf6aa82",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8541/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Đơn Nam No Live",
+            "team_a": "Lee Van Corteza",
+            "team_b": "David Žalman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790804380903_Lee%20Van%20Corteza.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790804395235_David%20%C5%BDalman.png",
+            "time": "10:00:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790823600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-552bf6aa82_95e8c9d9_20261001.png?v=95e8c9d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-efc7b4e6e4",
           "name": "Alexis Ferrer vs Jeffrey Ignacio | 10:00 01/10",
           "type": "single",
@@ -596,79 +669,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-efc7b4e6e4_eba4df3e_20261001.png?v=eba4df3e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-17d7833124",
-          "name": "Moritz Neuhausen vs Olivér Szolnoki | 10:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17d7833124",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-17d7833124",
-                  "name": "Moritz Neuhausen vs Olivér Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-17d7833124",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17d7833124",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8542/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Đơn Nam No Live",
-            "team_a": "Moritz Neuhausen",
-            "team_b": "Olivér Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790804540540_Moritz%20Neuhausen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790804543529_Oliv%C3%A9r%20SZOLNOKI.jpg",
-            "time": "10:00:00",
-            "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790823600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17d7833124_3e48c8bd_20261001.png?v=3e48c8bd",
             "width": 1600,
             "height": 1200
           }
@@ -820,79 +820,6 @@
           }
         },
         {
-          "id": "chtv-e9dcb0e8fc",
-          "name": "Kyle Amoroto vs Bader Alawadhi | 10:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9dcb0e8fc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e9dcb0e8fc",
-                  "name": "Kyle Amoroto vs Bader Alawadhi",
-                  "streams": [
-                    {
-                      "id": "st-e9dcb0e8fc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9dcb0e8fc",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8543/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Đơn Nam No Live",
-            "team_a": "Kyle Amoroto",
-            "team_b": "Bader Alawadhi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790804563740_kyle%20amoroto.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790804570246_BADER%20ALAWADHI.jpg",
-            "time": "10:00:00",
-            "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790823600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9dcb0e8fc_83da286b_20261001.png?v=83da286b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-cbf1e77c9f",
           "name": "Rubilen Amit vs Meng-Hsia Hung | 10:00 01/10",
           "type": "single",
@@ -1039,8 +966,8 @@
           }
         },
         {
-          "id": "chtv-552bf6aa82",
-          "name": "Lee Van Corteza vs David Žalman | 10:00 01/10",
+          "id": "chtv-17d7833124",
+          "name": "Moritz Neuhausen vs Olivér Szolnoki | 10:00 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1054,23 +981,23 @@
           ],
           "sources": [
             {
-              "id": "src-552bf6aa82",
+              "id": "src-17d7833124",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-552bf6aa82",
-                  "name": "Lee Van Corteza vs David Žalman",
+                  "id": "ct-17d7833124",
+                  "name": "Moritz Neuhausen vs Olivér Szolnoki",
                   "streams": [
                     {
-                      "id": "st-552bf6aa82",
+                      "id": "st-17d7833124",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-552bf6aa82",
+                          "id": "lnk-17d7833124",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8541/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8542/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1091,10 +1018,10 @@
           ],
           "org_metadata": {
             "league": "( -_•)▄︻━一💥 Đơn Nam No Live",
-            "team_a": "Lee Van Corteza",
-            "team_b": "David Žalman",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790804380903_Lee%20Van%20Corteza.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790804395235_David%20%C5%BDalman.png",
+            "team_a": "Moritz Neuhausen",
+            "team_b": "Olivér Szolnoki",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790804540540_Moritz%20Neuhausen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790804543529_Oliv%C3%A9r%20SZOLNOKI.jpg",
             "time": "10:00:00",
             "date": "01/10",
             "blv": "",
@@ -1106,7 +1033,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-552bf6aa82_95e8c9d9_20261001.png?v=95e8c9d9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17d7833124_3e48c8bd_20261001.png?v=3e48c8bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e9dcb0e8fc",
+          "name": "Kyle Amoroto vs Bader Alawadhi | 10:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9dcb0e8fc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e9dcb0e8fc",
+                  "name": "Kyle Amoroto vs Bader Alawadhi",
+                  "streams": [
+                    {
+                      "id": "st-e9dcb0e8fc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9dcb0e8fc",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8543/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Đơn Nam No Live",
+            "team_a": "Kyle Amoroto",
+            "team_b": "Bader Alawadhi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790804563740_kyle%20amoroto.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790804570246_BADER%20ALAWADHI.jpg",
+            "time": "10:00:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790823600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9dcb0e8fc_83da286b_20261001.png?v=83da286b",
             "width": 1600,
             "height": 1200
           }
