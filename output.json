@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0cabbb3aa7_a460e98b_20261001.png?v=a460e98b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dfab28eb24",
+          "name": "Kledio Kaçi vs Tạ Phương Nam | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dfab28eb24",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dfab28eb24",
+                  "name": "Kledio Kaçi vs Tạ Phương Nam",
+                  "streams": [
+                    {
+                      "id": "st-dfab28eb24",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dfab28eb24",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8546/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  ( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Kledio Kaçi",
+            "team_b": "Tạ Phương Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790805099384_Kledio%20Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
+            "time": "14:30:00",
+            "date": "01/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790839800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfab28eb24_e185aaa5_20261001.png?v=e185aaa5",
             "width": 1600,
             "height": 1200
           }
