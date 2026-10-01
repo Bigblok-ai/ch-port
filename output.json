@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-e3a2f8684d",
-          "name": "Silviana Lu vs Julia Permata Sari | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e3a2f8684d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e3a2f8684d",
-                  "name": "Silviana Lu vs Julia Permata Sari",
-                  "streams": [
-                    {
-                      "id": "st-e3a2f8684d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3a2f8684d",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8531/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 Ƹ̴Ӂ̴Ʒ Losers qualification",
-            "team_a": "Silviana Lu",
-            "team_b": "Julia Permata Sari",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790803186352_SILVIANA%20LU.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777514761471_photo_2026-04-30_09-05-49.jpg",
-            "time": "10:00:00",
-            "date": "01/10",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790823600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3a2f8684d_b2292a8b_20261001.png?v=b2292a8b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-633c7d97a8",
           "name": "Xin-Yu Hong vs Chia-Chia Chou | Đại Kê",
@@ -158,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-633c7d97a8_6bdcc47d_20261001.png?v=6bdcc47d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cbf1e77c9f",
-          "name": "Rubilen Amit vs Meng-Hsia Hung | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cbf1e77c9f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cbf1e77c9f",
-                  "name": "Rubilen Amit vs Meng-Hsia Hung",
-                  "streams": [
-                    {
-                      "id": "st-cbf1e77c9f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbf1e77c9f",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8533/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3  Ƹ̴Ӂ̴Ʒ Losers qualification",
-            "team_a": "Rubilen Amit",
-            "team_b": "Meng-Hsia Hung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790803346232_Rubilen%20Amit.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "time": "10:00:00",
-            "date": "01/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790823600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cbf1e77c9f_9abedd34_20261001.png?v=9abedd34",
             "width": 1600,
             "height": 1200
           }
@@ -309,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-cdeac9f897",
-          "name": "Henry Nguyen vs ĐiChây MaNắc | 14:30 01/10",
+          "id": "chtv-e3a2f8684d",
+          "name": "Silviana Lu vs Julia Permata Sari | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-cdeac9f897",
+              "id": "src-e3a2f8684d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-cdeac9f897",
-                  "name": "Henry Nguyen vs ĐiChây MaNắc",
+                  "id": "ct-e3a2f8684d",
+                  "name": "Silviana Lu vs Julia Permata Sari",
                   "streams": [
                     {
-                      "id": "st-cdeac9f897",
+                      "id": "st-e3a2f8684d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-cdeac9f897",
-                          "name": "Stream",
+                          "id": "lnk-e3a2f8684d",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8545/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8531/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -360,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Henry Nguyen",
-            "team_b": "ĐiChây MaNắc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767661470839_AJ%20Manas.png",
-            "time": "14:30:00",
+            "league": "TV1 Ƹ̴Ӂ̴Ʒ Losers qualification",
+            "team_a": "Silviana Lu",
+            "team_b": "Julia Permata Sari",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790803186352_SILVIANA%20LU.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777514761471_photo_2026-04-30_09-05-49.jpg",
+            "time": "10:00:00",
             "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790839800,
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1790823600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdeac9f897_9d0edb8d_20261001.png?v=9d0edb8d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3a2f8684d_b2292a8b_20261001.png?v=b2292a8b",
             "width": 1600,
             "height": 1200
           }
@@ -450,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfab28eb24_e185aaa5_20261001.png?v=e185aaa5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cdc2e03457",
-          "name": "Jeffrey De Luna vs Jonas Souto | 14:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cdc2e03457",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cdc2e03457",
-                  "name": "Jeffrey De Luna vs Jonas Souto",
-                  "streams": [
-                    {
-                      "id": "st-cdc2e03457",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cdc2e03457",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8547/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Jonas Souto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790805156784_JEFFREY%20DE%20LUNA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790805192689_Jonas%20Souto.jpg",
-            "time": "14:30:00",
-            "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790839800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdc2e03457_f71d6f7a_20261001.png?v=f71d6f7a",
             "width": 1600,
             "height": 1200
           }
@@ -742,6 +523,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c20d6d329_ae62102e_20261001.png?v=ae62102e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cdc2e03457",
+          "name": "Jeffrey De Luna vs Jonas Souto | 14:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cdc2e03457",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cdc2e03457",
+                  "name": "Jeffrey De Luna vs Jonas Souto",
+                  "streams": [
+                    {
+                      "id": "st-cdc2e03457",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdc2e03457",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8547/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Jonas Souto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790805156784_JEFFREY%20DE%20LUNA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790805192689_Jonas%20Souto.jpg",
+            "time": "14:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790839800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdc2e03457_f71d6f7a_20261001.png?v=f71d6f7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cdeac9f897",
+          "name": "Henry Nguyen vs ĐiChây MaNắc | 14:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cdeac9f897",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cdeac9f897",
+                  "name": "Henry Nguyen vs ĐiChây MaNắc",
+                  "streams": [
+                    {
+                      "id": "st-cdeac9f897",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdeac9f897",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8545/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Henry Nguyen",
+            "team_b": "ĐiChây MaNắc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767661470839_AJ%20Manas.png",
+            "time": "14:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790839800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdeac9f897_9d0edb8d_20261001.png?v=9d0edb8d",
             "width": 1600,
             "height": 1200
           }
