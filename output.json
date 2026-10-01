@@ -599,6 +599,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-fe04dc0b39",
+          "name": "Jonas Souto vs Winner of #179 | 10:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe04dc0b39",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fe04dc0b39",
+                  "name": "Jonas Souto vs Winner of #179",
+                  "streams": [
+                    {
+                      "id": "st-fe04dc0b39",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe04dc0b39",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8595/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Losers qualification",
+            "team_a": "Jonas Souto",
+            "team_b": "Winner of #179",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790881739294_Jonas%20Souto.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1776791761762_Screenshot%202026-04-22%20001553.png",
+            "time": "10:00:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790910000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fe04dc0b39_7b1f4d89_20261002.png?v=7b1f4d89",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
