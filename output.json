@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c533d90ca7",
-          "name": "Shane Van Boening vs Casper Matikainen | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c533d90ca7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c533d90ca7",
-                  "name": "Shane Van Boening vs Casper Matikainen",
-                  "streams": [
-                    {
-                      "id": "st-c533d90ca7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c533d90ca7",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8549/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1  ( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Shane Van Boening",
-            "team_b": "Casper Matikainen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790805316373_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790805313576_Casper%20Matikainen.jpg",
-            "time": "14:30:00",
-            "date": "01/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790839800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c533d90ca7_518f1d60_20261001.png?v=518f1d60",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b4a08de595",
           "name": "Wu Kun Lin vs Mieszko Fortuński | SÊ KÔÔ",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-6f858068c0",
-          "name": "Daniel Macioł vs Jayson Shaw | Xinh Yeu",
+          "id": "chtv-c533d90ca7",
+          "name": "Shane Van Boening vs Casper Matikainen | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-6f858068c0",
+              "id": "src-c533d90ca7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6f858068c0",
-                  "name": "Daniel Macioł vs Jayson Shaw",
+                  "id": "ct-c533d90ca7",
+                  "name": "Shane Van Boening vs Casper Matikainen",
                   "streams": [
                     {
-                      "id": "st-6f858068c0",
+                      "id": "st-c533d90ca7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6f858068c0",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-c533d90ca7",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8561/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8549/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4  ( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Daniel Macioł",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790830823304_Daniel%20Macio%C5%82.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790830828916_Jayson%20Shaw.jpg",
+            "league": "TV1  ( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Shane Van Boening",
+            "team_b": "Casper Matikainen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790805316373_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790805313576_Casper%20Matikainen.jpg",
             "time": "14:30:00",
             "date": "01/10",
-            "blv": "Xinh Yeu",
+            "blv": "GIÀNG A PHỌ",
             "is_live": true,
             "time_sort": 1790839800,
             "cate_type": "billiards"
@@ -230,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6f858068c0_75c402a5_20261001.png?v=75c402a5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c533d90ca7_518f1d60_20261001.png?v=518f1d60",
             "width": 1600,
             "height": 1200
           }
@@ -455,8 +382,8 @@
           }
         },
         {
-          "id": "chtv-75aac860fb",
-          "name": "Denis Grabe vs Pijus Labutis | 17:30 01/10",
+          "id": "chtv-160ac1f17f",
+          "name": "Marco Teutscher vs Carlo Biado | 17:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +397,23 @@
           ],
           "sources": [
             {
-              "id": "src-75aac860fb",
+              "id": "src-160ac1f17f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-75aac860fb",
-                  "name": "Denis Grabe vs Pijus Labutis",
+                  "id": "ct-160ac1f17f",
+                  "name": "Marco Teutscher vs Carlo Biado",
                   "streams": [
                     {
-                      "id": "st-75aac860fb",
+                      "id": "st-160ac1f17f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-75aac860fb",
+                          "id": "lnk-160ac1f17f",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8564/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8569/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,10 +434,10 @@
           ],
           "org_metadata": {
             "league": "Winners qualification 17:30 nam",
-            "team_a": "Denis Grabe",
-            "team_b": "Pijus Labutis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790831776539_Denis%20Grabe.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790831773685_Pijus%20Labutis.jpg",
+            "team_a": "Marco Teutscher",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790832404421_Marco%20Teutscher.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790832400600_CARLO%20BIADO.jpg",
             "time": "17:30:00",
             "date": "01/10",
             "blv": "",
@@ -522,7 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-75aac860fb_083c4617_20261001.png?v=083c4617",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-160ac1f17f_21eb8dd8_20261001.png?v=21eb8dd8",
             "width": 1600,
             "height": 1200
           }
@@ -674,8 +601,8 @@
           }
         },
         {
-          "id": "chtv-160ac1f17f",
-          "name": "Marco Teutscher vs Carlo Biado | 17:30 01/10",
+          "id": "chtv-75aac860fb",
+          "name": "Denis Grabe vs Pijus Labutis | 17:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -689,23 +616,23 @@
           ],
           "sources": [
             {
-              "id": "src-160ac1f17f",
+              "id": "src-75aac860fb",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-160ac1f17f",
-                  "name": "Marco Teutscher vs Carlo Biado",
+                  "id": "ct-75aac860fb",
+                  "name": "Denis Grabe vs Pijus Labutis",
                   "streams": [
                     {
-                      "id": "st-160ac1f17f",
+                      "id": "st-75aac860fb",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-160ac1f17f",
+                          "id": "lnk-75aac860fb",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8569/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8564/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -726,10 +653,10 @@
           ],
           "org_metadata": {
             "league": "Winners qualification 17:30 nam",
-            "team_a": "Marco Teutscher",
-            "team_b": "Carlo Biado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790832404421_Marco%20Teutscher.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790832400600_CARLO%20BIADO.jpg",
+            "team_a": "Denis Grabe",
+            "team_b": "Pijus Labutis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790831776539_Denis%20Grabe.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790831773685_Pijus%20Labutis.jpg",
             "time": "17:30:00",
             "date": "01/10",
             "blv": "",
@@ -741,7 +668,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-160ac1f17f_21eb8dd8_20261001.png?v=21eb8dd8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-75aac860fb_083c4617_20261001.png?v=083c4617",
             "width": 1600,
             "height": 1200
           }
