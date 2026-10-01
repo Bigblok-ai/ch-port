@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cbf1e77c9f_9abedd34_20261001.png?v=9abedd34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a9aeb8af58",
+          "name": "Shi Tianqi vs Pia Filler | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9aeb8af58",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a9aeb8af58",
+                  "name": "Shi Tianqi vs Pia Filler",
+                  "streams": [
+                    {
+                      "id": "st-a9aeb8af58",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a9aeb8af58",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8532/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 Ƹ̴Ӂ̴Ʒ Losers qualification",
+            "team_a": "Shi Tianqi",
+            "team_b": "Pia Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790803272454_SHI%20Tianqi.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790803279029_Pia%20Filler.jpg",
+            "time": "10:00:00",
+            "date": "01/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790823600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a9aeb8af58_333fd651_20261001.png?v=333fd651",
             "width": 1600,
             "height": 1200
           }
