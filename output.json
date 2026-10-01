@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-3408e6c31d",
-          "name": "Seoa Seo vs Shui Ching Chiang | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3408e6c31d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3408e6c31d",
-                  "name": "Seoa Seo vs Shui Ching Chiang",
-                  "streams": [
-                    {
-                      "id": "st-3408e6c31d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3408e6c31d",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8574/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last sixteen nữ TV3",
-            "team_a": "Seoa Seo",
-            "team_b": "Shui Ching Chiang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790849521090_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790849513907_Shui%20Ching%20Chiang.jpg",
-            "time": "17:29:09",
-            "date": "01/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1790850549,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3408e6c31d_b2732833_20261001.png?v=b2732833",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-564bce1ca7",
           "name": "Kristina Tkach vs Rubilen Amit | Kèn Kèn",
