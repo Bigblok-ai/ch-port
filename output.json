@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-af4b9585d6",
-          "name": "Skyler Woodward vs Ponco Manurung | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af4b9585d6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-af4b9585d6",
-                  "name": "Skyler Woodward vs Ponco Manurung",
-                  "streams": [
-                    {
-                      "id": "st-af4b9585d6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af4b9585d6",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8558/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Loser round 2",
-            "team_a": "Skyler Woodward",
-            "team_b": "Ponco Manurung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790829645039_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
-            "time": "12:30:00",
-            "date": "01/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1790832600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-af4b9585d6_15d9f4b9_20261001.png?v=15d9f4b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4c62b9b35b",
-          "name": "Roland Garcia vs Felix Vogel | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c62b9b35b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4c62b9b35b",
-                  "name": "Roland Garcia vs Felix Vogel",
-                  "streams": [
-                    {
-                      "id": "st-4c62b9b35b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c62b9b35b",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8553/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥Loser round 2",
-            "team_a": "Roland Garcia",
-            "team_b": "Felix Vogel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790828048361_Roland%20Garcia.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790828045572_Felix%20Vogel.jpg",
-            "time": "12:30:00",
-            "date": "01/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790832600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4c62b9b35b_3405d6db_20261001.png?v=3405d6db",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-0cabbb3aa7",
           "name": "Ruslan Chinakhov vs Max Lechner | SÊ KÔÔ",
@@ -236,38 +90,38 @@
           }
         },
         {
-          "id": "chtv-cdeac9f897",
-          "name": "Henry Nguyen vs ĐiChây MaNắc | 14:30 01/10",
+          "id": "chtv-af4b9585d6",
+          "name": "Skyler Woodward vs Ponco Manurung | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-cdeac9f897",
+              "id": "src-af4b9585d6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-cdeac9f897",
-                  "name": "Henry Nguyen vs ĐiChây MaNắc",
+                  "id": "ct-af4b9585d6",
+                  "name": "Skyler Woodward vs Ponco Manurung",
                   "streams": [
                     {
-                      "id": "st-cdeac9f897",
+                      "id": "st-af4b9585d6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-cdeac9f897",
-                          "name": "Stream",
+                          "id": "lnk-af4b9585d6",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8545/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8558/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,14 +141,87 @@
             }
           ],
           "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Đơn Nam No Live",
-            "team_a": "Henry Nguyen",
-            "team_b": "ĐiChây MaNắc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767661470839_AJ%20Manas.png",
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥Loser round 2",
+            "team_a": "Skyler Woodward",
+            "team_b": "Ponco Manurung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790829645039_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
+            "time": "12:30:00",
+            "date": "01/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1790832600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-af4b9585d6_15d9f4b9_20261001.png?v=15d9f4b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dfab28eb24",
+          "name": "Kledio Kaçi vs Tạ Phương Nam | 14:30 01/10 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dfab28eb24",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dfab28eb24",
+                  "name": "Kledio Kaçi vs Tạ Phương Nam",
+                  "streams": [
+                    {
+                      "id": "st-dfab28eb24",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dfab28eb24",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8546/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  ( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Kledio Kaçi",
+            "team_b": "Tạ Phương Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790805099384_Kledio%20Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
             "time": "14:30:00",
             "date": "01/10",
-            "blv": "",
+            "blv": "Bỉm Sữa",
             "is_live": false,
             "time_sort": 1790839800,
             "cate_type": "billiards"
@@ -303,7 +230,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdeac9f897_9d0edb8d_20261001.png?v=9d0edb8d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfab28eb24_e185aaa5_20261001.png?v=e185aaa5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b4a08de595",
+          "name": "Wu Kun Lin vs Mieszko Fortuński | 14:30 01/10 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4a08de595",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b4a08de595",
+                  "name": "Wu Kun Lin vs Mieszko Fortuński",
+                  "streams": [
+                    {
+                      "id": "st-b4a08de595",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b4a08de595",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8560/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Wu Kun Lin",
+            "team_b": "Mieszko Fortuński",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790830755670_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790830752581_Mieszko%20Fortu%C5%84ski.png",
+            "time": "14:30:00",
+            "date": "01/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": false,
+            "time_sort": 1790839800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b4a08de595_1a48e8ad_20261001.png?v=1a48e8ad",
             "width": 1600,
             "height": 1200
           }
@@ -455,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-b4a08de595",
-          "name": "Wu Kun Lin vs Mieszko Fortuński | 14:30 01/10 | SÊ KÔÔ",
+          "id": "chtv-7c20d6d329",
+          "name": "Aloysius Yapp vs Mohanad Mohammed | 14:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-b4a08de595",
+              "id": "src-7c20d6d329",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b4a08de595",
-                  "name": "Wu Kun Lin vs Mieszko Fortuński",
+                  "id": "ct-7c20d6d329",
+                  "name": "Aloysius Yapp vs Mohanad Mohammed",
                   "streams": [
                     {
-                      "id": "st-b4a08de595",
+                      "id": "st-7c20d6d329",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b4a08de595",
-                          "name": "SÊ KÔÔ",
+                          "id": "lnk-7c20d6d329",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8560/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8548/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -506,14 +506,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Wu Kun Lin",
-            "team_b": "Mieszko Fortuński",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790830755670_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790830752581_Mieszko%20Fortu%C5%84ski.png",
+            "league": "( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Mohanad Mohammed",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790805264367_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
             "time": "14:30:00",
             "date": "01/10",
-            "blv": "SÊ KÔÔ",
+            "blv": "",
             "is_live": false,
             "time_sort": 1790839800,
             "cate_type": "billiards"
@@ -522,7 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b4a08de595_1a48e8ad_20261001.png?v=1a48e8ad",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c20d6d329_ae62102e_20261001.png?v=ae62102e",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdc2e03457_f71d6f7a_20261001.png?v=f71d6f7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cdeac9f897",
+          "name": "Henry Nguyen vs ĐiChây MaNắc | 14:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cdeac9f897",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cdeac9f897",
+                  "name": "Henry Nguyen vs ĐiChây MaNắc",
+                  "streams": [
+                    {
+                      "id": "st-cdeac9f897",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdeac9f897",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8545/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Đơn Nam No Live",
+            "team_a": "Henry Nguyen",
+            "team_b": "ĐiChây MaNắc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767661470839_AJ%20Manas.png",
+            "time": "14:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790839800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdeac9f897_9d0edb8d_20261001.png?v=9d0edb8d",
             "width": 1600,
             "height": 1200
           }
@@ -742,152 +815,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4fbdd3d7b9_b9c088ee_20261001.png?v=b9c088ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dfab28eb24",
-          "name": "Kledio Kaçi vs Tạ Phương Nam | 14:30 01/10 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dfab28eb24",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dfab28eb24",
-                  "name": "Kledio Kaçi vs Tạ Phương Nam",
-                  "streams": [
-                    {
-                      "id": "st-dfab28eb24",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dfab28eb24",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8546/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  ( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Kledio Kaçi",
-            "team_b": "Tạ Phương Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790805099384_Kledio%20Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "time": "14:30:00",
-            "date": "01/10",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790839800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfab28eb24_e185aaa5_20261001.png?v=e185aaa5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7c20d6d329",
-          "name": "Aloysius Yapp vs Mohanad Mohammed | 14:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c20d6d329",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7c20d6d329",
-                  "name": "Aloysius Yapp vs Mohanad Mohammed",
-                  "streams": [
-                    {
-                      "id": "st-7c20d6d329",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c20d6d329",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8548/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Mohanad Mohammed",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790805264367_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "14:30:00",
-            "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790839800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c20d6d329_ae62102e_20261001.png?v=ae62102e",
             "width": 1600,
             "height": 1200
           }
@@ -1112,8 +1039,8 @@
           }
         },
         {
-          "id": "chtv-160ac1f17f",
-          "name": "Marco Teutscher vs Carlo Biado | 17:30 01/10",
+          "id": "chtv-176f03e86d",
+          "name": "David Alcaide vs Joshua Filler | 17:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1127,23 +1054,23 @@
           ],
           "sources": [
             {
-              "id": "src-160ac1f17f",
+              "id": "src-176f03e86d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-160ac1f17f",
-                  "name": "Marco Teutscher vs Carlo Biado",
+                  "id": "ct-176f03e86d",
+                  "name": "David Alcaide vs Joshua Filler",
                   "streams": [
                     {
-                      "id": "st-160ac1f17f",
+                      "id": "st-176f03e86d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-160ac1f17f",
+                          "id": "lnk-176f03e86d",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8569/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8570/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1164,10 +1091,10 @@
           ],
           "org_metadata": {
             "league": "Winners qualification 17:30 nam",
-            "team_a": "Marco Teutscher",
-            "team_b": "Carlo Biado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790832404421_Marco%20Teutscher.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790832400600_CARLO%20BIADO.jpg",
+            "team_a": "David Alcaide",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790832458414_David%20Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790832461484_Joshua%20Filler.jpg",
             "time": "17:30:00",
             "date": "01/10",
             "blv": "",
@@ -1179,153 +1106,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-160ac1f17f_21eb8dd8_20261001.png?v=21eb8dd8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a87ee2c510",
-          "name": "Sanchez Ruiz vs Radoslaw Babica | 17:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a87ee2c510",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a87ee2c510",
-                  "name": "Sanchez Ruiz vs Radoslaw Babica",
-                  "streams": [
-                    {
-                      "id": "st-a87ee2c510",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a87ee2c510",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8563/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winners qualification 17:30 nam",
-            "team_a": "Sanchez Ruiz",
-            "team_b": "Radoslaw Babica",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790831707622_Radoslaw%20Babica.png",
-            "time": "17:30:00",
-            "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790850600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a87ee2c510_0d5c8aab_20261001.png?v=0d5c8aab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d356dc8139",
-          "name": "Naoyuki Oi vs Oscar Dominguez | 17:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d356dc8139",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d356dc8139",
-                  "name": "Naoyuki Oi vs Oscar Dominguez",
-                  "streams": [
-                    {
-                      "id": "st-d356dc8139",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d356dc8139",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8565/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winners qualification 17:30 nam",
-            "team_a": "Naoyuki Oi",
-            "team_b": "Oscar Dominguez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790831858081_NAOYUKI%20OI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790831880798_Oscar%20Dominguez.png",
-            "time": "17:30:00",
-            "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790850600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d356dc8139_66383579_20261001.png?v=66383579",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-176f03e86d_42066a2e_20261001.png?v=42066a2e",
             "width": 1600,
             "height": 1200
           }
@@ -1404,8 +1185,8 @@
           }
         },
         {
-          "id": "chtv-d163776fca",
-          "name": "David Alcaide vs Joshua Filler | 17:30 01/10",
+          "id": "chtv-a87ee2c510",
+          "name": "Sanchez Ruiz vs Radoslaw Babica | 17:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1419,23 +1200,23 @@
           ],
           "sources": [
             {
-              "id": "src-d163776fca",
+              "id": "src-a87ee2c510",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d163776fca",
-                  "name": "David Alcaide vs Joshua Filler",
+                  "id": "ct-a87ee2c510",
+                  "name": "Sanchez Ruiz vs Radoslaw Babica",
                   "streams": [
                     {
-                      "id": "st-d163776fca",
+                      "id": "st-a87ee2c510",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d163776fca",
+                          "id": "lnk-a87ee2c510",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8571/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8563/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1456,10 +1237,10 @@
           ],
           "org_metadata": {
             "league": "Winners qualification 17:30 nam",
-            "team_a": "David Alcaide",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790832666444_David%20Alcaide.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790832669257_Joshua%20Filler.jpg",
+            "team_a": "Sanchez Ruiz",
+            "team_b": "Radoslaw Babica",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790831707622_Radoslaw%20Babica.png",
             "time": "17:30:00",
             "date": "01/10",
             "blv": "",
@@ -1471,7 +1252,153 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d163776fca_b3d2bea1_20261001.png?v=b3d2bea1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a87ee2c510_0d5c8aab_20261001.png?v=0d5c8aab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-160ac1f17f",
+          "name": "Marco Teutscher vs Carlo Biado | 17:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-160ac1f17f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-160ac1f17f",
+                  "name": "Marco Teutscher vs Carlo Biado",
+                  "streams": [
+                    {
+                      "id": "st-160ac1f17f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-160ac1f17f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8569/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winners qualification 17:30 nam",
+            "team_a": "Marco Teutscher",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790832404421_Marco%20Teutscher.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790832400600_CARLO%20BIADO.jpg",
+            "time": "17:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790850600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-160ac1f17f_21eb8dd8_20261001.png?v=21eb8dd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d356dc8139",
+          "name": "Naoyuki Oi vs Oscar Dominguez | 17:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d356dc8139",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d356dc8139",
+                  "name": "Naoyuki Oi vs Oscar Dominguez",
+                  "streams": [
+                    {
+                      "id": "st-d356dc8139",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d356dc8139",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8565/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winners qualification 17:30 nam",
+            "team_a": "Naoyuki Oi",
+            "team_b": "Oscar Dominguez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790831858081_NAOYUKI%20OI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790831880798_Oscar%20Dominguez.png",
+            "time": "17:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790850600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d356dc8139_66383579_20261001.png?v=66383579",
             "width": 1600,
             "height": 1200
           }
