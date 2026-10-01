@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-633c7d97a8",
-          "name": "Xin-Yu Hong vs Chia-Chia Chou | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-633c7d97a8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-633c7d97a8",
-                  "name": "Xin-Yu Hong vs Chia-Chia Chou",
-                  "streams": [
-                    {
-                      "id": "st-633c7d97a8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-633c7d97a8",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8534/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  Ƹ̴Ӂ̴Ʒ Losers qualification",
-            "team_a": "Xin-Yu Hong",
-            "team_b": "Chia-Chia Chou",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790803405428_Xin-Yu%20Hong.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790803416492_Chia-Chia%20Chou.jpg",
-            "time": "10:00:00",
-            "date": "01/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1790823600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-633c7d97a8_6bdcc47d_20261001.png?v=6bdcc47d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-e3a2f8684d",
           "name": "Silviana Lu vs Julia Permata Sari | Tào A Man",
@@ -383,7 +310,7 @@
         },
         {
           "id": "chtv-4c62b9b35b",
-          "name": "Roland Garcia vs Felix Vogel | 12:30 01/10",
+          "name": "Roland Garcia vs Felix Vogel | 12:30 01/10 | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -410,7 +337,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-4c62b9b35b",
-                          "name": "Stream",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8553/index.m3u8",
@@ -440,7 +367,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1790828045572_Felix%20Vogel.jpg",
             "time": "12:30:00",
             "date": "01/10",
-            "blv": "",
+            "blv": "Xinh Yeu",
             "is_live": false,
             "time_sort": 1790832600,
             "cate_type": "billiards"
@@ -450,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4c62b9b35b_3405d6db_20261001.png?v=3405d6db",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-763e22181e",
-          "name": "So Shaw vs Fedor Gorst | 12:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-763e22181e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-763e22181e",
-                  "name": "So Shaw vs Fedor Gorst",
-                  "streams": [
-                    {
-                      "id": "st-763e22181e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-763e22181e",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8552/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "▄︻デ𝒜ℛℐℱ━一💥Loser round 2 có live sẽ phát",
-            "team_a": "So Shaw",
-            "team_b": "Fedor Gorst",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790827975678_Fedor%20Gorst.jpg",
-            "time": "12:30:00",
-            "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790832600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-763e22181e_7b5d38c7_20261001.png?v=7b5d38c7",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a557a18ffb_714bacff_20261001.png?v=714bacff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-763e22181e",
+          "name": "So Shaw vs Fedor Gorst | 12:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-763e22181e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-763e22181e",
+                  "name": "So Shaw vs Fedor Gorst",
+                  "streams": [
+                    {
+                      "id": "st-763e22181e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-763e22181e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8552/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "▄︻デ𝒜ℛℐℱ━一💥Loser round 2 có live sẽ phát",
+            "team_a": "So Shaw",
+            "team_b": "Fedor Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790827975678_Fedor%20Gorst.jpg",
+            "time": "12:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790832600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-763e22181e_7b5d38c7_20261001.png?v=7b5d38c7",
             "width": 1600,
             "height": 1200
           }
@@ -815,79 +742,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdc2e03457_f71d6f7a_20261001.png?v=f71d6f7a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cdeac9f897",
-          "name": "Henry Nguyen vs ĐiChây MaNắc | 14:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cdeac9f897",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cdeac9f897",
-                  "name": "Henry Nguyen vs ĐiChây MaNắc",
-                  "streams": [
-                    {
-                      "id": "st-cdeac9f897",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cdeac9f897",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8545/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Henry Nguyen",
-            "team_b": "ĐiChây MaNắc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767661470839_AJ%20Manas.png",
-            "time": "14:30:00",
-            "date": "01/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790839800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdeac9f897_9d0edb8d_20261001.png?v=9d0edb8d",
             "width": 1600,
             "height": 1200
           }
@@ -1180,6 +1034,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c20d6d329_ae62102e_20261001.png?v=ae62102e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cdeac9f897",
+          "name": "Henry Nguyen vs ĐiChây MaNắc | 14:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cdeac9f897",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cdeac9f897",
+                  "name": "Henry Nguyen vs ĐiChây MaNắc",
+                  "streams": [
+                    {
+                      "id": "st-cdeac9f897",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdeac9f897",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8545/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Henry Nguyen",
+            "team_b": "ĐiChây MaNắc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767661470839_AJ%20Manas.png",
+            "time": "14:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790839800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cdeac9f897_9d0edb8d_20261001.png?v=9d0edb8d",
             "width": 1600,
             "height": 1200
           }
