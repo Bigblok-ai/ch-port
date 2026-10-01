@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3408e6c31d_b2732833_20261001.png?v=b2732833",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dfc5400419",
-          "name": "Chieh-Yu Chou vs Silviana Lu | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dfc5400419",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dfc5400419",
-                  "name": "Chieh-Yu Chou vs Silviana Lu",
-                  "streams": [
-                    {
-                      "id": "st-dfc5400419",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dfc5400419",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8575/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last sixteen nữ TV4",
-            "team_a": "Chieh-Yu Chou",
-            "team_b": "Silviana Lu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790849558788_Chieh-Yu%20Chou.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790849561497_SILVIANA%20LU.jpg",
-            "time": "17:30:00",
-            "date": "01/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790850600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfc5400419_6c0dc0e0_20261001.png?v=6c0dc0e0",
             "width": 1600,
             "height": 1200
           }
