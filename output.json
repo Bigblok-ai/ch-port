@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,225 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3a2f8684d_b2292a8b_20261001.png?v=b2292a8b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4c62b9b35b",
+          "name": "Roland Garcia vs Felix Vogel | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c62b9b35b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4c62b9b35b",
+                  "name": "Roland Garcia vs Felix Vogel",
+                  "streams": [
+                    {
+                      "id": "st-4c62b9b35b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c62b9b35b",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8553/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥Loser round 2",
+            "team_a": "Roland Garcia",
+            "team_b": "Felix Vogel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790828048361_Roland%20Garcia.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790828045572_Felix%20Vogel.jpg",
+            "time": "12:30:00",
+            "date": "01/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790832600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4c62b9b35b_3405d6db_20261001.png?v=3405d6db",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4ee1b2d332",
+          "name": "Billy Thorpe vs Thorsten Hohmann | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ee1b2d332",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4ee1b2d332",
+                  "name": "Billy Thorpe vs Thorsten Hohmann",
+                  "streams": [
+                    {
+                      "id": "st-4ee1b2d332",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ee1b2d332",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8556/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥Loser round 2",
+            "team_a": "Billy Thorpe",
+            "team_b": "Thorsten Hohmann",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790828236007_Billy%20Thorpe.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790828232760_Thorsten%20Hohmann.jpg",
+            "time": "12:30:00",
+            "date": "01/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790832600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ee1b2d332_6f63cc9a_20261001.png?v=6f63cc9a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0cabbb3aa7",
+          "name": "Ruslan Chinakhov vs Max Lechner | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0cabbb3aa7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0cabbb3aa7",
+                  "name": "Ruslan Chinakhov vs Max Lechner",
+                  "streams": [
+                    {
+                      "id": "st-0cabbb3aa7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0cabbb3aa7",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8559/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥Loser round 2",
+            "team_a": "Ruslan Chinakhov",
+            "team_b": "Max Lechner",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790829862123_Ruslan%20CHINAKHOV.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790829858399_Max%20Lechner.jpg",
+            "time": "12:30:00",
+            "date": "01/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790832600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0cabbb3aa7_a460e98b_20261001.png?v=a460e98b",
             "width": 1600,
             "height": 1200
           }
@@ -528,79 +747,6 @@
           }
         },
         {
-          "id": "chtv-6f858068c0",
-          "name": "Daniel Macioł vs Jayson Shaw | 14:30 01/10 | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f858068c0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6f858068c0",
-                  "name": "Daniel Macioł vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-6f858068c0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6f858068c0",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8561/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  ( -_•)▄︻━一💥 Đơn Nam",
-            "team_a": "Daniel Macioł",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790830823304_Daniel%20Macio%C5%82.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790830828916_Jayson%20Shaw.jpg",
-            "time": "14:30:00",
-            "date": "01/10",
-            "blv": "Xinh Yeu",
-            "is_live": false,
-            "time_sort": 1790839800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6f858068c0_75c402a5_20261001.png?v=75c402a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-3aebcee686",
           "name": "Alexis Ferrer vs Jeffrey Ignacio | 14:30 01/10",
           "type": "single",
@@ -747,6 +893,298 @@
           }
         },
         {
+          "id": "chtv-6f858068c0",
+          "name": "Daniel Macioł vs Jayson Shaw | 14:30 01/10 | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f858068c0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6f858068c0",
+                  "name": "Daniel Macioł vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-6f858068c0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f858068c0",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8561/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4  ( -_•)▄︻━一💥 Đơn Nam",
+            "team_a": "Daniel Macioł",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790830823304_Daniel%20Macio%C5%82.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790830828916_Jayson%20Shaw.jpg",
+            "time": "14:30:00",
+            "date": "01/10",
+            "blv": "Xinh Yeu",
+            "is_live": false,
+            "time_sort": 1790839800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6f858068c0_75c402a5_20261001.png?v=75c402a5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-56f76d4a8b",
+          "name": "Eklent Kaçi vs Dương Quốc Hoàng | 17:29 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56f76d4a8b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-56f76d4a8b",
+                  "name": "Eklent Kaçi vs Dương Quốc Hoàng",
+                  "streams": [
+                    {
+                      "id": "st-56f76d4a8b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56f76d4a8b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8567/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phú Quý Do Trời",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Dương Quốc Hoàng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790831996437_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "time": "17:29:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790850540,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-56f76d4a8b_933fac63_20261001.png?v=933fac63",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-df0acaf601",
+          "name": "Eklent Kaçi vs Dương Quốc Hoàng | 17:29 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df0acaf601",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-df0acaf601",
+                  "name": "Eklent Kaçi vs Dương Quốc Hoàng",
+                  "streams": [
+                    {
+                      "id": "st-df0acaf601",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-df0acaf601",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8566/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sống chết Có Số",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Dương Quốc Hoàng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790831943105_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "time": "17:29:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790850540,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-df0acaf601_5dab4abc_20261001.png?v=5dab4abc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-75aac860fb",
+          "name": "Denis Grabe vs Pijus Labutis | 17:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75aac860fb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-75aac860fb",
+                  "name": "Denis Grabe vs Pijus Labutis",
+                  "streams": [
+                    {
+                      "id": "st-75aac860fb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75aac860fb",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8564/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winners qualification 17:30 nam",
+            "team_a": "Denis Grabe",
+            "team_b": "Pijus Labutis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790831776539_Denis%20Grabe.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790831773685_Pijus%20Labutis.jpg",
+            "time": "17:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790850600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-75aac860fb_083c4617_20261001.png?v=083c4617",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a87ee2c510",
           "name": "Sanchez Ruiz vs Radoslaw Babica | 17:30 01/10",
           "type": "single",
@@ -815,6 +1253,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a87ee2c510_0d5c8aab_20261001.png?v=0d5c8aab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d356dc8139",
+          "name": "Naoyuki Oi vs Oscar Dominguez | 17:30 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d356dc8139",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d356dc8139",
+                  "name": "Naoyuki Oi vs Oscar Dominguez",
+                  "streams": [
+                    {
+                      "id": "st-d356dc8139",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d356dc8139",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8565/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winners qualification 17:30 nam",
+            "team_a": "Naoyuki Oi",
+            "team_b": "Oscar Dominguez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790831858081_NAOYUKI%20OI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790831880798_Oscar%20Dominguez.png",
+            "time": "17:30:00",
+            "date": "01/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790850600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d356dc8139_66383579_20261001.png?v=66383579",
             "width": 1600,
             "height": 1200
           }
