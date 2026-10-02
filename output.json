@@ -380,6 +380,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-e2833ba85d",
+          "name": "Chieh-Yu Chou vs Huang Qing Ning | 23:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2833ba85d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e2833ba85d",
+                  "name": "Chieh-Yu Chou vs Huang Qing Ning",
+                  "streams": [
+                    {
+                      "id": "st-e2833ba85d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2833ba85d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8611/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết Nữ",
+            "team_a": "Chieh-Yu Chou",
+            "team_b": "Huang Qing Ning",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883496639_Chieh-Yu%20Chou.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790883493416_Huang%20Qing%20Ning.jpg",
+            "time": "23:00:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790956800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e2833ba85d_1b78538e_20261002.png?v=1b78538e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
