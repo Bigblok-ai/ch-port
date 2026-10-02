@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-3dc574f225",
-          "name": "Aloysius Yapp vs Eklent Kaçi | BÚN CHÓ",
+          "id": "chtv-6c8e2b8864",
+          "name": "Seoa Seo vs Chezka Centeno | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-3dc574f225",
+              "id": "src-6c8e2b8864",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3dc574f225",
-                  "name": "Aloysius Yapp vs Eklent Kaçi",
+                  "id": "ct-6c8e2b8864",
+                  "name": "Seoa Seo vs Chezka Centeno",
                   "streams": [
                     {
-                      "id": "st-3dc574f225",
+                      "id": "st-6c8e2b8864",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3dc574f225",
+                          "id": "lnk-6c8e2b8864",
                           "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8607/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8608/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,169 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 Last thirtytwo Đơn Nam",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Eklent Kaçi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883284330_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790923803626_Screenshot%202026-10-02%20134955.png",
-            "time": "15:30:00",
+            "league": "Tứ Kết Nữ",
+            "team_a": "Seoa Seo",
+            "team_b": "Chezka Centeno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883342173_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790883334075_Chezka%20Centeno.jpg",
+            "time": "17:30:00",
             "date": "02/10",
             "blv": "BÚN CHÓ",
             "is_live": true,
-            "time_sort": 1790929800,
+            "time_sort": 1790937000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3dc574f225_7869b2d3_20261002.png?v=7869b2d3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6c8e2b8864_79a4412e_20261002.png?v=79a4412e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dfce206b76",
+          "name": "Chia Hua Chen vs Chihiro Kawahara | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dfce206b76",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dfce206b76",
+                  "name": "Chia Hua Chen vs Chihiro Kawahara",
+                  "streams": [
+                    {
+                      "id": "st-dfce206b76",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dfce206b76",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8610/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết Nữ",
+            "team_a": "Chia Hua Chen",
+            "team_b": "Chihiro Kawahara",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883450818_Chia%20Hua%20Chen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790883454232_CHIHIRO%20KAWAHARA.jpg",
+            "time": "17:30:00",
+            "date": "02/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790937000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfce206b76_73f8dca8_20261002.png?v=73f8dca8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8d6c2159a2",
+          "name": "Kristina Tkach vs Tzu-Chien Wei | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d6c2159a2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8d6c2159a2",
+                  "name": "Kristina Tkach vs Tzu-Chien Wei",
+                  "streams": [
+                    {
+                      "id": "st-8d6c2159a2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d6c2159a2",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8609/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết Nữ",
+            "team_a": "Kristina Tkach",
+            "team_b": "Tzu-Chien Wei",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883401624_Kristina%20Tkach.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790883404778_Tzu-Chien%20Wei.jpg",
+            "time": "17:30:00",
+            "date": "02/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1790937000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8d6c2159a2_62a93c8d_20261002.png?v=62a93c8d",
             "width": 1600,
             "height": 1200
           }
