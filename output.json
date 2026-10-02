@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ff463fbafa",
-          "name": "Alex Pagulayan vs Roman Hybler | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff463fbafa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ff463fbafa",
-                  "name": "Alex Pagulayan vs Roman Hybler",
-                  "streams": [
-                    {
-                      "id": "st-ff463fbafa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff463fbafa",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8612/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Losers qualification",
-            "team_a": "Alex Pagulayan",
-            "team_b": "Roman Hybler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790910663589_Screenshot%202026-10-02%20101044.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790910663261_Screenshot%202026-10-02%20101055.png",
-            "time": "10:30:00",
-            "date": "02/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790911800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff463fbafa_3631146c_20261002.png?v=3631146c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-4bca7414ca",
           "name": "WPA Vietnam Men vs WPA Spain Men | Thập Cẩm",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bca7414ca_d8092231_20261002.png?v=d8092231",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-af0737aea5",
+          "name": "WPA Indonesia Men vs WPA Germany Men | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af0737aea5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-af0737aea5",
+                  "name": "WPA Indonesia Men vs WPA Germany Men",
+                  "streams": [
+                    {
+                      "id": "st-af0737aea5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af0737aea5",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8596/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1  ( -_•)▄︻━一💥 đấu đội",
+            "team_a": "WPA Indonesia Men",
+            "team_b": "WPA Germany Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790881884841_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790881871314_Joshua%20Filler.jpg",
+            "time": "12:30:00",
+            "date": "02/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790919000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-af0737aea5_bcb46ea6_20261002.png?v=bcb46ea6",
             "width": 1600,
             "height": 1200
           }
@@ -309,79 +309,6 @@
           }
         },
         {
-          "id": "chtv-af0737aea5",
-          "name": "WPA Indonesia Men vs WPA Germany Men | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af0737aea5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-af0737aea5",
-                  "name": "WPA Indonesia Men vs WPA Germany Men",
-                  "streams": [
-                    {
-                      "id": "st-af0737aea5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af0737aea5",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8596/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1  ( -_•)▄︻━一💥 đấu đội",
-            "team_a": "WPA Indonesia Men",
-            "team_b": "WPA Germany Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790881884841_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790881871314_Joshua%20Filler.jpg",
-            "time": "12:30:00",
-            "date": "02/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790919000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-af0737aea5_bcb46ea6_20261002.png?v=bcb46ea6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-aba3cd3f88",
           "name": "Dương Quốc Hoàng vs Drawn from match: 193-208 | 15:29 02/10",
           "type": "single",
@@ -528,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-a722929587",
-          "name": "Joshua Filler vs Drawn from match: 193-208 | 15:30 02/10",
+          "id": "chtv-c1b6d57cdf",
+          "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -543,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-a722929587",
+              "id": "src-c1b6d57cdf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a722929587",
-                  "name": "Joshua Filler vs Drawn from match: 193-208",
+                  "id": "ct-c1b6d57cdf",
+                  "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208",
                   "streams": [
                     {
-                      "id": "st-a722929587",
+                      "id": "st-c1b6d57cdf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a722929587",
+                          "id": "lnk-c1b6d57cdf",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8606/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8601/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -580,10 +507,10 @@
           ],
           "org_metadata": {
             "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Joshua Filler",
+            "team_a": "Francisco Sanchez Ruiz",
             "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883220718_Joshua%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot%202025-12-21%20010653.png",
             "time": "15:30:00",
             "date": "02/10",
             "blv": "",
@@ -595,7 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a722929587_233df2ec_20261002.png?v=233df2ec",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_165a8864_20261002.png?v=165a8864",
             "width": 1600,
             "height": 1200
           }
@@ -674,8 +601,8 @@
           }
         },
         {
-          "id": "chtv-c1b6d57cdf",
-          "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208 | 15:30 02/10",
+          "id": "chtv-fcda9d60aa",
+          "name": "Carlo Biado vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -689,23 +616,23 @@
           ],
           "sources": [
             {
-              "id": "src-c1b6d57cdf",
+              "id": "src-fcda9d60aa",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c1b6d57cdf",
-                  "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208",
+                  "id": "ct-fcda9d60aa",
+                  "name": "Carlo Biado vs Drawn from match: 193-208",
                   "streams": [
                     {
-                      "id": "st-c1b6d57cdf",
+                      "id": "st-fcda9d60aa",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c1b6d57cdf",
+                          "id": "lnk-fcda9d60aa",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8601/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -726,10 +653,10 @@
           ],
           "org_metadata": {
             "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Francisco Sanchez Ruiz",
+            "team_a": "Carlo Biado",
             "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot%202025-12-21%20010653.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
             "time": "15:30:00",
             "date": "02/10",
             "blv": "",
@@ -741,7 +668,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_165a8864_20261002.png?v=165a8864",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_8a8532d4_20261002.png?v=8a8532d4",
             "width": 1600,
             "height": 1200
           }
@@ -820,79 +747,6 @@
           }
         },
         {
-          "id": "chtv-fcda9d60aa",
-          "name": "Carlo Biado vs Drawn from match: 193-208 | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcda9d60aa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fcda9d60aa",
-                  "name": "Carlo Biado vs Drawn from match: 193-208",
-                  "streams": [
-                    {
-                      "id": "st-fcda9d60aa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcda9d60aa",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Carlo Biado",
-            "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_8a8532d4_20261002.png?v=8a8532d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1f24379d35",
           "name": "Pijus Labutis vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
@@ -966,8 +820,8 @@
           }
         },
         {
-          "id": "chtv-8d6c2159a2",
-          "name": "Kristina Tkach vs Tzu-Chien Wei | 17:30 02/10",
+          "id": "chtv-a722929587",
+          "name": "Joshua Filler vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -981,23 +835,23 @@
           ],
           "sources": [
             {
-              "id": "src-8d6c2159a2",
+              "id": "src-a722929587",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8d6c2159a2",
-                  "name": "Kristina Tkach vs Tzu-Chien Wei",
+                  "id": "ct-a722929587",
+                  "name": "Joshua Filler vs Drawn from match: 193-208",
                   "streams": [
                     {
-                      "id": "st-8d6c2159a2",
+                      "id": "st-a722929587",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8d6c2159a2",
+                          "id": "lnk-a722929587",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8609/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8606/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1017,23 +871,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Tứ Kết Nữ",
-            "team_a": "Kristina Tkach",
-            "team_b": "Tzu-Chien Wei",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883401624_Kristina%20Tkach.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790883404778_Tzu-Chien%20Wei.jpg",
-            "time": "17:30:00",
+            "league": "Last thirtytwo Đơn Nam",
+            "team_a": "Joshua Filler",
+            "team_b": "Drawn from match: 193-208",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883220718_Joshua%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
+            "time": "15:30:00",
             "date": "02/10",
             "blv": "",
             "is_live": false,
-            "time_sort": 1790937000,
+            "time_sort": 1790929800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8d6c2159a2_62a93c8d_20261002.png?v=62a93c8d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a722929587_233df2ec_20261002.png?v=233df2ec",
             "width": 1600,
             "height": 1200
           }
@@ -1107,6 +961,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfce206b76_73f8dca8_20261002.png?v=73f8dca8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8d6c2159a2",
+          "name": "Kristina Tkach vs Tzu-Chien Wei | 17:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d6c2159a2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8d6c2159a2",
+                  "name": "Kristina Tkach vs Tzu-Chien Wei",
+                  "streams": [
+                    {
+                      "id": "st-8d6c2159a2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d6c2159a2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8609/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết Nữ",
+            "team_a": "Kristina Tkach",
+            "team_b": "Tzu-Chien Wei",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883401624_Kristina%20Tkach.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790883404778_Tzu-Chien%20Wei.jpg",
+            "time": "17:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790937000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8d6c2159a2_62a93c8d_20261002.png?v=62a93c8d",
             "width": 1600,
             "height": 1200
           }
