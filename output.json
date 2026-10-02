@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-9a15822499",
-          "name": "Alex Kazakis vs Skyler Woodward | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a15822499",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9a15822499",
-                  "name": "Alex Kazakis vs Skyler Woodward",
-                  "streams": [
-                    {
-                      "id": "st-9a15822499",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a15822499",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8582/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1  ▄︻デ𝒜ℛℐℱ━一💥Loser round 3",
-            "team_a": "Alex Kazakis",
-            "team_b": "Skyler Woodward",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790880346358_Alex%20Kazakis.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790880349874_Skyler%20Woodward.jpg",
-            "time": "07:59:00",
-            "date": "02/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790902740,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9a15822499_0d36c054_20261002.png?v=0d36c054",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a8509cc363",
           "name": "Albert Januarta vs Arseni Sevastyanov | Tào A Man",
@@ -309,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-dae05d04d5",
-          "name": "Jayson Shaw vs Winner of #180 | 10:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dae05d04d5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dae05d04d5",
-                  "name": "Jayson Shaw vs Winner of #180",
-                  "streams": [
-                    {
-                      "id": "st-dae05d04d5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dae05d04d5",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8590/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Losers qualification",
-            "team_a": "Jayson Shaw",
-            "team_b": "Winner of #180",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790881476035_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1776791761762_Screenshot%202026-04-22%20001553.png",
-            "time": "10:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790911800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dae05d04d5_21dce4cf_20261002.png?v=21dce4cf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-fe04dc0b39",
           "name": "Jonas Souto vs Winner of #179 | 10:30 02/10",
           "type": "single",
@@ -450,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fe04dc0b39_7b1f4d89_20261002.png?v=7b1f4d89",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-66394d7509",
+          "name": "David Alcaide vs Winner of #185 | 10:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66394d7509",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-66394d7509",
+                  "name": "David Alcaide vs Winner of #185",
+                  "streams": [
+                    {
+                      "id": "st-66394d7509",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66394d7509",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8592/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Losers qualification",
+            "team_a": "David Alcaide",
+            "team_b": "Winner of #185",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790881593383_David%20Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1776791761762_Screenshot%202026-04-22%20001553.png",
+            "time": "10:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790911800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66394d7509_791dbd2a_20261002.png?v=791dbd2a",
             "width": 1600,
             "height": 1200
           }
@@ -601,8 +528,8 @@
           }
         },
         {
-          "id": "chtv-66394d7509",
-          "name": "David Alcaide vs Winner of #185 | 10:30 02/10",
+          "id": "chtv-dae05d04d5",
+          "name": "Jayson Shaw vs Winner of #180 | 10:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -616,23 +543,23 @@
           ],
           "sources": [
             {
-              "id": "src-66394d7509",
+              "id": "src-dae05d04d5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-66394d7509",
-                  "name": "David Alcaide vs Winner of #185",
+                  "id": "ct-dae05d04d5",
+                  "name": "Jayson Shaw vs Winner of #180",
                   "streams": [
                     {
-                      "id": "st-66394d7509",
+                      "id": "st-dae05d04d5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-66394d7509",
+                          "id": "lnk-dae05d04d5",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8592/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8590/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -653,9 +580,9 @@
           ],
           "org_metadata": {
             "league": "Losers qualification",
-            "team_a": "David Alcaide",
-            "team_b": "Winner of #185",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790881593383_David%20Alcaide.jpg",
+            "team_a": "Jayson Shaw",
+            "team_b": "Winner of #180",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790881476035_Jayson%20Shaw.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1776791761762_Screenshot%202026-04-22%20001553.png",
             "time": "10:30:00",
             "date": "02/10",
@@ -668,7 +595,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66394d7509_791dbd2a_20261002.png?v=791dbd2a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dae05d04d5_21dce4cf_20261002.png?v=21dce4cf",
             "width": 1600,
             "height": 1200
           }
@@ -742,6 +669,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bca7414ca_d8092231_20261002.png?v=d8092231",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d84ef9d72f",
+          "name": "WPA Great Britain Men vs WPA Finland Men | 12:30 02/10 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d84ef9d72f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d84ef9d72f",
+                  "name": "WPA Great Britain Men vs WPA Finland Men",
+                  "streams": [
+                    {
+                      "id": "st-d84ef9d72f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d84ef9d72f",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8599/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 ( -_•)▄︻━一💥đấu đội",
+            "team_a": "WPA Great Britain Men",
+            "team_b": "WPA Finland Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790882646612_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790882696837_Arseni%20Sevastyanov.jpg",
+            "time": "12:30:00",
+            "date": "02/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": false,
+            "time_sort": 1790919000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d84ef9d72f_35031951_20261002.png?v=35031951",
             "width": 1600,
             "height": 1200
           }
@@ -893,79 +893,6 @@
           }
         },
         {
-          "id": "chtv-d84ef9d72f",
-          "name": "WPA Great Britain Men vs WPA Finland Men | 12:30 02/10 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d84ef9d72f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d84ef9d72f",
-                  "name": "WPA Great Britain Men vs WPA Finland Men",
-                  "streams": [
-                    {
-                      "id": "st-d84ef9d72f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d84ef9d72f",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8599/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 ( -_•)▄︻━一💥đấu đội",
-            "team_a": "WPA Great Britain Men",
-            "team_b": "WPA Finland Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790882646612_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790882696837_Arseni%20Sevastyanov.jpg",
-            "time": "12:30:00",
-            "date": "02/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": false,
-            "time_sort": 1790919000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d84ef9d72f_35031951_20261002.png?v=35031951",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-aba3cd3f88",
           "name": "Dương Quốc Hoàng vs Drawn from match: 193-208 | 15:29 02/10",
           "type": "single",
@@ -1112,8 +1039,8 @@
           }
         },
         {
-          "id": "chtv-1f24379d35",
-          "name": "Pijus Labutis vs Drawn from match: 193-208 | 15:30 02/10",
+          "id": "chtv-c1b6d57cdf",
+          "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1127,23 +1054,23 @@
           ],
           "sources": [
             {
-              "id": "src-1f24379d35",
+              "id": "src-c1b6d57cdf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1f24379d35",
-                  "name": "Pijus Labutis vs Drawn from match: 193-208",
+                  "id": "ct-c1b6d57cdf",
+                  "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208",
                   "streams": [
                     {
-                      "id": "st-1f24379d35",
+                      "id": "st-c1b6d57cdf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1f24379d35",
+                          "id": "lnk-c1b6d57cdf",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8604/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8601/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1164,10 +1091,10 @@
           ],
           "org_metadata": {
             "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Pijus Labutis",
+            "team_a": "Francisco Sanchez Ruiz",
             "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883165065_Pijus%20Labutis.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot%202025-12-21%20010653.png",
             "time": "15:30:00",
             "date": "02/10",
             "blv": "",
@@ -1179,7 +1106,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1f24379d35_b9016fb7_20261002.png?v=b9016fb7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_165a8864_20261002.png?v=165a8864",
             "width": 1600,
             "height": 1200
           }
@@ -1258,8 +1185,8 @@
           }
         },
         {
-          "id": "chtv-3dc574f225",
-          "name": "Aloysius Yapp vs Drawn from match: 193-208 | 15:30 02/10",
+          "id": "chtv-1f24379d35",
+          "name": "Pijus Labutis vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1273,23 +1200,23 @@
           ],
           "sources": [
             {
-              "id": "src-3dc574f225",
+              "id": "src-1f24379d35",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3dc574f225",
-                  "name": "Aloysius Yapp vs Drawn from match: 193-208",
+                  "id": "ct-1f24379d35",
+                  "name": "Pijus Labutis vs Drawn from match: 193-208",
                   "streams": [
                     {
-                      "id": "st-3dc574f225",
+                      "id": "st-1f24379d35",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3dc574f225",
+                          "id": "lnk-1f24379d35",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8607/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8604/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1310,9 +1237,9 @@
           ],
           "org_metadata": {
             "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Aloysius Yapp",
+            "team_a": "Pijus Labutis",
             "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883284330_YAPP%20B%C3%A9o.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883165065_Pijus%20Labutis.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
             "time": "15:30:00",
             "date": "02/10",
@@ -1325,7 +1252,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3dc574f225_96d9b6c6_20261002.png?v=96d9b6c6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1f24379d35_b9016fb7_20261002.png?v=b9016fb7",
             "width": 1600,
             "height": 1200
           }
@@ -1404,8 +1331,8 @@
           }
         },
         {
-          "id": "chtv-c1b6d57cdf",
-          "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208 | 15:30 02/10",
+          "id": "chtv-3dc574f225",
+          "name": "Aloysius Yapp vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1419,23 +1346,23 @@
           ],
           "sources": [
             {
-              "id": "src-c1b6d57cdf",
+              "id": "src-3dc574f225",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c1b6d57cdf",
-                  "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208",
+                  "id": "ct-3dc574f225",
+                  "name": "Aloysius Yapp vs Drawn from match: 193-208",
                   "streams": [
                     {
-                      "id": "st-c1b6d57cdf",
+                      "id": "st-3dc574f225",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c1b6d57cdf",
+                          "id": "lnk-3dc574f225",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8601/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8607/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1456,10 +1383,10 @@
           ],
           "org_metadata": {
             "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Francisco Sanchez Ruiz",
+            "team_a": "Aloysius Yapp",
             "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot%202025-12-21%20010653.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883284330_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
             "time": "15:30:00",
             "date": "02/10",
             "blv": "",
@@ -1471,7 +1398,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_165a8864_20261002.png?v=165a8864",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3dc574f225_96d9b6c6_20261002.png?v=96d9b6c6",
             "width": 1600,
             "height": 1200
           }
