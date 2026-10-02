@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-fcda9d60aa",
+          "name": "Carlo Biado vs Olivér Szolnoki | 15:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcda9d60aa",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fcda9d60aa",
+                  "name": "Carlo Biado vs Olivér Szolnoki",
+                  "streams": [
+                    {
+                      "id": "st-fcda9d60aa",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcda9d60aa",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 Last thirtytwo Đơn Nam",
+            "team_a": "Carlo Biado",
+            "team_b": "Olivér Szolnoki",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790923899566_Screenshot%202026-10-02%20135134.png",
+            "time": "15:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790929800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_a7de4396_20261002.png?v=a7de4396",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3dc574f225",
           "name": "Aloysius Yapp vs Eklent Kaçi | 15:30 02/10",
           "type": "single",
@@ -382,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-fcda9d60aa",
-          "name": "Carlo Biado vs Olivér Szolnoki | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcda9d60aa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fcda9d60aa",
-                  "name": "Carlo Biado vs Olivér Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-fcda9d60aa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcda9d60aa",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 Last thirtytwo Đơn Nam",
-            "team_a": "Carlo Biado",
-            "team_b": "Olivér Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790923899566_Screenshot%202026-10-02%20135134.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_a7de4396_20261002.png?v=a7de4396",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a722929587",
           "name": "Joshua Filler vs Jonas Magpantay | 15:30 02/10",
           "type": "single",
@@ -523,152 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a722929587_bb633319_20261002.png?v=bb633319",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-943f1fc565",
-          "name": "Jeffrey De Luna vs Yannick Pongers | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-943f1fc565",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-943f1fc565",
-                  "name": "Jeffrey De Luna vs Yannick Pongers",
-                  "streams": [
-                    {
-                      "id": "st-943f1fc565",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-943f1fc565",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8603/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Yannick Pongers",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883120668_JEFFREY%20DE%20LUNA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790924020869_Screenshot%202026-10-02%20135333.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-943f1fc565_bbcf73ec_20261002.png?v=bbcf73ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9c2b68c3ea",
-          "name": "James Aranas vs Hsu Jui An | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c2b68c3ea",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9c2b68c3ea",
-                  "name": "James Aranas vs Hsu Jui An",
-                  "streams": [
-                    {
-                      "id": "st-9c2b68c3ea",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c2b68c3ea",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8600/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last thirtytwo Đơn Nam",
-            "team_a": "James Aranas",
-            "team_b": "Hsu Jui An",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790882838888_JAMES%20ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790924141640_Screenshot%202026-09-29%20190143.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c2b68c3ea_7eace0a2_20261002.png?v=7eace0a2",
             "width": 1600,
             "height": 1200
           }
@@ -815,6 +669,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_97ecaff0_20261002.png?v=97ecaff0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9c2b68c3ea",
+          "name": "James Aranas vs Hsu Jui An | 15:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c2b68c3ea",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9c2b68c3ea",
+                  "name": "James Aranas vs Hsu Jui An",
+                  "streams": [
+                    {
+                      "id": "st-9c2b68c3ea",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c2b68c3ea",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8600/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last thirtytwo Đơn Nam",
+            "team_a": "James Aranas",
+            "team_b": "Hsu Jui An",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790882838888_JAMES%20ARANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790924141640_Screenshot%202026-09-29%20190143.png",
+            "time": "15:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790929800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c2b68c3ea_7eace0a2_20261002.png?v=7eace0a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-943f1fc565",
+          "name": "Jeffrey De Luna vs Yannick Pongers | 15:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-943f1fc565",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-943f1fc565",
+                  "name": "Jeffrey De Luna vs Yannick Pongers",
+                  "streams": [
+                    {
+                      "id": "st-943f1fc565",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-943f1fc565",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8603/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last thirtytwo Đơn Nam",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Yannick Pongers",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883120668_JEFFREY%20DE%20LUNA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790924020869_Screenshot%202026-10-02%20135333.png",
+            "time": "15:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790929800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-943f1fc565_bbcf73ec_20261002.png?v=bbcf73ec",
             "width": 1600,
             "height": 1200
           }
