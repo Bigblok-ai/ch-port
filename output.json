@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-fcda9d60aa",
-          "name": "Carlo Biado vs Olivér Szolnoki | Xinh Yeu",
+          "id": "chtv-aba3cd3f88",
+          "name": "Dương Quốc Hoàng vs Kyle Amoroto | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-fcda9d60aa",
+              "id": "src-aba3cd3f88",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fcda9d60aa",
-                  "name": "Carlo Biado vs Olivér Szolnoki",
+                  "id": "ct-aba3cd3f88",
+                  "name": "Dương Quốc Hoàng vs Kyle Amoroto",
                   "streams": [
                     {
-                      "id": "st-fcda9d60aa",
+                      "id": "st-aba3cd3f88",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fcda9d60aa",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-aba3cd3f88",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8602/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,87 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 Last thirtytwo Đơn Nam",
-            "team_a": "Carlo Biado",
-            "team_b": "Olivér Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790923899566_Screenshot%202026-10-02%20135134.png",
+            "league": "TV2 Last thirtytwo Đơn Nam",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Kyle Amoroto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790924071397_Screenshot%202026-10-02%20135424.png",
+            "time": "15:29:00",
+            "date": "02/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1790929740,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aba3cd3f88_0062e101_20261002.png?v=0062e101",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-36c2bb502d",
+          "name": "Robbie Capito vs Jayson Shaw | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36c2bb502d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-36c2bb502d",
+                  "name": "Robbie Capito vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-36c2bb502d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36c2bb502d",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8616/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Last thirtytwo Đơn Nam",
+            "team_a": "Robbie Capito",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790924221373_Screenshot%202026-10-02%20135636.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790924221177_Screenshot%202026-10-02%20135648.png",
             "time": "15:30:00",
             "date": "02/10",
-            "blv": "Xinh Yeu",
+            "blv": "Bỉm Sữa",
             "is_live": true,
             "time_sort": 1790929800,
             "cate_type": "billiards"
@@ -84,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_a7de4396_20261002.png?v=a7de4396",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36c2bb502d_fae4e3b6_20261002.png?v=fae4e3b6",
             "width": 1600,
             "height": 1200
           }
@@ -158,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3dc574f225_7869b2d3_20261002.png?v=7869b2d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fcda9d60aa",
+          "name": "Carlo Biado vs Olivér Szolnoki | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcda9d60aa",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fcda9d60aa",
+                  "name": "Carlo Biado vs Olivér Szolnoki",
+                  "streams": [
+                    {
+                      "id": "st-fcda9d60aa",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcda9d60aa",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 Last thirtytwo Đơn Nam",
+            "team_a": "Carlo Biado",
+            "team_b": "Olivér Szolnoki",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790923899566_Screenshot%202026-10-02%20135134.png",
+            "time": "15:30:00",
+            "date": "02/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790929800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_a7de4396_20261002.png?v=a7de4396",
             "width": 1600,
             "height": 1200
           }
