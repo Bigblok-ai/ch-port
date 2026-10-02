@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a8509cc363",
-          "name": "Albert Januarta vs Arseni Sevastyanov | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8509cc363",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a8509cc363",
-                  "name": "Albert Januarta vs Arseni Sevastyanov",
-                  "streams": [
-                    {
-                      "id": "st-a8509cc363",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8509cc363",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8584/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥Loser round 3",
-            "team_a": "Albert Januarta",
-            "team_b": "Arseni Sevastyanov",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790880461934_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790880464669_Arseni%20Sevastyanov.jpg",
-            "time": "08:00:00",
-            "date": "02/10",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790902800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a8509cc363_0bbd55da_20261002.png?v=0bbd55da",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d84ef9d72f",
           "name": "WPA Great Britain Men vs WPA Finland Men | 12:30 02/10 | GIÀNG A PHỌ",
@@ -236,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-8bfbe6f044",
-          "name": "WPA Philippines Men vs WPA Netherlands Men | 12:30 02/10 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8bfbe6f044",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8bfbe6f044",
-                  "name": "WPA Philippines Men vs WPA Netherlands Men",
-                  "streams": [
-                    {
-                      "id": "st-8bfbe6f044",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8bfbe6f044",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8598/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥đấu đội",
-            "team_a": "WPA Philippines Men",
-            "team_b": "WPA Netherlands Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790882417395_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790882567829_Marco%20Teutscher.jpg",
-            "time": "12:30:00",
-            "date": "02/10",
-            "blv": "Đại Kê",
-            "is_live": false,
-            "time_sort": 1790919000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8bfbe6f044_bc9fe6e9_20261002.png?v=bc9fe6e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-4bca7414ca",
           "name": "WPA Vietnam Men vs WPA Spain Men | 12:30 02/10 | Thập Cẩm",
           "type": "single",
@@ -377,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bca7414ca_d8092231_20261002.png?v=d8092231",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8bfbe6f044",
+          "name": "WPA Philippines Men vs WPA Netherlands Men | 12:30 02/10 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bfbe6f044",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8bfbe6f044",
+                  "name": "WPA Philippines Men vs WPA Netherlands Men",
+                  "streams": [
+                    {
+                      "id": "st-8bfbe6f044",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bfbe6f044",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8598/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 ( -_•)▄︻━一💥đấu đội",
+            "team_a": "WPA Philippines Men",
+            "team_b": "WPA Netherlands Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790882417395_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790882567829_Marco%20Teutscher.jpg",
+            "time": "12:30:00",
+            "date": "02/10",
+            "blv": "Đại Kê",
+            "is_live": false,
+            "time_sort": 1790919000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8bfbe6f044_bc9fe6e9_20261002.png?v=bc9fe6e9",
             "width": 1600,
             "height": 1200
           }
@@ -455,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-c1b6d57cdf",
-          "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208 | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1b6d57cdf",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c1b6d57cdf",
-                  "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208",
-                  "streams": [
-                    {
-                      "id": "st-c1b6d57cdf",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1b6d57cdf",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8601/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Francisco Sanchez Ruiz",
-            "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot%202025-12-21%20010653.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_165a8864_20261002.png?v=165a8864",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9c2b68c3ea",
           "name": "James Aranas vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
@@ -596,79 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c2b68c3ea_2aa22830_20261002.png?v=2aa22830",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fcda9d60aa",
-          "name": "Carlo Biado vs Drawn from match: 193-208 | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcda9d60aa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fcda9d60aa",
-                  "name": "Carlo Biado vs Drawn from match: 193-208",
-                  "streams": [
-                    {
-                      "id": "st-fcda9d60aa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcda9d60aa",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Carlo Biado",
-            "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_8a8532d4_20261002.png?v=8a8532d4",
             "width": 1600,
             "height": 1200
           }
@@ -747,8 +528,8 @@
           }
         },
         {
-          "id": "chtv-a722929587",
-          "name": "Joshua Filler vs Drawn from match: 193-208 | 15:30 02/10",
+          "id": "chtv-fcda9d60aa",
+          "name": "Carlo Biado vs Drawn from match: 193-208 | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -762,23 +543,23 @@
           ],
           "sources": [
             {
-              "id": "src-a722929587",
+              "id": "src-fcda9d60aa",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a722929587",
-                  "name": "Joshua Filler vs Drawn from match: 193-208",
+                  "id": "ct-fcda9d60aa",
+                  "name": "Carlo Biado vs Drawn from match: 193-208",
                   "streams": [
                     {
-                      "id": "st-a722929587",
+                      "id": "st-fcda9d60aa",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a722929587",
+                          "id": "lnk-fcda9d60aa",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8606/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -799,9 +580,9 @@
           ],
           "org_metadata": {
             "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Joshua Filler",
+            "team_a": "Carlo Biado",
             "team_b": "Drawn from match: 193-208",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883220718_Joshua%20Filler.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
             "time": "15:30:00",
             "date": "02/10",
@@ -814,7 +595,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a722929587_233df2ec_20261002.png?v=233df2ec",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_8a8532d4_20261002.png?v=8a8532d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c1b6d57cdf",
+          "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208 | 15:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1b6d57cdf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c1b6d57cdf",
+                  "name": "Francisco Sanchez Ruiz vs Drawn from match: 193-208",
+                  "streams": [
+                    {
+                      "id": "st-c1b6d57cdf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1b6d57cdf",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8601/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last thirtytwo Đơn Nam",
+            "team_a": "Francisco Sanchez Ruiz",
+            "team_b": "Drawn from match: 193-208",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766292831344_Screenshot%202025-12-21%20010653.png",
+            "time": "15:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790929800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_165a8864_20261002.png?v=165a8864",
             "width": 1600,
             "height": 1200
           }
@@ -888,6 +742,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3dc574f225_96d9b6c6_20261002.png?v=96d9b6c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a722929587",
+          "name": "Joshua Filler vs Drawn from match: 193-208 | 15:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a722929587",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a722929587",
+                  "name": "Joshua Filler vs Drawn from match: 193-208",
+                  "streams": [
+                    {
+                      "id": "st-a722929587",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a722929587",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8606/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last thirtytwo Đơn Nam",
+            "team_a": "Joshua Filler",
+            "team_b": "Drawn from match: 193-208",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883220718_Joshua%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766645727656_Screenshot%202025-12-21%20010653.png",
+            "time": "15:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790929800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a722929587_233df2ec_20261002.png?v=233df2ec",
             "width": 1600,
             "height": 1200
           }
