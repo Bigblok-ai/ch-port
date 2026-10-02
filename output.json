@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-56359c49cf",
-          "name": "Mark Davao vs Tomay Bacolod | Thập Cẩm",
+          "id": "chtv-e821a5d4ee",
+          "name": "Eklent Kaçi vs Kledio Kaçi | 07:05 03/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-56359c49cf",
+              "id": "src-e821a5d4ee",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-56359c49cf",
-                  "name": "Mark Davao vs Tomay Bacolod",
+                  "id": "ct-e821a5d4ee",
+                  "name": "Eklent Kaçi vs Kledio Kaçi",
                   "streams": [
                     {
-                      "id": "st-56359c49cf",
+                      "id": "st-e821a5d4ee",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-56359c49cf",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-e821a5d4ee",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8630/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8642/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "PHỦI PHIL",
-            "team_a": "Mark Davao",
-            "team_b": "Tomay Bacolod",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "21:25:00",
-            "date": "02/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790951100,
+            "league": "Anh em tương tàn",
+            "team_a": "Eklent Kaçi",
+            "team_b": "Kledio Kaçi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790955013819_Eklent%20Ka%C3%A7i.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790955021370_Kledio%20Kaci.jpg",
+            "time": "07:05:09",
+            "date": "03/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790985909,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-56359c49cf_63f8c150_20261003.png?v=63f8c150",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e821a5d4ee_0a1a7f86_20261003.png?v=0a1a7f86",
             "width": 1600,
             "height": 1200
           }
