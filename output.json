@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-4bca7414ca",
-          "name": "WPA Vietnam Men vs WPA Spain Men | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4bca7414ca",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4bca7414ca",
-                  "name": "WPA Vietnam Men vs WPA Spain Men",
-                  "streams": [
-                    {
-                      "id": "st-4bca7414ca",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4bca7414ca",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8597/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥đấu đội",
-            "team_a": "WPA Vietnam Men",
-            "team_b": "WPA Spain Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "time": "12:30:00",
-            "date": "02/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790919000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bca7414ca_d8092231_20261002.png?v=d8092231",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8bfbe6f044",
-          "name": "WPA Philippines Men vs WPA Netherlands Men | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8bfbe6f044",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8bfbe6f044",
-                  "name": "WPA Philippines Men vs WPA Netherlands Men",
-                  "streams": [
-                    {
-                      "id": "st-8bfbe6f044",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8bfbe6f044",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8598/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥đấu đội",
-            "team_a": "WPA Philippines Men",
-            "team_b": "WPA Netherlands Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790882417395_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790882567829_Marco%20Teutscher.jpg",
-            "time": "12:30:00",
-            "date": "02/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1790919000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8bfbe6f044_bc9fe6e9_20261002.png?v=bc9fe6e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-aba3cd3f88",
           "name": "Dương Quốc Hoàng vs Kyle Amoroto | 15:29 02/10",
@@ -231,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aba3cd3f88_0062e101_20261002.png?v=0062e101",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-36c2bb502d",
+          "name": "Robbie Capito vs Jayson Shaw | 15:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36c2bb502d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-36c2bb502d",
+                  "name": "Robbie Capito vs Jayson Shaw",
+                  "streams": [
+                    {
+                      "id": "st-36c2bb502d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36c2bb502d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8616/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 Last thirtytwo Đơn Nam",
+            "team_a": "Robbie Capito",
+            "team_b": "Jayson Shaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790924221373_Screenshot%202026-10-02%20135636.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790924221177_Screenshot%202026-10-02%20135648.png",
+            "time": "15:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790929800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36c2bb502d_fae4e3b6_20261002.png?v=fae4e3b6",
             "width": 1600,
             "height": 1200
           }
@@ -382,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-36c2bb502d",
-          "name": "Robbie Capito vs Jayson Shaw | 15:30 02/10",
+          "id": "chtv-943f1fc565",
+          "name": "Jeffrey De Luna vs Yannick Pongers | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,96 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-36c2bb502d",
+              "id": "src-943f1fc565",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-36c2bb502d",
-                  "name": "Robbie Capito vs Jayson Shaw",
+                  "id": "ct-943f1fc565",
+                  "name": "Jeffrey De Luna vs Yannick Pongers",
                   "streams": [
                     {
-                      "id": "st-36c2bb502d",
+                      "id": "st-943f1fc565",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-36c2bb502d",
+                          "id": "lnk-943f1fc565",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8616/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 Last thirtytwo Đơn Nam",
-            "team_a": "Robbie Capito",
-            "team_b": "Jayson Shaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790924221373_Screenshot%202026-10-02%20135636.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790924221177_Screenshot%202026-10-02%20135648.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36c2bb502d_fae4e3b6_20261002.png?v=fae4e3b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a722929587",
-          "name": "Joshua Filler vs Jonas Magpantay | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a722929587",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a722929587",
-                  "name": "Joshua Filler vs Jonas Magpantay",
-                  "streams": [
-                    {
-                      "id": "st-a722929587",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a722929587",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8606/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8603/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,10 +361,10 @@
           ],
           "org_metadata": {
             "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Joshua Filler",
-            "team_b": "Jonas Magpantay",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883220718_Joshua%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790923841723_Screenshot%202026-09-29%20185104.png",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Yannick Pongers",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883120668_JEFFREY%20DE%20LUNA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790924020869_Screenshot%202026-10-02%20135333.png",
             "time": "15:30:00",
             "date": "02/10",
             "blv": "",
@@ -522,153 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a722929587_bb633319_20261002.png?v=bb633319",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1f24379d35",
-          "name": "Pijus Labutis vs Sun Yi Hsuan | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f24379d35",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1f24379d35",
-                  "name": "Pijus Labutis vs Sun Yi Hsuan",
-                  "streams": [
-                    {
-                      "id": "st-1f24379d35",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f24379d35",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8604/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Pijus Labutis",
-            "team_b": "Sun Yi Hsuan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883165065_Pijus%20Labutis.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790923955908_Screenshot%202026-09-29%20190143.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1f24379d35_fc6edc9b_20261002.png?v=fc6edc9b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c1b6d57cdf",
-          "name": "Francisco Sanchez Ruiz vs Denis Grabe | 15:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1b6d57cdf",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c1b6d57cdf",
-                  "name": "Francisco Sanchez Ruiz vs Denis Grabe",
-                  "streams": [
-                    {
-                      "id": "st-c1b6d57cdf",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1b6d57cdf",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8601/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Francisco Sanchez Ruiz",
-            "team_b": "Denis Grabe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790924106928_Screenshot%202026-10-02%20135501.png",
-            "time": "15:30:00",
-            "date": "02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_97ecaff0_20261002.png?v=97ecaff0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-943f1fc565_bbcf73ec_20261002.png?v=bbcf73ec",
             "width": 1600,
             "height": 1200
           }
@@ -747,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-943f1fc565",
-          "name": "Jeffrey De Luna vs Yannick Pongers | 15:30 02/10",
+          "id": "chtv-c1b6d57cdf",
+          "name": "Francisco Sanchez Ruiz vs Denis Grabe | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -762,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-943f1fc565",
+              "id": "src-c1b6d57cdf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-943f1fc565",
-                  "name": "Jeffrey De Luna vs Yannick Pongers",
+                  "id": "ct-c1b6d57cdf",
+                  "name": "Francisco Sanchez Ruiz vs Denis Grabe",
                   "streams": [
                     {
-                      "id": "st-943f1fc565",
+                      "id": "st-c1b6d57cdf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-943f1fc565",
+                          "id": "lnk-c1b6d57cdf",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8603/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8601/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -799,10 +507,10 @@
           ],
           "org_metadata": {
             "league": "Last thirtytwo Đơn Nam",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Yannick Pongers",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883120668_JEFFREY%20DE%20LUNA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790924020869_Screenshot%202026-10-02%20135333.png",
+            "team_a": "Francisco Sanchez Ruiz",
+            "team_b": "Denis Grabe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790924106928_Screenshot%202026-10-02%20135501.png",
             "time": "15:30:00",
             "date": "02/10",
             "blv": "",
@@ -814,14 +522,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-943f1fc565_bbcf73ec_20261002.png?v=bbcf73ec",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c1b6d57cdf_97ecaff0_20261002.png?v=97ecaff0",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-dfce206b76",
-          "name": "Chia Hua Chen vs Chihiro Kawahara | 17:30 02/10",
+          "id": "chtv-1f24379d35",
+          "name": "Pijus Labutis vs Sun Yi Hsuan | 15:30 02/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -835,23 +543,23 @@
           ],
           "sources": [
             {
-              "id": "src-dfce206b76",
+              "id": "src-1f24379d35",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-dfce206b76",
-                  "name": "Chia Hua Chen vs Chihiro Kawahara",
+                  "id": "ct-1f24379d35",
+                  "name": "Pijus Labutis vs Sun Yi Hsuan",
                   "streams": [
                     {
-                      "id": "st-dfce206b76",
+                      "id": "st-1f24379d35",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-dfce206b76",
+                          "id": "lnk-1f24379d35",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8610/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8604/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -871,23 +579,96 @@
             }
           ],
           "org_metadata": {
-            "league": "Tứ Kết Nữ",
-            "team_a": "Chia Hua Chen",
-            "team_b": "Chihiro Kawahara",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883450818_Chia%20Hua%20Chen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790883454232_CHIHIRO%20KAWAHARA.jpg",
-            "time": "17:30:00",
+            "league": "Last thirtytwo Đơn Nam",
+            "team_a": "Pijus Labutis",
+            "team_b": "Sun Yi Hsuan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883165065_Pijus%20Labutis.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790923955908_Screenshot%202026-09-29%20190143.png",
+            "time": "15:30:00",
             "date": "02/10",
             "blv": "",
             "is_live": false,
-            "time_sort": 1790937000,
+            "time_sort": 1790929800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfce206b76_73f8dca8_20261002.png?v=73f8dca8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1f24379d35_fc6edc9b_20261002.png?v=fc6edc9b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a722929587",
+          "name": "Joshua Filler vs Jonas Magpantay | 15:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a722929587",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a722929587",
+                  "name": "Joshua Filler vs Jonas Magpantay",
+                  "streams": [
+                    {
+                      "id": "st-a722929587",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a722929587",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8606/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last thirtytwo Đơn Nam",
+            "team_a": "Joshua Filler",
+            "team_b": "Jonas Magpantay",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883220718_Joshua%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790923841723_Screenshot%202026-09-29%20185104.png",
+            "time": "15:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790929800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a722929587_bb633319_20261002.png?v=bb633319",
             "width": 1600,
             "height": 1200
           }
@@ -1034,6 +815,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6c8e2b8864_79a4412e_20261002.png?v=79a4412e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dfce206b76",
+          "name": "Chia Hua Chen vs Chihiro Kawahara | 17:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dfce206b76",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dfce206b76",
+                  "name": "Chia Hua Chen vs Chihiro Kawahara",
+                  "streams": [
+                    {
+                      "id": "st-dfce206b76",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dfce206b76",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8610/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết Nữ",
+            "team_a": "Chia Hua Chen",
+            "team_b": "Chihiro Kawahara",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883450818_Chia%20Hua%20Chen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790883454232_CHIHIRO%20KAWAHARA.jpg",
+            "time": "17:30:00",
+            "date": "02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790937000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfce206b76_73f8dca8_20261002.png?v=73f8dca8",
             "width": 1600,
             "height": 1200
           }
