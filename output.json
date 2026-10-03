@@ -161,6 +161,152 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-2ea54821f5",
+          "name": "PBS WPA Chinese Taipei Men vs PBS WPA Spain Men | 17:30 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ea54821f5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2ea54821f5",
+                  "name": "PBS WPA Chinese Taipei Men vs PBS WPA Spain Men",
+                  "streams": [
+                    {
+                      "id": "st-2ea54821f5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ea54821f5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8658/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 TỨ KẾT ĐÔI NAM",
+            "team_a": "PBS WPA Chinese Taipei Men",
+            "team_b": "PBS WPA Spain Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791009316234_Screenshot%202026-09-29%20190143.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791009371177_Francisco%20Sanchez%20Ruiz.png",
+            "time": "17:30:00",
+            "date": "03/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791023400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2ea54821f5_b213d530_20261003.png?v=b213d530",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-90d2c19949",
+          "name": "PBS WPA Poland Men vs PBS WPA Finland Men | 17:30 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-90d2c19949",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-90d2c19949",
+                  "name": "PBS WPA Poland Men vs PBS WPA Finland Men",
+                  "streams": [
+                    {
+                      "id": "st-90d2c19949",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-90d2c19949",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8659/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 TỨ KẾT ĐÔI NAM",
+            "team_a": "PBS WPA Poland Men",
+            "team_b": "PBS WPA Finland Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791009570645_Screenshot%202026-10-03%20133815.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791009570277_Screenshot%202026-10-03%20133928.png",
+            "time": "17:30:00",
+            "date": "03/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791023400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d2c19949_c4c142f6_20261003.png?v=c4c142f6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
