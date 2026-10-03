@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-289fff51d7",
-          "name": "JAYBEE SUCAL vs IAN JASPER (8-10) | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-289fff51d7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-289fff51d7",
-                  "name": "JAYBEE SUCAL vs IAN JASPER (8-10)",
-                  "streams": [
-                    {
-                      "id": "st-289fff51d7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-289fff51d7",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8667/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Anh như con cáo, em như một cành nho xanh.",
-            "team_a": "JAYBEE SUCAL",
-            "team_b": "IAN JASPER (8-10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791030102334_JAYBEE%20SUCAL.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
-            "date": "03/10",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1790960400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-289fff51d7_7ee96f4c_20261003.png?v=7ee96f4c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-2ea54821f5",
           "name": "Chinese Taipei Men vs Spain Men | Đại Kê",
