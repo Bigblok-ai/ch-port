@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,16 +91,16 @@
         },
         {
           "id": "chtv-17462d16f6",
-          "name": "Seoa Seo vs Tzu-Chien Wei | 13:00 03/10 | Đại Kê",
+          "name": "Seoa Seo vs Tzu-Chien Wei | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -149,7 +149,7 @@
             "time": "13:00:00",
             "date": "03/10",
             "blv": "Đại Kê",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1791007200,
             "cate_type": "billiards"
           },
@@ -164,7 +164,7 @@
         },
         {
           "id": "chtv-939903d31f",
-          "name": "Chihiro Kawahara vs Chieh-Yu Chou | 13:00 03/10",
+          "name": "Chihiro Kawahara vs Chieh-Yu Chou | 13:00 03/10 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -191,7 +191,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-939903d31f",
-                          "name": "Stream",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8647/index.m3u8",
@@ -221,7 +221,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1790970007485_Chieh-Yu%20Chou.jpg",
             "time": "13:00:00",
             "date": "03/10",
-            "blv": "",
+            "blv": "Lee Min Hoo",
             "is_live": false,
             "time_sort": 1791007200,
             "cate_type": "billiards"
