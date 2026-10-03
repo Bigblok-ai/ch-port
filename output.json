@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b4560df442_62b2f03d_20261003.png?v=62b2f03d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-98d36a34b8",
-          "name": "Carlo Biado vs Joshua Filler | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98d36a34b8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-98d36a34b8",
-                  "name": "Carlo Biado vs Joshua Filler",
-                  "streams": [
-                    {
-                      "id": "st-98d36a34b8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-98d36a34b8",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8648/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT ĐƠN NAM",
-            "team_a": "Carlo Biado",
-            "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790996467275_Carlo%20Biado.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790996467110_Joshua%20Filler.png",
-            "time": "10:30:00",
-            "date": "03/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790998200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-98d36a34b8_76b2832c_20261003.png?v=76b2832c",
             "width": 1600,
             "height": 1200
           }
@@ -309,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-b78c38d9d9",
-          "name": "Daniel Macioł vs Mi Le | GIÀNG A PHỌ",
+          "id": "chtv-98d36a34b8",
+          "name": "Carlo Biado vs Joshua Filler | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-b78c38d9d9",
+              "id": "src-98d36a34b8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b78c38d9d9",
-                  "name": "Daniel Macioł vs Mi Le",
+                  "id": "ct-98d36a34b8",
+                  "name": "Carlo Biado vs Joshua Filler",
                   "streams": [
                     {
-                      "id": "st-b78c38d9d9",
+                      "id": "st-98d36a34b8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b78c38d9d9",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-98d36a34b8",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8653/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8648/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -360,14 +287,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 TỨ KẾT ĐƠN NAM",
-            "team_a": "Daniel Macioł",
-            "team_b": "Mi Le",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790997546226_Screenshot%202026-10-02%20150313.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790996929937_Screenshot%202026-09-29%20190833.png",
+            "league": "TỨ KẾT ĐƠN NAM",
+            "team_a": "Carlo Biado",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790996467275_Carlo%20Biado.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790996467110_Joshua%20Filler.png",
             "time": "10:30:00",
             "date": "03/10",
-            "blv": "GIÀNG A PHỌ",
+            "blv": "Kèn Kèn",
             "is_live": true,
             "time_sort": 1790998200,
             "cate_type": "billiards"
@@ -376,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b78c38d9d9_0c479bee_20261003.png?v=0c479bee",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-98d36a34b8_76b2832c_20261003.png?v=76b2832c",
             "width": 1600,
             "height": 1200
           }
