@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-939903d31f",
-          "name": "Chihiro Kawahara vs Chieh-Yu Chou | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-939903d31f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-939903d31f",
-                  "name": "Chihiro Kawahara vs Chieh-Yu Chou",
-                  "streams": [
-                    {
-                      "id": "st-939903d31f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-939903d31f",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8647/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bán Kết 2",
-            "team_a": "Chihiro Kawahara",
-            "team_b": "Chieh-Yu Chou",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790970003664_CHIHIRO%20KAWAHARA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790970007485_Chieh-Yu%20Chou.jpg",
-            "time": "13:00:00",
-            "date": "03/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791007200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-939903d31f_6a98974c_20261003.png?v=6a98974c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b7bedb7f75",
           "name": "WPA Syria Men vs WPA Philippines Men | 17:30 03/10 | Bỉm Sữa",
@@ -382,79 +309,6 @@
           }
         },
         {
-          "id": "chtv-3442a9958b",
-          "name": "WPA USA Men vs WPA Indonesia Men | 17:30 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3442a9958b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3442a9958b",
-                  "name": "WPA USA Men vs WPA Indonesia Men",
-                  "streams": [
-                    {
-                      "id": "st-3442a9958b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3442a9958b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8663/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Đời là Phú Lê",
-            "team_a": "WPA USA Men",
-            "team_b": "WPA Indonesia Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791011123588_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791011129949_ALBERT%20JANURATA.jpg",
-            "time": "17:30:00",
-            "date": "03/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791023400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3442a9958b_53bc403e_20261003.png?v=53bc403e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a6ffa8d93c",
           "name": "WPA Chinese Taipei Men vs WPA Spain Men | 17:30 03/10",
           "type": "single",
@@ -523,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6ffa8d93c_5175fb7c_20261003.png?v=5175fb7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3442a9958b",
+          "name": "WPA USA Men vs WPA Indonesia Men | 17:30 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3442a9958b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3442a9958b",
+                  "name": "WPA USA Men vs WPA Indonesia Men",
+                  "streams": [
+                    {
+                      "id": "st-3442a9958b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3442a9958b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8663/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Đời là Phú Lê",
+            "team_a": "WPA USA Men",
+            "team_b": "WPA Indonesia Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791011123588_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791011129949_ALBERT%20JANURATA.jpg",
+            "time": "17:30:00",
+            "date": "03/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791023400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3442a9958b_53bc403e_20261003.png?v=53bc403e",
             "width": 1600,
             "height": 1200
           }
