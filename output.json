@@ -382,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-a6ffa8d93c",
-          "name": "WPA Chinese Taipei Men vs WPA Spain Men | 17:30 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6ffa8d93c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a6ffa8d93c",
-                  "name": "WPA Chinese Taipei Men vs WPA Spain Men",
-                  "streams": [
-                    {
-                      "id": "st-a6ffa8d93c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6ffa8d93c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8662/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Xách Ba Lô Và Đi",
-            "team_a": "WPA Chinese Taipei Men",
-            "team_b": "WPA Spain Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791011021847_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764310938354_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
-            "time": "17:30:00",
-            "date": "03/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791023400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6ffa8d93c_5175fb7c_20261003.png?v=5175fb7c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-3442a9958b",
           "name": "WPA USA Men vs WPA Indonesia Men | 17:30 03/10",
           "type": "single",
@@ -523,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3442a9958b_53bc403e_20261003.png?v=53bc403e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a6ffa8d93c",
+          "name": "WPA Chinese Taipei Men vs WPA Spain Men | 17:30 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6ffa8d93c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a6ffa8d93c",
+                  "name": "WPA Chinese Taipei Men vs WPA Spain Men",
+                  "streams": [
+                    {
+                      "id": "st-a6ffa8d93c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6ffa8d93c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8662/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Xách Ba Lô Và Đi",
+            "team_a": "WPA Chinese Taipei Men",
+            "team_b": "WPA Spain Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791011021847_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764310938354_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
+            "time": "17:30:00",
+            "date": "03/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791023400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6ffa8d93c_5175fb7c_20261003.png?v=5175fb7c",
             "width": 1600,
             "height": 1200
           }
