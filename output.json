@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-35d182450b",
-          "name": "James Aranas vs Robbie Capito | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35d182450b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-35d182450b",
-                  "name": "James Aranas vs Robbie Capito",
-                  "streams": [
-                    {
-                      "id": "st-35d182450b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-35d182450b",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8640/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3  ( -_•)▄︻━一💥 Last sixteen",
-            "team_a": "James Aranas",
-            "team_b": "Robbie Capito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790954649043_JAMES%20ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790954651893_ROBBIE%20CAPITO.jpg",
-            "time": "08:00:00",
-            "date": "03/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790989200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-35d182450b_c2a23bf9_20261003.png?v=c2a23bf9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7eee25fb14",
           "name": "Fabio RIZZI vs Joshua Filler | Kèn Kèn",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7eee25fb14_81a53fcb_20261003.png?v=81a53fcb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-35d182450b",
+          "name": "James Aranas vs Robbie Capito | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35d182450b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-35d182450b",
+                  "name": "James Aranas vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-35d182450b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35d182450b",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8640/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  ( -_•)▄︻━一💥 Last sixteen",
+            "team_a": "James Aranas",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790954649043_JAMES%20ARANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790954651893_ROBBIE%20CAPITO.jpg",
+            "time": "08:00:00",
+            "date": "03/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790989200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-35d182450b_c2a23bf9_20261003.png?v=c2a23bf9",
             "width": 1600,
             "height": 1200
           }
