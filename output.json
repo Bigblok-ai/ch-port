@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-6c75a4eea1",
-          "name": "Robbie Capito vs Mi Le | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c75a4eea1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6c75a4eea1",
-                  "name": "Robbie Capito vs Mi Le",
-                  "streams": [
-                    {
-                      "id": "st-6c75a4eea1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c75a4eea1",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8678/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bán Kết 1 ▄︻デ𝒜ℛℐℱ━一💥 kèo đồng",
-            "team_a": "Robbie Capito",
-            "team_b": "Mi Le",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791048343344_ROBBIE%20CAPITO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791048339979_Mi%20Le.png",
-            "time": "08:30:00",
-            "date": "04/10",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1791077400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6c75a4eea1_aa221031_20261004.png?v=aa221031",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8a6117be9e",
           "name": "Francisco Sanchez Ruiz vs Joshua Filler | Tào A Man",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8a6117be9e_616b832d_20261004.png?v=616b832d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6c75a4eea1",
+          "name": "Robbie Capito vs Mi Le | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c75a4eea1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6c75a4eea1",
+                  "name": "Robbie Capito vs Mi Le",
+                  "streams": [
+                    {
+                      "id": "st-6c75a4eea1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c75a4eea1",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8678/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bán Kết 1 ▄︻デ𝒜ℛℐℱ━一💥 kèo đồng",
+            "team_a": "Robbie Capito",
+            "team_b": "Mi Le",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791048343344_ROBBIE%20CAPITO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791048339979_Mi%20Le.png",
+            "time": "08:30:00",
+            "date": "04/10",
+            "blv": "VÁNG",
+            "is_live": true,
+            "time_sort": 1791077400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6c75a4eea1_aa221031_20261004.png?v=aa221031",
             "width": 1600,
             "height": 1200
           }
@@ -236,152 +236,6 @@
           }
         },
         {
-          "id": "chtv-cabd37236c",
-          "name": "WPA Philippines Men vs WPA Indonesia Men | 12:30 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cabd37236c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cabd37236c",
-                  "name": "WPA Philippines Men vs WPA Indonesia Men",
-                  "streams": [
-                    {
-                      "id": "st-cabd37236c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cabd37236c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8686/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Con gấu kiếm ăn đủ thì nó mới có thể ngủ đông.",
-            "team_a": "WPA Philippines Men",
-            "team_b": "WPA Indonesia Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791050012483_AJ%20MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791050025392_ALBERT%20JANURATA.jpg",
-            "time": "12:30:00",
-            "date": "04/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791091800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cabd37236c_45b122c4_20261004.png?v=45b122c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-358b4520c5",
-          "name": "WPA Spain Men vs WPA Poland Men | 12:30 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-358b4520c5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-358b4520c5",
-                  "name": "WPA Spain Men vs WPA Poland Men",
-                  "streams": [
-                    {
-                      "id": "st-358b4520c5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-358b4520c5",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8685/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Đời là Phú Lê",
-            "team_a": "WPA Spain Men",
-            "team_b": "WPA Poland Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791049786756_Marco%20Teutscher.jpg",
-            "time": "12:30:00",
-            "date": "04/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791091800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-358b4520c5_12a1b207_20261004.png?v=12a1b207",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8bcb274ef2",
           "name": "WPA Philippines Men vs WPA Indonesia Men | 12:30 04/10",
           "type": "single",
@@ -450,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8bcb274ef2_80c0b438_20261004.png?v=80c0b438",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cabd37236c",
+          "name": "WPA Philippines Men vs WPA Indonesia Men | 12:30 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cabd37236c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cabd37236c",
+                  "name": "WPA Philippines Men vs WPA Indonesia Men",
+                  "streams": [
+                    {
+                      "id": "st-cabd37236c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cabd37236c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8686/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Con gấu kiếm ăn đủ thì nó mới có thể ngủ đông.",
+            "team_a": "WPA Philippines Men",
+            "team_b": "WPA Indonesia Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791050012483_AJ%20MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791050025392_ALBERT%20JANURATA.jpg",
+            "time": "12:30:00",
+            "date": "04/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791091800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cabd37236c_45b122c4_20261004.png?v=45b122c4",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c54d6c24b_0f96aa07_20261004.png?v=0f96aa07",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-358b4520c5",
+          "name": "WPA Spain Men vs WPA Poland Men | 12:30 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-358b4520c5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-358b4520c5",
+                  "name": "WPA Spain Men vs WPA Poland Men",
+                  "streams": [
+                    {
+                      "id": "st-358b4520c5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-358b4520c5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8685/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Đời là Phú Lê",
+            "team_a": "WPA Spain Men",
+            "team_b": "WPA Poland Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791049786756_Marco%20Teutscher.jpg",
+            "time": "12:30:00",
+            "date": "04/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791091800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-358b4520c5_12a1b207_20261004.png?v=12a1b207",
             "width": 1600,
             "height": 1200
           }
