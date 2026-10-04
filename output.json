@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-aec60392ba",
-          "name": "PLONG2X vs MEOT + 1 win | Kèn Kèn",
+          "id": "chtv-b44dff8155",
+          "name": "Mi Le vs Joshua Filler | 08:00 05/10 | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-aec60392ba",
+              "id": "src-b44dff8155",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-aec60392ba",
-                  "name": "PLONG2X vs MEOT + 1 win",
+                  "id": "ct-b44dff8155",
+                  "name": "Mi Le vs Joshua Filler",
                   "streams": [
                     {
-                      "id": "st-aec60392ba",
+                      "id": "st-b44dff8155",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-aec60392ba",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-b44dff8155",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8713/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8714/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Đời còn gì ngoài cái tên đâu ?  money game 165k peso",
-            "team_a": "PLONG2X",
-            "team_b": "MEOT + 1 win",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
-            "date": "04/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791046800,
+            "league": "▄︻デ𝒜ℛℐℱ━一💥 CHUNG KẾT",
+            "team_a": "Mi Le",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791132971708_Mi%20Le.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791132981997_Joshua%20Filler.jpg",
+            "time": "08:00:00",
+            "date": "05/10",
+            "blv": "Bỉm Sữa",
+            "is_live": false,
+            "time_sort": 1791162000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aec60392ba_a0e82a26_20261005.png?v=a0e82a26",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b44dff8155_aa6fcce6_20261005.png?v=aa6fcce6",
             "width": 1600,
             "height": 1200
           }
