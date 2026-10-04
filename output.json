@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-358b4520c5",
-          "name": "WPA Spain Men vs WPA Poland Men | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-358b4520c5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-358b4520c5",
-                  "name": "WPA Spain Men vs WPA Poland Men",
-                  "streams": [
-                    {
-                      "id": "st-358b4520c5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-358b4520c5",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8685/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Đời là Phú Lê",
-            "team_a": "WPA Spain Men",
-            "team_b": "WPA Poland Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791049786756_Marco%20Teutscher.jpg",
-            "time": "12:30:00",
-            "date": "04/10",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1791091800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-358b4520c5_12a1b207_20261004.png?v=12a1b207",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f398cb2869",
           "name": "Seoa Seo vs Chieh-Yu Chou | Đại Kê",
