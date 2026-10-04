@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aec60392ba_a0e82a26_20261005.png?v=a0e82a26",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5edf26e4cd",
-          "name": "Edwin Gamas vs Makmak 7.10 Down | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5edf26e4cd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5edf26e4cd",
-                  "name": "Edwin Gamas vs Makmak 7.10 Down",
-                  "streams": [
-                    {
-                      "id": "st-5edf26e4cd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5edf26e4cd",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8712/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Độ Phủi Phi Race 17",
-            "team_a": "Edwin Gamas",
-            "team_b": "Makmak 7.10 Down",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791130450926_EDWIN%20GAMAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "23:11:00",
-            "date": "04/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791130260,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5edf26e4cd_011971b1_20261005.png?v=011971b1",
             "width": 1600,
             "height": 1200
           }
