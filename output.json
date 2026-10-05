@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ffb7e6b338",
-          "name": "Wilfredo Albay vs Vincent Erickson | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffb7e6b338",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ffb7e6b338",
-                  "name": "Wilfredo Albay vs Vincent Erickson",
-                  "streams": [
-                    {
-                      "id": "st-ffb7e6b338",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ffb7e6b338",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8728/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sống Chết có số , Phú quý DO  Trời",
-            "team_a": "Wilfredo Albay",
-            "team_b": "Vincent Erickson",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
-            "date": "05/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791133200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ffb7e6b338_ceec2b1f_20261005.png?v=ceec2b1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b9556302a1",
           "name": "WPA Spain Men vs WPA Philippines Men | 12:30 05/10 | GIÀNG A PHỌ",
