@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-ffb7e6b338",
+          "name": "Wilfredo Albay vs Vincent Erickson | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffb7e6b338",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ffb7e6b338",
+                  "name": "Wilfredo Albay vs Vincent Erickson",
+                  "streams": [
+                    {
+                      "id": "st-ffb7e6b338",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ffb7e6b338",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8728/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sống Chết có số , Phú quý DO  Trời",
+            "team_a": "Wilfredo Albay",
+            "team_b": "Vincent Erickson",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "00:00:00",
+            "date": "05/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791133200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ffb7e6b338_ceec2b1f_20261005.png?v=ceec2b1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-b9556302a1",
           "name": "WPA Spain Men vs WPA Philippines Men | 12:30 05/10 | GIÀNG A PHỌ",
@@ -85,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b9556302a1_bfcf4aec_20261005.png?v=bfcf4aec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-58fe7f7d38",
-          "name": "WPA Spain Men vs WPA Philippines Men | 12:30 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58fe7f7d38",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-58fe7f7d38",
-                  "name": "WPA Spain Men vs WPA Philippines Men",
-                  "streams": [
-                    {
-                      "id": "st-58fe7f7d38",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58fe7f7d38",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8718/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chẳng lẽ ta đâu mãi thế này",
-            "team_a": "WPA Spain Men",
-            "team_b": "WPA Philippines Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791157633507_CARLO%20BIADO.jpg",
-            "time": "12:30:00",
-            "date": "05/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791178200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58fe7f7d38_57215ccc_20261005.png?v=57215ccc",
             "width": 1600,
             "height": 1200
           }
@@ -236,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-370639a77d",
-          "name": "Hoàng PT vs Dũng Moii | 14:00 05/10",
+          "id": "chtv-58fe7f7d38",
+          "name": "WPA Spain Men vs WPA Philippines Men | 12:30 05/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-370639a77d",
+              "id": "src-58fe7f7d38",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-370639a77d",
-                  "name": "Hoàng PT vs Dũng Moii",
+                  "id": "ct-58fe7f7d38",
+                  "name": "WPA Spain Men vs WPA Philippines Men",
                   "streams": [
                     {
-                      "id": "st-370639a77d",
+                      "id": "st-58fe7f7d38",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-370639a77d",
+                          "id": "lnk-58fe7f7d38",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8725/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8718/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,96 +287,23 @@
             }
           ],
           "org_metadata": {
-            "league": "99 Billiard Kèo chấp",
-            "team_a": "Hoàng PT",
-            "team_b": "Dũng Moii",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791162783906_Ho%C3%A0ng%20PT.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791162780965_D%C5%A9ng%20Moii.png",
-            "time": "14:00:00",
+            "league": "Chẳng lẽ ta đâu mãi thế này",
+            "team_a": "WPA Spain Men",
+            "team_b": "WPA Philippines Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791157633507_CARLO%20BIADO.jpg",
+            "time": "12:30:00",
             "date": "05/10",
             "blv": "",
             "is_live": false,
-            "time_sort": 1791183600,
+            "time_sort": 1791178200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-370639a77d_bad11f09_20261005.png?v=bad11f09",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bdca1b6bf4",
-          "name": "Hoàng PT vs Dũng Moii | 14:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdca1b6bf4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bdca1b6bf4",
-                  "name": "Hoàng PT vs Dũng Moii",
-                  "streams": [
-                    {
-                      "id": "st-bdca1b6bf4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bdca1b6bf4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8724/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 Billiard  Kèo  chấp",
-            "team_a": "Hoàng PT",
-            "team_b": "Dũng Moii",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791162680183_Ho%C3%A0ng%20PT%20.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791162676473_D%C5%A9ng%20Moii.png",
-            "time": "14:00:00",
-            "date": "05/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791183600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bdca1b6bf4_69c9fd90_20261005.png?v=69c9fd90",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58fe7f7d38_57215ccc_20261005.png?v=57215ccc",
             "width": 1600,
             "height": 1200
           }
@@ -523,6 +450,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-daf74825fb_74def635_20261005.png?v=74def635",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bdca1b6bf4",
+          "name": "Hoàng PT vs Dũng Moii | 14:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bdca1b6bf4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bdca1b6bf4",
+                  "name": "Hoàng PT vs Dũng Moii",
+                  "streams": [
+                    {
+                      "id": "st-bdca1b6bf4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bdca1b6bf4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8724/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 Billiard  Kèo  chấp",
+            "team_a": "Hoàng PT",
+            "team_b": "Dũng Moii",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791162680183_Ho%C3%A0ng%20PT%20.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791162676473_D%C5%A9ng%20Moii.png",
+            "time": "14:00:00",
+            "date": "05/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791183600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bdca1b6bf4_69c9fd90_20261005.png?v=69c9fd90",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-370639a77d",
+          "name": "Hoàng PT vs Dũng Moii | 14:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-370639a77d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-370639a77d",
+                  "name": "Hoàng PT vs Dũng Moii",
+                  "streams": [
+                    {
+                      "id": "st-370639a77d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-370639a77d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8725/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "99 Billiard Kèo chấp",
+            "team_a": "Hoàng PT",
+            "team_b": "Dũng Moii",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791162783906_Ho%C3%A0ng%20PT.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791162780965_D%C5%A9ng%20Moii.png",
+            "time": "14:00:00",
+            "date": "05/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791183600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-370639a77d_bad11f09_20261005.png?v=bad11f09",
             "width": 1600,
             "height": 1200
           }
