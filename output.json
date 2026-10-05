@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-58fe7f7d38",
+          "name": "WPA Spain Men vs WPA Philippines Men | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58fe7f7d38",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-58fe7f7d38",
+                  "name": "WPA Spain Men vs WPA Philippines Men",
+                  "streams": [
+                    {
+                      "id": "st-58fe7f7d38",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58fe7f7d38",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8718/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chẳng lẽ ta đâu mãi thế này",
+            "team_a": "WPA Spain Men",
+            "team_b": "WPA Philippines Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791157633507_CARLO%20BIADO.jpg",
+            "time": "12:30:00",
+            "date": "05/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791178200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58fe7f7d38_57215ccc_20261005.png?v=57215ccc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-b9556302a1",
           "name": "WPA Spain Men vs WPA Philippines Men | GIÀNG A PHỌ",
@@ -90,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-58fe7f7d38",
-          "name": "WPA Spain Men vs WPA Philippines Men | Lee Min Hoo",
+          "id": "chtv-daf74825fb",
+          "name": "Hoàng PT vs Dũng Moii | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-58fe7f7d38",
+              "id": "src-daf74825fb",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-58fe7f7d38",
-                  "name": "WPA Spain Men vs WPA Philippines Men",
+                  "id": "ct-daf74825fb",
+                  "name": "Hoàng PT vs Dũng Moii",
                   "streams": [
                     {
-                      "id": "st-58fe7f7d38",
+                      "id": "st-daf74825fb",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-58fe7f7d38",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-daf74825fb",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8718/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8722/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Chẳng lẽ ta đâu mãi thế này",
-            "team_a": "WPA Spain Men",
-            "team_b": "WPA Philippines Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791157633507_CARLO%20BIADO.jpg",
-            "time": "12:30:00",
+            "league": "Choáng TV x 99 Billiard",
+            "team_a": "Hoàng PT",
+            "team_b": "Dũng Moii",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791159931438_Ho%C3%A0ng%20PT%20.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791159919788_D%C5%A9ng%20Moii.png",
+            "time": "14:00:00",
             "date": "05/10",
-            "blv": "Lee Min Hoo",
+            "blv": "BÚN CHÓ",
             "is_live": true,
-            "time_sort": 1791178200,
+            "time_sort": 1791183600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58fe7f7d38_57215ccc_20261005.png?v=57215ccc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-daf74825fb_74def635_20261005.png?v=74def635",
             "width": 1600,
             "height": 1200
           }
