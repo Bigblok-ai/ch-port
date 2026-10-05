@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-526d0357ad",
+          "name": "DANNY G vs THOMAS | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-526d0357ad",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-526d0357ad",
+                  "name": "DANNY G vs THOMAS",
+                  "streams": [
+                    {
+                      "id": "st-526d0357ad",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-526d0357ad",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8729/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ĐỜI LÀ PHÚ LÊ",
+            "team_a": "DANNY G",
+            "team_b": "THOMAS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791169773531_M%E1%BB%B9.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791169772871_M%E1%BB%B9.png",
+            "time": "00:00:00",
+            "date": "05/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791133200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-526d0357ad_5910cac2_20261005.png?v=5910cac2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-b9556302a1",
           "name": "WPA Spain Men vs WPA Philippines Men | 12:30 05/10 | GIÀNG A PHỌ",
