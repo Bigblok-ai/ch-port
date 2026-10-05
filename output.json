@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-0effa68955",
+          "name": "Mi Le vs Joshua Filler | 08:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0effa68955",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0effa68955",
+                  "name": "Mi Le vs Joshua Filler",
+                  "streams": [
+                    {
+                      "id": "st-0effa68955",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0effa68955",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8720/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🔞🔞🔞Luồng Cược Séc 1 🔞🔞🔞",
+            "team_a": "Mi Le",
+            "team_b": "Joshua Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791158847436_Mi%20Le.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791158850070_Joshua%20Filler.jpg",
+            "time": "08:00:00",
+            "date": "05/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791162000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0effa68955_4b4356ba_20261005.png?v=4b4356ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b9556302a1",
           "name": "WPA Spain Men vs WPA Philippines Men | 12:30 05/10 | GIÀNG A PHỌ",
           "type": "single",
