@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-a5b4790e73",
+          "name": "Tata cdo vs indonesia | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5b4790e73",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a5b4790e73",
+                  "name": "Tata cdo vs indonesia",
+                  "streams": [
+                    {
+                      "id": "st-a5b4790e73",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5b4790e73",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8763/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "h",
+            "team_a": "Tata cdo",
+            "team_b": "indonesia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791281166848_Screenshot%202026-07-07%20004029.png",
+            "time": "17:06:00",
+            "date": "06/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1791281160,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a5b4790e73_eb3d0035_20261006.png?v=eb3d0035",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-d3fb677973",
           "name": "ARSENI vs BACHRAIN | Đại Kê",
@@ -90,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-a5b4790e73",
-          "name": "Tata cdo vs indonesia | SÊ KÔÔ",
+          "id": "chtv-e35d8f3a8f",
+          "name": "AN NHIỆT vs HUY C300 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-a5b4790e73",
+              "id": "src-e35d8f3a8f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a5b4790e73",
-                  "name": "Tata cdo vs indonesia",
+                  "id": "ct-e35d8f3a8f",
+                  "name": "AN NHIỆT vs HUY C300",
                   "streams": [
                     {
-                      "id": "st-a5b4790e73",
+                      "id": "st-e35d8f3a8f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a5b4790e73",
-                          "name": "SÊ KÔÔ",
+                          "id": "lnk-e35d8f3a8f",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8763/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8767/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "h",
-            "team_a": "Tata cdo",
-            "team_b": "indonesia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791281166848_Screenshot%202026-07-07%20004029.png",
-            "time": "17:06:00",
+            "league": "GAME 2",
+            "team_a": "AN NHIỆT",
+            "team_b": "HUY C300",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791281382676_AN%20NHI%E1%BB%86T.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791281392668_HUY%20C300.png",
+            "time": "17:10:00",
             "date": "06/10",
-            "blv": "SÊ KÔÔ",
+            "blv": "Thập Cẩm",
             "is_live": true,
-            "time_sort": 1791281160,
+            "time_sort": 1791281400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a5b4790e73_eb3d0035_20261006.png?v=eb3d0035",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e35d8f3a8f_06a3c6ca_20261006.png?v=06a3c6ca",
             "width": 1600,
             "height": 1200
           }
