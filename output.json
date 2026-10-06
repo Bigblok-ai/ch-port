@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-afbc5df3f3",
-          "name": "Đi zây Manas vs RIO PANDU | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afbc5df3f3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-afbc5df3f3",
-                  "name": "Đi zây Manas vs RIO PANDU",
-                  "streams": [
-                    {
-                      "id": "st-afbc5df3f3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afbc5df3f3",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8760/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BALI 9 ball Open",
-            "team_a": "Đi zây Manas",
-            "team_b": "RIO PANDU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791274200759_Albert%20James%20Manas.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791274331751_Indonesia.png",
-            "time": "00:00:00",
-            "date": "06/10",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1791219600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afbc5df3f3_a8d4ee41_20261006.png?v=a8d4ee41",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8088479abd",
           "name": "Phalakorn Teawsakul vs Preecha Boonmoung | Đại Kê",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8088479abd_bb4e1d94_20261006.png?v=bb4e1d94",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-afbc5df3f3",
+          "name": "Đi zây Manas vs RIO PANDU | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afbc5df3f3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-afbc5df3f3",
+                  "name": "Đi zây Manas vs RIO PANDU",
+                  "streams": [
+                    {
+                      "id": "st-afbc5df3f3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afbc5df3f3",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8760/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BALI 9 ball Open",
+            "team_a": "Đi zây Manas",
+            "team_b": "RIO PANDU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791274200759_Albert%20James%20Manas.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791274331751_Indonesia.png",
+            "time": "00:00:00",
+            "date": "06/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1791219600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afbc5df3f3_a8d4ee41_20261006.png?v=a8d4ee41",
             "width": 1600,
             "height": 1200
           }
