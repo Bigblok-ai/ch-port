@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-ff6ab27240",
-          "name": "UYỂN NHI vs HỒNG NHUNG | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff6ab27240",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ff6ab27240",
-                  "name": "UYỂN NHI vs HỒNG NHUNG",
-                  "streams": [
-                    {
-                      "id": "st-ff6ab27240",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff6ab27240",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8771/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vn",
-            "team_a": "UYỂN NHI",
-            "team_b": "HỒNG NHUNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "19:01:00",
-            "date": "06/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1791288060,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff6ab27240_6b4218b9_20261006.png?v=6b4218b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-42ee4b7bd3",
           "name": "MHAR SAGARINO vs JOMAR MALAIT | Lee Min Hoo",
           "type": "single",
@@ -377,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-895082c1d6_3dd2eb07_20261006.png?v=3dd2eb07",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ab19afb4c9",
+          "name": "Ado Laguna vs Edgie | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab19afb4c9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ab19afb4c9",
+                  "name": "Ado Laguna vs Edgie",
+                  "streams": [
+                    {
+                      "id": "st-ab19afb4c9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ab19afb4c9",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8778/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHI PHUILR",
+            "team_a": "Ado Laguna",
+            "team_b": "Edgie",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:51:00",
+            "date": "06/10",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1791294660,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ab19afb4c9_a0e82a26_20261006.png?v=a0e82a26",
             "width": 1600,
             "height": 1200
           }
