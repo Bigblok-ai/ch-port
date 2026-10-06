@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-f36c8cc4df",
+          "name": "An Nhiệt vs Huy C300 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f36c8cc4df",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f36c8cc4df",
+                  "name": "An Nhiệt vs Huy C300",
+                  "streams": [
+                    {
+                      "id": "st-f36c8cc4df",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f36c8cc4df",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8762/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOANGTV",
+            "team_a": "An Nhiệt",
+            "team_b": "Huy C300",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791275909190_Screenshot%202026-10-06%20153821.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791275909069_Screenshot%202026-10-06%20153806.png",
+            "time": "00:00:00",
+            "date": "06/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791219600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f36c8cc4df_d5de6a1d_20261006.png?v=d5de6a1d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-afbc5df3f3",
           "name": "Đi zây Manas vs RIO PANDU | SÊ KÔÔ",
