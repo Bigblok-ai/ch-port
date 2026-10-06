@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90e362be89_dd706c93_20261006.png?v=dd706c93",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2e3d523fce",
+          "name": "Aivan Muluto vs Fery | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e3d523fce",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2e3d523fce",
+                  "name": "Aivan Muluto vs Fery",
+                  "streams": [
+                    {
+                      "id": "st-2e3d523fce",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e3d523fce",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8756/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOANGTV",
+            "team_a": "Aivan Muluto",
+            "team_b": "Fery",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791271111652_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791271174214_Indonesia.png",
+            "time": "14:30:00",
+            "date": "06/10",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1791271800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2e3d523fce_43a6a4ed_20261006.png?v=43a6a4ed",
             "width": 1600,
             "height": 1200
           }
