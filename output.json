@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-d3fb677973",
-          "name": "ARSENI vs BACHRAIN | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3fb677973",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d3fb677973",
-                  "name": "ARSENI vs BACHRAIN",
-                  "streams": [
-                    {
-                      "id": "st-d3fb677973",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d3fb677973",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8765/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "ARSENI",
-            "team_b": "BACHRAIN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791281320240_10.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791281301368_Screenshot%202026-07-07%20004029.png",
-            "time": "17:06:00",
-            "date": "06/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791281160,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d3fb677973_fbc42324_20261006.png?v=fbc42324",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a5b4790e73",
           "name": "Tata cdo vs indonesia | SÊ KÔÔ",
