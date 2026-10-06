@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36b9f5681c_372eb859_20261006.png?v=372eb859",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-895082c1d6",
+          "name": "JOHN VINCENT VICEDO vs JACK DE LUNA | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-895082c1d6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-895082c1d6",
+                  "name": "JOHN VINCENT VICEDO vs JACK DE LUNA",
+                  "streams": [
+                    {
+                      "id": "st-895082c1d6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-895082c1d6",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8776/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHI PHUILR",
+            "team_a": "JOHN VINCENT VICEDO",
+            "team_b": "JACK DE LUNA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791292758131_JOHN%20VINCENT%20VIDEDO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791292779954_JEFFREY%20DE%20LUNA.jpg",
+            "time": "20:19:00",
+            "date": "06/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1791292740,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-895082c1d6_3dd2eb07_20261006.png?v=3dd2eb07",
             "width": 1600,
             "height": 1200
           }
