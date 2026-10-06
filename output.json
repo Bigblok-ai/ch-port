@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90e362be89_dd706c93_20261006.png?v=dd706c93",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c5e86b6127",
+          "name": "ALBERT JANUARTA vs JEFF DE LUNA | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5e86b6127",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c5e86b6127",
+                  "name": "ALBERT JANUARTA vs JEFF DE LUNA",
+                  "streams": [
+                    {
+                      "id": "st-c5e86b6127",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c5e86b6127",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8751/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Đời là Phú Lê",
+            "team_a": "ALBERT JANUARTA",
+            "team_b": "JEFF DE LUNA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791264525543_Albert%20Januarta.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791264525485_Screenshot%202026-10-06%20122840.png",
+            "time": "12:30:00",
+            "date": "06/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1791264600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c5e86b6127_7d10b6b1_20261006.png?v=7d10b6b1",
             "width": 1600,
             "height": 1200
           }
