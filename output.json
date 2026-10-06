@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0cf4dcce09_ceec2b1f_20261006.png?v=ceec2b1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5e68a81382",
-          "name": "JEFFREY IGNACIO vs OLIVER SZOLNOKI | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5e68a81382",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5e68a81382",
-                  "name": "JEFFREY IGNACIO vs OLIVER SZOLNOKI",
-                  "streams": [
-                    {
-                      "id": "st-5e68a81382",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e68a81382",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8783/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "p",
-            "team_a": "JEFFREY IGNACIO",
-            "team_b": "OLIVER SZOLNOKI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791298421154_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791298423982_20.jpg",
-            "time": "21:53:00",
-            "date": "06/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791298380,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5e68a81382_324c4153_20261006.png?v=324c4153",
             "width": 1600,
             "height": 1200
           }
