@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e35d8f3a8f_06a3c6ca_20261006.png?v=06a3c6ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-16e12cdea7",
+          "name": "Jeff de Luna vs Riki Bocil Sniper | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16e12cdea7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-16e12cdea7",
+                  "name": "Jeff de Luna vs Riki Bocil Sniper",
+                  "streams": [
+                    {
+                      "id": "st-16e12cdea7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-16e12cdea7",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8768/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "z",
+            "team_a": "Jeff de Luna",
+            "team_b": "Riki Bocil Sniper",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791281467812_JEFFREY%20DE%20LUNA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "17:11:00",
+            "date": "06/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791281460,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-16e12cdea7_8a35151a_20261006.png?v=8a35151a",
             "width": 1600,
             "height": 1200
           }
