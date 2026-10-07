@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-4ac144670f",
-          "name": "dart bonode vs darrel tejerero | GIÀNG A PHỌ",
+          "id": "chtv-61b897ffa4",
+          "name": "ADO ASSIS TADIQUE vs ALLAN IBAAN | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-4ac144670f",
+              "id": "src-61b897ffa4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4ac144670f",
-                  "name": "dart bonode vs darrel tejerero",
+                  "id": "ct-61b897ffa4",
+                  "name": "ADO ASSIS TADIQUE vs ALLAN IBAAN",
                   "streams": [
                     {
-                      "id": "st-4ac144670f",
+                      "id": "st-61b897ffa4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4ac144670f",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-61b897ffa4",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8825/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8831/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,96 @@
             }
           ],
           "org_metadata": {
-            "league": "SHOWDOWN",
-            "team_a": "dart bonode",
-            "team_b": "darrel tejerero",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791381156381_Screenshot%202026-10-07%20205214.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791381155444_Screenshot%202026-10-07%20205221.png",
-            "time": "20:53:00",
+            "league": "PHỦI PHIL",
+            "team_a": "ADO ASSIS TADIQUE",
+            "team_b": "ALLAN IBAAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "23:01:00",
             "date": "07/10",
-            "blv": "GIÀNG A PHỌ",
+            "blv": "Kèn Kèn",
             "is_live": true,
-            "time_sort": 1791381180,
+            "time_sort": 1791388860,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ac144670f_53b17c38_20261007.png?v=53b17c38",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-61b897ffa4_a0e82a26_20261007.png?v=a0e82a26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-797c185d0b",
+          "name": "edwin gamas vs tan tan | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-797c185d0b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-797c185d0b",
+                  "name": "edwin gamas vs tan tan",
+                  "streams": [
+                    {
+                      "id": "st-797c185d0b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-797c185d0b",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8832/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHỦI PHIL",
+            "team_a": "edwin gamas",
+            "team_b": "tan tan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791389147913_EDWIN%20GAMAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "23:06:00",
+            "date": "07/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791389160,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-797c185d0b_d1471d27_20261007.png?v=d1471d27",
             "width": 1600,
             "height": 1200
           }
