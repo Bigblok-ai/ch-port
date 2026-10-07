@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ac144670f_53b17c38_20261007.png?v=53b17c38",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ff09290ba3",
-          "name": "HUY C300 + BÌNH CHUẨN vs TIẾN MINH + TÙNG HÍP | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff09290ba3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ff09290ba3",
-                  "name": "HUY C300 + BÌNH CHUẨN vs TIẾN MINH + TÙNG HÍP",
-                  "streams": [
-                    {
-                      "id": "st-ff09290ba3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff09290ba3",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8830/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vn",
-            "team_a": "HUY C300 + BÌNH CHUẨN",
-            "team_b": "TIẾN MINH + TÙNG HÍP",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791386650526_HUY%20C300.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791386656851_t%C3%B9ng%20h%C3%ADp.png",
-            "time": "22:24:00",
-            "date": "07/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1791386640,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff09290ba3_4c5ec75b_20261007.png?v=4c5ec75b",
             "width": 1600,
             "height": 1200
           }
