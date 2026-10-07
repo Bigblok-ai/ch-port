@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ae2a044576_3e3d531d_20261007.png?v=3e3d531d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ea9899a2b7",
+          "name": "CASPER MATIKAINEN vs J.MARABI | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea9899a2b7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ea9899a2b7",
+                  "name": "CASPER MATIKAINEN vs J.MARABI",
+                  "streams": [
+                    {
+                      "id": "st-ea9899a2b7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea9899a2b7",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8809/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOANGTV",
+            "team_a": "CASPER MATIKAINEN",
+            "team_b": "J.MARABI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791361632790_Finland.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791361632445_Philippines.png",
+            "time": "15:26:00",
+            "date": "07/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791361560,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea9899a2b7_62e6ab05_20261007.png?v=62e6ab05",
             "width": 1600,
             "height": 1200
           }
