@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-d4f3fc3079",
-          "name": "BÌNH CHUẨN vs QUAN CON | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4f3fc3079",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d4f3fc3079",
-                  "name": "BÌNH CHUẨN vs QUAN CON",
-                  "streams": [
-                    {
-                      "id": "st-d4f3fc3079",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4f3fc3079",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8819/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "BÌNH CHUẨN",
-            "team_b": "QUAN CON",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791376932780_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:09:42",
-            "date": "07/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1791342582,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d4f3fc3079_ff7d2370_20261007.png?v=ff7d2370",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-9157754697",
           "name": "LU HUI CHAN vs PHƯƠNG NAM ĐÀI LOAN | Xinh Yeu",
