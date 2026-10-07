@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17a8ade9a3_6742e772_20261007.png?v=6742e772",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8c4a1dcc99",
-          "name": "Định Vạn vs Đối Định Vạn | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c4a1dcc99",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c4a1dcc99",
-                  "name": "Định Vạn vs Đối Định Vạn",
-                  "streams": [
-                    {
-                      "id": "st-8c4a1dcc99",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c4a1dcc99",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8798/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Đại Tá Định Vạn",
-            "team_a": "Định Vạn",
-            "team_b": "Đối Định Vạn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791352600931_%C4%90%E1%BB%8ANH%20V%E1%BA%A0N.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765419036972_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "12:53:00",
-            "date": "07/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1791352380,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c4a1dcc99_2935f4f0_20261007.png?v=2935f4f0",
             "width": 1600,
             "height": 1200
           }
