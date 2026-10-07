@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-06128d0589",
-          "name": "FELIX VOGEL vs JUNDEL | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-06128d0589",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-06128d0589",
-                  "name": "FELIX VOGEL vs JUNDEL",
-                  "streams": [
-                    {
-                      "id": "st-06128d0589",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-06128d0589",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8811/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PHỦI PHIL",
-            "team_a": "FELIX VOGEL",
-            "team_b": "JUNDEL",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791368377457_Felix%20Vogel.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "17:20:00",
-            "date": "07/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791368400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-06128d0589_be95a460_20261007.png?v=be95a460",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-573f60790b",
           "name": "LU HUI CHAN vs PHƯƠNG NAM ĐÀI LOAN | Xinh Yeu",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-573f60790b_1a83e33e_20261007.png?v=1a83e33e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-87aa150a03",
+          "name": "quang con vs bình chuẩn | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87aa150a03",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-87aa150a03",
+                  "name": "quang con vs bình chuẩn",
+                  "streams": [
+                    {
+                      "id": "st-87aa150a03",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-87aa150a03",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8814/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOÁNG TV VIỆT NAM NUMBER ONE",
+            "team_a": "quang con",
+            "team_b": "bình chuẩn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791371626331_quang%20con.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791371620569_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
+            "time": "18:13:00",
+            "date": "07/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1791371580,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-87aa150a03_fff10b9b_20261007.png?v=fff10b9b",
             "width": 1600,
             "height": 1200
           }
