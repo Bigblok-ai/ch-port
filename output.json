@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-33a511a3ac",
-          "name": "KO PIN YI vs Chung Nhiện x Ko Pin Han | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33a511a3ac",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-33a511a3ac",
-                  "name": "KO PIN YI vs Chung Nhiện x Ko Pin Han",
-                  "streams": [
-                    {
-                      "id": "st-33a511a3ac",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33a511a3ac",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8804/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Pool | Nhà Phải có - BLV Kèn Kèn",
-            "team_a": "KO PIN YI",
-            "team_b": "Chung Nhiện x Ko Pin Han",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791357246562_KO%20PIN%20YI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "time": "14:12:00",
-            "date": "07/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791357120,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-33a511a3ac_6eb07fb6_20261007.png?v=6eb07fb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-3497040587",
           "name": "Tuấn nộp vs Hoàng Viêt | Đại Kê",
