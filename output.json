@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-554f788da5",
-          "name": "ALEXIS FERRER vs IRSAL NASUTION | 10:00 08/10 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-554f788da5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-554f788da5",
-                  "name": "ALEXIS FERRER vs IRSAL NASUTION",
-                  "streams": [
-                    {
-                      "id": "st-554f788da5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-554f788da5",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8845/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "ALEXIS FERRER",
-            "team_b": "IRSAL NASUTION",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791425638061_ALEXIS%20FERRER.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791425671178_IRSAL%20NASUTION.jpg",
-            "time": "10:00:00",
-            "date": "08/10",
-            "blv": "Lee Min Hoo",
-            "is_live": false,
-            "time_sort": 1791428400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-554f788da5_0068e469_20261008.png?v=0068e469",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-fb6b50d884",
           "name": "Hoàng PT vs Đãng BN | 10:00 08/10",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fb6b50d884_8b2efdba_20261008.png?v=8b2efdba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-554f788da5",
+          "name": "ALEXIS FERRER vs IRSAL NASUTION | 10:00 08/10 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-554f788da5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-554f788da5",
+                  "name": "ALEXIS FERRER vs IRSAL NASUTION",
+                  "streams": [
+                    {
+                      "id": "st-554f788da5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-554f788da5",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8845/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "ALEXIS FERRER",
+            "team_b": "IRSAL NASUTION",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791425638061_ALEXIS%20FERRER.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791425671178_IRSAL%20NASUTION.jpg",
+            "time": "10:00:00",
+            "date": "08/10",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1791428400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-554f788da5_0068e469_20261008.png?v=0068e469",
             "width": 1600,
             "height": 1200
           }
