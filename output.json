@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0d7d6aa9ae_3a2cec96_20261008.png?v=3a2cec96",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9f6925b8d0",
+          "name": "ARJAY GRACIA vs BINO BALINGASAG | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f6925b8d0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9f6925b8d0",
+                  "name": "ARJAY GRACIA vs BINO BALINGASAG",
+                  "streams": [
+                    {
+                      "id": "st-9f6925b8d0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f6925b8d0",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8880/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHIL PHỦI",
+            "team_a": "ARJAY GRACIA",
+            "team_b": "BINO BALINGASAG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791451881532_Bino%20Balingasag.png",
+            "time": "16:30:00",
+            "date": "08/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791451800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9f6925b8d0_781bae98_20261008.png?v=781bae98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9b2e6e5969",
+          "name": "AJ MANAS vs IDONESIA PLAYER | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b2e6e5969",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9b2e6e5969",
+                  "name": "AJ MANAS vs IDONESIA PLAYER",
+                  "streams": [
+                    {
+                      "id": "st-9b2e6e5969",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b2e6e5969",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8882/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BALI 9 BALL OPEN | LAST 64",
+            "team_a": "AJ MANAS",
+            "team_b": "IDONESIA PLAYER",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791452053277_AJ%20MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791452071018_Screenshot%202026-07-07%20004029.png",
+            "time": "16:35:00",
+            "date": "08/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791452100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9b2e6e5969_9707a998_20261008.png?v=9707a998",
             "width": 1600,
             "height": 1200
           }
