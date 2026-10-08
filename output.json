@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5cab21213c_88dd0884_20261008.png?v=88dd0884",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3efcebec2d",
+          "name": "hoàng phú thọ vs ngọc xăm | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3efcebec2d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3efcebec2d",
+                  "name": "hoàng phú thọ vs ngọc xăm",
+                  "streams": [
+                    {
+                      "id": "st-3efcebec2d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3efcebec2d",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8887/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "hoàng phú thọ",
+            "team_b": "ngọc xăm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791456291173_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791456298334_NG%E1%BB%8CC%20X%C4%82M.png",
+            "time": "17:45:00",
+            "date": "08/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1791456300,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3efcebec2d_d0f09ff3_20261008.png?v=d0f09ff3",
             "width": 1600,
             "height": 1200
           }
