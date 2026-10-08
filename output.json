@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a55fd76001",
-          "name": "Duy Đen vs Tuấn Trọng | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a55fd76001",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a55fd76001",
-                  "name": "Duy Đen vs Tuấn Trọng",
-                  "streams": [
-                    {
-                      "id": "st-a55fd76001",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a55fd76001",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8857/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bida toptop",
-            "team_a": "Duy Đen",
-            "team_b": "Tuấn Trọng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791438321398_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791438321372_Vi%E1%BB%87t%20Nam.png",
-            "time": "12:45:00",
-            "date": "08/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791438300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a55fd76001_a93b4666_20261008.png?v=a93b4666",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-cd64fde93b",
           "name": "KEANU ABRIEL vs ALVIN ANGGITO | Lee Min Hoo",
