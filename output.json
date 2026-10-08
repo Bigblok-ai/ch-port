@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-b6c7bb5cec",
+          "name": "JAMES ARANAS vs Felix Vogel",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6c7bb5cec",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b6c7bb5cec",
+                  "name": "JAMES ARANAS vs Felix Vogel",
+                  "streams": [
+                    {
+                      "id": "st-b6c7bb5cec",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b6c7bb5cec",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8904/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Khổ trước sướng sau thế mời nghèo",
+            "team_a": "JAMES ARANAS",
+            "team_b": "Felix Vogel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791472140953_JAMES%20ARANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791472245599_Felix%20Vogel.jpg",
+            "time": "10:08:00",
+            "date": "08/10",
+            "blv": "",
+            "is_live": true,
+            "time_sort": 1791428880,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b6c7bb5cec_4500dddc_20261008.png?v=4500dddc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-266fda8677",
           "name": "team bab koi vs team furry stable | Đại Kê",
@@ -158,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1ac0e96cca_ceec2b1f_20261008.png?v=ceec2b1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fc108fba6d",
+          "name": "hà kon vs tùng híp | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc108fba6d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fc108fba6d",
+                  "name": "hà kon vs tùng híp",
+                  "streams": [
+                    {
+                      "id": "st-fc108fba6d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc108fba6d",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8903/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "vn",
+            "team_a": "hà kon",
+            "team_b": "tùng híp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:45:00",
+            "date": "08/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791467100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fc108fba6d_d4e8244d_20261008.png?v=d4e8244d",
             "width": 1600,
             "height": 1200
           }
