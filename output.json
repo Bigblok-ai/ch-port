@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-0d7d6aa9ae",
-          "name": "JAMES ARANAS vs JEFFREY ZEN | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d7d6aa9ae",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0d7d6aa9ae",
-                  "name": "JAMES ARANAS vs JEFFREY ZEN",
-                  "streams": [
-                    {
-                      "id": "st-0d7d6aa9ae",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d7d6aa9ae",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8875/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "JAMES ARANAS",
-            "team_b": "JEFFREY ZEN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791450922632_JAMES%20ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "16:17:00",
-            "date": "08/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1791451020,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0d7d6aa9ae_3a2cec96_20261008.png?v=3a2cec96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-9c0958ae3c",
           "name": "idol trang xù vs trung sport | GIÀNG A PHỌ",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9c0958ae3c_2724a14e_20261008.png?v=2724a14e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0d7d6aa9ae",
+          "name": "JAMES ARANAS vs JEFFREY ZEN | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d7d6aa9ae",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0d7d6aa9ae",
+                  "name": "JAMES ARANAS vs JEFFREY ZEN",
+                  "streams": [
+                    {
+                      "id": "st-0d7d6aa9ae",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d7d6aa9ae",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8875/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "JAMES ARANAS",
+            "team_b": "JEFFREY ZEN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791450922632_JAMES%20ARANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "16:17:00",
+            "date": "08/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1791451020,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0d7d6aa9ae_3a2cec96_20261008.png?v=3a2cec96",
             "width": 1600,
             "height": 1200
           }
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9deed2e601_a0e82a26_20261008.png?v=a0e82a26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5cab21213c",
+          "name": "ĐÃNG BẮC NINH vs MINH NGỐ | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5cab21213c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5cab21213c",
+                  "name": "ĐÃNG BẮC NINH vs MINH NGỐ",
+                  "streams": [
+                    {
+                      "id": "st-5cab21213c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5cab21213c",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8885/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VN",
+            "team_a": "ĐÃNG BẮC NINH",
+            "team_b": "MINH NGỐ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791454303587_%C4%90%C3%83NG%20BN.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "17:10:00",
+            "date": "08/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791454200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5cab21213c_88dd0884_20261008.png?v=88dd0884",
             "width": 1600,
             "height": 1200
           }
