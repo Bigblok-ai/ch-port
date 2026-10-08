@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3aaf3430b6_bc28cb64_20261008.png?v=bc28cb64",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-09ec7326ac",
-          "name": "PAOPAO vs PAGULAYAN | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09ec7326ac",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-09ec7326ac",
-                  "name": "PAOPAO vs PAGULAYAN",
-                  "streams": [
-                    {
-                      "id": "st-09ec7326ac",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09ec7326ac",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8854/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "PAOPAO",
-            "team_b": "PAGULAYAN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791435770479_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791435770135_Canada.png",
-            "time": "12:00:00",
-            "date": "08/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1791435600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09ec7326ac_8264bf0a_20261008.png?v=8264bf0a",
             "width": 1600,
             "height": 1200
           }
