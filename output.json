@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b6c7bb5cec",
-          "name": "JAMES ARANAS vs Felix Vogel | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b6c7bb5cec",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b6c7bb5cec",
-                  "name": "JAMES ARANAS vs Felix Vogel",
-                  "streams": [
-                    {
-                      "id": "st-b6c7bb5cec",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6c7bb5cec",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8904/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Khổ trước sướng sau thế mời nghèo",
-            "team_a": "JAMES ARANAS",
-            "team_b": "Felix Vogel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791472140953_JAMES%20ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791472245599_Felix%20Vogel.jpg",
-            "time": "10:08:00",
-            "date": "08/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791428880,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b6c7bb5cec_4500dddc_20261008.png?v=4500dddc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-528de42aea",
           "name": "Kuting/Tarzan vs Mark/ Boss J | Tào A Man",
