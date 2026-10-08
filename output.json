@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-797c185d0b",
-          "name": "edwin gamas vs tan tan | Xinh Yeu",
+          "id": "chtv-fb6b50d884",
+          "name": "Hoàng PT vs Đãng BN | 10:00 08/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-797c185d0b",
+              "id": "src-fb6b50d884",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-797c185d0b",
-                  "name": "edwin gamas vs tan tan",
+                  "id": "ct-fb6b50d884",
+                  "name": "Hoàng PT vs Đãng BN",
                   "streams": [
                     {
-                      "id": "st-797c185d0b",
+                      "id": "st-fb6b50d884",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-797c185d0b",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-fb6b50d884",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8832/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8840/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "PHỦI PHIL",
-            "team_a": "edwin gamas",
-            "team_b": "tan tan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791389147913_EDWIN%20GAMAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "23:06:00",
-            "date": "07/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1791389160,
+            "league": "ALLIN PREMIER LEAGUE POOL 2026 - BÀN TV1",
+            "team_a": "Hoàng PT",
+            "team_b": "Đãng BN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791421653101_Ho%C3%A0ng%20PT.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791421663413_%C4%90%C3%83NG%20BN.png",
+            "time": "10:00:00",
+            "date": "08/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791428400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-797c185d0b_d1471d27_20261008.png?v=d1471d27",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fb6b50d884_8b2efdba_20261008.png?v=8b2efdba",
             "width": 1600,
             "height": 1200
           }
