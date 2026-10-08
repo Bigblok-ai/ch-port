@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-49770adcda",
-          "name": "ALBERT JANUARTA vs ROY BALISTIC | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49770adcda",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-49770adcda",
-                  "name": "ALBERT JANUARTA vs ROY BALISTIC",
-                  "streams": [
-                    {
-                      "id": "st-49770adcda",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49770adcda",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8852/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "ALBERT JANUARTA",
-            "team_b": "ROY BALISTIC",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791434402520_Albert%20Januarta.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791434512862_Indonesia.png",
-            "time": "11:42:00",
-            "date": "08/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791434520,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-49770adcda_a804e709_20261008.png?v=a804e709",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-3aaf3430b6",
           "name": "KYLE AMOROTO vs MOHAMAD SOUFI | Tào A Man",
