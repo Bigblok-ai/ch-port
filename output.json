@@ -17,6 +17,79 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-554f788da5",
+          "name": "ALEXIS FERRER vs IRSAL NASUTION | 10:00 08/10 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-554f788da5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-554f788da5",
+                  "name": "ALEXIS FERRER vs IRSAL NASUTION",
+                  "streams": [
+                    {
+                      "id": "st-554f788da5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-554f788da5",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8845/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "ALEXIS FERRER",
+            "team_b": "IRSAL NASUTION",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791425638061_ALEXIS%20FERRER.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791425671178_IRSAL%20NASUTION.jpg",
+            "time": "10:00:00",
+            "date": "08/10",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1791428400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-554f788da5_0068e469_20261008.png?v=0068e469",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-fb6b50d884",
           "name": "Hoàng PT vs Đãng BN | 10:00 08/10",
           "type": "single",
@@ -163,7 +236,7 @@
           }
         },
         {
-          "id": "chtv-11b55adb22",
+          "id": "chtv-e08eb5b98f",
           "name": "Quang Con vs Đồng V Thơ | 14:00 08/10",
           "type": "single",
           "display": "thumbnail-only",
@@ -178,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-11b55adb22",
+              "id": "src-e08eb5b98f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-11b55adb22",
+                  "id": "ct-e08eb5b98f",
                   "name": "Quang Con vs Đồng V Thơ",
                   "streams": [
                     {
-                      "id": "st-11b55adb22",
+                      "id": "st-e08eb5b98f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-11b55adb22",
+                          "id": "lnk-e08eb5b98f",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8842/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8843/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -217,8 +290,8 @@
             "league": "Khách đến chơi nhà | RACE 25 kèo chấp",
             "team_a": "Quang Con",
             "team_b": "Đồng V Thơ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791425309586_quang%20con.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791425313434_%C4%90%E1%BB%93ng%20V%20Th%C6%A1%20.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791425376289_quang%20con.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791425370639_%C4%90%E1%BB%93ng%20V%20Th%C6%A1%20.png",
             "time": "14:00:00",
             "date": "08/10",
             "blv": "",
@@ -230,7 +303,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11b55adb22_4bc47fc1_20261008.png?v=4bc47fc1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e08eb5b98f_92663631_20261008.png?v=92663631",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-14e81d634a",
+          "name": "Quang Con vs Đồng V Thơ | 14:00 08/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14e81d634a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-14e81d634a",
+                  "name": "Quang Con vs Đồng V Thơ",
+                  "streams": [
+                    {
+                      "id": "st-14e81d634a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14e81d634a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8844/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Khách đến chơi nhà | RACE 25 kèo chạm 10",
+            "team_a": "Quang Con",
+            "team_b": "Đồng V Thơ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791425499994_quang%20con.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791425506355_%C4%90%E1%BB%93ng%20V%20Th%C6%A1%20.png",
+            "time": "14:00:00",
+            "date": "08/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791442800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14e81d634a_5a373005_20261008.png?v=5a373005",
             "width": 1600,
             "height": 1200
           }
