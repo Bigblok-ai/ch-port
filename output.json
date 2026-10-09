@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-44ff5963a5",
+          "name": "EDWARD vs Jeff De Luna | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44ff5963a5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-44ff5963a5",
+                  "name": "EDWARD vs Jeff De Luna",
+                  "streams": [
+                    {
+                      "id": "st-44ff5963a5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44ff5963a5",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8940/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "EDWARD",
+            "team_b": "Jeff De Luna",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791523916502_Indonesia.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791523916199_Jeff%20De%20Luna.png",
+            "time": "12:30:00",
+            "date": "09/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791523800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-44ff5963a5_2246966e_20261009.png?v=2246966e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-425f577239",
           "name": "AJ MANAS vs KYLE AMOROTO | Bỉm Sữa",
           "type": "single",
@@ -163,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-44ff5963a5",
-          "name": "EDWARD vs Jeff De Luna | Xinh Yeu",
+          "id": "chtv-412aa3882b",
+          "name": "JERRICO BONUS vs ROBERTO GOMEZ | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-44ff5963a5",
+              "id": "src-412aa3882b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-44ff5963a5",
-                  "name": "EDWARD vs Jeff De Luna",
+                  "id": "ct-412aa3882b",
+                  "name": "JERRICO BONUS vs ROBERTO GOMEZ",
                   "streams": [
                     {
-                      "id": "st-44ff5963a5",
+                      "id": "st-412aa3882b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-44ff5963a5",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-412aa3882b",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8940/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8941/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,22 +288,22 @@
           ],
           "org_metadata": {
             "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "EDWARD",
-            "team_b": "Jeff De Luna",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791523916502_Indonesia.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791523916199_Jeff%20De%20Luna.png",
-            "time": "12:30:00",
+            "team_a": "JERRICO BONUS",
+            "team_b": "ROBERTO GOMEZ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791524058737_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791524058504_Philippines.png",
+            "time": "12:33:00",
             "date": "09/10",
-            "blv": "Xinh Yeu",
+            "blv": "Lee Min Hoo",
             "is_live": true,
-            "time_sort": 1791523800,
+            "time_sort": 1791523980,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-44ff5963a5_2246966e_20261009.png?v=2246966e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-412aa3882b_bdcafe05_20261009.png?v=bdcafe05",
             "width": 1600,
             "height": 1200
           }
