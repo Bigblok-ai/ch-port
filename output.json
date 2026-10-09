@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-7bff74ed90",
+          "name": "JERRICO BONUS vs JEFF DE LUNA | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7bff74ed90",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7bff74ed90",
+                  "name": "JERRICO BONUS vs JEFF DE LUNA",
+                  "streams": [
+                    {
+                      "id": "st-7bff74ed90",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bff74ed90",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8947/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT 2 | RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "JERRICO BONUS",
+            "team_b": "JEFF DE LUNA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791530326966_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791531223465_Jeff%20De%20Luna.png",
+            "time": "14:30:00",
+            "date": "09/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791531000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7bff74ed90_2b846385_20261009.png?v=2b846385",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-19c63f58e5",
           "name": "AJ MANAS vs AMEER ALI | Bỉm Sữa",
@@ -90,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-7bff74ed90",
-          "name": "JERRICO BONUS vs JEFF DE LUNA | Lee Min Hoo",
+          "id": "chtv-6de816cd4c",
+          "name": "Thành cụt vs Dũng con | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-7bff74ed90",
+              "id": "src-6de816cd4c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7bff74ed90",
-                  "name": "JERRICO BONUS vs JEFF DE LUNA",
+                  "id": "ct-6de816cd4c",
+                  "name": "Thành cụt vs Dũng con",
                   "streams": [
                     {
-                      "id": "st-7bff74ed90",
+                      "id": "st-6de816cd4c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7bff74ed90",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-6de816cd4c",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8947/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8956/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "BÁN KẾT 2 | RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "JERRICO BONUS",
-            "team_b": "JEFF DE LUNA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791530326966_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791531223465_Jeff%20De%20Luna.png",
-            "time": "14:30:00",
+            "league": "VN",
+            "team_a": "Thành cụt",
+            "team_b": "Dũng con",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "15:13:00",
             "date": "09/10",
-            "blv": "Lee Min Hoo",
+            "blv": "SÊ KÔÔ",
             "is_live": true,
-            "time_sort": 1791531000,
+            "time_sort": 1791533580,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7bff74ed90_2b846385_20261009.png?v=2b846385",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6de816cd4c_6654c734_20261009.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
