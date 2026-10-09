@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,38 +236,38 @@
           }
         },
         {
-          "id": "chtv-e0af46573b",
-          "name": "Eklent KaCI vs Daniele Corrieri | 19:00 09/10 | Kèn Kèn",
+          "id": "chtv-5ad4f67755",
+          "name": "Thành cụt vs Dũng con | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-e0af46573b",
+              "id": "src-5ad4f67755",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e0af46573b",
-                  "name": "Eklent KaCI vs Daniele Corrieri",
+                  "id": "ct-5ad4f67755",
+                  "name": "Thành cụt vs Dũng con",
                   "streams": [
                     {
-                      "id": "st-e0af46573b",
+                      "id": "st-5ad4f67755",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e0af46573b",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-5ad4f67755",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8963/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8965/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,23 +287,23 @@
             }
           ],
           "org_metadata": {
-            "league": "CHOÁNG TV",
-            "team_a": "Eklent KaCI",
-            "team_b": "Daniele Corrieri",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791542448687_Kledio%20Ka%C3%A7i.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791542466323_12.jpg",
-            "time": "19:00:00",
+            "league": "VN",
+            "team_a": "Thành cụt",
+            "team_b": "Dũng con",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791539244663_TH%C3%80NH%20C%E1%BB%A4T.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791539257608_D%C5%A8NG%20CON.jpg",
+            "time": "18:42:00",
             "date": "09/10",
-            "blv": "Kèn Kèn",
-            "is_live": false,
-            "time_sort": 1791547200,
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1791546120,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e0af46573b_bb84c741_20261009.png?v=bb84c741",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5ad4f67755_0c9bdb9c_20261009.png?v=0c9bdb9c",
             "width": 1600,
             "height": 1200
           }
