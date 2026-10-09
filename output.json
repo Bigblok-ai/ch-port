@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-572a1ec3a2_3a59f98a_20261009.png?v=3a59f98a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-95e2d911e9",
+          "name": "gkrenmos vs davetas | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-95e2d911e9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-95e2d911e9",
+                  "name": "gkrenmos vs davetas",
+                  "streams": [
+                    {
+                      "id": "st-95e2d911e9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e2d911e9",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8973/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "THESSALONIKI OPEN 2026",
+            "team_a": "gkrenmos",
+            "team_b": "davetas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791548459567_Screenshot%202026-10-09%20192055.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791548462642_Screenshot%202026-10-09%20192055.png",
+            "time": "19:21:00",
+            "date": "09/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791548460,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-95e2d911e9_febb485b_20261009.png?v=febb485b",
             "width": 1600,
             "height": 1200
           }
