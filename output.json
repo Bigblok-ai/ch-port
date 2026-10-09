@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ea83d8663c",
-          "name": "Đãng BN vs Hải Rô | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea83d8663c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ea83d8663c",
-                  "name": "Đãng BN vs Hải Rô",
-                  "streams": [
-                    {
-                      "id": "st-ea83d8663c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea83d8663c",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8948/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ALLIN PREMIER LEAGUE POOL 2026",
-            "team_a": "Đãng BN",
-            "team_b": "Hải Rô",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791529540844_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791529540533_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:05:00",
-            "date": "09/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1791529500,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea83d8663c_bbff79a5_20261009.png?v=bbff79a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-1e224f2b40",
           "name": "Dũng TB vs Đông Nobita | Đại Kê",
@@ -158,6 +85,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1e224f2b40_556d3c03_20261009.png?v=556d3c03",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-19c63f58e5",
+          "name": "AJ MANAS vs AMEER ALI | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19c63f58e5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-19c63f58e5",
+                  "name": "AJ MANAS vs AMEER ALI",
+                  "streams": [
+                    {
+                      "id": "st-19c63f58e5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19c63f58e5",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8946/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT | RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "AJ MANAS",
+            "team_b": "AMEER ALI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791529193318_Albert%20James%20Manas.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791530867780_Screenshot%202026-10-09%20142741.png",
+            "time": "14:30:00",
+            "date": "09/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1791531000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19c63f58e5_f74349f3_20261009.png?v=f74349f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7bff74ed90",
+          "name": "JERRICO BONUS vs JEFF DE LUNA | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7bff74ed90",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7bff74ed90",
+                  "name": "JERRICO BONUS vs JEFF DE LUNA",
+                  "streams": [
+                    {
+                      "id": "st-7bff74ed90",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bff74ed90",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8947/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT 2 | RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "JERRICO BONUS",
+            "team_b": "JEFF DE LUNA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791530326966_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791531223465_Jeff%20De%20Luna.png",
+            "time": "14:30:00",
+            "date": "09/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791531000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7bff74ed90_2b846385_20261009.png?v=2b846385",
             "width": 1600,
             "height": 1200
           }
