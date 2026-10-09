@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-285e57cda4",
-          "name": "irsal vs bryant | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-285e57cda4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-285e57cda4",
-                  "name": "irsal vs bryant",
-                  "streams": [
-                    {
-                      "id": "st-285e57cda4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-285e57cda4",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8992/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ybt111111 x khanh88aa x khanh88aa | siêu độ",
-            "team_a": "irsal",
-            "team_b": "bryant",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766638102718_HUY%20TR%C3%82U.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
-            "date": "09/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1791478800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-285e57cda4_7b22a919_20261010.png?v=7b22a919",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-94cc0c89c2",
           "name": "Phương He vs Đối Phương He | Thập Cẩm",
