@@ -11,169 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-a48d6e2b62",
-          "name": "Đãng BN vs Trung Sport | 10:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a48d6e2b62",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a48d6e2b62",
-                  "name": "Đãng BN vs Trung Sport",
-                  "streams": [
-                    {
-                      "id": "st-a48d6e2b62",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a48d6e2b62",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8927/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ALLIN PREMIER LEAGUE POOL 2026",
-            "team_a": "Đãng BN",
-            "team_b": "Trung Sport",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791512123925_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791512123685_Vi%E1%BB%87t%20Nam.png",
-            "time": "10:00:00",
-            "date": "09/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791514800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a48d6e2b62_ff5fbce8_20261009.png?v=ff5fbce8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6ee3a6595c",
-          "name": "Dũng TB vs Ngọc Xăm | 10:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ee3a6595c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6ee3a6595c",
-                  "name": "Dũng TB vs Ngọc Xăm",
-                  "streams": [
-                    {
-                      "id": "st-6ee3a6595c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6ee3a6595c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8926/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ALLIN PREMIER LEAGUE POOL 2026",
-            "team_a": "Dũng TB",
-            "team_b": "Ngọc Xăm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791511840076_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791511839685_Vi%E1%BB%87t%20Nam.png",
-            "time": "10:00:00",
-            "date": "09/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791514800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6ee3a6595c_66b7ff8e_20261009.png?v=66b7ff8e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c12846d4a9",
-          "name": "Duy Đinh vs Hà Thành | 10:00 09/10",
+          "name": "Duy Đinh vs Hà Thành | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -191,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c12846d4a9",
-                          "name": "Stream",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8928/index.m3u8",
@@ -221,8 +75,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1791512256044_Vi%E1%BB%87t%20Nam.png",
             "time": "10:00:00",
             "date": "09/10",
-            "blv": "",
-            "is_live": false,
+            "blv": "Tào A Man",
+            "is_live": true,
             "time_sort": 1791514800,
             "cate_type": "billiards"
           },
@@ -231,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c12846d4a9_15d8af45_20261009.png?v=15d8af45",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d79d90881a",
-          "name": "Lợi Cafe vs Hải Rô | 10:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d79d90881a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d79d90881a",
-                  "name": "Lợi Cafe vs Hải Rô",
-                  "streams": [
-                    {
-                      "id": "st-d79d90881a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d79d90881a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8929/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ALLIN PREMIER LEAGUE POOL 2026",
-            "team_a": "Lợi Cafe",
-            "team_b": "Hải Rô",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791512381570_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791512381076_Vi%E1%BB%87t%20Nam.png",
-            "time": "10:00:00",
-            "date": "09/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791514800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d79d90881a_a93f173a_20261009.png?v=a93f173a",
             "width": 1600,
             "height": 1200
           }
