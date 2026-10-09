@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-94cc0c89c2",
-          "name": "Phương He vs Đối Phương He | Thập Cẩm",
+          "id": "chtv-a5fbf53301",
+          "name": "SP CHOÁNG vs Lan Xinh Yêu | 10:00 10/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-94cc0c89c2",
+              "id": "src-a5fbf53301",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-94cc0c89c2",
-                  "name": "Phương He vs Đối Phương He",
+                  "id": "ct-a5fbf53301",
+                  "name": "SP CHOÁNG vs Lan Xinh Yêu",
                   "streams": [
                     {
-                      "id": "st-94cc0c89c2",
+                      "id": "st-a5fbf53301",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-94cc0c89c2",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-a5fbf53301",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8993/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8995/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Đời là Phế Lu",
-            "team_a": "Phương He",
-            "team_b": "Đối Phương He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791565876171_Ph%C6%B0%C6%A1ng%20He.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "00:00:00",
+            "league": "SP CHOÁNG",
+            "team_a": "SP CHOÁNG",
+            "team_b": "Lan Xinh Yêu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791586422961_AJ%20MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791586438733_images.jpg",
+            "time": "10:00:00",
             "date": "10/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1791565200,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791601200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-94cc0c89c2_e6708de5_20261010.png?v=e6708de5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a5fbf53301_19900ed9_20261010.png?v=19900ed9",
             "width": 1600,
             "height": 1200
           }
