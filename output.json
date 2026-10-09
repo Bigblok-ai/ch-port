@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7bff74ed90",
-          "name": "JERRICO BONUS vs JEFF DE LUNA | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7bff74ed90",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7bff74ed90",
-                  "name": "JERRICO BONUS vs JEFF DE LUNA",
-                  "streams": [
-                    {
-                      "id": "st-7bff74ed90",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7bff74ed90",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8947/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BÁN KẾT 2 | RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "JERRICO BONUS",
-            "team_b": "JEFF DE LUNA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791530326966_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791531223465_Jeff%20De%20Luna.png",
-            "time": "14:30:00",
-            "date": "09/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791531000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7bff74ed90_2b846385_20261009.png?v=2b846385",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-6de816cd4c",
           "name": "Thành cụt vs Dũng con | SÊ KÔÔ",
