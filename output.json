@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f78fcac8cf_a0e82a26_20261009.png?v=a0e82a26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-17a5d83dcd",
+          "name": "Jaybee Sucal 9/10 vs Ramiro San Jose | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17a5d83dcd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-17a5d83dcd",
+                  "name": "Jaybee Sucal 9/10 vs Ramiro San Jose",
+                  "streams": [
+                    {
+                      "id": "st-17a5d83dcd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17a5d83dcd",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8980/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PHỦI PHIL",
+            "team_a": "Jaybee Sucal 9/10",
+            "team_b": "Ramiro San Jose",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791552810461_JAYBEE%20SUCAL.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:34:00",
+            "date": "09/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791552840,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17a5d83dcd_b8ffe880_20261009.png?v=b8ffe880",
             "width": 1600,
             "height": 1200
           }
