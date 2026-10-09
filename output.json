@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5ad4f67755_0c9bdb9c_20261009.png?v=0c9bdb9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-572a1ec3a2",
+          "name": "riccardoo tedesco vs ermal dyli | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-572a1ec3a2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-572a1ec3a2",
+                  "name": "riccardoo tedesco vs ermal dyli",
+                  "streams": [
+                    {
+                      "id": "st-572a1ec3a2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-572a1ec3a2",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8968/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Marina Pool Open - Italy Open 9 Ball - Day 1",
+            "team_a": "riccardoo tedesco",
+            "team_b": "ermal dyli",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791546889504_12.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791546892937_8.jpg",
+            "time": "19:00:00",
+            "date": "09/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791547200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-572a1ec3a2_3a59f98a_20261009.png?v=3a59f98a",
             "width": 1600,
             "height": 1200
           }
