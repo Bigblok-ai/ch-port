@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-6de816cd4c",
-          "name": "Thành cụt vs Dũng con | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6de816cd4c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6de816cd4c",
-                  "name": "Thành cụt vs Dũng con",
-                  "streams": [
-                    {
-                      "id": "st-6de816cd4c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6de816cd4c",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8956/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "Thành cụt",
-            "team_b": "Dũng con",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791539244663_TH%C3%80NH%20C%E1%BB%A4T.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791539257608_D%C5%A8NG%20CON.jpg",
-            "time": "15:13:00",
-            "date": "09/10",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1791533580,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6de816cd4c_0c9bdb9c_20261009.png?v=0c9bdb9c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-fba3f77cc9",
           "name": "LU HUI CHAN vs PHẠM PHƯƠNG NAM ( đài loan ) | Xinh Yeu",
@@ -310,7 +237,7 @@
         },
         {
           "id": "chtv-e0af46573b",
-          "name": "Eklent KaCI vs Daniele Corrieri | 19:00 09/10",
+          "name": "Eklent KaCI vs Daniele Corrieri | 19:00 09/10 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -337,7 +264,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-e0af46573b",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8963/index.m3u8",
@@ -367,7 +294,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1791542466323_12.jpg",
             "time": "19:00:00",
             "date": "09/10",
-            "blv": "",
+            "blv": "Kèn Kèn",
             "is_live": false,
             "time_sort": 1791547200,
             "cate_type": "billiards"
