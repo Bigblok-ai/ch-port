@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-6ce475bf0a",
-          "name": "Hoàng PT vs Hà Thành | Thập Cẩm",
+          "id": "chtv-e1748ebd61",
+          "name": "Ngọc Xăm vs Minh Ngố | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-6ce475bf0a",
+              "id": "src-e1748ebd61",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6ce475bf0a",
-                  "name": "Hoàng PT vs Hà Thành",
+                  "id": "ct-e1748ebd61",
+                  "name": "Ngọc Xăm vs Minh Ngố",
                   "streams": [
                     {
-                      "id": "st-6ce475bf0a",
+                      "id": "st-e1748ebd61",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6ce475bf0a",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-e1748ebd61",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8936/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8939/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,22 +69,95 @@
           ],
           "org_metadata": {
             "league": "ALLIN PREMIER LEAGUE POOL 2026",
-            "team_a": "Hoàng PT",
-            "team_b": "Hà Thành",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791519967901_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791519967633_Vi%E1%BB%87t%20Nam.png",
-            "time": "11:30:00",
+            "team_a": "Ngọc Xăm",
+            "team_b": "Minh Ngố",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791523461341_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791523461083_Vi%E1%BB%87t%20Nam.png",
+            "time": "12:25:00",
             "date": "09/10",
-            "blv": "Thập Cẩm",
+            "blv": "Tào A Man",
             "is_live": true,
-            "time_sort": 1791520200,
+            "time_sort": 1791523500,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6ce475bf0a_64e45300_20261009.png?v=64e45300",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e1748ebd61_05708a4d_20261009.png?v=05708a4d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-425f577239",
+          "name": "AJ MANAS vs KYLE AMOROTO | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-425f577239",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-425f577239",
+                  "name": "AJ MANAS vs KYLE AMOROTO",
+                  "streams": [
+                    {
+                      "id": "st-425f577239",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-425f577239",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8938/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "AJ MANAS",
+            "team_b": "KYLE AMOROTO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791522924545_Albert%20James%20Manas.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791522924432_Kyle%20Amoroto.png",
+            "time": "12:30:00",
+            "date": "09/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1791523800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-425f577239_33c75099_20261009.png?v=33c75099",
             "width": 1600,
             "height": 1200
           }
