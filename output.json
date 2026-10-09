@@ -236,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-eaf79864e0",
-          "name": "Triantanfullou B vs Georgiou L | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eaf79864e0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eaf79864e0",
-                  "name": "Triantanfullou B vs Georgiou L",
-                  "streams": [
-                    {
-                      "id": "st-eaf79864e0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eaf79864e0",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8981/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHOÁNG TV",
-            "team_a": "Triantanfullou B",
-            "team_b": "Georgiou L",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791554871276_Screenshot%202026-10-09%20210747.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791554873264_Screenshot%202026-10-09%20210747.png",
-            "time": "21:09:00",
-            "date": "09/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791554940,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eaf79864e0_f3aac8d2_20261009.png?v=f3aac8d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-584c90d817",
           "name": "LU HUI CHAN vs PHẠM PHƯƠNG NAM ( đài loan | Xinh Yeu",
           "type": "single",
@@ -377,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-584c90d817_69d0d247_20261009.png?v=69d0d247",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ade8389746",
+          "name": "KYLE AMOROTO vs ALBER JANUARTA | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ade8389746",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ade8389746",
+                  "name": "KYLE AMOROTO vs ALBER JANUARTA",
+                  "streams": [
+                    {
+                      "id": "st-ade8389746",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ade8389746",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8984/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phil phủi",
+            "team_a": "KYLE AMOROTO",
+            "team_b": "ALBER JANUARTA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791559039585_kyle%20amoroto.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791559048562_ALBERT%20JANUARTA.jpg",
+            "time": "22:17:00",
+            "date": "09/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791559020,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ade8389746_c825d6d0_20261009.png?v=c825d6d0",
             "width": 1600,
             "height": 1200
           }
