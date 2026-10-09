@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6ca738c29d_d6812609_20261009.png?v=d6812609",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ea83d8663c",
+          "name": "Đãng BN vs Hải Rô | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea83d8663c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ea83d8663c",
+                  "name": "Đãng BN vs Hải Rô",
+                  "streams": [
+                    {
+                      "id": "st-ea83d8663c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea83d8663c",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8948/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ALLIN PREMIER LEAGUE POOL 2026",
+            "team_a": "Đãng BN",
+            "team_b": "Hải Rô",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791529540844_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791529540533_Vi%E1%BB%87t%20Nam.png",
+            "time": "14:05:00",
+            "date": "09/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791529500,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea83d8663c_bbff79a5_20261009.png?v=bbff79a5",
             "width": 1600,
             "height": 1200
           }
