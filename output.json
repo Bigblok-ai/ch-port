@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e4342bb0a1",
-          "name": "Jaybee Sucal vs Anghel Vera | Kèn Kèn",
+          "id": "chtv-6ee3a6595c",
+          "name": "Dũng TB vs Ngọc Xăm | 10:00 09/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-e4342bb0a1",
+              "id": "src-6ee3a6595c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e4342bb0a1",
-                  "name": "Jaybee Sucal vs Anghel Vera",
+                  "id": "ct-6ee3a6595c",
+                  "name": "Dũng TB vs Ngọc Xăm",
                   "streams": [
                     {
-                      "id": "st-e4342bb0a1",
+                      "id": "st-6ee3a6595c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e4342bb0a1",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-6ee3a6595c",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8905/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8926/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "PHỦI PHIL",
-            "team_a": "Jaybee Sucal",
-            "team_b": "Anghel Vera",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791474211784_JAYBEE%20SUCAL.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "22:44:00",
-            "date": "08/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791474240,
+            "league": "ALLIN PREMIER LEAGUE POOL 2026",
+            "team_a": "Dũng TB",
+            "team_b": "Ngọc Xăm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791511840076_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791511839685_Vi%E1%BB%87t%20Nam.png",
+            "time": "10:00:00",
+            "date": "09/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791514800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e4342bb0a1_f5730d40_20261009.png?v=f5730d40",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6ee3a6595c_66b7ff8e_20261009.png?v=66b7ff8e",
             "width": 1600,
             "height": 1200
           }
