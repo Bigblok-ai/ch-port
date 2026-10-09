@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c12846d4a9_15d8af45_20261009.png?v=15d8af45",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c8c01b5e82",
+          "name": "Hoàng PT vs Trang Xù | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8c01b5e82",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c8c01b5e82",
+                  "name": "Hoàng PT vs Trang Xù",
+                  "streams": [
+                    {
+                      "id": "st-c8c01b5e82",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8c01b5e82",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8930/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ALLIN PREMIER LEAGUE POOL 2026",
+            "team_a": "Hoàng PT",
+            "team_b": "Trang Xù",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791514312711_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791514312364_Vi%E1%BB%87t%20Nam.png",
+            "time": "10:00:00",
+            "date": "09/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791514800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c8c01b5e82_e80c0e85_20261009.png?v=e80c0e85",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-435e16e58e",
+          "name": "AJ MANAS vs JAMES ARANAS | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-435e16e58e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-435e16e58e",
+                  "name": "AJ MANAS vs JAMES ARANAS",
+                  "streams": [
+                    {
+                      "id": "st-435e16e58e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-435e16e58e",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8931/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "AJ MANAS",
+            "team_b": "JAMES ARANAS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791514941983_Albert%20James%20Manas.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791514973576_Screenshot%202026-10-09%20100244.png",
+            "time": "10:00:00",
+            "date": "09/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1791514800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-435e16e58e_929ff9b8_20261009.png?v=929ff9b8",
             "width": 1600,
             "height": 1200
           }
