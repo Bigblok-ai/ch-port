@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-c9995228e8",
-          "name": "SEAN MARK MALAYAN vs BÌNH CHUẨN | 14:00 10/10",
+          "id": "chtv-eed8ef9591",
+          "name": "Anton Raga vs Mark Ejay AKA EMONG | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-c9995228e8",
+              "id": "src-eed8ef9591",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c9995228e8",
-                  "name": "SEAN MARK MALAYAN vs BÌNH CHUẨN",
+                  "id": "ct-eed8ef9591",
+                  "name": "Anton Raga vs Mark Ejay AKA EMONG",
                   "streams": [
                     {
-                      "id": "st-c9995228e8",
+                      "id": "st-eed8ef9591",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c9995228e8",
-                          "name": "Stream",
+                          "id": "lnk-eed8ef9591",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9005/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9008/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,169 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "99Billiards",
-            "team_a": "SEAN MARK MALAYAN",
-            "team_b": "BÌNH CHUẨN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791614052148_Screenshot%202026-10-10%20133352.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791614051808_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:00:00",
+            "league": "phi bịp",
+            "team_a": "Anton Raga",
+            "team_b": "Mark Ejay AKA EMONG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791614622018_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791614621624_Philippines.png",
+            "time": "13:43:00",
             "date": "10/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791615600,
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791614580,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c9995228e8_ab5bc140_20261010.png?v=ab5bc140",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-857f583e20",
-          "name": "HOÀNG PT vs JESSON MARABI | 14:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-857f583e20",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-857f583e20",
-                  "name": "HOÀNG PT vs JESSON MARABI",
-                  "streams": [
-                    {
-                      "id": "st-857f583e20",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-857f583e20",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9006/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99Billiards",
-            "team_a": "HOÀNG PT",
-            "team_b": "JESSON MARABI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791614154381_Ho%C3%A0ng%20PT.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791614140569_Screenshot%202026-10-10%20133531.png",
-            "time": "14:00:00",
-            "date": "10/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791615600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-857f583e20_0ae0dad8_20261010.png?v=0ae0dad8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4150fd7cfd",
-          "name": "Văn Sinh vs MIRAFLOR | 14:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4150fd7cfd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4150fd7cfd",
-                  "name": "Văn Sinh vs MIRAFLOR",
-                  "streams": [
-                    {
-                      "id": "st-4150fd7cfd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4150fd7cfd",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9004/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99Billiards",
-            "team_a": "Văn Sinh",
-            "team_b": "MIRAFLOR",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791613906743_Screenshot%202026-10-10%20133023.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791613903293_Screenshot%202026-10-10%20133130.png",
-            "time": "14:00:00",
-            "date": "10/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791615600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4150fd7cfd_cd653d77_20261010.png?v=cd653d77",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eed8ef9591_c547c0d2_20261010.png?v=c547c0d2",
             "width": 1600,
             "height": 1200
           }
