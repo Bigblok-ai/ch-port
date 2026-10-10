@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-2518aba87c",
-          "name": "Trịnh Thành Công vs Phùng Mạnh Thắng | Thập Cẩm",
+          "id": "chtv-687466f354",
+          "name": "Hoàng Đình Tiến vs Nguyễn Hoàng Thái Long | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-2518aba87c",
+              "id": "src-687466f354",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2518aba87c",
-                  "name": "Trịnh Thành Công vs Phùng Mạnh Thắng",
+                  "id": "ct-687466f354",
+                  "name": "Hoàng Đình Tiến vs Nguyễn Hoàng Thái Long",
                   "streams": [
                     {
-                      "id": "st-2518aba87c",
+                      "id": "st-687466f354",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2518aba87c",
+                          "id": "lnk-687466f354",
                           "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8920/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8921/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Trận 2 | LION Champisonship | 52kg",
-            "team_a": "Trịnh Thành Công",
-            "team_b": "Phùng Mạnh Thắng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791508940361_Screenshot%202026-10-09%20082209.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791508940048_Screenshot%202026-10-09%20082214.png",
-            "time": "20:15:00",
+            "league": "Trận 3 | LION Champisonship | 52kg",
+            "team_a": "Hoàng Đình Tiến",
+            "team_b": "Nguyễn Hoàng Thái Long",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791509050408_Screenshot%202026-10-09%20082356.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791509050150_Screenshot%202026-10-09%20082402.png",
+            "time": "20:30:00",
             "date": "10/10",
             "blv": "Thập Cẩm",
             "is_live": true,
-            "time_sort": 1791638100,
+            "time_sort": 1791639000,
             "cate_type": "martial"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2518aba87c_a2f954e0_20261010.png?v=a2f954e0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-687466f354_bddaeed1_20261010.png?v=bddaeed1",
             "width": 1600,
             "height": 1200
           }
@@ -231,6 +231,88 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6b287f49a8_11b9c9df_20261010.png?v=11b9c9df",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_billiards",
+      "name": "🎱 Billiards (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "chtv-1175977408",
+          "name": "CARLO BIADO vs DAGA (5/10) | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1175977408",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1175977408",
+                  "name": "CARLO BIADO vs DAGA (5/10)",
+                  "streams": [
+                    {
+                      "id": "st-1175977408",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1175977408",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9019/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Độ Phủi Phi",
+            "team_a": "CARLO BIADO",
+            "team_b": "DAGA (5/10)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791640101960_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "08:45:00",
+            "date": "10/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1791596700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1175977408_52513f6b_20261010.png?v=52513f6b",
             "width": 1600,
             "height": 1200
           }
