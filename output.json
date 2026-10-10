@@ -307,6 +307,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-7140178d06",
+          "name": "Trận 5 | LION Champisonship | 77kg | 21:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7140178d06",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7140178d06",
+                  "name": "Trận 5 | LION Champisonship | 77kg",
+                  "streams": [
+                    {
+                      "id": "st-7140178d06",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7140178d06",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8923/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 5 | LION Champisonship | 77kg",
+            "team_a": "",
+            "team_b": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791509338069_Screenshot%202026-10-09%20082842.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791509335080_Screenshot%202026-10-09%20082847.png",
+            "time": "21:00:00",
+            "date": "10/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791640800,
+            "cate_type": "martial"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7140178d06_263de17a_20261010.png?v=263de17a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
