@@ -312,84 +312,11 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-eed8ef9591",
-          "name": "Anton Raga vs Mark Ejay AKA EMONG | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eed8ef9591",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eed8ef9591",
-                  "name": "Anton Raga vs Mark Ejay AKA EMONG",
-                  "streams": [
-                    {
-                      "id": "st-eed8ef9591",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eed8ef9591",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9008/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Anton Raga",
-            "team_b": "Mark Ejay AKA EMONG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791614622018_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791614621624_Philippines.png",
-            "time": "13:43:00",
-            "date": "10/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791614580,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eed8ef9591_c547c0d2_20261010.png?v=c547c0d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-4150fd7cfd",
           "name": "Văn Sinh vs MIRAFLOR | Đại Kê",
