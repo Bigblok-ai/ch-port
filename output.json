@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-1bf43632ec",
-          "name": "hung vs phap | 11:00 10/10",
+          "id": "chtv-931cfeb53f",
+          "name": "Hiếu Ken vs Phong Zenda | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-1bf43632ec",
+              "id": "src-931cfeb53f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1bf43632ec",
-                  "name": "hung vs phap",
+                  "id": "ct-931cfeb53f",
+                  "name": "Hiếu Ken vs Phong Zenda",
                   "streams": [
                     {
-                      "id": "st-1bf43632ec",
+                      "id": "st-931cfeb53f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1bf43632ec",
-                          "name": "Stream",
+                          "id": "lnk-931cfeb53f",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9000/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9001/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "test",
-            "team_a": "hung",
-            "team_b": "phap",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791600816692_Hungary.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791600816467_Ph%C3%A1p.png",
-            "time": "11:00:00",
+            "league": "CHOANGTV",
+            "team_a": "Hiếu Ken",
+            "team_b": "Phong Zenda",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791609071500_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791609071311_Vi%E1%BB%87t%20Nam.png",
+            "time": "12:11:00",
             "date": "10/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791604800,
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791609060,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1bf43632ec_3ba07616_20261010.png?v=3ba07616",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-931cfeb53f_ac424ec0_20261010.png?v=ac424ec0",
             "width": 1600,
             "height": 1200
           }
