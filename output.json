@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-4822245139",
+          "name": "Hoàng VT vs Quách Vĩ Nam | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4822245139",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4822245139",
+                  "name": "Hoàng VT vs Quách Vĩ Nam",
+                  "streams": [
+                    {
+                      "id": "st-4822245139",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4822245139",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9026/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Hoàng VT",
+            "team_b": "Quách Vĩ Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791653026089_QUACH%20VI%20NAM.jpg",
+            "time": "11:00:00",
+            "date": "11/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791691200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4822245139_34d4e2b5_20261011.png?v=34d4e2b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-5343f8a376",
           "name": "Hoàng PT vs Tùng Bão Táp | Xinh Yeu",
@@ -85,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5343f8a376_ee038671_20261011.png?v=ee038671",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a174e2916e",
+          "name": "Bình Chuẩn vs Dũng Phạm | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a174e2916e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a174e2916e",
+                  "name": "Bình Chuẩn vs Dũng Phạm",
+                  "streams": [
+                    {
+                      "id": "st-a174e2916e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a174e2916e",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9025/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Bình Chuẩn",
+            "team_b": "Dũng Phạm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791652302078_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00:00",
+            "date": "11/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1791691200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a174e2916e_50f0b1cd_20261011.png?v=50f0b1cd",
             "width": 1600,
             "height": 1200
           }
