@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-c96bb4077f",
-          "name": "Dũng Con vs Cu Thóc | GIÀNG A PHỌ",
+          "id": "chtv-5005d6250a",
+          "name": "Hồ Sở Phát vs Tùng Hip | 15:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-c96bb4077f",
+              "id": "src-5005d6250a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c96bb4077f",
-                  "name": "Dũng Con vs Cu Thóc",
+                  "id": "ct-5005d6250a",
+                  "name": "Hồ Sở Phát vs Tùng Hip",
                   "streams": [
                     {
-                      "id": "st-c96bb4077f",
+                      "id": "st-5005d6250a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c96bb4077f",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-5005d6250a",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9052/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9040/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,22 +69,22 @@
           ],
           "org_metadata": {
             "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Dũng Con",
-            "team_b": "Cu Thóc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791695674331_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791695674093_Vi%E1%BB%87t%20Nam.png",
-            "time": "13:00:00",
+            "team_a": "Hồ Sở Phát",
+            "team_b": "Tùng Hip",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791668564829_H%E1%BB%93%20S%E1%BB%9F%20Ph%C3%A1t.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791668575010_t%C3%B9ng%20h%C3%ADp.png",
+            "time": "15:00:00",
             "date": "11/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1791698400,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791705600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c96bb4077f_621ab0ae_20261011.png?v=621ab0ae",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5005d6250a_2f47d4bf_20261011.png?v=2f47d4bf",
             "width": 1600,
             "height": 1200
           }
@@ -163,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-5005d6250a",
-          "name": "Hồ Sở Phát vs Tùng Hip | 15:00 11/10",
+          "id": "chtv-160618b78b",
+          "name": "Tkon vs Tùng Kều | 15:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-5005d6250a",
+              "id": "src-160618b78b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5005d6250a",
-                  "name": "Hồ Sở Phát vs Tùng Hip",
+                  "id": "ct-160618b78b",
+                  "name": "Tkon vs Tùng Kều",
                   "streams": [
                     {
-                      "id": "st-5005d6250a",
+                      "id": "st-160618b78b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5005d6250a",
+                          "id": "lnk-160618b78b",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9040/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9038/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,10 +215,10 @@
           ],
           "org_metadata": {
             "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Hồ Sở Phát",
-            "team_b": "Tùng Hip",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791668564829_H%E1%BB%93%20S%E1%BB%9F%20Ph%C3%A1t.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791668575010_t%C3%B9ng%20h%C3%ADp.png",
+            "team_a": "Tkon",
+            "team_b": "Tùng Kều",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765418775237_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "15:00:00",
             "date": "11/10",
             "blv": "",
@@ -230,80 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5005d6250a_2f47d4bf_20261011.png?v=2f47d4bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a857dcb8d5",
-          "name": "Janbert Manas vs Tú Tây | 15:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a857dcb8d5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a857dcb8d5",
-                  "name": "Janbert Manas vs Tú Tây",
-                  "streams": [
-                    {
-                      "id": "st-a857dcb8d5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a857dcb8d5",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9049/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Janbert Manas",
-            "team_b": "Tú Tây",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226385179_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "15:00:00",
-            "date": "11/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791705600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a857dcb8d5_c5ea5580_20261011.png?v=c5ea5580",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-160618b78b_d34dc495_20261011.png?v=d34dc495",
             "width": 1600,
             "height": 1200
           }
@@ -382,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-160618b78b",
-          "name": "Tkon vs Tùng Kều | 15:00 11/10",
+          "id": "chtv-a857dcb8d5",
+          "name": "Janbert Manas vs Tú Tây | 15:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-160618b78b",
+              "id": "src-a857dcb8d5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-160618b78b",
-                  "name": "Tkon vs Tùng Kều",
+                  "id": "ct-a857dcb8d5",
+                  "name": "Janbert Manas vs Tú Tây",
                   "streams": [
                     {
-                      "id": "st-160618b78b",
+                      "id": "st-a857dcb8d5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-160618b78b",
+                          "id": "lnk-a857dcb8d5",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9038/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9049/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -434,10 +361,10 @@
           ],
           "org_metadata": {
             "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Tkon",
-            "team_b": "Tùng Kều",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765418775237_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Janbert Manas",
+            "team_b": "Tú Tây",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226385179_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "15:00:00",
             "date": "11/10",
             "blv": "",
@@ -449,14 +376,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-160618b78b_d34dc495_20261011.png?v=d34dc495",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a857dcb8d5_c5ea5580_20261011.png?v=c5ea5580",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-996884f29a",
-          "name": "Jesson Pada Marabi vs Trung Gia Lâm | 17:00 11/10",
+          "id": "chtv-0fbc3a78d6",
+          "name": "Quyền Lê vs Dũng TB | 17:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +397,23 @@
           ],
           "sources": [
             {
-              "id": "src-996884f29a",
+              "id": "src-0fbc3a78d6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-996884f29a",
-                  "name": "Jesson Pada Marabi vs Trung Gia Lâm",
+                  "id": "ct-0fbc3a78d6",
+                  "name": "Quyền Lê vs Dũng TB",
                   "streams": [
                     {
-                      "id": "st-996884f29a",
+                      "id": "st-0fbc3a78d6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-996884f29a",
+                          "id": "lnk-0fbc3a78d6",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9048/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9044/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,155 +434,9 @@
           ],
           "org_metadata": {
             "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Jesson Pada Marabi",
-            "team_b": "Trung Gia Lâm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765263318349_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "17:00:00",
-            "date": "11/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791712800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-996884f29a_e97e8829_20261011.png?v=e97e8829",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4e8c8400c5",
-          "name": "Văn Huynh vs Mocaibat | 17:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e8c8400c5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4e8c8400c5",
-                  "name": "Văn Huynh vs Mocaibat",
-                  "streams": [
-                    {
-                      "id": "st-4e8c8400c5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e8c8400c5",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9045/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Văn Huynh",
-            "team_b": "Mocaibat",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791669234096_V%C4%82N%20HUYNH.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
-            "time": "17:00:00",
-            "date": "11/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791712800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4e8c8400c5_4d9c2a22_20261011.png?v=4d9c2a22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7d2348f5f1",
-          "name": "Đãng BN vs Mai Hãnh | 17:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d2348f5f1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7d2348f5f1",
-                  "name": "Đãng BN vs Mai Hãnh",
-                  "streams": [
-                    {
-                      "id": "st-7d2348f5f1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d2348f5f1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9043/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Đãng BN",
-            "team_b": "Mai Hãnh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791669134753_%C4%90%C3%83NG%20BN.png",
+            "team_a": "Quyền Lê",
+            "team_b": "Dũng TB",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "17:00:00",
             "date": "11/10",
@@ -668,7 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d2348f5f1_887d4f1b_20261011.png?v=887d4f1b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0fbc3a78d6_2df00492_20261011.png?v=2df00492",
             "width": 1600,
             "height": 1200
           }
@@ -742,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-98ffaf5bac_d5f06a92_20261011.png?v=d5f06a92",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7d2348f5f1",
+          "name": "Đãng BN vs Mai Hãnh | 17:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d2348f5f1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7d2348f5f1",
+                  "name": "Đãng BN vs Mai Hãnh",
+                  "streams": [
+                    {
+                      "id": "st-7d2348f5f1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d2348f5f1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9043/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Đãng BN",
+            "team_b": "Mai Hãnh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791669134753_%C4%90%C3%83NG%20BN.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "17:00:00",
+            "date": "11/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791712800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d2348f5f1_887d4f1b_20261011.png?v=887d4f1b",
             "width": 1600,
             "height": 1200
           }
@@ -966,8 +820,8 @@
           }
         },
         {
-          "id": "chtv-0fbc3a78d6",
-          "name": "Quyền Lê vs Dũng TB | 17:00 11/10",
+          "id": "chtv-996884f29a",
+          "name": "Jesson Pada Marabi vs Trung Gia Lâm | 17:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -981,23 +835,23 @@
           ],
           "sources": [
             {
-              "id": "src-0fbc3a78d6",
+              "id": "src-996884f29a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0fbc3a78d6",
-                  "name": "Quyền Lê vs Dũng TB",
+                  "id": "ct-996884f29a",
+                  "name": "Jesson Pada Marabi vs Trung Gia Lâm",
                   "streams": [
                     {
-                      "id": "st-0fbc3a78d6",
+                      "id": "st-996884f29a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0fbc3a78d6",
+                          "id": "lnk-996884f29a",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9044/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9048/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1018,10 +872,10 @@
           ],
           "org_metadata": {
             "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Quyền Lê",
-            "team_b": "Dũng TB",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Jesson Pada Marabi",
+            "team_b": "Trung Gia Lâm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263318349_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "17:00:00",
             "date": "11/10",
             "blv": "",
@@ -1033,7 +887,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0fbc3a78d6_2df00492_20261011.png?v=2df00492",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-996884f29a_e97e8829_20261011.png?v=e97e8829",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4e8c8400c5",
+          "name": "Văn Huynh vs Mocaibat | 17:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e8c8400c5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4e8c8400c5",
+                  "name": "Văn Huynh vs Mocaibat",
+                  "streams": [
+                    {
+                      "id": "st-4e8c8400c5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e8c8400c5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9045/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Văn Huynh",
+            "team_b": "Mocaibat",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791669234096_V%C4%82N%20HUYNH.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
+            "time": "17:00:00",
+            "date": "11/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791712800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4e8c8400c5_4d9c2a22_20261011.png?v=4d9c2a22",
             "width": 1600,
             "height": 1200
           }
