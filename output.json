@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d9b155ba_47e5aa2d_20261011.png?v=47e5aa2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4e8c8400c5",
+          "name": "Văn Huynh vs Mocaibat | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e8c8400c5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4e8c8400c5",
+                  "name": "Văn Huynh vs Mocaibat",
+                  "streams": [
+                    {
+                      "id": "st-4e8c8400c5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e8c8400c5",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9045/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Văn Huynh",
+            "team_b": "Mocaibat",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791669234096_V%C4%82N%20HUYNH.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
+            "time": "17:00:00",
+            "date": "11/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791712800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4e8c8400c5_4d9c2a22_20261011.png?v=4d9c2a22",
             "width": 1600,
             "height": 1200
           }
