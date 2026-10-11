@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-a58c133111",
-          "name": "JR SILANG vs JASON 5710 | Thập Cẩm",
+          "id": "chtv-dc8107ff2a",
+          "name": "Huy Black vs Hoàng PT | 10:00 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-a58c133111",
+              "id": "src-dc8107ff2a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a58c133111",
-                  "name": "JR SILANG vs JASON 5710",
+                  "id": "ct-dc8107ff2a",
+                  "name": "Huy Black vs Hoàng PT",
                   "streams": [
                     {
-                      "id": "st-a58c133111",
+                      "id": "st-dc8107ff2a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a58c133111",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-dc8107ff2a",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9068/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9070/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,96 @@
             }
           ],
           "org_metadata": {
-            "league": "Siêu Độ Phủi Phi",
-            "team_a": "JR SILANG",
-            "team_b": "JASON 5710",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "22:10:00",
-            "date": "11/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1791731400,
+            "league": "Winner Round 1 - Nhánh thắng 99 ALLIN C2",
+            "team_a": "Huy Black",
+            "team_b": "Hoàng PT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354747814_t%E1%BA%A3i%20xu%E1%BB%91ng%20(5).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791760964991_Ho%C3%A0ng%20PT.jpg",
+            "time": "10:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791774000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a58c133111_a0e82a26_20261012.png?v=a0e82a26",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc8107ff2a_aa8f6d2e_20261012.png?v=aa8f6d2e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6b0d5b1357",
+          "name": "Văn Bản vs Tiến Minh Rau má · | 10:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b0d5b1357",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6b0d5b1357",
+                  "name": "Văn Bản vs Tiến Minh Rau má ·",
+                  "streams": [
+                    {
+                      "id": "st-6b0d5b1357",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b0d5b1357",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9069/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Nhánh thắng 99 ALLIN C2",
+            "team_a": "Văn Bản",
+            "team_b": "Tiến Minh Rau má ·",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791760812985_Ti%E1%BA%BFn%20Minh%20TH.jpg",
+            "time": "10:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791774000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6b0d5b1357_ae004f94_20261012.png?v=ae004f94",
             "width": 1600,
             "height": 1200
           }
