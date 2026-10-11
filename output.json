@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-98ffaf5bac",
-          "name": "Xuân NA vs Dũng Hàn | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98ffaf5bac",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-98ffaf5bac",
-                  "name": "Xuân NA vs Dũng Hàn",
-                  "streams": [
-                    {
-                      "id": "st-98ffaf5bac",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-98ffaf5bac",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9047/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Xuân NA",
-            "team_b": "Dũng Hàn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791669421982_XU%C3%82N%20NGH%E1%BB%86%20AN.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791669413586_D%C5%A9ng%20h%C3%A0n.jpg",
-            "time": "17:00:00",
-            "date": "11/10",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1791712800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-98ffaf5bac_d5f06a92_20261011.png?v=d5f06a92",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-90d9b155ba",
-          "name": "Kiên Pháp vs Hùng Cua | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90d9b155ba",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-90d9b155ba",
-                  "name": "Kiên Pháp vs Hùng Cua",
-                  "streams": [
-                    {
-                      "id": "st-90d9b155ba",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90d9b155ba",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9046/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Kiên Pháp",
-            "team_b": "Hùng Cua",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766213714488_t%E1%BA%A3i%20xu%E1%BB%91ng%20(4).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "17:00:00",
-            "date": "11/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1791712800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d9b155ba_47e5aa2d_20261011.png?v=47e5aa2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-4e8c8400c5",
           "name": "Văn Huynh vs Mocaibat | Kèn Kèn",
@@ -231,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4e8c8400c5_4d9c2a22_20261011.png?v=4d9c2a22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-98ffaf5bac",
+          "name": "Xuân NA vs Dũng Hàn | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98ffaf5bac",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-98ffaf5bac",
+                  "name": "Xuân NA vs Dũng Hàn",
+                  "streams": [
+                    {
+                      "id": "st-98ffaf5bac",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-98ffaf5bac",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9047/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Xuân NA",
+            "team_b": "Dũng Hàn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791669421982_XU%C3%82N%20NGH%E1%BB%86%20AN.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791669413586_D%C5%A9ng%20h%C3%A0n.jpg",
+            "time": "17:00:00",
+            "date": "11/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1791712800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-98ffaf5bac_d5f06a92_20261011.png?v=d5f06a92",
             "width": 1600,
             "height": 1200
           }
