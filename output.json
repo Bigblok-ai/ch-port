@@ -234,6 +234,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-a991a32e57",
+          "name": "Hoàng VT vs Văn Sinh | 10:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a991a32e57",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a991a32e57",
+                  "name": "Hoàng VT vs Văn Sinh",
+                  "streams": [
+                    {
+                      "id": "st-a991a32e57",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a991a32e57",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9073/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Nhánh thắng 99 ALLIN C2",
+            "team_a": "Hoàng VT",
+            "team_b": "Văn Sinh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354554242_3874_H3I9wA_96x96.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791761591155_V%C4%83n%20Sinh.jpg",
+            "time": "10:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791774000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a991a32e57_b03cae7a_20261012.png?v=b03cae7a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
