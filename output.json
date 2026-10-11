@@ -11,11 +11,157 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-5343f8a376",
+          "name": "Hoàng PT vs Tùng Bão Táp | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5343f8a376",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5343f8a376",
+                  "name": "Hoàng PT vs Tùng Bão Táp",
+                  "streams": [
+                    {
+                      "id": "st-5343f8a376",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5343f8a376",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9024/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Hoàng PT",
+            "team_b": "Tùng Bão Táp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791651983375_Ho%C3%A0ng%20PT.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791651980808_T%C3%99NG%20B%C3%83O%20T%C3%81P.jpg",
+            "time": "11:00:00",
+            "date": "11/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791691200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5343f8a376_ee038671_20261011.png?v=ee038671",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c8d74be666",
+          "name": "Thành Nam vs Hiếu Thanh Hoá | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8d74be666",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c8d74be666",
+                  "name": "Thành Nam vs Hiếu Thanh Hoá",
+                  "streams": [
+                    {
+                      "id": "st-c8d74be666",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8d74be666",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9051/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Thành Nam",
+            "team_b": "Hiếu Thanh Hoá",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765417407261_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00:00",
+            "date": "11/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791691200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c8d74be666_627c7761_20261011.png?v=627c7761",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-4f46a6f4f7",
           "name": "Trung Lạng vs Hiệp Bờm TH | 13:00 11/10",
