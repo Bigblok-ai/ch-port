@@ -17,6 +17,79 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-94b5988ad7",
+          "name": "Trung Nấm vs Yến Vy | 11:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-94b5988ad7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-94b5988ad7",
+                  "name": "Trung Nấm vs Yến Vy",
+                  "streams": [
+                    {
+                      "id": "st-94b5988ad7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94b5988ad7",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9028/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
+            "team_a": "Trung Nấm",
+            "team_b": "Yến Vy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791653926607_TRUNG%20N%E1%BA%A4M.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791653983930_Y%E1%BA%BFn%20Vy.jpg",
+            "time": "11:00:00",
+            "date": "11/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791691200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-94b5988ad7_9a075049_20261011.png?v=9a075049",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a174e2916e",
           "name": "Bình Chuẩn vs Dũng Phạm | 11:00 11/10",
           "type": "single",
@@ -163,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-94b5988ad7",
-          "name": "Trung Nấm vs Yến Vy | 11:00 11/10",
+          "id": "chtv-27bb96011c",
+          "name": "Văn Sinh vs Quốc Khánh | 11:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-94b5988ad7",
+              "id": "src-27bb96011c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-94b5988ad7",
-                  "name": "Trung Nấm vs Yến Vy",
+                  "id": "ct-27bb96011c",
+                  "name": "Văn Sinh vs Quốc Khánh",
                   "streams": [
                     {
-                      "id": "st-94b5988ad7",
+                      "id": "st-27bb96011c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-94b5988ad7",
+                          "id": "lnk-27bb96011c",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9028/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9027/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,10 +288,10 @@
           ],
           "org_metadata": {
             "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Trung Nấm",
-            "team_b": "Yến Vy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791653926607_TRUNG%20N%E1%BA%A4M.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791653983930_Y%E1%BA%BFn%20Vy.jpg",
+            "team_a": "Văn Sinh",
+            "team_b": "Quốc Khánh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791653191697_V%C4%83n%20Sinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "11:00:00",
             "date": "11/10",
             "blv": "",
@@ -230,14 +303,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-94b5988ad7_9a075049_20261011.png?v=9a075049",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-27bb96011c_41b1b7cc_20261011.png?v=41b1b7cc",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-6fb50623e8",
-          "name": "Tiến Minh rau má vs Tuấn Anh | 11:00 11/10",
+          "id": "chtv-5343f8a376",
+          "name": "Hoàng PT vs Tùng Bão Táp | 11:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-6fb50623e8",
+              "id": "src-5343f8a376",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-6fb50623e8",
-                  "name": "Tiến Minh rau má vs Tuấn Anh",
+                  "id": "ct-5343f8a376",
+                  "name": "Hoàng PT vs Tùng Bão Táp",
                   "streams": [
                     {
-                      "id": "st-6fb50623e8",
+                      "id": "st-5343f8a376",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-6fb50623e8",
+                          "id": "lnk-5343f8a376",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9023/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9024/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,10 +361,10 @@
           ],
           "org_metadata": {
             "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Tiến Minh rau má",
-            "team_b": "Tuấn Anh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791651693798_Ti%E1%BA%BFn%20Minh%20TH.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Hoàng PT",
+            "team_b": "Tùng Bão Táp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791651983375_Ho%C3%A0ng%20PT.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791651980808_T%C3%99NG%20B%C3%83O%20T%C3%81P.jpg",
             "time": "11:00:00",
             "date": "11/10",
             "blv": "",
@@ -303,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6fb50623e8_e84dac79_20261011.png?v=e84dac79",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5343f8a376_ee038671_20261011.png?v=ee038671",
             "width": 1600,
             "height": 1200
           }
@@ -382,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-5343f8a376",
-          "name": "Hoàng PT vs Tùng Bão Táp | 11:00 11/10",
+          "id": "chtv-6fb50623e8",
+          "name": "Tiến Minh rau má vs Tuấn Anh | 11:00 11/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-5343f8a376",
+              "id": "src-6fb50623e8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5343f8a376",
-                  "name": "Hoàng PT vs Tùng Bão Táp",
+                  "id": "ct-6fb50623e8",
+                  "name": "Tiến Minh rau má vs Tuấn Anh",
                   "streams": [
                     {
-                      "id": "st-5343f8a376",
+                      "id": "st-6fb50623e8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5343f8a376",
+                          "id": "lnk-6fb50623e8",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9024/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9023/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -434,10 +507,10 @@
           ],
           "org_metadata": {
             "league": "V3 - 99 ALLIN C2 ROAD TO WORLD TOURNAMENT",
-            "team_a": "Hoàng PT",
-            "team_b": "Tùng Bão Táp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791651983375_Ho%C3%A0ng%20PT.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791651980808_T%C3%99NG%20B%C3%83O%20T%C3%81P.jpg",
+            "team_a": "Tiến Minh rau má",
+            "team_b": "Tuấn Anh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791651693798_Ti%E1%BA%BFn%20Minh%20TH.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "11:00:00",
             "date": "11/10",
             "blv": "",
@@ -449,7 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5343f8a376_ee038671_20261011.png?v=ee038671",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6fb50623e8_e84dac79_20261011.png?v=e84dac79",
             "width": 1600,
             "height": 1200
           }
