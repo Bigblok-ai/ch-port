@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-029e0fbb0c_3f8c4583_20261011.png?v=3f8c4583",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fcd1d98052",
+          "name": "ANTON RAGA vs JERICO BANARES | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcd1d98052",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fcd1d98052",
+                  "name": "ANTON RAGA vs JERICO BANARES",
+                  "streams": [
+                    {
+                      "id": "st-fcd1d98052",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcd1d98052",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9059/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi phủi",
+            "team_a": "ANTON RAGA",
+            "team_b": "JERICO BANARES",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791722763523_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791722763211_Philippines.png",
+            "time": "19:45:00",
+            "date": "11/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791722700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcd1d98052_3f28ced4_20261011.png?v=3f28ced4",
             "width": 1600,
             "height": 1200
           }
