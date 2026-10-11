@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-354b62a0bd_3ba5043d_20261011.png?v=3ba5043d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ddb63ef91c",
+          "name": "BIADO vs DAGA 5710 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ddb63ef91c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ddb63ef91c",
+                  "name": "BIADO vs DAGA 5710",
+                  "streams": [
+                    {
+                      "id": "st-ddb63ef91c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ddb63ef91c",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9062/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "BIADO",
+            "team_b": "DAGA 5710",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791724465851_Carlo%20Biado.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791724524969_Philippines.png",
+            "time": "20:14:00",
+            "date": "11/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791724440,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ddb63ef91c_d6b09e4c_20261011.png?v=d6b09e4c",
             "width": 1600,
             "height": 1200
           }
