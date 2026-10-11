@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e902eaef4c_f092dad5_20261011.png?v=f092dad5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-30d6e8f3bd",
-          "name": "CARLO BIADO vs DAGA (5/7/10) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-30d6e8f3bd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-30d6e8f3bd",
-                  "name": "CARLO BIADO vs DAGA (5/7/10)",
-                  "streams": [
-                    {
-                      "id": "st-30d6e8f3bd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30d6e8f3bd",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9066/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CARLO BIADO",
-            "team_a": "CARLO BIADO",
-            "team_b": "DAGA (5/7/10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791730805158_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "time": "22:00:00",
-            "date": "11/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791730800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-30d6e8f3bd_ca38866d_20261011.png?v=ca38866d",
             "width": 1600,
             "height": 1200
           }
