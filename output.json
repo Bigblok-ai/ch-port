@@ -1256,6 +1256,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-dc74ed413f",
+          "name": "Kiên Pháp vs Đình Hữu | 12:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc74ed413f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dc74ed413f",
+                  "name": "Kiên Pháp vs Đình Hữu",
+                  "streams": [
+                    {
+                      "id": "st-dc74ed413f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc74ed413f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9087/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Loạt 12h",
+            "team_a": "Kiên Pháp",
+            "team_b": "Đình Hữu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778587777808_Screenshot%202026-05-12%20190932.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226681415_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791781200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc74ed413f_b7d28259_20261012.png?v=b7d28259",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
