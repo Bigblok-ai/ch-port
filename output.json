@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-128efd2ca6",
-          "name": "Thắng Yên Lưu vs Trung Nấm | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-128efd2ca6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-128efd2ca6",
-                  "name": "Thắng Yên Lưu vs Trung Nấm",
-                  "streams": [
-                    {
-                      "id": "st-128efd2ca6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-128efd2ca6",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9074/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Round 1 - Nhánh thắng 99 ALLIN C2",
-            "team_a": "Thắng Yên Lưu",
-            "team_b": "Trung Nấm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778354407900_3536_4jhjiQ_96x96.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791761742070_TRUNG%20N%E1%BA%A4M.png",
-            "time": "10:00:00",
-            "date": "12/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1791774000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-128efd2ca6_6a9a2f25_20261012.png?v=6a9a2f25",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-520d34c2d9",
           "name": "An Nhiệt vs Duy Đinh | GIÀNG A PHỌ",
           "type": "single",
@@ -236,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-4ef307f2c0",
-          "name": "Cao Văn Hào vs Bình Chuẩn | Thập Cẩm",
+          "id": "chtv-128efd2ca6",
+          "name": "Thắng Yên Lưu vs Trung Nấm | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-4ef307f2c0",
+              "id": "src-128efd2ca6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4ef307f2c0",
-                  "name": "Cao Văn Hào vs Bình Chuẩn",
+                  "id": "ct-128efd2ca6",
+                  "name": "Thắng Yên Lưu vs Trung Nấm",
                   "streams": [
                     {
-                      "id": "st-4ef307f2c0",
+                      "id": "st-128efd2ca6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4ef307f2c0",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-128efd2ca6",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9075/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9074/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,13 +215,13 @@
           ],
           "org_metadata": {
             "league": "Winner Round 1 - Nhánh thắng 99 ALLIN C2",
-            "team_a": "Cao Văn Hào",
-            "team_b": "Bình Chuẩn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791762148750_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
+            "team_a": "Thắng Yên Lưu",
+            "team_b": "Trung Nấm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354407900_3536_4jhjiQ_96x96.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791761742070_TRUNG%20N%E1%BA%A4M.png",
             "time": "10:00:00",
             "date": "12/10",
-            "blv": "Thập Cẩm",
+            "blv": "Xinh Yeu",
             "is_live": true,
             "time_sort": 1791774000,
             "cate_type": "billiards"
@@ -303,7 +230,299 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ef307f2c0_2744af6a_20261012.png?v=2744af6a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-128efd2ca6_6a9a2f25_20261012.png?v=6a9a2f25",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7501636e51",
+          "name": "Nam Phạm vs Dũng Quốc Oai | 12:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7501636e51",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7501636e51",
+                  "name": "Nam Phạm vs Dũng Quốc Oai",
+                  "streams": [
+                    {
+                      "id": "st-7501636e51",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7501636e51",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9089/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Loạt 12h",
+            "team_a": "Nam Phạm",
+            "team_b": "Dũng Quốc Oai",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791767833817_D%C5%A8NG%20QU%E1%BB%90C%20OAI.jpg",
+            "time": "12:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791781200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7501636e51_c05e76b5_20261012.png?v=c05e76b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dc74ed413f",
+          "name": "Kiên Pháp vs Đình Hữu | 12:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc74ed413f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dc74ed413f",
+                  "name": "Kiên Pháp vs Đình Hữu",
+                  "streams": [
+                    {
+                      "id": "st-dc74ed413f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc74ed413f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9087/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Loạt 12h",
+            "team_a": "Kiên Pháp",
+            "team_b": "Đình Hữu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778587777808_Screenshot%202026-05-12%20190932.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226681415_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791781200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc74ed413f_b7d28259_20261012.png?v=b7d28259",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-41af8b1f03",
+          "name": "Johnny Huỳnh vs Khánh Búa | 12:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41af8b1f03",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-41af8b1f03",
+                  "name": "Johnny Huỳnh vs Khánh Búa",
+                  "streams": [
+                    {
+                      "id": "st-41af8b1f03",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41af8b1f03",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9080/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Loạt 12h",
+            "team_a": "Johnny Huỳnh",
+            "team_b": "Khánh Búa",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354407900_3536_4jhjiQ_96x96.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791763269395_KH%C3%81NH%20B%C3%9AA.jpg",
+            "time": "12:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791781200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-41af8b1f03_397b715b_20261012.png?v=397b715b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4ce7f45fce",
+          "name": "Bình Ốc vs Khải Tony | 12:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ce7f45fce",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4ce7f45fce",
+                  "name": "Bình Ốc vs Khải Tony",
+                  "streams": [
+                    {
+                      "id": "st-4ce7f45fce",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ce7f45fce",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9082/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Loạt 12h",
+            "team_a": "Bình Ốc",
+            "team_b": "Khải Tony",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791764981603_B%C3%8CNH%20%E1%BB%90C.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791764984849_KH%E1%BA%A2I%20TONY.jpg",
+            "time": "12:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791781200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ce7f45fce_1d764c72_20261012.png?v=1d764c72",
             "width": 1600,
             "height": 1200
           }
@@ -450,79 +669,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3fdec76510_b1457c1e_20261012.png?v=b1457c1e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4ce7f45fce",
-          "name": "Bình Ốc vs Khải Tony | 12:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4ce7f45fce",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4ce7f45fce",
-                  "name": "Bình Ốc vs Khải Tony",
-                  "streams": [
-                    {
-                      "id": "st-4ce7f45fce",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ce7f45fce",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9082/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Round 1 - Loạt 12h",
-            "team_a": "Bình Ốc",
-            "team_b": "Khải Tony",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791764981603_B%C3%8CNH%20%E1%BB%90C.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791764984849_KH%E1%BA%A2I%20TONY.jpg",
-            "time": "12:00:00",
-            "date": "12/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791781200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ce7f45fce_1d764c72_20261012.png?v=1d764c72",
             "width": 1600,
             "height": 1200
           }
@@ -747,8 +893,8 @@
           }
         },
         {
-          "id": "chtv-dc74ed413f",
-          "name": "Kiên Pháp vs Đình Hữu | 12:00 12/10",
+          "id": "chtv-95b1262e1b",
+          "name": "Phùng Quý vs Thanh Thế Kỷ | 12:00 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -762,23 +908,23 @@
           ],
           "sources": [
             {
-              "id": "src-dc74ed413f",
+              "id": "src-95b1262e1b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-dc74ed413f",
-                  "name": "Kiên Pháp vs Đình Hữu",
+                  "id": "ct-95b1262e1b",
+                  "name": "Phùng Quý vs Thanh Thế Kỷ",
                   "streams": [
                     {
-                      "id": "st-dc74ed413f",
+                      "id": "st-95b1262e1b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-dc74ed413f",
+                          "id": "lnk-95b1262e1b",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9087/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9100/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -799,10 +945,10 @@
           ],
           "org_metadata": {
             "league": "Winner Round 1 - Loạt 12h",
-            "team_a": "Kiên Pháp",
-            "team_b": "Đình Hữu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778587777808_Screenshot%202026-05-12%20190932.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226681415_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Phùng Quý",
+            "team_b": "Thanh Thế Kỷ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765418775237_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765418775237_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00:00",
             "date": "12/10",
             "blv": "",
@@ -814,7 +960,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc74ed413f_b7d28259_20261012.png?v=b7d28259",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-95b1262e1b_25610409_20261012.png?v=25610409",
             "width": 1600,
             "height": 1200
           }
@@ -961,152 +1107,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5ee3d0194d_0c9f5aef_20261012.png?v=0c9f5aef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7501636e51",
-          "name": "Nam Phạm vs Dũng Quốc Oai | 12:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7501636e51",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7501636e51",
-                  "name": "Nam Phạm vs Dũng Quốc Oai",
-                  "streams": [
-                    {
-                      "id": "st-7501636e51",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7501636e51",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9089/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Round 1 - Loạt 12h",
-            "team_a": "Nam Phạm",
-            "team_b": "Dũng Quốc Oai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791767833817_D%C5%A8NG%20QU%E1%BB%90C%20OAI.jpg",
-            "time": "12:00:00",
-            "date": "12/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791781200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7501636e51_c05e76b5_20261012.png?v=c05e76b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-41af8b1f03",
-          "name": "Johnny Huỳnh vs Khánh Búa | 12:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41af8b1f03",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-41af8b1f03",
-                  "name": "Johnny Huỳnh vs Khánh Búa",
-                  "streams": [
-                    {
-                      "id": "st-41af8b1f03",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41af8b1f03",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9080/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Round 1 - Loạt 12h",
-            "team_a": "Johnny Huỳnh",
-            "team_b": "Khánh Búa",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778354407900_3536_4jhjiQ_96x96.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791763269395_KH%C3%81NH%20B%C3%9AA.jpg",
-            "time": "12:00:00",
-            "date": "12/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791781200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-41af8b1f03_397b715b_20261012.png?v=397b715b",
             "width": 1600,
             "height": 1200
           }
