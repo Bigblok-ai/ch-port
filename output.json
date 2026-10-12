@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-ebe2cf9919",
+          "name": "Baseth Mocaibat vs Kiên Pháp | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebe2cf9919",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ebe2cf9919",
+                  "name": "Baseth Mocaibat vs Kiên Pháp",
+                  "streams": [
+                    {
+                      "id": "st-ebe2cf9919",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebe2cf9919",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9130/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Qualification - Loạt 18h",
+            "team_a": "Baseth Mocaibat",
+            "team_b": "Kiên Pháp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797778119_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797777783_Vi%E1%BB%87t%20Nam.png",
+            "time": "18:00:00",
+            "date": "12/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791802800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebe2cf9919_7c47ce4d_20261012.png?v=7c47ce4d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b93e97faba",
           "name": "Thiện Lương vs Đãng BN | Lee Min Hoo",
           "type": "single",
@@ -163,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-ebe2cf9919",
-          "name": "Baseth Mocaibat vs Kiên Pháp | Xinh Yeu",
+          "id": "chtv-cb60c79153",
+          "name": "Roland Garcia vs +2Win Assis Ado Tadique | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-ebe2cf9919",
+              "id": "src-cb60c79153",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ebe2cf9919",
-                  "name": "Baseth Mocaibat vs Kiên Pháp",
+                  "id": "ct-cb60c79153",
+                  "name": "Roland Garcia vs +2Win Assis Ado Tadique",
                   "streams": [
                     {
-                      "id": "st-ebe2cf9919",
+                      "id": "st-cb60c79153",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ebe2cf9919",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-cb60c79153",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9130/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9133/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,23 +287,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Winner Qualification - Loạt 18h",
-            "team_a": "Baseth Mocaibat",
-            "team_b": "Kiên Pháp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791797778119_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791797777783_Vi%E1%BB%87t%20Nam.png",
-            "time": "18:00:00",
+            "league": "phi bịp",
+            "team_a": "Roland Garcia",
+            "team_b": "+2Win Assis Ado Tadique",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791807942170_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791807941728_Philippines.png",
+            "time": "19:25:00",
             "date": "12/10",
-            "blv": "Xinh Yeu",
+            "blv": "Đại Kê",
             "is_live": true,
-            "time_sort": 1791802800,
+            "time_sort": 1791807900,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebe2cf9919_7c47ce4d_20261012.png?v=7c47ce4d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cb60c79153_d7b183aa_20261012.png?v=d7b183aa",
             "width": 1600,
             "height": 1200
           }
