@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-0a92a942fb",
-          "name": "Hoàng Tễu vs Lê Quang Trung | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a92a942fb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0a92a942fb",
-                  "name": "Hoàng Tễu vs Lê Quang Trung",
-                  "streams": [
-                    {
-                      "id": "st-0a92a942fb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a92a942fb",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9114/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 1 - Loạt 16h Race 8",
-            "team_a": "Hoàng Tễu",
-            "team_b": "Lê Quang Trung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791791533337_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791791533095_Vi%E1%BB%87t%20Nam.png",
-            "time": "16:00:00",
-            "date": "12/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791795600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a92a942fb_b6a254a9_20261012.png?v=b6a254a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f8786c83fb",
-          "name": "Kiên Con vs Millares | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f8786c83fb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f8786c83fb",
-                  "name": "Kiên Con vs Millares",
-                  "streams": [
-                    {
-                      "id": "st-f8786c83fb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f8786c83fb",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9115/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 1 - Loạt 16h Race 8",
-            "team_a": "Kiên Con",
-            "team_b": "Millares",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791791593290_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791791592980_Philippines.png",
-            "time": "16:00:00",
-            "date": "12/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791795600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f8786c83fb_a9ec7943_20261012.png?v=a9ec7943",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d6b846f420",
           "name": "Janbert Manas vs Thắng Láng | GIÀNG A PHỌ",
@@ -231,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d6b846f420_8e2d140e_20261012.png?v=8e2d140e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0a92a942fb",
+          "name": "Hoàng Tễu vs Lê Quang Trung | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a92a942fb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0a92a942fb",
+                  "name": "Hoàng Tễu vs Lê Quang Trung",
+                  "streams": [
+                    {
+                      "id": "st-0a92a942fb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a92a942fb",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9114/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 1 - Loạt 16h Race 8",
+            "team_a": "Hoàng Tễu",
+            "team_b": "Lê Quang Trung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791791533337_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791791533095_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "12/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791795600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a92a942fb_b6a254a9_20261012.png?v=b6a254a9",
             "width": 1600,
             "height": 1200
           }
@@ -528,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-deed8f3229",
-          "name": "Quang Con vs Văn Sinh | 18:00 12/10",
+          "id": "chtv-33b1b20dad",
+          "name": "Tú Tây vs Bình Ốc | 18:00 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -543,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-deed8f3229",
+              "id": "src-33b1b20dad",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-deed8f3229",
-                  "name": "Quang Con vs Văn Sinh",
+                  "id": "ct-33b1b20dad",
+                  "name": "Tú Tây vs Bình Ốc",
                   "streams": [
                     {
-                      "id": "st-deed8f3229",
+                      "id": "st-33b1b20dad",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-deed8f3229",
+                          "id": "lnk-33b1b20dad",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9119/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9127/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -580,10 +507,10 @@
           ],
           "org_metadata": {
             "league": "Winner Qualification - Loạt 18h",
-            "team_a": "Quang Con",
-            "team_b": "Văn Sinh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791797248942_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791797248543_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Tú Tây",
+            "team_b": "Bình Ốc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797637230_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797636951_Vi%E1%BB%87t%20Nam.png",
             "time": "18:00:00",
             "date": "12/10",
             "blv": "",
@@ -595,7 +522,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-deed8f3229_1f99a0a6_20261012.png?v=1f99a0a6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-33b1b20dad_1fd200b1_20261012.png?v=1fd200b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-58a29fa1ac",
+          "name": "Sơn Ku vs Minh Tài | 18:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58a29fa1ac",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-58a29fa1ac",
+                  "name": "Sơn Ku vs Minh Tài",
+                  "streams": [
+                    {
+                      "id": "st-58a29fa1ac",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58a29fa1ac",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9123/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Qualification - Loạt 18h",
+            "team_a": "Sơn Ku",
+            "team_b": "Minh Tài",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797438686_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797438299_Vi%E1%BB%87t%20Nam.png",
+            "time": "18:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791802800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58a29fa1ac_71dd45f5_20261012.png?v=71dd45f5",
             "width": 1600,
             "height": 1200
           }
@@ -820,8 +820,8 @@
           }
         },
         {
-          "id": "chtv-58a29fa1ac",
-          "name": "Sơn Ku vs Minh Tài | 18:00 12/10",
+          "id": "chtv-995ea3b4cc",
+          "name": "Jose Alberto Delgado vs Phùng Quý | 18:00 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -835,23 +835,23 @@
           ],
           "sources": [
             {
-              "id": "src-58a29fa1ac",
+              "id": "src-995ea3b4cc",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-58a29fa1ac",
-                  "name": "Sơn Ku vs Minh Tài",
+                  "id": "ct-995ea3b4cc",
+                  "name": "Jose Alberto Delgado vs Phùng Quý",
                   "streams": [
                     {
-                      "id": "st-58a29fa1ac",
+                      "id": "st-995ea3b4cc",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-58a29fa1ac",
+                          "id": "lnk-995ea3b4cc",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9123/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9125/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -872,10 +872,10 @@
           ],
           "org_metadata": {
             "league": "Winner Qualification - Loạt 18h",
-            "team_a": "Sơn Ku",
-            "team_b": "Minh Tài",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791797438686_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791797438299_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Jose Alberto Delgado",
+            "team_b": "Phùng Quý",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797573255_T%C3%A2y%20Ban%20Nha.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797551671_Vi%E1%BB%87t%20Nam.png",
             "time": "18:00:00",
             "date": "12/10",
             "blv": "",
@@ -887,7 +887,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58a29fa1ac_71dd45f5_20261012.png?v=71dd45f5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-995ea3b4cc_096df7ce_20261012.png?v=096df7ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-400087131d",
+          "name": "Tùng Gái vs Lợi Cafe | 18:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-400087131d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-400087131d",
+                  "name": "Tùng Gái vs Lợi Cafe",
+                  "streams": [
+                    {
+                      "id": "st-400087131d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-400087131d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9122/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Qualification - Loạt 18h",
+            "team_a": "Tùng Gái",
+            "team_b": "Lợi Cafe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797398076_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797397735_Vi%E1%BB%87t%20Nam.png",
+            "time": "18:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791802800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-400087131d_99a1f427_20261012.png?v=99a1f427",
             "width": 1600,
             "height": 1200
           }
@@ -966,152 +1039,6 @@
           }
         },
         {
-          "id": "chtv-33b1b20dad",
-          "name": "Tú Tây vs Bình Ốc | 18:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33b1b20dad",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-33b1b20dad",
-                  "name": "Tú Tây vs Bình Ốc",
-                  "streams": [
-                    {
-                      "id": "st-33b1b20dad",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33b1b20dad",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9127/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Qualification - Loạt 18h",
-            "team_a": "Tú Tây",
-            "team_b": "Bình Ốc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791797637230_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791797636951_Vi%E1%BB%87t%20Nam.png",
-            "time": "18:00:00",
-            "date": "12/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791802800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-33b1b20dad_1fd200b1_20261012.png?v=1fd200b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-995ea3b4cc",
-          "name": "Jose Alberto Delgado vs Phùng Quý | 18:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-995ea3b4cc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-995ea3b4cc",
-                  "name": "Jose Alberto Delgado vs Phùng Quý",
-                  "streams": [
-                    {
-                      "id": "st-995ea3b4cc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-995ea3b4cc",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9125/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Qualification - Loạt 18h",
-            "team_a": "Jose Alberto Delgado",
-            "team_b": "Phùng Quý",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791797573255_T%C3%A2y%20Ban%20Nha.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791797551671_Vi%E1%BB%87t%20Nam.png",
-            "time": "18:00:00",
-            "date": "12/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791802800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-995ea3b4cc_096df7ce_20261012.png?v=096df7ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-989424be94",
           "name": "Sean Mark Malayan vs Phương He | 18:00 12/10",
           "type": "single",
@@ -1180,6 +1107,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-989424be94_7bfbefcb_20261012.png?v=7bfbefcb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-deed8f3229",
+          "name": "Quang Con vs Văn Sinh | 18:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-deed8f3229",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-deed8f3229",
+                  "name": "Quang Con vs Văn Sinh",
+                  "streams": [
+                    {
+                      "id": "st-deed8f3229",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-deed8f3229",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9119/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Qualification - Loạt 18h",
+            "team_a": "Quang Con",
+            "team_b": "Văn Sinh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797248942_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797248543_Vi%E1%BB%87t%20Nam.png",
+            "time": "18:00:00",
+            "date": "12/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791802800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-deed8f3229_1f99a0a6_20261012.png?v=1f99a0a6",
             "width": 1600,
             "height": 1200
           }
@@ -1326,79 +1326,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0b9dd1c5ce_70c23152_20261012.png?v=70c23152",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-400087131d",
-          "name": "Tùng Gái vs Lợi Cafe | 18:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-400087131d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-400087131d",
-                  "name": "Tùng Gái vs Lợi Cafe",
-                  "streams": [
-                    {
-                      "id": "st-400087131d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-400087131d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9122/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Qualification - Loạt 18h",
-            "team_a": "Tùng Gái",
-            "team_b": "Lợi Cafe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791797398076_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791797397735_Vi%E1%BB%87t%20Nam.png",
-            "time": "18:00:00",
-            "date": "12/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791802800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-400087131d_99a1f427_20261012.png?v=99a1f427",
             "width": 1600,
             "height": 1200
           }
