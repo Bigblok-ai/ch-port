@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9e6104e06e_d234b413_20261012.png?v=d234b413",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d0e145ab17",
+          "name": "JAYBEE SUCAL vs JOEL BAGO | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0e145ab17",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d0e145ab17",
+                  "name": "JAYBEE SUCAL vs JOEL BAGO",
+                  "streams": [
+                    {
+                      "id": "st-d0e145ab17",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0e145ab17",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9135/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JAYBEE SUCAL",
+            "team_b": "JOEL BAGO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791811582881_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791811582532_Philippines.png",
+            "time": "20:25:00",
+            "date": "12/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1791811500,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0e145ab17_3e8af919_20261012.png?v=3e8af919",
             "width": 1600,
             "height": 1200
           }
