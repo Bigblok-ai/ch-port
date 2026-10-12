@@ -17,152 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-63367259ee",
-          "name": "Hồ Sở Phát vs Dũng Moi | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63367259ee",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-63367259ee",
-                  "name": "Hồ Sở Phát vs Dũng Moi",
-                  "streams": [
-                    {
-                      "id": "st-63367259ee",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-63367259ee",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9109/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 1 - Loạt 16h Race 8",
-            "team_a": "Hồ Sở Phát",
-            "team_b": "Dũng Moi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791791046912_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791791046559_Vi%E1%BB%87t%20Nam.png",
-            "time": "16:00:00",
-            "date": "12/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1791795600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-63367259ee_4dca592c_20261012.png?v=4dca592c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0a92a942fb",
-          "name": "Hoàng Tễu vs Lê Quang Trung | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a92a942fb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0a92a942fb",
-                  "name": "Hoàng Tễu vs Lê Quang Trung",
-                  "streams": [
-                    {
-                      "id": "st-0a92a942fb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a92a942fb",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9114/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 1 - Loạt 16h Race 8",
-            "team_a": "Hoàng Tễu",
-            "team_b": "Lê Quang Trung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791791533337_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791791533095_Vi%E1%BB%87t%20Nam.png",
-            "time": "16:00:00",
-            "date": "12/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791795600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a92a942fb_b6a254a9_20261012.png?v=b6a254a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-3ae8fb8ec8",
           "name": "Tkon vs Nguyên HT | Xinh Yeu",
           "type": "single",
@@ -231,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3ae8fb8ec8_7a61a52b_20261012.png?v=7a61a52b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-63367259ee",
+          "name": "Hồ Sở Phát vs Dũng Moi | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63367259ee",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-63367259ee",
+                  "name": "Hồ Sở Phát vs Dũng Moi",
+                  "streams": [
+                    {
+                      "id": "st-63367259ee",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63367259ee",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9109/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 1 - Loạt 16h Race 8",
+            "team_a": "Hồ Sở Phát",
+            "team_b": "Dũng Moi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791791046912_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791791046559_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "12/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791795600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-63367259ee_4dca592c_20261012.png?v=4dca592c",
             "width": 1600,
             "height": 1200
           }
@@ -309,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-f8786c83fb",
-          "name": "Kiên Con vs Millares | Lee Min Hoo",
+          "id": "chtv-0a92a942fb",
+          "name": "Hoàng Tễu vs Lê Quang Trung | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-f8786c83fb",
+              "id": "src-0a92a942fb",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f8786c83fb",
-                  "name": "Kiên Con vs Millares",
+                  "id": "ct-0a92a942fb",
+                  "name": "Hoàng Tễu vs Lê Quang Trung",
                   "streams": [
                     {
-                      "id": "st-f8786c83fb",
+                      "id": "st-0a92a942fb",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f8786c83fb",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-0a92a942fb",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9115/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9114/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,13 +288,13 @@
           ],
           "org_metadata": {
             "league": "Loser Round 1 - Loạt 16h Race 8",
-            "team_a": "Kiên Con",
-            "team_b": "Millares",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791791593290_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791791592980_Philippines.png",
+            "team_a": "Hoàng Tễu",
+            "team_b": "Lê Quang Trung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791791533337_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791791533095_Vi%E1%BB%87t%20Nam.png",
             "time": "16:00:00",
             "date": "12/10",
-            "blv": "Lee Min Hoo",
+            "blv": "Kèn Kèn",
             "is_live": true,
             "time_sort": 1791795600,
             "cate_type": "billiards"
@@ -376,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f8786c83fb_a9ec7943_20261012.png?v=a9ec7943",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a92a942fb_b6a254a9_20261012.png?v=b6a254a9",
             "width": 1600,
             "height": 1200
           }
@@ -450,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0d34000c9c_70a5ff7a_20261012.png?v=70a5ff7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f8786c83fb",
+          "name": "Kiên Con vs Millares | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f8786c83fb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f8786c83fb",
+                  "name": "Kiên Con vs Millares",
+                  "streams": [
+                    {
+                      "id": "st-f8786c83fb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8786c83fb",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9115/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 1 - Loạt 16h Race 8",
+            "team_a": "Kiên Con",
+            "team_b": "Millares",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791791593290_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791791592980_Philippines.png",
+            "time": "16:00:00",
+            "date": "12/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791795600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f8786c83fb_a9ec7943_20261012.png?v=a9ec7943",
             "width": 1600,
             "height": 1200
           }
