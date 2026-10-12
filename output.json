@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-613c85df7e",
+          "name": "Alex Montpellier vs Hà BG | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-613c85df7e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-613c85df7e",
+                  "name": "Alex Montpellier vs Hà BG",
+                  "streams": [
+                    {
+                      "id": "st-613c85df7e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-613c85df7e",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9105/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 1 - Loạt 14h Race 8",
+            "team_a": "Alex Montpellier",
+            "team_b": "Hà BG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791788853151_Ph%C3%A1p.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791788852845_Vi%E1%BB%87t%20Nam.png",
+            "time": "14:00:00",
+            "date": "12/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791788400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-613c85df7e_f4496189_20261012.png?v=f4496189",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-74d3d0ffad",
           "name": "Thành Nam vs Hoàng Minh | GIÀNG A PHỌ",
@@ -90,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-a4759c9c7c",
-          "name": "Việt Anh vs Cường Tốc Độ | Bỉm Sữa",
+          "id": "chtv-28948bc925",
+          "name": "Bora Duru vs Dũng Lào Cai | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-a4759c9c7c",
+              "id": "src-28948bc925",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a4759c9c7c",
-                  "name": "Việt Anh vs Cường Tốc Độ",
+                  "id": "ct-28948bc925",
+                  "name": "Bora Duru vs Dũng Lào Cai",
                   "streams": [
                     {
-                      "id": "st-a4759c9c7c",
+                      "id": "st-28948bc925",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a4759c9c7c",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-28948bc925",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9104/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9096/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -142,13 +215,13 @@
           ],
           "org_metadata": {
             "league": "Loser Round 1 - Loạt 14h Race 8",
-            "team_a": "Việt Anh",
-            "team_b": "Cường Tốc Độ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791786322303_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791786408709_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Bora Duru",
+            "team_b": "Dũng Lào Cai",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354762601_t%E1%BA%A3i%20xu%E1%BB%91ng%20(6).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "14:00:00",
             "date": "12/10",
-            "blv": "Bỉm Sữa",
+            "blv": "Lee Min Hoo",
             "is_live": true,
             "time_sort": 1791788400,
             "cate_type": "billiards"
@@ -157,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a4759c9c7c_629e3ddc_20261012.png?v=629e3ddc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-28948bc925_b78120a2_20261012.png?v=b78120a2",
             "width": 1600,
             "height": 1200
           }
@@ -309,8 +382,8 @@
           }
         },
         {
-          "id": "chtv-28948bc925",
-          "name": "Bora Duru vs Dũng Lào Cai | Lee Min Hoo",
+          "id": "chtv-a4759c9c7c",
+          "name": "Việt Anh vs Cường Tốc Độ | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +397,23 @@
           ],
           "sources": [
             {
-              "id": "src-28948bc925",
+              "id": "src-a4759c9c7c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-28948bc925",
-                  "name": "Bora Duru vs Dũng Lào Cai",
+                  "id": "ct-a4759c9c7c",
+                  "name": "Việt Anh vs Cường Tốc Độ",
                   "streams": [
                     {
-                      "id": "st-28948bc925",
+                      "id": "st-a4759c9c7c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-28948bc925",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-a4759c9c7c",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9096/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9104/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,13 +434,13 @@
           ],
           "org_metadata": {
             "league": "Loser Round 1 - Loạt 14h Race 8",
-            "team_a": "Bora Duru",
-            "team_b": "Dũng Lào Cai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778354762601_t%E1%BA%A3i%20xu%E1%BB%91ng%20(6).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Việt Anh",
+            "team_b": "Cường Tốc Độ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791786322303_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791786408709_Vi%E1%BB%87t%20Nam.png",
             "time": "14:00:00",
             "date": "12/10",
-            "blv": "Lee Min Hoo",
+            "blv": "Bỉm Sữa",
             "is_live": true,
             "time_sort": 1791788400,
             "cate_type": "billiards"
@@ -376,7 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-28948bc925_b78120a2_20261012.png?v=b78120a2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a4759c9c7c_629e3ddc_20261012.png?v=629e3ddc",
             "width": 1600,
             "height": 1200
           }
