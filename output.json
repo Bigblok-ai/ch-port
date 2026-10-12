@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-2a7477b2b1",
-          "name": "Bảo Ngô vs Thiện Lương | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2a7477b2b1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2a7477b2b1",
-                  "name": "Bảo Ngô vs Thiện Lương",
-                  "streams": [
-                    {
-                      "id": "st-2a7477b2b1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a7477b2b1",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9085/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Round 1 - Loạt 12h",
-            "team_a": "Bảo Ngô",
-            "team_b": "Thiện Lương",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791765992593_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "time": "12:00:00",
-            "date": "12/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1791781200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a7477b2b1_1bed5cce_20261012.png?v=1bed5cce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ecc37ba049",
           "name": "Xuân NA vs Duy Thái Lan | Bỉm Sữa",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ecc37ba049_7a32bc73_20261012.png?v=7a32bc73",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2a7477b2b1",
+          "name": "Bảo Ngô vs Thiện Lương | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a7477b2b1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2a7477b2b1",
+                  "name": "Bảo Ngô vs Thiện Lương",
+                  "streams": [
+                    {
+                      "id": "st-2a7477b2b1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a7477b2b1",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9085/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Loạt 12h",
+            "team_a": "Bảo Ngô",
+            "team_b": "Thiện Lương",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791765992593_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
+            "time": "12:00:00",
+            "date": "12/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791781200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a7477b2b1_1bed5cce_20261012.png?v=1bed5cce",
             "width": 1600,
             "height": 1200
           }
