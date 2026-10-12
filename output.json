@@ -11,11 +11,230 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-fab629ec41",
+          "name": "Paolo Gallito vs An Nhiệt | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fab629ec41",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fab629ec41",
+                  "name": "Paolo Gallito vs An Nhiệt",
+                  "streams": [
+                    {
+                      "id": "st-fab629ec41",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fab629ec41",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9124/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Qualification - Loạt 18h",
+            "team_a": "Paolo Gallito",
+            "team_b": "An Nhiệt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797493798_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797493542_Vi%E1%BB%87t%20Nam.png",
+            "time": "18:00:00",
+            "date": "12/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791802800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fab629ec41_0a5d58cf_20261012.png?v=0a5d58cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b93e97faba",
+          "name": "Thiện Lương vs Đãng BN | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b93e97faba",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b93e97faba",
+                  "name": "Thiện Lương vs Đãng BN",
+                  "streams": [
+                    {
+                      "id": "st-b93e97faba",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b93e97faba",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9129/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Qualification - Loạt 18h",
+            "team_a": "Thiện Lương",
+            "team_b": "Đãng BN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797729794_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797729521_Vi%E1%BB%87t%20Nam.png",
+            "time": "18:00:00",
+            "date": "12/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791802800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b93e97faba_11906d51_20261012.png?v=11906d51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ebe2cf9919",
+          "name": "Baseth Mocaibat vs Kiên Pháp | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebe2cf9919",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ebe2cf9919",
+                  "name": "Baseth Mocaibat vs Kiên Pháp",
+                  "streams": [
+                    {
+                      "id": "st-ebe2cf9919",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebe2cf9919",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9130/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Qualification - Loạt 18h",
+            "team_a": "Baseth Mocaibat",
+            "team_b": "Kiên Pháp",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797778119_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797777783_Vi%E1%BB%87t%20Nam.png",
+            "time": "18:00:00",
+            "date": "12/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791802800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebe2cf9919_7c47ce4d_20261012.png?v=7c47ce4d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-d2c0e3c349",
           "name": "Huy C300 vs Linh TQ | Kèn Kèn",
@@ -90,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-ebe2cf9919",
-          "name": "Baseth Mocaibat vs Kiên Pháp | Xinh Yeu",
+          "id": "chtv-33b1b20dad",
+          "name": "Tú Tây vs Bình Ốc | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-ebe2cf9919",
+              "id": "src-33b1b20dad",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ebe2cf9919",
-                  "name": "Baseth Mocaibat vs Kiên Pháp",
+                  "id": "ct-33b1b20dad",
+                  "name": "Tú Tây vs Bình Ốc",
                   "streams": [
                     {
-                      "id": "st-ebe2cf9919",
+                      "id": "st-33b1b20dad",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ebe2cf9919",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-33b1b20dad",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9130/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9127/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -142,13 +361,13 @@
           ],
           "org_metadata": {
             "league": "Winner Qualification - Loạt 18h",
-            "team_a": "Baseth Mocaibat",
-            "team_b": "Kiên Pháp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791797778119_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791797777783_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Tú Tây",
+            "team_b": "Bình Ốc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797637230_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797636951_Vi%E1%BB%87t%20Nam.png",
             "time": "18:00:00",
             "date": "12/10",
-            "blv": "Xinh Yeu",
+            "blv": "SÊ KÔÔ",
             "is_live": true,
             "time_sort": 1791802800,
             "cate_type": "billiards"
@@ -157,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebe2cf9919_7c47ce4d_20261012.png?v=7c47ce4d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-33b1b20dad_1fd200b1_20261012.png?v=1fd200b1",
             "width": 1600,
             "height": 1200
           }
