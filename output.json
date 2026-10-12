@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0b9dd1c5ce_70c23152_20261012.png?v=70c23152",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a94c7ec87d",
+          "name": "Trung Nấm vs Cao Văn Hào | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a94c7ec87d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a94c7ec87d",
+                  "name": "Trung Nấm vs Cao Văn Hào",
+                  "streams": [
+                    {
+                      "id": "st-a94c7ec87d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a94c7ec87d",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9120/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Qualification - Loạt 18h",
+            "team_a": "Trung Nấm",
+            "team_b": "Cao Văn Hào",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791797288886_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791797287943_Vi%E1%BB%87t%20Nam.png",
+            "time": "18:00:00",
+            "date": "12/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1791802800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a94c7ec87d_e74f579e_20261012.png?v=e74f579e",
             "width": 1600,
             "height": 1200
           }
