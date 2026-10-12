@@ -891,6 +891,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-95abf9074b",
+          "name": "Hiệp Bờm TH vs Johnny Huỳnh | 10:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-95abf9074b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-95abf9074b",
+                  "name": "Hiệp Bờm TH vs Johnny Huỳnh",
+                  "streams": [
+                    {
+                      "id": "st-95abf9074b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95abf9074b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9151/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 2",
+            "team_a": "Hiệp Bờm TH",
+            "team_b": "Johnny Huỳnh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791842179807_HI%E1%BB%86P%20B%E1%BB%9CM%20TH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
+            "time": "10:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791860400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-95abf9074b_3a64d502_20261013.png?v=3a64d502",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
