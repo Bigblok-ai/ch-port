@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-cb60c79153",
-          "name": "Roland Garcia vs +2Win Assis Ado Tadique | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb60c79153",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cb60c79153",
-                  "name": "Roland Garcia vs +2Win Assis Ado Tadique",
-                  "streams": [
-                    {
-                      "id": "st-cb60c79153",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb60c79153",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9133/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Roland Garcia",
-            "team_b": "+2Win Assis Ado Tadique",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791807942170_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791807941728_Philippines.png",
-            "time": "19:25:00",
-            "date": "12/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791807900,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cb60c79153_d7b183aa_20261012.png?v=d7b183aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d0e145ab17",
           "name": "JAYBEE SUCAL vs JOEL BAGO | GIÀNG A PHỌ",
