@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,225 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5905a9823e_cb373371_20261013.png?v=cb373371",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3d065b2866",
+          "name": "Phong Nam vs Trung Nấm | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d065b2866",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3d065b2866",
+                  "name": "Phong Nam vs Trung Nấm",
+                  "streams": [
+                    {
+                      "id": "st-3d065b2866",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d065b2866",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9190/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Qualification | Loạt 16h | Race 9",
+            "team_a": "Phong Nam",
+            "team_b": "Trung Nấm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791880815088_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791881020549_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "13/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791882000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3d065b2866_9118af6d_20261013.png?v=9118af6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0ceed2eabe",
+          "name": "Dũng Hàn vs Tùng Kều | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ceed2eabe",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0ceed2eabe",
+                  "name": "Dũng Hàn vs Tùng Kều",
+                  "streams": [
+                    {
+                      "id": "st-0ceed2eabe",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ceed2eabe",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9185/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Qualification | Loạt 16h | Race 9",
+            "team_a": "Dũng Hàn",
+            "team_b": "Tùng Kều",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791879497911_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791879497620_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "13/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1791882000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0ceed2eabe_3bf81570_20261013.png?v=3bf81570",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3cbe7959fa",
+          "name": "Tkon vs Xuân NA | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3cbe7959fa",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3cbe7959fa",
+                  "name": "Tkon vs Xuân NA",
+                  "streams": [
+                    {
+                      "id": "st-3cbe7959fa",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3cbe7959fa",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9181/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Qualification | Loạt 16h | Race 9",
+            "team_a": "Tkon",
+            "team_b": "Xuân NA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791878261837_Tkon.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791878258970_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "13/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1791882000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3cbe7959fa_f6b39aee_20261013.png?v=f6b39aee",
             "width": 1600,
             "height": 1200
           }
