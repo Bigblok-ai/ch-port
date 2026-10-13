@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-690e5fab49",
-          "name": "Carlo biado vs tata cdo 6/10 | Bỉm Sữa",
+          "id": "chtv-ea57159533",
+          "name": "Minh Tài vs Phương He | 10:30 14/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-690e5fab49",
+              "id": "src-ea57159533",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-690e5fab49",
-                  "name": "Carlo biado vs tata cdo 6/10",
+                  "id": "ct-ea57159533",
+                  "name": "Minh Tài vs Phương He",
                   "streams": [
                     {
-                      "id": "st-690e5fab49",
+                      "id": "st-ea57159533",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-690e5fab49",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-ea57159533",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9210/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9212/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Vua Bịp độ Phi",
-            "team_a": "Carlo biado",
-            "team_b": "tata cdo 6/10",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791910339307_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "23:49:00",
-            "date": "13/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1791910140,
+            "league": "Vòng 16 - Trận 226",
+            "team_a": "Minh Tài",
+            "team_b": "Phương He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791927606547_Ph%C6%B0%C6%A1ng%20He.png",
+            "time": "10:30:00",
+            "date": "14/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791948600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-690e5fab49_d870b5a7_20261014.png?v=d870b5a7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea57159533_6f45c8d1_20261014.png?v=6f45c8d1",
             "width": 1600,
             "height": 1200
           }
