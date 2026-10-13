@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-a6cbe7335b",
-          "name": "1 vs 2 | 19:00 13/10",
+          "id": "chtv-440adc95ee",
+          "name": "Trung Gia Lâm vs Đãng BN | 19:00 13/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-a6cbe7335b",
+              "id": "src-440adc95ee",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a6cbe7335b",
-                  "name": "1 vs 2",
+                  "id": "ct-440adc95ee",
+                  "name": "Trung Gia Lâm vs Đãng BN",
                   "streams": [
                     {
-                      "id": "st-a6cbe7335b",
+                      "id": "st-440adc95ee",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a6cbe7335b",
+                          "id": "lnk-440adc95ee",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9194/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9200/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,10 +69,10 @@
           ],
           "org_metadata": {
             "league": "Last 32 | Loạt 19h | Race 10",
-            "team_a": "1",
-            "team_b": "2",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791890421166_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791890420870_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Trung Gia Lâm",
+            "team_b": "Đãng BN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890540262_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890544056_Vi%E1%BB%87t%20Nam.png",
             "time": "19:00:00",
             "date": "13/10",
             "blv": "",
@@ -84,7 +84,153 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6cbe7335b_ed1df9c1_20261013.png?v=ed1df9c1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-440adc95ee_b2b5b4d7_20261013.png?v=b2b5b4d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f7fb16e64b",
+          "name": "Sean Mark Malayan vs Phong Nam | 19:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f7fb16e64b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f7fb16e64b",
+                  "name": "Sean Mark Malayan vs Phong Nam",
+                  "streams": [
+                    {
+                      "id": "st-f7fb16e64b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7fb16e64b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9197/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "Sean Mark Malayan",
+            "team_b": "Phong Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890839896_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890487920_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f7fb16e64b_003cb79d_20261013.png?v=003cb79d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-934771128d",
+          "name": "Hoàng PT vs Lợi Cafe | 19:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-934771128d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-934771128d",
+                  "name": "Hoàng PT vs Lợi Cafe",
+                  "streams": [
+                    {
+                      "id": "st-934771128d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-934771128d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9199/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "Hoàng PT",
+            "team_b": "Lợi Cafe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890526332_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890526009_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-934771128d_1b585515_20261013.png?v=1b585515",
             "width": 1600,
             "height": 1200
           }
@@ -158,6 +304,444 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-04875ad315_7ed3fe0e_20261013.png?v=7ed3fe0e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a6cbe7335b",
+          "name": "Huy C300 vs An Nhiệt | 19:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6cbe7335b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a6cbe7335b",
+                  "name": "Huy C300 vs An Nhiệt",
+                  "streams": [
+                    {
+                      "id": "st-a6cbe7335b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6cbe7335b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9194/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "Huy C300",
+            "team_b": "An Nhiệt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890421166_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890420870_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6cbe7335b_ed1df9c1_20261013.png?v=ed1df9c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9461337f4d",
+          "name": "JC Miraflor vs JP Marabi | 19:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9461337f4d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9461337f4d",
+                  "name": "JC Miraflor vs JP Marabi",
+                  "streams": [
+                    {
+                      "id": "st-9461337f4d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9461337f4d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9195/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "JC Miraflor",
+            "team_b": "JP Marabi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890915365_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890915026_Philippines.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9461337f4d_936f0ea8_20261013.png?v=936f0ea8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d59fb280c9",
+          "name": "Phùng Quý vs Hoàng Tễu | 19:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d59fb280c9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d59fb280c9",
+                  "name": "Phùng Quý vs Hoàng Tễu",
+                  "streams": [
+                    {
+                      "id": "st-d59fb280c9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d59fb280c9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9196/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "Phùng Quý",
+            "team_b": "Hoàng Tễu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890468521_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890468218_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d59fb280c9_1562bf1b_20261013.png?v=1562bf1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d4240def5d",
+          "name": "Thiện Lương vs Văn Huynh | 19:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4240def5d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d4240def5d",
+                  "name": "Thiện Lương vs Văn Huynh",
+                  "streams": [
+                    {
+                      "id": "st-d4240def5d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4240def5d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9198/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "Thiện Lương",
+            "team_b": "Văn Huynh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890506990_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890506644_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d4240def5d_22f9101e_20261013.png?v=22f9101e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-57ee5d9e2f",
+          "name": "Khánh Búa vs Khải Tony | 19:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-57ee5d9e2f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-57ee5d9e2f",
+                  "name": "Khánh Búa vs Khải Tony",
+                  "streams": [
+                    {
+                      "id": "st-57ee5d9e2f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-57ee5d9e2f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9201/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "Khánh Búa",
+            "team_b": "Khải Tony",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890567088_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890566784_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-57ee5d9e2f_6353c9aa_20261013.png?v=6353c9aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e067bbe25b",
+          "name": "Kiên Pháp vs Xuân NA | 19:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e067bbe25b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e067bbe25b",
+                  "name": "Kiên Pháp vs Xuân NA",
+                  "streams": [
+                    {
+                      "id": "st-e067bbe25b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e067bbe25b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9202/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "Kiên Pháp",
+            "team_b": "Xuân NA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890582766_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890582448_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e067bbe25b_0a3ca34d_20261013.png?v=0a3ca34d",
             "width": 1600,
             "height": 1200
           }
