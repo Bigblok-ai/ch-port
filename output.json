@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b893000fb9",
-          "name": "Bình Chuẩn vs Quyền Lê | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b893000fb9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b893000fb9",
-                  "name": "Bình Chuẩn vs Quyền Lê",
-                  "streams": [
-                    {
-                      "id": "st-b893000fb9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b893000fb9",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9175/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 3 - Race 8",
-            "team_a": "Bình Chuẩn",
-            "team_b": "Quyền Lê",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791872010407_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791872010072_Vi%E1%BB%87t%20Nam.png",
-            "time": "00:00:00",
-            "date": "13/10",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1791824400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b893000fb9_28d565fd_20261013.png?v=28d565fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-96299f5523",
           "name": "Dũng Baby vs Hoàng Tễu | Lee Min Hoo",
@@ -815,6 +742,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0ceed2eabe_3bf81570_20261013.png?v=3bf81570",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5350d6615d",
+          "name": "Quyền Lê vs Phương He | 16:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5350d6615d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5350d6615d",
+                  "name": "Quyền Lê vs Phương He",
+                  "streams": [
+                    {
+                      "id": "st-5350d6615d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5350d6615d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9186/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Qualification | Loạt 16h | Race 9",
+            "team_a": "Quyền Lê",
+            "team_b": "Phương He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791879856230_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "",
+            "time": "16:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791882000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5350d6615d_433ceb55_20261013.png?v=433ceb55",
             "width": 1600,
             "height": 1200
           }
