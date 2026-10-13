@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-8e5f3ccd88",
-          "name": "Hải Anh vs Dũng Hàn | 14:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8e5f3ccd88",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8e5f3ccd88",
-                  "name": "Hải Anh vs Dũng Hàn",
-                  "streams": [
-                    {
-                      "id": "st-8e5f3ccd88",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8e5f3ccd88",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9176/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 3",
-            "team_a": "Hải Anh",
-            "team_b": "Dũng Hàn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791872036358_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791872036007_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791874800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8e5f3ccd88_94c2e4f2_20261013.png?v=94c2e4f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-21016f4418",
           "name": "Trung Lạng vs Tkon | 14:00 13/10",
           "type": "single",
@@ -236,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-54639aa056",
-          "name": "Duy Thái Lan vs Bảo Châu | 14:00 13/10",
+          "id": "chtv-a193aed360",
+          "name": "Hải Anh vs Dũng Hàn | 14:00 13/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-54639aa056",
+              "id": "src-a193aed360",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-54639aa056",
-                  "name": "Duy Thái Lan vs Bảo Châu",
+                  "id": "ct-a193aed360",
+                  "name": "Hải Anh vs Dũng Hàn",
                   "streams": [
                     {
-                      "id": "st-54639aa056",
+                      "id": "st-a193aed360",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-54639aa056",
+                          "id": "lnk-a193aed360",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9168/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9178/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,10 +215,10 @@
           ],
           "org_metadata": {
             "league": "Loser Round 3",
-            "team_a": "Duy Thái Lan",
-            "team_b": "Bảo Châu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791871757423_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791871757125_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Hải Anh",
+            "team_b": "Dũng Hàn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791873094811_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791873094494_Vi%E1%BB%87t%20Nam.png",
             "time": "14:00:00",
             "date": "13/10",
             "blv": "",
@@ -303,80 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-54639aa056_f155bf2a_20261013.png?v=f155bf2a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4b9965b4ca",
-          "name": "Tùng Hip vs Phong Nam | 14:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b9965b4ca",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4b9965b4ca",
-                  "name": "Tùng Hip vs Phong Nam",
-                  "streams": [
-                    {
-                      "id": "st-4b9965b4ca",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b9965b4ca",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9171/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 3",
-            "team_a": "Tùng Hip",
-            "team_b": "Phong Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791871870087_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791871869720_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791874800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b9965b4ca_f8cc6353_20261013.png?v=f8cc6353",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a193aed360_3c104776_20261013.png?v=3c104776",
             "width": 1600,
             "height": 1200
           }
@@ -455,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-4b9965b4ca",
+          "name": "Tùng Hip vs Phong Nam | 14:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b9965b4ca",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4b9965b4ca",
+                  "name": "Tùng Hip vs Phong Nam",
+                  "streams": [
+                    {
+                      "id": "st-4b9965b4ca",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b9965b4ca",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9171/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 3",
+            "team_a": "Tùng Hip",
+            "team_b": "Phong Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791871870087_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791871869720_Vi%E1%BB%87t%20Nam.png",
+            "time": "14:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791874800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b9965b4ca_f8cc6353_20261013.png?v=f8cc6353",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b1539942cf",
           "name": "Alexander vs Tùng Bão Táp | 14:00 13/10",
           "type": "single",
@@ -523,79 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1539942cf_cfc02063_20261013.png?v=cfc02063",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e2e3f560b6",
-          "name": "Cường Tốc Độ vs Quách Vĩ Nam | 14:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2e3f560b6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e2e3f560b6",
-                  "name": "Cường Tốc Độ vs Quách Vĩ Nam",
-                  "streams": [
-                    {
-                      "id": "st-e2e3f560b6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2e3f560b6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9169/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 3",
-            "team_a": "Cường Tốc Độ",
-            "team_b": "Quách Vĩ Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791871807199_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791871806859_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791874800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e2e3f560b6_3e7271ca_20261013.png?v=3e7271ca",
             "width": 1600,
             "height": 1200
           }
@@ -742,6 +596,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d12286f8df_39655c64_20261013.png?v=39655c64",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e2e3f560b6",
+          "name": "Cường Tốc Độ vs Quách Vĩ Nam | 14:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2e3f560b6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e2e3f560b6",
+                  "name": "Cường Tốc Độ vs Quách Vĩ Nam",
+                  "streams": [
+                    {
+                      "id": "st-e2e3f560b6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2e3f560b6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9169/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 3",
+            "team_a": "Cường Tốc Độ",
+            "team_b": "Quách Vĩ Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791871807199_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791871806859_Vi%E1%BB%87t%20Nam.png",
+            "time": "14:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791874800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e2e3f560b6_3e7271ca_20261013.png?v=3e7271ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-54639aa056",
+          "name": "Duy Thái Lan vs Bảo Châu | 14:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-54639aa056",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-54639aa056",
+                  "name": "Duy Thái Lan vs Bảo Châu",
+                  "streams": [
+                    {
+                      "id": "st-54639aa056",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54639aa056",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9168/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 3",
+            "team_a": "Duy Thái Lan",
+            "team_b": "Bảo Châu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791871757423_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791871757125_Vi%E1%BB%87t%20Nam.png",
+            "time": "14:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791874800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-54639aa056_f155bf2a_20261013.png?v=f155bf2a",
             "width": 1600,
             "height": 1200
           }
