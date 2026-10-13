@@ -526,6 +526,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-37340e828f",
+          "name": "An Nhiệt vs Tiến Minh Rau Má | 12:30 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37340e828f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-37340e828f",
+                  "name": "An Nhiệt vs Tiến Minh Rau Má",
+                  "streams": [
+                    {
+                      "id": "st-37340e828f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37340e828f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9218/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭𝟲 - 𝟭𝟬:𝟯𝟬 𝗻𝗼̂̉ 𝗺𝗮́𝘆",
+            "team_a": "An Nhiệt",
+            "team_b": "Tiến Minh Rau Má",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791928293943_AN%20NHI%E1%BB%86T.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791928297124_Ti%E1%BA%BFn%20Minh%20TH.jpg",
+            "time": "12:30:00",
+            "date": "14/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791955800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-37340e828f_61425999_20261014.png?v=61425999",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
