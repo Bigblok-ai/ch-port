@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a363f628a7",
-          "name": "AJ Manas vs Alexis “Damang” Ferrer | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a363f628a7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a363f628a7",
-                  "name": "AJ Manas vs Alexis “Damang” Ferrer",
-                  "streams": [
-                    {
-                      "id": "st-a363f628a7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a363f628a7",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9208/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "3Cushion Sports Bar",
-            "team_a": "AJ Manas",
-            "team_b": "Alexis “Damang” Ferrer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791900890182_AJ%20MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "21:00:00",
-            "date": "13/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1791900000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a363f628a7_4768081f_20261014.png?v=4768081f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-690e5fab49",
           "name": "Carlo biado vs tata cdo 6/10 | Bỉm Sữa",
