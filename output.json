@@ -11,11 +11,157 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-66a0fbe8ab",
+          "name": "Huy TN vs Bảo Ngô | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66a0fbe8ab",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-66a0fbe8ab",
+                  "name": "Huy TN vs Bảo Ngô",
+                  "streams": [
+                    {
+                      "id": "st-66a0fbe8ab",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66a0fbe8ab",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9146/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
+            "team_a": "Huy TN",
+            "team_b": "Bảo Ngô",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765276677578_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "10:00:00",
+            "date": "13/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791860400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66a0fbe8ab_e5d777fd_20261013.png?v=e5d777fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-155a7ea768",
+          "name": "Alexander vs Dũng Quốc Oai | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-155a7ea768",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-155a7ea768",
+                  "name": "Alexander vs Dũng Quốc Oai",
+                  "streams": [
+                    {
+                      "id": "st-155a7ea768",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-155a7ea768",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9139/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV6  𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
+            "team_a": "Alexander",
+            "team_b": "Dũng Quốc Oai",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1772473656644_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791837794958_D%C5%A8NG%20QU%E1%BB%90C%20OAI.jpg",
+            "time": "10:00:00",
+            "date": "13/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791860400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-155a7ea768_b8713dbb_20261013.png?v=b8713dbb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-0ebcd16a13",
           "name": "Phong Nam vs Văn Long | SÊ KÔÔ",
@@ -158,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b5c64c8ee_a3cc1029_20261013.png?v=a3cc1029",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c6ebc05e2f",
+          "name": "Cu Thóc vs Huế Trân | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6ebc05e2f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c6ebc05e2f",
+                  "name": "Cu Thóc vs Huế Trân",
+                  "streams": [
+                    {
+                      "id": "st-c6ebc05e2f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c6ebc05e2f",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9150/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
+            "team_a": "Cu Thóc",
+            "team_b": "Huế Trân",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791841932096_Cu%20Th%C3%B3c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791841923849_Hu%E1%BA%BF%20Tr%C3%A2n.jpg",
+            "time": "10:00:00",
+            "date": "13/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791860400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c6ebc05e2f_a5dbc85a_20261013.png?v=a5dbc85a",
             "width": 1600,
             "height": 1200
           }
