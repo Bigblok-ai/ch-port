@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f1375dcbe5_1f8f4eec_20261013.png?v=1f8f4eec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e067bbe25b",
-          "name": "Kiên Pháp vs Xuân NA | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e067bbe25b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e067bbe25b",
-                  "name": "Kiên Pháp vs Xuân NA",
-                  "streams": [
-                    {
-                      "id": "st-e067bbe25b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e067bbe25b",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9202/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last 32 | Loạt 19h | Race 10",
-            "team_a": "Kiên Pháp",
-            "team_b": "Xuân NA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791890582766_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791890582448_Vi%E1%BB%87t%20Nam.png",
-            "time": "19:00:00",
-            "date": "13/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791892800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e067bbe25b_0a3ca34d_20261013.png?v=0a3ca34d",
             "width": 1600,
             "height": 1200
           }
