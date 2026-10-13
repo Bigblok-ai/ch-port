@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-00bb58f51e",
+          "name": "Millares vs Duy Đinh | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-00bb58f51e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-00bb58f51e",
+                  "name": "Millares vs Duy Đinh",
+                  "streams": [
+                    {
+                      "id": "st-00bb58f51e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00bb58f51e",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9152/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Millares",
+            "team_b": "Duy Đinh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791855929075_Duy%20%C4%90inh.jpg",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-00bb58f51e_36c68093_20261013.png?v=36c68093",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-637a45d8bf",
           "name": "Jesson Pada Marabi vs Huy Black | SÊ KÔÔ",
@@ -90,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-4bbb5290ca",
-          "name": "Hải Anh vs Anh Khạc | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4bbb5290ca",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4bbb5290ca",
-                  "name": "Hải Anh vs Anh Khạc",
-                  "streams": [
-                    {
-                      "id": "st-4bbb5290ca",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4bbb5290ca",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9163/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Hải Anh",
-            "team_b": "Anh Khạc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791857876615_H%C3%80%20TH%C3%80NH.png",
-            "time": "12:00:00",
-            "date": "13/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791867600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bbb5290ca_bd617637_20261013.png?v=bd617637",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-616483e5c6",
           "name": "Tkon uy tín vs Trường Xe | Lee Min Hoo",
           "type": "single",
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-616483e5c6_bb6bc433_20261013.png?v=bb6bc433",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4bbb5290ca",
+          "name": "Hải Anh vs Anh Khạc | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4bbb5290ca",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4bbb5290ca",
+                  "name": "Hải Anh vs Anh Khạc",
+                  "streams": [
+                    {
+                      "id": "st-4bbb5290ca",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4bbb5290ca",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9163/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Hải Anh",
+            "team_b": "Anh Khạc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791857876615_H%C3%80%20TH%C3%80NH.png",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bbb5290ca_bd617637_20261013.png?v=bd617637",
             "width": 1600,
             "height": 1200
           }
