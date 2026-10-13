@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-616483e5c6",
-          "name": "Tkon uy tín vs Trường Xe | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-616483e5c6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-616483e5c6",
-                  "name": "Tkon uy tín vs Trường Xe",
-                  "streams": [
-                    {
-                      "id": "st-616483e5c6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-616483e5c6",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9155/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Tkon uy tín",
-            "team_b": "Trường Xe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "12:00:00",
-            "date": "13/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791867600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-616483e5c6_bb6bc433_20261013.png?v=bb6bc433",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-00bb58f51e",
           "name": "Millares vs Duy Đinh | Kèn Kèn",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-00bb58f51e_36c68093_20261013.png?v=36c68093",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-616483e5c6",
+          "name": "Tkon uy tín vs Trường Xe | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-616483e5c6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-616483e5c6",
+                  "name": "Tkon uy tín vs Trường Xe",
+                  "streams": [
+                    {
+                      "id": "st-616483e5c6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-616483e5c6",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9155/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Tkon uy tín",
+            "team_b": "Trường Xe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-616483e5c6_bb6bc433_20261013.png?v=bb6bc433",
             "width": 1600,
             "height": 1200
           }
