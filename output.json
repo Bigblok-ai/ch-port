@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-7b18b8c55b",
-          "name": "Cường Tốc Độ vs Đình Hữu | 10:00 13/10",
+          "id": "chtv-0ebcd16a13",
+          "name": "Phong Nam vs Văn Long | 10:00 13/10 | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-7b18b8c55b",
+              "id": "src-0ebcd16a13",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7b18b8c55b",
-                  "name": "Cường Tốc Độ vs Đình Hữu",
+                  "id": "ct-0ebcd16a13",
+                  "name": "Phong Nam vs Văn Long",
                   "streams": [
                     {
-                      "id": "st-7b18b8c55b",
+                      "id": "st-0ebcd16a13",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7b18b8c55b",
-                          "name": "Stream",
+                          "id": "lnk-0ebcd16a13",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9143/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9148/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
-            "team_a": "Cường Tốc Độ",
-            "team_b": "Đình Hữu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "league": "TV1 |  𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
+            "team_a": "Phong Nam",
+            "team_b": "Văn Long",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791839891098_Phong%20Nam.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263318349_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "10:00:00",
             "date": "13/10",
-            "blv": "",
+            "blv": "SÊ KÔÔ",
             "is_live": false,
             "time_sort": 1791860400,
             "cate_type": "billiards"
@@ -84,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b18b8c55b_372eb859_20261013.png?v=372eb859",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0ebcd16a13_d8a49f6a_20261013.png?v=d8a49f6a",
             "width": 1600,
             "height": 1200
           }
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66a0fbe8ab_e5d777fd_20261013.png?v=e5d777fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7b18b8c55b",
+          "name": "Cường Tốc Độ vs Đình Hữu | 10:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b18b8c55b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7b18b8c55b",
+                  "name": "Cường Tốc Độ vs Đình Hữu",
+                  "streams": [
+                    {
+                      "id": "st-7b18b8c55b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7b18b8c55b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9143/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
+            "team_a": "Cường Tốc Độ",
+            "team_b": "Đình Hữu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "10:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791860400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b18b8c55b_372eb859_20261013.png?v=372eb859",
             "width": 1600,
             "height": 1200
           }
@@ -669,79 +742,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-97c17def75_4a211dcd_20261013.png?v=4a211dcd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0ebcd16a13",
-          "name": "Phong Nam vs Văn Long | 10:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ebcd16a13",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0ebcd16a13",
-                  "name": "Phong Nam vs Văn Long",
-                  "streams": [
-                    {
-                      "id": "st-0ebcd16a13",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ebcd16a13",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9148/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
-            "team_a": "Phong Nam",
-            "team_b": "Văn Long",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791839891098_Phong%20Nam.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765263318349_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791860400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0ebcd16a13_d8a49f6a_20261013.png?v=d8a49f6a",
             "width": 1600,
             "height": 1200
           }
