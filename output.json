@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,152 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66a0fbe8ab_e5d777fd_20261013.png?v=e5d777fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c6ebc05e2f",
-          "name": "Cu Thóc vs Huế Trân | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6ebc05e2f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c6ebc05e2f",
-                  "name": "Cu Thóc vs Huế Trân",
-                  "streams": [
-                    {
-                      "id": "st-c6ebc05e2f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6ebc05e2f",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9150/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
-            "team_a": "Cu Thóc",
-            "team_b": "Huế Trân",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791841932096_Cu%20Th%C3%B3c.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791841923849_Hu%E1%BA%BF%20Tr%C3%A2n.jpg",
-            "time": "10:00:00",
-            "date": "13/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1791860400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c6ebc05e2f_a5dbc85a_20261013.png?v=a5dbc85a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7b5c64c8ee",
-          "name": "Thành Nam vs Duy Thái Lan | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b5c64c8ee",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7b5c64c8ee",
-                  "name": "Thành Nam vs Duy Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-7b5c64c8ee",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b5c64c8ee",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9141/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
-            "team_a": "Thành Nam",
-            "team_b": "Duy Thái Lan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791838219790_Kh%E1%BA%A7y%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765275867305_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:00:00",
-            "date": "13/10",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1791860400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b5c64c8ee_a3cc1029_20261013.png?v=a3cc1029",
             "width": 1600,
             "height": 1200
           }
@@ -382,38 +236,38 @@
           }
         },
         {
-          "id": "chtv-155a7ea768",
-          "name": "Alexander vs Dũng Quốc Oai | Đại Kê",
+          "id": "chtv-0195a367be",
+          "name": "Trường Chillbeer vs Việt BG | 12:00 13/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-155a7ea768",
+              "id": "src-0195a367be",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-155a7ea768",
-                  "name": "Alexander vs Dũng Quốc Oai",
+                  "id": "ct-0195a367be",
+                  "name": "Trường Chillbeer vs Việt BG",
                   "streams": [
                     {
-                      "id": "st-155a7ea768",
+                      "id": "st-0195a367be",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-155a7ea768",
-                          "name": "Đại Kê",
+                          "id": "lnk-0195a367be",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9139/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9158/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -433,23 +287,169 @@
             }
           ],
           "org_metadata": {
-            "league": "TV6  𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
-            "team_a": "Alexander",
-            "team_b": "Dũng Quốc Oai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1772473656644_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791837794958_D%C5%A8NG%20QU%E1%BB%90C%20OAI.jpg",
-            "time": "10:00:00",
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Trường Chillbeer",
+            "team_b": "Việt BG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
             "date": "13/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791860400,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791867600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-155a7ea768_b8713dbb_20261013.png?v=b8713dbb",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0195a367be_88c2dbe7_20261013.png?v=88c2dbe7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-16d953ebbc",
+          "name": "Văn Huynh vs Hoàng VT | 12:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16d953ebbc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-16d953ebbc",
+                  "name": "Văn Huynh vs Hoàng VT",
+                  "streams": [
+                    {
+                      "id": "st-16d953ebbc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-16d953ebbc",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9162/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Văn Huynh",
+            "team_b": "Hoàng VT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791857830355_V%C4%82N%20HUYNH.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-16d953ebbc_579d0aa6_20261013.png?v=579d0aa6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-58c54e7923",
+          "name": "Quyền Lê vs Thắng Yên Lưu | 12:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58c54e7923",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-58c54e7923",
+                  "name": "Quyền Lê vs Thắng Yên Lưu",
+                  "streams": [
+                    {
+                      "id": "st-58c54e7923",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58c54e7923",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9161/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Quyền Lê",
+            "team_b": "Thắng Yên Lưu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58c54e7923_88c2dbe7_20261013.png?v=88c2dbe7",
             "width": 1600,
             "height": 1200
           }
@@ -747,79 +747,6 @@
           }
         },
         {
-          "id": "chtv-f61cf882b6",
-          "name": "Thắng Láng vs Dũng Baby | 12:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f61cf882b6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f61cf882b6",
-                  "name": "Thắng Láng vs Dũng Baby",
-                  "streams": [
-                    {
-                      "id": "st-f61cf882b6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f61cf882b6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9156/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Thắng Láng",
-            "team_b": "Dũng Baby",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "12:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791867600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f61cf882b6_8c9820c2_20261013.png?v=8c9820c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-781613cace",
           "name": "Hoàng Tễu vs Tuấn Kiệt | 12:00 13/10",
           "type": "single",
@@ -893,8 +820,8 @@
           }
         },
         {
-          "id": "chtv-616483e5c6",
-          "name": "Tkon uy tín vs Trường Xe | 12:00 13/10",
+          "id": "chtv-42cd83ef82",
+          "name": "Hoàng Xao vs Bình Chuẩn | 12:00 13/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -908,23 +835,23 @@
           ],
           "sources": [
             {
-              "id": "src-616483e5c6",
+              "id": "src-42cd83ef82",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-616483e5c6",
-                  "name": "Tkon uy tín vs Trường Xe",
+                  "id": "ct-42cd83ef82",
+                  "name": "Hoàng Xao vs Bình Chuẩn",
                   "streams": [
                     {
-                      "id": "st-616483e5c6",
+                      "id": "st-42cd83ef82",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-616483e5c6",
+                          "id": "lnk-42cd83ef82",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9155/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9160/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -945,9 +872,82 @@
           ],
           "org_metadata": {
             "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Tkon uy tín",
-            "team_b": "Trường Xe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "team_a": "Hoàng Xao",
+            "team_b": "Bình Chuẩn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226681415_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791857477767_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-42cd83ef82_f9409f1c_20261013.png?v=f9409f1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-94d5092efe",
+          "name": "Hồ Sở Phát vs Thắng Yuki | 12:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-94d5092efe",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-94d5092efe",
+                  "name": "Hồ Sở Phát vs Thắng Yuki",
+                  "streams": [
+                    {
+                      "id": "st-94d5092efe",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94d5092efe",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9159/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Hồ Sở Phát",
+            "team_b": "Thắng Yuki",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791857456543_H%E1%BB%93%20S%E1%BB%9F%20Ph%C3%A1t.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00:00",
             "date": "13/10",
@@ -960,80 +960,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-616483e5c6_bb6bc433_20261013.png?v=bb6bc433",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0d7b7c0c02",
-          "name": "Trường Sơn Pood vs Trung Lạng | 12:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d7b7c0c02",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0d7b7c0c02",
-                  "name": "Trường Sơn Pood vs Trung Lạng",
-                  "streams": [
-                    {
-                      "id": "st-0d7b7c0c02",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d7b7c0c02",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9154/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Trường Sơn Pood",
-            "team_b": "Trung Lạng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226385179_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791856937036_Trung%20L%E1%BA%A1ng.jpg",
-            "time": "12:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791867600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0d7b7c0c02_2241f0bd_20261013.png?v=2241f0bd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-94d5092efe_627949ad_20261013.png?v=627949ad",
             "width": 1600,
             "height": 1200
           }
@@ -1185,8 +1112,8 @@
           }
         },
         {
-          "id": "chtv-42cd83ef82",
-          "name": "Hoàng Xao vs Bình Chuẩn | 12:00 13/10",
+          "id": "chtv-f61cf882b6",
+          "name": "Thắng Láng vs Dũng Baby | 12:00 13/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1200,23 +1127,23 @@
           ],
           "sources": [
             {
-              "id": "src-42cd83ef82",
+              "id": "src-f61cf882b6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-42cd83ef82",
-                  "name": "Hoàng Xao vs Bình Chuẩn",
+                  "id": "ct-f61cf882b6",
+                  "name": "Thắng Láng vs Dũng Baby",
                   "streams": [
                     {
-                      "id": "st-42cd83ef82",
+                      "id": "st-f61cf882b6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-42cd83ef82",
+                          "id": "lnk-f61cf882b6",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9160/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9156/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1237,82 +1164,9 @@
           ],
           "org_metadata": {
             "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Hoàng Xao",
-            "team_b": "Bình Chuẩn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226681415_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791857477767_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
-            "time": "12:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791867600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-42cd83ef82_f9409f1c_20261013.png?v=f9409f1c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0195a367be",
-          "name": "Trường Chillbeer vs Việt BG | 12:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0195a367be",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0195a367be",
-                  "name": "Trường Chillbeer vs Việt BG",
-                  "streams": [
-                    {
-                      "id": "st-0195a367be",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0195a367be",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9158/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Trường Chillbeer",
-            "team_b": "Việt BG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Thắng Láng",
+            "team_b": "Dũng Baby",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00:00",
             "date": "13/10",
@@ -1325,14 +1179,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0195a367be_88c2dbe7_20261013.png?v=88c2dbe7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f61cf882b6_8c9820c2_20261013.png?v=8c9820c2",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-94d5092efe",
-          "name": "Hồ Sở Phát vs Thắng Yuki | 12:00 13/10",
+          "id": "chtv-0d7b7c0c02",
+          "name": "Trường Sơn Pood vs Trung Lạng | 12:00 13/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1346,23 +1200,23 @@
           ],
           "sources": [
             {
-              "id": "src-94d5092efe",
+              "id": "src-0d7b7c0c02",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-94d5092efe",
-                  "name": "Hồ Sở Phát vs Thắng Yuki",
+                  "id": "ct-0d7b7c0c02",
+                  "name": "Trường Sơn Pood vs Trung Lạng",
                   "streams": [
                     {
-                      "id": "st-94d5092efe",
+                      "id": "st-0d7b7c0c02",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-94d5092efe",
+                          "id": "lnk-0d7b7c0c02",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9159/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9154/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1383,10 +1237,10 @@
           ],
           "org_metadata": {
             "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Hồ Sở Phát",
-            "team_b": "Thắng Yuki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791857456543_H%E1%BB%93%20S%E1%BB%9F%20Ph%C3%A1t.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Trường Sơn Pood",
+            "team_b": "Trung Lạng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226385179_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791856937036_Trung%20L%E1%BA%A1ng.jpg",
             "time": "12:00:00",
             "date": "13/10",
             "blv": "",
@@ -1398,14 +1252,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-94d5092efe_627949ad_20261013.png?v=627949ad",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0d7b7c0c02_2241f0bd_20261013.png?v=2241f0bd",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-16d953ebbc",
-          "name": "Văn Huynh vs Hoàng VT | 12:00 13/10",
+          "id": "chtv-616483e5c6",
+          "name": "Tkon uy tín vs Trường Xe | 12:00 13/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1419,23 +1273,23 @@
           ],
           "sources": [
             {
-              "id": "src-16d953ebbc",
+              "id": "src-616483e5c6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-16d953ebbc",
-                  "name": "Văn Huynh vs Hoàng VT",
+                  "id": "ct-616483e5c6",
+                  "name": "Tkon uy tín vs Trường Xe",
                   "streams": [
                     {
-                      "id": "st-16d953ebbc",
+                      "id": "st-616483e5c6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-16d953ebbc",
+                          "id": "lnk-616483e5c6",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9162/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9155/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1456,9 +1310,9 @@
           ],
           "org_metadata": {
             "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Văn Huynh",
-            "team_b": "Hoàng VT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791857830355_V%C4%82N%20HUYNH.jpg",
+            "team_a": "Tkon uy tín",
+            "team_b": "Trường Xe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00:00",
             "date": "13/10",
@@ -1471,80 +1325,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-16d953ebbc_579d0aa6_20261013.png?v=579d0aa6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-58c54e7923",
-          "name": "Quyền Lê vs Thắng Yên Lưu | 12:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58c54e7923",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-58c54e7923",
-                  "name": "Quyền Lê vs Thắng Yên Lưu",
-                  "streams": [
-                    {
-                      "id": "st-58c54e7923",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58c54e7923",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9161/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
-            "team_a": "Quyền Lê",
-            "team_b": "Thắng Yên Lưu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "12:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791867600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58c54e7923_88c2dbe7_20261013.png?v=88c2dbe7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-616483e5c6_bb6bc433_20261013.png?v=bb6bc433",
             "width": 1600,
             "height": 1200
           }
