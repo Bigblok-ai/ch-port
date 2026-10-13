@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-d4240def5d",
-          "name": "Thiện Lương vs Văn Huynh | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4240def5d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d4240def5d",
-                  "name": "Thiện Lương vs Văn Huynh",
-                  "streams": [
-                    {
-                      "id": "st-d4240def5d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4240def5d",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9198/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last 32 | Loạt 19h | Race 10",
-            "team_a": "Thiện Lương",
-            "team_b": "Văn Huynh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791890506990_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791890506644_Vi%E1%BB%87t%20Nam.png",
-            "time": "19:00:00",
-            "date": "13/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1791892800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d4240def5d_22f9101e_20261013.png?v=22f9101e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a6cbe7335b",
           "name": "Huy C300 vs An Nhiệt | Thập Cẩm",
@@ -163,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-d4240def5d",
+          "name": "Thiện Lương vs Văn Huynh | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4240def5d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d4240def5d",
+                  "name": "Thiện Lương vs Văn Huynh",
+                  "streams": [
+                    {
+                      "id": "st-d4240def5d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4240def5d",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9198/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 32 | Loạt 19h | Race 10",
+            "team_a": "Thiện Lương",
+            "team_b": "Văn Huynh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791890506990_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791890506644_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "13/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1791892800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d4240def5d_22f9101e_20261013.png?v=22f9101e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-f1375dcbe5",
           "name": "Cao Văn Hào vs Nam Phạm | SÊ KÔÔ",
           "type": "single",
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f1375dcbe5_1f8f4eec_20261013.png?v=1f8f4eec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-04875ad315",
-          "name": "Bình Ốc vs Phương He | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-04875ad315",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-04875ad315",
-                  "name": "Bình Ốc vs Phương He",
-                  "streams": [
-                    {
-                      "id": "st-04875ad315",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-04875ad315",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9203/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last 32 | Loạt 19h | Race 10",
-            "team_a": "Bình Ốc",
-            "team_b": "Phương He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791890607296_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791890606918_Vi%E1%BB%87t%20Nam.png",
-            "time": "19:00:00",
-            "date": "13/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791892800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-04875ad315_7ed3fe0e_20261013.png?v=7ed3fe0e",
             "width": 1600,
             "height": 1200
           }
