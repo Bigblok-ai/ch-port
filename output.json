@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-5350d6615d",
+          "name": "Quyền Lê vs Phương He | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5350d6615d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5350d6615d",
+                  "name": "Quyền Lê vs Phương He",
+                  "streams": [
+                    {
+                      "id": "st-5350d6615d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5350d6615d",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9186/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Qualification | Loạt 16h | Race 9",
+            "team_a": "Quyền Lê",
+            "team_b": "Phương He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791879856230_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791880351622_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "13/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1791882000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5350d6615d_56f89c2a_20261013.png?v=56f89c2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3cbe7959fa",
           "name": "Tkon vs Xuân NA | GIÀNG A PHỌ",
           "type": "single",
@@ -450,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3d065b2866_9118af6d_20261013.png?v=9118af6d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5350d6615d",
-          "name": "Quyền Lê vs Phương He | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5350d6615d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5350d6615d",
-                  "name": "Quyền Lê vs Phương He",
-                  "streams": [
-                    {
-                      "id": "st-5350d6615d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5350d6615d",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9186/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Qualification | Loạt 16h | Race 9",
-            "team_a": "Quyền Lê",
-            "team_b": "Phương He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791879856230_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791880351622_Vi%E1%BB%87t%20Nam.png",
-            "time": "16:00:00",
-            "date": "13/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791882000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5350d6615d_56f89c2a_20261013.png?v=56f89c2a",
             "width": 1600,
             "height": 1200
           }
