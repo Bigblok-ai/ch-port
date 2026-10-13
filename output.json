@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-74e4f24ec5",
+          "name": "Tùng Bão Táp vs Huy Đông | 10:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74e4f24ec5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-74e4f24ec5",
+                  "name": "Tùng Bão Táp vs Huy Đông",
+                  "streams": [
+                    {
+                      "id": "st-74e4f24ec5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-74e4f24ec5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9140/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
+            "team_a": "Tùng Bão Táp",
+            "team_b": "Huy Đông",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791838057373_T%C3%99NG%20B%C3%83O%20T%C3%81P.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "10:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791860400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-74e4f24ec5_593ba56a_20261013.png?v=593ba56a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-0ef4d7e3e5",
           "name": "Quách Vĩ Nam vs Anh Minh | 10:00 13/10",
           "type": "single",
@@ -523,79 +596,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b5c64c8ee_a3cc1029_20261013.png?v=a3cc1029",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-74e4f24ec5",
-          "name": "Tùng Bão Táp vs Huy Đông | 10:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74e4f24ec5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-74e4f24ec5",
-                  "name": "Tùng Bão Táp vs Huy Đông",
-                  "streams": [
-                    {
-                      "id": "st-74e4f24ec5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74e4f24ec5",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9140/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗿𝗮𝗰𝗲 𝟴",
-            "team_a": "Tùng Bão Táp",
-            "team_b": "Huy Đông",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791838057373_T%C3%99NG%20B%C3%83O%20T%C3%81P.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765276677578_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:00:00",
-            "date": "13/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791860400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-74e4f24ec5_593ba56a_20261013.png?v=593ba56a",
             "width": 1600,
             "height": 1200
           }
@@ -1107,6 +1107,225 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bbb5290ca_bd617637_20261013.png?v=bd617637",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-723e050628",
+          "name": "Dũng Hàn vs Ngọc Xăm | 12:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-723e050628",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-723e050628",
+                  "name": "Dũng Hàn vs Ngọc Xăm",
+                  "streams": [
+                    {
+                      "id": "st-723e050628",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-723e050628",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9164/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Dũng Hàn",
+            "team_b": "Ngọc Xăm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791857961615_D%C5%A9ng%20h%C3%A0n.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791857956135_NG%E1%BB%8CC%20X%C4%82M.png",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-723e050628_451e3961_20261013.png?v=451e3961",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-637a45d8bf",
+          "name": "Jesson Pada Marabi vs Huy Black | 12:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-637a45d8bf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-637a45d8bf",
+                  "name": "Jesson Pada Marabi vs Huy Black",
+                  "streams": [
+                    {
+                      "id": "st-637a45d8bf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-637a45d8bf",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9165/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Jesson Pada Marabi",
+            "team_b": "Huy Black",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765418737800_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-637a45d8bf_191e686e_20261013.png?v=191e686e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2840b8291d",
+          "name": "Đỗ Anh vs Văn Bản | 12:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2840b8291d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2840b8291d",
+                  "name": "Đỗ Anh vs Văn Bản",
+                  "streams": [
+                    {
+                      "id": "st-2840b8291d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2840b8291d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9166/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗼𝘀𝗲𝗿 𝗥𝗼𝘂𝗻𝗱 𝟮 𝗹𝗼𝗮̣𝘁 𝟭𝟮𝗵 | race 8",
+            "team_a": "Đỗ Anh",
+            "team_b": "Văn Bản",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765419036972_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765418775237_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "13/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791867600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2840b8291d_4a074492_20261013.png?v=4a074492",
             "width": 1600,
             "height": 1200
           }
