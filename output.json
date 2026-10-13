@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-dcfa96da3a",
-          "name": "Bảo Ngô vs Linh TQ | Lee Min Hoo",
+          "id": "chtv-a02d966308",
+          "name": "Tùng Bão Táp vs An Nhiệt | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-dcfa96da3a",
+              "id": "src-a02d966308",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-dcfa96da3a",
-                  "name": "Bảo Ngô vs Linh TQ",
+                  "id": "ct-a02d966308",
+                  "name": "Tùng Bão Táp vs An Nhiệt",
                   "streams": [
                     {
-                      "id": "st-dcfa96da3a",
+                      "id": "st-a02d966308",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-dcfa96da3a",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-a02d966308",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9189/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9184/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -142,13 +142,13 @@
           ],
           "org_metadata": {
             "league": "Loser Qualification | Loạt 16h | Race 9",
-            "team_a": "Bảo Ngô",
-            "team_b": "Linh TQ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791880792585_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791880791940_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Tùng Bão Táp",
+            "team_b": "An Nhiệt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791878868453_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791878868047_Vi%E1%BB%87t%20Nam.png",
             "time": "16:00:00",
             "date": "13/10",
-            "blv": "Lee Min Hoo",
+            "blv": "Xinh Yeu",
             "is_live": true,
             "time_sort": 1791882000,
             "cate_type": "billiards"
@@ -157,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dcfa96da3a_0d4d5658_20261013.png?v=0d4d5658",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a02d966308_89bc6eb5_20261013.png?v=89bc6eb5",
             "width": 1600,
             "height": 1200
           }
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0ceed2eabe_3bf81570_20261013.png?v=3bf81570",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dcfa96da3a",
+          "name": "Bảo Ngô vs Linh TQ | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dcfa96da3a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dcfa96da3a",
+                  "name": "Bảo Ngô vs Linh TQ",
+                  "streams": [
+                    {
+                      "id": "st-dcfa96da3a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dcfa96da3a",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9189/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Qualification | Loạt 16h | Race 9",
+            "team_a": "Bảo Ngô",
+            "team_b": "Linh TQ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791880792585_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791880791940_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "13/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791882000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dcfa96da3a_0d4d5658_20261013.png?v=0d4d5658",
             "width": 1600,
             "height": 1200
           }
