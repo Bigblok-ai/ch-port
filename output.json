@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-2e1eb84859",
+          "name": "Minh Tài vs Đãng BN | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e1eb84859",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2e1eb84859",
+                  "name": "Minh Tài vs Đãng BN",
+                  "streams": [
+                    {
+                      "id": "st-2e1eb84859",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e1eb84859",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9224/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT 16h | Race11",
+            "team_a": "Minh Tài",
+            "team_b": "Đãng BN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791961345841_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791961345759_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "14/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791968400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2e1eb84859_7954e03c_20261014.png?v=7954e03c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-ea2586ac7a",
           "name": "Thiện Lương vs An Nhiệt | Đại Kê",
