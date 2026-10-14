@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-46c842619b",
-          "name": "Đãng BN vs Hoàng PT | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46c842619b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-46c842619b",
-                  "name": "Đãng BN vs Hoàng PT",
-                  "streams": [
-                    {
-                      "id": "st-46c842619b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46c842619b",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9223/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT  13h | Race10",
-            "team_a": "Đãng BN",
-            "team_b": "Hoàng PT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791959447362_Screenshot%202026-10-14%20133029.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791959447543_Ho%C3%A0ng%20PT.png",
-            "time": "13:00:00",
-            "date": "14/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1791957600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-46c842619b_fd6212c1_20261014.png?v=fd6212c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-2a714a1b32",
           "name": "Minh Tài vs Xuân NA | Xinh Yeu",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a714a1b32_f1ef30d6_20261014.png?v=f1ef30d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-46c842619b",
+          "name": "Đãng BN vs Hoàng PT | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46c842619b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-46c842619b",
+                  "name": "Đãng BN vs Hoàng PT",
+                  "streams": [
+                    {
+                      "id": "st-46c842619b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-46c842619b",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9223/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT  13h | Race10",
+            "team_a": "Đãng BN",
+            "team_b": "Hoàng PT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791959447362_Screenshot%202026-10-14%20133029.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791959447543_Ho%C3%A0ng%20PT.png",
+            "time": "13:00:00",
+            "date": "14/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1791957600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-46c842619b_fd6212c1_20261014.png?v=fd6212c1",
             "width": 1600,
             "height": 1200
           }
