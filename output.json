@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-8d8023f938",
-          "name": "Thiện Lương vs Đãng BN | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d8023f938",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8d8023f938",
-                  "name": "Thiện Lương vs Đãng BN",
-                  "streams": [
-                    {
-                      "id": "st-8d8023f938",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d8023f938",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9228/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sống Chết Có Số | CHUNG KẾT TỔNG",
-            "team_a": "Thiện Lương",
-            "team_b": "Đãng BN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791979162176_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791981795108_%C4%90%C3%83NG%20BN.png",
-            "time": "20:00:00",
-            "date": "14/10",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1791982800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8d8023f938_b73f3ab4_20261014.png?v=b73f3ab4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-e167f9b4f4",
           "name": "KYLE AMOROTO vs ALBERT JANUARTA | Tào A Man",
