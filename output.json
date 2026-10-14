@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-ca903a0b53",
-          "name": "Xuân NA vs Khải Tony | Xinh Yeu",
+          "id": "chtv-e2ea1fc4c5",
+          "name": "Thiện Lương vs Nam Phạm | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-ca903a0b53",
+              "id": "src-e2ea1fc4c5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ca903a0b53",
-                  "name": "Xuân NA vs Khải Tony",
+                  "id": "ct-e2ea1fc4c5",
+                  "name": "Thiện Lương vs Nam Phạm",
                   "streams": [
                     {
-                      "id": "st-ca903a0b53",
+                      "id": "st-e2ea1fc4c5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ca903a0b53",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-e2ea1fc4c5",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9213/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9216/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "𝗩𝗼̀𝗻𝗴 𝟭𝟲 - 𝟭𝟬:𝟯𝟬 𝗻𝗼̂̉ 𝗺𝗮́𝘆",
-            "team_a": "Xuân NA",
-            "team_b": "Khải Tony",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791927988882_XU%C3%82N%20NGH%E1%BB%86%20AN.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791927980351_KH%E1%BA%A2I%20TONY.jpg",
+            "team_a": "Thiện Lương",
+            "team_b": "Nam Phạm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791928177710_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
             "time": "10:30:00",
             "date": "14/10",
-            "blv": "Xinh Yeu",
+            "blv": "Bỉm Sữa",
             "is_live": true,
             "time_sort": 1791948600,
             "cate_type": "billiards"
@@ -84,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ca903a0b53_8ea9f035_20261014.png?v=8ea9f035",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e2ea1fc4c5_5a871cfc_20261014.png?v=5a871cfc",
             "width": 1600,
             "height": 1200
           }
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-ca903a0b53",
+          "name": "Xuân NA vs Khải Tony | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca903a0b53",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ca903a0b53",
+                  "name": "Xuân NA vs Khải Tony",
+                  "streams": [
+                    {
+                      "id": "st-ca903a0b53",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ca903a0b53",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9213/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭𝟲 - 𝟭𝟬:𝟯𝟬 𝗻𝗼̂̉ 𝗺𝗮́𝘆",
+            "team_a": "Xuân NA",
+            "team_b": "Khải Tony",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791927988882_XU%C3%82N%20NGH%E1%BB%86%20AN.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791927980351_KH%E1%BA%A2I%20TONY.jpg",
+            "time": "10:30:00",
+            "date": "14/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1791948600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ca903a0b53_8ea9f035_20261014.png?v=8ea9f035",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ea57159533",
           "name": "Minh Tài vs Phương He | Thập Cẩm",
           "type": "single",
@@ -231,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea57159533_6f45c8d1_20261014.png?v=6f45c8d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e2ea1fc4c5",
-          "name": "Thiện Lương vs Nam Phạm | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2ea1fc4c5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e2ea1fc4c5",
-                  "name": "Thiện Lương vs Nam Phạm",
-                  "streams": [
-                    {
-                      "id": "st-e2ea1fc4c5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2ea1fc4c5",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9216/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭𝟲 - 𝟭𝟬:𝟯𝟬 𝗻𝗼̂̉ 𝗺𝗮́𝘆",
-            "team_a": "Thiện Lương",
-            "team_b": "Nam Phạm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791928177710_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766813244617_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg",
-            "time": "10:30:00",
-            "date": "14/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1791948600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e2ea1fc4c5_5a871cfc_20261014.png?v=5a871cfc",
             "width": 1600,
             "height": 1200
           }
