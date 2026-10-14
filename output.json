@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-37340e828f",
-          "name": "An Nhiệt vs Tiến Minh Rau Má | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37340e828f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-37340e828f",
-                  "name": "An Nhiệt vs Tiến Minh Rau Má",
-                  "streams": [
-                    {
-                      "id": "st-37340e828f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-37340e828f",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9218/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭𝟲 - 𝟭𝟬:𝟯𝟬 𝗻𝗼̂̉ 𝗺𝗮́𝘆",
-            "team_a": "An Nhiệt",
-            "team_b": "Tiến Minh Rau Má",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791928293943_AN%20NHI%E1%BB%86T.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791928297124_Ti%E1%BA%BFn%20Minh%20TH.jpg",
-            "time": "12:30:00",
-            "date": "14/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791955800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-37340e828f_61425999_20261014.png?v=61425999",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-46c842619b",
           "name": "1 vs Hoàng PT | 13:00 14/10",
           "type": "single",
@@ -309,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-08128445c2",
+          "name": "An Nhiệt vs Paolo Gallito | 13:00 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08128445c2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-08128445c2",
+                  "name": "An Nhiệt vs Paolo Gallito",
+                  "streams": [
+                    {
+                      "id": "st-08128445c2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08128445c2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9220/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT 13h | Race10",
+            "team_a": "An Nhiệt",
+            "team_b": "Paolo Gallito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791950789618_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791953505065_Philippines.png",
+            "time": "13:00:00",
+            "date": "14/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791957600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-08128445c2_ce3f2642_20261014.png?v=ce3f2642",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-2a714a1b32",
           "name": "Minh Tài vs Xuân NA | 13:00 14/10",
           "type": "single",
@@ -377,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a714a1b32_b6fdf2fb_20261014.png?v=b6fdf2fb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-08128445c2",
-          "name": "1 vs Paolo Gallito | 13:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08128445c2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-08128445c2",
-                  "name": "1 vs Paolo Gallito",
-                  "streams": [
-                    {
-                      "id": "st-08128445c2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08128445c2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9220/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT 13h | Race10",
-            "team_a": "1",
-            "team_b": "Paolo Gallito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791950789618_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791953505065_Philippines.png",
-            "time": "13:00:00",
-            "date": "14/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1791957600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-08128445c2_ce3f2642_20261014.png?v=ce3f2642",
             "width": 1600,
             "height": 1200
           }
