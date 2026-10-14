@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-988d28a44e",
-          "name": "Sean Mark Malayan vs Phùng Quý | Đại Kê",
+          "id": "chtv-46c842619b",
+          "name": "Đãng BN vs Hoàng PT | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-988d28a44e",
+              "id": "src-46c842619b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-988d28a44e",
-                  "name": "Sean Mark Malayan vs Phùng Quý",
+                  "id": "ct-46c842619b",
+                  "name": "Đãng BN vs Hoàng PT",
                   "streams": [
                     {
-                      "id": "st-988d28a44e",
+                      "id": "st-46c842619b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-988d28a44e",
-                          "name": "Đại Kê",
+                          "id": "lnk-46c842619b",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9217/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9223/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭𝟲 - 𝟭𝟬:𝟯𝟬 𝗻𝗼̂̉ 𝗺𝗮́𝘆",
-            "team_a": "Sean Mark Malayan",
-            "team_b": "Phùng Quý",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802421830_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:30:00",
+            "league": "TỨ KẾT  13h | Race10",
+            "team_a": "Đãng BN",
+            "team_b": "Hoàng PT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791950899252_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791950899629_Vi%E1%BB%87t%20Nam.png",
+            "time": "13:00:00",
             "date": "14/10",
-            "blv": "Đại Kê",
+            "blv": "Bỉm Sữa",
             "is_live": true,
-            "time_sort": 1791948600,
+            "time_sort": 1791957600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-988d28a44e_2b6ca8d0_20261014.png?v=2b6ca8d0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-46c842619b_7fcd491b_20261014.png?v=7fcd491b",
             "width": 1600,
             "height": 1200
           }
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a714a1b32_b6fdf2fb_20261014.png?v=b6fdf2fb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-46c842619b",
-          "name": "Đãng BN vs Hoàng PT | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46c842619b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-46c842619b",
-                  "name": "Đãng BN vs Hoàng PT",
-                  "streams": [
-                    {
-                      "id": "st-46c842619b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46c842619b",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9223/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT  13h | Race10",
-            "team_a": "Đãng BN",
-            "team_b": "Hoàng PT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791950899252_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791950899629_Vi%E1%BB%87t%20Nam.png",
-            "time": "13:00:00",
-            "date": "14/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1791957600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-46c842619b_7fcd491b_20261014.png?v=7fcd491b",
             "width": 1600,
             "height": 1200
           }
