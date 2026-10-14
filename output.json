@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-49fce38bfb_63f8c150_20261014.png?v=63f8c150",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e167f9b4f4",
-          "name": "KYLE AMOROTO vs ALBERT JANUARTA | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e167f9b4f4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e167f9b4f4",
-                  "name": "KYLE AMOROTO vs ALBERT JANUARTA",
-                  "streams": [
-                    {
-                      "id": "st-e167f9b4f4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e167f9b4f4",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9231/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Phủi độ Phi Siêu Chân Thực",
-            "team_a": "KYLE AMOROTO",
-            "team_b": "ALBERT JANUARTA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791990937975_kyle%20amoroto.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791990934699_ALBERT%20JANUARTA.jpg",
-            "time": "22:11:00",
-            "date": "14/10",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1791990660,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e167f9b4f4_c858718c_20261014.png?v=c858718c",
             "width": 1600,
             "height": 1200
           }
