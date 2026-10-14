@@ -307,6 +307,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-ea2586ac7a",
+          "name": "1 vs 2 | 16:00 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea2586ac7a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ea2586ac7a",
+                  "name": "1 vs 2",
+                  "streams": [
+                    {
+                      "id": "st-ea2586ac7a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea2586ac7a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9225/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT 16h | Race11",
+            "team_a": "1",
+            "team_b": "2",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791961366463_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791961366115_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "14/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791968400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea2586ac7a_e6ded54e_20261014.png?v=e6ded54e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
