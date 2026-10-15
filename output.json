@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-49fce38bfb",
-          "name": "BRYANT/JERSON vs ANTHON/DOKLOY | Kèn Kèn",
+          "id": "chtv-3f3e202bee",
+          "name": "Team Asia vs Team Rest of the World | 18:00 15/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-49fce38bfb",
+              "id": "src-3f3e202bee",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-49fce38bfb",
-                  "name": "BRYANT/JERSON vs ANTHON/DOKLOY",
+                  "id": "ct-3f3e202bee",
+                  "name": "Team Asia vs Team Rest of the World",
                   "streams": [
                     {
-                      "id": "st-49fce38bfb",
+                      "id": "st-3f3e202bee",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-49fce38bfb",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-3f3e202bee",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9232/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9235/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Kèo Siêu Thực 2vs2",
-            "team_a": "BRYANT/JERSON",
-            "team_b": "ANTHON/DOKLOY",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
-            "date": "14/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1791910800,
+            "league": "𝐌𝐀𝐓𝐂𝐇 𝟏 | 𝐓𝐄𝐀𝐌 𝐌𝐀𝐓𝐂𝐇",
+            "team_a": "Team Asia",
+            "team_b": "Team Rest of the World",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765046455910_Joshua%20Filler.jpg",
+            "time": "18:00:00",
+            "date": "15/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792062000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-49fce38bfb_63f8c150_20261015.png?v=63f8c150",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3f3e202bee_2385a97e_20261015.png?v=2385a97e",
             "width": 1600,
             "height": 1200
           }
