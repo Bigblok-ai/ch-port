@@ -234,6 +234,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-e56fbf656f",
+          "name": "Hoàng Sao vs Sanchez Ruiz | 20:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e56fbf656f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e56fbf656f",
+                  "name": "Hoàng Sao vs Sanchez Ruiz",
+                  "streams": [
+                    {
+                      "id": "st-e56fbf656f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e56fbf656f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9237/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝐌𝐀𝐓𝐂𝐇 𝟑 | 𝐒𝐈𝐍𝐆𝐋𝐄𝐒",
+            "team_a": "Hoàng Sao",
+            "team_b": "Sanchez Ruiz",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "time": "20:00:00",
+            "date": "15/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792069200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e56fbf656f_d8092231_20261015.png?v=d8092231",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
