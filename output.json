@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e56fbf656f",
-          "name": "Hoàng Sao vs Sanchez Ruiz | 20:00 15/10",
+          "id": "chtv-d8cf0cdc91",
+          "name": "C.Biado / R.Capito vs J.Filler / A.Pecelj | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-e56fbf656f",
+              "id": "src-d8cf0cdc91",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e56fbf656f",
-                  "name": "Hoàng Sao vs Sanchez Ruiz",
+                  "id": "ct-d8cf0cdc91",
+                  "name": "C.Biado / R.Capito vs J.Filler / A.Pecelj",
                   "streams": [
                     {
-                      "id": "st-e56fbf656f",
+                      "id": "st-d8cf0cdc91",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e56fbf656f",
-                          "name": "Stream",
+                          "id": "lnk-d8cf0cdc91",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9237/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9236/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝐌𝐀𝐓𝐂𝐇 𝟑 | 𝐒𝐈𝐍𝐆𝐋𝐄𝐒",
-            "team_a": "Hoàng Sao",
-            "team_b": "Sanchez Ruiz",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "time": "20:00:00",
+            "league": "𝐌𝐀𝐓𝐂𝐇 𝟐 | 𝐃𝐎𝐔𝐁𝐋𝐄𝐒",
+            "team_a": "C.Biado / R.Capito",
+            "team_b": "J.Filler / A.Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792003221779_do.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792003226444_dodo.png",
+            "time": "19:00:00",
             "date": "15/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792069200,
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1792065600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e56fbf656f_d8092231_20261015.png?v=d8092231",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8cf0cdc91_94d2e19a_20261015.png?v=94d2e19a",
             "width": 1600,
             "height": 1200
           }
