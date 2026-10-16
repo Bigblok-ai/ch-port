@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bef0612e27_a5f2dc82_20261016.png?v=a5f2dc82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-30f8806744",
+          "name": "JAYBEE SUCAL vs NONOY PIKOY | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30f8806744",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-30f8806744",
+                  "name": "JAYBEE SUCAL vs NONOY PIKOY",
+                  "streams": [
+                    {
+                      "id": "st-30f8806744",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30f8806744",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9265/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ông Lão Đánh Cá Và Con Cá Độ",
+            "team_a": "JAYBEE SUCAL",
+            "team_b": "NONOY PIKOY",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792168694345_JAYBEE%20SUCAL.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "23:35:00",
+            "date": "16/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1792168500,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-30f8806744_a946b226_20261016.png?v=a946b226",
             "width": 1600,
             "height": 1200
           }
