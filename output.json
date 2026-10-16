@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-60d9392810",
-          "name": "Văn Sinh - Dũng Quốc Oai vs Hà Thành - Dũng Hàn | Xinh Yeu",
+          "id": "chtv-d0804b7b71",
+          "name": "TKON vs DŨNG MOI | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-60d9392810",
+              "id": "src-d0804b7b71",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-60d9392810",
-                  "name": "Văn Sinh - Dũng Quốc Oai vs Hà Thành - Dũng Hàn",
+                  "id": "ct-d0804b7b71",
+                  "name": "TKON vs DŨNG MOI",
                   "streams": [
                     {
-                      "id": "st-60d9392810",
+                      "id": "st-d0804b7b71",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-60d9392810",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-d0804b7b71",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9260/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9261/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "toptop",
-            "team_a": "Văn Sinh - Dũng Quốc Oai",
-            "team_b": "Hà Thành - Dũng Hàn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792138230117_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792138290918_Vi%E1%BB%87t%20Nam.png",
-            "time": "15:10:00",
+            "league": "BÁN KẾT - GIẢI AN NHIỆT",
+            "team_a": "TKON",
+            "team_b": "DŨNG MOI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792139730968_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792139731618_Screenshot%202026-10-15%20133326.png",
+            "time": "15:35:00",
             "date": "16/10",
-            "blv": "Xinh Yeu",
+            "blv": "Bỉm Sữa",
             "is_live": true,
-            "time_sort": 1792138200,
+            "time_sort": 1792139700,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60d9392810_dcd74957_20261016.png?v=dcd74957",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0804b7b71_a09b838b_20261016.png?v=a09b838b",
             "width": 1600,
             "height": 1200
           }
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-955a8d8da7_4eb72abc_20261016.png?v=4eb72abc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d0804b7b71",
-          "name": "TKON vs DŨNG MOI | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d0804b7b71",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d0804b7b71",
-                  "name": "TKON vs DŨNG MOI",
-                  "streams": [
-                    {
-                      "id": "st-d0804b7b71",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0804b7b71",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9261/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BÁN KẾT - GIẢI AN NHIỆT",
-            "team_a": "TKON",
-            "team_b": "DŨNG MOI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792139730968_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792139731618_Screenshot%202026-10-15%20133326.png",
-            "time": "15:35:00",
-            "date": "16/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1792139700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0804b7b71_a09b838b_20261016.png?v=a09b838b",
             "width": 1600,
             "height": 1200
           }
