@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-39fe3bbb05",
-          "name": "RAULITO DÍAZ vs PERU | VÁNG",
+          "id": "chtv-68ea429a94",
+          "name": "Team Asia vs World Team | 16:59 16/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-39fe3bbb05",
+              "id": "src-68ea429a94",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-39fe3bbb05",
-                  "name": "RAULITO DÍAZ vs PERU",
+                  "id": "ct-68ea429a94",
+                  "name": "Team Asia vs World Team",
                   "streams": [
                     {
-                      "id": "st-39fe3bbb05",
+                      "id": "st-68ea429a94",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-39fe3bbb05",
-                          "name": "VÁNG",
+                          "id": "lnk-68ea429a94",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9249/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9255/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "RAULITO DA 3 PARTIDOS PARA 26",
-            "team_a": "RAULITO DÍAZ",
-            "team_b": "PERU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792109770077_Brazil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792109764813_Brazil.png",
-            "time": "16:13:00",
+            "league": "𝗥𝗲𝘆𝗲𝘀 𝗖𝘂𝗽 𝟮𝟬𝟮𝟲 𝗗𝗮𝘆 𝟮 | 𝗱𝗼̣̂𝗶 𝗻𝗮̀𝗼 𝘁𝗵𝗮̆́𝗻𝗴 𝗼̛̉ 𝗗𝗮𝘆 𝟮",
+            "team_a": "Team Asia",
+            "team_b": "World Team",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792120903945_Team%20Asia.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792120917583_Team%20Rest%20of%20the%20World.jpg",
+            "time": "16:59:09",
             "date": "16/10",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1792141980,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792144749,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-39fe3bbb05_1e5c8ddd_20261016.png?v=1e5c8ddd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-68ea429a94_464f29ad_20261016.png?v=464f29ad",
             "width": 1600,
             "height": 1200
           }
