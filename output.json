@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-1089589f81",
-          "name": "JAYBEE SUCAL(race7) vs JANJAN PALAWAN(8-9-10) | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1089589f81",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1089589f81",
-                  "name": "JAYBEE SUCAL(race7) vs JANJAN PALAWAN(8-9-10)",
-                  "streams": [
-                    {
-                      "id": "st-1089589f81",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1089589f81",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9259/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "JAYBEE SUCAL(race7)",
-            "team_b": "JANJAN PALAWAN(8-9-10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792136118718_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792136118034_Philippines.png",
-            "time": "14:35:00",
-            "date": "16/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1792136100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1089589f81_334ce39d_20261016.png?v=334ce39d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-60d9392810",
           "name": "Văn Sinh - Dũng Quốc Oai vs Hà Thành - Dũng Hàn | Xinh Yeu",
