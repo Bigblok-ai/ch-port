@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-005c6aca22",
+          "name": "mocaibat vs Nguyễn Hoàng Phong | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-005c6aca22",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-005c6aca22",
+                  "name": "mocaibat vs Nguyễn Hoàng Phong",
+                  "streams": [
+                    {
+                      "id": "st-005c6aca22",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-005c6aca22",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9258/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "GIẢI AN NHIỆT",
+            "team_a": "mocaibat",
+            "team_b": "Nguyễn Hoàng Phong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792129067587_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792129068028_Screenshot%202026-10-15%20133326.png",
+            "time": "13:00:00",
+            "date": "16/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1792130400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-005c6aca22_66ad2904_20261016.png?v=66ad2904",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-7634af41f5",
           "name": "TKON vs Nguyễn Văn Huynh | Bỉm Sữa",
@@ -304,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6f6023b0d0_e51b95a5_20261016.png?v=e51b95a5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-824de467f7",
+          "name": "AJ  Manas, & Hoang Sao vs Fedor Gosrt & ,Aleksa Pecelj | 19:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-824de467f7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-824de467f7",
+                  "name": "AJ  Manas, & Hoang Sao vs Fedor Gosrt & ,Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-824de467f7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-824de467f7",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9252/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝐌𝐀𝐓𝐂𝐇 𝟑   | Reyes Cup 2026 Day 2",
+            "team_a": "AJ  Manas, & Hoang Sao",
+            "team_b": "Fedor Gosrt & ,Aleksa Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792118491068_Fedor%20Gorst.jpg",
+            "time": "19:00:00",
+            "date": "16/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792152000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-824de467f7_ff54e280_20261016.png?v=ff54e280",
             "width": 1600,
             "height": 1200
           }
