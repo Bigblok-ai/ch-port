@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1089589f81_334ce39d_20261016.png?v=334ce39d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-60d9392810",
+          "name": "Văn Sinh - Dũng Quốc Oai vs Hà Thành - Dũng Hàn | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60d9392810",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-60d9392810",
+                  "name": "Văn Sinh - Dũng Quốc Oai vs Hà Thành - Dũng Hàn",
+                  "streams": [
+                    {
+                      "id": "st-60d9392810",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60d9392810",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9260/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "toptop",
+            "team_a": "Văn Sinh - Dũng Quốc Oai",
+            "team_b": "Hà Thành - Dũng Hàn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792138230117_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792138290918_Vi%E1%BB%87t%20Nam.png",
+            "time": "15:10:00",
+            "date": "16/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1792138200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60d9392810_dcd74957_20261016.png?v=dcd74957",
             "width": 1600,
             "height": 1200
           }
