@@ -823,11 +823,84 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-8da642f622",
+          "name": "DŨNG MOI + ÁO ĐEN vs HÀ THÀNH + ÁO XÁM | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8da642f622",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8da642f622",
+                  "name": "DŨNG MOI + ÁO ĐEN vs HÀ THÀNH + ÁO XÁM",
+                  "streams": [
+                    {
+                      "id": "st-8da642f622",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8da642f622",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9291/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOPTOP",
+            "team_a": "DŨNG MOI + ÁO ĐEN",
+            "team_b": "HÀ THÀNH + ÁO XÁM",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792213958803_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792213958330_Vi%E1%BB%87t%20Nam.png",
+            "time": "12:12:00",
+            "date": "17/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1792213920,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8da642f622_86cefd23_20261017.png?v=86cefd23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-3906614c51",
           "name": "Team Asia vs World Team | 17:59 17/10",
