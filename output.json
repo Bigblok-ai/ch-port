@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-8146ce6a91",
+          "name": "ĐiChây MaNát vs Aleksa Pecelj | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8146ce6a91",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8146ce6a91",
+                  "name": "ĐiChây MaNát vs Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-8146ce6a91",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8146ce6a91",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9274/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝐌𝐀𝐓𝐂𝐇 4 | Reyes Cup 2026 Day 3",
+            "team_a": "ĐiChây MaNát",
+            "team_b": "Aleksa Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792191183134_AJ%20MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792191195620_Aleksa%20Pecelj.jpg",
+            "time": "20:00:00",
+            "date": "17/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1792242000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8146ce6a91_bdd2373a_20261017.png?v=bdd2373a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-0caa795f1f",
           "name": "Manchester City vs Ipswich Town | VÁNG",
