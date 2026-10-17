@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-b4361a6dc3",
-          "name": "Trận 9 | ONE SAMURAI 4 | Featherweight Kickboxing | 15:00 17/10 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4361a6dc3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b4361a6dc3",
-                  "name": "Trận 9 | ONE SAMURAI 4 | Featherweight Kickboxing",
-                  "streams": [
-                    {
-                      "id": "st-b4361a6dc3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b4361a6dc3",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9286/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 9 | ONE SAMURAI 4 | Featherweight Kickboxing",
-            "team_a": "",
-            "team_b": "",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792204130131_Screenshot%202026-10-17%20092838.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792204129212_Screenshot%202026-10-17%20092845.png",
-            "time": "15:00:00",
-            "date": "17/10",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "time_sort": 1792224000,
-            "cate_type": "martial"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b4361a6dc3_7a415c02_20261017.png?v=7a415c02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-6c813935e9",
           "name": "Trận 10 | ONE SAMURAI 4 | Atomweight Muay Thai World Championship | 15:15 17/10 | Thập Cẩm",
           "type": "single",
@@ -239,11 +166,84 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-b56499e82f",
+          "name": "Tùng kều vs Tùng gái | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b56499e82f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b56499e82f",
+                  "name": "Tùng kều vs Tùng gái",
+                  "streams": [
+                    {
+                      "id": "st-b56499e82f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b56499e82f",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9292/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bia a top top",
+            "team_a": "Tùng kều",
+            "team_b": "Tùng gái",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792222904220_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792222903795_Screenshot%202026-10-15%20133326.png",
+            "time": "14:40:00",
+            "date": "17/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1792222800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b56499e82f_e1b009a7_20261017.png?v=e1b009a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-3906614c51",
           "name": "Team Asia vs World Team | 17:59 17/10",
