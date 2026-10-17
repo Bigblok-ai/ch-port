@@ -528,79 +528,6 @@
           }
         },
         {
-          "id": "chtv-0caa795f1f",
-          "name": "Manchester City vs Ipswich Town | 21:00 17/10 | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0caa795f1f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0caa795f1f",
-                  "name": "Manchester City vs Ipswich Town",
-                  "streams": [
-                    {
-                      "id": "st-0caa795f1f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0caa795f1f",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9269/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗚𝗜𝗔̉𝗜 𝗡𝗚𝗢𝗔̣𝗜 𝗛𝗔̣𝗡𝗚 𝗔𝗡𝗛",
-            "team_a": "Manchester City",
-            "team_b": "Ipswich Town",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792188889145_Manchester%20City.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792188891887_Ipswich%20Town.png",
-            "time": "21:00:00",
-            "date": "17/10",
-            "blv": "VÁNG",
-            "is_live": false,
-            "time_sort": 1792245600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0caa795f1f_b8cb52b8_20261017.png?v=b8cb52b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5682484cfb",
           "name": "Capito & Sao Hỏa vs Sanchez Ruiz, & Van Boening | 21:00 17/10",
           "type": "single",
@@ -669,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5682484cfb_5bd9b624_20261017.png?v=5bd9b624",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0caa795f1f",
+          "name": "Manchester City vs Ipswich Town | 21:00 17/10 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0caa795f1f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0caa795f1f",
+                  "name": "Manchester City vs Ipswich Town",
+                  "streams": [
+                    {
+                      "id": "st-0caa795f1f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0caa795f1f",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9269/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗚𝗜𝗔̉𝗜 𝗡𝗚𝗢𝗔̣𝗜 𝗛𝗔̣𝗡𝗚 𝗔𝗡𝗛",
+            "team_a": "Manchester City",
+            "team_b": "Ipswich Town",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792188889145_Manchester%20City.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792188891887_Ipswich%20Town.png",
+            "time": "21:00:00",
+            "date": "17/10",
+            "blv": "VÁNG",
+            "is_live": false,
+            "time_sort": 1792245600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0caa795f1f_b8cb52b8_20261017.png?v=b8cb52b8",
             "width": 1600,
             "height": 1200
           }
