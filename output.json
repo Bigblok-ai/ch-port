@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-86f6b0321b_3f5a6a81_20261017.png?v=3f5a6a81",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-07b596200a",
+          "name": "Real Betis vs Barcelona | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-07b596200a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-07b596200a",
+                  "name": "Real Betis vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-07b596200a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07b596200a",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9270/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗚𝗜𝗔̉𝗜 𝗟𝗔𝗟𝗜𝗚𝗔 𝗧𝗔̂𝗬 𝗕𝗔𝗡 𝗡𝗛𝗔",
+            "team_a": "Real Betis",
+            "team_b": "Barcelona",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792189817604_Real%20Betis.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792189872674_Barcelona.png",
+            "time": "23:30:00",
+            "date": "17/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1792254600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-07b596200a_c786f439_20261017.png?v=c786f439",
             "width": 1600,
             "height": 1200
           }
