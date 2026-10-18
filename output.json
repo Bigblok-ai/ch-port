@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-a21502fd10",
-          "name": "Biado & Ma Nắc vs Shane & Filler | 21:30 18/10",
+          "id": "chtv-4aff1f9c88",
+          "name": "Mickey Krause vs Alexis Ferrer | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-a21502fd10",
+              "id": "src-4aff1f9c88",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a21502fd10",
-                  "name": "Biado & Ma Nắc vs Shane & Filler",
+                  "id": "ct-4aff1f9c88",
+                  "name": "Mickey Krause vs Alexis Ferrer",
                   "streams": [
                     {
-                      "id": "st-a21502fd10",
+                      "id": "st-4aff1f9c88",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a21502fd10",
-                          "name": "Stream",
+                          "id": "lnk-4aff1f9c88",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9302/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9312/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,103 +214,30 @@
             }
           ],
           "org_metadata": {
-            "league": "𝐌𝐀𝐓𝐂𝐇 4 | Reyes Cup 2026 Day 4",
-            "team_a": "Biado & Ma Nắc",
-            "team_b": "Shane & Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792282851633_AJ%20MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792283101782_Shane%20Van%20Boening.jpg",
-            "time": "21:30:00",
+            "league": "CHOANGTV",
+            "team_a": "Mickey Krause",
+            "team_b": "Alexis Ferrer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792330589365_Mickey%20Krause.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792330646857_Screenshot%202026-10-18%20203717.png",
+            "time": "21:00:00",
             "date": "18/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792333800,
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1792332000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a21502fd10_58ad61d5_20261018.png?v=58ad61d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e18dae3df7",
-          "name": "Robbie Capito vs Fedor Gorst | 22:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e18dae3df7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e18dae3df7",
-                  "name": "Robbie Capito vs Fedor Gorst",
-                  "streams": [
-                    {
-                      "id": "st-e18dae3df7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e18dae3df7",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9303/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝐌𝐀𝐓𝐂𝐇 5  | Reyes Cup 2026 Day 4",
-            "team_a": "Robbie Capito",
-            "team_b": "Fedor Gorst",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792283155004_ROBBIE%20CAPITO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792283158211_Fedor%20Gorst.jpg",
-            "time": "22:00:00",
-            "date": "18/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792335600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e18dae3df7_f6bc0315_20261018.png?v=f6bc0315",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4aff1f9c88_85618547_20261018.png?v=85618547",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-04656a5f97",
-          "name": "𝗡𝗼𝘁𝘁𝗶𝗻𝗴𝗵𝗮𝗺 𝗙𝗼𝗿𝗲𝘀𝘁 vs Arsenal | 22:30 18/10",
+          "name": "𝗡𝗼𝘁𝘁𝗶𝗻𝗴𝗵𝗮𝗺 𝗙𝗼𝗿𝗲𝘀𝘁 vs Arsenal | 22:30 18/10 | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -337,7 +264,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-04656a5f97",
-                          "name": "Stream",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9298/index.m3u8",
@@ -367,7 +294,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1792267282257_Arsenal.jpg",
             "time": "22:30:00",
             "date": "18/10",
-            "blv": "",
+            "blv": "VÁNG",
             "is_live": false,
             "time_sort": 1792337400,
             "cate_type": "billiards"
