@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b80dc1de8e",
-          "name": "Duy Đen vs Hắc Hổ | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b80dc1de8e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b80dc1de8e",
-                  "name": "Duy Đen vs Hắc Hổ",
-                  "streams": [
-                    {
-                      "id": "st-b80dc1de8e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b80dc1de8e",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9309/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Duy Đen",
-            "team_b": "Hắc Hổ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792309171441_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792309171130_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:40:00",
-            "date": "18/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1792309200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b80dc1de8e_8ac6d946_20261018.png?v=8ac6d946",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-bd86997228",
           "name": "Thắng Yên Lưu vs Đình Hữu | Bỉm Sữa",
@@ -455,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-a21502fd10",
-          "name": "Biado & Ma Nắc vs Shane & Filler | 20:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a21502fd10",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a21502fd10",
-                  "name": "Biado & Ma Nắc vs Shane & Filler",
-                  "streams": [
-                    {
-                      "id": "st-a21502fd10",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a21502fd10",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9302/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝐌𝐀𝐓𝐂𝐇 4 | Reyes Cup 2026 Day 4",
-            "team_a": "Biado & Ma Nắc",
-            "team_b": "Shane & Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792282851633_AJ%20MANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792283101782_Shane%20Van%20Boening.jpg",
-            "time": "20:00:00",
-            "date": "18/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792328400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a21502fd10_58ad61d5_20261018.png?v=58ad61d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1d751575b0",
           "name": "Carlo Biado vs Joshua Filler | 20:00 18/10",
           "type": "single",
@@ -596,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1d751575b0_894954f0_20261018.png?v=894954f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a21502fd10",
+          "name": "Biado & Ma Nắc vs Shane & Filler | 20:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a21502fd10",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a21502fd10",
+                  "name": "Biado & Ma Nắc vs Shane & Filler",
+                  "streams": [
+                    {
+                      "id": "st-a21502fd10",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a21502fd10",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9302/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝐌𝐀𝐓𝐂𝐇 4 | Reyes Cup 2026 Day 4",
+            "team_a": "Biado & Ma Nắc",
+            "team_b": "Shane & Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792282851633_AJ%20MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792283101782_Shane%20Van%20Boening.jpg",
+            "time": "20:00:00",
+            "date": "18/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792328400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a21502fd10_58ad61d5_20261018.png?v=58ad61d5",
             "width": 1600,
             "height": 1200
           }
