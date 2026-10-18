@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-949650b493_4f277ab7_20261019.png?v=4f277ab7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-88bf5cb535",
-          "name": "JEFF DELUNA vs DAGA (4 TO 10) | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-88bf5cb535",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-88bf5cb535",
-                  "name": "JEFF DELUNA vs DAGA (4 TO 10)",
-                  "streams": [
-                    {
-                      "id": "st-88bf5cb535",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88bf5cb535",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9315/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Siêu Bịp Độ Phi",
-            "team_a": "JEFF DELUNA",
-            "team_b": "DAGA (4 TO 10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777034514627_Jeff%20De%20Luna.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "22:15:00",
-            "date": "18/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1792336500,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-88bf5cb535_f7f868e1_20261019.png?v=f7f868e1",
             "width": 1600,
             "height": 1200
           }
