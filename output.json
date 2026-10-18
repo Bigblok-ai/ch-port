@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-4aff1f9c88",
+          "name": "Mickey Krause vs Alexis Ferrer | 21:00 18/10 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4aff1f9c88",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4aff1f9c88",
+                  "name": "Mickey Krause vs Alexis Ferrer",
+                  "streams": [
+                    {
+                      "id": "st-4aff1f9c88",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4aff1f9c88",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9312/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOANGTV",
+            "team_a": "Mickey Krause",
+            "team_b": "Alexis Ferrer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792330589365_Mickey%20Krause.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792330646857_Screenshot%202026-10-18%20203717.png",
+            "time": "21:00:00",
+            "date": "18/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": false,
+            "time_sort": 1792332000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4aff1f9c88_85618547_20261018.png?v=85618547",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a21502fd10",
           "name": "Biado & Ma Nắc vs Shane & Filler | 21:30 18/10",
           "type": "single",
