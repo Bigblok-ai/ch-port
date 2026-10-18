@@ -672,6 +672,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-04656a5f97",
+          "name": "𝗡𝗼𝘁𝘁𝗶𝗻𝗴𝗵𝗮𝗺 𝗙𝗼𝗿𝗲𝘀𝘁 vs Arsenal | 22:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04656a5f97",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-04656a5f97",
+                  "name": "𝗡𝗼𝘁𝘁𝗶𝗻𝗴𝗵𝗮𝗺 𝗙𝗼𝗿𝗲𝘀𝘁 vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-04656a5f97",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-04656a5f97",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9298/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗚𝗜𝗔̉𝗜 𝗡𝗚𝗢𝗔̣𝗜 𝗛𝗔̣𝗡𝗚 𝗔𝗡𝗛",
+            "team_a": "𝗡𝗼𝘁𝘁𝗶𝗻𝗴𝗵𝗮𝗺 𝗙𝗼𝗿𝗲𝘀𝘁",
+            "team_b": "Arsenal",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792267247438_Nottingham%20Forest.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792267282257_Arsenal.jpg",
+            "time": "22:30:00",
+            "date": "18/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792337400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-04656a5f97_8dc88125_20261018.png?v=8dc88125",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
