@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-bdb0943d56",
-          "name": "ROMMEL SANTOS vs LAURO BONGAY | Xinh Yeu",
+          "id": "chtv-4022f08adf",
+          "name": "Uyển Nhi vs Sang Thuyên | 12:00 18/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-bdb0943d56",
+              "id": "src-4022f08adf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bdb0943d56",
-                  "name": "ROMMEL SANTOS vs LAURO BONGAY",
+                  "id": "ct-4022f08adf",
+                  "name": "Uyển Nhi vs Sang Thuyên",
                   "streams": [
                     {
-                      "id": "st-bdb0943d56",
+                      "id": "st-4022f08adf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bdb0943d56",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-4022f08adf",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9295/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9304/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Siêu Bịp độ phi",
-            "team_a": "ROMMEL SANTOS",
-            "team_b": "LAURO BONGAY",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "00:00:00",
+            "league": "Show Match Way Cues",
+            "team_a": "Uyển Nhi",
+            "team_b": "Sang Thuyên",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792286602830_Uy%E1%BB%83n%20Nhi%20%20.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792286736146_Sang%20Thuy%C3%AAn%20.png",
+            "time": "12:00:00",
             "date": "18/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1792256400,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792299600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bdb0943d56_d33a6d48_20261018.png?v=d33a6d48",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4022f08adf_85c5a165_20261018.png?v=85c5a165",
             "width": 1600,
             "height": 1200
           }
