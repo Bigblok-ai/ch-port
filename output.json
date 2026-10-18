@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,38 +90,38 @@
           }
         },
         {
-          "id": "chtv-2c1dbdac2e",
-          "name": "Real Madrid vs Sevilla | 02:00 19/10",
+          "id": "chtv-7f98c2d23c",
+          "name": "Mighty Mouse vs Picolo | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-2c1dbdac2e",
+              "id": "src-7f98c2d23c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2c1dbdac2e",
-                  "name": "Real Madrid vs Sevilla",
+                  "id": "ct-7f98c2d23c",
+                  "name": "Mighty Mouse vs Picolo",
                   "streams": [
                     {
-                      "id": "st-2c1dbdac2e",
+                      "id": "st-7f98c2d23c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2c1dbdac2e",
-                          "name": "Stream",
+                          "id": "lnk-7f98c2d23c",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9308/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9317/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +141,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Giải đấu La Liga",
-            "team_a": "Real Madrid",
-            "team_b": "Sevilla",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792302694414_Screenshot%202026-10-18%20125119.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792302729422_Sevilla.png",
-            "time": "02:00:00",
+            "league": "Kèo Độ Phi Đêm",
+            "team_a": "Mighty Mouse",
+            "team_b": "Picolo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "01:40:00",
             "date": "19/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792350000,
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1792348800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2c1dbdac2e_cac2cbec_20261019.png?v=cac2cbec",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7f98c2d23c_ceec2b1f_20261019.png?v=ceec2b1f",
             "width": 1600,
             "height": 1200
           }
