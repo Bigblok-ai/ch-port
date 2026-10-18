@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7f98c2d23c_ceec2b1f_20261019.png?v=ceec2b1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-2c1dbdac2e",
-          "name": "Real Madrid vs Sevilla | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2c1dbdac2e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2c1dbdac2e",
-                  "name": "Real Madrid vs Sevilla",
-                  "streams": [
-                    {
-                      "id": "st-2c1dbdac2e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2c1dbdac2e",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9308/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải đấu La Liga",
-            "team_a": "Real Madrid",
-            "team_b": "Sevilla",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792302694414_Screenshot%202026-10-18%20125119.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792302729422_Sevilla.png",
-            "time": "02:00:00",
-            "date": "19/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1792350000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2c1dbdac2e_cac2cbec_20261019.png?v=cac2cbec",
             "width": 1600,
             "height": 1200
           }
