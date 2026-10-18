@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1803171dcd_c4a37ef5_20261018.png?v=c4a37ef5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bbf327ca99",
+          "name": "JAYBEE SUCAL vs HORIS MANILA | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbf327ca99",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bbf327ca99",
+                  "name": "JAYBEE SUCAL vs HORIS MANILA",
+                  "streams": [
+                    {
+                      "id": "st-bbf327ca99",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bbf327ca99",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9313/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JAYBEE SUCAL",
+            "team_b": "HORIS MANILA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792331793286_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792331793254_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:57:00",
+            "date": "18/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1792331820,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bbf327ca99_ab9495d0_20261018.png?v=ab9495d0",
             "width": 1600,
             "height": 1200
           }
