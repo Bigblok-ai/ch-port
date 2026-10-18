@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1803171dcd_c4a37ef5_20261018.png?v=c4a37ef5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d7f71f10ab",
-          "name": "𝗟𝗲𝗲𝗱𝘀 𝗨𝗻𝗶𝘁𝗲𝗱 vs 𝗠𝗮𝗻𝗰𝗵𝗲𝘀𝘁𝗲𝗿 𝗨𝗻𝗶𝘁𝗲𝗱 | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7f71f10ab",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d7f71f10ab",
-                  "name": "𝗟𝗲𝗲𝗱𝘀 𝗨𝗻𝗶𝘁𝗲𝗱 vs 𝗠𝗮𝗻𝗰𝗵𝗲𝘀𝘁𝗲𝗿 𝗨𝗻𝗶𝘁𝗲𝗱",
-                  "streams": [
-                    {
-                      "id": "st-d7f71f10ab",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d7f71f10ab",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9297/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗚𝗜𝗔̉𝗜 𝗡𝗚𝗢𝗔̣𝗜 𝗛𝗔̣𝗡𝗚 𝗔𝗡𝗛",
-            "team_a": "𝗟𝗲𝗲𝗱𝘀 𝗨𝗻𝗶𝘁𝗲𝗱",
-            "team_b": "𝗠𝗮𝗻𝗰𝗵𝗲𝘀𝘁𝗲𝗿 𝗨𝗻𝗶𝘁𝗲𝗱",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792266230599_Leeds%20United.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792266303266_Manchester%20United.jpg",
-            "time": "20:00:00",
-            "date": "18/10",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1792328400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d7f71f10ab_85fefa76_20261018.png?v=85fefa76",
             "width": 1600,
             "height": 1200
           }
