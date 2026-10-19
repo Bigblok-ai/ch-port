@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-648d24d751_ca953eba_20261019.png?v=ca953eba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c5cff65ef2",
+          "name": "BOOTS AUGUSTO vs WANING SURIGAO | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5cff65ef2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c5cff65ef2",
+                  "name": "BOOTS AUGUSTO vs WANING SURIGAO",
+                  "streams": [
+                    {
+                      "id": "st-c5cff65ef2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c5cff65ef2",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9332/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phủi phi",
+            "team_a": "BOOTS AUGUSTO",
+            "team_b": "WANING SURIGAO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792414159272_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792414159118_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "19:48:00",
+            "date": "19/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1792414080,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c5cff65ef2_5b1bcd29_20261019.png?v=5b1bcd29",
             "width": 1600,
             "height": 1200
           }
