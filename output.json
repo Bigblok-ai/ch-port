@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6310a7ee95_6c987a4b_20261019.png?v=6c987a4b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ce5fc6c463",
+          "name": "BINO BALINGASAG vs DIDAS GINGOOG | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce5fc6c463",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ce5fc6c463",
+                  "name": "BINO BALINGASAG vs DIDAS GINGOOG",
+                  "streams": [
+                    {
+                      "id": "st-ce5fc6c463",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce5fc6c463",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9326/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "BINO BALINGASAG",
+            "team_b": "DIDAS GINGOOG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792403654463_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792403655107_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "17:00:00",
+            "date": "19/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1792404000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce5fc6c463_970e3f23_20261019.png?v=970e3f23",
             "width": 1600,
             "height": 1200
           }
