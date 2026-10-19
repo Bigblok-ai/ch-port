@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-26a2000920",
-          "name": "Nguyễn Phúc Long vs Darryyl Hill | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26a2000920",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-26a2000920",
-                  "name": "Nguyễn Phúc Long vs Darryyl Hill",
-                  "streams": [
-                    {
-                      "id": "st-26a2000920",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26a2000920",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9321/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "giải qatar",
-            "team_a": "Nguyễn Phúc Long",
-            "team_b": "Darryyl Hill",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792394859940_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792394859380_Screenshot%202026-10-19%20142731.png",
-            "time": "14:26:00",
-            "date": "19/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1792394760,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-26a2000920_d18960cb_20261019.png?v=d18960cb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-76035441b0",
           "name": "Hà Thành - Dũng Hàn vs Văn Sinh - Dũng Quốc Oai | Thập Cẩm",
