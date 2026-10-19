@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9abb84dbb6_d3d2ad04_20261019.png?v=d3d2ad04",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1683d9ade9",
+          "name": "cơ thủ ngựa vằn vs cơ thủ áo trắng | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1683d9ade9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1683d9ade9",
+                  "name": "cơ thủ ngựa vằn vs cơ thủ áo trắng",
+                  "streams": [
+                    {
+                      "id": "st-1683d9ade9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1683d9ade9",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9320/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "cơ thủ ngựa vằn",
+            "team_b": "cơ thủ áo trắng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792391705952_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792391705984_Screenshot%202026-10-15%20133326.png",
+            "time": "13:35:00",
+            "date": "19/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1792391700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1683d9ade9_313c577b_20261019.png?v=313c577b",
             "width": 1600,
             "height": 1200
           }
