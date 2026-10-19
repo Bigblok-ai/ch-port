@@ -163,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-275ef511d8",
-          "name": "duy đen vs đối duy đen | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-275ef511d8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-275ef511d8",
-                  "name": "duy đen vs đối duy đen",
-                  "streams": [
-                    {
-                      "id": "st-275ef511d8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-275ef511d8",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9328/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "duy đen",
-            "team_b": "đối duy đen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792407124256_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792407124922_Screenshot%202026-10-15%20133326.png",
-            "time": "17:50:00",
-            "date": "19/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1792407000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-275ef511d8_14844832_20261019.png?v=14844832",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-6d603ffec4",
           "name": "MOHAMMED ALYAFEI vs OMAR ALHARBI Now  PA | GIÀNG A PHỌ",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6d603ffec4_2274be6d_20261019.png?v=2274be6d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-648d24d751",
+          "name": "Emong vs tommay | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-648d24d751",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-648d24d751",
+                  "name": "Emong vs tommay",
+                  "streams": [
+                    {
+                      "id": "st-648d24d751",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-648d24d751",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9331/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "kèo phủi phi",
+            "team_a": "Emong",
+            "team_b": "tommay",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792411382587_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792411382438_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "19:00:00",
+            "date": "19/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1792411200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-648d24d751_ca953eba_20261019.png?v=ca953eba",
             "width": 1600,
             "height": 1200
           }
