@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-63d6d0dee4_51ec292c_20261019.png?v=51ec292c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-275ef511d8",
+          "name": "duy đen vs đối duy đen | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-275ef511d8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-275ef511d8",
+                  "name": "duy đen vs đối duy đen",
+                  "streams": [
+                    {
+                      "id": "st-275ef511d8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-275ef511d8",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9328/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "duy đen",
+            "team_b": "đối duy đen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792407124256_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792407124922_Screenshot%202026-10-15%20133326.png",
+            "time": "17:50:00",
+            "date": "19/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1792407000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-275ef511d8_14844832_20261019.png?v=14844832",
             "width": 1600,
             "height": 1200
           }
