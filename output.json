@@ -380,6 +380,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-85cf621cc5",
+          "name": "Thorsten Hohmann vs Chezka Centeno | 15:30 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85cf621cc5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-85cf621cc5",
+                  "name": "Thorsten Hohmann vs Chezka Centeno",
+                  "streams": [
+                    {
+                      "id": "st-85cf621cc5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-85cf621cc5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9357/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Thorsten Hohmann",
+            "team_b": "Chezka Centeno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792479379097_Screenshot%202026-10-20%20112142.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792479397169_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "15:30:00",
+            "date": "20/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792485000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-85cf621cc5_70aca5f8_20261020.png?v=70aca5f8",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
