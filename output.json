@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-8335adbb38",
-          "name": "Lukas Fracasso-Verner vs Saldy Galliguez | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8335adbb38",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8335adbb38",
-                  "name": "Lukas Fracasso-Verner vs Saldy Galliguez",
-                  "streams": [
-                    {
-                      "id": "st-8335adbb38",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8335adbb38",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9343/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Lukas Fracasso-Verner",
-            "team_b": "Saldy Galliguez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792470110397_Screenshot%202026-10-20%20112142.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792470110626_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "12:30:00",
-            "date": "20/10",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1792474200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8335adbb38_6332e365_20261020.png?v=6332e365",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-bf30d688d0",
           "name": "Francisco Bustamante vs Rodrigo Geronimo | Đại Kê",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-dc5a3174f1",
-          "name": "Duong Quoc Hoang vs Aleksandar Atanasov | Bỉm Sữa",
+          "id": "chtv-8335adbb38",
+          "name": "Lukas Fracasso-Verner vs Saldy Galliguez | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-dc5a3174f1",
+              "id": "src-8335adbb38",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-dc5a3174f1",
-                  "name": "Duong Quoc Hoang vs Aleksandar Atanasov",
+                  "id": "ct-8335adbb38",
+                  "name": "Lukas Fracasso-Verner vs Saldy Galliguez",
                   "streams": [
                     {
-                      "id": "st-dc5a3174f1",
+                      "id": "st-8335adbb38",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-dc5a3174f1",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-8335adbb38",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9341/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9343/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4  | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Duong Quoc Hoang",
-            "team_b": "Aleksandar Atanasov",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "league": "TV2 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Lukas Fracasso-Verner",
+            "team_b": "Saldy Galliguez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792470110397_Screenshot%202026-10-20%20112142.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792470110626_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:30:00",
             "date": "20/10",
-            "blv": "Bỉm Sữa",
+            "blv": "Tào A Man",
             "is_live": true,
             "time_sort": 1792474200,
             "cate_type": "billiards"
@@ -230,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc5a3174f1_47ce9e2b_20261020.png?v=47ce9e2b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8335adbb38_6332e365_20261020.png?v=6332e365",
             "width": 1600,
             "height": 1200
           }
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afc70e8df8_ab34d7eb_20261020.png?v=ab34d7eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-710a5aa499",
+          "name": "Aloysius Yapp vs Raphael Dabreo | 14:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-710a5aa499",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-710a5aa499",
+                  "name": "Aloysius Yapp vs Raphael Dabreo",
+                  "streams": [
+                    {
+                      "id": "st-710a5aa499",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-710a5aa499",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9345/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Raphael Dabreo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792474605738_Aloysius%20Yapp.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792474073100_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "14:00:00",
+            "date": "20/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792479600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-710a5aa499_79e047b5_20261020.png?v=79e047b5",
             "width": 1600,
             "height": 1200
           }
@@ -523,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-88ba7d6be3_fbef94a3_20261020.png?v=fbef94a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-710a5aa499",
-          "name": "Aloysius Yapp vs Raphael Dabreo | 14:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-710a5aa499",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-710a5aa499",
-                  "name": "Aloysius Yapp vs Raphael Dabreo",
-                  "streams": [
-                    {
-                      "id": "st-710a5aa499",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-710a5aa499",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9345/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Raphael Dabreo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792474605738_Aloysius%20Yapp.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792474073100_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "14:00:00",
-            "date": "20/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792479600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-710a5aa499_79e047b5_20261020.png?v=79e047b5",
             "width": 1600,
             "height": 1200
           }
