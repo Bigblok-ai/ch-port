@@ -307,6 +307,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-710a5aa499",
+          "name": "Aloysius Yapp vs Raphael Dabreo | 14:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-710a5aa499",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-710a5aa499",
+                  "name": "Aloysius Yapp vs Raphael Dabreo",
+                  "streams": [
+                    {
+                      "id": "st-710a5aa499",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-710a5aa499",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9345/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Raphael Dabreo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792474072779_Screenshot%202026-10-20%20122740.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792474073100_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "14:00:00",
+            "date": "20/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792479600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-710a5aa499_fea79bdd_20261020.png?v=fea79bdd",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
