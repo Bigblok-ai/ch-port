@@ -163,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-808c1b0e9c",
-          "name": "Johann Chua vs Tony Piazza | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-808c1b0e9c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-808c1b0e9c",
-                  "name": "Johann Chua vs Tony Piazza",
-                  "streams": [
-                    {
-                      "id": "st-808c1b0e9c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-808c1b0e9c",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9349/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Johann Chua",
-            "team_b": "Tony Piazza",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792476044200_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792476043444_Philippines.png",
-            "time": "14:00:00",
-            "date": "20/10",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1792479600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-808c1b0e9c_6e4c252f_20261020.png?v=6e4c252f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-67f6071757",
           "name": "Moritz Neuhausen vs Meynard Tipawan | Xinh Yeu",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-67f6071757_524a5380_20261020.png?v=524a5380",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-808c1b0e9c",
+          "name": "Johann Chua vs Tony Piazza | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-808c1b0e9c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-808c1b0e9c",
+                  "name": "Johann Chua vs Tony Piazza",
+                  "streams": [
+                    {
+                      "id": "st-808c1b0e9c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-808c1b0e9c",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9349/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Johann Chua",
+            "team_b": "Tony Piazza",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792476044200_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792476043444_Philippines.png",
+            "time": "14:00:00",
+            "date": "20/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1792479600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-808c1b0e9c_6e4c252f_20261020.png?v=6e4c252f",
             "width": 1600,
             "height": 1200
           }
