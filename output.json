@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,38 +236,38 @@
           }
         },
         {
-          "id": "chtv-0d033c123f",
-          "name": "Albert Januarta vs Yuki Komiya | Bỉm Sữa",
+          "id": "chtv-dc5a3174f1",
+          "name": "Duong Quoc Hoang vs Aleksandar Atanasov | 12:30 20/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-0d033c123f",
+              "id": "src-dc5a3174f1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0d033c123f",
-                  "name": "Albert Januarta vs Yuki Komiya",
+                  "id": "ct-dc5a3174f1",
+                  "name": "Duong Quoc Hoang vs Aleksandar Atanasov",
                   "streams": [
                     {
-                      "id": "st-0d033c123f",
+                      "id": "st-dc5a3174f1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0d033c123f",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-dc5a3174f1",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9340/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9341/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,22 +288,22 @@
           ],
           "org_metadata": {
             "league": "TV4  | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Albert Januarta",
-            "team_b": "Yuki Komiya",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792463264275_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792463294919_Nh%E1%BA%ADt%20B%E1%BA%A3n.png",
-            "time": "11:00:00",
+            "team_a": "Duong Quoc Hoang",
+            "team_b": "Aleksandar Atanasov",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "time": "12:30:00",
             "date": "20/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1792468800,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792474200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0d033c123f_a41ee5a3_20261020.png?v=a41ee5a3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc5a3174f1_47ce9e2b_20261020.png?v=47ce9e2b",
             "width": 1600,
             "height": 1200
           }
@@ -523,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afc70e8df8_ab34d7eb_20261020.png?v=ab34d7eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dc5a3174f1",
-          "name": "Duong Quoc Hoang vs Aleksandar Atanasov | 12:30 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc5a3174f1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dc5a3174f1",
-                  "name": "Duong Quoc Hoang vs Aleksandar Atanasov",
-                  "streams": [
-                    {
-                      "id": "st-dc5a3174f1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc5a3174f1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9341/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4  | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Duong Quoc Hoang",
-            "team_b": "Aleksandar Atanasov",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "12:30:00",
-            "date": "20/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792474200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc5a3174f1_47ce9e2b_20261020.png?v=47ce9e2b",
             "width": 1600,
             "height": 1200
           }
