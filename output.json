@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a7a945ef18",
-          "name": "AJ Manas vs Rommel Janael Santos | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7a945ef18",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a7a945ef18",
-                  "name": "AJ Manas vs Rommel Janael Santos",
-                  "streams": [
-                    {
-                      "id": "st-a7a945ef18",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7a945ef18",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9364/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "AJ Manas",
-            "team_b": "Rommel Janael Santos",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792484683692_Albert%20James%20Manas.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792483956865_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "17:00:00",
-            "date": "20/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1792490400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a7a945ef18_29b88404_20261020.png?v=29b88404",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-6ada7e2c09",
           "name": "Patric Gonzales vs Jacob Parrent | Xinh Yeu",
