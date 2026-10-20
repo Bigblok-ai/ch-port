@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-6f02264153",
+          "name": "duy đen vs duy | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f02264153",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6f02264153",
+                  "name": "duy đen vs duy",
+                  "streams": [
+                    {
+                      "id": "st-6f02264153",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f02264153",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9370/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "duy đen",
+            "team_b": "duy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792497837097_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792497837877_Screenshot%202026-10-15%20133326.png",
+            "time": "19:03:00",
+            "date": "20/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1792497780,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6f02264153_5dcaf79e_20261020.png?v=5dcaf79e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-da04f3a97a",
           "name": "JAYBEE SUCAL vs PRINCE PAMPANGA | GIÀNG A PHỌ",
           "type": "single",
@@ -146,11 +219,11 @@
             "team_b": "PRINCE PAMPANGA",
             "logo_a": "https://cdn-choangtv.com/img/logo/1792497181734_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1792497181767_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "18:53:00",
+            "time": "23:00:00",
             "date": "20/10",
             "blv": "GIÀNG A PHỌ",
             "is_live": true,
-            "time_sort": 1792497180,
+            "time_sort": 1792512000,
             "cate_type": "billiards"
           },
           "image": {
