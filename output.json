@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-5534e3c785",
-          "name": "David Alcaide vs Rodlin John Bautista | 11:00 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5534e3c785",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5534e3c785",
-                  "name": "David Alcaide vs Rodlin John Bautista",
-                  "streams": [
-                    {
-                      "id": "st-5534e3c785",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5534e3c785",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9337/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "David Alcaide",
-            "team_b": "Rodlin John Bautista",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792462780252_David%20Alcaide.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "11:00:00",
-            "date": "20/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792468800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5534e3c785_d44ff07d_20261020.png?v=d44ff07d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-85f2305009",
           "name": "Justin Bergman vs Hristijan Prodanov | 11:00 20/10",
           "type": "single",
@@ -231,6 +158,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3ba160987d_ea47e64d_20261020.png?v=ea47e64d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5534e3c785",
+          "name": "David Alcaide vs Rodlin John Bautista | 11:00 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5534e3c785",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5534e3c785",
+                  "name": "David Alcaide vs Rodlin John Bautista",
+                  "streams": [
+                    {
+                      "id": "st-5534e3c785",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5534e3c785",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9337/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "David Alcaide",
+            "team_b": "Rodlin John Bautista",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792462780252_David%20Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00:00",
+            "date": "20/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792468800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5534e3c785_d44ff07d_20261020.png?v=d44ff07d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-dc5a3174f1",
+          "name": "Duong Quoc Hoang vs Aleksandar Atanasov | 12:30 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc5a3174f1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dc5a3174f1",
+                  "name": "Duong Quoc Hoang vs Aleksandar Atanasov",
+                  "streams": [
+                    {
+                      "id": "st-dc5a3174f1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc5a3174f1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9341/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "?  | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Duong Quoc Hoang",
+            "team_b": "Aleksandar Atanasov",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "time": "12:30:00",
+            "date": "20/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792474200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc5a3174f1_47ce9e2b_20261020.png?v=47ce9e2b",
             "width": 1600,
             "height": 1200
           }
