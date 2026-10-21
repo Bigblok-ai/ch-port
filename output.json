@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-801c736791",
-          "name": "Oliver Szolnoki vs Torres Camomot | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-801c736791",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-801c736791",
-                  "name": "Oliver Szolnoki vs Torres Camomot",
-                  "streams": [
-                    {
-                      "id": "st-801c736791",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-801c736791",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9386/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 loạt 2 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Torres Camomot",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792548683976_Oliver%20Szolnoki.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "12:30:00",
-            "date": "21/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1792560600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-801c736791_1ef7b891_20261021.png?v=1ef7b891",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-baaad7020a",
           "name": "Ralf Souquet vs Jun Villon | Thập Cẩm",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-baaad7020a_9d9ba987_20261021.png?v=9d9ba987",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-801c736791",
+          "name": "Oliver Szolnoki vs Torres Camomot | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-801c736791",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-801c736791",
+                  "name": "Oliver Szolnoki vs Torres Camomot",
+                  "streams": [
+                    {
+                      "id": "st-801c736791",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-801c736791",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9386/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 loạt 2 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Torres Camomot",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792548683976_Oliver%20Szolnoki.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:30:00",
+            "date": "21/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1792560600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-801c736791_1ef7b891_20261021.png?v=1ef7b891",
             "width": 1600,
             "height": 1200
           }
@@ -236,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-abb88dc016",
-          "name": "Sean Mark Malayan vs Jaybee Sucal | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-abb88dc016",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-abb88dc016",
-                  "name": "Sean Mark Malayan vs Jaybee Sucal",
-                  "streams": [
-                    {
-                      "id": "st-abb88dc016",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-abb88dc016",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9402/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Sean Mark Malayan",
-            "team_b": "Jaybee Sucal",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792561966984_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792561966487_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "14:00:00",
-            "date": "21/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1792566000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-abb88dc016_f3f64d53_20261021.png?v=f3f64d53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-aec285b121",
           "name": "Aleksa Pecelj vs Paul Gulbrandsen | Kèn Kèn",
           "type": "single",
@@ -377,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aec285b121_5e8b1865_20261021.png?v=5e8b1865",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-abb88dc016",
+          "name": "Sean Mark Malayan vs Jaybee Sucal | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abb88dc016",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-abb88dc016",
+                  "name": "Sean Mark Malayan vs Jaybee Sucal",
+                  "streams": [
+                    {
+                      "id": "st-abb88dc016",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-abb88dc016",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9402/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Sean Mark Malayan",
+            "team_b": "Jaybee Sucal",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792561966984_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792561966487_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "14:00:00",
+            "date": "21/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1792566000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-abb88dc016_f3f64d53_20261021.png?v=f3f64d53",
             "width": 1600,
             "height": 1200
           }
