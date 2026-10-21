@@ -964,6 +964,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-c84790f514",
+          "name": "Pierfrancesco Garzia vs Albert Januarta | 15:30 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c84790f514",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c84790f514",
+                  "name": "Pierfrancesco Garzia vs Albert Januarta",
+                  "streams": [
+                    {
+                      "id": "st-c84790f514",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c84790f514",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9389/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "loạt 3 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
+            "team_a": "Pierfrancesco Garzia",
+            "team_b": "Albert Januarta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792550988168_Pierfrancesco%20Garzia.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792550998355_ALBERT%20JANUARTA.jpg",
+            "time": "15:30:00",
+            "date": "21/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792571400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c84790f514_0c35d9a0_20261021.png?v=0c35d9a0",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
