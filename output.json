@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,8 +90,81 @@
           }
         },
         {
-          "id": "chtv-9291573df4",
-          "name": "Skyler Woodward vs Kenneth Arpilleda | 12:30 21/10",
+          "id": "chtv-36abdc66dc",
+          "name": "Roberto Gomez vs Kuoki Sugiyama | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36abdc66dc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-36abdc66dc",
+                  "name": "Roberto Gomez vs Kuoki Sugiyama",
+                  "streams": [
+                    {
+                      "id": "st-36abdc66dc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36abdc66dc",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9378/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Roberto Gomez",
+            "team_b": "Kuoki Sugiyama",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792539826755_Roberto%20Gomez.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792539850559_Nh%E1%BA%ADt%20B%E1%BA%A3n.png",
+            "time": "11:00:00",
+            "date": "21/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1792555200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36abdc66dc_b3fbd13e_20261021.png?v=b3fbd13e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-801c736791",
+          "name": "Oliver Szolnoki vs Torres Camomot | 12:30 21/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-9291573df4",
+              "id": "src-801c736791",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9291573df4",
-                  "name": "Skyler Woodward vs Kenneth Arpilleda",
+                  "id": "ct-801c736791",
+                  "name": "Oliver Szolnoki vs Torres Camomot",
                   "streams": [
                     {
-                      "id": "st-9291573df4",
+                      "id": "st-801c736791",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9291573df4",
+                          "id": "lnk-801c736791",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9384/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9386/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -142,9 +215,9 @@
           ],
           "org_metadata": {
             "league": "loạt 2 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
-            "team_a": "Skyler Woodward",
-            "team_b": "Kenneth Arpilleda",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792547073201_Skyler%20Woodward.jpg",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Torres Camomot",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792548683976_Oliver%20Szolnoki.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:30:00",
             "date": "21/10",
@@ -157,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9291573df4_27032015_20261021.png?v=27032015",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-801c736791_1ef7b891_20261021.png?v=1ef7b891",
             "width": 1600,
             "height": 1200
           }
@@ -214,7 +287,7 @@
             }
           ],
           "org_metadata": {
-            "league": "loạt 2 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
+            "league": "TV1 loạt 2 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
             "team_a": "Sánchez Ruiz",
             "team_b": "Genesis Ouano",
             "logo_a": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
@@ -309,6 +382,79 @@
           }
         },
         {
+          "id": "chtv-9291573df4",
+          "name": "Skyler Woodward vs Kenneth Arpilleda | 12:30 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9291573df4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9291573df4",
+                  "name": "Skyler Woodward vs Kenneth Arpilleda",
+                  "streams": [
+                    {
+                      "id": "st-9291573df4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9291573df4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9384/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "loạt 2 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
+            "team_a": "Skyler Woodward",
+            "team_b": "Kenneth Arpilleda",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792547073201_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:30:00",
+            "date": "21/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792560600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9291573df4_27032015_20261021.png?v=27032015",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-baaad7020a",
           "name": "Ralf Souquet vs Jun Villon | 12:30 21/10",
           "type": "single",
@@ -377,225 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-baaad7020a_9d9ba987_20261021.png?v=9d9ba987",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-801c736791",
-          "name": "Oliver Szolnoki vs Torres Camomot | 12:30 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-801c736791",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-801c736791",
-                  "name": "Oliver Szolnoki vs Torres Camomot",
-                  "streams": [
-                    {
-                      "id": "st-801c736791",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-801c736791",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9386/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "loạt 2 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Torres Camomot",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792548683976_Oliver%20Szolnoki.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "12:30:00",
-            "date": "21/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792560600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-801c736791_1ef7b891_20261021.png?v=1ef7b891",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3464d6dbc5",
-          "name": "Paul John Ortega vs David Alcaide | 15:30 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3464d6dbc5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3464d6dbc5",
-                  "name": "Paul John Ortega vs David Alcaide",
-                  "streams": [
-                    {
-                      "id": "st-3464d6dbc5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3464d6dbc5",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9390/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "loạt 3 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
-            "team_a": "Paul John Ortega",
-            "team_b": "David Alcaide",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792551083275_David%20Alcaide.jpg",
-            "time": "15:30:00",
-            "date": "21/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792571400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3464d6dbc5_d123c6be_20261021.png?v=d123c6be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c84790f514",
-          "name": "Pierfrancesco Garzia vs Albert Januarta | 15:30 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c84790f514",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c84790f514",
-                  "name": "Pierfrancesco Garzia vs Albert Januarta",
-                  "streams": [
-                    {
-                      "id": "st-c84790f514",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c84790f514",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9389/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "loạt 3 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
-            "team_a": "Pierfrancesco Garzia",
-            "team_b": "Albert Januarta",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792550988168_Pierfrancesco%20Garzia.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792550998355_ALBERT%20JANUARTA.jpg",
-            "time": "15:30:00",
-            "date": "21/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792571400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c84790f514_0c35d9a0_20261021.png?v=0c35d9a0",
             "width": 1600,
             "height": 1200
           }
@@ -820,6 +747,79 @@
           }
         },
         {
+          "id": "chtv-3464d6dbc5",
+          "name": "Paul John Ortega vs David Alcaide | 15:30 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3464d6dbc5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3464d6dbc5",
+                  "name": "Paul John Ortega vs David Alcaide",
+                  "streams": [
+                    {
+                      "id": "st-3464d6dbc5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3464d6dbc5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9390/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "loạt 3 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
+            "team_a": "Paul John Ortega",
+            "team_b": "David Alcaide",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792551083275_David%20Alcaide.jpg",
+            "time": "15:30:00",
+            "date": "21/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792571400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3464d6dbc5_d123c6be_20261021.png?v=d123c6be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-1f6629d18f",
           "name": "Aloysius Yapp vs Rodrigo Geronimo | 15:30 21/10",
           "type": "single",
@@ -888,6 +888,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1f6629d18f_e900b824_20261021.png?v=e900b824",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c84790f514",
+          "name": "Pierfrancesco Garzia vs Albert Januarta | 15:30 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c84790f514",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c84790f514",
+                  "name": "Pierfrancesco Garzia vs Albert Januarta",
+                  "streams": [
+                    {
+                      "id": "st-c84790f514",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c84790f514",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9389/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "loạt 3 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
+            "team_a": "Pierfrancesco Garzia",
+            "team_b": "Albert Januarta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792550988168_Pierfrancesco%20Garzia.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792550998355_ALBERT%20JANUARTA.jpg",
+            "time": "15:30:00",
+            "date": "21/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792571400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c84790f514_0c35d9a0_20261021.png?v=0c35d9a0",
             "width": 1600,
             "height": 1200
           }
