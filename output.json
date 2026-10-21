@@ -17,6 +17,79 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-3d88c188bb",
+          "name": "Shane Van Boening vs Chris Stripple | 11:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d88c188bb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3d88c188bb",
+                  "name": "Shane Van Boening vs Chris Stripple",
+                  "streams": [
+                    {
+                      "id": "st-3d88c188bb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d88c188bb",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9376/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | 𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Shane Van Boening",
+            "team_b": "Chris Stripple",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792539428952_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792539459814_Chris%20Stripple.png",
+            "time": "11:00:00",
+            "date": "21/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792555200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3d88c188bb_f1433cc4_20261021.png?v=f1433cc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-d0476bd4d1",
           "name": "Jerico Banares vs Justine Melo Baltazar | 11:00 21/10",
           "type": "single",
@@ -90,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-3d88c188bb",
-          "name": "Shane Van Boening vs Chris Stripple | 11:00 21/10",
+          "id": "chtv-91badd200f",
+          "name": "Fedor Gorst vs Vitaly Pavlukhin | 11:00 21/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-3d88c188bb",
+              "id": "src-91badd200f",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3d88c188bb",
-                  "name": "Shane Van Boening vs Chris Stripple",
+                  "id": "ct-91badd200f",
+                  "name": "Fedor Gorst vs Vitaly Pavlukhin",
                   "streams": [
                     {
-                      "id": "st-3d88c188bb",
+                      "id": "st-91badd200f",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3d88c188bb",
+                          "id": "lnk-91badd200f",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9376/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9381/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,11 +214,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 | 𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Shane Van Boening",
-            "team_b": "Chris Stripple",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792539428952_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792539459814_Chris%20Stripple.png",
+            "league": "𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Fedor Gorst",
+            "team_b": "Vitaly Pavlukhin",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792540671774_Fedor%20Gorst.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777938473289_photo_2026-05-04_02-06-38.jpg",
             "time": "11:00:00",
             "date": "21/10",
             "blv": "",
@@ -157,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3d88c188bb_f1433cc4_20261021.png?v=f1433cc4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-91badd200f_cb9af67c_20261021.png?v=cb9af67c",
             "width": 1600,
             "height": 1200
           }
