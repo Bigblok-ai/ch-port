@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e1d50034d9_3302bcbe_20261021.png?v=3302bcbe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-834d2bbe65",
-          "name": "JAYBEE SUCAL vs PAYPAY CAVITE | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-834d2bbe65",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-834d2bbe65",
-                  "name": "JAYBEE SUCAL vs PAYPAY CAVITE",
-                  "streams": [
-                    {
-                      "id": "st-834d2bbe65",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-834d2bbe65",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9411/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "THE BIG REMATCH IN MANILA",
-            "team_a": "JAYBEE SUCAL",
-            "team_b": "PAYPAY CAVITE",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792591010934_JAYBEE%20SUCAL.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "21:00:00",
-            "date": "21/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1792591200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-834d2bbe65_f276550f_20261021.png?v=f276550f",
             "width": 1600,
             "height": 1200
           }
