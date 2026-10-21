@@ -380,6 +380,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-19c12b4066",
+          "name": "Manchester United vs Como | 23:45 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19c12b4066",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-19c12b4066",
+                  "name": "Manchester United vs Como",
+                  "streams": [
+                    {
+                      "id": "st-19c12b4066",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19c12b4066",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9409/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CUP C1",
+            "team_a": "Manchester United",
+            "team_b": "Como",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792574411584_Screenshot%202026-10-21%20162002.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792574427327_Screenshot%202026-10-21%20162020.png",
+            "time": "23:45:00",
+            "date": "21/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792601100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19c12b4066_fa6adfc2_20261021.png?v=fa6adfc2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
