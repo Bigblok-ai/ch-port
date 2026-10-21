@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-89894cc071",
-          "name": "James Aranas vs Jack De Luna | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89894cc071",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-89894cc071",
-                  "name": "James Aranas vs Jack De Luna",
-                  "streams": [
-                    {
-                      "id": "st-89894cc071",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-89894cc071",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9405/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "James Aranas",
-            "team_b": "Jack De Luna",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792562091744_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792562092163_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "14:00:00",
-            "date": "21/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1792566000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-89894cc071_febf965f_20261021.png?v=febf965f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-72a2968237",
           "name": "Arseni Sevastyanov vs Justin Bergman | Đại Kê",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-72a2968237_5d0b2375_20261021.png?v=5d0b2375",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1f6629d18f",
+          "name": "Aloysius Yapp vs Rodrigo Geronimo | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f6629d18f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1f6629d18f",
+                  "name": "Aloysius Yapp vs Rodrigo Geronimo",
+                  "streams": [
+                    {
+                      "id": "st-1f6629d18f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f6629d18f",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9388/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 loạt 3 |𝐃𝐀𝐘 2 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍 |",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Rodrigo Geronimo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792550288909_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "15:30:00",
+            "date": "21/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1792571400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1f6629d18f_e900b824_20261021.png?v=e900b824",
             "width": 1600,
             "height": 1200
           }
