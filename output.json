@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-7b151108cf",
-          "name": "Bayern Munich vs Arsenal | VÁNG",
+          "id": "chtv-2e649bcc5b",
+          "name": "Jerico Banares vs Fedor Gorst | 11:00 22/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-7b151108cf",
+              "id": "src-2e649bcc5b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7b151108cf",
-                  "name": "Bayern Munich vs Arsenal",
+                  "id": "ct-2e649bcc5b",
+                  "name": "Jerico Banares vs Fedor Gorst",
                   "streams": [
                     {
-                      "id": "st-7b151108cf",
+                      "id": "st-2e649bcc5b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7b151108cf",
-                          "name": "VÁNG",
+                          "id": "lnk-2e649bcc5b",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9407/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9416/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "CUP C1",
-            "team_a": "Bayern Munich",
-            "team_b": "Arsenal",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792564468743_Screenshot%202026-10-21%20133422.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792564485200_Screenshot%202026-10-21%20133440.png",
-            "time": "02:00:00",
+            "league": "TV1 𝐃𝐀𝐘 3  𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Jerico Banares",
+            "team_b": "Fedor Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792623363478_Jerico%20Ba%C3%B1ares.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792623358428_Fedor%20Gorst.jpg",
+            "time": "11:00:00",
             "date": "22/10",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1792609200,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792641600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b151108cf_ba6fb4d6_20261022.png?v=ba6fb4d6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2e649bcc5b_753f862b_20261022.png?v=753f862b",
             "width": 1600,
             "height": 1200
           }
