@@ -11,11 +11,157 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-0fe0abf1e6",
+          "name": "John Vincent Vicedo vs Aleksa Pecelj | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fe0abf1e6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0fe0abf1e6",
+                  "name": "John Vincent Vicedo vs Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-0fe0abf1e6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fe0abf1e6",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9425/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "John Vincent Vicedo",
+            "team_b": "Aleksa Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792624604505_Aleksa%20Pecelj.jpg",
+            "time": "13:00:00",
+            "date": "22/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1792648800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0fe0abf1e6_56f0e8fd_20261022.png?v=56f0e8fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ce1ddf62cc",
+          "name": "Baseth Mocaibat vs Mickey Krause | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce1ddf62cc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ce1ddf62cc",
+                  "name": "Baseth Mocaibat vs Mickey Krause",
+                  "streams": [
+                    {
+                      "id": "st-ce1ddf62cc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce1ddf62cc",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9423/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Baseth Mocaibat",
+            "team_b": "Mickey Krause",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792624369636_Mickey%20Krause.jpg",
+            "time": "13:00:00",
+            "date": "22/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1792648800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce1ddf62cc_6bfad444_20261022.png?v=6bfad444",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-ed87233ba3",
           "name": "Jaybee Sucal vs Denis Grabe | Lee Min Hoo",
@@ -158,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bf7eb272d8_c8cc4bec_20261022.png?v=c8cc4bec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0fe0abf1e6",
-          "name": "John Vincent Vicedo vs Aleksa Pecelj | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0fe0abf1e6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0fe0abf1e6",
-                  "name": "John Vincent Vicedo vs Aleksa Pecelj",
-                  "streams": [
-                    {
-                      "id": "st-0fe0abf1e6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fe0abf1e6",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9425/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "John Vincent Vicedo",
-            "team_b": "Aleksa Pecelj",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792624604505_Aleksa%20Pecelj.jpg",
-            "time": "13:00:00",
-            "date": "22/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1792648800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0fe0abf1e6_56f0e8fd_20261022.png?v=56f0e8fd",
             "width": 1600,
             "height": 1200
           }
