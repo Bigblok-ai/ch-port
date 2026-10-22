@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-bf8bb95ca2",
-          "name": "Oliver Szolnoki vs Paolo Gallito | 13:00 22/10",
+          "id": "chtv-2e649bcc5b",
+          "name": "Jerico Banares vs Fedor Gorst | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-bf8bb95ca2",
+              "id": "src-2e649bcc5b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bf8bb95ca2",
-                  "name": "Oliver Szolnoki vs Paolo Gallito",
+                  "id": "ct-2e649bcc5b",
+                  "name": "Jerico Banares vs Fedor Gorst",
                   "streams": [
                     {
-                      "id": "st-bf8bb95ca2",
+                      "id": "st-2e649bcc5b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bf8bb95ca2",
-                          "name": "Stream",
+                          "id": "lnk-2e649bcc5b",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9426/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9416/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,96 @@
             }
           ],
           "org_metadata": {
-            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Paolo Gallito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792624682811_Oliver%20Szolnoki.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792624691961_Paolo%20Gallito.jpg",
-            "time": "13:00:00",
+            "league": "TV1 𝐃𝐀𝐘 3  𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Jerico Banares",
+            "team_b": "Fedor Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792623363478_Jerico%20Ba%C3%B1ares.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792623358428_Fedor%20Gorst.jpg",
+            "time": "10:59:00",
             "date": "22/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792648800,
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1792641540,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bf8bb95ca2_21f0aedf_20261022.png?v=21f0aedf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2e649bcc5b_753f862b_20261022.png?v=753f862b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b1dcea1bf2",
+          "name": "Shane Van Boening vs John Albert Refulle | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1dcea1bf2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b1dcea1bf2",
+                  "name": "Shane Van Boening vs John Albert Refulle",
+                  "streams": [
+                    {
+                      "id": "st-b1dcea1bf2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1dcea1bf2",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9418/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Shane Van Boening",
+            "team_b": "John Albert Refulle",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792623711527_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792623708044_JOHN%20ALBERT%20REFULLE.jpg",
+            "time": "11:00:00",
+            "date": "22/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1792641600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1dcea1bf2_459f8ca8_20261022.png?v=459f8ca8",
             "width": 1600,
             "height": 1200
           }
@@ -163,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-ce1ddf62cc",
-          "name": "Baseth Mocaibat vs Mickey Krause | 13:00 22/10",
+          "id": "chtv-bf8bb95ca2",
+          "name": "Oliver Szolnoki vs Paolo Gallito | 13:00 22/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-ce1ddf62cc",
+              "id": "src-bf8bb95ca2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ce1ddf62cc",
-                  "name": "Baseth Mocaibat vs Mickey Krause",
+                  "id": "ct-bf8bb95ca2",
+                  "name": "Oliver Szolnoki vs Paolo Gallito",
                   "streams": [
                     {
-                      "id": "st-ce1ddf62cc",
+                      "id": "st-bf8bb95ca2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ce1ddf62cc",
+                          "id": "lnk-bf8bb95ca2",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9423/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9426/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,10 +288,10 @@
           ],
           "org_metadata": {
             "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Baseth Mocaibat",
-            "team_b": "Mickey Krause",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792624369636_Mickey%20Krause.jpg",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Paolo Gallito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792624682811_Oliver%20Szolnoki.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792624691961_Paolo%20Gallito.jpg",
             "time": "13:00:00",
             "date": "22/10",
             "blv": "",
@@ -230,80 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce1ddf62cc_6bfad444_20261022.png?v=6bfad444",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0c5b065e40",
-          "name": "Sánchez Ruiz vs Nguyen Quang Minh | 13:00 22/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0c5b065e40",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0c5b065e40",
-                  "name": "Sánchez Ruiz vs Nguyen Quang Minh",
-                  "streams": [
-                    {
-                      "id": "st-0c5b065e40",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0c5b065e40",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9424/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Sánchez Ruiz",
-            "team_b": "Nguyen Quang Minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "13:00:00",
-            "date": "22/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792648800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0c5b065e40_f82c2462_20261022.png?v=f82c2462",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bf8bb95ca2_21f0aedf_20261022.png?v=21f0aedf",
             "width": 1600,
             "height": 1200
           }
@@ -382,6 +382,152 @@
           }
         },
         {
+          "id": "chtv-0c5b065e40",
+          "name": "Sánchez Ruiz vs Nguyen Quang Minh | 13:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c5b065e40",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0c5b065e40",
+                  "name": "Sánchez Ruiz vs Nguyen Quang Minh",
+                  "streams": [
+                    {
+                      "id": "st-0c5b065e40",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0c5b065e40",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9424/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Sánchez Ruiz",
+            "team_b": "Nguyen Quang Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "13:00:00",
+            "date": "22/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792648800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0c5b065e40_f82c2462_20261022.png?v=f82c2462",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ce1ddf62cc",
+          "name": "Baseth Mocaibat vs Mickey Krause | 13:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce1ddf62cc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ce1ddf62cc",
+                  "name": "Baseth Mocaibat vs Mickey Krause",
+                  "streams": [
+                    {
+                      "id": "st-ce1ddf62cc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce1ddf62cc",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9423/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Baseth Mocaibat",
+            "team_b": "Mickey Krause",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792624369636_Mickey%20Krause.jpg",
+            "time": "13:00:00",
+            "date": "22/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792648800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce1ddf62cc_6bfad444_20261022.png?v=6bfad444",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-bf7eb272d8",
           "name": "TKON vs James Aranas | 13:59 22/10",
           "type": "single",
@@ -455,8 +601,8 @@
           }
         },
         {
-          "id": "chtv-070cdcad7e",
-          "name": "Jayson Shaw vs Felix Vogel | 15:00 22/10",
+          "id": "chtv-4b347b2c46",
+          "name": "Antonio Lining vs Jefrey Roda | 15:00 22/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +616,23 @@
           ],
           "sources": [
             {
-              "id": "src-070cdcad7e",
+              "id": "src-4b347b2c46",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-070cdcad7e",
-                  "name": "Jayson Shaw vs Felix Vogel",
+                  "id": "ct-4b347b2c46",
+                  "name": "Antonio Lining vs Jefrey Roda",
                   "streams": [
                     {
-                      "id": "st-070cdcad7e",
+                      "id": "st-4b347b2c46",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-070cdcad7e",
+                          "id": "lnk-4b347b2c46",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9430/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9429/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,10 +653,10 @@
           ],
           "org_metadata": {
             "league": "Loạt 3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Jayson Shaw",
-            "team_b": "Felix Vogel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792637850511_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792637848118_Felix%20Vogel.jpg",
+            "team_a": "Antonio Lining",
+            "team_b": "Jefrey Roda",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792637774565_ANTONIO%20LINING.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792637777924_Jefrey%20Roda.jpg",
             "time": "15:00:00",
             "date": "22/10",
             "blv": "",
@@ -522,80 +668,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-070cdcad7e_7ecdcd7c_20261022.png?v=7ecdcd7c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-72cde8b34b",
-          "name": "Edwin  Gamas vs Robbie Capito | 15:00 22/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72cde8b34b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-72cde8b34b",
-                  "name": "Edwin  Gamas vs Robbie Capito",
-                  "streams": [
-                    {
-                      "id": "st-72cde8b34b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-72cde8b34b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9428/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loạt 3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Edwin  Gamas",
-            "team_b": "Robbie Capito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792637716856_EDWIN%20GAMAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792637719662_ROBBIE%20CAPITO.jpg",
-            "time": "15:00:00",
-            "date": "22/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792656000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-72cde8b34b_b25f64ae_20261022.png?v=b25f64ae",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b347b2c46_c3a04a6e_20261022.png?v=c3a04a6e",
             "width": 1600,
             "height": 1200
           }
@@ -674,8 +747,8 @@
           }
         },
         {
-          "id": "chtv-4b347b2c46",
-          "name": "Antonio Lining vs Jefrey Roda | 15:00 22/10",
+          "id": "chtv-72cde8b34b",
+          "name": "Edwin  Gamas vs Robbie Capito | 15:00 22/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -689,23 +762,23 @@
           ],
           "sources": [
             {
-              "id": "src-4b347b2c46",
+              "id": "src-72cde8b34b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4b347b2c46",
-                  "name": "Antonio Lining vs Jefrey Roda",
+                  "id": "ct-72cde8b34b",
+                  "name": "Edwin  Gamas vs Robbie Capito",
                   "streams": [
                     {
-                      "id": "st-4b347b2c46",
+                      "id": "st-72cde8b34b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4b347b2c46",
+                          "id": "lnk-72cde8b34b",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9429/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9428/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -726,10 +799,10 @@
           ],
           "org_metadata": {
             "league": "Loạt 3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Antonio Lining",
-            "team_b": "Jefrey Roda",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792637774565_ANTONIO%20LINING.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792637777924_Jefrey%20Roda.jpg",
+            "team_a": "Edwin  Gamas",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792637716856_EDWIN%20GAMAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792637719662_ROBBIE%20CAPITO.jpg",
             "time": "15:00:00",
             "date": "22/10",
             "blv": "",
@@ -741,7 +814,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b347b2c46_c3a04a6e_20261022.png?v=c3a04a6e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-72cde8b34b_b25f64ae_20261022.png?v=b25f64ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-070cdcad7e",
+          "name": "Jayson Shaw vs Felix Vogel | 15:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-070cdcad7e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-070cdcad7e",
+                  "name": "Jayson Shaw vs Felix Vogel",
+                  "streams": [
+                    {
+                      "id": "st-070cdcad7e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-070cdcad7e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9430/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Jayson Shaw",
+            "team_b": "Felix Vogel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792637850511_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792637848118_Felix%20Vogel.jpg",
+            "time": "15:00:00",
+            "date": "22/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792656000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-070cdcad7e_7ecdcd7c_20261022.png?v=7ecdcd7c",
             "width": 1600,
             "height": 1200
           }
