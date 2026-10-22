@@ -380,6 +380,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-1ac1e37bb8",
+          "name": "Juventus vs Rennes | 23:45 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ac1e37bb8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1ac1e37bb8",
+                  "name": "Juventus vs Rennes",
+                  "streams": [
+                    {
+                      "id": "st-1ac1e37bb8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ac1e37bb8",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9432/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa League",
+            "team_a": "Juventus",
+            "team_b": "Rennes",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792646588702_Screenshot%202026-10-22%20122257.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792646610372_Screenshot%202026-10-22%20122324.png",
+            "time": "23:45:00",
+            "date": "22/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792687500,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1ac1e37bb8_0be160f4_20261022.png?v=0be160f4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
