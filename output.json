@@ -455,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-b25c44d8f4",
-          "name": "Hoffenheim vs Olympique Lyonnais | 02:00 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b25c44d8f4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b25c44d8f4",
-                  "name": "Hoffenheim vs Olympique Lyonnais",
-                  "streams": [
-                    {
-                      "id": "st-b25c44d8f4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b25c44d8f4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9433/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europa League",
-            "team_a": "Hoffenheim",
-            "team_b": "Olympique Lyonnais",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792646838065_Screenshot%202026-10-22%20122714.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792646860579_Screenshot%202026-10-22%20122735.png",
-            "time": "02:00:00",
-            "date": "23/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792695600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b25c44d8f4_f569322f_20261022.png?v=f569322f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-d87a9a40d8",
           "name": "Bournemouth vs AC Milan | 02:00 23/10",
           "type": "single",
@@ -596,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d87a9a40d8_3ae61c05_20261022.png?v=3ae61c05",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b25c44d8f4",
+          "name": "Hoffenheim vs Olympique Lyonnais | 02:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b25c44d8f4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b25c44d8f4",
+                  "name": "Hoffenheim vs Olympique Lyonnais",
+                  "streams": [
+                    {
+                      "id": "st-b25c44d8f4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b25c44d8f4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9433/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa League",
+            "team_a": "Hoffenheim",
+            "team_b": "Olympique Lyonnais",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792646838065_Screenshot%202026-10-22%20122714.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792646860579_Screenshot%202026-10-22%20122735.png",
+            "time": "02:00:00",
+            "date": "23/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792695600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b25c44d8f4_f569322f_20261022.png?v=f569322f",
             "width": 1600,
             "height": 1200
           }
