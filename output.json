@@ -309,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-d0dbf943ec",
+          "name": "Roland Garcia vs Fedor Gorst | 15:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0dbf943ec",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d0dbf943ec",
+                  "name": "Roland Garcia vs Fedor Gorst",
+                  "streams": [
+                    {
+                      "id": "st-d0dbf943ec",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0dbf943ec",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9436/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Roland Garcia",
+            "team_b": "Fedor Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792651513913_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792651527600_Fedor%20Gorst.png",
+            "time": "15:00:00",
+            "date": "22/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792656000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0dbf943ec_374fcf8d_20261022.png?v=374fcf8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-4b347b2c46",
           "name": "Antonio Lining vs Jefrey Roda | 15:00 22/10",
           "type": "single",
