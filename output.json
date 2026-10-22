@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ce1ddf62cc",
-          "name": "Baseth Mocaibat vs Mickey Krause | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce1ddf62cc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ce1ddf62cc",
-                  "name": "Baseth Mocaibat vs Mickey Krause",
-                  "streams": [
-                    {
-                      "id": "st-ce1ddf62cc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce1ddf62cc",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9423/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Baseth Mocaibat",
-            "team_b": "Mickey Krause",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792624369636_Mickey%20Krause.jpg",
-            "time": "13:00:00",
-            "date": "22/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1792648800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce1ddf62cc_6bfad444_20261022.png?v=6bfad444",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-0fe0abf1e6",
           "name": "John Vincent Vicedo vs Aleksa Pecelj | Kèn Kèn",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-ed87233ba3",
-          "name": "Jaybee Sucal vs Denis Grabe | Lee Min Hoo",
+          "id": "chtv-ce1ddf62cc",
+          "name": "Baseth Mocaibat vs Mickey Krause | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-ed87233ba3",
+              "id": "src-ce1ddf62cc",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ed87233ba3",
-                  "name": "Jaybee Sucal vs Denis Grabe",
+                  "id": "ct-ce1ddf62cc",
+                  "name": "Baseth Mocaibat vs Mickey Krause",
                   "streams": [
                     {
-                      "id": "st-ed87233ba3",
+                      "id": "st-ce1ddf62cc",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ed87233ba3",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-ce1ddf62cc",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9422/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9423/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,14 +141,14 @@
             }
           ],
           "org_metadata": {
-            "league": "Loạt 2  𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Jaybee Sucal",
-            "team_b": "Denis Grabe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792624287985_JAYBEE%20SUCAL.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792624291374_Denis%20Grabe.jpg",
+            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Baseth Mocaibat",
+            "team_b": "Mickey Krause",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792624369636_Mickey%20Krause.jpg",
             "time": "13:00:00",
             "date": "22/10",
-            "blv": "Lee Min Hoo",
+            "blv": "GIÀNG A PHỌ",
             "is_live": true,
             "time_sort": 1792648800,
             "cate_type": "billiards"
@@ -230,23 +157,96 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed87233ba3_a2559e40_20261022.png?v=a2559e40",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce1ddf62cc_6bfad444_20261022.png?v=6bfad444",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0892013882",
+          "name": "Aloysius Yapp vs Michael Feliciano | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0892013882",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0892013882",
+                  "name": "Aloysius Yapp vs Michael Feliciano",
+                  "streams": [
+                    {
+                      "id": "st-0892013882",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0892013882",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9435/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Michael Feliciano",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792651451166_Aloysius%20Yapp.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792651479368_Philippines.png",
+            "time": "15:00:00",
+            "date": "22/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1792656000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0892013882_dec8d7a0_20261022.png?v=dec8d7a0",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-72cde8b34b",
-          "name": "Edwin  Gamas vs Robbie Capito | 15:00 22/10 | VÁNG",
+          "name": "Edwin  Gamas vs Robbie Capito | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +295,7 @@
             "time": "15:00:00",
             "date": "22/10",
             "blv": "VÁNG",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1792656000,
             "cate_type": "billiards"
           },
@@ -382,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-d0dbf943ec",
-          "name": "Roland Garcia vs Fedor Gorst | 15:00 22/10 | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d0dbf943ec",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d0dbf943ec",
-                  "name": "Roland Garcia vs Fedor Gorst",
-                  "streams": [
-                    {
-                      "id": "st-d0dbf943ec",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0dbf943ec",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9436/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loạt 3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Roland Garcia",
-            "team_b": "Fedor Gorst",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792651513913_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792651527600_Fedor%20Gorst.png",
-            "time": "15:00:00",
-            "date": "22/10",
-            "blv": "Tào A Man",
-            "is_live": false,
-            "time_sort": 1792656000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0dbf943ec_374fcf8d_20261022.png?v=374fcf8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-070cdcad7e",
           "name": "Jayson Shaw vs Felix Vogel | 15:00 22/10 | GIÀNG A PHỌ",
           "type": "single",
@@ -523,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-070cdcad7e_7ecdcd7c_20261022.png?v=7ecdcd7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d0dbf943ec",
+          "name": "Roland Garcia vs Fedor Gorst | 15:00 22/10 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0dbf943ec",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d0dbf943ec",
+                  "name": "Roland Garcia vs Fedor Gorst",
+                  "streams": [
+                    {
+                      "id": "st-d0dbf943ec",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0dbf943ec",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9436/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Roland Garcia",
+            "team_b": "Fedor Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792651513913_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792651527600_Fedor%20Gorst.png",
+            "time": "15:00:00",
+            "date": "22/10",
+            "blv": "Tào A Man",
+            "is_live": false,
+            "time_sort": 1792656000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0dbf943ec_374fcf8d_20261022.png?v=374fcf8d",
             "width": 1600,
             "height": 1200
           }
