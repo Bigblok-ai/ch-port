@@ -163,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-b1dcea1bf2",
-          "name": "Shane Van Boening vs John Albert Refulle | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b1dcea1bf2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b1dcea1bf2",
-                  "name": "Shane Van Boening vs John Albert Refulle",
-                  "streams": [
-                    {
-                      "id": "st-b1dcea1bf2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b1dcea1bf2",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9418/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Shane Van Boening",
-            "team_b": "John Albert Refulle",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792623711527_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792623708044_JOHN%20ALBERT%20REFULLE.jpg",
-            "time": "11:00:00",
-            "date": "22/10",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1792641600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1dcea1bf2_459f8ca8_20261022.png?v=459f8ca8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-78477312b1",
           "name": "Skyler Woodward vs Ralf Souquet | Kèn Kèn",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-78477312b1_9f6f7e3e_20261022.png?v=9f6f7e3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b1dcea1bf2",
+          "name": "Shane Van Boening vs John Albert Refulle | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b1dcea1bf2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b1dcea1bf2",
+                  "name": "Shane Van Boening vs John Albert Refulle",
+                  "streams": [
+                    {
+                      "id": "st-b1dcea1bf2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1dcea1bf2",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9418/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Shane Van Boening",
+            "team_b": "John Albert Refulle",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792623711527_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792623708044_JOHN%20ALBERT%20REFULLE.jpg",
+            "time": "11:00:00",
+            "date": "22/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1792641600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1dcea1bf2_459f8ca8_20261022.png?v=459f8ca8",
             "width": 1600,
             "height": 1200
           }
