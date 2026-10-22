@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-15346cb9eb",
+          "name": "ANTON RAGA vs SEAN MARK MALAYAN | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15346cb9eb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-15346cb9eb",
+                  "name": "ANTON RAGA vs SEAN MARK MALAYAN",
+                  "streams": [
+                    {
+                      "id": "st-15346cb9eb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15346cb9eb",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9446/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "ANTON RAGA",
+            "team_b": "SEAN MARK MALAYAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792675531632_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792675532235_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:25:00",
+            "date": "22/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1792675500,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-15346cb9eb_90eb6a28_20261022.png?v=90eb6a28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-36d6f98161",
           "name": "Carlo Biado vs Calil Ramber | GIÀNG A PHỌ",
           "type": "single",
@@ -382,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-d87a9a40d8",
-          "name": "Bournemouth vs AC Milan | 02:00 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d87a9a40d8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d87a9a40d8",
-                  "name": "Bournemouth vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-d87a9a40d8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d87a9a40d8",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9434/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europa League",
-            "team_a": "Bournemouth",
-            "team_b": "AC Milan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792647180638_Screenshot%202026-10-22%20123254.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792647159140_Screenshot%202026-10-22%20123233.png",
-            "time": "02:00:00",
-            "date": "23/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792695600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d87a9a40d8_3ae61c05_20261022.png?v=3ae61c05",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b25c44d8f4",
           "name": "Hoffenheim vs Olympique Lyonnais | 02:00 23/10",
           "type": "single",
@@ -523,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b25c44d8f4_f569322f_20261022.png?v=f569322f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d87a9a40d8",
+          "name": "Bournemouth vs AC Milan | 02:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d87a9a40d8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d87a9a40d8",
+                  "name": "Bournemouth vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-d87a9a40d8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d87a9a40d8",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9434/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa League",
+            "team_a": "Bournemouth",
+            "team_b": "AC Milan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792647180638_Screenshot%202026-10-22%20123254.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792647159140_Screenshot%202026-10-22%20123233.png",
+            "time": "02:00:00",
+            "date": "23/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792695600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d87a9a40d8_3ae61c05_20261022.png?v=3ae61c05",
             "width": 1600,
             "height": 1200
           }
