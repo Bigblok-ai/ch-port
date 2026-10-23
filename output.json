@@ -17,6 +17,79 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-17846ecc9d",
+          "name": "Sánchez Ruiz vs Thorsten Hohmann | 11:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17846ecc9d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-17846ecc9d",
+                  "name": "Sánchez Ruiz vs Thorsten Hohmann",
+                  "streams": [
+                    {
+                      "id": "st-17846ecc9d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17846ecc9d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9455/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Sánchez Ruiz",
+            "team_b": "Thorsten Hohmann",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715348066_Thorsten%20Hohmann.jpg",
+            "time": "11:00:00",
+            "date": "23/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792728000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17846ecc9d_49e4b34b_20261023.png?v=49e4b34b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-2c43d9e0e6",
           "name": "Albert Januarta vs Carlo Biado | 11:00 23/10",
           "type": "single",
@@ -90,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-17846ecc9d",
-          "name": "Sánchez Ruiz vs Thorsten Hohmann | 11:00 23/10",
+          "id": "chtv-ed72e4dfe3",
+          "name": "Bernie Regalario vs David Alcaide | 11:00 23/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-17846ecc9d",
+              "id": "src-ed72e4dfe3",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-17846ecc9d",
-                  "name": "Sánchez Ruiz vs Thorsten Hohmann",
+                  "id": "ct-ed72e4dfe3",
+                  "name": "Bernie Regalario vs David Alcaide",
                   "streams": [
                     {
-                      "id": "st-17846ecc9d",
+                      "id": "st-ed72e4dfe3",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-17846ecc9d",
+                          "id": "lnk-ed72e4dfe3",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9455/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9454/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -142,10 +215,10 @@
           ],
           "org_metadata": {
             "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
-            "team_a": "Sánchez Ruiz",
-            "team_b": "Thorsten Hohmann",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792715348066_Thorsten%20Hohmann.jpg",
+            "team_a": "Bernie Regalario",
+            "team_b": "David Alcaide",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792715291600_Bernie%20Regalario.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715272016_David%20Alcaide.jpg",
             "time": "11:00:00",
             "date": "23/10",
             "blv": "",
@@ -157,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17846ecc9d_49e4b34b_20261023.png?v=49e4b34b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed72e4dfe3_4493459c_20261023.png?v=4493459c",
             "width": 1600,
             "height": 1200
           }
@@ -236,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-ed72e4dfe3",
-          "name": "Bernie Regalario vs David Alcaide | 11:00 23/10",
+          "id": "chtv-5adc336c1a",
+          "name": "Jayson Shaw vs Fedor Gorst | 13:00 23/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-ed72e4dfe3",
+              "id": "src-5adc336c1a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ed72e4dfe3",
-                  "name": "Bernie Regalario vs David Alcaide",
+                  "id": "ct-5adc336c1a",
+                  "name": "Jayson Shaw vs Fedor Gorst",
                   "streams": [
                     {
-                      "id": "st-ed72e4dfe3",
+                      "id": "st-5adc336c1a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ed72e4dfe3",
+                          "id": "lnk-5adc336c1a",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9454/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9456/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,22 +361,95 @@
           ],
           "org_metadata": {
             "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
-            "team_a": "Bernie Regalario",
-            "team_b": "David Alcaide",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792715291600_Bernie%20Regalario.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792715272016_David%20Alcaide.jpg",
-            "time": "11:00:00",
+            "team_a": "Jayson Shaw",
+            "team_b": "Fedor Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792715419587_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715422561_Fedor%20Gorst.jpg",
+            "time": "13:00:00",
             "date": "23/10",
             "blv": "",
             "is_live": false,
-            "time_sort": 1792728000,
+            "time_sort": 1792735200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed72e4dfe3_4493459c_20261023.png?v=4493459c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5adc336c1a_5e1549b0_20261023.png?v=5e1549b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d8b214a24b",
+          "name": "Anton Raga vs Jefrey Roda | 13:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8b214a24b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d8b214a24b",
+                  "name": "Anton Raga vs Jefrey Roda",
+                  "streams": [
+                    {
+                      "id": "st-d8b214a24b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8b214a24b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9457/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Anton Raga",
+            "team_b": "Jefrey Roda",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792715542667_ANTON%20RAGA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715545536_Jefrey%20Roda.jpg",
+            "time": "13:00:00",
+            "date": "23/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792735200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8b214a24b_dd226a03_20261023.png?v=dd226a03",
             "width": 1600,
             "height": 1200
           }
