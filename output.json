@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-8bf65da0c1",
+          "name": "Alexis Ferrer vs Dennis Orcollo | 00:56 24/10 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bf65da0c1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8bf65da0c1",
+                  "name": "Alexis Ferrer vs Dennis Orcollo",
+                  "streams": [
+                    {
+                      "id": "st-8bf65da0c1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bf65da0c1",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9471/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Alexis Ferrer",
+            "team_b": "Dennis Orcollo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792774629075_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792774628767_Philippines.png",
+            "time": "00:56:00",
+            "date": "24/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": false,
+            "time_sort": 1792778160,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8bf65da0c1_55451d0f_20261024.png?v=55451d0f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
