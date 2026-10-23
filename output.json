@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-5adc336c1a",
-          "name": "Jayson Shaw vs Fedor Gorst | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5adc336c1a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5adc336c1a",
-                  "name": "Jayson Shaw vs Fedor Gorst",
-                  "streams": [
-                    {
-                      "id": "st-5adc336c1a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5adc336c1a",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9456/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
-            "team_a": "Jayson Shaw",
-            "team_b": "Fedor Gorst",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792715419587_Jayson%20Shaw.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792715422561_Fedor%20Gorst.jpg",
-            "time": "13:00:00",
-            "date": "23/10",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1792735200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5adc336c1a_5e1549b0_20261023.png?v=5e1549b0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d8b214a24b",
           "name": "Anton Raga vs Jefrey Roda | GIÀNG A PHỌ",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-f9b43ab8fb",
-          "name": "Aloysius Yapp vs Baseth Mocaibat | Xinh Yeu",
+          "id": "chtv-5adc336c1a",
+          "name": "Jayson Shaw vs Fedor Gorst | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-f9b43ab8fb",
+              "id": "src-5adc336c1a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f9b43ab8fb",
-                  "name": "Aloysius Yapp vs Baseth Mocaibat",
+                  "id": "ct-5adc336c1a",
+                  "name": "Jayson Shaw vs Fedor Gorst",
                   "streams": [
                     {
-                      "id": "st-f9b43ab8fb",
+                      "id": "st-5adc336c1a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f9b43ab8fb",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-5adc336c1a",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9459/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9456/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,13 +142,13 @@
           ],
           "org_metadata": {
             "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Baseth Mocaibat",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792715749937_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
+            "team_a": "Jayson Shaw",
+            "team_b": "Fedor Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792715419587_Jayson%20Shaw.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715422561_Fedor%20Gorst.jpg",
             "time": "13:00:00",
             "date": "23/10",
-            "blv": "Xinh Yeu",
+            "blv": "SÊ KÔÔ",
             "is_live": true,
             "time_sort": 1792735200,
             "cate_type": "billiards"
@@ -230,153 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9b43ab8fb_615d63d9_20261023.png?v=615d63d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a369d6569c",
-          "name": "Francisco Sánchez Ruiz vs Bernie Regalario | 15:00 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a369d6569c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a369d6569c",
-                  "name": "Francisco Sánchez Ruiz vs Bernie Regalario",
-                  "streams": [
-                    {
-                      "id": "st-a369d6569c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a369d6569c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9460/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
-            "team_a": "Francisco Sánchez Ruiz",
-            "team_b": "Bernie Regalario",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792734111217_Francisco%20Sanchez%20Ruiz.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792734448113_Screenshot%202026-10-23%20124718.png",
-            "time": "15:00:00",
-            "date": "23/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792742400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a369d6569c_9c8c1413_20261023.png?v=9c8c1413",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-07496b8f4f",
-          "name": "Johann Chua vs Carlo Biado | 15:00 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-07496b8f4f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-07496b8f4f",
-                  "name": "Johann Chua vs Carlo Biado",
-                  "streams": [
-                    {
-                      "id": "st-07496b8f4f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07496b8f4f",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9461/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
-            "team_a": "Johann Chua",
-            "team_b": "Carlo Biado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792736261959_Screenshot%202026-10-23%20131724.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792736225264_Carlo%20Biado.png",
-            "time": "15:00:00",
-            "date": "23/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792742400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-07496b8f4f_060b9c95_20261023.png?v=060b9c95",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5adc336c1a_5e1549b0_20261023.png?v=5e1549b0",
             "width": 1600,
             "height": 1200
           }
