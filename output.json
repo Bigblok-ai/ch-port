@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-43f74885f6",
-          "name": "Jaybee Sucal vs Lukas Fracasso-Verner | Kèn Kèn",
+          "id": "chtv-2c43d9e0e6",
+          "name": "Albert Januarta vs Carlo Biado | 11:00 23/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-43f74885f6",
+              "id": "src-2c43d9e0e6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-43f74885f6",
-                  "name": "Jaybee Sucal vs Lukas Fracasso-Verner",
+                  "id": "ct-2c43d9e0e6",
+                  "name": "Albert Januarta vs Carlo Biado",
                   "streams": [
                     {
-                      "id": "st-43f74885f6",
+                      "id": "st-2c43d9e0e6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-43f74885f6",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-2c43d9e0e6",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9451/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9452/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,242 @@
             }
           ],
           "org_metadata": {
-            "league": "GAME CUỐI NGÀY",
-            "team_a": "Jaybee Sucal",
-            "team_b": "Lukas Fracasso-Verner",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792693217233_JAYBEE%20SUCAL.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
-            "time": "01:17:00",
+            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 |  𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Albert Januarta",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792715195448_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715198425_CARLO%20BIADO.jpg",
+            "time": "11:00:00",
             "date": "23/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1792693020,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792728000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43f74885f6_889d14e3_20261023.png?v=889d14e3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2c43d9e0e6_927b8f9e_20261023.png?v=927b8f9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-17846ecc9d",
+          "name": "Sánchez Ruiz vs Thorsten Hohmann | 11:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17846ecc9d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-17846ecc9d",
+                  "name": "Sánchez Ruiz vs Thorsten Hohmann",
+                  "streams": [
+                    {
+                      "id": "st-17846ecc9d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17846ecc9d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9455/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Sánchez Ruiz",
+            "team_b": "Thorsten Hohmann",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715348066_Thorsten%20Hohmann.jpg",
+            "time": "11:00:00",
+            "date": "23/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792728000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17846ecc9d_49e4b34b_20261023.png?v=49e4b34b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4b458bf734",
+          "name": "Johann Chua vs Aleksa Pecelj | 11:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4b458bf734",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4b458bf734",
+                  "name": "Johann Chua vs Aleksa Pecelj",
+                  "streams": [
+                    {
+                      "id": "st-4b458bf734",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b458bf734",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9453/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Johann Chua",
+            "team_b": "Aleksa Pecelj",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792715227186_JOHANN%20CHUA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715223541_Aleksa%20Pecelj.jpg",
+            "time": "11:00:00",
+            "date": "23/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792728000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b458bf734_a072dfd5_20261023.png?v=a072dfd5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ed72e4dfe3",
+          "name": "Bernie Regalario vs David Alcaide | 11:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ed72e4dfe3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ed72e4dfe3",
+                  "name": "Bernie Regalario vs David Alcaide",
+                  "streams": [
+                    {
+                      "id": "st-ed72e4dfe3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed72e4dfe3",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9454/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Bernie Regalario",
+            "team_b": "David Alcaide",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792715291600_Bernie%20Regalario.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715272016_David%20Alcaide.jpg",
+            "time": "11:00:00",
+            "date": "23/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792728000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed72e4dfe3_4493459c_20261023.png?v=4493459c",
             "width": 1600,
             "height": 1200
           }
