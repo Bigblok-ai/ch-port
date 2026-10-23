@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fb56e3e4ef_ddc5371f_20261023.png?v=ddc5371f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e57c8ff29e",
+          "name": "Alexis Ferrer vs Sean Mark Malayan | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e57c8ff29e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e57c8ff29e",
+                  "name": "Alexis Ferrer vs Sean Mark Malayan",
+                  "streams": [
+                    {
+                      "id": "st-e57c8ff29e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e57c8ff29e",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9466/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOANGTV",
+            "team_a": "Alexis Ferrer",
+            "team_b": "Sean Mark Malayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792763237214_Screenshot%202026-10-18%20203717.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792763237270_Screenshot%202026-10-19%20192249.png",
+            "time": "21:00:00",
+            "date": "23/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1792764000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e57c8ff29e_14d433e8_20261023.png?v=14d433e8",
             "width": 1600,
             "height": 1200
           }
