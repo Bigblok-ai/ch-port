@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5adc336c1a_5e1549b0_20261023.png?v=5e1549b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a369d6569c",
+          "name": "Francisco Sánchez Ruiz vs Bernie Regalario | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a369d6569c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a369d6569c",
+                  "name": "Francisco Sánchez Ruiz vs Bernie Regalario",
+                  "streams": [
+                    {
+                      "id": "st-a369d6569c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a369d6569c",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9460/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Francisco Sánchez Ruiz",
+            "team_b": "Bernie Regalario",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792734111217_Francisco%20Sanchez%20Ruiz.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792734448113_Screenshot%202026-10-23%20124718.png",
+            "time": "15:00:00",
+            "date": "23/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1792742400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a369d6569c_9c8c1413_20261023.png?v=9c8c1413",
             "width": 1600,
             "height": 1200
           }
