@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-d8b214a24b",
-          "name": "Anton Raga vs Jefrey Roda | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8b214a24b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d8b214a24b",
-                  "name": "Anton Raga vs Jefrey Roda",
-                  "streams": [
-                    {
-                      "id": "st-d8b214a24b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d8b214a24b",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9457/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
-            "team_a": "Anton Raga",
-            "team_b": "Jefrey Roda",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792715542667_ANTON%20RAGA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792715545536_Jefrey%20Roda.jpg",
-            "time": "13:00:00",
-            "date": "23/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1792735200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8b214a24b_dd226a03_20261023.png?v=dd226a03",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-5adc336c1a",
           "name": "Jayson Shaw vs Fedor Gorst | SÊ KÔÔ",
@@ -163,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-d8b214a24b",
+          "name": "Anton Raga vs Jefrey Roda | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8b214a24b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d8b214a24b",
+                  "name": "Anton Raga vs Jefrey Roda",
+                  "streams": [
+                    {
+                      "id": "st-d8b214a24b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8b214a24b",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9457/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Anton Raga",
+            "team_b": "Jefrey Roda",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792715542667_ANTON%20RAGA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792715545536_Jefrey%20Roda.jpg",
+            "time": "13:00:00",
+            "date": "23/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1792735200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8b214a24b_dd226a03_20261023.png?v=dd226a03",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-f9b43ab8fb",
           "name": "Aloysius Yapp vs Baseth Mocaibat | Xinh Yeu",
           "type": "single",
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9b43ab8fb_615d63d9_20261023.png?v=615d63d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ef8b73c2be",
-          "name": "Shane Van Boening vs Edwin Gamas | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef8b73c2be",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef8b73c2be",
-                  "name": "Shane Van Boening vs Edwin Gamas",
-                  "streams": [
-                    {
-                      "id": "st-ef8b73c2be",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef8b73c2be",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9458/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗟𝗔𝗦𝗧 𝟭𝟲 | 𝐃𝐀𝐘 𝟰 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
-            "team_a": "Shane Van Boening",
-            "team_b": "Edwin Gamas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792715583941_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792715580691_EDWIN%20GAMAS.jpg",
-            "time": "13:00:00",
-            "date": "23/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1792735200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ef8b73c2be_177b8d7c_20261023.png?v=177b8d7c",
             "width": 1600,
             "height": 1200
           }
