@@ -68,7 +68,7 @@
             }
           ],
           "org_metadata": {
-            "league": "án· | 𝐃𝐀𝐘 5 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "league": "| 𝐃𝐀𝐘 5 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
             "team_a": "Bernie Regalario",
             "team_b": "Johann Chua",
             "logo_a": "https://cdn-choangtv.com/img/logo/1792801481553_Bernie%20Regalario.jpg",
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfd159f942_4d1020f1_20261024.png?v=4d1020f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ea08deba8c",
+          "name": "Baseth Mocaibat vs Anton Raga | 13:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea08deba8c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ea08deba8c",
+                  "name": "Baseth Mocaibat vs Anton Raga",
+                  "streams": [
+                    {
+                      "id": "st-ea08deba8c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea08deba8c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9473/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "| 𝐃𝐀𝐘 5 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝗣𝗛𝗜 𝗕𝗜̣𝗣 𝗢𝗣𝗘𝗡",
+            "team_a": "Baseth Mocaibat",
+            "team_b": "Anton Raga",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1769486498537_BASETH%20MOCAIBAT.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792801539746_ANTON%20RAGA.jpg",
+            "time": "13:00:00",
+            "date": "24/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792821600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea08deba8c_4b39158b_20261024.png?v=4b39158b",
             "width": 1600,
             "height": 1200
           }
