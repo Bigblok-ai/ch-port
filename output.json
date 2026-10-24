@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-3e44219c4e",
+          "name": "SP CHOANG vs SP CHOANG | SPCHOANG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e44219c4e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3e44219c4e",
+                  "name": "SP CHOANG vs SP CHOANG",
+                  "streams": [
+                    {
+                      "id": "st-3e44219c4e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e44219c4e",
+                          "name": "SPCHOANG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9474/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SP CHOANG",
+            "team_a": "SP CHOANG",
+            "team_b": "SP CHOANG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792810638769_images.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792810641787_images.jpg",
+            "time": "10:00:00",
+            "date": "24/10",
+            "blv": "SPCHOANG",
+            "is_live": true,
+            "time_sort": 1792810800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3e44219c4e_8144cc1f_20261024.png?v=8144cc1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-bfd159f942",
           "name": "Bernie Regalario vs Johann Chua | 11:00 24/10 | Đại Kê",
