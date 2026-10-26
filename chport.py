@@ -155,6 +155,24 @@ def validate_stream(url, match, max_retries=3):
 # AUTO-RESOLVE SITE DOMAIN (co cache 12h)
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _curl_resolve_redirect(entry_url, timeout=15):
+    """Fallback khi requests bi SSL error voi Cloudflare.
+    curl xu ly TLS fingerprint tot hon -> lay final URL sau redirect."""
+    import subprocess
+    try:
+        result = subprocess.run(
+            ["curl", "-sIL", "-o", "/dev/null", "-w", "%{url_effective}",
+             "-A", FULL_UA, "--max-time", str(timeout),
+             "--tls-max", "1.3", "--tlsv1.2", entry_url],
+            capture_output=True, text=True, timeout=timeout + 5
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            return result.stdout.strip().strip()
+    except Exception:
+        pass
+    return None
+
+
 def resolve_site_domain(entry_url, default_domain):
     cache = None
     if os.path.exists(DOMAIN_CACHE_FILE):
@@ -175,11 +193,25 @@ def resolve_site_domain(entry_url, default_domain):
             pass
 
     default_site = f"https://{default_domain}"
+    final_url = None
+    ssl_error = None
+
+    # Buoc 1: thu requests (nhan SSL fingerprint cua urllib3/OpenSSL)
     try:
         print(f"  Dang kiem tra redirect tu: {entry_url}")
         res = http_get(entry_url, headers={"User-Agent": FULL_UA},
                        timeout=(10, 15), max_retries=2, allow_redirects=True)
-        parsed = urlparse(res.url)
+        final_url = res.url
+    except Exception as e:
+        ssl_error = e
+        print(f"  ⚠️  requests SSL loi: {type(e).__name__} -> thu curl fallback")
+
+    # Buoc 2: neu requests that bai (Cloudflare SSL), dung curl
+    if not final_url:
+        final_url = _curl_resolve_redirect(entry_url)
+
+    if final_url:
+        parsed = urlparse(final_url)
         netloc = parsed.netloc[4:] if parsed.netloc.startswith("www.") else parsed.netloc
         site_url = f"{parsed.scheme}://{netloc}"
         if site_url and site_url.rstrip("/") != entry_url.rstrip("/"):
@@ -190,12 +222,13 @@ def resolve_site_domain(entry_url, default_domain):
         print(f"  ℹ️  Khong co redirect, giu nguyen: {default_domain}")
         _save(default_site, default_site + "/", default_domain)
         return default_site, default_site + "/", default_domain
-    except Exception as e:
-        if cache:
-            print(f"  ⚠️  Resolve loi ({e}) -> dung CACHE: {cache['site_url']}")
-            return cache["site_url"], cache["referer"], cache["api_domain"]
-        print(f"  ⚠️  Resolve loi ({e}) -> dung gia tri mac dinh")
-        return default_site, default_site + "/", default_domain
+
+    # Buoc 3: ca requests va curl deu loi -> cache hoac mac dinh
+    if cache:
+        print(f"  ⚠️  Resolve loi ({ssl_error}) -> dung CACHE: {cache['site_url']}")
+        return cache["site_url"], cache["referer"], cache["api_domain"]
+    print(f"  ⚠️  Resolve loi ({ssl_error}) -> dung gia tri mac dinh")
+    return default_site, default_site + "/", default_domain
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -208,7 +241,7 @@ HEADERS = {
 }
 
 ENTRY_SITE_URL   = "https://choangtv.com/"
-DEFAULT_DOMAIN   = "choangtv21.com"
+DEFAULT_DOMAIN   = "choangtv25.com"   # cap nhat 2026-10-27: choangtv21.com da chet, site chuyen sang choangtv25.com
 CDN_BASE         = "https://cdn.sports-cas889abxfileposo.site/live"
 SITE_URL         = f"https://{DEFAULT_DOMAIN}"
 API_URL          = f"https://api.{DEFAULT_DOMAIN}/matchSchedule/getList"
