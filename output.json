@@ -234,6 +234,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-3a95461fd4",
+          "name": "Torino vs Como | 02:45 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a95461fd4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3a95461fd4",
+                  "name": "Torino vs Como",
+                  "streams": [
+                    {
+                      "id": "st-3a95461fd4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a95461fd4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9637/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Torino",
+            "team_b": "Como",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793120612359_Screenshot%202026-10-28%20000325.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793120595450_Screenshot%202026-10-28%20000309.png",
+            "time": "02:45:00",
+            "date": "28/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793130300,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3a95461fd4_9ad384e7_20261028.png?v=9ad384e7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
