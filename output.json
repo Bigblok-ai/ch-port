@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e34798efec_4457db30_20261027.png?v=4457db30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e2eeb0ffa1",
+          "name": "ARJAY GRACIA vs UN2 MARVEL | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2eeb0ffa1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e2eeb0ffa1",
+                  "name": "ARJAY GRACIA vs UN2 MARVEL",
+                  "streams": [
+                    {
+                      "id": "st-e2eeb0ffa1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2eeb0ffa1",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9633/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi không bịp",
+            "team_a": "ARJAY GRACIA",
+            "team_b": "UN2 MARVEL",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793114133885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793114134342_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "22:16:00",
+            "date": "27/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1793114160,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e2eeb0ffa1_cbc34bc8_20261027.png?v=cbc34bc8",
             "width": 1600,
             "height": 1200
           }
