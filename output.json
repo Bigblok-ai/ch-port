@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a658b305e4_d86b6c1f_20261027.png?v=d86b6c1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8b5bc9c3ee",
+          "name": "ROBBIE CAPITO vs DAVID ALCAIDE | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b5bc9c3ee",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8b5bc9c3ee",
+                  "name": "ROBBIE CAPITO vs DAVID ALCAIDE",
+                  "streams": [
+                    {
+                      "id": "st-8b5bc9c3ee",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b5bc9c3ee",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9584/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
+            "team_a": "ROBBIE CAPITO",
+            "team_b": "DAVID ALCAIDE",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793093081090_Screenshot%202026-10-27%20162435.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793093096967_Screenshot%202026-10-27%20162446.png",
+            "time": "18:00:00",
+            "date": "27/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1793098800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8b5bc9c3ee_2aca83a7_20261027.png?v=2aca83a7",
             "width": 1600,
             "height": 1200
           }
