@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,38 +90,38 @@
           }
         },
         {
-          "id": "chtv-c8fa8189b6",
-          "name": "MIGUEL SALVILLA vs JERICO BONUS | 15:00 28/10",
+          "id": "chtv-45d6b49e88",
+          "name": "KO PING CHUNG vs KO PING HAN | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-c8fa8189b6",
+              "id": "src-45d6b49e88",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c8fa8189b6",
-                  "name": "MIGUEL SALVILLA vs JERICO BONUS",
+                  "id": "ct-45d6b49e88",
+                  "name": "KO PING CHUNG vs KO PING HAN",
                   "streams": [
                     {
-                      "id": "st-c8fa8189b6",
+                      "id": "st-45d6b49e88",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c8fa8189b6",
-                          "name": "Stream",
+                          "id": "lnk-45d6b49e88",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9641/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9648/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +141,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
-            "team_a": "MIGUEL SALVILLA",
-            "team_b": "JERICO BONUS",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "15:00:00",
+            "league": "ANH EM NHÀ KO",
+            "team_a": "KO PING CHUNG",
+            "team_b": "KO PING HAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793171286548_Screenshot%202026-10-28%20140800.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793171259986_Screenshot%202026-10-28%20140735.png",
+            "time": "14:08:00",
             "date": "28/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793174400,
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1793171280,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c8fa8189b6_ceec2b1f_20261028.png?v=ceec2b1f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-45d6b49e88_4e8ebcd9_20261028.png?v=4e8ebcd9",
             "width": 1600,
             "height": 1200
           }
@@ -669,6 +669,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-47cd9bde6c_8654982c_20261028.png?v=8654982c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c8fa8189b6",
+          "name": "MIGUEL SALVILLA vs JERICO BONUS | 15:00 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c8fa8189b6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c8fa8189b6",
+                  "name": "MIGUEL SALVILLA vs JERICO BONUS",
+                  "streams": [
+                    {
+                      "id": "st-c8fa8189b6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8fa8189b6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9641/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
+            "team_a": "MIGUEL SALVILLA",
+            "team_b": "JERICO BONUS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "15:00:00",
+            "date": "28/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793174400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c8fa8189b6_ceec2b1f_20261028.png?v=ceec2b1f",
             "width": 1600,
             "height": 1200
           }
