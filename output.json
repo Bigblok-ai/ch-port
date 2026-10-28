@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-11d4f75959",
-          "name": "MIGUEL SALVILLA vs JOSHUA FILLER | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11d4f75959",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-11d4f75959",
-                  "name": "MIGUEL SALVILLA vs JOSHUA FILLER",
-                  "streams": [
-                    {
-                      "id": "st-11d4f75959",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11d4f75959",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9653/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
-            "team_a": "MIGUEL SALVILLA",
-            "team_b": "JOSHUA FILLER",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793184436406_Screenshot%202026-10-28%20174702.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793184436187_Screenshot%202026-10-28%20174707.png",
-            "time": "19:00:00",
-            "date": "28/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1793188800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11d4f75959_21377e85_20261028.png?v=21377e85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-8771beae3f",
           "name": "Owat vs Jr Pogs | Xinh Yeu",
@@ -231,6 +158,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bf99198671_76aaea61_20261028.png?v=76aaea61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4464a98056",
+          "name": "Manchester City vs Brighton | 02:30 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4464a98056",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4464a98056",
+                  "name": "Manchester City vs Brighton",
+                  "streams": [
+                    {
+                      "id": "st-4464a98056",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4464a98056",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9656/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÓNG BÁNH",
+            "team_a": "Manchester City",
+            "team_b": "Brighton",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793197564090_Screenshot%202026-10-28%20212557.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793197579794_Screenshot%202026-10-28%20212613.png",
+            "time": "02:30:00",
+            "date": "29/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793215800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4464a98056_a860f3c7_20261028.png?v=a860f3c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-774a022bbd",
+          "name": "Liverpool vs Chelsea | 03:00 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-774a022bbd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-774a022bbd",
+                  "name": "Liverpool vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-774a022bbd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-774a022bbd",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9657/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Liverpool",
+            "team_b": "Chelsea",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793197750852_Screenshot%202026-10-28%20212845.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793197750417_Screenshot%202026-10-28%20212858.png",
+            "time": "03:00:00",
+            "date": "29/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793217600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-774a022bbd_9a9f4c34_20261028.png?v=9a9f4c34",
             "width": 1600,
             "height": 1200
           }
