@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e66c378ea6",
-          "name": "Tùng gái vs Tùng kều | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e66c378ea6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e66c378ea6",
-                  "name": "Tùng gái vs Tùng kều",
-                  "streams": [
-                    {
-                      "id": "st-e66c378ea6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e66c378ea6",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9670/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Tùng gái",
-            "team_b": "Tùng kều",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793258868005_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793258867679_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:30:00",
-            "date": "29/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793259000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e66c378ea6_fce19bb0_20261029.png?v=fce19bb0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b1c0dd00f2",
           "name": "WOJCIECH SZEWCZYK vs JOSHUA FILLER | Đại Kê",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f2e2943291_29b8fa35_20261029.png?v=29b8fa35",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-713587231c",
+          "name": "duy đen vs dj manas | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-713587231c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-713587231c",
+                  "name": "duy đen vs dj manas",
+                  "streams": [
+                    {
+                      "id": "st-713587231c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-713587231c",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9672/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "duy đen",
+            "team_b": "dj manas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793267230231_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793267229404_Screenshot%202026-10-15%20133326.png",
+            "time": "16:46:00",
+            "date": "29/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1793267160,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-713587231c_5e47ed61_20261029.png?v=5e47ed61",
             "width": 1600,
             "height": 1200
           }
