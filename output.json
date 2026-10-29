@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-036754054c_d86b6c1f_20261029.png?v=d86b6c1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0af030a360",
-          "name": "duy đen vs dj manas | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0af030a360",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0af030a360",
-                  "name": "duy đen vs dj manas",
-                  "streams": [
-                    {
-                      "id": "st-0af030a360",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0af030a360",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9675/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "duy đen game 3",
-            "team_a": "duy đen",
-            "team_b": "dj manas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793267230231_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793267229404_Screenshot%202026-10-15%20133326.png",
-            "time": "19:00:00",
-            "date": "29/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1793275200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0af030a360_5e47ed61_20261029.png?v=5e47ed61",
             "width": 1600,
             "height": 1200
           }
