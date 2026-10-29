@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1c0dd00f2_553b1b45_20261029.png?v=553b1b45",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f2e2943291",
-          "name": "DANIEL MACIOŁ vs ĐICHÂY MANÁT | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2e2943291",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f2e2943291",
-                  "name": "DANIEL MACIOŁ vs ĐICHÂY MANÁT",
-                  "streams": [
-                    {
-                      "id": "st-f2e2943291",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2e2943291",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9666/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
-            "team_a": "DANIEL MACIOŁ",
-            "team_b": "ĐICHÂY MANÁT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793241639983_Daniel%20Macio%C5%82.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793241643546_AJ%20MANAS.jpg",
-            "time": "16:00:00",
-            "date": "29/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1793264400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f2e2943291_29b8fa35_20261029.png?v=29b8fa35",
             "width": 1600,
             "height": 1200
           }
