@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-774a022bbd",
-          "name": "Liverpool vs Chelsea | 03:00 29/10",
+          "id": "chtv-732fade19d",
+          "name": "Raulito de RD vs Croveto | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-774a022bbd",
+              "id": "src-732fade19d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-774a022bbd",
-                  "name": "Liverpool vs Chelsea",
+                  "id": "ct-732fade19d",
+                  "name": "Raulito de RD vs Croveto",
                   "streams": [
                     {
-                      "id": "st-774a022bbd",
+                      "id": "st-732fade19d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-774a022bbd",
-                          "name": "Stream",
+                          "id": "lnk-732fade19d",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9657/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9664/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Liverpool",
-            "team_b": "Chelsea",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793197750852_Screenshot%202026-10-28%20212845.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793197750417_Screenshot%202026-10-28%20212858.png",
-            "time": "03:00:00",
+            "league": "𝗧𝗿𝗼̛̀𝗶 𝗗𝗮̂́𝘁 𝗗𝘂𝗻𝗴 𝗛𝗼𝗮 𝗩𝗮̣𝗻 𝗩𝗮̣̂𝘁 𝗗𝘂𝗻𝗴 𝗛𝗼̀𝗮",
+            "team_a": "Raulito de RD",
+            "team_b": "Croveto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793238127964_Brazil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793238133244_Brazil.png",
+            "time": "08:41:00",
             "date": "29/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793217600,
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1793238060,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-774a022bbd_9a9f4c34_20261029.png?v=9a9f4c34",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-732fade19d_02b26253_20261029.png?v=02b26253",
             "width": 1600,
             "height": 1200
           }
