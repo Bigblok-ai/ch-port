@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-f1250ac48b",
+          "name": "TOBIAS BONGERS vs JUSZCZYSZYN KONRAD | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1250ac48b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f1250ac48b",
+                  "name": "TOBIAS BONGERS vs JUSZCZYSZYN KONRAD",
+                  "streams": [
+                    {
+                      "id": "st-f1250ac48b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f1250ac48b",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9684/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "hehehe",
+            "team_a": "TOBIAS BONGERS",
+            "team_b": "JUSZCZYSZYN KONRAD",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793293035235_Screenshot%202026-10-29%20235648.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793293035689_Screenshot%202026-10-29%20235701.png",
+            "time": "11:57:00",
+            "date": "29/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1793249820,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f1250ac48b_01830aa3_20261030.png?v=01830aa3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-a6990c284c",
           "name": "Jaybee sucal vs Carl meraflor | Đại Kê",
@@ -84,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6990c284c_10cf346e_20261029.png?v=10cf346e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6990c284c_10cf346e_20261030.png?v=10cf346e",
             "width": 1600,
             "height": 1200
           }
@@ -144,7 +217,7 @@
             "league": "phi bịp",
             "team_a": "leevan corteza",
             "team_b": "dennis orcollo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793292279035_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793293215885_%E2%80%8BLee%20vann%20corteza.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1793292278738_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "23:44:00",
             "date": "29/10",
@@ -157,7 +230,153 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-998d6e40bc_273fe5bf_20261029.png?v=273fe5bf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-998d6e40bc_67e4fb0a_20261030.png?v=67e4fb0a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8053496c53",
+          "name": "sanchez ruiz vs badovinac | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8053496c53",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8053496c53",
+                  "name": "sanchez ruiz vs badovinac",
+                  "streams": [
+                    {
+                      "id": "st-8053496c53",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8053496c53",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9685/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "giải trí",
+            "team_a": "sanchez ruiz",
+            "team_b": "badovinac",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793293163124_Screenshot%202026-10-29%20235846.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793293162804_Screenshot%202026-10-29%20235916.png",
+            "time": "23:58:00",
+            "date": "29/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1793293080,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8053496c53_d2ae5b48_20261030.png?v=d2ae5b48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-932eef5edb",
+          "name": "Szolnoki oliver vs Benko makS | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-932eef5edb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-932eef5edb",
+                  "name": "Szolnoki oliver vs Benko makS",
+                  "streams": [
+                    {
+                      "id": "st-932eef5edb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-932eef5edb",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9686/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOANGTV",
+            "team_a": "Szolnoki oliver",
+            "team_b": "Benko makS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793293158508_Oliver%20Szolnoki.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793293188065_Screenshot%202026-10-29%20235941.png",
+            "time": "00:00:00",
+            "date": "30/10",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1793293200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-932eef5edb_0e19c709_20261030.png?v=0e19c709",
             "width": 1600,
             "height": 1200
           }
@@ -230,80 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5ba0c565eb_1568e473_20261029.png?v=1568e473",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-09221d8f11",
-          "name": "Fiorentina vs Atalanta | 02:45 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09221d8f11",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-09221d8f11",
-                  "name": "Fiorentina vs Atalanta",
-                  "streams": [
-                    {
-                      "id": "st-09221d8f11",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09221d8f11",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9679/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng banh",
-            "team_a": "Fiorentina",
-            "team_b": "Atalanta",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793281960626_Screenshot%202026-10-29%20205207.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793281960562_Screenshot%202026-10-29%20205218.png",
-            "time": "02:45:00",
-            "date": "30/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793303100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09221d8f11_647cede0_20261029.png?v=647cede0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5ba0c565eb_1568e473_20261030.png?v=1568e473",
             "width": 1600,
             "height": 1200
           }
@@ -376,7 +522,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f60b2a5f23_7175f713_20261029.png?v=7175f713",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f60b2a5f23_7175f713_20261030.png?v=7175f713",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-09221d8f11",
+          "name": "Fiorentina vs Atalanta | 02:45 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09221d8f11",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-09221d8f11",
+                  "name": "Fiorentina vs Atalanta",
+                  "streams": [
+                    {
+                      "id": "st-09221d8f11",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09221d8f11",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9679/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng banh",
+            "team_a": "Fiorentina",
+            "team_b": "Atalanta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793281960626_Screenshot%202026-10-29%20205207.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793281960562_Screenshot%202026-10-29%20205218.png",
+            "time": "02:45:00",
+            "date": "30/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793303100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09221d8f11_647cede0_20261030.png?v=647cede0",
             "width": 1600,
             "height": 1200
           }
