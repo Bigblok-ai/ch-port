@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f1250ac48b_01830aa3_20261030.png?v=01830aa3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a6990c284c",
-          "name": "Jaybee sucal vs Carl meraflor | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a6990c284c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a6990c284c",
-                  "name": "Jaybee sucal vs Carl meraflor",
-                  "streams": [
-                    {
-                      "id": "st-a6990c284c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6990c284c",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9677/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Jaybee sucal",
-            "team_b": "Carl meraflor",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793276047675_Screenshot%202026-10-28%20211343.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793276044960_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "19:15:00",
-            "date": "29/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1793276100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6990c284c_10cf346e_20261030.png?v=10cf346e",
             "width": 1600,
             "height": 1200
           }
@@ -455,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-f60b2a5f23",
-          "name": "Everton vs Newcastle | 02:45 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f60b2a5f23",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f60b2a5f23",
-                  "name": "Everton vs Newcastle",
-                  "streams": [
-                    {
-                      "id": "st-f60b2a5f23",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f60b2a5f23",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9681/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bóng",
-            "team_a": "Everton",
-            "team_b": "Newcastle",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793282327451_Screenshot%202026-10-29%20205839.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793282327066_Screenshot%202026-10-29%20205830.png",
-            "time": "02:45:00",
-            "date": "30/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793303100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f60b2a5f23_7175f713_20261030.png?v=7175f713",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-09221d8f11",
           "name": "Fiorentina vs Atalanta | 02:45 30/10",
           "type": "single",
@@ -596,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09221d8f11_647cede0_20261030.png?v=647cede0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f60b2a5f23",
+          "name": "Everton vs Newcastle | 02:45 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f60b2a5f23",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f60b2a5f23",
+                  "name": "Everton vs Newcastle",
+                  "streams": [
+                    {
+                      "id": "st-f60b2a5f23",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f60b2a5f23",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9681/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bóng",
+            "team_a": "Everton",
+            "team_b": "Newcastle",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793282327451_Screenshot%202026-10-29%20205839.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793282327066_Screenshot%202026-10-29%20205830.png",
+            "time": "02:45:00",
+            "date": "30/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793303100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f60b2a5f23_7175f713_20261030.png?v=7175f713",
             "width": 1600,
             "height": 1200
           }
