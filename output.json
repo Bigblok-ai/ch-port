@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-8053496c53",
-          "name": "sanchez ruiz vs badovinac | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8053496c53",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8053496c53",
-                  "name": "sanchez ruiz vs badovinac",
-                  "streams": [
-                    {
-                      "id": "st-8053496c53",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8053496c53",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9685/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "giải trí",
-            "team_a": "sanchez ruiz",
-            "team_b": "badovinac",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793293163124_Screenshot%202026-10-29%20235846.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793293162804_Screenshot%202026-10-29%20235916.png",
-            "time": "23:58:00",
-            "date": "29/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1793293080,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8053496c53_d2ae5b48_20261030.png?v=d2ae5b48",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-932eef5edb",
           "name": "Szolnoki oliver vs Benko makS | Tào A Man",
           "type": "single",
@@ -309,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-5ba0c565eb",
-          "name": "Al Nassr vs Al Kholood | 01:00 30/10",
+          "id": "chtv-f60b2a5f23",
+          "name": "Everton vs Newcastle | 02:45 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-5ba0c565eb",
+              "id": "src-f60b2a5f23",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5ba0c565eb",
-                  "name": "Al Nassr vs Al Kholood",
+                  "id": "ct-f60b2a5f23",
+                  "name": "Everton vs Newcastle",
                   "streams": [
                     {
-                      "id": "st-5ba0c565eb",
+                      "id": "st-f60b2a5f23",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5ba0c565eb",
+                          "id": "lnk-f60b2a5f23",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9680/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9681/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,22 +288,22 @@
           ],
           "org_metadata": {
             "league": "bóng bóng",
-            "team_a": "Al Nassr",
-            "team_b": "Al Kholood",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793282169773_Screenshot%202026-10-29%20205514.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793282170398_Screenshot%202026-10-29%20205505.png",
-            "time": "01:00:00",
+            "team_a": "Everton",
+            "team_b": "Newcastle",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793282327451_Screenshot%202026-10-29%20205839.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793282327066_Screenshot%202026-10-29%20205830.png",
+            "time": "02:45:00",
             "date": "30/10",
             "blv": "",
             "is_live": false,
-            "time_sort": 1793296800,
+            "time_sort": 1793303100,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5ba0c565eb_1568e473_20261030.png?v=1568e473",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f60b2a5f23_7175f713_20261030.png?v=7175f713",
             "width": 1600,
             "height": 1200
           }
@@ -450,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09221d8f11_647cede0_20261030.png?v=647cede0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f60b2a5f23",
-          "name": "Everton vs Newcastle | 02:45 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f60b2a5f23",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f60b2a5f23",
-                  "name": "Everton vs Newcastle",
-                  "streams": [
-                    {
-                      "id": "st-f60b2a5f23",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f60b2a5f23",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9681/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bóng",
-            "team_a": "Everton",
-            "team_b": "Newcastle",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793282327451_Screenshot%202026-10-29%20205839.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793282327066_Screenshot%202026-10-29%20205830.png",
-            "time": "02:45:00",
-            "date": "30/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793303100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f60b2a5f23_7175f713_20261030.png?v=7175f713",
             "width": 1600,
             "height": 1200
           }
