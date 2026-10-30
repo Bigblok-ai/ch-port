@@ -385,7 +385,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -459,6 +459,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3c0ea36b80_592e360d_20261030.png?v=592e360d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bb5efe3780",
+          "name": "ERWIN GRACIA vs WANING | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb5efe3780",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bb5efe3780",
+                  "name": "ERWIN GRACIA vs WANING",
+                  "streams": [
+                    {
+                      "id": "st-bb5efe3780",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb5efe3780",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9711/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "ERWIN GRACIA",
+            "team_b": "WANING",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793363665673_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793363665208_Philippines.png",
+            "time": "19:40:00",
+            "date": "30/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1793364000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb5efe3780_53f7f734_20261030.png?v=53f7f734",
             "width": 1600,
             "height": 1200
           }
