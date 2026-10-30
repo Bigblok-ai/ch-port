@@ -896,7 +896,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -970,6 +970,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fbcf742481_5e249a42_20261030.png?v=5e249a42",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-97312eab8e",
+          "name": "PHƯƠNG LINH HỒN vs ÁO NGỰA VẰN | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97312eab8e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-97312eab8e",
+                  "name": "PHƯƠNG LINH HỒN vs ÁO NGỰA VẰN",
+                  "streams": [
+                    {
+                      "id": "st-97312eab8e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-97312eab8e",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9707/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "PHƯƠNG LINH HỒN",
+            "team_b": "ÁO NGỰA VẰN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793353529710_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793353529458_Screenshot%202026-10-15%20133326.png",
+            "time": "16:45:00",
+            "date": "30/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1793353500,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-97312eab8e_48d190c0_20261030.png?v=48d190c0",
             "width": 1600,
             "height": 1200
           }
