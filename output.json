@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-32e0ec3d33_0e19f882_20261030.png?v=0e19f882",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-11d0edac5a",
-          "name": "James Aranas vs Bình Ốc | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11d0edac5a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-11d0edac5a",
-                  "name": "James Aranas vs Bình Ốc",
-                  "streams": [
-                    {
-                      "id": "st-11d0edac5a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11d0edac5a",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9716/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99 billard",
-            "team_a": "James Aranas",
-            "team_b": "Bình Ốc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793372696954_Screenshot%202026-10-30%20220437.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793372696826_Screenshot%202026-10-30%20220447.png",
-            "time": "22:04:00",
-            "date": "30/10",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1793372640,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-11d0edac5a_7e9841c9_20261030.png?v=7e9841c9",
             "width": 1600,
             "height": 1200
           }
