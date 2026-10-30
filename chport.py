@@ -528,24 +528,15 @@ def get_matches():
         return re.sub(r'\s*[\(\[][\+\-]?\d+([.,]\d+)?(win)?[\)\]]', '', name).strip()
 
     def get_group_key(match):
-        text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('category', '')}"
-
-        is_billiard = bool(BILLIARD_PATTERN.search(text_to_check))
-        is_martial  = bool(MARTIAL_PATTERN.search(text_to_check))
-
+        # Bo phan loai mon (BILLIARD/MARTIAL) - tat ca de mac dinh la Billiards
         league = match.get("league", "")
         league_clean = re.sub(r'Trận đấu \d+\s*\|\s*', '', league).strip()
         kickoff = parse_kickoff(match.get("time_raw", ""))
-        date_key = kickoff.strftime("%Y-%m-%d") if kickoff else ""
-
-        if is_martial and not is_billiard:
-            return ("MARTIAL", league_clean.lower(), date_key)
-        else:
-            team_a = clean_team_name(match.get("team_a", ""))
-            team_b = clean_team_name(match.get("team_b", ""))
-            teams = tuple(sorted([team_a.lower(), team_b.lower()]))
-            time_key = kickoff.strftime("%Y-%m-%d %H:%M") if kickoff else match.get("time_raw", "")
-            return ("BILLIARD", league_clean.lower(), teams, time_key)
+        team_a = clean_team_name(match.get("team_a", ""))
+        team_b = clean_team_name(match.get("team_b", ""))
+        teams = tuple(sorted([team_a.lower(), team_b.lower()]))
+        time_key = kickoff.strftime("%Y-%m-%d %H:%M") if kickoff else match.get("time_raw", "")
+        return ("BILLIARD", league_clean.lower(), teams, time_key)
 
     def select_representative(matches_list):
         matches_list.sort(key=lambda x: (0 if x["is_live"] else 1, x["time_sort"]))
@@ -580,16 +571,15 @@ def get_matches():
     for key, matches_in_event in grouped_upcoming.items():
         rep = select_representative(matches_in_event)
         if rep:
-            if key[0] == "MARTIAL":
-                league_clean = re.sub(r'Trận đấu \d+\s*\|\s*', '', rep.get("league", "")).strip()
-                if league_clean:
-                    rep["name"] = league_clean
-                    rep["team_a"] = ""
-                    rep["team_b"] = ""
-            else:
-                rep["team_a"] = clean_team_name(rep.get("team_a", ""))
-                rep["team_b"] = clean_team_name(rep.get("team_b", ""))
+            # Tat ca deu la Billiards - don gian hoa ten
+            rep["team_a"] = clean_team_name(rep.get("team_a", ""))
+            rep["team_b"] = clean_team_name(rep.get("team_b", ""))
+            # Neu ca 2 team deu rong (VD: ONE Friday Fights chi co league), dung league lam name
+            if rep["team_a"] or rep["team_b"]:
                 rep["name"] = f"{rep['team_a']} vs {rep['team_b']}"
+            else:
+                league_clean = re.sub(r'Trận đấu \d+\s*\|\s*', '', rep.get("league", "")).strip()
+                rep["name"] = league_clean or f"Tran {rep['match_id']}"
             final_upcoming.append(rep)
             if len(matches_in_event) > 1:
                 print(f"  Gom nhom SAP: {len(matches_in_event)} tran -> 1 dai dien [{rep['name']}]")
@@ -598,7 +588,12 @@ def get_matches():
     for m in live_matches:
         m["team_a"] = clean_team_name(m.get("team_a", ""))
         m["team_b"] = clean_team_name(m.get("team_b", ""))
-        m["name"] = f"{m['team_a']} vs {m['team_b']}"
+        # Neu ca 2 team deu rong, dung league lam name (VD: ONE Friday Fights)
+        if m["team_a"] or m["team_b"]:
+            m["name"] = f"{m['team_a']} vs {m['team_b']}"
+        else:
+            league_clean = re.sub(r'Trận đấu \d+\s*\|\s*', '', m.get("league", "")).strip()
+            m["name"] = league_clean or f"Tran {m['match_id']}"
 
     final_matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     print(f"  Cuoi cung: {len(final_matches)} tran ({len(live_matches)} LIVE + {len(final_upcoming)} SAP)")
@@ -715,58 +710,36 @@ def main():
     prev_chs = prev_channels(load_prev_output())
 
     billiard_channels = []
-    vo_thuat_channels = []
 
     for i, match in enumerate(matches):
         status = "LIVE" if match["is_live"] else "SAP"
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']}) | BLV: {match['caster']}")
 
-        if not validate_stream(match["stream_url"], match):
-            print(f"  ⚠️  Stream khong hop le, bo qua: {match['stream_url']}")
-            continue
-
+        # Bo validate_stream - giu lai tat ca tran ke ca khi CDN chua bat (live 404 nhu ONE Friday)
         uid        = make_id(match["stream_url"], "chtv")
         thumb_path = make_thumbnail(match, uid)
         cache_key  = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VER
         logo_hash  = hashlib.md5(cache_key.encode()).hexdigest()[:8]
         thumb_url  = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
 
-        # 🛡️ Phân loại bằng Regex word boundary - tránh bug Mohammad = MMA
-        text_to_check = f"{match.get('name', '')} {match.get('league', '')} {match.get('category', '')}"
-        is_billiard = bool(BILLIARD_PATTERN.search(text_to_check))
-        is_martial  = bool(MARTIAL_PATTERN.search(text_to_check))
-        cate_type   = "martial" if (is_martial and not is_billiard) else "billiards"
-
+        # Tat ca de mac dinh la billiards - khong phan loai mon nua
+        cate_type = "billiards"
         ch = build_channel(match, thumb_url, cate_type)
-
-        if cate_type == "martial":
-            vo_thuat_channels.append(ch)
-        else:
-            billiard_channels.append(ch)
+        billiard_channels.append(ch)
 
         time.sleep(0.2)
 
     # Fail-safe 2: co date fail -> merge giu lai kenh cu con han
-    new_channels = billiard_channels + vo_thuat_channels
+    new_channels = billiard_channels
 
     if failed_dates:
-        merged = merge_preserve(new_channels, prev_chs)
-        vo_thuat_channels, billiard_channels = split_by_cate(merged)
+        _, billiard_channels = split_by_cate(merge_preserve(new_channels, prev_chs))
     elif not new_channels and prev_chs:
         # Fail-safe 3: API tra rong bat thuong -> giu output cu
         print("⛔ API tra rong du output cu co kenh -> nghi loi, giu output cu")
         return
 
     groups = []
-    if vo_thuat_channels:
-        lc_ma = sum(1 for ch in vo_thuat_channels if ch.get("org_metadata", {}).get("is_live", False))
-        groups.append({
-            "id": "cate_vothuat",
-            "name": f"🥊 Võ Thuật ({lc_ma} LIVE)" if lc_ma > 0 else "🥊 Võ Thuật",
-            "display": "vertical", "grid_number": 2, "enable_detail": False,
-            "channels": vo_thuat_channels,
-        })
-
     if billiard_channels:
         lc_bi = sum(1 for ch in billiard_channels if ch.get("org_metadata", {}).get("is_live", False))
         groups.append({
@@ -787,7 +760,7 @@ def main():
     with open(staging, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    total = len(vo_thuat_channels) + len(billiard_channels)
+    total = len(billiard_channels)
 
     def normalize(path):
         try:
