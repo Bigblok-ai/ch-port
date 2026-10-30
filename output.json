@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7af9da5008_29773661_20261030.png?v=29773661",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a1b9f40b43",
-          "name": "SZEWCZYK Wojciech vs DOHR Niklas | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1b9f40b43",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a1b9f40b43",
-                  "name": "SZEWCZYK Wojciech vs DOHR Niklas",
-                  "streams": [
-                    {
-                      "id": "st-a1b9f40b43",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1b9f40b43",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9713/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PREDATOR EUROTOUR REVORA SPANISH OPEN 2026",
-            "team_a": "SZEWCZYK Wojciech",
-            "team_b": "DOHR Niklas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793366319180_Screenshot%202026-10-30%20201831.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793366341185_Screenshot%202026-10-30%20201855.png",
-            "time": "20:18:00",
-            "date": "30/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1793366280,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a1b9f40b43_5e734bd9_20261030.png?v=5e734bd9",
             "width": 1600,
             "height": 1200
           }
