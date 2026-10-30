@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-50c32b653f_00a57582_20261031.png?v=00a57582",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-2ed06a7470",
-          "name": "Felix Vogel vs Mieszko Fortunski | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ed06a7470",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2ed06a7470",
-                  "name": "Felix Vogel vs Mieszko Fortunski",
-                  "streams": [
-                    {
-                      "id": "st-2ed06a7470",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ed06a7470",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9720/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "kèo đêm",
-            "team_a": "Felix Vogel",
-            "team_b": "Mieszko Fortunski",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793385566789_Felix%20Vogel.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793385569656_Mieszko%20FORTUNSKI.jpg",
-            "time": "01:39:00",
-            "date": "31/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793385540,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2ed06a7470_ef48a61e_20261031.png?v=ef48a61e",
             "width": 1600,
             "height": 1200
           }
