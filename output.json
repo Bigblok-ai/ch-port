@@ -896,7 +896,7 @@
     },
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -970,6 +970,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3c0ea36b80_592e360d_20261030.png?v=592e360d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-92bd30a2dc",
+          "name": "SOUTO Jonas vs KOCAMAZ Toraman | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92bd30a2dc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-92bd30a2dc",
+                  "name": "SOUTO Jonas vs KOCAMAZ Toraman",
+                  "streams": [
+                    {
+                      "id": "st-92bd30a2dc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-92bd30a2dc",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9709/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PREDATOR EUROTOUR REVORA SPANISH OPEN 2026",
+            "team_a": "SOUTO Jonas",
+            "team_b": "KOCAMAZ Toraman",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793359157599_T%C3%A2y%20Ban%20Nha.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793359093662_Screenshot%202026-10-30%20181808.png",
+            "time": "18:30:00",
+            "date": "30/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1793359800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-92bd30a2dc_3bcf1b84_20261030.png?v=3bcf1b84",
             "width": 1600,
             "height": 1200
           }
