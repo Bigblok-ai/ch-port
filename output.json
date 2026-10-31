@@ -380,6 +380,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-d92072d944",
+          "name": "Barcelona vs Alavés | 03:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d92072d944",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d92072d944",
+                  "name": "Barcelona vs Alavés",
+                  "streams": [
+                    {
+                      "id": "st-d92072d944",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d92072d944",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9729/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Barcelona",
+            "team_b": "Alavés",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793439418359_Screenshot%202026-10-31%20163643.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793439417961_Screenshot%202026-10-31%20163654.png",
+            "time": "03:00:00",
+            "date": "01/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793476800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d92072d944_68d9dd18_20261031.png?v=68d9dd18",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
