@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-b85c42c7c6",
+          "name": "SANCHEZ RUIZ Francisco vs BIJSTERBOSCH Marc | 18:00 31/10 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b85c42c7c6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b85c42c7c6",
+                  "name": "SANCHEZ RUIZ Francisco vs BIJSTERBOSCH Marc",
+                  "streams": [
+                    {
+                      "id": "st-b85c42c7c6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b85c42c7c6",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9733/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SPANISH OPEN 2026",
+            "team_a": "SANCHEZ RUIZ Francisco",
+            "team_b": "BIJSTERBOSCH Marc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793444767121_Screenshot%202026-10-31%20180554.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793444767528_Screenshot%202026-10-31%20180602.png",
+            "time": "18:00:00",
+            "date": "31/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": false,
+            "time_sort": 1793444400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b85c42c7c6_f9c8e125_20261031.png?v=f9c8e125",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6c35764471",
           "name": "Chelsea vs Manchester United | 19:30 31/10",
           "type": "single",
