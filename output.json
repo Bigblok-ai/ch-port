@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-90aa6aef18",
+          "name": "Anton raga vs lee van cortez | 22:42 31/10 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-90aa6aef18",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-90aa6aef18",
+                  "name": "Anton raga vs lee van cortez",
+                  "streams": [
+                    {
+                      "id": "st-90aa6aef18",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-90aa6aef18",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9740/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Anton raga",
+            "team_b": "lee van cortez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793461409217_Screenshot%202026-10-31%20224311.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793461409337_Screenshot%202026-10-31%20224324.png",
+            "time": "22:42:00",
+            "date": "31/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": false,
+            "time_sort": 1793461320,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90aa6aef18_1e7fe1f9_20261031.png?v=1e7fe1f9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-fcd0da11e4",
           "name": "Tottenham Hotspur vs Crystal Palace | 00:30 01/11",
           "type": "single",
