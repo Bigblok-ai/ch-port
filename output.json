@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,7 +91,7 @@
         },
         {
           "id": "chtv-400953cb50",
-          "name": "bata castro vs edwin gamas | Thập Cẩm",
+          "name": "bata castro 6/10 vs edwin gamas | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -110,7 +110,7 @@
               "contents": [
                 {
                   "id": "ct-400953cb50",
-                  "name": "bata castro vs edwin gamas",
+                  "name": "bata castro 6/10 vs edwin gamas",
                   "streams": [
                     {
                       "id": "st-400953cb50",
@@ -142,7 +142,7 @@
           ],
           "org_metadata": {
             "league": "phi bịp",
-            "team_a": "bata castro",
+            "team_a": "bata castro 6/10",
             "team_b": "edwin gamas",
             "logo_a": "https://cdn-choangtv.com/img/logo/1793452769741_Screenshot%202026-10-31%20201904.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1793452769714_Screenshot%202026-10-31%20201910.png",
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-400953cb50_5bc209e2_20261031.png?v=5bc209e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-58e5905378",
+          "name": "TRUFFA Gloria vs ZALEWSKA Oliwia | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58e5905378",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-58e5905378",
+                  "name": "TRUFFA Gloria vs ZALEWSKA Oliwia",
+                  "streams": [
+                    {
+                      "id": "st-58e5905378",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58e5905378",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9737/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SPANISH OPEN 2026",
+            "team_a": "TRUFFA Gloria",
+            "team_b": "ZALEWSKA Oliwia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793453488726_Screenshot%202026-10-31%20203109.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793453488745_Screenshot%202026-10-31%20203121.png",
+            "time": "21:00:00",
+            "date": "31/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1793455200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58e5905378_b3f5dbd8_20261031.png?v=b3f5dbd8",
             "width": 1600,
             "height": 1200
           }
