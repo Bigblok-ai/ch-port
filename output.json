@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-d387feb5a5",
+          "name": "ALCAIDE David vs SNIEGOCKI Mateusz | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d387feb5a5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d387feb5a5",
+                  "name": "ALCAIDE David vs SNIEGOCKI Mateusz",
+                  "streams": [
+                    {
+                      "id": "st-d387feb5a5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d387feb5a5",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9731/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SPANISH OPEN 2026",
+            "team_a": "ALCAIDE David",
+            "team_b": "SNIEGOCKI Mateusz",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793444350242_Screenshot%202026-10-31%20175852.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793444349987_Screenshot%202026-10-31%20175858.png",
+            "time": "17:58:00",
+            "date": "31/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1793444280,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d387feb5a5_6ac14df2_20261031.png?v=6ac14df2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-8791ab90dc",
           "name": "duy đen - khanh trần vs song sát - G-F | Kèn Kèn",
