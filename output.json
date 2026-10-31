@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-8791ab90dc",
+          "name": "duy đen - khanh trần vs song sát - G-F | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8791ab90dc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8791ab90dc",
+                  "name": "duy đen - khanh trần vs song sát - G-F",
+                  "streams": [
+                    {
+                      "id": "st-8791ab90dc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8791ab90dc",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9730/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "duy đen - khanh trần",
+            "team_b": "song sát - G-F",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793443619967_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793443620039_Screenshot%202026-10-15%20133326.png",
+            "time": "19:46:00",
+            "date": "31/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1793450760,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8791ab90dc_fcd4a79f_20261031.png?v=fcd4a79f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-6c35764471",
           "name": "Chelsea vs Manchester United | 19:30 31/10",
@@ -85,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6c35764471_a3f9d809_20261031.png?v=a3f9d809",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8791ab90dc",
-          "name": "duy đen - khanh trần vs song sát - G-F | 19:46 31/10 | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8791ab90dc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8791ab90dc",
-                  "name": "duy đen - khanh trần vs song sát - G-F",
-                  "streams": [
-                    {
-                      "id": "st-8791ab90dc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8791ab90dc",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9730/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "duy đen - khanh trần",
-            "team_b": "song sát - G-F",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793443619967_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793443620039_Screenshot%202026-10-15%20133326.png",
-            "time": "19:46:00",
-            "date": "31/10",
-            "blv": "Kèn Kèn",
-            "is_live": false,
-            "time_sort": 1793450760,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8791ab90dc_fcd4a79f_20261031.png?v=fcd4a79f",
             "width": 1600,
             "height": 1200
           }
