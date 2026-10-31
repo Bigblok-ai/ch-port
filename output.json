@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d387feb5a5_6ac14df2_20261031.png?v=6ac14df2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f4fa115ff7",
+          "name": "VOGEL Felix vs KURAL Szymon | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4fa115ff7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f4fa115ff7",
+                  "name": "VOGEL Felix vs KURAL Szymon",
+                  "streams": [
+                    {
+                      "id": "st-f4fa115ff7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f4fa115ff7",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9732/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SPANISH OPEN 2026",
+            "team_a": "VOGEL Felix",
+            "team_b": "KURAL Szymon",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793444482773_Screenshot%202026-10-31%20180118.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793444482211_Screenshot%202026-10-31%20180111.png",
+            "time": "18:00:00",
+            "date": "31/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1793444400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f4fa115ff7_5a95fa5a_20261031.png?v=5a95fa5a",
             "width": 1600,
             "height": 1200
           }
