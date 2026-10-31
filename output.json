@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-f3e3960927",
-          "name": "Hoàng VT vs Luân Cóc | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3e3960927",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f3e3960927",
-                  "name": "Hoàng VT vs Luân Cóc",
-                  "streams": [
-                    {
-                      "id": "st-f3e3960927",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3e3960927",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9724/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop",
-            "team_a": "Hoàng VT",
-            "team_b": "Luân Cóc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793431532127_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793431531740_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:25:00",
-            "date": "31/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793431500,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f3e3960927_6827541c_20261031.png?v=6827541c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-c156d2bbcb",
           "name": "Thiện Lương vs James Aranas | Xinh Yeu",
