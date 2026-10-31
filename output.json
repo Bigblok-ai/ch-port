@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b41525fbaf_afa4d883_20261031.png?v=afa4d883",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-de8edbed1b",
+          "name": "JERICO BAÑARES vs ARJAY BULATE (6-8-10) | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de8edbed1b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-de8edbed1b",
+                  "name": "JERICO BAÑARES vs ARJAY BULATE (6-8-10)",
+                  "streams": [
+                    {
+                      "id": "st-de8edbed1b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-de8edbed1b",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9739/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JERICO BAÑARES",
+            "team_b": "ARJAY BULATE (6-8-10)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793460739445_Screenshot%202026-10-31%20223159.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793460739353_Screenshot%202026-10-31%20223214.png",
+            "time": "22:31:00",
+            "date": "31/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1793460660,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-de8edbed1b_6d0583e9_20261031.png?v=6d0583e9",
             "width": 1600,
             "height": 1200
           }
