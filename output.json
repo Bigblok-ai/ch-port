@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ad7b34877f",
-          "name": "JERICO BAÑARES vs ARJAY BULATE | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad7b34877f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ad7b34877f",
-                  "name": "JERICO BAÑARES vs ARJAY BULATE",
-                  "streams": [
-                    {
-                      "id": "st-ad7b34877f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad7b34877f",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9735/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "JERICO BAÑARES",
-            "team_b": "ARJAY BULATE",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793451508310_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793451508406_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "20:00:00",
-            "date": "31/10",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1793451600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ad7b34877f_a37c5b19_20261031.png?v=a37c5b19",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-400953cb50",
           "name": "bata castro 6/10 vs edwin gamas | Thập Cẩm",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58e5905378_b3f5dbd8_20261031.png?v=b3f5dbd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b41525fbaf",
+          "name": "DENNIS ORCOLLO vs DRAHCIR | 21:46 31/10 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b41525fbaf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b41525fbaf",
+                  "name": "DENNIS ORCOLLO vs DRAHCIR",
+                  "streams": [
+                    {
+                      "id": "st-b41525fbaf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b41525fbaf",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9738/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "DENNIS ORCOLLO",
+            "team_b": "DRAHCIR",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793458009459_Screenshot%202026-10-31%20214633.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793458009015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "21:46:00",
+            "date": "31/10",
+            "blv": "Kèn Kèn",
+            "is_live": false,
+            "time_sort": 1793457960,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b41525fbaf_afa4d883_20261031.png?v=afa4d883",
             "width": 1600,
             "height": 1200
           }
