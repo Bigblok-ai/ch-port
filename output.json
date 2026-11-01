@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-867b2f87ab",
-          "name": "tuyên con vs kiên ma rick | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-867b2f87ab",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-867b2f87ab",
-                  "name": "tuyên con vs kiên ma rick",
-                  "streams": [
-                    {
-                      "id": "st-867b2f87ab",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-867b2f87ab",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9763/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "tuyên con",
-            "team_b": "kiên ma rick",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793540333037_Screenshot%202026-11-01%20203846.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793540349743_Screenshot%202026-11-01%20203904.png",
-            "time": "20:38:00",
-            "date": "01/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793540280,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-867b2f87ab_83ef497c_20261101.png?v=83ef497c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-857785df71",
           "name": "MINH LUÂN (F vs TIỂU BẢO (F) | Kèn Kèn",
           "type": "single",
@@ -236,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-19c4be3c45",
+          "name": "MENN Luca vs VAN BERKEL Mika | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19c4be3c45",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-19c4be3c45",
+                  "name": "MENN Luca vs VAN BERKEL Mika",
+                  "streams": [
+                    {
+                      "id": "st-19c4be3c45",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19c4be3c45",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9760/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PREDATOR EUROTOUR REVORA SPANISH OPEN 2026",
+            "team_a": "MENN Luca",
+            "team_b": "VAN BERKEL Mika",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793533499149_Screenshot%202026-11-01%20184443.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793533499057_Screenshot%202026-11-01%20184451.png",
+            "time": "22:00:00",
+            "date": "01/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1793545200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19c4be3c45_75f3eb58_20261101.png?v=75f3eb58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ba653bcdbe",
           "name": "CARLO BIADO vs DAGA (5/7/10) | SÊ KÔÔ",
           "type": "single",
@@ -304,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ba653bcdbe_b0bcd9fd_20261101.png?v=b0bcd9fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-19c4be3c45",
-          "name": "MENN Luca vs VAN BERKEL Mika | 22:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19c4be3c45",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-19c4be3c45",
-                  "name": "MENN Luca vs VAN BERKEL Mika",
-                  "streams": [
-                    {
-                      "id": "st-19c4be3c45",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19c4be3c45",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9760/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PREDATOR EUROTOUR REVORA SPANISH OPEN 2026",
-            "team_a": "MENN Luca",
-            "team_b": "VAN BERKEL Mika",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793533499149_Screenshot%202026-11-01%20184443.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793533499057_Screenshot%202026-11-01%20184451.png",
-            "time": "22:00:00",
-            "date": "01/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793545200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19c4be3c45_75f3eb58_20261101.png?v=75f3eb58",
             "width": 1600,
             "height": 1200
           }
