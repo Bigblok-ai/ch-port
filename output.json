@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-019df20924",
-          "name": "Jame Aranas vs Duy Nhỏ | Kèn Kèn",
+          "id": "chtv-ad1db7a1c9",
+          "name": "FORTUNSKI Mieszko vs VOGEL Felix | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-019df20924",
+              "id": "src-ad1db7a1c9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-019df20924",
-                  "name": "Jame Aranas vs Duy Nhỏ",
+                  "id": "ct-ad1db7a1c9",
+                  "name": "FORTUNSKI Mieszko vs VOGEL Felix",
                   "streams": [
                     {
-                      "id": "st-019df20924",
+                      "id": "st-ad1db7a1c9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-019df20924",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-ad1db7a1c9",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9753/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9748/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "CHOÁNGTV",
-            "team_a": "Jame Aranas",
-            "team_b": "Duy Nhỏ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793518842519_Screenshot%202026-11-01%20144013.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793518842094_Screenshot%202026-11-01%20144034.png",
-            "time": "15:00:00",
+            "league": "Spain Billiards",
+            "team_a": "FORTUNSKI Mieszko",
+            "team_b": "VOGEL Felix",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793521663632_Screenshot%202026-11-01%20152738.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793514866440_Felix%20Vogel.png",
+            "time": "16:00:00",
             "date": "01/11",
-            "blv": "Kèn Kèn",
+            "blv": "Đại Kê",
             "is_live": true,
-            "time_sort": 1793520000,
+            "time_sort": 1793523600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-019df20924_95f8ed1f_20261101.png?v=95f8ed1f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ad1db7a1c9_b9d72144_20261101.png?v=b9d72144",
             "width": 1600,
             "height": 1200
           }
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b527bd05c9_96bdd3a8_20261101.png?v=96bdd3a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ad1db7a1c9",
-          "name": "FORTUNSKI Mieszko vs VOGEL Felix | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad1db7a1c9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ad1db7a1c9",
-                  "name": "FORTUNSKI Mieszko vs VOGEL Felix",
-                  "streams": [
-                    {
-                      "id": "st-ad1db7a1c9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad1db7a1c9",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9748/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spain Billiards",
-            "team_a": "FORTUNSKI Mieszko",
-            "team_b": "VOGEL Felix",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793521663632_Screenshot%202026-11-01%20152738.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793514866440_Felix%20Vogel.png",
-            "time": "16:00:00",
-            "date": "01/11",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1793523600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ad1db7a1c9_b9d72144_20261101.png?v=b9d72144",
             "width": 1600,
             "height": 1200
           }
