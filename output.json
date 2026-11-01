@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-857785df71",
-          "name": "MINH LUÂN (F vs TIỂU BẢO (F) | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-857785df71",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-857785df71",
-                  "name": "MINH LUÂN (F vs TIỂU BẢO (F)",
-                  "streams": [
-                    {
-                      "id": "st-857785df71",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-857785df71",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9764/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHUNG KẾT – MTP RISING STAR POOL",
-            "team_a": "MINH LUÂN (F",
-            "team_b": "TIỂU BẢO (F)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793543246692_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793543246577_Screenshot%202026-10-15%20133326.png",
-            "time": "21:27:00",
-            "date": "01/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1793543220,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-857785df71_15f59f8b_20261101.png?v=15f59f8b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7fcd4bc944",
           "name": "duy đen vs tóc vàng | Thập Cẩm",
           "type": "single",
@@ -236,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-2400f5bb21",
+          "name": "ROPERO Maria-Teresa vs JIANG Teng | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2400f5bb21",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2400f5bb21",
+                  "name": "ROPERO Maria-Teresa vs JIANG Teng",
+                  "streams": [
+                    {
+                      "id": "st-2400f5bb21",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2400f5bb21",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9761/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PREDATOR EUROTOUR REVORA SPANISH OPEN 2026",
+            "team_a": "ROPERO Maria-Teresa",
+            "team_b": "JIANG Teng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793533643130_Screenshot%202026-11-01%20184631.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793533643395_Screenshot%202026-11-01%20184715.png",
+            "time": "22:00:00",
+            "date": "01/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1793545200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2400f5bb21_0e0a54b2_20261101.png?v=0e0a54b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ba653bcdbe",
           "name": "CARLO BIADO vs DAGA (5/7/10) | SÊ KÔÔ",
           "type": "single",
@@ -309,81 +309,8 @@
           }
         },
         {
-          "id": "chtv-2400f5bb21",
-          "name": "ROPERO Maria-Teresa vs JIANG Teng | 22:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2400f5bb21",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2400f5bb21",
-                  "name": "ROPERO Maria-Teresa vs JIANG Teng",
-                  "streams": [
-                    {
-                      "id": "st-2400f5bb21",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2400f5bb21",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9761/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PREDATOR EUROTOUR REVORA SPANISH OPEN 2026",
-            "team_a": "ROPERO Maria-Teresa",
-            "team_b": "JIANG Teng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793533643130_Screenshot%202026-11-01%20184631.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793533643395_Screenshot%202026-11-01%20184715.png",
-            "time": "22:00:00",
-            "date": "01/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793545200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2400f5bb21_0e0a54b2_20261101.png?v=0e0a54b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c8480021d5",
-          "name": "Real Madrid vs Racing de Santander | 22:15 01/11",
+          "name": "Real Madrid vs Racing de Santander | 22:15 01/11 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -410,7 +337,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-c8480021d5",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9754/index.m3u8",
@@ -440,7 +367,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1793529131863_Screenshot%202026-11-01%20173202.png",
             "time": "22:15:00",
             "date": "01/11",
-            "blv": "",
+            "blv": "Thập Cẩm",
             "is_live": false,
             "time_sort": 1793546100,
             "cate_type": "billiards"
