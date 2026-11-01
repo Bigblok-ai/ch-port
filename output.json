@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-f1400cda40",
+          "name": "Olympique Lyonnais vs Angers | 23:15 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1400cda40",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f1400cda40",
+                  "name": "Olympique Lyonnais vs Angers",
+                  "streams": [
+                    {
+                      "id": "st-f1400cda40",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f1400cda40",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9757/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bóng",
+            "team_a": "Olympique Lyonnais",
+            "team_b": "Angers",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793530041529_Screenshot%202026-11-01%20174651.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793530041265_Screenshot%202026-11-01%20174706.png",
+            "time": "23:15:00",
+            "date": "01/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793549700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f1400cda40_3bd13a29_20261101.png?v=3bd13a29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6985bdcfda",
           "name": "Liverpool vs Arsenal | 23:30 01/11",
           "type": "single",
