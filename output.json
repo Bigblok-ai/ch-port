@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-c18ed0dca0",
+          "name": "SZEWCZYK Wojciech vs ECHEVERRIA Iker Andoni | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c18ed0dca0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c18ed0dca0",
+                  "name": "SZEWCZYK Wojciech vs ECHEVERRIA Iker Andoni",
+                  "streams": [
+                    {
+                      "id": "st-c18ed0dca0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c18ed0dca0",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9747/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spain Billiards",
+            "team_a": "SZEWCZYK Wojciech",
+            "team_b": "ECHEVERRIA Iker Andoni",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793514778660_Wojciech%20Szewczyk.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793514790961_T%C3%A2y%20Ban%20Nha.png",
+            "time": "16:00:00",
+            "date": "01/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1793523600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c18ed0dca0_9d6137e5_20261101.png?v=9d6137e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ad1db7a1c9",
           "name": "FORTUNSKI Mieszko vs VOGEL Felix | Đại Kê",
           "type": "single",
@@ -231,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ad1db7a1c9_b9d72144_20261101.png?v=b9d72144",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c18ed0dca0",
-          "name": "SZEWCZYK Wojciech vs ECHEVERRIA Iker Andoni | 16:00 01/11 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c18ed0dca0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c18ed0dca0",
-                  "name": "SZEWCZYK Wojciech vs ECHEVERRIA Iker Andoni",
-                  "streams": [
-                    {
-                      "id": "st-c18ed0dca0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c18ed0dca0",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9747/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spain Billiards",
-            "team_a": "SZEWCZYK Wojciech",
-            "team_b": "ECHEVERRIA Iker Andoni",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793514778660_Wojciech%20Szewczyk.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793514790961_T%C3%A2y%20Ban%20Nha.png",
-            "time": "16:00:00",
-            "date": "01/11",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "time_sort": 1793523600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c18ed0dca0_9d6137e5_20261101.png?v=9d6137e5",
             "width": 1600,
             "height": 1200
           }
