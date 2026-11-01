@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-7c15fbb883",
-          "name": "VAN BERKEL Mika vs RIZZI Fabio | 16:00 01/11",
+          "id": "chtv-31f53a135e",
+          "name": "Hoàng VT vs Tuấn VT | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-7c15fbb883",
+              "id": "src-31f53a135e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7c15fbb883",
-                  "name": "VAN BERKEL Mika vs RIZZI Fabio",
+                  "id": "ct-31f53a135e",
+                  "name": "Hoàng VT vs Tuấn VT",
                   "streams": [
                     {
-                      "id": "st-7c15fbb883",
+                      "id": "st-31f53a135e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7c15fbb883",
-                          "name": "Stream",
+                          "id": "lnk-31f53a135e",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9750/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9751/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Spain Billiards",
-            "team_a": "VAN BERKEL Mika",
-            "team_b": "RIZZI Fabio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793515128728_H%C3%A0%20Lan.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793515128334_Ph%C3%A1p.png",
-            "time": "16:00:00",
+            "league": "TOPTOP",
+            "team_a": "Hoàng VT",
+            "team_b": "Tuấn VT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793515932595_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793515932253_Vi%E1%BB%87t%20Nam.png",
+            "time": "13:52:00",
             "date": "01/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793523600,
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1793515920,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c15fbb883_2d2218e5_20261101.png?v=2d2218e5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-31f53a135e_5ff73b32_20261101.png?v=5ff73b32",
             "width": 1600,
             "height": 1200
           }
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b527bd05c9_96bdd3a8_20261101.png?v=96bdd3a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7c15fbb883",
+          "name": "VAN BERKEL Mika vs RIZZI Fabio | 16:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c15fbb883",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7c15fbb883",
+                  "name": "VAN BERKEL Mika vs RIZZI Fabio",
+                  "streams": [
+                    {
+                      "id": "st-7c15fbb883",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c15fbb883",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9750/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spain Billiards",
+            "team_a": "VAN BERKEL Mika",
+            "team_b": "RIZZI Fabio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793515128728_H%C3%A0%20Lan.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793515128334_Ph%C3%A1p.png",
+            "time": "16:00:00",
+            "date": "01/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793523600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c15fbb883_2d2218e5_20261101.png?v=2d2218e5",
             "width": 1600,
             "height": 1200
           }
