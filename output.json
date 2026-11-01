@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-019df20924",
+          "name": "Jame Aranas vs Duy Nhỏ | 15:00 01/11 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-019df20924",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-019df20924",
+                  "name": "Jame Aranas vs Duy Nhỏ",
+                  "streams": [
+                    {
+                      "id": "st-019df20924",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-019df20924",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9753/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHOÁNGTV",
+            "team_a": "Jame Aranas",
+            "team_b": "Duy Nhỏ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793518842519_Screenshot%202026-11-01%20144013.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793518842094_Screenshot%202026-11-01%20144034.png",
+            "time": "15:00:00",
+            "date": "01/11",
+            "blv": "Kèn Kèn",
+            "is_live": false,
+            "time_sort": 1793520000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-019df20924_95f8ed1f_20261101.png?v=95f8ed1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b527bd05c9",
           "name": "MENN Luca vs SANCHEZ RUIZ Francisco | 16:00 01/11",
           "type": "single",
@@ -236,79 +309,6 @@
           }
         },
         {
-          "id": "chtv-7c15fbb883",
-          "name": "VAN BERKEL Mika vs RIZZI Fabio | 16:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c15fbb883",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7c15fbb883",
-                  "name": "VAN BERKEL Mika vs RIZZI Fabio",
-                  "streams": [
-                    {
-                      "id": "st-7c15fbb883",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c15fbb883",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9750/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spain Billiards",
-            "team_a": "VAN BERKEL Mika",
-            "team_b": "RIZZI Fabio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793515128728_H%C3%A0%20Lan.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793515128334_Ph%C3%A1p.png",
-            "time": "16:00:00",
-            "date": "01/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793523600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c15fbb883_2d2218e5_20261101.png?v=2d2218e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-c18ed0dca0",
           "name": "SZEWCZYK Wojciech vs ECHEVERRIA Iker Andoni | 16:00 01/11",
           "type": "single",
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c18ed0dca0_9d6137e5_20261101.png?v=9d6137e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7c15fbb883",
+          "name": "VAN BERKEL Mika vs RIZZI Fabio | 16:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c15fbb883",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7c15fbb883",
+                  "name": "VAN BERKEL Mika vs RIZZI Fabio",
+                  "streams": [
+                    {
+                      "id": "st-7c15fbb883",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c15fbb883",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9750/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spain Billiards",
+            "team_a": "VAN BERKEL Mika",
+            "team_b": "RIZZI Fabio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793515128728_H%C3%A0%20Lan.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793515128334_Ph%C3%A1p.png",
+            "time": "16:00:00",
+            "date": "01/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793523600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c15fbb883_2d2218e5_20261101.png?v=2d2218e5",
             "width": 1600,
             "height": 1200
           }
