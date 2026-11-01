@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c8480021d5",
-          "name": "Real Madrid vs Racing de Santander | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8480021d5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c8480021d5",
-                  "name": "Real Madrid vs Racing de Santander",
-                  "streams": [
-                    {
-                      "id": "st-c8480021d5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8480021d5",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9754/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Real Madrid",
-            "team_b": "Racing de Santander",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793529132135_Screenshot%202026-10-18%20125119.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793529131863_Screenshot%202026-11-01%20173202.png",
-            "time": "22:15:00",
-            "date": "01/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1793546100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c8480021d5_45697113_20261102.png?v=45697113",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-87158b2a2b",
           "name": "VOGEL Felix vs MENN Luca | 02:00 02/11",
