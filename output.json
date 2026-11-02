@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-d32011de44",
+          "name": "jed  castro vs edwin  gamas | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d32011de44",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d32011de44",
+                  "name": "jed  castro vs edwin  gamas",
+                  "streams": [
+                    {
+                      "id": "st-d32011de44",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d32011de44",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9781/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "jed  castro",
+            "team_b": "edwin  gamas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793626361654_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793626361390_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:32:00",
+            "date": "02/11",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1793626320,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d32011de44_a231767b_20261102.png?v=a231767b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-9498131e1f",
           "name": "Pakhtakor Tashkent vs Al Nassr Riyadh | 20:45 02/11",
           "type": "single",
@@ -144,8 +217,8 @@
             "league": "bóng bánh",
             "team_a": "Pakhtakor Tashkent",
             "team_b": "Al Nassr Riyadh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793625728731_Screenshot%202026-11-02%20202126.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793625728990_Screenshot%202026-11-02%20202135.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793626417209_Screenshot%202026-11-02%20202135.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793626417896_Screenshot%202026-11-02%20202126.png",
             "time": "20:45:00",
             "date": "02/11",
             "blv": "",
@@ -157,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9498131e1f_81c23527_20261102.png?v=81c23527",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9498131e1f_b8378d6f_20261102.png?v=b8378d6f",
             "width": 1600,
             "height": 1200
           }
