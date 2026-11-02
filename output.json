@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-1267533cf3",
-          "name": "ANTON RAGA/ESPONOLA vs JONAS MAGPANTAY/GALLIGUEZ | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1267533cf3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1267533cf3",
-                  "name": "ANTON RAGA/ESPONOLA vs JONAS MAGPANTAY/GALLIGUEZ",
-                  "streams": [
-                    {
-                      "id": "st-1267533cf3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1267533cf3",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9785/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "ANTON RAGA/ESPONOLA",
-            "team_b": "JONAS MAGPANTAY/GALLIGUEZ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793632678164_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793632678460_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "22:17:00",
-            "date": "02/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1793632620,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1267533cf3_52c503ae_20261103.png?v=52c503ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-f01dcf76e2",
           "name": "duy đen vs hắc hổ | Kèn Kèn",
           "type": "single",
@@ -231,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f01dcf76e2_5d4aae3c_20261103.png?v=5d4aae3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e585c71d45",
-          "name": "Sassuolo vs Fiorentina | 00:30 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e585c71d45",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e585c71d45",
-                  "name": "Sassuolo vs Fiorentina",
-                  "streams": [
-                    {
-                      "id": "st-e585c71d45",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e585c71d45",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9774/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Sassuolo",
-            "team_b": "Fiorentina",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793615432410_Screenshot%202026-11-02%20173017.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793615432772_Screenshot%202026-11-02%20173025.png",
-            "time": "00:30:00",
-            "date": "03/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793640600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e585c71d45_dfa37383_20261103.png?v=dfa37383",
             "width": 1600,
             "height": 1200
           }
