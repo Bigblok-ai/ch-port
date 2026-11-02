@@ -91,7 +91,7 @@
         },
         {
           "id": "chtv-d32011de44",
-          "name": "jed  castro vs edwin  gamas | Đại Kê",
+          "name": "jed  castro 6/10 vs edwin  gamas | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -110,7 +110,7 @@
               "contents": [
                 {
                   "id": "ct-d32011de44",
-                  "name": "jed  castro vs edwin  gamas",
+                  "name": "jed  castro 6/10 vs edwin  gamas",
                   "streams": [
                     {
                       "id": "st-d32011de44",
@@ -142,7 +142,7 @@
           ],
           "org_metadata": {
             "league": "top top",
-            "team_a": "jed  castro",
+            "team_a": "jed  castro 6/10",
             "team_b": "edwin  gamas",
             "logo_a": "https://cdn-choangtv.com/img/logo/1793626361654_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1793626361390_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e585c71d45_dfa37383_20261102.png?v=dfa37383",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7c57ea283d",
+          "name": "Atalanta vs Parma | 02:45 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c57ea283d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7c57ea283d",
+                  "name": "Atalanta vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-7c57ea283d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c57ea283d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9775/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Atalanta",
+            "team_b": "Parma",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793615712061_Screenshot%202026-11-02%20173456.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793615711434_Screenshot%202026-11-02%20173505.png",
+            "time": "02:45:00",
+            "date": "03/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793648700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c57ea283d_fe18ef21_20261102.png?v=fe18ef21",
             "width": 1600,
             "height": 1200
           }
