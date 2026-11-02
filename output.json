@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-87158b2a2b",
-          "name": "VOGEL Felix vs MENN Luca | GIÀNG A PHỌ",
+          "id": "chtv-407e890072",
+          "name": "Thiện Lương vs James Aranas | 13:00 02/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-87158b2a2b",
+              "id": "src-407e890072",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-87158b2a2b",
-                  "name": "VOGEL Felix vs MENN Luca",
+                  "id": "ct-407e890072",
+                  "name": "Thiện Lương vs James Aranas",
                   "streams": [
                     {
-                      "id": "st-87158b2a2b",
+                      "id": "st-407e890072",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-87158b2a2b",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-407e890072",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9767/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9769/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗣𝗥𝗘𝗗𝗔𝗧𝗢𝗥 𝗘𝗨𝗥𝗢𝗧𝗢𝗨𝗥 𝗥𝗘𝗩𝗢𝗥𝗔 𝗦𝗣𝗔𝗡𝗜𝗦𝗛 𝗢𝗣𝗘𝗡 𝟮𝟬𝟮𝟲",
-            "team_a": "VOGEL Felix",
-            "team_b": "MENN Luca",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793552837265_Felix%20Vogel.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793552843611_Luca%20Menn.jpg",
-            "time": "02:00:00",
+            "league": "Thập Diện Mai Phục",
+            "team_a": "Thiện Lương",
+            "team_b": "James Aranas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793592506170_Thi%E1%BB%87n%20L%C6%B0%C6%A1ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793592521685_Screenshot%202026-11-01%20144013.png",
+            "time": "13:00:00",
             "date": "02/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793559600,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793599200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-87158b2a2b_dcaea8a1_20261102.png?v=dcaea8a1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-407e890072_9fe9cac6_20261102.png?v=9fe9cac6",
             "width": 1600,
             "height": 1200
           }
