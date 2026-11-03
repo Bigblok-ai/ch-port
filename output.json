@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-dde4ec38f1",
-          "name": "LEE VAN CORTEZA vs DENNIS ORCOLLO | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dde4ec38f1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dde4ec38f1",
-                  "name": "LEE VAN CORTEZA vs DENNIS ORCOLLO",
-                  "streams": [
-                    {
-                      "id": "st-dde4ec38f1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dde4ec38f1",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9813/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "LEE VAN CORTEZA",
-            "team_b": "DENNIS ORCOLLO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793717073827_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793717074504_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "21:44:00",
-            "date": "03/11",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1793717040,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dde4ec38f1_95df1f9c_20261104.png?v=95df1f9c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-53eb36f61a",
           "name": "WANING SURIGAO vs GENESIS OUANO | GIÀNG A PHỌ",
@@ -158,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-53eb36f61a_98708294_20261104.png?v=98708294",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a7d9352f68",
-          "name": "KIÊN SẾU vs đối | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7d9352f68",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a7d9352f68",
-                  "name": "KIÊN SẾU vs đối",
-                  "streams": [
-                    {
-                      "id": "st-a7d9352f68",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7d9352f68",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9815/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "KIÊN SẾU",
-            "team_b": "đối",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793723990120_Screenshot%202026-11-03%20233945.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793723992090_Screenshot%202026-10-15%20133326.png",
-            "time": "23:39:00",
-            "date": "03/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1793723940,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a7d9352f68_e03fef29_20261104.png?v=e03fef29",
             "width": 1600,
             "height": 1200
           }
@@ -309,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-476eac4257",
-          "name": "Atlético de Madrid vs Bayern Munich | 03:00 04/11",
+          "id": "chtv-e8ee694172",
+          "name": "Barcelona vs Aston Villa | 03:00 04/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-476eac4257",
+              "id": "src-e8ee694172",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-476eac4257",
-                  "name": "Atlético de Madrid vs Bayern Munich",
+                  "id": "ct-e8ee694172",
+                  "name": "Barcelona vs Aston Villa",
                   "streams": [
                     {
-                      "id": "st-476eac4257",
+                      "id": "st-e8ee694172",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-476eac4257",
+                          "id": "lnk-e8ee694172",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9807/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9806/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -360,11 +214,11 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Atlético de Madrid",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793710180327_Screenshot%202026-11-03%20194914.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793710180670_Screenshot%202026-11-03%20194924.png",
+            "league": "bóng bang",
+            "team_a": "Barcelona",
+            "team_b": "Aston Villa",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793710050721_Screenshot%202026-11-03%20194722.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793710051083_Screenshot%202026-11-03%20194728.png",
             "time": "03:00:00",
             "date": "04/11",
             "blv": "",
@@ -376,80 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-476eac4257_f1c292aa_20261104.png?v=f1c292aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0e21ea2b34",
-          "name": "Villarreal vs Paris Saint-Germain | 03:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e21ea2b34",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0e21ea2b34",
-                  "name": "Villarreal vs Paris Saint-Germain",
-                  "streams": [
-                    {
-                      "id": "st-0e21ea2b34",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e21ea2b34",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9805/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Villarreal",
-            "team_b": "Paris Saint-Germain",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793709896378_Screenshot%202026-11-03%20194445.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793709896265_Screenshot%202026-11-03%20194453.png",
-            "time": "03:00:00",
-            "date": "04/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793736000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0e21ea2b34_55c49d7d_20261104.png?v=55c49d7d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e8ee694172_30668998_20261104.png?v=30668998",
             "width": 1600,
             "height": 1200
           }
@@ -528,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-e8ee694172",
-          "name": "Barcelona vs Aston Villa | 03:00 04/11",
+          "id": "chtv-0e21ea2b34",
+          "name": "Villarreal vs Paris Saint-Germain | 03:00 04/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -543,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-e8ee694172",
+              "id": "src-0e21ea2b34",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e8ee694172",
-                  "name": "Barcelona vs Aston Villa",
+                  "id": "ct-0e21ea2b34",
+                  "name": "Villarreal vs Paris Saint-Germain",
                   "streams": [
                     {
-                      "id": "st-e8ee694172",
+                      "id": "st-0e21ea2b34",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e8ee694172",
+                          "id": "lnk-0e21ea2b34",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9806/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9805/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -579,11 +360,11 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bang",
-            "team_a": "Barcelona",
-            "team_b": "Aston Villa",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793710050721_Screenshot%202026-11-03%20194722.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793710051083_Screenshot%202026-11-03%20194728.png",
+            "league": "bóng bánh",
+            "team_a": "Villarreal",
+            "team_b": "Paris Saint-Germain",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793709896378_Screenshot%202026-11-03%20194445.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793709896265_Screenshot%202026-11-03%20194453.png",
             "time": "03:00:00",
             "date": "04/11",
             "blv": "",
@@ -595,7 +376,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e8ee694172_30668998_20261104.png?v=30668998",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0e21ea2b34_55c49d7d_20261104.png?v=55c49d7d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-476eac4257",
+          "name": "Atlético de Madrid vs Bayern Munich | 03:00 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-476eac4257",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-476eac4257",
+                  "name": "Atlético de Madrid vs Bayern Munich",
+                  "streams": [
+                    {
+                      "id": "st-476eac4257",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-476eac4257",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9807/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Atlético de Madrid",
+            "team_b": "Bayern Munich",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793710180327_Screenshot%202026-11-03%20194914.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793710180670_Screenshot%202026-11-03%20194924.png",
+            "time": "03:00:00",
+            "date": "04/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793736000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-476eac4257_f1c292aa_20261104.png?v=f1c292aa",
             "width": 1600,
             "height": 1200
           }
