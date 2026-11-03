@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66b8446ff5_535dca4f_20261103.png?v=535dca4f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-31e0f9b1ad",
+          "name": "JERIC SILIACAY vs WILLIAM | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-31e0f9b1ad",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-31e0f9b1ad",
+                  "name": "JERIC SILIACAY vs WILLIAM",
+                  "streams": [
+                    {
+                      "id": "st-31e0f9b1ad",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31e0f9b1ad",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9811/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "JERIC SILIACAY",
+            "team_b": "WILLIAM",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793712445467_Screenshot%202026-11-03%20202718.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793712445100_Screenshot%202026-11-03%20202724.png",
+            "time": "20:26:00",
+            "date": "03/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1793712360,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-31e0f9b1ad_17be0731_20261103.png?v=17be0731",
             "width": 1600,
             "height": 1200
           }
