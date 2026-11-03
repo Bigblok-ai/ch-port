@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-28564138e5_c54ebd8b_20261103.png?v=c54ebd8b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7b168dd279",
-          "name": "ĐỨC ANH vs KIỀU MINH NAM | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b168dd279",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7b168dd279",
-                  "name": "ĐỨC ANH vs KIỀU MINH NAM",
-                  "streams": [
-                    {
-                      "id": "st-7b168dd279",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b168dd279",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9809/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ALLIN CUE",
-            "team_a": "ĐỨC ANH",
-            "team_b": "KIỀU MINH NAM",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793710735012_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793710735363_Screenshot%202026-10-15%20133326.png",
-            "time": "19:58:00",
-            "date": "03/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1793710680,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b168dd279_c1b7ad79_20261103.png?v=c1b7ad79",
             "width": 1600,
             "height": 1200
           }
@@ -455,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-e8ee694172",
-          "name": "Barcelona vs Aston Villa | 03:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8ee694172",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e8ee694172",
-                  "name": "Barcelona vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-e8ee694172",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8ee694172",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9806/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bang",
-            "team_a": "Barcelona",
-            "team_b": "Aston Villa",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793710050721_Screenshot%202026-11-03%20194722.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793710051083_Screenshot%202026-11-03%20194728.png",
-            "time": "03:00:00",
-            "date": "04/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793736000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e8ee694172_30668998_20261103.png?v=30668998",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-476eac4257",
           "name": "Atlético de Madrid vs Bayern Munich | 03:00 04/11",
           "type": "single",
@@ -742,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bbbaf78059_4d860cef_20261103.png?v=4d860cef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e8ee694172",
+          "name": "Barcelona vs Aston Villa | 03:00 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8ee694172",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e8ee694172",
+                  "name": "Barcelona vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-e8ee694172",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8ee694172",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9806/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bang",
+            "team_a": "Barcelona",
+            "team_b": "Aston Villa",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793710050721_Screenshot%202026-11-03%20194722.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793710051083_Screenshot%202026-11-03%20194728.png",
+            "time": "03:00:00",
+            "date": "04/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793736000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e8ee694172_30668998_20261103.png?v=30668998",
             "width": 1600,
             "height": 1200
           }
