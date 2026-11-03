@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bbbaf78059_4d860cef_20261104.png?v=4d860cef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-476eac4257",
-          "name": "Atlético de Madrid vs Bayern Munich | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-476eac4257",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-476eac4257",
-                  "name": "Atlético de Madrid vs Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-476eac4257",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-476eac4257",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9807/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Atlético de Madrid",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793710180327_Screenshot%202026-11-03%20194914.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793710180670_Screenshot%202026-11-03%20194924.png",
-            "time": "03:00:00",
-            "date": "04/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793736000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-476eac4257_f1c292aa_20261104.png?v=f1c292aa",
             "width": 1600,
             "height": 1200
           }
