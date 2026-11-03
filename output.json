@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-efdcf5d52a",
-          "name": "Nguyễn Lê Duy Long (G) vs Trần Ngọc Đan Nì (G) | Bỉm Sữa",
+          "id": "chtv-dea1951341",
+          "name": "Bình 37 vs Hải Nhót | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,79 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efdcf5d52a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-efdcf5d52a",
-                  "name": "Nguyễn Lê Duy Long (G) vs Trần Ngọc Đan Nì (G)",
-                  "streams": [
-                    {
-                      "id": "st-efdcf5d52a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-efdcf5d52a",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9789/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHOÁNGTV",
-            "team_a": "Nguyễn Lê Duy Long (G)",
-            "team_b": "Trần Ngọc Đan Nì (G)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793685118078_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793685117702_Vi%E1%BB%87t%20Nam.png",
-            "time": "12:51:00",
-            "date": "03/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1793685060,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-efdcf5d52a_cfee4f31_20261103.png?v=cfee4f31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dea1951341",
-          "name": "Bình 37 vs Hải Nhót | 13:50 03/11 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -149,7 +76,7 @@
             "time": "13:50:00",
             "date": "03/11",
             "blv": "Lee Min Hoo",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1793688600,
             "cate_type": "billiards"
           },
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dea1951341_edb959eb_20261103.png?v=edb959eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-99f7aba604",
+          "name": "Albert Januarta vs Đối tên menang | 13:54 03/11 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-99f7aba604",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-99f7aba604",
+                  "name": "Albert Januarta vs Đối tên menang",
+                  "streams": [
+                    {
+                      "id": "st-99f7aba604",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99f7aba604",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9791/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "toptop",
+            "team_a": "Albert Januarta",
+            "team_b": "Đối tên menang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793688810271_Albert%20Januarta.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793688805651_Indonesia.png",
+            "time": "13:54:00",
+            "date": "03/11",
+            "blv": "Thập Cẩm",
+            "is_live": false,
+            "time_sort": 1793688840,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-99f7aba604_ed90e146_20261103.png?v=ed90e146",
             "width": 1600,
             "height": 1200
           }
