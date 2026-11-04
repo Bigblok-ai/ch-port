@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-d615bda46c",
-          "name": "Thanh Nghi (G) vs Đặng Hoàng Nam (G) | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d615bda46c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d615bda46c",
-                  "name": "Thanh Nghi (G) vs Đặng Hoàng Nam (G)",
-                  "streams": [
-                    {
-                      "id": "st-d615bda46c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d615bda46c",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9830/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MASTER LEVEL G",
-            "team_a": "Thanh Nghi (G)",
-            "team_b": "Đặng Hoàng Nam (G)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793775517111_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793775517077_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:00:00",
-            "date": "04/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1793775600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d615bda46c_08e0cdb1_20261104.png?v=08e0cdb1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-32509fd255",
           "name": "Tuấn Vũng Tàu vs Đối Tên Hùng | Thập Cẩm",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-32509fd255_ece8a4d9_20261104.png?v=ece8a4d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d615bda46c",
+          "name": "Thanh Nghi (G) vs Đặng Hoàng Nam (G) | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d615bda46c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d615bda46c",
+                  "name": "Thanh Nghi (G) vs Đặng Hoàng Nam (G)",
+                  "streams": [
+                    {
+                      "id": "st-d615bda46c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d615bda46c",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9830/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MASTER LEVEL G",
+            "team_a": "Thanh Nghi (G)",
+            "team_b": "Đặng Hoàng Nam (G)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793775517111_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793775517077_Vi%E1%BB%87t%20Nam.png",
+            "time": "14:00:00",
+            "date": "04/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1793775600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d615bda46c_08e0cdb1_20261104.png?v=08e0cdb1",
             "width": 1600,
             "height": 1200
           }
