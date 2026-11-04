@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -237,16 +237,16 @@
         },
         {
           "id": "chtv-1a2aac2f1f",
-          "name": "CHRIS MELLING vs DENNIS HATCH | 23:34 04/11 | Bỉm Sữa",
+          "name": "CHRIS MELLING vs DENNIS HATCH | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +295,7 @@
             "time": "23:34:00",
             "date": "04/11",
             "blv": "Bỉm Sữa",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1793810040,
             "cate_type": "billiards"
           },
@@ -450,79 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79349d9d5b_36aa597b_20261104.png?v=36aa597b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-41284537d9",
-          "name": "Napoli vs Porto | 03:00 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41284537d9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-41284537d9",
-                  "name": "Napoli vs Porto",
-                  "streams": [
-                    {
-                      "id": "st-41284537d9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41284537d9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9851/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bóng",
-            "team_a": "Napoli",
-            "team_b": "Porto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798558720_Screenshot%202026-11-04%20202224.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798559648_Screenshot%202026-11-04%20202229.png",
-            "time": "03:00:00",
-            "date": "05/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793822400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-41284537d9_fcd3878a_20261104.png?v=fcd3878a",
             "width": 1600,
             "height": 1200
           }
@@ -742,6 +669,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4edb9e0228_d610c79c_20261104.png?v=d610c79c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-41284537d9",
+          "name": "Napoli vs Porto | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41284537d9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-41284537d9",
+                  "name": "Napoli vs Porto",
+                  "streams": [
+                    {
+                      "id": "st-41284537d9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41284537d9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9851/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bóng",
+            "team_a": "Napoli",
+            "team_b": "Porto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798558720_Screenshot%202026-11-04%20202224.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798559648_Screenshot%202026-11-04%20202229.png",
+            "time": "03:00:00",
+            "date": "05/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793822400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-41284537d9_fcd3878a_20261104.png?v=fcd3878a",
             "width": 1600,
             "height": 1200
           }
