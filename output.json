@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,152 +90,6 @@
           }
         },
         {
-          "id": "chtv-1a2aac2f1f",
-          "name": "CHRIS MELLING vs DENNIS HATCH | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1a2aac2f1f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1a2aac2f1f",
-                  "name": "CHRIS MELLING vs DENNIS HATCH",
-                  "streams": [
-                    {
-                      "id": "st-1a2aac2f1f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a2aac2f1f",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9859/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "hehehe",
-            "team_a": "CHRIS MELLING",
-            "team_b": "DENNIS HATCH",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793810042263_Screenshot%202026-11-04%20233354.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793810042300_Screenshot%202026-11-04%20220756.png",
-            "time": "23:34:00",
-            "date": "04/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1793810040,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1a2aac2f1f_64152a65_20261105.png?v=64152a65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-79349d9d5b",
-          "name": "Real Madrid vs AEK Athens | 00:45 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79349d9d5b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-79349d9d5b",
-                  "name": "Real Madrid vs AEK Athens",
-                  "streams": [
-                    {
-                      "id": "st-79349d9d5b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79349d9d5b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9846/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bóng",
-            "team_a": "Real Madrid",
-            "team_b": "AEK Athens",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798088078_Screenshot%202026-11-04%20201442.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798087795_Screenshot%202026-11-04%20201433.png",
-            "time": "00:45:00",
-            "date": "05/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793814300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79349d9d5b_36aa597b_20261105.png?v=36aa597b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-2bc06acb45",
           "name": "Liverpool vs Fenerbahçe | 00:45 05/11",
           "type": "single",
@@ -309,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-19e87d9201",
-          "name": "Arsenal vs Slavia Praha | 03:00 05/11",
+          "id": "chtv-79349d9d5b",
+          "name": "Real Madrid vs AEK Athens | 00:45 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-19e87d9201",
+              "id": "src-79349d9d5b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-19e87d9201",
-                  "name": "Arsenal vs Slavia Praha",
+                  "id": "ct-79349d9d5b",
+                  "name": "Real Madrid vs AEK Athens",
                   "streams": [
                     {
-                      "id": "st-19e87d9201",
+                      "id": "st-79349d9d5b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-19e87d9201",
+                          "id": "lnk-79349d9d5b",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9850/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9846/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -360,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Arsenal",
-            "team_b": "Slavia Praha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798473138_Screenshot%202026-11-04%20202102.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798473393_Screenshot%202026-11-04%20202110.png",
-            "time": "03:00:00",
+            "league": "bóng bóng",
+            "team_a": "Real Madrid",
+            "team_b": "AEK Athens",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798088078_Screenshot%202026-11-04%20201442.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798087795_Screenshot%202026-11-04%20201433.png",
+            "time": "00:45:00",
             "date": "05/11",
             "blv": "",
             "is_live": false,
-            "time_sort": 1793822400,
+            "time_sort": 1793814300,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19e87d9201_96feaddf_20261105.png?v=96feaddf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79349d9d5b_36aa597b_20261105.png?v=36aa597b",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-41284537d9_fcd3878a_20261105.png?v=fcd3878a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-19e87d9201",
+          "name": "Arsenal vs Slavia Praha | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19e87d9201",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-19e87d9201",
+                  "name": "Arsenal vs Slavia Praha",
+                  "streams": [
+                    {
+                      "id": "st-19e87d9201",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19e87d9201",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9850/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Arsenal",
+            "team_b": "Slavia Praha",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798473138_Screenshot%202026-11-04%20202102.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798473393_Screenshot%202026-11-04%20202110.png",
+            "time": "03:00:00",
+            "date": "05/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793822400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19e87d9201_96feaddf_20261105.png?v=96feaddf",
             "width": 1600,
             "height": 1200
           }
