@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b577f9e492_5582cc3b_20261104.png?v=5582cc3b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b41132dde8",
-          "name": "Zhan meng chan vs Chen siming | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b41132dde8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b41132dde8",
-                  "name": "Zhan meng chan vs Chen siming",
-                  "streams": [
-                    {
-                      "id": "st-b41132dde8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b41132dde8",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9840/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "china",
-            "team_a": "Zhan meng chan",
-            "team_b": "Chen siming",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793785908593_Screenshot%202026-11-04%20165145.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793785908893_Screenshot%202026-11-04%20165145.png",
-            "time": "16:51:00",
-            "date": "04/11",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1793785860,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b41132dde8_ce7a0ba9_20261104.png?v=ce7a0ba9",
             "width": 1600,
             "height": 1200
           }
