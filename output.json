@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-c29db942c5",
-          "name": "KO PIN YI vs O PIN HAN | 16:16 04/11 | Bỉm Sữa",
+          "id": "chtv-dea2629a60",
+          "name": "KO PIN YI - KO PING CHUNG vs KO PIN HAN | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-c29db942c5",
+              "id": "src-dea2629a60",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c29db942c5",
-                  "name": "KO PIN YI vs O PIN HAN",
+                  "id": "ct-dea2629a60",
+                  "name": "KO PIN YI - KO PING CHUNG vs KO PIN HAN",
                   "streams": [
                     {
-                      "id": "st-c29db942c5",
+                      "id": "st-dea2629a60",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c29db942c5",
+                          "id": "lnk-dea2629a60",
                           "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9836/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9837/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "choangtv",
-            "team_a": "KO PIN YI",
-            "team_b": "O PIN HAN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793783934786_%C4%90%C3%A0i%20Loan.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793783934433_%C4%90%C3%A0i%20Loan.png",
-            "time": "16:16:00",
+            "league": "game 2",
+            "team_a": "KO PIN YI - KO PING CHUNG",
+            "team_b": "KO PIN HAN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793784205281_%C4%90%C3%A0i%20Loan.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793784205011_%C4%90%C3%A0i%20Loan.png",
+            "time": "16:23:00",
             "date": "04/11",
             "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1793783760,
+            "is_live": true,
+            "time_sort": 1793784180,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c29db942c5_d537e0f9_20261104.png?v=d537e0f9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dea2629a60_5aab7f9c_20261104.png?v=5aab7f9c",
             "width": 1600,
             "height": 1200
           }
