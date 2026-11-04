@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-d0925ff544",
-          "name": "LI Yutong vs LIU Qingqing | Đại Kê",
+          "id": "chtv-d0d9eedfda",
+          "name": "WANING SURIGAO vs MEME TOLEDO | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-d0925ff544",
+              "id": "src-d0d9eedfda",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d0925ff544",
-                  "name": "LI Yutong vs LIU Qingqing",
+                  "id": "ct-d0d9eedfda",
+                  "name": "WANING SURIGAO vs MEME TOLEDO",
                   "streams": [
                     {
-                      "id": "st-d0925ff544",
+                      "id": "st-d0d9eedfda",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d0925ff544",
-                          "name": "Đại Kê",
+                          "id": "lnk-d0d9eedfda",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9833/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9838/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +141,23 @@
             }
           ],
           "org_metadata": {
-            "league": "choangtv",
-            "team_a": "LI Yutong",
-            "team_b": "LIU Qingqing",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793780600821_Trung%20Qu%E1%BB%91c.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793780600446_Trung%20Qu%E1%BB%91c.png",
-            "time": "15:23:00",
+            "league": "phi bịp",
+            "team_a": "WANING SURIGAO",
+            "team_b": "MEME TOLEDO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793785577137_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793785576721_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "16:16:00",
             "date": "04/11",
-            "blv": "Đại Kê",
+            "blv": "Kèn Kèn",
             "is_live": true,
-            "time_sort": 1793780580,
+            "time_sort": 1793783760,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0925ff544_6437c1bd_20261104.png?v=6437c1bd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0d9eedfda_9fd779cd_20261104.png?v=9fd779cd",
             "width": 1600,
             "height": 1200
           }
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dea2629a60_5aab7f9c_20261104.png?v=5aab7f9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b577f9e492",
+          "name": "JAYBEE vs jan jan 8/10 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b577f9e492",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b577f9e492",
+                  "name": "JAYBEE vs jan jan 8/10",
+                  "streams": [
+                    {
+                      "id": "st-b577f9e492",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b577f9e492",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9839/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "JAYBEE",
+            "team_b": "jan jan 8/10",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793785684611_Screenshot%202026-11-04%20164756.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793785687416_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "16:48:00",
+            "date": "04/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1793785680,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b577f9e492_5582cc3b_20261104.png?v=5582cc3b",
             "width": 1600,
             "height": 1200
           }
