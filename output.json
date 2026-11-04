@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-4a9a813ce1",
-          "name": "JOE PRINCE vs RICKY EVANS | Lee Min Hoo",
+          "id": "chtv-28962f3711",
+          "name": "cơ thủ trái vs cơ thủ phải | 07:30 04/11 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-4a9a813ce1",
+              "id": "src-28962f3711",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4a9a813ce1",
-                  "name": "JOE PRINCE vs RICKY EVANS",
+                  "id": "ct-28962f3711",
+                  "name": "cơ thủ trái vs cơ thủ phải",
                   "streams": [
                     {
-                      "id": "st-4a9a813ce1",
+                      "id": "st-28962f3711",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4a9a813ce1",
+                          "id": "lnk-28962f3711",
                           "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9818/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9820/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,22 +69,22 @@
           ],
           "org_metadata": {
             "league": "NATIONAL SHOOTOUT 2026 – ROUND 1 - EVENING SESSION",
-            "team_a": "JOE PRINCE",
-            "team_b": "RICKY EVANS",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
-            "time": "07:06:00",
+            "team_a": "cơ thủ trái",
+            "team_b": "cơ thủ phải",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1763197161884_billad.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1763197166604_billiard-ball-logo-png_seeklogo-248081.png",
+            "time": "07:30:00",
             "date": "04/11",
             "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1793750760,
+            "is_live": false,
+            "time_sort": 1793752200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4a9a813ce1_c5d47df0_20261104.png?v=c5d47df0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-28962f3711_1943e167_20261104.png?v=1943e167",
             "width": 1600,
             "height": 1200
           }
