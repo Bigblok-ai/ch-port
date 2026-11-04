@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-07e335158d_862ae3c0_20261104.png?v=862ae3c0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d0925ff544",
+          "name": "LI Yutong vs LIU Qingqing | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0925ff544",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d0925ff544",
+                  "name": "LI Yutong vs LIU Qingqing",
+                  "streams": [
+                    {
+                      "id": "st-d0925ff544",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0925ff544",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9833/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "choangtv",
+            "team_a": "LI Yutong",
+            "team_b": "LIU Qingqing",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793780600821_Trung%20Qu%E1%BB%91c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793780600446_Trung%20Qu%E1%BB%91c.png",
+            "time": "15:23:00",
+            "date": "04/11",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1793780580,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0925ff544_6437c1bd_20261104.png?v=6437c1bd",
             "width": 1600,
             "height": 1200
           }
