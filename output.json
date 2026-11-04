@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b71e0c6f59",
-          "name": "Tuấn Vũng Tàu vs Hùng Xa Lộ | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b71e0c6f59",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b71e0c6f59",
-                  "name": "Tuấn Vũng Tàu vs Hùng Xa Lộ",
-                  "streams": [
-                    {
-                      "id": "st-b71e0c6f59",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b71e0c6f59",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9841/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "toptop game 2",
-            "team_a": "Tuấn Vũng Tàu",
-            "team_b": "Hùng Xa Lộ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793775700780_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793775700440_Vi%E1%BB%87t%20Nam.png",
-            "time": "17:23:00",
-            "date": "04/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1793787780,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b71e0c6f59_ece8a4d9_20261104.png?v=ece8a4d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-5936e21ee7",
           "name": "LEE VAN CORTEZA vs DENNIS ORCOLLO | Đại Kê",
@@ -158,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5936e21ee7_95df1f9c_20261104.png?v=95df1f9c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b5c18ead2c",
-          "name": "tiến mạnh vs việt anh đồng triều | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5c18ead2c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b5c18ead2c",
-                  "name": "tiến mạnh vs việt anh đồng triều",
-                  "streams": [
-                    {
-                      "id": "st-b5c18ead2c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b5c18ead2c",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9844/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "tiến mạnh",
-            "team_b": "việt anh đồng triều",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793797437276_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793797437260_Screenshot%202026-10-15%20133326.png",
-            "time": "20:04:00",
-            "date": "04/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1793797440,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b5c18ead2c_fc604428_20261104.png?v=fc604428",
             "width": 1600,
             "height": 1200
           }
