@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-0f66105331",
-          "name": "bình ốc vs james aranas | Lee Min Hoo",
+          "id": "chtv-d8fde5f622",
+          "name": "bình ốc vs james aranas | 01:20 05/11 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-0f66105331",
+              "id": "src-d8fde5f622",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0f66105331",
+                  "id": "ct-d8fde5f622",
                   "name": "bình ốc vs james aranas",
                   "streams": [
                     {
-                      "id": "st-0f66105331",
+                      "id": "st-d8fde5f622",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0f66105331",
+                          "id": "lnk-d8fde5f622",
                           "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9857/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9860/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "top top",
+            "league": "99 SHOW MÁT",
             "team_a": "bình ốc",
             "team_b": "james aranas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793807141996_Screenshot%202026-11-04%20224509.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793807141760_Screenshot%202026-11-04%20202800.png",
-            "time": "22:45:00",
-            "date": "04/11",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793816409398_B%C3%8CNH%20%E1%BB%90C.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793816413952_JAMES%20ARANAS.jpg",
+            "time": "01:20:00",
+            "date": "05/11",
             "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1793807100,
+            "is_live": false,
+            "time_sort": 1793816400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0f66105331_25b62a87_20261105.png?v=25b62a87",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8fde5f622_9ea292ba_20261105.png?v=9ea292ba",
             "width": 1600,
             "height": 1200
           }
