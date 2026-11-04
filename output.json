@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-f245b88b16",
-          "name": "Nguyễn Thị Yến Nhi vs Hồ Nhất Thạch | Bỉm Sữa",
+          "id": "chtv-d615bda46c",
+          "name": "Thanh Nghi (G) vs Đặng Hoàng Nam (G) | 14:00 04/11 | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-f245b88b16",
+              "id": "src-d615bda46c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f245b88b16",
-                  "name": "Nguyễn Thị Yến Nhi vs Hồ Nhất Thạch",
+                  "id": "ct-d615bda46c",
+                  "name": "Thanh Nghi (G) vs Đặng Hoàng Nam (G)",
                   "streams": [
                     {
-                      "id": "st-f245b88b16",
+                      "id": "st-d615bda46c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f245b88b16",
+                          "id": "lnk-d615bda46c",
                           "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9829/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9830/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,22 +69,22 @@
           ],
           "org_metadata": {
             "league": "MASTER LEVEL G",
-            "team_a": "Nguyễn Thị Yến Nhi",
-            "team_b": "Hồ Nhất Thạch",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793772286463_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793772286086_Vi%E1%BB%87t%20Nam.png",
-            "time": "13:04:00",
+            "team_a": "Thanh Nghi (G)",
+            "team_b": "Đặng Hoàng Nam (G)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793775517111_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793775517077_Vi%E1%BB%87t%20Nam.png",
+            "time": "14:00:00",
             "date": "04/11",
             "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1793772240,
+            "is_live": false,
+            "time_sort": 1793775600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f245b88b16_6ad0edae_20261104.png?v=6ad0edae",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d615bda46c_08e0cdb1_20261104.png?v=08e0cdb1",
             "width": 1600,
             "height": 1200
           }
