@@ -11,157 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-5936e21ee7",
-          "name": "LEE VAN CORTEZA vs DENNIS ORCOLLO | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5936e21ee7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5936e21ee7",
-                  "name": "LEE VAN CORTEZA vs DENNIS ORCOLLO",
-                  "streams": [
-                    {
-                      "id": "st-5936e21ee7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5936e21ee7",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9843/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "LEE VAN CORTEZA",
-            "team_b": "DENNIS ORCOLLO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793717073827_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793717074504_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "19:40:00",
-            "date": "04/11",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1793796000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5936e21ee7_95df1f9c_20261105.png?v=95df1f9c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a2e78a4b13",
-          "name": "WANING SURIGAO vs KEITH MANAYON  7/10 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a2e78a4b13",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a2e78a4b13",
-                  "name": "WANING SURIGAO vs KEITH MANAYON  7/10",
-                  "streams": [
-                    {
-                      "id": "st-a2e78a4b13",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2e78a4b13",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9854/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "WANING SURIGAO",
-            "team_b": "KEITH MANAYON  7/10",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793802977952_Screenshot%202026-11-04%20213601.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793802977403_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "21:36:00",
-            "date": "04/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1793802960,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a2e78a4b13_aec429e6_20261105.png?v=aec429e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-0f66105331",
           "name": "bình ốc vs james aranas | Lee Min Hoo",
@@ -309,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-2bc06acb45",
-          "name": "Liverpool vs Fenerbahçe | 00:45 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2bc06acb45",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2bc06acb45",
-                  "name": "Liverpool vs Fenerbahçe",
-                  "streams": [
-                    {
-                      "id": "st-2bc06acb45",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2bc06acb45",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9847/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bóng",
-            "team_a": "Liverpool",
-            "team_b": "Fenerbahçe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798151300_Screenshot%202026-11-04%20201542.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798151554_Screenshot%202026-11-04%20201548.png",
-            "time": "00:45:00",
-            "date": "05/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793814300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2bc06acb45_42e417b8_20261105.png?v=42e417b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-79349d9d5b",
           "name": "Real Madrid vs AEK Athens | 00:45 05/11",
           "type": "single",
@@ -455,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-749c8baebd",
-          "name": "Como vs Lens | 03:00 05/11",
+          "id": "chtv-2bc06acb45",
+          "name": "Liverpool vs Fenerbahçe | 00:45 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-749c8baebd",
+              "id": "src-2bc06acb45",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-749c8baebd",
-                  "name": "Como vs Lens",
+                  "id": "ct-2bc06acb45",
+                  "name": "Liverpool vs Fenerbahçe",
                   "streams": [
                     {
-                      "id": "st-749c8baebd",
+                      "id": "st-2bc06acb45",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-749c8baebd",
+                          "id": "lnk-2bc06acb45",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9849/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9847/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -506,23 +287,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Como",
-            "team_b": "Lens",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798298329_Screenshot%202026-11-04%20201755.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798298933_Screenshot%202026-11-04%20201815.png",
-            "time": "03:00:00",
+            "league": "bóng bóng",
+            "team_a": "Liverpool",
+            "team_b": "Fenerbahçe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798151300_Screenshot%202026-11-04%20201542.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798151554_Screenshot%202026-11-04%20201548.png",
+            "time": "00:45:00",
             "date": "05/11",
             "blv": "",
             "is_live": false,
-            "time_sort": 1793822400,
+            "time_sort": 1793814300,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-749c8baebd_f4fec989_20261105.png?v=f4fec989",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2bc06acb45_42e417b8_20261105.png?v=42e417b8",
             "width": 1600,
             "height": 1200
           }
@@ -669,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4edb9e0228_d610c79c_20261105.png?v=d610c79c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-749c8baebd",
+          "name": "Como vs Lens | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-749c8baebd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-749c8baebd",
+                  "name": "Como vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-749c8baebd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-749c8baebd",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9849/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Como",
+            "team_b": "Lens",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798298329_Screenshot%202026-11-04%20201755.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798298933_Screenshot%202026-11-04%20201815.png",
+            "time": "03:00:00",
+            "date": "05/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793822400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-749c8baebd_f4fec989_20261105.png?v=f4fec989",
             "width": 1600,
             "height": 1200
           }
