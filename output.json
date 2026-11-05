@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -237,16 +237,16 @@
         },
         {
           "id": "chtv-7622ccc984",
-          "name": "kiến sếu vs tùng hip | 20:30 05/11 | Đại Kê",
+          "name": "kiến sếu vs tùng hip | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +295,7 @@
             "time": "20:30:00",
             "date": "05/11",
             "blv": "Đại Kê",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1793885400,
             "cate_type": "billiards"
           },
@@ -304,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7622ccc984_0ca9e39a_20261105.png?v=0ca9e39a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7a81d7dc2c",
-          "name": "Real Sociedad vs Olympique Lyonnais | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a81d7dc2c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7a81d7dc2c",
-                  "name": "Real Sociedad vs Olympique Lyonnais",
-                  "streams": [
-                    {
-                      "id": "st-7a81d7dc2c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a81d7dc2c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9876/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Real Sociedad",
-            "team_b": "Olympique Lyonnais",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793878976651_Screenshot%202026-11-05%20184247.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793878976852_Screenshot%202026-11-05%20184255.png",
-            "time": "00:45:00",
-            "date": "06/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793900700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7a81d7dc2c_af72997c_20261105.png?v=af72997c",
             "width": 1600,
             "height": 1200
           }
@@ -450,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9effb4bca_0972900a_20261105.png?v=0972900a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7a81d7dc2c",
+          "name": "Real Sociedad vs Olympique Lyonnais | 00:45 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a81d7dc2c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7a81d7dc2c",
+                  "name": "Real Sociedad vs Olympique Lyonnais",
+                  "streams": [
+                    {
+                      "id": "st-7a81d7dc2c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a81d7dc2c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9876/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Real Sociedad",
+            "team_b": "Olympique Lyonnais",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793878976651_Screenshot%202026-11-05%20184247.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793878976852_Screenshot%202026-11-05%20184255.png",
+            "time": "00:45:00",
+            "date": "06/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793900700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7a81d7dc2c_af72997c_20261105.png?v=af72997c",
             "width": 1600,
             "height": 1200
           }
