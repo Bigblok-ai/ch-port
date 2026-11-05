@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-4148a6fff8",
-          "name": "Jaybee sucal 5/7/10 vs Jericho bañares | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4148a6fff8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4148a6fff8",
-                  "name": "Jaybee sucal 5/7/10 vs Jericho bañares",
-                  "streams": [
-                    {
-                      "id": "st-4148a6fff8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4148a6fff8",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9873/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "Jaybee sucal 5/7/10",
-            "team_b": "Jericho bañares",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793876281726_Screenshot%202026-11-05%20175745.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793876350337_Screenshot%202026-11-05%20175856.png",
-            "time": "17:55:00",
-            "date": "05/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793876100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4148a6fff8_85e4513c_20261105.png?v=85e4513c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7622ccc984",
           "name": "kiến sếu vs tùng hip | Đại Kê",
           "type": "single",
@@ -383,16 +310,16 @@
         },
         {
           "id": "chtv-c4ea8cf4ed",
-          "name": "ROBERTO GOMEZ vs DENNIS HATCH | 22:48 05/11 | Bỉm Sữa",
+          "name": "ROBERTO GOMEZ vs DENNIS HATCH | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -441,7 +368,7 @@
             "time": "22:48:00",
             "date": "05/11",
             "blv": "Bỉm Sữa",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1793893680,
             "cate_type": "billiards"
           },
