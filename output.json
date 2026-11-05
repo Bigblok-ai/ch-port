@@ -161,6 +161,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-fe5a9f2e5c",
+          "name": "MINH TÂM vs NGỌC CET | 18:13 05/11 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe5a9f2e5c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fe5a9f2e5c",
+                  "name": "MINH TÂM vs NGỌC CET",
+                  "streams": [
+                    {
+                      "id": "st-fe5a9f2e5c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe5a9f2e5c",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9874/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "MINH TÂM",
+            "team_b": "NGỌC CET",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793877246694_Screenshot%202026-11-05%20181359.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793877267711_Screenshot%202026-11-05%20181419.png",
+            "time": "18:13:00",
+            "date": "05/11",
+            "blv": "Thập Cẩm",
+            "is_live": false,
+            "time_sort": 1793877180,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fe5a9f2e5c_aacf3c97_20261105.png?v=aacf3c97",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
