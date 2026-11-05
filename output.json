@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4148a6fff8_85e4513c_20261105.png?v=85e4513c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fdefc7dec7",
-          "name": "Duy Đinh vs JAMES ARANAS | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fdefc7dec7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fdefc7dec7",
-                  "name": "Duy Đinh vs JAMES ARANAS",
-                  "streams": [
-                    {
-                      "id": "st-fdefc7dec7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fdefc7dec7",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9871/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗣𝗵𝘂́ 𝗤𝘂𝘆́ 𝗗𝗼 𝗧𝗿𝗼̛̀𝗶 - 𝗦𝗼̂́𝗻𝗴 𝗖𝗵𝗲̂́𝘁 𝗖𝗼́ 𝗦𝗼̂́",
-            "team_a": "Duy Đinh",
-            "team_b": "JAMES ARANAS",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793870897872_Duy%20%C4%90inh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793871004543_JAMES%20ARANAS.jpg",
-            "time": "20:00:00",
-            "date": "05/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1793883600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fdefc7dec7_eef21fe3_20261105.png?v=eef21fe3",
             "width": 1600,
             "height": 1200
           }
@@ -309,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-f9effb4bca",
-          "name": "Milan vs Ferencváros | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9effb4bca",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f9effb4bca",
-                  "name": "Milan vs Ferencváros",
-                  "streams": [
-                    {
-                      "id": "st-f9effb4bca",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f9effb4bca",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9875/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Milan",
-            "team_b": "Ferencváros",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793878916472_Screenshot%202026-11-05%20184141.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793878916449_Screenshot%202026-11-05%20184152.png",
-            "time": "00:45:00",
-            "date": "06/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793900700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9effb4bca_0972900a_20261105.png?v=0972900a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7a81d7dc2c",
           "name": "Real Sociedad vs Olympique Lyonnais | 00:45 06/11",
           "type": "single",
@@ -455,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-700d933bb8",
-          "name": "Bayer 04 Leverkusen vs Olympique Marseille | 03:00 06/11",
+          "id": "chtv-f9effb4bca",
+          "name": "Milan vs Ferencváros | 00:45 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-700d933bb8",
+              "id": "src-f9effb4bca",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-700d933bb8",
-                  "name": "Bayer 04 Leverkusen vs Olympique Marseille",
+                  "id": "ct-f9effb4bca",
+                  "name": "Milan vs Ferencváros",
                   "streams": [
                     {
-                      "id": "st-700d933bb8",
+                      "id": "st-f9effb4bca",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-700d933bb8",
+                          "id": "lnk-f9effb4bca",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9879/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9875/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -506,23 +360,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bónggggg",
-            "team_a": "Bayer 04 Leverkusen",
-            "team_b": "Olympique Marseille",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793879443037_Screenshot%202026-11-05%20185035.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793879443171_Screenshot%202026-11-05%20185040.png",
-            "time": "03:00:00",
+            "league": "bóng bánh",
+            "team_a": "Milan",
+            "team_b": "Ferencváros",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793878916472_Screenshot%202026-11-05%20184141.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793878916449_Screenshot%202026-11-05%20184152.png",
+            "time": "00:45:00",
             "date": "06/11",
             "blv": "",
             "is_live": false,
-            "time_sort": 1793908800,
+            "time_sort": 1793900700,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-700d933bb8_3044bdb8_20261105.png?v=3044bdb8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f9effb4bca_0972900a_20261105.png?v=0972900a",
             "width": 1600,
             "height": 1200
           }
@@ -669,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6574e939c9_882c146d_20261105.png?v=882c146d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-700d933bb8",
+          "name": "Bayer 04 Leverkusen vs Olympique Marseille | 03:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-700d933bb8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-700d933bb8",
+                  "name": "Bayer 04 Leverkusen vs Olympique Marseille",
+                  "streams": [
+                    {
+                      "id": "st-700d933bb8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-700d933bb8",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9879/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bónggggg",
+            "team_a": "Bayer 04 Leverkusen",
+            "team_b": "Olympique Marseille",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793879443037_Screenshot%202026-11-05%20185035.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793879443171_Screenshot%202026-11-05%20185040.png",
+            "time": "03:00:00",
+            "date": "06/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793908800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-700d933bb8_3044bdb8_20261105.png?v=3044bdb8",
             "width": 1600,
             "height": 1200
           }
