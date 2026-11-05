@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -309,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-5fc73c34e0",
+          "name": "SHANE VAN BOENING vs JESUS ATENCIO | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5fc73c34e0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5fc73c34e0",
+                  "name": "SHANE VAN BOENING vs JESUS ATENCIO",
+                  "streams": [
+                    {
+                      "id": "st-5fc73c34e0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5fc73c34e0",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9883/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "SHANE VAN BOENING",
+            "team_b": "JESUS ATENCIO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793891236604_Screenshot%202026-11-05%20220556.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793891256296_Screenshot%202026-11-05%20220730.png",
+            "time": "22:06:00",
+            "date": "05/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1793891160,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5fc73c34e0_4968e43b_20261105.png?v=4968e43b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7a81d7dc2c",
           "name": "Real Sociedad vs Olympique Lyonnais | 00:45 06/11",
           "type": "single",
@@ -455,8 +528,8 @@
           }
         },
         {
-          "id": "chtv-fcbb3252c0",
-          "name": "Benfica vs Lech Poznań | 03:00 06/11",
+          "id": "chtv-700d933bb8",
+          "name": "Bayer 04 Leverkusen vs Olympique Marseille | 03:00 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +543,23 @@
           ],
           "sources": [
             {
-              "id": "src-fcbb3252c0",
+              "id": "src-700d933bb8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fcbb3252c0",
-                  "name": "Benfica vs Lech Poznań",
+                  "id": "ct-700d933bb8",
+                  "name": "Bayer 04 Leverkusen vs Olympique Marseille",
                   "streams": [
                     {
-                      "id": "st-fcbb3252c0",
+                      "id": "st-700d933bb8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fcbb3252c0",
+                          "id": "lnk-700d933bb8",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9877/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9879/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -506,11 +579,11 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Benfica",
-            "team_b": "Lech Poznań",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793879035976_Screenshot%202026-11-05%20184347.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793879036254_Screenshot%202026-11-05%20184353.png",
+            "league": "bónggggg",
+            "team_a": "Bayer 04 Leverkusen",
+            "team_b": "Olympique Marseille",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793879443037_Screenshot%202026-11-05%20185035.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793879443171_Screenshot%202026-11-05%20185040.png",
             "time": "03:00:00",
             "date": "06/11",
             "blv": "",
@@ -522,7 +595,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcbb3252c0_658ac439_20261105.png?v=658ac439",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-700d933bb8_3044bdb8_20261105.png?v=3044bdb8",
             "width": 1600,
             "height": 1200
           }
@@ -601,8 +674,8 @@
           }
         },
         {
-          "id": "chtv-700d933bb8",
-          "name": "Bayer 04 Leverkusen vs Olympique Marseille | 03:00 06/11",
+          "id": "chtv-fcbb3252c0",
+          "name": "Benfica vs Lech Poznań | 03:00 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -616,23 +689,23 @@
           ],
           "sources": [
             {
-              "id": "src-700d933bb8",
+              "id": "src-fcbb3252c0",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-700d933bb8",
-                  "name": "Bayer 04 Leverkusen vs Olympique Marseille",
+                  "id": "ct-fcbb3252c0",
+                  "name": "Benfica vs Lech Poznań",
                   "streams": [
                     {
-                      "id": "st-700d933bb8",
+                      "id": "st-fcbb3252c0",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-700d933bb8",
+                          "id": "lnk-fcbb3252c0",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9879/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9877/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -652,11 +725,11 @@
             }
           ],
           "org_metadata": {
-            "league": "bónggggg",
-            "team_a": "Bayer 04 Leverkusen",
-            "team_b": "Olympique Marseille",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793879443037_Screenshot%202026-11-05%20185035.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793879443171_Screenshot%202026-11-05%20185040.png",
+            "league": "bóng bánh",
+            "team_a": "Benfica",
+            "team_b": "Lech Poznań",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793879035976_Screenshot%202026-11-05%20184347.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793879036254_Screenshot%202026-11-05%20184353.png",
             "time": "03:00:00",
             "date": "06/11",
             "blv": "",
@@ -668,7 +741,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-700d933bb8_3044bdb8_20261105.png?v=3044bdb8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcbb3252c0_658ac439_20261105.png?v=658ac439",
             "width": 1600,
             "height": 1200
           }
