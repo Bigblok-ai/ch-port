@@ -382,6 +382,79 @@
           }
         },
         {
+          "id": "chtv-f609437e8f",
+          "name": "Carlo / JC BIADO vs LAGAS / TINO | 22:13 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f609437e8f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f609437e8f",
+                  "name": "Carlo / JC BIADO vs LAGAS / TINO",
+                  "streams": [
+                    {
+                      "id": "st-f609437e8f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f609437e8f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9884/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Carlo / JC BIADO",
+            "team_b": "LAGAS / TINO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793891677354_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793891677997_Philippines.png",
+            "time": "22:13:00",
+            "date": "05/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793891580,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f609437e8f_6fbfe81f_20261105.png?v=6fbfe81f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7a81d7dc2c",
           "name": "Real Sociedad vs Olympique Lyonnais | 00:45 06/11",
           "type": "single",
