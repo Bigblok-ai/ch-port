@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-35c38d8df2",
+          "name": "AJ MANAS vs ASSIS TADIUE | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35c38d8df2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-35c38d8df2",
+                  "name": "AJ MANAS vs ASSIS TADIUE",
+                  "streams": [
+                    {
+                      "id": "st-35c38d8df2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35c38d8df2",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9881/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "AJ MANAS",
+            "team_b": "ASSIS TADIUE",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793889643648_Screenshot%202026-11-05%20214028.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793889643274_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "21:40:00",
+            "date": "05/11",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1793889600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-35c38d8df2_c69e4e75_20261105.png?v=c69e4e75",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7a81d7dc2c",
           "name": "Real Sociedad vs Olympique Lyonnais | 00:45 06/11",
           "type": "single",
@@ -382,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-fcbb3252c0",
-          "name": "Benfica vs Lech Poznań | 03:00 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcbb3252c0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fcbb3252c0",
-                  "name": "Benfica vs Lech Poznań",
-                  "streams": [
-                    {
-                      "id": "st-fcbb3252c0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcbb3252c0",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9877/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Benfica",
-            "team_b": "Lech Poznań",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793879035976_Screenshot%202026-11-05%20184347.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793879036254_Screenshot%202026-11-05%20184353.png",
-            "time": "03:00:00",
-            "date": "06/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793908800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcbb3252c0_658ac439_20261105.png?v=658ac439",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-6574e939c9",
           "name": "AZ vs Juventus | 03:00 06/11",
           "type": "single",
@@ -596,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-700d933bb8_3044bdb8_20261105.png?v=3044bdb8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fcbb3252c0",
+          "name": "Benfica vs Lech Poznań | 03:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcbb3252c0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fcbb3252c0",
+                  "name": "Benfica vs Lech Poznań",
+                  "streams": [
+                    {
+                      "id": "st-fcbb3252c0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcbb3252c0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9877/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Benfica",
+            "team_b": "Lech Poznań",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793879035976_Screenshot%202026-11-05%20184347.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793879036254_Screenshot%202026-11-05%20184353.png",
+            "time": "03:00:00",
+            "date": "06/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793908800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcbb3252c0_658ac439_20261105.png?v=658ac439",
             "width": 1600,
             "height": 1200
           }
