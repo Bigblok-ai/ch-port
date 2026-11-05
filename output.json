@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7622ccc984",
-          "name": "kiến sếu vs tùng hip | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7622ccc984",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7622ccc984",
-                  "name": "kiến sếu vs tùng hip",
-                  "streams": [
-                    {
-                      "id": "st-7622ccc984",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7622ccc984",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9880/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "kiến sếu",
-            "team_b": "tùng hip",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793883402888_Screenshot%202026-11-05%20195613.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793883402571_Screenshot%202026-11-05%20195637.png",
-            "time": "20:30:00",
-            "date": "05/11",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1793885400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7622ccc984_0ca9e39a_20261106.png?v=0ca9e39a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-3a21f323a4",
           "name": "JAMES ARANAS vs Duy Đinh | Kèn Kèn",
@@ -158,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3a21f323a4_a4b89aef_20261106.png?v=a4b89aef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-700d933bb8",
-          "name": "Bayer 04 Leverkusen vs Olympique Marseille | 03:00 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-700d933bb8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-700d933bb8",
-                  "name": "Bayer 04 Leverkusen vs Olympique Marseille",
-                  "streams": [
-                    {
-                      "id": "st-700d933bb8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-700d933bb8",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9879/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bónggggg",
-            "team_a": "Bayer 04 Leverkusen",
-            "team_b": "Olympique Marseille",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793879443037_Screenshot%202026-11-05%20185035.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793879443171_Screenshot%202026-11-05%20185040.png",
-            "time": "03:00:00",
-            "date": "06/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793908800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-700d933bb8_3044bdb8_20261106.png?v=3044bdb8",
             "width": 1600,
             "height": 1200
           }
@@ -377,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcbb3252c0_658ac439_20261106.png?v=658ac439",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-700d933bb8",
+          "name": "Bayer 04 Leverkusen vs Olympique Marseille | 03:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-700d933bb8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-700d933bb8",
+                  "name": "Bayer 04 Leverkusen vs Olympique Marseille",
+                  "streams": [
+                    {
+                      "id": "st-700d933bb8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-700d933bb8",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9879/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bónggggg",
+            "team_a": "Bayer 04 Leverkusen",
+            "team_b": "Olympique Marseille",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793879443037_Screenshot%202026-11-05%20185035.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793879443171_Screenshot%202026-11-05%20185040.png",
+            "time": "03:00:00",
+            "date": "06/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793908800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-700d933bb8_3044bdb8_20261106.png?v=3044bdb8",
             "width": 1600,
             "height": 1200
           }
