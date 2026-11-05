@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-56dfb21452_d6d9d92e_20261105.png?v=d6d9d92e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-53621759e4",
+          "name": "roy vs dayer leg | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53621759e4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-53621759e4",
+                  "name": "roy vs dayer leg",
+                  "streams": [
+                    {
+                      "id": "st-53621759e4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-53621759e4",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9887/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "roy",
+            "team_b": "dayer leg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793897163814_Indonesia.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793897164167_Indonesia.png",
+            "time": "23:44:00",
+            "date": "05/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1793897040,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-53621759e4_07f066c0_20261105.png?v=07f066c0",
             "width": 1600,
             "height": 1200
           }
