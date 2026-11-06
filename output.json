@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a30a4c5e1f",
-          "name": "CHU BINGJIE vs YU LONGHAI | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a30a4c5e1f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a30a4c5e1f",
-                  "name": "CHU BINGJIE vs YU LONGHAI",
-                  "streams": [
-                    {
-                      "id": "st-a30a4c5e1f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a30a4c5e1f",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9896/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GIẢI ĐẤU 9 BI CHINESE POOL",
-            "team_a": "CHU BINGJIE",
-            "team_b": "YU LONGHAI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589653696_images.png",
-            "time": "12:23:00",
-            "date": "06/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1793942580,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a30a4c5e1f_bf022c23_20261106.png?v=bf022c23",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-7484fdc1f1",
           "name": "tuấn vũng tàu vs út vũng tàu | SÊ KÔÔ",
