@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-629362a9cd",
+          "name": "CANG TIU CIEN KOTA BATAM vs HENDRA KAB. KARIMUN | 09:50 06/11 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-629362a9cd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-629362a9cd",
+                  "name": "CANG TIU CIEN KOTA BATAM vs HENDRA KAB. KARIMUN",
+                  "streams": [
+                    {
+                      "id": "st-629362a9cd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-629362a9cd",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9893/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BOLA 15 TUNGGAL PUTRA",
+            "team_a": "CANG TIU CIEN KOTA BATAM",
+            "team_b": "HENDRA KAB. KARIMUN",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354762601_t%E1%BA%A3i%20xu%E1%BB%91ng%20(6).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1778354419271_3262_GVDZVA_96x96.png",
+            "time": "09:50:00",
+            "date": "06/11",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1793933400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-629362a9cd_48128686_20261106.png?v=48128686",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
