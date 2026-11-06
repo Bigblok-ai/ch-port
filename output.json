@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-228f9daade_c80569c1_20261106.png?v=c80569c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c944362be2",
-          "name": "JASON SENTILLAS vs WILLIAM DOTILLOS 7-10 | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c944362be2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c944362be2",
-                  "name": "JASON SENTILLAS vs WILLIAM DOTILLOS 7-10",
-                  "streams": [
-                    {
-                      "id": "st-c944362be2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c944362be2",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9908/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "JASON SENTILLAS",
-            "team_b": "WILLIAM DOTILLOS 7-10",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793969386401_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793969386345_Philippines.png",
-            "time": "19:50:00",
-            "date": "06/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1793969400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c944362be2_4dfd34a7_20261106.png?v=4dfd34a7",
             "width": 1600,
             "height": 1200
           }
