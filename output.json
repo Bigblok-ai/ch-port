@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-758a741ca5",
+          "name": "Carlo Biado vs Tristan Deocareza 8.10 | 23:08 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-758a741ca5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-758a741ca5",
+                  "name": "Carlo Biado vs Tristan Deocareza 8.10",
+                  "streams": [
+                    {
+                      "id": "st-758a741ca5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-758a741ca5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9915/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Carlo Biado",
+            "team_b": "Tristan Deocareza 8.10",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793981307568_Screenshot%202026-11-06%20230822.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793981310053_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "23:08:00",
+            "date": "06/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793981280,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-758a741ca5_854cb387_20261106.png?v=854cb387",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e59415e446",
           "name": "Venezia vs Udinese | 02:45 07/11",
           "type": "single",
