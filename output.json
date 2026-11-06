@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-33687164e2",
+          "name": "JAMES ARANAS vs dũng moi | 18:22 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33687164e2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-33687164e2",
+                  "name": "JAMES ARANAS vs dũng moi",
+                  "streams": [
+                    {
+                      "id": "st-33687164e2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-33687164e2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9902/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "siêu kinh điển",
+            "team_a": "JAMES ARANAS",
+            "team_b": "dũng moi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793964186815_Screenshot%202026-11-06%20182240.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793964186029_Screenshot%202026-11-06%20182301.png",
+            "time": "18:22:00",
+            "date": "06/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793964120,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-33687164e2_b4b9a142_20261106.png?v=b4b9a142",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
