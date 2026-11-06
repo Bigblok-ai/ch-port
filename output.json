@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-700d933bb8",
-          "name": "Bayer 04 Leverkusen vs Olympique Marseille | Thập Cẩm",
+          "id": "chtv-e60d08042d",
+          "name": "Cơ thủ trái vs Cơ thủ Phải | 08:10 06/11 | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-700d933bb8",
+              "id": "src-e60d08042d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-700d933bb8",
-                  "name": "Bayer 04 Leverkusen vs Olympique Marseille",
+                  "id": "ct-e60d08042d",
+                  "name": "Cơ thủ trái vs Cơ thủ Phải",
                   "streams": [
                     {
-                      "id": "st-700d933bb8",
+                      "id": "st-e60d08042d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-700d933bb8",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-e60d08042d",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9879/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9890/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,96 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bónggggg",
-            "team_a": "Bayer 04 Leverkusen",
-            "team_b": "Olympique Marseille",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793879443037_Screenshot%202026-11-05%20185035.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793879443171_Screenshot%202026-11-05%20185040.png",
-            "time": "03:00:00",
+            "league": "National 10-Ball Showdown FINALS NIGHT",
+            "team_a": "Cơ thủ trái",
+            "team_b": "Cơ thủ Phải",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1778354762601_t%E1%BA%A3i%20xu%E1%BB%91ng%20(6).png",
+            "time": "08:10:00",
             "date": "06/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1793908800,
+            "blv": "Tào A Man",
+            "is_live": false,
+            "time_sort": 1793927400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-700d933bb8_3044bdb8_20261106.png?v=3044bdb8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6574e939c9",
-          "name": "AZ vs Juventus | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6574e939c9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6574e939c9",
-                  "name": "AZ vs Juventus",
-                  "streams": [
-                    {
-                      "id": "st-6574e939c9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6574e939c9",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9878/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng banh",
-            "team_a": "AZ",
-            "team_b": "Juventus",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793879085241_Screenshot%202026-11-05%20184430.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793879077081_Screenshot%202026-11-05%20184436.png",
-            "time": "03:00:00",
-            "date": "06/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793908800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6574e939c9_882c146d_20261106.png?v=882c146d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e60d08042d_ea0816b2_20261106.png?v=ea0816b2",
             "width": 1600,
             "height": 1200
           }
