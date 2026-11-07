@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-57c1ff9df8_6e67b29e_20261107.png?v=6e67b29e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-adcb9b8497",
+          "name": "C.Biado / R. Alcano vs A. Raga / A. Espinola",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-adcb9b8497",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-adcb9b8497",
+                  "name": "C.Biado / R. Alcano vs A. Raga / A. Espinola",
+                  "streams": [
+                    {
+                      "id": "st-adcb9b8497",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-adcb9b8497",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9972/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝟭𝟬 𝗯𝗮𝗹𝗹 𝗗𝗼𝘂𝗯𝗹𝗲𝘀 | 𝗥𝗮𝗰𝗲 𝟭𝟳",
+            "team_a": "C.Biado / R. Alcano",
+            "team_b": "A. Raga / A. Espinola",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794069507948_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794069519187_ANTON%20RAGA.jpg",
+            "time": "23:00:00",
+            "date": "07/11",
+            "blv": "",
+            "is_live": true,
+            "time_sort": 1794067200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-adcb9b8497_c840afa2_20261107.png?v=c840afa2",
             "width": 1600,
             "height": 1200
           }
