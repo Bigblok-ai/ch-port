@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-888eaf9655",
-          "name": "James Aranas vs Đạt Phi | GIÀNG A PHỌ",
+          "id": "chtv-39149701c1",
+          "name": "Nam Phạm vs Tiến Minh TH | 15:15 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-888eaf9655",
+              "id": "src-39149701c1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-888eaf9655",
-                  "name": "James Aranas vs Đạt Phi",
+                  "id": "ct-39149701c1",
+                  "name": "Nam Phạm vs Tiến Minh TH",
                   "streams": [
                     {
-                      "id": "st-888eaf9655",
+                      "id": "st-39149701c1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-888eaf9655",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-39149701c1",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9941/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9942/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "vòng 2-trận 47",
-            "team_a": "James Aranas",
-            "team_b": "Đạt Phi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794035093534_Screenshot%202026-11-07%20140434.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794035168400_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:05:00",
+            "league": "Nhánh thua vòng 1 16h00",
+            "team_a": "Nam Phạm",
+            "team_b": "Tiến Minh TH",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794040113219_T%E1%BA%A1%20Ph%C6%B0%C6%A1ng%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794039297671_Screenshot%202026-10-15%20133326.png",
+            "time": "15:15:00",
             "date": "07/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794035100,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794039300,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-888eaf9655_9329fd40_20261107.png?v=9329fd40",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-39149701c1_34cca11f_20261107.png?v=34cca11f",
             "width": 1600,
             "height": 1200
           }
@@ -304,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1636d32525_cbeebd4f_20261107.png?v=cbeebd4f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-39149701c1",
-          "name": "Nam Phạm vs Tiến Minh TH | 15:15 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39149701c1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-39149701c1",
-                  "name": "Nam Phạm vs Tiến Minh TH",
-                  "streams": [
-                    {
-                      "id": "st-39149701c1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39149701c1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9942/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhánh thua vòng 1 16h00",
-            "team_a": "Nam Phạm",
-            "team_b": "Tiến Minh TH",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794040113219_T%E1%BA%A1%20Ph%C6%B0%C6%A1ng%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794039297671_Screenshot%202026-10-15%20133326.png",
-            "time": "15:15:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794039300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-39149701c1_34cca11f_20261107.png?v=34cca11f",
             "width": 1600,
             "height": 1200
           }
