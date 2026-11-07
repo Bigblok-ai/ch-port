@@ -382,81 +382,8 @@
           }
         },
         {
-          "id": "chtv-a99d7665d3",
-          "name": "Tại Đá vs Văn Huynh | 12:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a99d7665d3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a99d7665d3",
-                  "name": "Tại Đá vs Văn Huynh",
-                  "streams": [
-                    {
-                      "id": "st-a99d7665d3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a99d7665d3",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9927/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
-            "team_a": "Tại Đá",
-            "team_b": "Văn Huynh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794022684369_%C4%90%E1%BB%8ANH%20V%E1%BA%A0N.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794022668133_V%C4%82N%20HUYNH.jpg",
-            "time": "12:00:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794027600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a99d7665d3_8a3dd870_20261107.png?v=8a3dd870",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-2d998fd752",
-          "name": "Văn Sinh vs Wike | 12:00 07/11",
+          "name": "Văn Sinh vs Wike | 12:00 07/11 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -483,7 +410,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-2d998fd752",
-                          "name": "Stream",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9929/index.m3u8",
@@ -513,7 +440,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00:00",
             "date": "07/11",
-            "blv": "",
+            "blv": "Đại Kê",
             "is_live": false,
             "time_sort": 1794027600,
             "cate_type": "billiards"
@@ -596,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aaf3372eb1_6d51062c_20261107.png?v=6d51062c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a99d7665d3",
+          "name": "Tại Đá vs Văn Huynh | 12:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a99d7665d3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a99d7665d3",
+                  "name": "Tại Đá vs Văn Huynh",
+                  "streams": [
+                    {
+                      "id": "st-a99d7665d3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a99d7665d3",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9927/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
+            "team_a": "Tại Đá",
+            "team_b": "Văn Huynh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794022684369_%C4%90%E1%BB%8ANH%20V%E1%BA%A0N.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794022668133_V%C4%82N%20HUYNH.jpg",
+            "time": "12:00:00",
+            "date": "07/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794027600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a99d7665d3_8a3dd870_20261107.png?v=8a3dd870",
             "width": 1600,
             "height": 1200
           }
