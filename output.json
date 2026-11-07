@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-f51f3151c6",
+          "name": "Tkon vs Phương He | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f51f3151c6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f51f3151c6",
+                  "name": "Tkon vs Phương He",
+                  "streams": [
+                    {
+                      "id": "st-f51f3151c6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f51f3151c6",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9919/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
+            "team_a": "Tkon",
+            "team_b": "Phương He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794015862859_Ph%C6%B0%C6%A1ng%20He.png",
+            "time": "10:00:00",
+            "date": "07/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1794020400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f51f3151c6_01cbd9ea_20261107.png?v=01cbd9ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-1d73e3a4cc",
           "name": "An Nhiệt vs Duy Nhỏ | 10:00 07/11",
@@ -85,298 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1d73e3a4cc_cd62ce97_20261107.png?v=cd62ce97",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f51f3151c6",
-          "name": "Tkon vs Phương He | 10:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f51f3151c6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f51f3151c6",
-                  "name": "Tkon vs Phương He",
-                  "streams": [
-                    {
-                      "id": "st-f51f3151c6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f51f3151c6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9919/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
-            "team_a": "Tkon",
-            "team_b": "Phương He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794015862859_Ph%C6%B0%C6%A1ng%20He.png",
-            "time": "10:00:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794020400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f51f3151c6_01cbd9ea_20261107.png?v=01cbd9ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-53af5cc471",
-          "name": "Nam Phạm vs Tuyên con | 10:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-53af5cc471",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-53af5cc471",
-                  "name": "Nam Phạm vs Tuyên con",
-                  "streams": [
-                    {
-                      "id": "st-53af5cc471",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53af5cc471",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9922/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
-            "team_a": "Nam Phạm",
-            "team_b": "Tuyên con",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794016019716_Nam%20Ph%E1%BA%A1m.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794016016483_TUY%C3%8AN%20CON.jpg",
-            "time": "10:00:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794020400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-53af5cc471_7e41e9e7_20261107.png?v=7e41e9e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-69f492fbb3",
-          "name": "Dũng Moi vs Tùng Gái | 10:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69f492fbb3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-69f492fbb3",
-                  "name": "Dũng Moi vs Tùng Gái",
-                  "streams": [
-                    {
-                      "id": "st-69f492fbb3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69f492fbb3",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9924/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
-            "team_a": "Dũng Moi",
-            "team_b": "Tùng Gái",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794016108527_D%C5%A8NG%20MOI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794016111619_T%C3%99NG%20G%C3%81I.jpg",
-            "time": "10:00:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794020400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-69f492fbb3_f3f10501_20261107.png?v=f3f10501",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a46a28f893",
-          "name": "Bình Ốc vs Cu Thóc | 10:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a46a28f893",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a46a28f893",
-                  "name": "Bình Ốc vs Cu Thóc",
-                  "streams": [
-                    {
-                      "id": "st-a46a28f893",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a46a28f893",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9925/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
-            "team_a": "Bình Ốc",
-            "team_b": "Cu Thóc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794016161711_B%C3%8CNH%20%E1%BB%90C.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794016158508_Cu%20Th%C3%B3c.png",
-            "time": "10:00:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794020400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a46a28f893_819d0196_20261107.png?v=819d0196",
             "width": 1600,
             "height": 1200
           }
@@ -455,6 +236,152 @@
           }
         },
         {
+          "id": "chtv-a46a28f893",
+          "name": "Bình Ốc vs Cu Thóc | 10:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a46a28f893",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a46a28f893",
+                  "name": "Bình Ốc vs Cu Thóc",
+                  "streams": [
+                    {
+                      "id": "st-a46a28f893",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a46a28f893",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9925/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
+            "team_a": "Bình Ốc",
+            "team_b": "Cu Thóc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794016161711_B%C3%8CNH%20%E1%BB%90C.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794016158508_Cu%20Th%C3%B3c.png",
+            "time": "10:00:00",
+            "date": "07/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794020400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a46a28f893_819d0196_20261107.png?v=819d0196",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-69f492fbb3",
+          "name": "Dũng Moi vs Tùng Gái | 10:00 07/11 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69f492fbb3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-69f492fbb3",
+                  "name": "Dũng Moi vs Tùng Gái",
+                  "streams": [
+                    {
+                      "id": "st-69f492fbb3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69f492fbb3",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9924/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
+            "team_a": "Dũng Moi",
+            "team_b": "Tùng Gái",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794016108527_D%C5%A8NG%20MOI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794016111619_T%C3%99NG%20G%C3%81I.jpg",
+            "time": "10:00:00",
+            "date": "07/11",
+            "blv": "Tào A Man",
+            "is_live": false,
+            "time_sort": 1794020400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-69f492fbb3_f3f10501_20261107.png?v=f3f10501",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-2cc54b09bf",
           "name": "Tú Tây vs Khánh Búa | 10:00 07/11",
           "type": "single",
@@ -523,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2cc54b09bf_db25fb88_20261107.png?v=db25fb88",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-53af5cc471",
+          "name": "Nam Phạm vs Tuyên con | 10:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-53af5cc471",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-53af5cc471",
+                  "name": "Nam Phạm vs Tuyên con",
+                  "streams": [
+                    {
+                      "id": "st-53af5cc471",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-53af5cc471",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9922/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
+            "team_a": "Nam Phạm",
+            "team_b": "Tuyên con",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794016019716_Nam%20Ph%E1%BA%A1m.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794016016483_TUY%C3%8AN%20CON.jpg",
+            "time": "10:00:00",
+            "date": "07/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794020400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-53af5cc471_7e41e9e7_20261107.png?v=7e41e9e7",
             "width": 1600,
             "height": 1200
           }
