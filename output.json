@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-f51f3151c6",
-          "name": "Tkon vs Phương He | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f51f3151c6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f51f3151c6",
-                  "name": "Tkon vs Phương He",
-                  "streams": [
-                    {
-                      "id": "st-f51f3151c6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f51f3151c6",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9919/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
-            "team_a": "Tkon",
-            "team_b": "Phương He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794015862859_Ph%C6%B0%C6%A1ng%20He.png",
-            "time": "10:00:00",
-            "date": "07/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1794020400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f51f3151c6_01cbd9ea_20261107.png?v=01cbd9ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-1d73e3a4cc",
           "name": "An Nhiệt vs Duy Nhỏ | Bỉm Sữa",
@@ -309,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-b0e0854652",
-          "name": "Phùng Quý vs Huy C300 | 12:00 07/11",
+          "id": "chtv-2d998fd752",
+          "name": "Văn Sinh vs Wike | 12:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-b0e0854652",
+              "id": "src-2d998fd752",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b0e0854652",
-                  "name": "Phùng Quý vs Huy C300",
+                  "id": "ct-2d998fd752",
+                  "name": "Văn Sinh vs Wike",
                   "streams": [
                     {
-                      "id": "st-b0e0854652",
+                      "id": "st-2d998fd752",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b0e0854652",
+                          "id": "lnk-2d998fd752",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9928/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9929/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,10 +288,10 @@
           ],
           "org_metadata": {
             "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
-            "team_a": "Phùng Quý",
-            "team_b": "Huy C300",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794022720578_HUY%20C300.png",
+            "team_a": "Văn Sinh",
+            "team_b": "Wike",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794022769480_V%C4%83n%20Sinh.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00:00",
             "date": "07/11",
             "blv": "",
@@ -376,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b0e0854652_b4ad701e_20261107.png?v=b4ad701e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2d998fd752_bad69eb7_20261107.png?v=bad69eb7",
             "width": 1600,
             "height": 1200
           }
@@ -455,8 +382,8 @@
           }
         },
         {
-          "id": "chtv-2d998fd752",
-          "name": "Văn Sinh vs Wike | 12:00 07/11",
+          "id": "chtv-b0e0854652",
+          "name": "Phùng Quý vs Huy C300 | 12:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +397,23 @@
           ],
           "sources": [
             {
-              "id": "src-2d998fd752",
+              "id": "src-b0e0854652",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2d998fd752",
-                  "name": "Văn Sinh vs Wike",
+                  "id": "ct-b0e0854652",
+                  "name": "Phùng Quý vs Huy C300",
                   "streams": [
                     {
-                      "id": "st-2d998fd752",
+                      "id": "st-b0e0854652",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2d998fd752",
+                          "id": "lnk-b0e0854652",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9929/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9928/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,10 +434,10 @@
           ],
           "org_metadata": {
             "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
-            "team_a": "Văn Sinh",
-            "team_b": "Wike",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794022769480_V%C4%83n%20Sinh.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Phùng Quý",
+            "team_b": "Huy C300",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794022720578_HUY%20C300.png",
             "time": "12:00:00",
             "date": "07/11",
             "blv": "",
@@ -522,7 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2d998fd752_bad69eb7_20261107.png?v=bad69eb7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b0e0854652_b4ad701e_20261107.png?v=b4ad701e",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aaf3372eb1_6d51062c_20261107.png?v=6d51062c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f137073da4",
+          "name": "James Aranas vs Bảo Châu | 12:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f137073da4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f137073da4",
+                  "name": "James Aranas vs Bảo Châu",
+                  "streams": [
+                    {
+                      "id": "st-f137073da4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f137073da4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9931/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
+            "team_a": "James Aranas",
+            "team_b": "Bảo Châu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794022875631_JAMES%20ARANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "07/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794027600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f137073da4_93c2891c_20261107.png?v=93c2891c",
             "width": 1600,
             "height": 1200
           }
