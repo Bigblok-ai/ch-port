@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09436c7e30_c3dbf78e_20261107.png?v=c3dbf78e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1474c0b327",
-          "name": "Phong Nam vs Hà Thành | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1474c0b327",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1474c0b327",
-                  "name": "Phong Nam vs Hà Thành",
-                  "streams": [
-                    {
-                      "id": "st-1474c0b327",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1474c0b327",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9946/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhánh thua vòng 1 16h00",
-            "team_a": "Phong Nam",
-            "team_b": "Hà Thành",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794040346860_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794040244671_Screenshot%202026-11-07%20153044.png",
-            "time": "15:20:00",
-            "date": "07/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1794039600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1474c0b327_ea466fad_20261107.png?v=ea466fad",
             "width": 1600,
             "height": 1200
           }
