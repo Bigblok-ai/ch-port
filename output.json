@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,163 +163,17 @@
           }
         },
         {
-          "id": "chtv-39149701c1",
-          "name": "Nam Phạm vs Tiến Minh TH | 15:15 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39149701c1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-39149701c1",
-                  "name": "Nam Phạm vs Tiến Minh TH",
-                  "streams": [
-                    {
-                      "id": "st-39149701c1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39149701c1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9942/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhánh thua vòng 1 16h00",
-            "team_a": "Nam Phạm",
-            "team_b": "Tiến Minh TH",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794040113219_T%E1%BA%A1%20Ph%C6%B0%C6%A1ng%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794039297671_Screenshot%202026-10-15%20133326.png",
-            "time": "15:15:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794039300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-39149701c1_34cca11f_20261107.png?v=34cca11f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1636d32525",
-          "name": "Hoàng Tễu vs Khánh Búa | 15:15 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1636d32525",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1636d32525",
-                  "name": "Hoàng Tễu vs Khánh Búa",
-                  "streams": [
-                    {
-                      "id": "st-1636d32525",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1636d32525",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9943/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhánh thua vòng 1 16h00",
-            "team_a": "Hoàng Tễu",
-            "team_b": "Khánh Búa",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794039402663_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794039402070_Screenshot%202026-10-15%20133326.png",
-            "time": "15:15:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794039300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1636d32525_cbeebd4f_20261107.png?v=cbeebd4f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5cc7d13d80",
-          "name": "Duy Nhỏ vs Lợi CF | 15:18 07/11",
+          "name": "Duy Nhỏ vs Lợi CF | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -337,7 +191,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-5cc7d13d80",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9944/index.m3u8",
@@ -367,8 +221,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794040161914_Screenshot%202026-11-07%20152922.png",
             "time": "15:18:00",
             "date": "07/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
             "time_sort": 1794039480,
             "cate_type": "billiards"
           },
@@ -382,90 +236,17 @@
           }
         },
         {
-          "id": "chtv-09436c7e30",
-          "name": "Thiện Lương vs Tùng Linh | 15:19 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09436c7e30",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-09436c7e30",
-                  "name": "Thiện Lương vs Tùng Linh",
-                  "streams": [
-                    {
-                      "id": "st-09436c7e30",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09436c7e30",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9945/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhánh thua vòng 1 16h00",
-            "team_a": "Thiện Lương",
-            "team_b": "Tùng Linh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794040188161_Screenshot%202026-11-07%20152948.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794039625144_Screenshot%202026-10-15%20133326.png",
-            "time": "15:19:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794039540,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09436c7e30_c3dbf78e_20261107.png?v=c3dbf78e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1474c0b327",
-          "name": "Phong Nam vs Hà Thành | 15:20 07/11",
+          "name": "Phong Nam vs Hà Thành | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -483,7 +264,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-1474c0b327",
-                          "name": "Stream",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9946/index.m3u8",
@@ -513,8 +294,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794040244671_Screenshot%202026-11-07%20153044.png",
             "time": "15:20:00",
             "date": "07/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Tào A Man",
+            "is_live": true,
             "time_sort": 1794039600,
             "cate_type": "billiards"
           },
@@ -529,16 +310,16 @@
         },
         {
           "id": "chtv-992be6bba0",
-          "name": "Giang Kaizen vs Định Vạn | 15:22 07/11",
+          "name": "Giang Kaizen vs Định Vạn | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -556,7 +337,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-992be6bba0",
-                          "name": "Stream",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9947/index.m3u8",
@@ -586,8 +367,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794040277346_Screenshot%202026-11-07%20153103.png",
             "time": "15:22:00",
             "date": "07/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Bỉm Sữa",
+            "is_live": true,
             "time_sort": 1794039720,
             "cate_type": "billiards"
           },
@@ -596,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-992be6bba0_e69b1f7a_20261107.png?v=e69b1f7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-09436c7e30",
+          "name": "Thiện Lương vs Tùng Linh | 15:19 07/11 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09436c7e30",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-09436c7e30",
+                  "name": "Thiện Lương vs Tùng Linh",
+                  "streams": [
+                    {
+                      "id": "st-09436c7e30",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09436c7e30",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9945/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nhánh thua vòng 1 16h00",
+            "team_a": "Thiện Lương",
+            "team_b": "Tùng Linh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794040188161_Screenshot%202026-11-07%20152948.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794039625144_Screenshot%202026-10-15%20133326.png",
+            "time": "15:19:00",
+            "date": "07/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": false,
+            "time_sort": 1794039540,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09436c7e30_c3dbf78e_20261107.png?v=c3dbf78e",
             "width": 1600,
             "height": 1200
           }
