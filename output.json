@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5c97982807_9d15c710_20261107.png?v=9d15c710",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-07154a357f",
+          "name": "CARDING vs OWAT | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-07154a357f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-07154a357f",
+                  "name": "CARDING vs OWAT",
+                  "streams": [
+                    {
+                      "id": "st-07154a357f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07154a357f",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9968/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗢̂𝗻𝗴 𝗟𝗮̃𝗼  𝗗𝗮́𝗻𝗵 𝗖𝗮́ 𝗩𝗮̀ 𝗖𝗼𝗻 𝗖𝗮́ 𝗗𝗼̣̂",
+            "team_a": "CARDING",
+            "team_b": "OWAT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:30:00",
+            "date": "07/11",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1794058200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-07154a357f_d33a6d48_20261107.png?v=d33a6d48",
             "width": 1600,
             "height": 1200
           }
