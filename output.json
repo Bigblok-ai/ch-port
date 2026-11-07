@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b33aafe812_7477e6a3_20261107.png?v=7477e6a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8f52efa346",
-          "name": "Nguyên Quốc Oai vs Huy C300 | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f52efa346",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8f52efa346",
-                  "name": "Nguyên Quốc Oai vs Huy C300",
-                  "streams": [
-                    {
-                      "id": "st-8f52efa346",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f52efa346",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9955/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhánh thua vòng 1 16h00",
-            "team_a": "Nguyên Quốc Oai",
-            "team_b": "Huy C300",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794045744018_Screenshot%202026-11-07%20153209.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794045743596_Screenshot%202026-11-07%20170218.png",
-            "time": "17:00:00",
-            "date": "07/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1794045600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8f52efa346_4a22fd53_20261107.png?v=4a22fd53",
             "width": 1600,
             "height": 1200
           }
