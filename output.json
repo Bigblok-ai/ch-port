@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-023e9556f9",
-          "name": "Sevilla vs Alavés | Thập Cẩm",
+          "id": "chtv-f51f3151c6",
+          "name": "Tkon vs Phương He | 10:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-023e9556f9",
+              "id": "src-f51f3151c6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-023e9556f9",
-                  "name": "Sevilla vs Alavés",
+                  "id": "ct-f51f3151c6",
+                  "name": "Tkon vs Phương He",
                   "streams": [
                     {
-                      "id": "st-023e9556f9",
+                      "id": "st-f51f3151c6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-023e9556f9",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-f51f3151c6",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9913/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9919/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,96 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Sevilla",
-            "team_b": "Alavés",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793979122291_Screenshot%202026-11-06%20223148.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793979122770_Screenshot%202026-11-06%20223157.png",
-            "time": "03:00:00",
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
+            "team_a": "Tkon",
+            "team_b": "Phương He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794015862859_Ph%C6%B0%C6%A1ng%20He.png",
+            "time": "10:00:00",
             "date": "07/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1793995200,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794020400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-023e9556f9_9af5d1ea_20261107.png?v=9af5d1ea",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f51f3151c6_01cbd9ea_20261107.png?v=01cbd9ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1d73e3a4cc",
+          "name": "An Nhiệt vs Duy Nhỏ | 10:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d73e3a4cc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1d73e3a4cc",
+                  "name": "An Nhiệt vs Duy Nhỏ",
+                  "streams": [
+                    {
+                      "id": "st-1d73e3a4cc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1d73e3a4cc",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9920/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴",
+            "team_a": "An Nhiệt",
+            "team_b": "Duy Nhỏ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794015906235_AN%20NHI%E1%BB%86T.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794015910849_DUY%20NH%E1%BB%8E.png",
+            "time": "10:00:00",
+            "date": "07/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794020400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1d73e3a4cc_cd62ce97_20261107.png?v=cd62ce97",
             "width": 1600,
             "height": 1200
           }
