@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5cc7d13d80_bff90f45_20261107.png?v=bff90f45",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-09436c7e30",
-          "name": "Thiện Lương vs Tùng Linh | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09436c7e30",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-09436c7e30",
-                  "name": "Thiện Lương vs Tùng Linh",
-                  "streams": [
-                    {
-                      "id": "st-09436c7e30",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09436c7e30",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9945/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhánh thua vòng 1 16h00",
-            "team_a": "Thiện Lương",
-            "team_b": "Tùng Linh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794040188161_Screenshot%202026-11-07%20152948.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794039625144_Screenshot%202026-10-15%20133326.png",
-            "time": "15:19:00",
-            "date": "07/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1794039540,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-09436c7e30_c3dbf78e_20261107.png?v=c3dbf78e",
             "width": 1600,
             "height": 1200
           }
