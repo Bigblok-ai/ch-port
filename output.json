@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -309,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-26c396ef01",
+          "name": "Hà Thành vs Trung Gia Lâm | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26c396ef01",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-26c396ef01",
+                  "name": "Hà Thành vs Trung Gia Lâm",
+                  "streams": [
+                    {
+                      "id": "st-26c396ef01",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-26c396ef01",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9932/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
+            "team_a": "Hà Thành",
+            "team_b": "Trung Gia Lâm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794025378160_H%C3%80%20TH%C3%80NH.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794025373074_Trung%20Gia%20L%C3%A2m.png",
+            "time": "12:00:00",
+            "date": "07/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1794027600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-26c396ef01_7168e137_20261107.png?v=7168e137",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a99d7665d3",
           "name": "Tại Đá vs Văn Huynh | 12:00 07/11",
           "type": "single",
@@ -523,79 +596,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aaf3372eb1_6d51062c_20261107.png?v=6d51062c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-26c396ef01",
-          "name": "Hà Thành vs Trung Gia Lâm | 12:00 07/11 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26c396ef01",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-26c396ef01",
-                  "name": "Hà Thành vs Trung Gia Lâm",
-                  "streams": [
-                    {
-                      "id": "st-26c396ef01",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26c396ef01",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9932/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
-            "team_a": "Hà Thành",
-            "team_b": "Trung Gia Lâm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794025378160_H%C3%80%20TH%C3%80NH.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794025373074_Trung%20Gia%20L%C3%A2m.png",
-            "time": "12:00:00",
-            "date": "07/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": false,
-            "time_sort": 1794027600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-26c396ef01_7168e137_20261107.png?v=7168e137",
             "width": 1600,
             "height": 1200
           }
