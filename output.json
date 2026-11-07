@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b33aafe812",
-          "name": "Phương He vs Tuấn Minh Magic | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b33aafe812",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b33aafe812",
-                  "name": "Phương He vs Tuấn Minh Magic",
-                  "streams": [
-                    {
-                      "id": "st-b33aafe812",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b33aafe812",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9959/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhánh thua vòng 1 16h00",
-            "team_a": "Phương He",
-            "team_b": "Tuấn Minh Magic",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794046560632_Screenshot%202026-11-07%20171556.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794046573869_Screenshot%202026-11-07%20171609.png",
-            "time": "17:00:00",
-            "date": "07/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794045600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b33aafe812_7477e6a3_20261107.png?v=7477e6a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a504f349ab",
           "name": "Nam Phạm vs Dũng Moi | GIÀNG A PHỌ",
