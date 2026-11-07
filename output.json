@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-ae28a5a9af",
-          "name": "Tuyên con vs Dũng Hàn | 14:00 07/11",
+          "id": "chtv-dd1aeb1d4c",
+          "name": "Hoàng PT vs Dũng Phạm | 13:38 07/11 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-ae28a5a9af",
+              "id": "src-dd1aeb1d4c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ae28a5a9af",
-                  "name": "Tuyên con vs Dũng Hàn",
+                  "id": "ct-dd1aeb1d4c",
+                  "name": "Hoàng PT vs Dũng Phạm",
                   "streams": [
                     {
-                      "id": "st-ae28a5a9af",
+                      "id": "st-dd1aeb1d4c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ae28a5a9af",
-                          "name": "Stream",
+                          "id": "lnk-dd1aeb1d4c",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9935/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9938/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,22 +69,22 @@
           ],
           "org_metadata": {
             "league": "𝗩𝗼̀𝗻𝗴 2 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 14:00",
-            "team_a": "Tuyên con",
-            "team_b": "Dũng Hàn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794029871634_TUY%C3%8AN%20CON.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794029875325_D%C5%A9ng%20h%C3%A0n.jpg",
-            "time": "14:00:00",
+            "team_a": "Hoàng PT",
+            "team_b": "Dũng Phạm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794033542315_Screenshot%202026-11-07%20133835.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794033542071_Screenshot%202026-11-07%20133847.png",
+            "time": "13:38:00",
             "date": "07/11",
-            "blv": "",
+            "blv": "Đại Kê",
             "is_live": false,
-            "time_sort": 1794034800,
+            "time_sort": 1794033480,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ae28a5a9af_7c0f68ec_20261107.png?v=7c0f68ec",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dd1aeb1d4c_bb643391_20261107.png?v=bb643391",
             "width": 1600,
             "height": 1200
           }
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ed9de1cfd2_f78ff66a_20261107.png?v=f78ff66a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ae28a5a9af",
+          "name": "Tuyên con vs Dũng Hàn | 14:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae28a5a9af",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ae28a5a9af",
+                  "name": "Tuyên con vs Dũng Hàn",
+                  "streams": [
+                    {
+                      "id": "st-ae28a5a9af",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae28a5a9af",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9935/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 2 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 14:00",
+            "team_a": "Tuyên con",
+            "team_b": "Dũng Hàn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794029871634_TUY%C3%8AN%20CON.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794029875325_D%C5%A9ng%20h%C3%A0n.jpg",
+            "time": "14:00:00",
+            "date": "07/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794034800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ae28a5a9af_7c0f68ec_20261107.png?v=7c0f68ec",
             "width": 1600,
             "height": 1200
           }
