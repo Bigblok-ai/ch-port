@@ -11,23 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-dd1aeb1d4c",
-          "name": "Hoàng PT vs Dũng Phạm | 13:38 07/11 | Đại Kê",
+          "name": "Hoàng PT vs Dũng Phạm | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "13:38:00",
             "date": "07/11",
             "blv": "Đại Kê",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794033480,
             "cate_type": "billiards"
           },
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dd1aeb1d4c_bb643391_20261107.png?v=bb643391",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0a3a660aed",
+          "name": "An Nhiệt vs Tuấn Minh Magic | 13:43 07/11 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a3a660aed",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0a3a660aed",
+                  "name": "An Nhiệt vs Tuấn Minh Magic",
+                  "streams": [
+                    {
+                      "id": "st-0a3a660aed",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a3a660aed",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9939/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 2 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 14:00",
+            "team_a": "An Nhiệt",
+            "team_b": "Tuấn Minh Magic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794033796641_Screenshot%202026-11-07%20134311.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794033796368_Vi%E1%BB%87t%20Nam.png",
+            "time": "13:43:00",
+            "date": "07/11",
+            "blv": "Bỉm Sữa",
+            "is_live": false,
+            "time_sort": 1794033780,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a3a660aed_77e9603a_20261107.png?v=77e9603a",
             "width": 1600,
             "height": 1200
           }
@@ -236,79 +309,6 @@
           }
         },
         {
-          "id": "chtv-ae28a5a9af",
-          "name": "Tuyên con vs Dũng Hàn | 14:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae28a5a9af",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ae28a5a9af",
-                  "name": "Tuyên con vs Dũng Hàn",
-                  "streams": [
-                    {
-                      "id": "st-ae28a5a9af",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ae28a5a9af",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9935/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 2 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 14:00",
-            "team_a": "Tuyên con",
-            "team_b": "Dũng Hàn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794029871634_TUY%C3%8AN%20CON.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794029875325_D%C5%A9ng%20h%C3%A0n.jpg",
-            "time": "14:00:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794034800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ae28a5a9af_7c0f68ec_20261107.png?v=7c0f68ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-edc346cc90",
           "name": "Tkon vs Sơn Ku | 14:00 07/11",
           "type": "single",
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-edc346cc90_90f30a3e_20261107.png?v=90f30a3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ae28a5a9af",
+          "name": "Tuyên con vs Dũng Hàn | 14:00 07/11 | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae28a5a9af",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ae28a5a9af",
+                  "name": "Tuyên con vs Dũng Hàn",
+                  "streams": [
+                    {
+                      "id": "st-ae28a5a9af",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae28a5a9af",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9935/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 2 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 14:00",
+            "team_a": "Tuyên con",
+            "team_b": "Dũng Hàn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794029871634_TUY%C3%8AN%20CON.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794029875325_D%C5%A9ng%20h%C3%A0n.jpg",
+            "time": "14:00:00",
+            "date": "07/11",
+            "blv": "Tào A Man",
+            "is_live": false,
+            "time_sort": 1794034800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ae28a5a9af_7c0f68ec_20261107.png?v=7c0f68ec",
             "width": 1600,
             "height": 1200
           }
