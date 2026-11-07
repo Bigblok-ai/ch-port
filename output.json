@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-d21de0012f",
-          "name": "Thiện Lương vs Tùng Bão Táp | 12:00 07/11",
+          "name": "Thiện Lương vs Tùng Bão Táp | 12:00 07/11 | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-d21de0012f",
-                          "name": "Stream",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9926/index.m3u8",
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794022631054_T%C3%99NG%20B%C3%83O%20T%C3%81P.jpg",
             "time": "12:00:00",
             "date": "07/11",
-            "blv": "",
+            "blv": "Tào A Man",
             "is_live": false,
             "time_sort": 1794027600,
             "cate_type": "billiards"
@@ -90,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-2d998fd752",
-          "name": "Văn Sinh vs Wike | 12:00 07/11",
+          "id": "chtv-f137073da4",
+          "name": "James Aranas vs Bảo Châu | 12:00 07/11 | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-2d998fd752",
+              "id": "src-f137073da4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2d998fd752",
-                  "name": "Văn Sinh vs Wike",
+                  "id": "ct-f137073da4",
+                  "name": "James Aranas vs Bảo Châu",
                   "streams": [
                     {
-                      "id": "st-2d998fd752",
+                      "id": "st-f137073da4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2d998fd752",
-                          "name": "Stream",
+                          "id": "lnk-f137073da4",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9929/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9931/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -142,10 +142,83 @@
           ],
           "org_metadata": {
             "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
-            "team_a": "Văn Sinh",
-            "team_b": "Wike",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794022769480_V%C4%83n%20Sinh.jpg",
+            "team_a": "James Aranas",
+            "team_b": "Bảo Châu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794022875631_JAMES%20ARANAS.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "12:00:00",
+            "date": "07/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": false,
+            "time_sort": 1794027600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f137073da4_93c2891c_20261107.png?v=93c2891c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-aaf3372eb1",
+          "name": "Ngọc Xăm vs Khải Tony | 12:00 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aaf3372eb1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-aaf3372eb1",
+                  "name": "Ngọc Xăm vs Khải Tony",
+                  "streams": [
+                    {
+                      "id": "st-aaf3372eb1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aaf3372eb1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9930/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
+            "team_a": "Ngọc Xăm",
+            "team_b": "Khải Tony",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794022804313_NG%E1%BB%8CC%20X%C4%82M.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794022801113_KH%E1%BA%A2I%20TONY.jpg",
             "time": "12:00:00",
             "date": "07/11",
             "blv": "",
@@ -157,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2d998fd752_bad69eb7_20261107.png?v=bad69eb7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aaf3372eb1_6d51062c_20261107.png?v=6d51062c",
             "width": 1600,
             "height": 1200
           }
@@ -309,8 +382,8 @@
           }
         },
         {
-          "id": "chtv-aaf3372eb1",
-          "name": "Ngọc Xăm vs Khải Tony | 12:00 07/11",
+          "id": "chtv-2d998fd752",
+          "name": "Văn Sinh vs Wike | 12:00 07/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +397,23 @@
           ],
           "sources": [
             {
-              "id": "src-aaf3372eb1",
+              "id": "src-2d998fd752",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-aaf3372eb1",
-                  "name": "Ngọc Xăm vs Khải Tony",
+                  "id": "ct-2d998fd752",
+                  "name": "Văn Sinh vs Wike",
                   "streams": [
                     {
-                      "id": "st-aaf3372eb1",
+                      "id": "st-2d998fd752",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-aaf3372eb1",
+                          "id": "lnk-2d998fd752",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9930/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9929/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,82 +434,9 @@
           ],
           "org_metadata": {
             "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
-            "team_a": "Ngọc Xăm",
-            "team_b": "Khải Tony",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794022804313_NG%E1%BB%8CC%20X%C4%82M.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794022801113_KH%E1%BA%A2I%20TONY.jpg",
-            "time": "12:00:00",
-            "date": "07/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794027600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aaf3372eb1_6d51062c_20261107.png?v=6d51062c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f137073da4",
-          "name": "James Aranas vs Bảo Châu | 12:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f137073da4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f137073da4",
-                  "name": "James Aranas vs Bảo Châu",
-                  "streams": [
-                    {
-                      "id": "st-f137073da4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f137073da4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9931/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝗼̀𝗻𝗴 𝟭 - 𝗡𝗵𝗮́𝗻𝗵 𝘁𝗵𝗮̆́𝗻𝗴 𝗟𝗢𝗔̣𝗧 𝟭𝟮𝗛",
-            "team_a": "James Aranas",
-            "team_b": "Bảo Châu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794022875631_JAMES%20ARANAS.jpg",
+            "team_a": "Văn Sinh",
+            "team_b": "Wike",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794022769480_V%C4%83n%20Sinh.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00:00",
             "date": "07/11",
@@ -449,14 +449,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f137073da4_93c2891c_20261107.png?v=93c2891c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2d998fd752_bad69eb7_20261107.png?v=bad69eb7",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-26c396ef01",
-          "name": "Hà Thành vs Trung Gia Lâm | 12:00 07/11",
+          "name": "Hà Thành vs Trung Gia Lâm | 12:00 07/11 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -483,7 +483,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-26c396ef01",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9932/index.m3u8",
@@ -513,7 +513,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794025373074_Trung%20Gia%20L%C3%A2m.png",
             "time": "12:00:00",
             "date": "07/11",
-            "blv": "",
+            "blv": "GIÀNG A PHỌ",
             "is_live": false,
             "time_sort": 1794027600,
             "cate_type": "billiards"
