@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2e93949a93_0196fe14_20261108.png?v=0196fe14",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-2dae856c5e",
-          "name": "Giang Kaizen vs Dũng TB | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2dae856c5e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2dae856c5e",
-                  "name": "Giang Kaizen vs Dũng TB",
-                  "streams": [
-                    {
-                      "id": "st-2dae856c5e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2dae856c5e",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9989/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V10 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Giang Kaizen",
-            "team_b": "Dũng TB",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794123136876_Screenshot%202026-11-08%20121725.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794123171439_Screenshot%202026-11-08%20143245.png",
-            "time": "14:31:00",
-            "date": "08/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794123060,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2dae856c5e_b227c492_20261108.png?v=b227c492",
             "width": 1600,
             "height": 1200
           }
