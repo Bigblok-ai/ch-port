@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2e93949a93_4027420a_20261108.png?v=4027420a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dd0c61e370",
-          "name": "Tkon vs Thiện Lương | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dd0c61e370",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dd0c61e370",
-                  "name": "Tkon vs Thiện Lương",
-                  "streams": [
-                    {
-                      "id": "st-dd0c61e370",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dd0c61e370",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9992/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V10 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Tkon",
-            "team_b": "Thiện Lương",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794127916749_Screenshot%202026-11-08%20140409.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794127958057_Screenshot%202026-11-08%20120356.png",
-            "time": "15:51:00",
-            "date": "08/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794127860,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dd0c61e370_015e92d5_20261108.png?v=015e92d5",
             "width": 1600,
             "height": 1200
           }
