@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-1454581fc5",
-          "name": "James Aranas vs Tùng Bão Táp | Bỉm Sữa",
+          "id": "chtv-df44be75e7",
+          "name": "Nguyên Quốc Oai vs Dũng Hàn | 12:00 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-1454581fc5",
+              "id": "src-df44be75e7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1454581fc5",
-                  "name": "James Aranas vs Tùng Bão Táp",
+                  "id": "ct-df44be75e7",
+                  "name": "Nguyên Quốc Oai vs Dũng Hàn",
                   "streams": [
                     {
-                      "id": "st-1454581fc5",
+                      "id": "st-df44be75e7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1454581fc5",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-df44be75e7",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9978/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9982/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,22 +69,22 @@
           ],
           "org_metadata": {
             "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
-            "team_a": "James Aranas",
-            "team_b": "Tùng Bão Táp",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794098770658_JAMES%20ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794098768040_T%C3%99NG%20B%C3%83O%20T%C3%81P.jpg",
-            "time": "10:00:00",
+            "team_a": "Nguyên Quốc Oai",
+            "team_b": "Dũng Hàn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794114222302_Screenshot%202026-11-08%20120328.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794114221916_Screenshot%202026-11-08%20120338.png",
+            "time": "12:00:00",
             "date": "08/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794106800,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794114000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1454581fc5_cb6f9e02_20261108.png?v=cb6f9e02",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-df44be75e7_d680dfe0_20261108.png?v=d680dfe0",
             "width": 1600,
             "height": 1200
           }
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0e4a2fab02_9217e5ed_20261108.png?v=9217e5ed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f066d604d0",
+          "name": "Thiện Lương vs Hoàng PT | 12:01 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f066d604d0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f066d604d0",
+                  "name": "Thiện Lương vs Hoàng PT",
+                  "streams": [
+                    {
+                      "id": "st-f066d604d0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f066d604d0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9983/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "loại trực tiếp vòng 16",
+            "team_a": "Thiện Lương",
+            "team_b": "Hoàng PT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794114242648_Screenshot%202026-11-08%20120356.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794114270021_Screenshot%202026-11-08%20120424.png",
+            "time": "12:01:00",
+            "date": "08/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794114060,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f066d604d0_ab91056b_20261108.png?v=ab91056b",
             "width": 1600,
             "height": 1200
           }
