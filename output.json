@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-bc9468957a",
-          "name": "Đãng BN vs Tuyên con | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc9468957a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bc9468957a",
-                  "name": "Đãng BN vs Tuyên con",
-                  "streams": [
-                    {
-                      "id": "st-bc9468957a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc9468957a",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9984/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "loại trực tiếp vòng 16",
-            "team_a": "Đãng BN",
-            "team_b": "Tuyên con",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794114432339_Screenshot%202026-11-08%20120704.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794114466782_Screenshot%202026-11-08%20120740.png",
-            "time": "12:06:00",
-            "date": "08/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1794114360,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc9468957a_ee2e15f6_20261108.png?v=ee2e15f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-e7de12fc4b",
           "name": "Tkon vs Nguyên Quốc Oai | 14:03 08/11",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7de12fc4b_2c939e3a_20261108.png?v=2c939e3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8a41d142cf",
+          "name": "Tuyên con vs James Aranas | 14:30 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a41d142cf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8a41d142cf",
+                  "name": "Tuyên con vs James Aranas",
+                  "streams": [
+                    {
+                      "id": "st-8a41d142cf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a41d142cf",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9988/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V10 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Tuyên con",
+            "team_b": "James Aranas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794123009145_Screenshot%202026-11-08%20142958.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794123019337_Screenshot%202026-11-06%20182240.png",
+            "time": "14:30:00",
+            "date": "08/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794123000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8a41d142cf_2318a05a_20261108.png?v=2318a05a",
             "width": 1600,
             "height": 1200
           }
