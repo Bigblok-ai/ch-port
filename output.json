@@ -11,23 +11,96 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-8a41d142cf",
-          "name": "Tuyên con vs James Aranas | 14:30 08/11",
+          "id": "chtv-e7de12fc4b",
+          "name": "Tkon vs Nguyên Quốc Oai | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7de12fc4b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e7de12fc4b",
+                  "name": "Tkon vs Nguyên Quốc Oai",
+                  "streams": [
+                    {
+                      "id": "st-e7de12fc4b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e7de12fc4b",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9987/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V10 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Tkon",
+            "team_b": "Nguyên Quốc Oai",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794121454936_Screenshot%202026-11-08%20140409.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794121496739_Screenshot%202026-11-08%20140451.png",
+            "time": "14:03:00",
+            "date": "08/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1794121380,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7de12fc4b_2c939e3a_20261108.png?v=2c939e3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8a41d142cf",
+          "name": "Tuyên con vs James Aranas | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -45,7 +118,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-8a41d142cf",
-                          "name": "Stream",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9988/index.m3u8",
@@ -75,8 +148,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794123019337_Screenshot%202026-11-06%20182240.png",
             "time": "14:30:00",
             "date": "08/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
             "time_sort": 1794123000,
             "cate_type": "billiards"
           },
@@ -91,16 +164,16 @@
         },
         {
           "id": "chtv-2dae856c5e",
-          "name": "Giang Kaizen vs Dũng TB | 14:31 08/11",
+          "name": "Giang Kaizen vs Dũng TB | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -118,7 +191,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-2dae856c5e",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9989/index.m3u8",
@@ -148,8 +221,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794123171439_Screenshot%202026-11-08%20143245.png",
             "time": "14:31:00",
             "date": "08/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Kèn Kèn",
+            "is_live": true,
             "time_sort": 1794123060,
             "cate_type": "billiards"
           },
@@ -164,16 +237,16 @@
         },
         {
           "id": "chtv-62a8868deb",
-          "name": "Thiện Lương vs Trung Gia Lâm | 14:33 08/11",
+          "name": "Thiện Lương vs Trung Gia Lâm | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -191,7 +264,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-62a8868deb",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live9990/index.m3u8",
@@ -221,8 +294,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794123265175_Screenshot%202026-10-15%20133326.png",
             "time": "14:33:00",
             "date": "08/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Thập Cẩm",
+            "is_live": true,
             "time_sort": 1794123180,
             "cate_type": "billiards"
           },
