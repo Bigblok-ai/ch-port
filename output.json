@@ -380,6 +380,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-4d45f8d4a1",
+          "name": "Atlético de Madrid vs Barcelona | 03:00 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d45f8d4a1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4d45f8d4a1",
+                  "name": "Atlético de Madrid vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-4d45f8d4a1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d45f8d4a1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9998/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Atlético de Madrid",
+            "team_b": "Barcelona",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794135982877_Screenshot%202026-11-08%20180614.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794135987747_Screenshot%202026-11-08%20180539.png",
+            "time": "03:00:00",
+            "date": "09/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794168000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d45f8d4a1_13e6fa51_20261108.png?v=13e6fa51",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
