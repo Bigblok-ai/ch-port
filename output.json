@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b2f4c6e120",
-          "name": "Thiện Lương vs James Aranas | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2f4c6e120",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b2f4c6e120",
-                  "name": "Thiện Lương vs James Aranas",
-                  "streams": [
-                    {
-                      "id": "st-b2f4c6e120",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2f4c6e120",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10001/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V10 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Thiện Lương",
-            "team_b": "James Aranas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794142970624_Screenshot%202026-11-08%20120356.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794142990688_Screenshot%202026-11-08%20120846.png",
-            "time": "20:02:00",
-            "date": "08/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794142920,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b2f4c6e120_59f8b667_20261108.png?v=59f8b667",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a464da416b",
           "name": "Manchester United vs Aston Villa | 23:30 08/11",
