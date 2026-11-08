@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-e7de12fc4b",
-          "name": "Tkon vs Nguyên Quốc Oai | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e7de12fc4b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e7de12fc4b",
-                  "name": "Tkon vs Nguyên Quốc Oai",
-                  "streams": [
-                    {
-                      "id": "st-e7de12fc4b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7de12fc4b",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9987/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V10 - 99 TITANIUM CHAMPIONSHIP",
-            "team_a": "Tkon",
-            "team_b": "Nguyên Quốc Oai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794121454936_Screenshot%202026-11-08%20140409.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794121496739_Screenshot%202026-11-08%20140451.png",
-            "time": "14:03:00",
-            "date": "08/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794121380,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7de12fc4b_2c939e3a_20261108.png?v=2c939e3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8a41d142cf",
           "name": "Tuyên con vs James Aranas | SÊ KÔÔ",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-62a8868deb_0c202de2_20261108.png?v=0c202de2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-456ba6ff6b",
+          "name": "Văn sinh vs Văn Bản Lạng Sơn | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-456ba6ff6b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-456ba6ff6b",
+                  "name": "Văn sinh vs Văn Bản Lạng Sơn",
+                  "streams": [
+                    {
+                      "id": "st-456ba6ff6b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-456ba6ff6b",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9991/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "Văn sinh",
+            "team_b": "Văn Bản Lạng Sơn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794126427404_Screenshot%202026-11-08%20152658.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794126514258_Screenshot%202026-10-15%20133326.png",
+            "time": "15:26:00",
+            "date": "08/11",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1794126360,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-456ba6ff6b_b56f4193_20261108.png?v=b56f4193",
             "width": 1600,
             "height": 1200
           }
