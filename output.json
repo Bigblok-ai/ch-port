@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-bcd84d504e",
-          "name": "Tkon vs Bảo Châu | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bcd84d504e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bcd84d504e",
-                  "name": "Tkon vs Bảo Châu",
-                  "streams": [
-                    {
-                      "id": "st-bcd84d504e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bcd84d504e",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9973/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
-            "team_a": "Tkon",
-            "team_b": "Bảo Châu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:00:00",
-            "date": "08/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794106800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bcd84d504e_6cb2d2a0_20261108.png?v=6cb2d2a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-1454581fc5",
           "name": "James Aranas vs Tùng Bão Táp | Bỉm Sữa",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1454581fc5_cb6f9e02_20261108.png?v=cb6f9e02",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bcd84d504e",
+          "name": "Tkon vs Bảo Châu | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bcd84d504e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bcd84d504e",
+                  "name": "Tkon vs Bảo Châu",
+                  "streams": [
+                    {
+                      "id": "st-bcd84d504e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bcd84d504e",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9973/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
+            "team_a": "Tkon",
+            "team_b": "Bảo Châu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "10:00:00",
+            "date": "08/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794106800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bcd84d504e_6cb2d2a0_20261108.png?v=6cb2d2a0",
             "width": 1600,
             "height": 1200
           }
