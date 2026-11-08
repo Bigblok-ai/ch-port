@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-0b86db8cef",
+          "name": "An Nhiệt vs Dũng Moi | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b86db8cef",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0b86db8cef",
+                  "name": "An Nhiệt vs Dũng Moi",
+                  "streams": [
+                    {
+                      "id": "st-0b86db8cef",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b86db8cef",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9980/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
+            "team_a": "An Nhiệt",
+            "team_b": "Dũng Moi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794098943498_AN%20NHI%E1%BB%86T.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794098940953_D%C5%A8NG%20MOI.jpg",
+            "time": "10:00:00",
+            "date": "08/11",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1794106800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0b86db8cef_a950fea5_20261108.png?v=a950fea5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-90d6c6b1c6",
           "name": "Tuyên con vs Phương He | VÁNG",
           "type": "single",
@@ -304,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8dbdb85016_85ee8a16_20261108.png?v=85ee8a16",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0b86db8cef",
-          "name": "An Nhiệt vs Dũng Moi | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b86db8cef",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0b86db8cef",
-                  "name": "An Nhiệt vs Dũng Moi",
-                  "streams": [
-                    {
-                      "id": "st-0b86db8cef",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b86db8cef",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9980/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
-            "team_a": "An Nhiệt",
-            "team_b": "Dũng Moi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794098943498_AN%20NHI%E1%BB%86T.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794098940953_D%C5%A8NG%20MOI.jpg",
-            "time": "10:00:00",
-            "date": "08/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1794106800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0b86db8cef_a950fea5_20261108.png?v=a950fea5",
             "width": 1600,
             "height": 1200
           }
