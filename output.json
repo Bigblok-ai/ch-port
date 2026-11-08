@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-4a4d2de77e",
-          "name": "James Aranas vs Văn Huynh | GIÀNG A PHỌ",
+          "id": "chtv-e7de12fc4b",
+          "name": "Tkon vs Nguyên Quốc Oai | 14:03 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-4a4d2de77e",
+              "id": "src-e7de12fc4b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4a4d2de77e",
-                  "name": "James Aranas vs Văn Huynh",
+                  "id": "ct-e7de12fc4b",
+                  "name": "Tkon vs Nguyên Quốc Oai",
                   "streams": [
                     {
-                      "id": "st-4a4d2de77e",
+                      "id": "st-e7de12fc4b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4a4d2de77e",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-e7de12fc4b",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9986/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9987/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "loại trực tiếp vòng 16",
-            "team_a": "James Aranas",
-            "team_b": "Văn Huynh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794115341039_Screenshot%202026-11-06%20182240.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794115371103_Screenshot%202026-11-08%20122243.png",
-            "time": "12:21:00",
+            "league": "V10 - 99 TITANIUM CHAMPIONSHIP",
+            "team_a": "Tkon",
+            "team_b": "Nguyên Quốc Oai",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794121454936_Screenshot%202026-11-08%20140409.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794121496739_Screenshot%202026-11-08%20140451.png",
+            "time": "14:03:00",
             "date": "08/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794115260,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794121380,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4a4d2de77e_28bf84e2_20261108.png?v=28bf84e2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7de12fc4b_2c939e3a_20261108.png?v=2c939e3a",
             "width": 1600,
             "height": 1200
           }
