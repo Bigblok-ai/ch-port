@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-0e4a2fab02",
-          "name": "Tkon vs Khải Tony | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e4a2fab02",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0e4a2fab02",
-                  "name": "Tkon vs Khải Tony",
-                  "streams": [
-                    {
-                      "id": "st-0e4a2fab02",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e4a2fab02",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9981/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
-            "team_a": "Tkon",
-            "team_b": "Khải Tony",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794113730405_Screenshot%202026-11-08%20115514.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794113730129_Screenshot%202026-11-08%20115525.png",
-            "time": "12:00:00",
-            "date": "08/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794114000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0e4a2fab02_9217e5ed_20261108.png?v=9217e5ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f066d604d0",
           "name": "Thiện Lương vs Hoàng PT | SÊ KÔÔ",
