@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-14c1691561",
-          "name": "Trọng  South vs Nhân Mỹ | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14c1691561",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-14c1691561",
-                  "name": "Trọng  South vs Nhân Mỹ",
-                  "streams": [
-                    {
-                      "id": "st-14c1691561",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14c1691561",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10004/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗦𝗵𝗼𝘄𝗺𝗮𝘁𝗰𝗵 𝘁𝗮̣𝗶 𝗛𝗩𝗧",
-            "team_a": "Trọng  South",
-            "team_b": "Nhân Mỹ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794192068648_Screenshot%202026-11-09%20094053.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794192104352_Screenshot%202026-11-09%20094135.png",
-            "time": "11:00:00",
-            "date": "09/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794196800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14c1691561_cf13bd31_20261109.png?v=cf13bd31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-30e91bb1f0",
           "name": "LU Hui-Chan vs SUN Peng | Bỉm Sữa",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-30e91bb1f0_e8ef8daf_20261109.png?v=e8ef8daf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-341cfbd0c2",
+          "name": "BAO Zhichao 包智超 vs SHI Wenhai 施文海 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-341cfbd0c2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-341cfbd0c2",
+                  "name": "BAO Zhichao 包智超 vs SHI Wenhai 施文海",
+                  "streams": [
+                    {
+                      "id": "st-341cfbd0c2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-341cfbd0c2",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10007/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 CBSA 中國9號球巡迴賽 (合肥站)",
+            "team_a": "BAO Zhichao 包智超",
+            "team_b": "SHI Wenhai 施文海",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "time": "12:51:00",
+            "date": "09/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794203460,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-341cfbd0c2_634f1e85_20261109.png?v=634f1e85",
             "width": 1600,
             "height": 1200
           }
