@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-016b16f93f",
-          "name": "AN Yiming vs ZHENG XiaohuaiD | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-016b16f93f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-016b16f93f",
-                  "name": "AN Yiming vs ZHENG XiaohuaiD",
-                  "streams": [
-                    {
-                      "id": "st-016b16f93f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-016b16f93f",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10005/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 CBSA 中國9號球巡迴賽 (合肥站)",
-            "team_a": "AN Yiming",
-            "team_b": "ZHENG XiaohuaiD",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794195853773_Screenshot%202026-11-09%20104402.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794195930676_Screenshot%202026-11-09%20104525.png",
-            "time": "11:00:00",
-            "date": "09/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794196800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-016b16f93f_dd6ee683_20261109.png?v=dd6ee683",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-14c1691561",
           "name": "Trọng  South vs Nhân Mỹ | Lee Min Hoo",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14c1691561_cf13bd31_20261109.png?v=cf13bd31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-016b16f93f",
+          "name": "AN Yiming vs ZHENG XiaohuaiD | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-016b16f93f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-016b16f93f",
+                  "name": "AN Yiming vs ZHENG XiaohuaiD",
+                  "streams": [
+                    {
+                      "id": "st-016b16f93f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-016b16f93f",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10005/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 CBSA 中國9號球巡迴賽 (合肥站)",
+            "team_a": "AN Yiming",
+            "team_b": "ZHENG XiaohuaiD",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794195853773_Screenshot%202026-11-09%20104402.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794195930676_Screenshot%202026-11-09%20104525.png",
+            "time": "11:00:00",
+            "date": "09/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1794196800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-016b16f93f_dd6ee683_20261109.png?v=dd6ee683",
             "width": 1600,
             "height": 1200
           }
