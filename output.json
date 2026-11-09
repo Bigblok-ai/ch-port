@@ -11,96 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-14c1691561",
-          "name": "Trọng  South vs Nhân Mỹ | 11:00 09/11 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14c1691561",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-14c1691561",
-                  "name": "Trọng  South vs Nhân Mỹ",
-                  "streams": [
-                    {
-                      "id": "st-14c1691561",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14c1691561",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10004/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗦𝗵𝗼𝘄𝗺𝗮𝘁𝗰𝗵 𝘁𝗮̣𝗶 𝗛𝗩𝗧",
-            "team_a": "Trọng  South",
-            "team_b": "Nhân Mỹ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794192068648_Screenshot%202026-11-09%20094053.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794192104352_Screenshot%202026-11-09%20094135.png",
-            "time": "11:00:00",
-            "date": "09/11",
-            "blv": "Lee Min Hoo",
-            "is_live": false,
-            "time_sort": 1794196800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14c1691561_cf13bd31_20261109.png?v=cf13bd31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-016b16f93f",
-          "name": "AN Yiming vs ZHENG XiaohuaiD | 11:00 09/11 | Bỉm Sữa",
+          "name": "AN Yiming vs ZHENG XiaohuaiD | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -149,7 +76,7 @@
             "time": "11:00:00",
             "date": "09/11",
             "blv": "Bỉm Sữa",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794196800,
             "cate_type": "billiards"
           },
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-016b16f93f_dd6ee683_20261109.png?v=dd6ee683",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-14c1691561",
+          "name": "Trọng  South vs Nhân Mỹ | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14c1691561",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-14c1691561",
+                  "name": "Trọng  South vs Nhân Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-14c1691561",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14c1691561",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10004/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗦𝗵𝗼𝘄𝗺𝗮𝘁𝗰𝗵 𝘁𝗮̣𝗶 𝗛𝗩𝗧",
+            "team_a": "Trọng  South",
+            "team_b": "Nhân Mỹ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794192068648_Screenshot%202026-11-09%20094053.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794192104352_Screenshot%202026-11-09%20094135.png",
+            "time": "11:00:00",
+            "date": "09/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794196800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14c1691561_cf13bd31_20261109.png?v=cf13bd31",
             "width": 1600,
             "height": 1200
           }
