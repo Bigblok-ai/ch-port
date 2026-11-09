@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-920aa66978",
-          "name": "CARDING vs NUNO | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-920aa66978",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-920aa66978",
-                  "name": "CARDING vs NUNO",
-                  "streams": [
-                    {
-                      "id": "st-920aa66978",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-920aa66978",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10029/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PHI BỊP",
-            "team_a": "CARDING",
-            "team_b": "NUNO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794234129696_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794234127124_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "21:21:00",
-            "date": "09/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794234060,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-920aa66978_351a3f4a_20261109.png?v=351a3f4a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b39412f505",
           "name": "MICKEY KRAUSE vs râu dài | Kèn Kèn",
