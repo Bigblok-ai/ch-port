@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f132abe128_3f83f0aa_20261109.png?v=3f83f0aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-640d443021",
-          "name": "ZHOU Chuandong vs CHEN Hsin-Ting | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-640d443021",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-640d443021",
-                  "name": "ZHOU Chuandong vs CHEN Hsin-Ting",
-                  "streams": [
-                    {
-                      "id": "st-640d443021",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-640d443021",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10026/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "ZHOU Chuandong",
-            "team_b": "CHEN Hsin-Ting",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794229954095_Screenshot%202026-11-09%20161943.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794229953560_Screenshot%202026-11-09%20161943.png",
-            "time": "20:12:00",
-            "date": "09/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794229920,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-640d443021_637759e5_20261109.png?v=637759e5",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-37ce13c228_1c0f0039_20261109.png?v=1c0f0039",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0588bd16eb",
+          "name": "Torreense vs Uniao de Leiria | 03:10 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0588bd16eb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0588bd16eb",
+                  "name": "Torreense vs Uniao de Leiria",
+                  "streams": [
+                    {
+                      "id": "st-0588bd16eb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0588bd16eb",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10020/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Torreense",
+            "team_b": "Uniao de Leiria",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794223566172_Screenshot%202026-11-09%20182552.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794223565820_Screenshot%202026-11-09%20182602.png",
+            "time": "03:10:00",
+            "date": "10/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794255000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0588bd16eb_7decddf4_20261109.png?v=7decddf4",
             "width": 1600,
             "height": 1200
           }
