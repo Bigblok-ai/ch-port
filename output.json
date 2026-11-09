@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-61fbba0d9c_da7a7b0a_20261109.png?v=da7a7b0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ea2f90b2cb",
-          "name": "ZOU Xing vs KO Pin-Yi | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea2f90b2cb",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ea2f90b2cb",
-                  "name": "ZOU Xing vs KO Pin-Yi",
-                  "streams": [
-                    {
-                      "id": "st-ea2f90b2cb",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea2f90b2cb",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10023/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "ZOU Xing",
-            "team_b": "KO Pin-Yi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794228239847_Screenshot%202026-11-09%20161943.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794228237732_Screenshot%202026-11-09%20140837.png",
-            "time": "20:00:00",
-            "date": "09/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794229200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea2f90b2cb_25fee35d_20261109.png?v=25fee35d",
             "width": 1600,
             "height": 1200
           }
