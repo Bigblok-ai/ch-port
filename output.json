@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7fe0b79de5",
-          "name": "AJ MANAS vs LEE VAN CORTEZA | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7fe0b79de5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7fe0b79de5",
-                  "name": "AJ MANAS vs LEE VAN CORTEZA",
-                  "streams": [
-                    {
-                      "id": "st-7fe0b79de5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7fe0b79de5",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10032/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "AJ MANAS",
-            "team_b": "LEE VAN CORTEZA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794238565697_Screenshot%202026-11-07%20203805.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794238573937_Screenshot%202026-11-08%20184325.png",
-            "time": "22:35:00",
-            "date": "09/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794238500,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7fe0b79de5_b8f10c10_20261110.png?v=b8f10c10",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-ca1bd65ddb",
           "name": "Ramiro 7/10 vs Mark Davao | GIÀNG A PHỌ",
@@ -236,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-c2438d88ce",
-          "name": "Sabadell vs Real Sociedad B | 02:30 10/11",
+          "id": "chtv-37ce13c228",
+          "name": "Plymouth Parkway vs Berkhamsted | 02:30 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-c2438d88ce",
+              "id": "src-37ce13c228",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c2438d88ce",
-                  "name": "Sabadell vs Real Sociedad B",
+                  "id": "ct-37ce13c228",
+                  "name": "Plymouth Parkway vs Berkhamsted",
                   "streams": [
                     {
-                      "id": "st-c2438d88ce",
+                      "id": "st-37ce13c228",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c2438d88ce",
+                          "id": "lnk-37ce13c228",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10021/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10019/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,10 +215,10 @@
           ],
           "org_metadata": {
             "league": "bóng bánh",
-            "team_a": "Sabadell",
-            "team_b": "Real Sociedad B",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794223645348_Screenshot%202026-11-09%20182706.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794223645074_Screenshot%202026-11-09%20182721.png",
+            "team_a": "Plymouth Parkway",
+            "team_b": "Berkhamsted",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794223395010_Screenshot%202026-11-09%20182254.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794223394734_Screenshot%202026-11-09%20182310.png",
             "time": "02:30:00",
             "date": "10/11",
             "blv": "",
@@ -303,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c2438d88ce_a1cc00ee_20261110.png?v=a1cc00ee",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-37ce13c228_1c0f0039_20261110.png?v=1c0f0039",
             "width": 1600,
             "height": 1200
           }
@@ -382,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-37ce13c228",
-          "name": "Plymouth Parkway vs Berkhamsted | 02:30 10/11",
+          "id": "chtv-c2438d88ce",
+          "name": "Sabadell vs Real Sociedad B | 02:30 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-37ce13c228",
+              "id": "src-c2438d88ce",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-37ce13c228",
-                  "name": "Plymouth Parkway vs Berkhamsted",
+                  "id": "ct-c2438d88ce",
+                  "name": "Sabadell vs Real Sociedad B",
                   "streams": [
                     {
-                      "id": "st-37ce13c228",
+                      "id": "st-c2438d88ce",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-37ce13c228",
+                          "id": "lnk-c2438d88ce",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10019/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10021/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -434,10 +361,10 @@
           ],
           "org_metadata": {
             "league": "bóng bánh",
-            "team_a": "Plymouth Parkway",
-            "team_b": "Berkhamsted",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794223395010_Screenshot%202026-11-09%20182254.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794223394734_Screenshot%202026-11-09%20182310.png",
+            "team_a": "Sabadell",
+            "team_b": "Real Sociedad B",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794223645348_Screenshot%202026-11-09%20182706.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794223645074_Screenshot%202026-11-09%20182721.png",
             "time": "02:30:00",
             "date": "10/11",
             "blv": "",
@@ -449,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-37ce13c228_1c0f0039_20261110.png?v=1c0f0039",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c2438d88ce_a1cc00ee_20261110.png?v=a1cc00ee",
             "width": 1600,
             "height": 1200
           }
