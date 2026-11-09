@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-3123ac1e47",
-          "name": "TSAI Pei-Chun vs LI Jiayueer 李佳月ㄦ | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3123ac1e47",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3123ac1e47",
-                  "name": "TSAI Pei-Chun vs LI Jiayueer 李佳月ㄦ",
-                  "streams": [
-                    {
-                      "id": "st-3123ac1e47",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3123ac1e47",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10011/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "TSAI Pei-Chun",
-            "team_b": "LI Jiayueer 李佳月ㄦ",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794208854286_Screenshot%202026-11-09%20141909.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794208853885_Screenshot%202026-11-09%20140328.png",
-            "time": "14:30:20",
-            "date": "09/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794209420,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3123ac1e47_6d416bb6_20261109.png?v=6d416bb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-cf491dce85",
           "name": "GAO Jiwei vs KO Ping-Han | GIÀNG A PHỌ",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c18bff502c_ef6ff2e8_20261109.png?v=ef6ff2e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c79aa9e05a",
+          "name": "BOOTS CEBU vs WANING SURIGAO | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c79aa9e05a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c79aa9e05a",
+                  "name": "BOOTS CEBU vs WANING SURIGAO",
+                  "streams": [
+                    {
+                      "id": "st-c79aa9e05a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c79aa9e05a",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10015/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "BOOTS CEBU",
+            "team_b": "WANING SURIGAO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794216707960_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794216713408_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "16:31:00",
+            "date": "09/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1794216660,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c79aa9e05a_1a609d9a_20261109.png?v=1a609d9a",
             "width": 1600,
             "height": 1200
           }
