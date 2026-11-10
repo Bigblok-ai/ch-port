@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a35a6544ba",
-          "name": "dũng lai châu vs việt anh | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a35a6544ba",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a35a6544ba",
-                  "name": "dũng lai châu vs việt anh",
-                  "streams": [
-                    {
-                      "id": "st-a35a6544ba",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a35a6544ba",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10047/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "dũng lai châu",
-            "team_b": "việt anh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794301148241_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794301148692_Screenshot%202026-10-15%20133326.png",
-            "time": "16:00:00",
-            "date": "10/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794301200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a35a6544ba_79321922_20261110.png?v=79321922",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-c70030c8c9",
           "name": "WU Guanhui 吳冠輝 vs KO Ping-Chung 柯秉中 | SÊ KÔÔ",
