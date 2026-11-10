@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a895d096f7",
-          "name": "CHEN Jialin vs TSAI Pei-Chun | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a895d096f7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a895d096f7",
-                  "name": "CHEN Jialin vs TSAI Pei-Chun",
-                  "streams": [
-                    {
-                      "id": "st-a895d096f7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a895d096f7",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10039/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝟮𝟬𝟮𝟲 𝗖𝗕𝗦𝗔 中國𝟵號球巡迴賽 (合肥站)",
-            "team_a": "CHEN Jialin",
-            "team_b": "TSAI Pei-Chun",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794290832682_Trung%20Qu%E1%BB%91c.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794290832608_Trung%20Qu%E1%BB%91c.png",
-            "time": "13:07:00",
-            "date": "10/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794290820,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a895d096f7_0ae842ed_20261110.png?v=0ae842ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-17a4a0fb2e",
           "name": "KUO Hsuan-Wei vs SHEN Tao | SÊ KÔÔ",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17a4a0fb2e_40e8c5f6_20261110.png?v=40e8c5f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-45f48a9b90",
+          "name": "U23 Thái Lan vs Việt Nam U23 | 19:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45f48a9b90",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-45f48a9b90",
+                  "name": "U23 Thái Lan vs Việt Nam U23",
+                  "streams": [
+                    {
+                      "id": "st-45f48a9b90",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-45f48a9b90",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10042/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "U23 Thái Lan",
+            "team_b": "Việt Nam U23",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794295298125_Th%C3%A1i%20Lan.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794295298261_Vi%E1%BB%87t%20Nam.png",
+            "time": "19:00:00",
+            "date": "10/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794312000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-45f48a9b90_6fd6f483_20261110.png?v=6fd6f483",
             "width": 1600,
             "height": 1200
           }
