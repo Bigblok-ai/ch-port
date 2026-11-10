@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b88433c51a",
-          "name": "Sao hỏa vs chuột túi | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b88433c51a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b88433c51a",
-                  "name": "Sao hỏa vs chuột túi",
-                  "streams": [
-                    {
-                      "id": "st-b88433c51a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b88433c51a",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10051/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "siêu kinh điển",
-            "team_a": "Sao hỏa",
-            "team_b": "chuột túi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794295696910_Ho%C3%A0ng%20Sao%20(2).png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794295696582_Screenshot%202026-11-10%20142809.png",
-            "time": "16:35:00",
-            "date": "10/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794303300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b88433c51a_5e13dc07_20261110.png?v=5e13dc07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f0f6c6295b",
           "name": "sài tiến và khánh xalo vs duy đen và sinh viên | Thập Cẩm",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f0f6c6295b_3310a698_20261110.png?v=3310a698",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-70681d1b6d",
+          "name": "Shayne Acebar vs Andot Valencia | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70681d1b6d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-70681d1b6d",
+                  "name": "Shayne Acebar vs Andot Valencia",
+                  "streams": [
+                    {
+                      "id": "st-70681d1b6d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-70681d1b6d",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10054/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phủi phi",
+            "team_a": "Shayne Acebar",
+            "team_b": "Andot Valencia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794308610040_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794308617229_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "18:03:00",
+            "date": "10/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1794308580,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-70681d1b6d_3538a81c_20261110.png?v=3538a81c",
             "width": 1600,
             "height": 1200
           }
@@ -237,16 +237,16 @@
         },
         {
           "id": "chtv-7c60baaff7",
-          "name": "Pia Filler vs Niklas Dohr | 18:33 10/11 | Đại Kê",
+          "name": "Pia Filler vs Niklas Dohr | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +295,7 @@
             "time": "18:33:00",
             "date": "10/11",
             "blv": "Đại Kê",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794310380,
             "cate_type": "billiards"
           },
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c60baaff7_30e43392_20261110.png?v=30e43392",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7afd0c821b",
+          "name": "ZHANG Pan 張攀 vs HO Hsin-Ju 何心如 | 18:39 10/11 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7afd0c821b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7afd0c821b",
+                  "name": "ZHANG Pan 張攀 vs HO Hsin-Ju 何心如",
+                  "streams": [
+                    {
+                      "id": "st-7afd0c821b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7afd0c821b",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10057/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 CBSA 中國9號球巡迴賽",
+            "team_a": "ZHANG Pan 張攀",
+            "team_b": "HO Hsin-Ju 何心如",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794310783482_Screenshot%202026-11-09%20140328.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794310782840_Screenshot%202026-11-09%20140328.png",
+            "time": "18:39:00",
+            "date": "10/11",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1794310740,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7afd0c821b_e11544bf_20261110.png?v=e11544bf",
             "width": 1600,
             "height": 1200
           }
