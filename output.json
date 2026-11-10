@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-93e9663a53",
-          "name": "XU Xiaocong vs LI Po-Hsien | Lee Min Hoo",
+          "id": "chtv-a895d096f7",
+          "name": "CHEN Jialin vs TSAI Pei-Chun | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-93e9663a53",
+              "id": "src-a895d096f7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-93e9663a53",
-                  "name": "XU Xiaocong vs LI Po-Hsien",
+                  "id": "ct-a895d096f7",
+                  "name": "CHEN Jialin vs TSAI Pei-Chun",
                   "streams": [
                     {
-                      "id": "st-93e9663a53",
+                      "id": "st-a895d096f7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-93e9663a53",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-a895d096f7",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10037/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10039/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,22 +69,95 @@
           ],
           "org_metadata": {
             "league": "𝟮𝟬𝟮𝟲 𝗖𝗕𝗦𝗔 中國𝟵號球巡迴賽 (合肥站)",
-            "team_a": "XU Xiaocong",
-            "team_b": "LI Po-Hsien",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "time": "11:20:00",
+            "team_a": "CHEN Jialin",
+            "team_b": "TSAI Pei-Chun",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794290832682_Trung%20Qu%E1%BB%91c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794290832608_Trung%20Qu%E1%BB%91c.png",
+            "time": "13:07:00",
             "date": "10/11",
-            "blv": "Lee Min Hoo",
+            "blv": "Bỉm Sữa",
             "is_live": true,
-            "time_sort": 1794284400,
+            "time_sort": 1794290820,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-93e9663a53_634f1e85_20261110.png?v=634f1e85",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a895d096f7_0ae842ed_20261110.png?v=0ae842ed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b57603ed48",
+          "name": "HSIEH Yu-Wen vs GAO Lei | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b57603ed48",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b57603ed48",
+                  "name": "HSIEH Yu-Wen vs GAO Lei",
+                  "streams": [
+                    {
+                      "id": "st-b57603ed48",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b57603ed48",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10040/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝟮𝟬𝟮𝟲 𝗖𝗕𝗦𝗔 中國𝟵號球巡迴賽 (合肥站)",
+            "team_a": "HSIEH Yu-Wen",
+            "team_b": "GAO Lei",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794290904020_Trung%20Qu%E1%BB%91c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794290904316_Trung%20Qu%E1%BB%91c.png",
+            "time": "13:08:00",
+            "date": "10/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1794290880,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b57603ed48_29e35f54_20261110.png?v=29e35f54",
             "width": 1600,
             "height": 1200
           }
