@@ -11,23 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-93e9663a53",
-          "name": "Fu Xiaofang vs FU Che-Wei | 11:20 10/11 | Lee Min Hoo",
+          "name": "XU Xiaocong vs LI Po-Hsien | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-93e9663a53",
-                  "name": "Fu Xiaofang vs FU Che-Wei",
+                  "name": "XU Xiaocong vs LI Po-Hsien",
                   "streams": [
                     {
                       "id": "st-93e9663a53",
@@ -69,14 +69,14 @@
           ],
           "org_metadata": {
             "league": "𝟮𝟬𝟮𝟲 𝗖𝗕𝗦𝗔 中國𝟵號球巡迴賽 (合肥站)",
-            "team_a": "Fu Xiaofang",
-            "team_b": "FU Che-Wei",
+            "team_a": "XU Xiaocong",
+            "team_b": "LI Po-Hsien",
             "logo_a": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "time": "11:20:00",
             "date": "10/11",
             "blv": "Lee Min Hoo",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794284400,
             "cate_type": "billiards"
           },
