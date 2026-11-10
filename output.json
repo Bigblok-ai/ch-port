@@ -453,6 +453,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-63357e1006",
+          "name": "Anaitasuna FT vs Alaves | 01:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63357e1006",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-63357e1006",
+                  "name": "Anaitasuna FT vs Alaves",
+                  "streams": [
+                    {
+                      "id": "st-63357e1006",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63357e1006",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10060/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Anaitasuna FT",
+            "team_b": "Alaves",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794313163756_Screenshot%202026-11-10%20191915.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794313196160_Screenshot%202026-11-10%20191944.png",
+            "time": "01:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794333600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-63357e1006_7c05369a_20261110.png?v=7c05369a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
