@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-17a4a0fb2e_40e8c5f6_20261110.png?v=40e8c5f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-8617bd56d8",
+          "name": "Sao hỏa vs chuột túi | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8617bd56d8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8617bd56d8",
+                  "name": "Sao hỏa vs chuột túi",
+                  "streams": [
+                    {
+                      "id": "st-8617bd56d8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8617bd56d8",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10043/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "siêu kinh điển",
+            "team_a": "Sao hỏa",
+            "team_b": "chuột túi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794295696910_Ho%C3%A0ng%20Sao%20(2).png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794295696582_Screenshot%202026-11-10%20142809.png",
+            "time": "14:28:00",
+            "date": "10/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1794295680,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8617bd56d8_5e13dc07_20261110.png?v=5e13dc07",
             "width": 1600,
             "height": 1200
           }
