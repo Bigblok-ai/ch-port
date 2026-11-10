@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (7 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ea36eabc71_eba8963f_20261110.png?v=eba8963f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7c60baaff7",
-          "name": "Pia Filler vs Niklas Dohr | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c60baaff7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7c60baaff7",
-                  "name": "Pia Filler vs Niklas Dohr",
-                  "streams": [
-                    {
-                      "id": "st-7c60baaff7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c60baaff7",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10056/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "Pia Filler",
-            "team_b": "Niklas Dohr",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794310461553_Screenshot%202026-11-10%20183403.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794310460988_Screenshot%202026-11-10%20183403.png",
-            "time": "18:33:00",
-            "date": "10/11",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1794310380,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7c60baaff7_30e43392_20261110.png?v=30e43392",
             "width": 1600,
             "height": 1200
           }
