@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d068a19ad_a477a49a_20261111.png?v=a477a49a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-307bf28dd2",
-          "name": "Dương Quốc Hoàng vs Chiang Po Hsun | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-307bf28dd2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-307bf28dd2",
-                  "name": "Dương Quốc Hoàng vs Chiang Po Hsun",
-                  "streams": [
-                    {
-                      "id": "st-307bf28dd2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-307bf28dd2",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10099/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Chiang Po Hsun",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794383992233_Screenshot%202026-11-11%20145945.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794384055103_Screenshot%202026-11-11%20150046.png",
-            "time": "19:00:00",
-            "date": "11/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794398400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-307bf28dd2_71b185b5_20261111.png?v=71b185b5",
             "width": 1600,
             "height": 1200
           }
