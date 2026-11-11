@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-307bf28dd2",
+          "name": "Dương Quốc Hoàng vs Chiang Po Hsun | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-307bf28dd2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-307bf28dd2",
+                  "name": "Dương Quốc Hoàng vs Chiang Po Hsun",
+                  "streams": [
+                    {
+                      "id": "st-307bf28dd2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-307bf28dd2",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10099/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Chiang Po Hsun",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794383992233_Screenshot%202026-11-11%20145945.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794384055103_Screenshot%202026-11-11%20150046.png",
+            "time": "19:00:00",
+            "date": "11/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1794398400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-307bf28dd2_71b185b5_20261111.png?v=71b185b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e2912cedb2",
           "name": "Việt Nam vs Đài Loan | 19:00 11/11",
           "type": "single",
@@ -231,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e2912cedb2_4f6814ed_20261111.png?v=4f6814ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1ad9ca9702",
-          "name": "Liu Ri Teng vs James Oyangoren | 19:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ad9ca9702",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1ad9ca9702",
-                  "name": "Liu Ri Teng vs James Oyangoren",
-                  "streams": [
-                    {
-                      "id": "st-1ad9ca9702",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1ad9ca9702",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10104/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Liu Ri Teng",
-            "team_b": "James Oyangoren",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794384600525_Screenshot%202026-11-11%20150952.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794384766115_Screenshot%202026-11-11%20151234.png",
-            "time": "19:00:00",
-            "date": "11/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794398400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1ad9ca9702_137c4466_20261111.png?v=137c4466",
             "width": 1600,
             "height": 1200
           }
@@ -455,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-307bf28dd2",
-          "name": "Dương Quốc Hoàng vs Chiang Po Hsun | 19:00 11/11",
+          "id": "chtv-1ad9ca9702",
+          "name": "Liu Ri Teng vs James Oyangoren | 19:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-307bf28dd2",
+              "id": "src-1ad9ca9702",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-307bf28dd2",
-                  "name": "Dương Quốc Hoàng vs Chiang Po Hsun",
+                  "id": "ct-1ad9ca9702",
+                  "name": "Liu Ri Teng vs James Oyangoren",
                   "streams": [
                     {
-                      "id": "st-307bf28dd2",
+                      "id": "st-1ad9ca9702",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-307bf28dd2",
+                          "id": "lnk-1ad9ca9702",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10099/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10104/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,10 +507,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Chiang Po Hsun",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794383992233_Screenshot%202026-11-11%20145945.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794384055103_Screenshot%202026-11-11%20150046.png",
+            "team_a": "Liu Ri Teng",
+            "team_b": "James Oyangoren",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794384600525_Screenshot%202026-11-11%20150952.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794384766115_Screenshot%202026-11-11%20151234.png",
             "time": "19:00:00",
             "date": "11/11",
             "blv": "",
@@ -522,7 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-307bf28dd2_71b185b5_20261111.png?v=71b185b5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1ad9ca9702_137c4466_20261111.png?v=137c4466",
             "width": 1600,
             "height": 1200
           }
