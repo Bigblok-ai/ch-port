@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-3b6b6fa3f4",
+          "name": "Lường Đức Thiện vs Liu Nuoen | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b6b6fa3f4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3b6b6fa3f4",
+                  "name": "Lường Đức Thiện vs Liu Nuoen",
+                  "streams": [
+                    {
+                      "id": "st-3b6b6fa3f4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3b6b6fa3f4",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10072/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 𝟭𝟭:𝟬𝟬",
+            "team_a": "Lường Đức Thiện",
+            "team_b": "Liu Nuoen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794355667248_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
+            "time": "11:00:00",
+            "date": "11/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1794369600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3b6b6fa3f4_1361ba78_20261111.png?v=1361ba78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-b8ed155c75",
           "name": "Aloysius Yapp vs Wan Kwok Ho | GIÀNG A PHỌ",
@@ -90,90 +163,17 @@
           }
         },
         {
-          "id": "chtv-3b6b6fa3f4",
-          "name": "Lường Đức Thiện vs Liu Nuoen | 11:00 11/11 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b6b6fa3f4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3b6b6fa3f4",
-                  "name": "Lường Đức Thiện vs Liu Nuoen",
-                  "streams": [
-                    {
-                      "id": "st-3b6b6fa3f4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b6b6fa3f4",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10072/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 𝟭𝟭:𝟬𝟬",
-            "team_a": "Lường Đức Thiện",
-            "team_b": "Liu Nuoen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794355667248_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "time": "11:00:00",
-            "date": "11/11",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "time_sort": 1794369600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3b6b6fa3f4_1361ba78_20261111.png?v=1361ba78",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7a9fe1469e",
-          "name": "Boris Ivanovski vs Namfon Sowiset | 11:00 11/11",
+          "name": "Boris Ivanovski vs Namfon Sowiset | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -191,7 +191,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-7a9fe1469e",
-                          "name": "Stream",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10077/index.m3u8",
@@ -221,8 +221,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1766404127181_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).png",
             "time": "11:00:00",
             "date": "11/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Lee Min Hoo",
+            "is_live": true,
             "time_sort": 1794369600,
             "cate_type": "billiards"
           },
@@ -231,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7a9fe1469e_c36c1db2_20261111.png?v=c36c1db2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-03412e3fd9",
-          "name": "Oliver Szolnoki vs Ngô Hồng Thắng | 11:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03412e3fd9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-03412e3fd9",
-                  "name": "Oliver Szolnoki vs Ngô Hồng Thắng",
-                  "streams": [
-                    {
-                      "id": "st-03412e3fd9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03412e3fd9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10074/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 𝟭𝟭:𝟬𝟬",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Ngô Hồng Thắng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794355793403_Oliver%20Szolnoki.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "11:00:00",
-            "date": "11/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794369600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03412e3fd9_14b21c5f_20261111.png?v=14b21c5f",
             "width": 1600,
             "height": 1200
           }
@@ -377,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-25a4be9e25_5d1d6148_20261111.png?v=5d1d6148",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-03412e3fd9",
+          "name": "Oliver Szolnoki vs Ngô Hồng Thắng | 11:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03412e3fd9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-03412e3fd9",
+                  "name": "Oliver Szolnoki vs Ngô Hồng Thắng",
+                  "streams": [
+                    {
+                      "id": "st-03412e3fd9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03412e3fd9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10074/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 𝟭𝟭:𝟬𝟬",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Ngô Hồng Thắng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794355793403_Oliver%20Szolnoki.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794369600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03412e3fd9_14b21c5f_20261111.png?v=14b21c5f",
             "width": 1600,
             "height": 1200
           }
