@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7d068a19ad_a477a49a_20261111.png?v=a477a49a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e2912cedb2",
-          "name": "Việt Nam vs Đài Loan | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2912cedb2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e2912cedb2",
-                  "name": "Việt Nam vs Đài Loan",
-                  "streams": [
-                    {
-                      "id": "st-e2912cedb2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2912cedb2",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10105/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Việt Nam",
-            "team_b": "Đài Loan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794389753645_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794389761523_Screenshot%202026-11-09%20161943.png",
-            "time": "19:00:00",
-            "date": "11/11",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1794398400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e2912cedb2_4f6814ed_20261111.png?v=4f6814ed",
             "width": 1600,
             "height": 1200
           }
