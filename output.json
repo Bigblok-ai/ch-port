@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-12ab12151a",
-          "name": "Phạm Phương Nam vs Chang Chia Hua | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12ab12151a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-12ab12151a",
-                  "name": "Phạm Phương Nam vs Chang Chia Hua",
-                  "streams": [
-                    {
-                      "id": "st-12ab12151a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12ab12151a",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10090/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Phạm Phương Nam",
-            "team_b": "Chang Chia Hua",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794375890532_Screenshot%202026-11-11%20124430.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794375890346_%C4%90%C3%A0i%20Loan.png",
-            "time": "15:00:00",
-            "date": "11/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794384000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-12ab12151a_199fe7ba_20261111.png?v=199fe7ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d597d486e8",
           "name": "James Aranas vs Nguyễn Mạnh Đức | 17:00 11/11",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fbf8ea6eb2_d20d09cf_20261111.png?v=d20d09cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fb1d700e96",
+          "name": "Aivhan Maluto vs David Keith Dennison | 17:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb1d700e96",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fb1d700e96",
+                  "name": "Aivhan Maluto vs David Keith Dennison",
+                  "streams": [
+                    {
+                      "id": "st-fb1d700e96",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb1d700e96",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10094/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "Aivhan Maluto",
+            "team_b": "David Keith Dennison",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794381327611_Screenshot%202026-11-11%20141513.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794381424673_Screenshot%202026-11-11%20141656.png",
+            "time": "17:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794391200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fb1d700e96_5adb50fc_20261111.png?v=5adb50fc",
             "width": 1600,
             "height": 1200
           }
@@ -455,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-fb1d700e96",
-          "name": "Aivhan Maluto vs David Keith Dennison | 17:00 11/11",
+          "id": "chtv-307bf28dd2",
+          "name": "Dương Quốc Hoàng vs Chiang Po Hsun | 19:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-fb1d700e96",
+              "id": "src-307bf28dd2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fb1d700e96",
-                  "name": "Aivhan Maluto vs David Keith Dennison",
+                  "id": "ct-307bf28dd2",
+                  "name": "Dương Quốc Hoàng vs Chiang Po Hsun",
                   "streams": [
                     {
-                      "id": "st-fb1d700e96",
+                      "id": "st-307bf28dd2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fb1d700e96",
+                          "id": "lnk-307bf28dd2",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10094/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10099/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -506,23 +506,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Aivhan Maluto",
-            "team_b": "David Keith Dennison",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794381327611_Screenshot%202026-11-11%20141513.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794381424673_Screenshot%202026-11-11%20141656.png",
-            "time": "17:00:00",
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Chiang Po Hsun",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794383992233_Screenshot%202026-11-11%20145945.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794384055103_Screenshot%202026-11-11%20150046.png",
+            "time": "19:00:00",
             "date": "11/11",
             "blv": "",
             "is_live": false,
-            "time_sort": 1794391200,
+            "time_sort": 1794398400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fb1d700e96_5adb50fc_20261111.png?v=5adb50fc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-307bf28dd2_71b185b5_20261111.png?v=71b185b5",
             "width": 1600,
             "height": 1200
           }
@@ -888,79 +888,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1e3c87ffa5_49274070_20261111.png?v=49274070",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-307bf28dd2",
-          "name": "Dương Quốc Hoàng vs Chiang Po Hsun | 19:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-307bf28dd2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-307bf28dd2",
-                  "name": "Dương Quốc Hoàng vs Chiang Po Hsun",
-                  "streams": [
-                    {
-                      "id": "st-307bf28dd2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-307bf28dd2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10099/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Dương Quốc Hoàng",
-            "team_b": "Chiang Po Hsun",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794383992233_Screenshot%202026-11-11%20145945.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794384055103_Screenshot%202026-11-11%20150046.png",
-            "time": "19:00:00",
-            "date": "11/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794398400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-307bf28dd2_71b185b5_20261111.png?v=71b185b5",
             "width": 1600,
             "height": 1200
           }
