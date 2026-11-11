@@ -161,6 +161,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-03e9674a47",
+          "name": "Lee van Corteza vs Jeffrey Ignacio | 20:50 11/11 | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03e9674a47",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-03e9674a47",
+                  "name": "Lee van Corteza vs Jeffrey Ignacio",
+                  "streams": [
+                    {
+                      "id": "st-03e9674a47",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03e9674a47",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10107/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Lee van Corteza",
+            "team_b": "Jeffrey Ignacio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794404975306_Screenshot%202026-11-08%20184325.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794405010790_Screenshot%202026-11-11%20204958.png",
+            "time": "20:50:00",
+            "date": "11/11",
+            "blv": "Đại Kê",
+            "is_live": false,
+            "time_sort": 1794405000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03e9674a47_9af069ae_20261111.png?v=9af069ae",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
