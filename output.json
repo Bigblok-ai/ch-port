@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "chtv-b8ed155c75",
-          "name": "Aloysius Yapp vs Wan Kwok Ho | 11:00 11/11",
+          "name": "Aloysius Yapp vs Wan Kwok Ho | 11:00 11/11 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-b8ed155c75",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10071/index.m3u8",
@@ -75,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1764454665939_Hui%20Jen%20Lin.png",
             "time": "11:00:00",
             "date": "11/11",
-            "blv": "",
+            "blv": "GIÀNG A PHỌ",
             "is_live": false,
             "time_sort": 1794369600,
             "cate_type": "billiards"
@@ -91,7 +91,7 @@
         },
         {
           "id": "chtv-3b6b6fa3f4",
-          "name": "Lường Đức Thiện vs Liu Nuoen | 11:00 11/11",
+          "name": "Lường Đức Thiện vs Liu Nuoen | 11:00 11/11 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -118,7 +118,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-3b6b6fa3f4",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10072/index.m3u8",
@@ -148,7 +148,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
             "time": "11:00:00",
             "date": "11/11",
-            "blv": "",
+            "blv": "Thập Cẩm",
             "is_live": false,
             "time_sort": 1794369600,
             "cate_type": "billiards"
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7a9fe1469e_c36c1db2_20261111.png?v=c36c1db2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-03412e3fd9",
+          "name": "Oliver Szolnoki vs Ngô Hồng Thắng | 11:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03412e3fd9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-03412e3fd9",
+                  "name": "Oliver Szolnoki vs Ngô Hồng Thắng",
+                  "streams": [
+                    {
+                      "id": "st-03412e3fd9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03412e3fd9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10074/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 𝟭𝟭:𝟬𝟬",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Ngô Hồng Thắng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794355793403_Oliver%20Szolnoki.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794369600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03412e3fd9_14b21c5f_20261111.png?v=14b21c5f",
             "width": 1600,
             "height": 1200
           }
@@ -450,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cb840e5678_fa9850b1_20261111.png?v=fa9850b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-03412e3fd9",
-          "name": "Oliver Szolnoki vs Ngô Hồng Thắng | 11:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03412e3fd9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-03412e3fd9",
-                  "name": "Oliver Szolnoki vs Ngô Hồng Thắng",
-                  "streams": [
-                    {
-                      "id": "st-03412e3fd9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03412e3fd9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10074/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 𝟭𝟭:𝟬𝟬",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Ngô Hồng Thắng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794355793403_Oliver%20Szolnoki.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "11:00:00",
-            "date": "11/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794369600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03412e3fd9_14b21c5f_20261111.png?v=14b21c5f",
             "width": 1600,
             "height": 1200
           }
