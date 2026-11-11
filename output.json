@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,38 +90,38 @@
           }
         },
         {
-          "id": "chtv-0ff5523eed",
-          "name": "Tất Duy Kiên vs Christopher Alexander | Bỉm Sữa",
+          "id": "chtv-d597d486e8",
+          "name": "James Aranas vs Nguyễn Mạnh Đức | 17:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-0ff5523eed",
+              "id": "src-d597d486e8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0ff5523eed",
-                  "name": "Tất Duy Kiên vs Christopher Alexander",
+                  "id": "ct-d597d486e8",
+                  "name": "James Aranas vs Nguyễn Mạnh Đức",
                   "streams": [
                     {
-                      "id": "st-0ff5523eed",
+                      "id": "st-d597d486e8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0ff5523eed",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-d597d486e8",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10089/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10095/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +141,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Tất Duy Kiên",
-            "team_b": "Christopher Alexander",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794375794568_Screenshot%202026-11-11%20124239.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794375794232_Screenshot%202026-11-11%20124308.png",
-            "time": "15:00:00",
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "James Aranas",
+            "team_b": "Nguyễn Mạnh Đức",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794381494096_Screenshot%202026-11-06%20182240.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794381504838_Screenshot%202026-10-15%20133326.png",
+            "time": "17:00:00",
             "date": "11/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794384000,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794391200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0ff5523eed_296d716d_20261111.png?v=296d716d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d597d486e8_ad7a5305_20261111.png?v=ad7a5305",
             "width": 1600,
             "height": 1200
           }
@@ -528,79 +528,6 @@
           }
         },
         {
-          "id": "chtv-d597d486e8",
-          "name": "James Aranas vs Nguyễn Mạnh Đức | 17:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d597d486e8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d597d486e8",
-                  "name": "James Aranas vs Nguyễn Mạnh Đức",
-                  "streams": [
-                    {
-                      "id": "st-d597d486e8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d597d486e8",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10095/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "James Aranas",
-            "team_b": "Nguyễn Mạnh Đức",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794381494096_Screenshot%202026-11-06%20182240.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794381504838_Screenshot%202026-10-15%20133326.png",
-            "time": "17:00:00",
-            "date": "11/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794391200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d597d486e8_ad7a5305_20261111.png?v=ad7a5305",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-06adc6c529",
           "name": "Nguyễn Công Thành vs Zhuang Zhi Yu | 19:00 11/11",
           "type": "single",
@@ -669,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-06adc6c529_43ea5bd4_20261111.png?v=43ea5bd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ebea2b2842",
+          "name": "Jonas Magpantay vs Quách Vĩ Nam | 19:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebea2b2842",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ebea2b2842",
+                  "name": "Jonas Magpantay vs Quách Vĩ Nam",
+                  "streams": [
+                    {
+                      "id": "st-ebea2b2842",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebea2b2842",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10101/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Jonas Magpantay",
+            "team_b": "Quách Vĩ Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794384190643_Screenshot%202026-11-11%20150300.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794384235626_Screenshot%202026-11-11%20150343.png",
+            "time": "19:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794398400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebea2b2842_5761cd84_20261111.png?v=5761cd84",
             "width": 1600,
             "height": 1200
           }
@@ -961,79 +961,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-307bf28dd2_71b185b5_20261111.png?v=71b185b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ebea2b2842",
-          "name": "Jonas Magpantay vs Quách Vĩ Nam | 19:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ebea2b2842",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ebea2b2842",
-                  "name": "Jonas Magpantay vs Quách Vĩ Nam",
-                  "streams": [
-                    {
-                      "id": "st-ebea2b2842",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebea2b2842",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10101/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Jonas Magpantay",
-            "team_b": "Quách Vĩ Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794384190643_Screenshot%202026-11-11%20150300.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794384235626_Screenshot%202026-11-11%20150343.png",
-            "time": "19:00:00",
-            "date": "11/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794398400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebea2b2842_5761cd84_20261111.png?v=5761cd84",
             "width": 1600,
             "height": 1200
           }
