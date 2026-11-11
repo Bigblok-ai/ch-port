@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-6e1a3117f0",
-          "name": "Panday vs Ramiro | GIÀNG A PHỌ",
+          "id": "chtv-03e9674a47",
+          "name": "Lee van Corteza vs Jeffrey Ignacio | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -101,79 +101,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e1a3117f0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6e1a3117f0",
-                  "name": "Panday vs Ramiro",
-                  "streams": [
-                    {
-                      "id": "st-6e1a3117f0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6e1a3117f0",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10108/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Panday",
-            "team_b": "Ramiro",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794405815680_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794405815808_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "21:02:00",
-            "date": "11/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794405720,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6e1a3117f0_cc0d4975_20261111.png?v=cc0d4975",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-03e9674a47",
-          "name": "Lee van Corteza vs Jeffrey Ignacio | 20:50 11/11 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -222,7 +149,7 @@
             "time": "20:50:00",
             "date": "11/11",
             "blv": "Đại Kê",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794405000,
             "cate_type": "billiards"
           },
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03e9674a47_9af069ae_20261111.png?v=9af069ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6e1a3117f0",
+          "name": "Panday vs Ramiro  5/7/10 | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e1a3117f0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6e1a3117f0",
+                  "name": "Panday vs Ramiro  5/7/10",
+                  "streams": [
+                    {
+                      "id": "st-6e1a3117f0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e1a3117f0",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10108/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Panday",
+            "team_b": "Ramiro  5/7/10",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794405815680_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794405815808_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "21:02:00",
+            "date": "11/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1794405720,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6e1a3117f0_cc0d4975_20261111.png?v=cc0d4975",
             "width": 1600,
             "height": 1200
           }
