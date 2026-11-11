@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-6fdc6bfd64",
-          "name": "Michael Baoanan vs Ye Jyun Hong | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6fdc6bfd64",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6fdc6bfd64",
-                  "name": "Michael Baoanan vs Ye Jyun Hong",
-                  "streams": [
-                    {
-                      "id": "st-6fdc6bfd64",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6fdc6bfd64",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10091/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Michael Baoanan",
-            "team_b": "Ye Jyun Hong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794375950651_Screenshot%202026-11-11%20124541.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794375968845_%C4%90%C3%A0i%20Loan.png",
-            "time": "15:00:00",
-            "date": "11/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794384000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6fdc6bfd64_062d094f_20261111.png?v=062d094f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-8cb97e911b",
           "name": "Jeffrey Ignacio vs Aljulanda Alshiyadi | Bỉm Sữa",
@@ -236,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-0ff5523eed",
-          "name": "Tất Duy Kiên vs Christopher Alexander | 15:00 11/11",
+          "id": "chtv-b94f978828",
+          "name": "Lo Ho Sum vs Tống Bá Minh | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-0ff5523eed",
+              "id": "src-b94f978828",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0ff5523eed",
-                  "name": "Tất Duy Kiên vs Christopher Alexander",
+                  "id": "ct-b94f978828",
+                  "name": "Lo Ho Sum vs Tống Bá Minh",
                   "streams": [
                     {
-                      "id": "st-0ff5523eed",
+                      "id": "st-b94f978828",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0ff5523eed",
-                          "name": "Stream",
+                          "id": "lnk-b94f978828",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10089/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10098/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,14 +215,14 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Tất Duy Kiên",
-            "team_b": "Christopher Alexander",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794375794568_Screenshot%202026-11-11%20124239.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794375794232_Screenshot%202026-11-11%20124308.png",
+            "team_a": "Lo Ho Sum",
+            "team_b": "Tống Bá Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794384024185_H%E1%BB%93ng%20K%C3%B4ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794384024362_Vi%E1%BB%87t%20Nam.png",
             "time": "15:00:00",
             "date": "11/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
             "time_sort": 1794384000,
             "cate_type": "billiards"
           },
@@ -303,44 +230,44 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0ff5523eed_296d716d_20261111.png?v=296d716d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b94f978828_dc9aa200_20261111.png?v=dc9aa200",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-74ea089915",
-          "name": "Alexis Ferrer vs Trần Văn Ngọc | 15:00 11/11",
+          "id": "chtv-6fdc6bfd64",
+          "name": "Michael Baoanan vs Ye Jyun Hong | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-74ea089915",
+              "id": "src-6fdc6bfd64",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-74ea089915",
-                  "name": "Alexis Ferrer vs Trần Văn Ngọc",
+                  "id": "ct-6fdc6bfd64",
+                  "name": "Michael Baoanan vs Ye Jyun Hong",
                   "streams": [
                     {
-                      "id": "st-74ea089915",
+                      "id": "st-6fdc6bfd64",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-74ea089915",
-                          "name": "Stream",
+                          "id": "lnk-6fdc6bfd64",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10087/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10091/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,14 +288,14 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Alexis Ferrer",
-            "team_b": "Trần Văn Ngọc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794375670189_Screenshot%202026-11-11%20124058.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794375689430_Screenshot%202026-11-11%20124125.png",
+            "team_a": "Michael Baoanan",
+            "team_b": "Ye Jyun Hong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794375950651_Screenshot%202026-11-11%20124541.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794375968845_%C4%90%C3%A0i%20Loan.png",
             "time": "15:00:00",
             "date": "11/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Lee Min Hoo",
+            "is_live": true,
             "time_sort": 1794384000,
             "cate_type": "billiards"
           },
@@ -376,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-74ea089915_50e11814_20261111.png?v=50e11814",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6fdc6bfd64_062d094f_20261111.png?v=062d094f",
             "width": 1600,
             "height": 1200
           }
@@ -455,8 +382,8 @@
           }
         },
         {
-          "id": "chtv-b94f978828",
-          "name": "Lo Ho Sum vs Tống Bá Minh | 15:00 11/11 | SÊ KÔÔ",
+          "id": "chtv-74ea089915",
+          "name": "Alexis Ferrer vs Trần Văn Ngọc | 15:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +397,23 @@
           ],
           "sources": [
             {
-              "id": "src-b94f978828",
+              "id": "src-74ea089915",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b94f978828",
-                  "name": "Lo Ho Sum vs Tống Bá Minh",
+                  "id": "ct-74ea089915",
+                  "name": "Alexis Ferrer vs Trần Văn Ngọc",
                   "streams": [
                     {
-                      "id": "st-b94f978828",
+                      "id": "st-74ea089915",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b94f978828",
-                          "name": "SÊ KÔÔ",
+                          "id": "lnk-74ea089915",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10098/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10087/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,13 +434,13 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Lo Ho Sum",
-            "team_b": "Tống Bá Minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794384024185_H%E1%BB%93ng%20K%C3%B4ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794384024362_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Alexis Ferrer",
+            "team_b": "Trần Văn Ngọc",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794375670189_Screenshot%202026-11-11%20124058.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794375689430_Screenshot%202026-11-11%20124125.png",
             "time": "15:00:00",
             "date": "11/11",
-            "blv": "SÊ KÔÔ",
+            "blv": "",
             "is_live": false,
             "time_sort": 1794384000,
             "cate_type": "billiards"
@@ -522,14 +449,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b94f978828_dc9aa200_20261111.png?v=dc9aa200",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-74ea089915_50e11814_20261111.png?v=50e11814",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-62cdba0b83",
-          "name": "Trịnh Văn Bình vs Tuan Kiat Vincent Goh | 17:00 11/11",
+          "id": "chtv-0ff5523eed",
+          "name": "Tất Duy Kiên vs Christopher Alexander | 15:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -543,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-62cdba0b83",
+              "id": "src-0ff5523eed",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-62cdba0b83",
-                  "name": "Trịnh Văn Bình vs Tuan Kiat Vincent Goh",
+                  "id": "ct-0ff5523eed",
+                  "name": "Tất Duy Kiên vs Christopher Alexander",
                   "streams": [
                     {
-                      "id": "st-62cdba0b83",
+                      "id": "st-0ff5523eed",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-62cdba0b83",
+                          "id": "lnk-0ff5523eed",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10093/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10089/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -579,96 +506,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Trịnh Văn Bình",
-            "team_b": "Tuan Kiat Vincent Goh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794381344328_Screenshot%202026-11-11%20141533.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794381234090_Screenshot%202026-11-11%20141346.png",
-            "time": "17:00:00",
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
+            "team_a": "Tất Duy Kiên",
+            "team_b": "Christopher Alexander",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794375794568_Screenshot%202026-11-11%20124239.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794375794232_Screenshot%202026-11-11%20124308.png",
+            "time": "15:00:00",
             "date": "11/11",
             "blv": "",
             "is_live": false,
-            "time_sort": 1794391200,
+            "time_sort": 1794384000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-62cdba0b83_7e5b304a_20261111.png?v=7e5b304a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fb1d700e96",
-          "name": "Aivhan Maluto vs David Keith Dennison | 17:00 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fb1d700e96",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fb1d700e96",
-                  "name": "Aivhan Maluto vs David Keith Dennison",
-                  "streams": [
-                    {
-                      "id": "st-fb1d700e96",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb1d700e96",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10094/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Aivhan Maluto",
-            "team_b": "David Keith Dennison",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794381327611_Screenshot%202026-11-11%20141513.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794381424673_Screenshot%202026-11-11%20141656.png",
-            "time": "17:00:00",
-            "date": "11/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794391200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fb1d700e96_5adb50fc_20261111.png?v=5adb50fc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0ff5523eed_296d716d_20261111.png?v=296d716d",
             "width": 1600,
             "height": 1200
           }
@@ -742,6 +596,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d597d486e8_ad7a5305_20261111.png?v=ad7a5305",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-151cedb58c",
+          "name": "Chen Chen Wei vs Jefry Zen | 17:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-151cedb58c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-151cedb58c",
+                  "name": "Chen Chen Wei vs Jefry Zen",
+                  "streams": [
+                    {
+                      "id": "st-151cedb58c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-151cedb58c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10097/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "Chen Chen Wei",
+            "team_b": "Jefry Zen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794381823238_Screenshot%202026-11-11%20142334.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794381861723_Screenshot%202026-11-11%20142413.png",
+            "time": "17:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794391200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-151cedb58c_d6ec47db_20261111.png?v=d6ec47db",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fb1d700e96",
+          "name": "Aivhan Maluto vs David Keith Dennison | 17:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb1d700e96",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fb1d700e96",
+                  "name": "Aivhan Maluto vs David Keith Dennison",
+                  "streams": [
+                    {
+                      "id": "st-fb1d700e96",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb1d700e96",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10094/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "Aivhan Maluto",
+            "team_b": "David Keith Dennison",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794381327611_Screenshot%202026-11-11%20141513.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794381424673_Screenshot%202026-11-11%20141656.png",
+            "time": "17:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794391200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fb1d700e96_5adb50fc_20261111.png?v=5adb50fc",
             "width": 1600,
             "height": 1200
           }
@@ -893,8 +893,8 @@
           }
         },
         {
-          "id": "chtv-151cedb58c",
-          "name": "Chen Chen Wei vs Jefry Zen | 17:00 11/11",
+          "id": "chtv-62cdba0b83",
+          "name": "Trịnh Văn Bình vs Tuan Kiat Vincent Goh | 17:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -908,23 +908,23 @@
           ],
           "sources": [
             {
-              "id": "src-151cedb58c",
+              "id": "src-62cdba0b83",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-151cedb58c",
-                  "name": "Chen Chen Wei vs Jefry Zen",
+                  "id": "ct-62cdba0b83",
+                  "name": "Trịnh Văn Bình vs Tuan Kiat Vincent Goh",
                   "streams": [
                     {
-                      "id": "st-151cedb58c",
+                      "id": "st-62cdba0b83",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-151cedb58c",
+                          "id": "lnk-62cdba0b83",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10097/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10093/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -945,10 +945,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Chen Chen Wei",
-            "team_b": "Jefry Zen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794381823238_Screenshot%202026-11-11%20142334.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794381861723_Screenshot%202026-11-11%20142413.png",
+            "team_a": "Trịnh Văn Bình",
+            "team_b": "Tuan Kiat Vincent Goh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794381344328_Screenshot%202026-11-11%20141533.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794381234090_Screenshot%202026-11-11%20141346.png",
             "time": "17:00:00",
             "date": "11/11",
             "blv": "",
@@ -960,7 +960,226 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-151cedb58c_d6ec47db_20261111.png?v=d6ec47db",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-62cdba0b83_7e5b304a_20261111.png?v=7e5b304a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-06adc6c529",
+          "name": "Nguyễn Công Thành vs Zhuang Zhi Yu | 19:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06adc6c529",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-06adc6c529",
+                  "name": "Nguyễn Công Thành vs Zhuang Zhi Yu",
+                  "streams": [
+                    {
+                      "id": "st-06adc6c529",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-06adc6c529",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10100/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Nguyễn Công Thành",
+            "team_b": "Zhuang Zhi Yu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794384112998_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794384127577_Screenshot%202026-11-11%20150046.png",
+            "time": "19:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794398400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-06adc6c529_43ea5bd4_20261111.png?v=43ea5bd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ebea2b2842",
+          "name": "Jonas Magpantay vs Quách Vĩ Nam | 19:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ebea2b2842",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ebea2b2842",
+                  "name": "Jonas Magpantay vs Quách Vĩ Nam",
+                  "streams": [
+                    {
+                      "id": "st-ebea2b2842",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebea2b2842",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10101/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Jonas Magpantay",
+            "team_b": "Quách Vĩ Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794384190643_Screenshot%202026-11-11%20150300.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794384235626_Screenshot%202026-11-11%20150343.png",
+            "time": "19:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794398400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebea2b2842_5761cd84_20261111.png?v=5761cd84",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-307bf28dd2",
+          "name": "Dương Quốc Hoàng vs Chiang Po Hsun | 19:00 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-307bf28dd2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-307bf28dd2",
+                  "name": "Dương Quốc Hoàng vs Chiang Po Hsun",
+                  "streams": [
+                    {
+                      "id": "st-307bf28dd2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-307bf28dd2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10099/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Chiang Po Hsun",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794383992233_Screenshot%202026-11-11%20145945.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794384055103_Screenshot%202026-11-11%20150046.png",
+            "time": "19:00:00",
+            "date": "11/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794398400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-307bf28dd2_71b185b5_20261111.png?v=71b185b5",
             "width": 1600,
             "height": 1200
           }
