@@ -11,11 +11,230 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-5431492bf2",
+          "name": "Lo Ho Sum vs Marcel Price | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5431492bf2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5431492bf2",
+                  "name": "Lo Ho Sum vs Marcel Price",
+                  "streams": [
+                    {
+                      "id": "st-5431492bf2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5431492bf2",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10135/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
+            "team_a": "Lo Ho Sum",
+            "team_b": "Marcel Price",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794463433314_Screenshot%202026-11-12%20130334.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794463453131_Screenshot%202026-11-12%20130410.png",
+            "time": "15:00:00",
+            "date": "12/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1794470400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5431492bf2_2356e524_20261112.png?v=2356e524",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1077d050dd",
+          "name": "Carlo Biado vs Trịnh Văn Bình | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1077d050dd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1077d050dd",
+                  "name": "Carlo Biado vs Trịnh Văn Bình",
+                  "streams": [
+                    {
+                      "id": "st-1077d050dd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1077d050dd",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10136/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
+            "team_a": "Carlo Biado",
+            "team_b": "Trịnh Văn Bình",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794463642617_Screenshot%202026-11-12%20130707.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794463643035_Screenshot%202026-11-12%20130719.png",
+            "time": "15:00:00",
+            "date": "12/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794470400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1077d050dd_63e08244_20261112.png?v=63e08244",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7e0d03ef0d",
+          "name": "Phạm Phương Nam vs Andri Januarta",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e0d03ef0d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7e0d03ef0d",
+                  "name": "Phạm Phương Nam vs Andri Januarta",
+                  "streams": [
+                    {
+                      "id": "st-7e0d03ef0d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7e0d03ef0d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10134/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
+            "team_a": "Phạm Phương Nam",
+            "team_b": "Andri Januarta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794463377214_Screenshot%202026-11-12%20130241.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794463377048_Screenshot%202026-11-12%20130253.png",
+            "time": "15:00:00",
+            "date": "12/11",
+            "blv": "",
+            "is_live": true,
+            "time_sort": 1794470400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7e0d03ef0d_592380b9_20261112.png?v=592380b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-a7bb962bbb",
           "name": "Aivhan Maluto vs Chang Sheng Yi | SÊ KÔÔ",
@@ -158,225 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-299768b333_622861c1_20261112.png?v=622861c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5431492bf2",
-          "name": "Lo Ho Sum vs Marcel Price | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5431492bf2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5431492bf2",
-                  "name": "Lo Ho Sum vs Marcel Price",
-                  "streams": [
-                    {
-                      "id": "st-5431492bf2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5431492bf2",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10135/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Lo Ho Sum",
-            "team_b": "Marcel Price",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794463433314_Screenshot%202026-11-12%20130334.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794463453131_Screenshot%202026-11-12%20130410.png",
-            "time": "15:00:00",
-            "date": "12/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794470400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5431492bf2_2356e524_20261112.png?v=2356e524",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7e0d03ef0d",
-          "name": "Phạm Phương Nam vs Andri Januarta",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e0d03ef0d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7e0d03ef0d",
-                  "name": "Phạm Phương Nam vs Andri Januarta",
-                  "streams": [
-                    {
-                      "id": "st-7e0d03ef0d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e0d03ef0d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10134/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Phạm Phương Nam",
-            "team_b": "Andri Januarta",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794463377214_Screenshot%202026-11-12%20130241.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794463377048_Screenshot%202026-11-12%20130253.png",
-            "time": "15:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": true,
-            "time_sort": 1794470400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7e0d03ef0d_592380b9_20261112.png?v=592380b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1077d050dd",
-          "name": "Carlo Biado vs Trịnh Văn Bình | 15:00 12/11 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1077d050dd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1077d050dd",
-                  "name": "Carlo Biado vs Trịnh Văn Bình",
-                  "streams": [
-                    {
-                      "id": "st-1077d050dd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1077d050dd",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10136/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Carlo Biado",
-            "team_b": "Trịnh Văn Bình",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794463642617_Screenshot%202026-11-12%20130707.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794463643035_Screenshot%202026-11-12%20130719.png",
-            "time": "15:00:00",
-            "date": "12/11",
-            "blv": "Lee Min Hoo",
-            "is_live": false,
-            "time_sort": 1794470400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1077d050dd_63e08244_20261112.png?v=63e08244",
             "width": 1600,
             "height": 1200
           }
