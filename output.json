@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-7e0d03ef0d",
-          "name": "Phạm Phương Nam vs Andri Januarta",
+          "id": "chtv-8c0f9a30a3",
+          "name": "Michael Feliciano vs Hoàng Thái Duy | 17:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-7e0d03ef0d",
+              "id": "src-8c0f9a30a3",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7e0d03ef0d",
-                  "name": "Phạm Phương Nam vs Andri Januarta",
+                  "id": "ct-8c0f9a30a3",
+                  "name": "Michael Feliciano vs Hoàng Thái Duy",
                   "streams": [
                     {
-                      "id": "st-7e0d03ef0d",
+                      "id": "st-8c0f9a30a3",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7e0d03ef0d",
+                          "id": "lnk-8c0f9a30a3",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10134/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10149/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Phạm Phương Nam",
-            "team_b": "Andri Januarta",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794463377214_Screenshot%202026-11-12%20130241.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794463377048_Screenshot%202026-11-12%20130253.png",
-            "time": "15:00:00",
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "Michael Feliciano",
+            "team_b": "Hoàng Thái Duy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794464893416_Screenshot%202026-11-12%20132800.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794464893079_Screenshot%202026-11-12%20132809.png",
+            "time": "17:00:00",
             "date": "12/11",
             "blv": "",
-            "is_live": true,
-            "time_sort": 1794470400,
+            "is_live": false,
+            "time_sort": 1794477600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7e0d03ef0d_592380b9_20261112.png?v=592380b9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c0f9a30a3_0fb85bad_20261112.png?v=0fb85bad",
             "width": 1600,
             "height": 1200
           }
@@ -742,79 +742,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2719d7efb6_9b0d0fc2_20261112.png?v=9b0d0fc2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8c0f9a30a3",
-          "name": "Michael Feliciano vs Hoàng Thái Duy | 17:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c0f9a30a3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c0f9a30a3",
-                  "name": "Michael Feliciano vs Hoàng Thái Duy",
-                  "streams": [
-                    {
-                      "id": "st-8c0f9a30a3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c0f9a30a3",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10149/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Michael Feliciano",
-            "team_b": "Hoàng Thái Duy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794464893416_Screenshot%202026-11-12%20132800.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794464893079_Screenshot%202026-11-12%20132809.png",
-            "time": "17:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794477600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c0f9a30a3_0fb85bad_20261112.png?v=0fb85bad",
             "width": 1600,
             "height": 1200
           }
