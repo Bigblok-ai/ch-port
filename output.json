@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-03e9674a47",
-          "name": "Lee van Corteza vs Jeffrey Ignacio | Đại Kê",
+          "id": "chtv-e20c343ece",
+          "name": "Marvin Asis vs Bora Duru | 11:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-03e9674a47",
+              "id": "src-e20c343ece",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-03e9674a47",
-                  "name": "Lee van Corteza vs Jeffrey Ignacio",
+                  "id": "ct-e20c343ece",
+                  "name": "Marvin Asis vs Bora Duru",
                   "streams": [
                     {
-                      "id": "st-03e9674a47",
+                      "id": "st-e20c343ece",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-03e9674a47",
-                          "name": "Đại Kê",
+                          "id": "lnk-e20c343ece",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10107/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10113/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,96 @@
             }
           ],
           "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Lee van Corteza",
-            "team_b": "Jeffrey Ignacio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794404975306_Screenshot%202026-11-08%20184325.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794405010790_Screenshot%202026-11-11%20204958.png",
-            "time": "20:50:00",
-            "date": "11/11",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1794405000,
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲  11:00",
+            "team_a": "Marvin Asis",
+            "team_b": "Bora Duru",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765797008355_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1778354747814_t%E1%BA%A3i%20xu%E1%BB%91ng%20(5).png",
+            "time": "11:00:00",
+            "date": "12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794456000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03e9674a47_9af069ae_20261112.png?v=9af069ae",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e20c343ece_f0950f6a_20261112.png?v=f0950f6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-287bf3ee2c",
+          "name": "Damian John Massey vs Vũ Văn Minh | 11:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-287bf3ee2c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-287bf3ee2c",
+                  "name": "Damian John Massey vs Vũ Văn Minh",
+                  "streams": [
+                    {
+                      "id": "st-287bf3ee2c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-287bf3ee2c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10114/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 11:00",
+            "team_a": "Damian John Massey",
+            "team_b": "Vũ Văn Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1774584722388_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00:00",
+            "date": "12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794456000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-287bf3ee2c_0f059d98_20261112.png?v=0f059d98",
             "width": 1600,
             "height": 1200
           }
