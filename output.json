@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-de44777440_df742cc6_20261112.png?v=df742cc6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bfa9aa623d",
+          "name": "Aloysius Yapp vs Nien Rong Chih | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bfa9aa623d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bfa9aa623d",
+                  "name": "Aloysius Yapp vs Nien Rong Chih",
+                  "streams": [
+                    {
+                      "id": "st-bfa9aa623d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bfa9aa623d",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10122/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Nien Rong Chih",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794458396015_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764238429121_Hui%20Jen%20Lin.png",
+            "time": "13:00:00",
+            "date": "12/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1794463200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfa9aa623d_40555241_20261112.png?v=40555241",
             "width": 1600,
             "height": 1200
           }
@@ -164,16 +237,16 @@
         },
         {
           "id": "chtv-4771d858f7",
-          "name": "Lường Đức Thiện vs Chang Yi Wei | 13:00 12/11 | SÊ KÔÔ",
+          "name": "Lường Đức Thiện vs Chang Yi Wei | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +295,7 @@
             "time": "13:00:00",
             "date": "12/11",
             "blv": "SÊ KÔÔ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794463200,
             "cate_type": "billiards"
           },
@@ -231,225 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4771d858f7_809235b9_20261112.png?v=809235b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-74a7d627c9",
-          "name": "Oliver Szolnoki vs Chu Việt Hoàng | 13:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74a7d627c9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-74a7d627c9",
-                  "name": "Oliver Szolnoki vs Chu Việt Hoàng",
-                  "streams": [
-                    {
-                      "id": "st-74a7d627c9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74a7d627c9",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10125/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Chu Việt Hoàng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794459107521_Oliver%20Szolnoki.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794459095985_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "time": "13:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794463200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-74a7d627c9_1fd0bc61_20261112.png?v=1fd0bc61",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b6edfd670d",
-          "name": "Alexis Ferrer vs John Vincent Vicedo | 13:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b6edfd670d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b6edfd670d",
-                  "name": "Alexis Ferrer vs John Vincent Vicedo",
-                  "streams": [
-                    {
-                      "id": "st-b6edfd670d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6edfd670d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10130/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Alexis Ferrer",
-            "team_b": "John Vincent Vicedo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794459351215_ALEXIS%20FERRER.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794459369979_John%20Vincent%20Vicedo.jpg",
-            "time": "13:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794463200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b6edfd670d_6b1e3578_20261112.png?v=6b1e3578",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f40c2ecf81",
-          "name": "Jaycee Garcia vs Aljulanda Alshiyadi | 13:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f40c2ecf81",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f40c2ecf81",
-                  "name": "Jaycee Garcia vs Aljulanda Alshiyadi",
-                  "streams": [
-                    {
-                      "id": "st-f40c2ecf81",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f40c2ecf81",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10131/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Jaycee Garcia",
-            "team_b": "Aljulanda Alshiyadi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794459482124_Jaycee%20Garcia.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764959382521_was.jpg",
-            "time": "13:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794463200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f40c2ecf81_09932247_20261112.png?v=09932247",
             "width": 1600,
             "height": 1200
           }
@@ -747,8 +601,8 @@
           }
         },
         {
-          "id": "chtv-bfa9aa623d",
-          "name": "Aloysius Yapp vs Nien Rong Chih | 13:00 12/11",
+          "id": "chtv-74a7d627c9",
+          "name": "Oliver Szolnoki vs Chu Việt Hoàng | 13:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -762,23 +616,23 @@
           ],
           "sources": [
             {
-              "id": "src-bfa9aa623d",
+              "id": "src-74a7d627c9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bfa9aa623d",
-                  "name": "Aloysius Yapp vs Nien Rong Chih",
+                  "id": "ct-74a7d627c9",
+                  "name": "Oliver Szolnoki vs Chu Việt Hoàng",
                   "streams": [
                     {
-                      "id": "st-bfa9aa623d",
+                      "id": "st-74a7d627c9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bfa9aa623d",
+                          "id": "lnk-74a7d627c9",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10122/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10125/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -799,10 +653,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Nien Rong Chih",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794458396015_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764238429121_Hui%20Jen%20Lin.png",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Chu Việt Hoàng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794459107521_Oliver%20Szolnoki.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794459095985_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
             "time": "13:00:00",
             "date": "12/11",
             "blv": "",
@@ -814,7 +668,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfa9aa623d_40555241_20261112.png?v=40555241",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-74a7d627c9_1fd0bc61_20261112.png?v=1fd0bc61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b6edfd670d",
+          "name": "Alexis Ferrer vs John Vincent Vicedo | 13:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6edfd670d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b6edfd670d",
+                  "name": "Alexis Ferrer vs John Vincent Vicedo",
+                  "streams": [
+                    {
+                      "id": "st-b6edfd670d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b6edfd670d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10130/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
+            "team_a": "Alexis Ferrer",
+            "team_b": "John Vincent Vicedo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794459351215_ALEXIS%20FERRER.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794459369979_John%20Vincent%20Vicedo.jpg",
+            "time": "13:00:00",
+            "date": "12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794463200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b6edfd670d_6b1e3578_20261112.png?v=6b1e3578",
             "width": 1600,
             "height": 1200
           }
@@ -888,6 +815,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ab594e6834_0fe7be92_20261112.png?v=0fe7be92",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f40c2ecf81",
+          "name": "Jaycee Garcia vs Aljulanda Alshiyadi | 13:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f40c2ecf81",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f40c2ecf81",
+                  "name": "Jaycee Garcia vs Aljulanda Alshiyadi",
+                  "streams": [
+                    {
+                      "id": "st-f40c2ecf81",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f40c2ecf81",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10131/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
+            "team_a": "Jaycee Garcia",
+            "team_b": "Aljulanda Alshiyadi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794459482124_Jaycee%20Garcia.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764959382521_was.jpg",
+            "time": "13:00:00",
+            "date": "12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794463200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f40c2ecf81_09932247_20261112.png?v=09932247",
             "width": 1600,
             "height": 1200
           }
