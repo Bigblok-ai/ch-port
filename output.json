@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-de44777440_df742cc6_20261112.png?v=df742cc6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-15408308d8",
+          "name": "Mickey Krause vs Jerson Cumayas | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15408308d8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-15408308d8",
+                  "name": "Mickey Krause vs Jerson Cumayas",
+                  "streams": [
+                    {
+                      "id": "st-15408308d8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15408308d8",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10127/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
+            "team_a": "Mickey Krause",
+            "team_b": "Jerson Cumayas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794459203875_Mickey%20Krause.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794459201232_JERSON%20CUMAYAS.png",
+            "time": "13:00:00",
+            "date": "12/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1794463200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-15408308d8_c6ab366b_20261112.png?v=c6ab366b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4771d858f7",
+          "name": "Lường Đức Thiện vs Chang Yi Wei | 13:00 12/11 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4771d858f7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4771d858f7",
+                  "name": "Lường Đức Thiện vs Chang Yi Wei",
+                  "streams": [
+                    {
+                      "id": "st-4771d858f7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4771d858f7",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10126/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
+            "team_a": "Lường Đức Thiện",
+            "team_b": "Chang Yi Wei",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765129431957_thi%E1%BB%87n.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764307083501_Hui%20Jen%20Lin.png",
+            "time": "13:00:00",
+            "date": "12/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": false,
+            "time_sort": 1794463200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4771d858f7_809235b9_20261112.png?v=809235b9",
             "width": 1600,
             "height": 1200
           }
@@ -455,79 +601,6 @@
           }
         },
         {
-          "id": "chtv-4771d858f7",
-          "name": "Lường Đức Thiện vs Chang Yi Wei | 13:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4771d858f7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4771d858f7",
-                  "name": "Lường Đức Thiện vs Chang Yi Wei",
-                  "streams": [
-                    {
-                      "id": "st-4771d858f7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4771d858f7",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10126/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Lường Đức Thiện",
-            "team_b": "Chang Yi Wei",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765129431957_thi%E1%BB%87n.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764307083501_Hui%20Jen%20Lin.png",
-            "time": "13:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794463200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4771d858f7_809235b9_20261112.png?v=809235b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a9cb60faa7",
           "name": "Robbie Capito vs Liu Yun Cheng | 13:00 12/11",
           "type": "single",
@@ -815,79 +888,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ab594e6834_0fe7be92_20261112.png?v=0fe7be92",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-15408308d8",
-          "name": "Mickey Krause vs Jerson Cumayas | 13:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15408308d8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-15408308d8",
-                  "name": "Mickey Krause vs Jerson Cumayas",
-                  "streams": [
-                    {
-                      "id": "st-15408308d8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15408308d8",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10127/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Mickey Krause",
-            "team_b": "Jerson Cumayas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794459203875_Mickey%20Krause.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794459201232_JERSON%20CUMAYAS.png",
-            "time": "13:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794463200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-15408308d8_c6ab366b_20261112.png?v=c6ab366b",
             "width": 1600,
             "height": 1200
           }
