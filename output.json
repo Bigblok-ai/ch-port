@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-74a7d627c9_1fd0bc61_20261112.png?v=1fd0bc61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5431492bf2",
+          "name": "Lo Ho Sum vs Marcel Price | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5431492bf2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5431492bf2",
+                  "name": "Lo Ho Sum vs Marcel Price",
+                  "streams": [
+                    {
+                      "id": "st-5431492bf2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5431492bf2",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10135/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
+            "team_a": "Lo Ho Sum",
+            "team_b": "Marcel Price",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794463433314_Screenshot%202026-11-12%20130334.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794463453131_Screenshot%202026-11-12%20130410.png",
+            "time": "15:00:00",
+            "date": "12/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1794470400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5431492bf2_2356e524_20261112.png?v=2356e524",
             "width": 1600,
             "height": 1200
           }
@@ -382,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-5431492bf2",
-          "name": "Lo Ho Sum vs Marcel Price | 15:00 12/11 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5431492bf2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5431492bf2",
-                  "name": "Lo Ho Sum vs Marcel Price",
-                  "streams": [
-                    {
-                      "id": "st-5431492bf2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5431492bf2",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10135/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Lo Ho Sum",
-            "team_b": "Marcel Price",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794463433314_Screenshot%202026-11-12%20130334.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794463453131_Screenshot%202026-11-12%20130410.png",
-            "time": "15:00:00",
-            "date": "12/11",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "time_sort": 1794470400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5431492bf2_2356e524_20261112.png?v=2356e524",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ed33013e9b",
           "name": "Patric Gonzalez vs Nguyễn Công Hoàng | 15:00 12/11",
           "type": "single",
@@ -747,79 +747,6 @@
           }
         },
         {
-          "id": "chtv-2719d7efb6",
-          "name": "Jefrey Roda vs Genesis Quano | 17:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2719d7efb6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2719d7efb6",
-                  "name": "Jefrey Roda vs Genesis Quano",
-                  "streams": [
-                    {
-                      "id": "st-2719d7efb6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2719d7efb6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10146/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Jefrey Roda",
-            "team_b": "Genesis Quano",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794464651527_Screenshot%202026-11-12%20132358.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794464651228_Screenshot%202026-11-12%20132407.png",
-            "time": "17:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794477600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2719d7efb6_9b0d0fc2_20261112.png?v=9b0d0fc2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8c0f9a30a3",
           "name": "Michael Feliciano vs Hoàng Thái Duy | 17:00 12/11",
           "type": "single",
@@ -961,6 +888,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a32633be81_88de0492_20261112.png?v=88de0492",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-45bdad9403",
+          "name": "Marvin Asis vs Damian John Massey | 17:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45bdad9403",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-45bdad9403",
+                  "name": "Marvin Asis vs Damian John Massey",
+                  "streams": [
+                    {
+                      "id": "st-45bdad9403",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-45bdad9403",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10144/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "Marvin Asis",
+            "team_b": "Damian John Massey",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794464537729_Screenshot%202026-11-12%20132203.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794464537454_Screenshot%202026-11-12%20130410.png",
+            "time": "17:00:00",
+            "date": "12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794477600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-45bdad9403_06651d92_20261112.png?v=06651d92",
             "width": 1600,
             "height": 1200
           }
@@ -1112,79 +1112,6 @@
           }
         },
         {
-          "id": "chtv-45bdad9403",
-          "name": "Marvin Asis vs Damian John Massey | 17:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45bdad9403",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-45bdad9403",
-                  "name": "Marvin Asis vs Damian John Massey",
-                  "streams": [
-                    {
-                      "id": "st-45bdad9403",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45bdad9403",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10144/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Marvin Asis",
-            "team_b": "Damian John Massey",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794464537729_Screenshot%202026-11-12%20132203.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794464537454_Screenshot%202026-11-12%20130410.png",
-            "time": "17:00:00",
-            "date": "12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794477600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-45bdad9403_06651d92_20261112.png?v=06651d92",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a2cb3daf56",
           "name": "Chang Yu Lung vs Julian Serradilla | 17:00 12/11",
           "type": "single",
@@ -1253,6 +1180,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a2cb3daf56_5bc6163d_20261112.png?v=5bc6163d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2719d7efb6",
+          "name": "Jefrey Roda vs Genesis Quano | 17:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2719d7efb6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2719d7efb6",
+                  "name": "Jefrey Roda vs Genesis Quano",
+                  "streams": [
+                    {
+                      "id": "st-2719d7efb6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2719d7efb6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10146/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "Jefrey Roda",
+            "team_b": "Genesis Quano",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794464651527_Screenshot%202026-11-12%20132358.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794464651228_Screenshot%202026-11-12%20132407.png",
+            "time": "17:00:00",
+            "date": "12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794477600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2719d7efb6_9b0d0fc2_20261112.png?v=9b0d0fc2",
             "width": 1600,
             "height": 1200
           }
