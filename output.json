@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (6 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,152 +90,6 @@
           }
         },
         {
-          "id": "chtv-70702ffb4b",
-          "name": "Nguyễn Văn Dũng vs Nguyễn Phuc Long | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-70702ffb4b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-70702ffb4b",
-                  "name": "Nguyễn Văn Dũng vs Nguyễn Phuc Long",
-                  "streams": [
-                    {
-                      "id": "st-70702ffb4b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-70702ffb4b",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10186/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Nguyễn Văn Dũng",
-            "team_b": "Nguyễn Phuc Long",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "13:00:00",
-            "date": "13/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794549600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-70702ffb4b_88c2dbe7_20261113.png?v=88c2dbe7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ebaabefdfe",
-          "name": "Phạm Trần Thắng vs Nguyễn Hoàng Tuấn | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ebaabefdfe",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ebaabefdfe",
-                  "name": "Phạm Trần Thắng vs Nguyễn Hoàng Tuấn",
-                  "streams": [
-                    {
-                      "id": "st-ebaabefdfe",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebaabefdfe",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10188/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Phạm Trần Thắng",
-            "team_b": "Nguyễn Hoàng Tuấn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "13:00:00",
-            "date": "13/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794549600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebaabefdfe_8c9820c2_20261113.png?v=8c9820c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-aad14b9e8d",
           "name": "Bora Duru vs Vũ Văn Minh | SÊ KÔÔ",
           "type": "single",
@@ -309,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-4bcf8afb82",
-          "name": "Đỗ Thanh Mỹ vs Dennis Orcollo | Lee Min Hoo",
+          "id": "chtv-70702ffb4b",
+          "name": "Nguyễn Văn Dũng vs Nguyễn Phuc Long | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-4bcf8afb82",
+              "id": "src-70702ffb4b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4bcf8afb82",
-                  "name": "Đỗ Thanh Mỹ vs Dennis Orcollo",
+                  "id": "ct-70702ffb4b",
+                  "name": "Nguyễn Văn Dũng vs Nguyễn Phuc Long",
                   "streams": [
                     {
-                      "id": "st-4bcf8afb82",
+                      "id": "st-70702ffb4b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4bcf8afb82",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-70702ffb4b",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10189/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10186/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,13 +215,13 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Đỗ Thanh Mỹ",
-            "team_b": "Dennis Orcollo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765336331685_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765797008355_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Nguyễn Văn Dũng",
+            "team_b": "Nguyễn Phuc Long",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "13:00:00",
             "date": "13/11",
-            "blv": "Lee Min Hoo",
+            "blv": "Kèn Kèn",
             "is_live": true,
             "time_sort": 1794549600,
             "cate_type": "billiards"
@@ -376,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bcf8afb82_3ff15135_20261113.png?v=3ff15135",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-70702ffb4b_88c2dbe7_20261113.png?v=88c2dbe7",
             "width": 1600,
             "height": 1200
           }
