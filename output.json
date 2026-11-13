@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a9358fd01f",
-          "name": "jaybee vs janjan | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a9358fd01f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a9358fd01f",
-                  "name": "jaybee vs janjan",
-                  "streams": [
-                    {
-                      "id": "st-a9358fd01f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a9358fd01f",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10219/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "jaybee",
-            "team_b": "janjan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794577789870_Screenshot%202026-11-13%20204943.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794577801959_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "20:48:00",
-            "date": "13/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794577680,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a9358fd01f_102013fd_20261114.png?v=102013fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-235469c722",
           "name": "JERICO BANARES vs JEFFREY IGNACIO | Kèn Kèn",
