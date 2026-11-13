@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-9dcb48580b",
-          "name": "Nguyễn Văn Dũng vs Punguan Hasiholan Sihombing | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9dcb48580b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9dcb48580b",
-                  "name": "Nguyễn Văn Dũng vs Punguan Hasiholan Sihombing",
-                  "streams": [
-                    {
-                      "id": "st-9dcb48580b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9dcb48580b",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10211/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Nguyễn Văn Dũng",
-            "team_b": "Punguan Hasiholan Sihombing",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794561197548_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794561180481_Screenshot%202026-11-13%20161257.png",
-            "time": "19:00:00",
-            "date": "13/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794571200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9dcb48580b_29de6997_20261113.png?v=29de6997",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-e20b37f38e",
           "name": "Liu Chien Hung vs Oliver Szolnoki | Kèn Kèn",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-202c7884f6",
-          "name": "Nguyễn Hoàng Tuấn vs Hsieh Chia Chen | GIÀNG A PHỌ",
+          "id": "chtv-9dcb48580b",
+          "name": "Nguyễn Văn Dũng vs Punguan Hasiholan Sihombing | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-202c7884f6",
+              "id": "src-9dcb48580b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-202c7884f6",
-                  "name": "Nguyễn Hoàng Tuấn vs Hsieh Chia Chen",
+                  "id": "ct-9dcb48580b",
+                  "name": "Nguyễn Văn Dũng vs Punguan Hasiholan Sihombing",
                   "streams": [
                     {
-                      "id": "st-202c7884f6",
+                      "id": "st-9dcb48580b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-202c7884f6",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-9dcb48580b",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10213/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10211/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,13 +142,13 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Nguyễn Hoàng Tuấn",
-            "team_b": "Hsieh Chia Chen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794561360091_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794561385543_Screenshot%202026-11-13%20161619.png",
+            "team_a": "Nguyễn Văn Dũng",
+            "team_b": "Punguan Hasiholan Sihombing",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794561197548_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794561180481_Screenshot%202026-11-13%20161257.png",
             "time": "19:00:00",
             "date": "13/11",
-            "blv": "GIÀNG A PHỌ",
+            "blv": "Thập Cẩm",
             "is_live": true,
             "time_sort": 1794571200,
             "cate_type": "billiards"
@@ -230,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-202c7884f6_119e90df_20261113.png?v=119e90df",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9dcb48580b_29de6997_20261113.png?v=29de6997",
             "width": 1600,
             "height": 1200
           }
