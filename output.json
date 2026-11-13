@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-9dcb48580b",
-          "name": "Nguyễn Văn Dũng vs Punguan Hasiholan Sihombing | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9dcb48580b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9dcb48580b",
-                  "name": "Nguyễn Văn Dũng vs Punguan Hasiholan Sihombing",
-                  "streams": [
-                    {
-                      "id": "st-9dcb48580b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9dcb48580b",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10211/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Nguyễn Văn Dũng",
-            "team_b": "Punguan Hasiholan Sihombing",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794561197548_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794561180481_Screenshot%202026-11-13%20161257.png",
-            "time": "19:00:00",
-            "date": "13/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794571200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9dcb48580b_29de6997_20261113.png?v=29de6997",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-a9358fd01f",
           "name": "jaybee vs janjan | GIÀNG A PHỌ",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-33d4bebe6b_1628f3ac_20261113.png?v=1628f3ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fb5d33d5d2",
+          "name": "Ma rốc vs Niger | 03:00 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb5d33d5d2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fb5d33d5d2",
+                  "name": "Ma rốc vs Niger",
+                  "streams": [
+                    {
+                      "id": "st-fb5d33d5d2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb5d33d5d2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10218/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Ma rốc",
+            "team_b": "Niger",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794565267957_Screenshot%202026-11-13%20172104.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794565343479_Screenshot%202026-11-13%20172220.png",
+            "time": "03:00:00",
+            "date": "14/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794600000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fb5d33d5d2_59d8b2e5_20261113.png?v=59d8b2e5",
             "width": 1600,
             "height": 1200
           }
