@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-7df0709202",
+          "name": "Kristina Grim vs Felix Beagle | 21:03 13/11 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7df0709202",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7df0709202",
+                  "name": "Kristina Grim vs Felix Beagle",
+                  "streams": [
+                    {
+                      "id": "st-7df0709202",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7df0709202",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10220/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Kristina Grim",
+            "team_b": "Felix Beagle",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794578675493_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794578680184_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "21:03:00",
+            "date": "13/11",
+            "blv": "Kèn Kèn",
+            "is_live": false,
+            "time_sort": 1794578580,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7df0709202_7b18622b_20261113.png?v=7b18622b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-737231a548",
           "name": "Serbia vs Đức | 02:45 14/11",
           "type": "single",
