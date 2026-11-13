@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7df469f78a",
-          "name": "Hồ Sở Phát vs Nguyễn Văn Đãng | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7df469f78a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7df469f78a",
-                  "name": "Hồ Sở Phát vs Nguyễn Văn Đãng",
-                  "streams": [
-                    {
-                      "id": "st-7df469f78a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7df469f78a",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10182/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Hồ Sở Phát",
-            "team_b": "Nguyễn Văn Đãng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794542011722_H%E1%BB%93%20S%E1%BB%9F%20Ph%C3%A1t.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794542019412_%C4%90%C3%83NG%20BN.png",
-            "time": "13:00:00",
-            "date": "13/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794549600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7df469f78a_fbb03aa8_20261113.png?v=fbb03aa8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-70702ffb4b",
           "name": "Nguyễn Văn Dũng vs Nguyễn Phuc Long | Kèn Kèn",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aad14b9e8d_83d13ade_20261113.png?v=83d13ade",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-144e10c361",
+          "name": "Lương Văn Nam vs Kemnark Kittisak | 15:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-144e10c361",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-144e10c361",
+                  "name": "Lương Văn Nam vs Kemnark Kittisak",
+                  "streams": [
+                    {
+                      "id": "st-144e10c361",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-144e10c361",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10191/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
+            "team_a": "Lương Văn Nam",
+            "team_b": "Kemnark Kittisak",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794553325705_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794553368663_Screenshot%202026-11-13%20140244.png",
+            "time": "15:00:00",
+            "date": "13/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794556800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-144e10c361_1159d08e_20261113.png?v=1159d08e",
             "width": 1600,
             "height": 1200
           }
@@ -742,79 +742,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f6dd4ef1bd_d77cece0_20261113.png?v=d77cece0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-144e10c361",
-          "name": "Lương Văn Nam vs Kemnark Kittisak | 15:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-144e10c361",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-144e10c361",
-                  "name": "Lương Văn Nam vs Kemnark Kittisak",
-                  "streams": [
-                    {
-                      "id": "st-144e10c361",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-144e10c361",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10191/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Lương Văn Nam",
-            "team_b": "Kemnark Kittisak",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794553325705_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794553368663_Screenshot%202026-11-13%20140244.png",
-            "time": "15:00:00",
-            "date": "13/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794556800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-144e10c361_1159d08e_20261113.png?v=1159d08e",
             "width": 1600,
             "height": 1200
           }
