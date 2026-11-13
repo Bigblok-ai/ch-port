@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f6dd4ef1bd_d77cece0_20261113.png?v=d77cece0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8f6efa05cf",
-          "name": "Lương Chi Dũng vs Kenichi Uchigaki | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f6efa05cf",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8f6efa05cf",
-                  "name": "Lương Chi Dũng vs Kenichi Uchigaki",
-                  "streams": [
-                    {
-                      "id": "st-8f6efa05cf",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f6efa05cf",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10195/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Lương Chi Dũng",
-            "team_b": "Kenichi Uchigaki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794553729922_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794553782339_Screenshot%202026-11-13%20140924.png",
-            "time": "15:00:00",
-            "date": "13/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794556800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8f6efa05cf_0a2ab94e_20261113.png?v=0a2ab94e",
             "width": 1600,
             "height": 1200
           }
@@ -382,79 +309,6 @@
           }
         },
         {
-          "id": "chtv-e1a8faed82",
-          "name": "Chiang Po Hsun vs Alexis Ferrer | 17:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1a8faed82",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e1a8faed82",
-                  "name": "Chiang Po Hsun vs Alexis Ferrer",
-                  "streams": [
-                    {
-                      "id": "st-e1a8faed82",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1a8faed82",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10205/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Chiang Po Hsun",
-            "team_b": "Alexis Ferrer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794558355488_Screenshot%202026-11-13%20152547.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794558405600_Screenshot%202026-11-13%20152641.png",
-            "time": "17:00:00",
-            "date": "13/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794564000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e1a8faed82_949f9281_20261113.png?v=949f9281",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b1d393c6e5",
           "name": "Chang Chia Hua vs Nguyễn Mạnh Đức | 17:00 13/11",
           "type": "single",
@@ -528,8 +382,8 @@
           }
         },
         {
-          "id": "chtv-2a334a5dd9",
-          "name": "Quách Vĩ Nam vs Aljulanda Alshiyadi | 17:00 13/11",
+          "id": "chtv-e1a8faed82",
+          "name": "Chiang Po Hsun vs Alexis Ferrer | 17:00 13/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -543,23 +397,23 @@
           ],
           "sources": [
             {
-              "id": "src-2a334a5dd9",
+              "id": "src-e1a8faed82",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2a334a5dd9",
-                  "name": "Quách Vĩ Nam vs Aljulanda Alshiyadi",
+                  "id": "ct-e1a8faed82",
+                  "name": "Chiang Po Hsun vs Alexis Ferrer",
                   "streams": [
                     {
-                      "id": "st-2a334a5dd9",
+                      "id": "st-e1a8faed82",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2a334a5dd9",
+                          "id": "lnk-e1a8faed82",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10206/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10205/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -580,10 +434,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Quách Vĩ Nam",
-            "team_b": "Aljulanda Alshiyadi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794558530988_Screenshot%202026-11-13%20152845.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794558572224_Screenshot%202026-11-13%20152927.png",
+            "team_a": "Chiang Po Hsun",
+            "team_b": "Alexis Ferrer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794558355488_Screenshot%202026-11-13%20152547.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794558405600_Screenshot%202026-11-13%20152641.png",
             "time": "17:00:00",
             "date": "13/11",
             "blv": "",
@@ -595,7 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a334a5dd9_bb7b8419_20261113.png?v=bb7b8419",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e1a8faed82_949f9281_20261113.png?v=949f9281",
             "width": 1600,
             "height": 1200
           }
@@ -747,8 +601,8 @@
           }
         },
         {
-          "id": "chtv-53f56d3161",
-          "name": "Vũ Văn Minh vs Chang Yi Wei | 19:00 13/11",
+          "id": "chtv-2a334a5dd9",
+          "name": "Quách Vĩ Nam vs Aljulanda Alshiyadi | 17:00 13/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -762,23 +616,96 @@
           ],
           "sources": [
             {
-              "id": "src-53f56d3161",
+              "id": "src-2a334a5dd9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-53f56d3161",
-                  "name": "Vũ Văn Minh vs Chang Yi Wei",
+                  "id": "ct-2a334a5dd9",
+                  "name": "Quách Vĩ Nam vs Aljulanda Alshiyadi",
                   "streams": [
                     {
-                      "id": "st-53f56d3161",
+                      "id": "st-2a334a5dd9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-53f56d3161",
+                          "id": "lnk-2a334a5dd9",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10209/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10206/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "Quách Vĩ Nam",
+            "team_b": "Aljulanda Alshiyadi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794558530988_Screenshot%202026-11-13%20152845.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794558572224_Screenshot%202026-11-13%20152927.png",
+            "time": "17:00:00",
+            "date": "13/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794564000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a334a5dd9_bb7b8419_20261113.png?v=bb7b8419",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e20b37f38e",
+          "name": "Liu Chien Hung vs Oliver Szolnoki | 19:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e20b37f38e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e20b37f38e",
+                  "name": "Liu Chien Hung vs Oliver Szolnoki",
+                  "streams": [
+                    {
+                      "id": "st-e20b37f38e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e20b37f38e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10210/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -799,10 +726,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Vũ Văn Minh",
-            "team_b": "Chang Yi Wei",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794560960413_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794560977659_Screenshot%202026-11-11%20150046.png",
+            "team_a": "Liu Chien Hung",
+            "team_b": "Oliver Szolnoki",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794561033293_Screenshot%202026-11-13%20161030.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794561080229_Screenshot%202026-11-13%20161109.png",
             "time": "19:00:00",
             "date": "13/11",
             "blv": "",
@@ -814,7 +741,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-53f56d3161_c1a5fcc6_20261113.png?v=c1a5fcc6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e20b37f38e_68ecc035_20261113.png?v=68ecc035",
             "width": 1600,
             "height": 1200
           }
@@ -1112,8 +1039,8 @@
           }
         },
         {
-          "id": "chtv-e20b37f38e",
-          "name": "Liu Chien Hung vs Oliver Szolnoki | 19:00 13/11",
+          "id": "chtv-53f56d3161",
+          "name": "Vũ Văn Minh vs Chang Yi Wei | 19:00 13/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1127,23 +1054,23 @@
           ],
           "sources": [
             {
-              "id": "src-e20b37f38e",
+              "id": "src-53f56d3161",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e20b37f38e",
-                  "name": "Liu Chien Hung vs Oliver Szolnoki",
+                  "id": "ct-53f56d3161",
+                  "name": "Vũ Văn Minh vs Chang Yi Wei",
                   "streams": [
                     {
-                      "id": "st-e20b37f38e",
+                      "id": "st-53f56d3161",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e20b37f38e",
+                          "id": "lnk-53f56d3161",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10210/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10209/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1164,10 +1091,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Liu Chien Hung",
-            "team_b": "Oliver Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794561033293_Screenshot%202026-11-13%20161030.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794561080229_Screenshot%202026-11-13%20161109.png",
+            "team_a": "Vũ Văn Minh",
+            "team_b": "Chang Yi Wei",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794560960413_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794560977659_Screenshot%202026-11-11%20150046.png",
             "time": "19:00:00",
             "date": "13/11",
             "blv": "",
@@ -1179,7 +1106,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e20b37f38e_68ecc035_20261113.png?v=68ecc035",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-53f56d3161_c1a5fcc6_20261113.png?v=c1a5fcc6",
             "width": 1600,
             "height": 1200
           }
