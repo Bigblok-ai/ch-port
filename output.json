@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-81da56b33a",
-          "name": "Harry Vergara vs Jefrey Roda | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-81da56b33a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-81da56b33a",
-                  "name": "Harry Vergara vs Jefrey Roda",
-                  "streams": [
-                    {
-                      "id": "st-81da56b33a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-81da56b33a",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10192/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Harry Vergara",
-            "team_b": "Jefrey Roda",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794553437711_Screenshot%202026-11-13%20140353.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794553461416_Screenshot%202026-11-13%20140418.png",
-            "time": "15:00:00",
-            "date": "13/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794556800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-81da56b33a_79496e50_20261113.png?v=79496e50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-f6dd4ef1bd",
           "name": "Kouki Sugiyama vs Nguyễn Viết Tâm | SÊ KÔÔ",
@@ -236,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-f408c3c19a",
+          "name": "Ponco Klinton Manurung vs Aivhan Maluto | 17:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f408c3c19a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f408c3c19a",
+                  "name": "Ponco Klinton Manurung vs Aivhan Maluto",
+                  "streams": [
+                    {
+                      "id": "st-f408c3c19a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f408c3c19a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10201/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
+            "team_a": "Ponco Klinton Manurung",
+            "team_b": "Aivhan Maluto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794557921912_Screenshot%202026-11-13%20151838.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794557948385_Screenshot%202026-11-13%20151904.png",
+            "time": "17:00:00",
+            "date": "13/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794564000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f408c3c19a_317b6e18_20261113.png?v=317b6e18",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-621c928afa",
           "name": "Christopher Alexander vs Fraser Patrick | 17:00 13/11",
           "type": "single",
@@ -304,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-621c928afa_dfee897e_20261113.png?v=dfee897e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-583e69acb2",
-          "name": "Nguyễn Hoang Minh Tai vs Marcel Price | 17:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-583e69acb2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-583e69acb2",
-                  "name": "Nguyễn Hoang Minh Tai vs Marcel Price",
-                  "streams": [
-                    {
-                      "id": "st-583e69acb2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-583e69acb2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10203/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Nguyễn Hoang Minh Tai",
-            "team_b": "Marcel Price",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794558117975_Screenshot%202026-11-13%20152151.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794558152302_Screenshot%202026-11-13%20152226.png",
-            "time": "17:00:00",
-            "date": "13/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794564000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-583e69acb2_5e5f653a_20261113.png?v=5e5f653a",
             "width": 1600,
             "height": 1200
           }
@@ -747,8 +674,8 @@
           }
         },
         {
-          "id": "chtv-f408c3c19a",
-          "name": "Ponco Klinton Manurung vs Aivhan Maluto | 17:00 13/11",
+          "id": "chtv-583e69acb2",
+          "name": "Nguyễn Hoang Minh Tai vs Marcel Price | 17:00 13/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -762,23 +689,23 @@
           ],
           "sources": [
             {
-              "id": "src-f408c3c19a",
+              "id": "src-583e69acb2",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-f408c3c19a",
-                  "name": "Ponco Klinton Manurung vs Aivhan Maluto",
+                  "id": "ct-583e69acb2",
+                  "name": "Nguyễn Hoang Minh Tai vs Marcel Price",
                   "streams": [
                     {
-                      "id": "st-f408c3c19a",
+                      "id": "st-583e69acb2",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f408c3c19a",
+                          "id": "lnk-583e69acb2",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10201/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10203/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -799,10 +726,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 17:00",
-            "team_a": "Ponco Klinton Manurung",
-            "team_b": "Aivhan Maluto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794557921912_Screenshot%202026-11-13%20151838.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794557948385_Screenshot%202026-11-13%20151904.png",
+            "team_a": "Nguyễn Hoang Minh Tai",
+            "team_b": "Marcel Price",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794558117975_Screenshot%202026-11-13%20152151.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794558152302_Screenshot%202026-11-13%20152226.png",
             "time": "17:00:00",
             "date": "13/11",
             "blv": "",
@@ -814,7 +741,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f408c3c19a_317b6e18_20261113.png?v=317b6e18",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-583e69acb2_5e5f653a_20261113.png?v=5e5f653a",
             "width": 1600,
             "height": 1200
           }
