@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-0a27702594",
-          "name": "Lê Văn Quyền vs Chan Fai Hang | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a27702594",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0a27702594",
-                  "name": "Lê Văn Quyền vs Chan Fai Hang",
-                  "streams": [
-                    {
-                      "id": "st-0a27702594",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a27702594",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10180/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 11:00",
-            "team_a": "Lê Văn Quyền",
-            "team_b": "Chan Fai Hang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765337449015_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764845324869_wavedo.png",
-            "time": "11:00:00",
-            "date": "13/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1794542400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a27702594_3cc16f98_20261113.png?v=3cc16f98",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e8119da354",
           "name": "Chiang Po Hsun vs Nguyễn Công Thành | Lee Min Hoo",
           "type": "single",
@@ -236,79 +163,6 @@
           }
         },
         {
-          "id": "chtv-ccf3094a26",
-          "name": "Ye Jyun Hong vs Ponco Klinton Manurung | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccf3094a26",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ccf3094a26",
-                  "name": "Ye Jyun Hong vs Ponco Klinton Manurung",
-                  "streams": [
-                    {
-                      "id": "st-ccf3094a26",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ccf3094a26",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10176/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 11:00",
-            "team_a": "Ye Jyun Hong",
-            "team_b": "Ponco Klinton Manurung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764454665939_Hui%20Jen%20Lin.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "11:00:00",
-            "date": "13/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794542400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ccf3094a26_18c760d9_20261113.png?v=18c760d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7df469f78a",
           "name": "Hồ Sở Phát vs Nguyễn Văn Đãng | 13:00 13/11",
           "type": "single",
@@ -377,152 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7df469f78a_fbb03aa8_20261113.png?v=fbb03aa8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-aad14b9e8d",
-          "name": "Bora Duru vs Vũ Văn Minh | 13:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aad14b9e8d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-aad14b9e8d",
-                  "name": "Bora Duru vs Vũ Văn Minh",
-                  "streams": [
-                    {
-                      "id": "st-aad14b9e8d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aad14b9e8d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10184/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Bora Duru",
-            "team_b": "Vũ Văn Minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "13:00:00",
-            "date": "13/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794549600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aad14b9e8d_83d13ade_20261113.png?v=83d13ade",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4fe25c5c7a",
-          "name": "James Oyangoren vs Huynh Johnny | 13:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fe25c5c7a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4fe25c5c7a",
-                  "name": "James Oyangoren vs Huynh Johnny",
-                  "streams": [
-                    {
-                      "id": "st-4fe25c5c7a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fe25c5c7a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10183/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "James Oyangoren",
-            "team_b": "Huynh Johnny",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1772473656644_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "13:00:00",
-            "date": "13/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794549600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4fe25c5c7a_f11c9d35_20261113.png?v=f11c9d35",
             "width": 1600,
             "height": 1200
           }
@@ -669,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ebaabefdfe_8c9820c2_20261113.png?v=8c9820c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-aad14b9e8d",
+          "name": "Bora Duru vs Vũ Văn Minh | 13:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aad14b9e8d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-aad14b9e8d",
+                  "name": "Bora Duru vs Vũ Văn Minh",
+                  "streams": [
+                    {
+                      "id": "st-aad14b9e8d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aad14b9e8d",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10184/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
+            "team_a": "Bora Duru",
+            "team_b": "Vũ Văn Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765263322125_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "13:00:00",
+            "date": "13/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794549600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aad14b9e8d_83d13ade_20261113.png?v=83d13ade",
             "width": 1600,
             "height": 1200
           }
@@ -888,6 +669,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bcf8afb82_3ff15135_20261113.png?v=3ff15135",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4fe25c5c7a",
+          "name": "James Oyangoren vs Huynh Johnny | 13:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4fe25c5c7a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4fe25c5c7a",
+                  "name": "James Oyangoren vs Huynh Johnny",
+                  "streams": [
+                    {
+                      "id": "st-4fe25c5c7a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fe25c5c7a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10183/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
+            "team_a": "James Oyangoren",
+            "team_b": "Huynh Johnny",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1772473656644_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "time": "13:00:00",
+            "date": "13/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794549600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4fe25c5c7a_f11c9d35_20261113.png?v=f11c9d35",
             "width": 1600,
             "height": 1200
           }
