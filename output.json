@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-70702ffb4b",
-          "name": "Nguyễn Văn Dũng vs Nguyễn Phuc Long | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-70702ffb4b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-70702ffb4b",
-                  "name": "Nguyễn Văn Dũng vs Nguyễn Phuc Long",
-                  "streams": [
-                    {
-                      "id": "st-70702ffb4b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-70702ffb4b",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10186/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:00",
-            "team_a": "Nguyễn Văn Dũng",
-            "team_b": "Nguyễn Phuc Long",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "13:00:00",
-            "date": "13/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794549600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-70702ffb4b_88c2dbe7_20261113.png?v=88c2dbe7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-aad14b9e8d",
           "name": "Bora Duru vs Vũ Văn Minh | SÊ KÔÔ",
@@ -158,6 +85,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aad14b9e8d_83d13ade_20261113.png?v=83d13ade",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a033ea1923",
+          "name": "Wan Kwok Ho vs Michael Feliciano | 15:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a033ea1923",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a033ea1923",
+                  "name": "Wan Kwok Ho vs Michael Feliciano",
+                  "streams": [
+                    {
+                      "id": "st-a033ea1923",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a033ea1923",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10190/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
+            "team_a": "Wan Kwok Ho",
+            "team_b": "Michael Feliciano",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794553235399_Screenshot%202026-11-13%20140030.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794553265118_Screenshot%202026-11-13%20140101.png",
+            "time": "15:00:00",
+            "date": "13/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794556800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a033ea1923_39fa97e1_20261113.png?v=39fa97e1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f6dd4ef1bd",
+          "name": "Kouki Sugiyama vs Nguyễn Viết Tâm | 15:00 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f6dd4ef1bd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f6dd4ef1bd",
+                  "name": "Kouki Sugiyama vs Nguyễn Viết Tâm",
+                  "streams": [
+                    {
+                      "id": "st-f6dd4ef1bd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6dd4ef1bd",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10193/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
+            "team_a": "Kouki Sugiyama",
+            "team_b": "Nguyễn Viết Tâm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794553558398_Screenshot%202026-11-13%20140552.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794553576800_Screenshot%202026-10-15%20133326.png",
+            "time": "15:00:00",
+            "date": "13/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794556800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f6dd4ef1bd_d77cece0_20261113.png?v=d77cece0",
             "width": 1600,
             "height": 1200
           }
@@ -596,152 +669,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-54854ce513_9f904feb_20261113.png?v=9f904feb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a033ea1923",
-          "name": "Wan Kwok Ho vs Michael Feliciano | 15:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a033ea1923",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a033ea1923",
-                  "name": "Wan Kwok Ho vs Michael Feliciano",
-                  "streams": [
-                    {
-                      "id": "st-a033ea1923",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a033ea1923",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10190/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Wan Kwok Ho",
-            "team_b": "Michael Feliciano",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794553235399_Screenshot%202026-11-13%20140030.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794553265118_Screenshot%202026-11-13%20140101.png",
-            "time": "15:00:00",
-            "date": "13/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794556800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a033ea1923_39fa97e1_20261113.png?v=39fa97e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f6dd4ef1bd",
-          "name": "Kouki Sugiyama vs Nguyễn Viết Tâm | 15:00 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f6dd4ef1bd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f6dd4ef1bd",
-                  "name": "Kouki Sugiyama vs Nguyễn Viết Tâm",
-                  "streams": [
-                    {
-                      "id": "st-f6dd4ef1bd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6dd4ef1bd",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10193/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 15:00",
-            "team_a": "Kouki Sugiyama",
-            "team_b": "Nguyễn Viết Tâm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794553558398_Screenshot%202026-11-13%20140552.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794553576800_Screenshot%202026-10-15%20133326.png",
-            "time": "15:00:00",
-            "date": "13/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794556800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f6dd4ef1bd_d77cece0_20261113.png?v=d77cece0",
             "width": 1600,
             "height": 1200
           }
