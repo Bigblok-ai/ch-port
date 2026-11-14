@@ -11,11 +11,157 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-786fe259b8",
+          "name": "Aloysius Yapp vs Đinh Chấn Kiệt | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-786fe259b8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-786fe259b8",
+                  "name": "Aloysius Yapp vs Đinh Chấn Kiệt",
+                  "streams": [
+                    {
+                      "id": "st-786fe259b8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-786fe259b8",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10252/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Đinh Chấn Kiệt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794640187692_Screenshot%202026-11-14%20140941.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794640203295_Screenshot%202026-10-15%20133326.png",
+            "time": "16:00:00",
+            "date": "14/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1794646800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-786fe259b8_ecc2cb5d_20261114.png?v=ecc2cb5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-705ffcc4b6",
+          "name": "Nguyễn Anh Tuấn vs Liu Yun Cheng | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-705ffcc4b6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-705ffcc4b6",
+                  "name": "Nguyễn Anh Tuấn vs Liu Yun Cheng",
+                  "streams": [
+                    {
+                      "id": "st-705ffcc4b6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-705ffcc4b6",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10249/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
+            "team_a": "Nguyễn Anh Tuấn",
+            "team_b": "Liu Yun Cheng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794636964166_Screenshot%202026-11-14%20131550.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794636963872_Screenshot%202026-11-14%20131559.png",
+            "time": "16:00:00",
+            "date": "14/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794646800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-705ffcc4b6_750584a6_20261114.png?v=750584a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-9a71e1eb3a",
           "name": "Anthony Raga vs Chang Tzu Chien | Bỉm Sữa",
@@ -85,152 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9a71e1eb3a_c23fad62_20261114.png?v=c23fad62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-2b5bfee374",
-          "name": "Hoàng Thái Duy vs Alexis Ferrer | 16:00 14/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2b5bfee374",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2b5bfee374",
-                  "name": "Hoàng Thái Duy vs Alexis Ferrer",
-                  "streams": [
-                    {
-                      "id": "st-2b5bfee374",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2b5bfee374",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10251/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Hoàng Thái Duy",
-            "team_b": "Alexis Ferrer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794637054508_Screenshot%202026-11-14%20131721.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794637054207_Screenshot%202026-11-14%20131728.png",
-            "time": "16:00:00",
-            "date": "14/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794646800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2b5bfee374_b1fe70ae_20261114.png?v=b1fe70ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-786fe259b8",
-          "name": "Aloysius Yapp vs Đinh Chấn Kiệt | 16:00 14/11 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-786fe259b8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-786fe259b8",
-                  "name": "Aloysius Yapp vs Đinh Chấn Kiệt",
-                  "streams": [
-                    {
-                      "id": "st-786fe259b8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-786fe259b8",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10252/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Đinh Chấn Kiệt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794640187692_Screenshot%202026-11-14%20140941.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794640203295_Screenshot%202026-10-15%20133326.png",
-            "time": "16:00:00",
-            "date": "14/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": false,
-            "time_sort": 1794646800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-786fe259b8_ecc2cb5d_20261114.png?v=ecc2cb5d",
             "width": 1600,
             "height": 1200
           }
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-996d4b6119_88ab0b65_20261114.png?v=88ab0b65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2b5bfee374",
+          "name": "Hoàng Thái Duy vs Alexis Ferrer | 16:00 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b5bfee374",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2b5bfee374",
+                  "name": "Hoàng Thái Duy vs Alexis Ferrer",
+                  "streams": [
+                    {
+                      "id": "st-2b5bfee374",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b5bfee374",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10251/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
+            "team_a": "Hoàng Thái Duy",
+            "team_b": "Alexis Ferrer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794637054508_Screenshot%202026-11-14%20131721.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794637054207_Screenshot%202026-11-14%20131728.png",
+            "time": "16:00:00",
+            "date": "14/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794646800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2b5bfee374_b1fe70ae_20261114.png?v=b1fe70ae",
             "width": 1600,
             "height": 1200
           }
@@ -596,79 +669,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2fbd7e1cd8_2b5b05db_20261114.png?v=2b5b05db",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-705ffcc4b6",
-          "name": "Nguyễn Anh Tuấn vs Liu Yun Cheng | 16:00 14/11 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-705ffcc4b6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-705ffcc4b6",
-                  "name": "Nguyễn Anh Tuấn vs Liu Yun Cheng",
-                  "streams": [
-                    {
-                      "id": "st-705ffcc4b6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-705ffcc4b6",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10249/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Nguyễn Anh Tuấn",
-            "team_b": "Liu Yun Cheng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794636964166_Screenshot%202026-11-14%20131550.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794636963872_Screenshot%202026-11-14%20131559.png",
-            "time": "16:00:00",
-            "date": "14/11",
-            "blv": "Lee Min Hoo",
-            "is_live": false,
-            "time_sort": 1794646800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-705ffcc4b6_750584a6_20261114.png?v=750584a6",
             "width": 1600,
             "height": 1200
           }
