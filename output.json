@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-786fe259b8",
-          "name": "Aloysius Yapp vs Đinh Chấn Kiệt | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-786fe259b8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-786fe259b8",
-                  "name": "Aloysius Yapp vs Đinh Chấn Kiệt",
-                  "streams": [
-                    {
-                      "id": "st-786fe259b8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-786fe259b8",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10252/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Đinh Chấn Kiệt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794640187692_Screenshot%202026-11-14%20140941.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794640203295_Screenshot%202026-10-15%20133326.png",
-            "time": "16:00:00",
-            "date": "14/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794646800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-786fe259b8_ecc2cb5d_20261114.png?v=ecc2cb5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-705ffcc4b6",
           "name": "Nguyễn Anh Tuấn vs Liu Yun Cheng | Lee Min Hoo",
@@ -236,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-a75d9d5bda",
-          "name": "Damian John Massey vs Nguyễn Phương Thảo | 16:00 14/11",
+          "id": "chtv-786fe259b8",
+          "name": "Aloysius Yapp vs Đinh Chấn Kiệt | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-a75d9d5bda",
+              "id": "src-786fe259b8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a75d9d5bda",
-                  "name": "Damian John Massey vs Nguyễn Phương Thảo",
+                  "id": "ct-786fe259b8",
+                  "name": "Aloysius Yapp vs Đinh Chấn Kiệt",
                   "streams": [
                     {
-                      "id": "st-a75d9d5bda",
+                      "id": "st-786fe259b8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a75d9d5bda",
-                          "name": "Stream",
+                          "id": "lnk-786fe259b8",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10246/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10252/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,14 +215,14 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Damian John Massey",
-            "team_b": "Nguyễn Phương Thảo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794636802515_Screenshot%202026-11-12%20130410.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794636802114_Vi%E1%BB%87t%20Nam.png",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Đinh Chấn Kiệt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794640187692_Screenshot%202026-11-14%20140941.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794640203295_Screenshot%202026-10-15%20133326.png",
             "time": "16:00:00",
             "date": "14/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
             "time_sort": 1794646800,
             "cate_type": "billiards"
           },
@@ -303,44 +230,44 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a75d9d5bda_53854e8c_20261114.png?v=53854e8c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-786fe259b8_ecc2cb5d_20261114.png?v=ecc2cb5d",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-996d4b6119",
-          "name": "Genesis Quano vs Michael Feliciano | 16:00 14/11",
+          "id": "chtv-8f54599388",
+          "name": "Johann Chua vs Julian Serradilla | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-996d4b6119",
+              "id": "src-8f54599388",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-996d4b6119",
-                  "name": "Genesis Quano vs Michael Feliciano",
+                  "id": "ct-8f54599388",
+                  "name": "Johann Chua vs Julian Serradilla",
                   "streams": [
                     {
-                      "id": "st-996d4b6119",
+                      "id": "st-8f54599388",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-996d4b6119",
-                          "name": "Stream",
+                          "id": "lnk-8f54599388",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10248/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10244/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,10 +288,83 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Genesis Quano",
-            "team_b": "Michael Feliciano",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794636908522_Screenshot%202026-11-14%20131455.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794636908257_Screenshot%202026-11-14%20131505.png",
+            "team_a": "Johann Chua",
+            "team_b": "Julian Serradilla",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794636633100_Screenshot%202026-11-14%20131018.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794636632725_Screenshot%202026-11-14%20131029.png",
+            "time": "16:00:00",
+            "date": "14/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1794646800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8f54599388_d28f9d52_20261114.png?v=d28f9d52",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a72d51145e",
+          "name": "Liu Ri Teng vs Jefrey Roda | 16:00 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a72d51145e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a72d51145e",
+                  "name": "Liu Ri Teng vs Jefrey Roda",
+                  "streams": [
+                    {
+                      "id": "st-a72d51145e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a72d51145e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10245/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
+            "team_a": "Liu Ri Teng",
+            "team_b": "Jefrey Roda",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794636711804_Screenshot%202026-11-14%20131138.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794636712101_Screenshot%202026-11-14%20131148.png",
             "time": "16:00:00",
             "date": "14/11",
             "blv": "",
@@ -376,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-996d4b6119_88ab0b65_20261114.png?v=88ab0b65",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a72d51145e_d46f2c87_20261114.png?v=d46f2c87",
             "width": 1600,
             "height": 1200
           }
@@ -747,8 +747,8 @@
           }
         },
         {
-          "id": "chtv-8f54599388",
-          "name": "Johann Chua vs Julian Serradilla | 16:00 14/11",
+          "id": "chtv-a75d9d5bda",
+          "name": "Damian John Massey vs Nguyễn Phương Thảo | 16:00 14/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -762,23 +762,23 @@
           ],
           "sources": [
             {
-              "id": "src-8f54599388",
+              "id": "src-a75d9d5bda",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-8f54599388",
-                  "name": "Johann Chua vs Julian Serradilla",
+                  "id": "ct-a75d9d5bda",
+                  "name": "Damian John Massey vs Nguyễn Phương Thảo",
                   "streams": [
                     {
-                      "id": "st-8f54599388",
+                      "id": "st-a75d9d5bda",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-8f54599388",
+                          "id": "lnk-a75d9d5bda",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10244/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10246/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -799,10 +799,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Johann Chua",
-            "team_b": "Julian Serradilla",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794636633100_Screenshot%202026-11-14%20131018.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794636632725_Screenshot%202026-11-14%20131029.png",
+            "team_a": "Damian John Massey",
+            "team_b": "Nguyễn Phương Thảo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794636802515_Screenshot%202026-11-12%20130410.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794636802114_Vi%E1%BB%87t%20Nam.png",
             "time": "16:00:00",
             "date": "14/11",
             "blv": "",
@@ -814,14 +814,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8f54599388_d28f9d52_20261114.png?v=d28f9d52",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a75d9d5bda_53854e8c_20261114.png?v=53854e8c",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-a72d51145e",
-          "name": "Liu Ri Teng vs Jefrey Roda | 16:00 14/11",
+          "id": "chtv-996d4b6119",
+          "name": "Genesis Quano vs Michael Feliciano | 16:00 14/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -835,23 +835,23 @@
           ],
           "sources": [
             {
-              "id": "src-a72d51145e",
+              "id": "src-996d4b6119",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a72d51145e",
-                  "name": "Liu Ri Teng vs Jefrey Roda",
+                  "id": "ct-996d4b6119",
+                  "name": "Genesis Quano vs Michael Feliciano",
                   "streams": [
                     {
-                      "id": "st-a72d51145e",
+                      "id": "st-996d4b6119",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a72d51145e",
+                          "id": "lnk-996d4b6119",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10245/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10248/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -872,10 +872,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Liu Ri Teng",
-            "team_b": "Jefrey Roda",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794636711804_Screenshot%202026-11-14%20131138.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794636712101_Screenshot%202026-11-14%20131148.png",
+            "team_a": "Genesis Quano",
+            "team_b": "Michael Feliciano",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794636908522_Screenshot%202026-11-14%20131455.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794636908257_Screenshot%202026-11-14%20131505.png",
             "time": "16:00:00",
             "date": "14/11",
             "blv": "",
@@ -887,7 +887,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a72d51145e_d46f2c87_20261114.png?v=d46f2c87",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-996d4b6119_88ab0b65_20261114.png?v=88ab0b65",
             "width": 1600,
             "height": 1200
           }
