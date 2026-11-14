@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-90f4f24dc0",
-          "name": "Chang Yu Lung vs Kouki Sugiyama | Lee Min Hoo",
+          "id": "chtv-9d21264a16",
+          "name": "Punguan Hasiholan Sihombing vs Andri Januarta | 18:30 14/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-90f4f24dc0",
+              "id": "src-9d21264a16",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-90f4f24dc0",
-                  "name": "Chang Yu Lung vs Kouki Sugiyama",
+                  "id": "ct-9d21264a16",
+                  "name": "Punguan Hasiholan Sihombing vs Andri Januarta",
                   "streams": [
                     {
-                      "id": "st-90f4f24dc0",
+                      "id": "st-9d21264a16",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-90f4f24dc0",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-9d21264a16",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10250/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10258/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,30 +68,103 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Chang Yu Lung",
-            "team_b": "Kouki Sugiyama",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794637010945_Screenshot%202026-11-14%20131638.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794637010629_Screenshot%202026-11-14%20131647.png",
-            "time": "16:00:00",
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
+            "team_a": "Punguan Hasiholan Sihombing",
+            "team_b": "Andri Januarta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794648747142_Screenshot%202026-11-14%20163222.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794648775696_Screenshot%202026-11-14%20163251.png",
+            "time": "18:30:00",
             "date": "14/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794646800,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794655800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90f4f24dc0_a1fa824e_20261114.png?v=a1fa824e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9d21264a16_10254ebe_20261114.png?v=10254ebe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9ac0f983c1",
+          "name": "Albert Januarta vs Wang Hung Hsiang | 18:30 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ac0f983c1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9ac0f983c1",
+                  "name": "Albert Januarta vs Wang Hung Hsiang",
+                  "streams": [
+                    {
+                      "id": "st-9ac0f983c1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ac0f983c1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10263/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
+            "team_a": "Albert Januarta",
+            "team_b": "Wang Hung Hsiang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794649217543_Screenshot%202026-11-14%20164013.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794649268991_Screenshot%202026-11-14%20164105.png",
+            "time": "18:30:00",
+            "date": "14/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794655800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9ac0f983c1_dc30d181_20261114.png?v=dc30d181",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-55c2a56662",
-          "name": "Mickey Krause vs Jefry Zen | 18:30 14/11",
+          "name": "Mickey Krause vs Jefry Zen | 18:30 14/11 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -118,7 +191,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-55c2a56662",
-                          "name": "Stream",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10261/index.m3u8",
@@ -148,7 +221,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794649025997_Screenshot%202026-11-14%20163659.png",
             "time": "18:30:00",
             "date": "14/11",
-            "blv": "",
+            "blv": "Lee Min Hoo",
             "is_live": false,
             "time_sort": 1794655800,
             "cate_type": "billiards"
@@ -382,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-36d22b6390",
-          "name": "Michael Baoanan vs Lo Ho Sum | 18:30 14/11",
+          "id": "chtv-6f1ce3dd28",
+          "name": "Jaycee Garcia vs John Vincent Vicedo | 18:30 14/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-36d22b6390",
+              "id": "src-6f1ce3dd28",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-36d22b6390",
-                  "name": "Michael Baoanan vs Lo Ho Sum",
+                  "id": "ct-6f1ce3dd28",
+                  "name": "Jaycee Garcia vs John Vincent Vicedo",
                   "streams": [
                     {
-                      "id": "st-36d22b6390",
+                      "id": "st-6f1ce3dd28",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-36d22b6390",
+                          "id": "lnk-6f1ce3dd28",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10259/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10257/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -434,10 +507,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
-            "team_a": "Michael Baoanan",
-            "team_b": "Lo Ho Sum",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794648823272_Screenshot%202026-11-14%20163340.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794648851285_Screenshot%202026-11-14%20163407.png",
+            "team_a": "Jaycee Garcia",
+            "team_b": "John Vincent Vicedo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794648643408_Screenshot%202026-11-14%20163038.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794648693019_Screenshot%202026-11-14%20163126.png",
             "time": "18:30:00",
             "date": "14/11",
             "blv": "",
@@ -449,153 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36d22b6390_92220806_20261114.png?v=92220806",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9d21264a16",
-          "name": "Punguan Hasiholan Sihombing vs Andri Januarta | 18:30 14/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d21264a16",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9d21264a16",
-                  "name": "Punguan Hasiholan Sihombing vs Andri Januarta",
-                  "streams": [
-                    {
-                      "id": "st-9d21264a16",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d21264a16",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10258/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
-            "team_a": "Punguan Hasiholan Sihombing",
-            "team_b": "Andri Januarta",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794648747142_Screenshot%202026-11-14%20163222.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794648775696_Screenshot%202026-11-14%20163251.png",
-            "time": "18:30:00",
-            "date": "14/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794655800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9d21264a16_10254ebe_20261114.png?v=10254ebe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9ac0f983c1",
-          "name": "Albert Januarta vs Wang Hung Hsiang | 18:30 14/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ac0f983c1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9ac0f983c1",
-                  "name": "Albert Januarta vs Wang Hung Hsiang",
-                  "streams": [
-                    {
-                      "id": "st-9ac0f983c1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ac0f983c1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10263/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
-            "team_a": "Albert Januarta",
-            "team_b": "Wang Hung Hsiang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794649217543_Screenshot%202026-11-14%20164013.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794649268991_Screenshot%202026-11-14%20164105.png",
-            "time": "18:30:00",
-            "date": "14/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794655800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9ac0f983c1_dc30d181_20261114.png?v=dc30d181",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6f1ce3dd28_e600d6c4_20261114.png?v=e600d6c4",
             "width": 1600,
             "height": 1200
           }
@@ -674,6 +601,79 @@
           }
         },
         {
+          "id": "chtv-36d22b6390",
+          "name": "Michael Baoanan vs Lo Ho Sum | 18:30 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36d22b6390",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-36d22b6390",
+                  "name": "Michael Baoanan vs Lo Ho Sum",
+                  "streams": [
+                    {
+                      "id": "st-36d22b6390",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36d22b6390",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10259/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
+            "team_a": "Michael Baoanan",
+            "team_b": "Lo Ho Sum",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794648823272_Screenshot%202026-11-14%20163340.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794648851285_Screenshot%202026-11-14%20163407.png",
+            "time": "18:30:00",
+            "date": "14/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794655800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36d22b6390_92220806_20261114.png?v=92220806",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-a78dc181d9",
           "name": "Robbie Capito vs Edward Koyongian | 18:30 14/11",
           "type": "single",
@@ -742,79 +742,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a78dc181d9_0703bba8_20261114.png?v=0703bba8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6f1ce3dd28",
-          "name": "Jaycee Garcia vs John Vincent Vicedo | 18:30 14/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f1ce3dd28",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6f1ce3dd28",
-                  "name": "Jaycee Garcia vs John Vincent Vicedo",
-                  "streams": [
-                    {
-                      "id": "st-6f1ce3dd28",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6f1ce3dd28",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10257/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
-            "team_a": "Jaycee Garcia",
-            "team_b": "John Vincent Vicedo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794648643408_Screenshot%202026-11-14%20163038.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794648693019_Screenshot%202026-11-14%20163126.png",
-            "time": "18:30:00",
-            "date": "14/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794655800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6f1ce3dd28_e600d6c4_20261114.png?v=e600d6c4",
             "width": 1600,
             "height": 1200
           }
