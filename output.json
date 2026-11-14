@@ -11,23 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-0a532f95c5",
-          "name": "Stefan Sprangers vs Arseni Sevastyanov | 02:00 15/11",
+          "name": "Stefan Sprangers vs Arseni Sevastyanov | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -45,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-0a532f95c5",
-                          "name": "Stream",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10277/index.m3u8",
@@ -75,8 +75,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794680858425_Arseni%20Sevastyanov.jpg",
             "time": "02:00:00",
             "date": "15/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Đại Kê",
+            "is_live": true,
             "time_sort": 1794682800,
             "cate_type": "billiards"
           },
