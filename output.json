@@ -234,6 +234,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-29f594c50e",
+          "name": "Bồ Đào Nha vs Đan Mạch | 02:45 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-29f594c50e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-29f594c50e",
+                  "name": "Bồ Đào Nha vs Đan Mạch",
+                  "streams": [
+                    {
+                      "id": "st-29f594c50e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29f594c50e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10269/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Bồ Đào Nha",
+            "team_b": "Đan Mạch",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794654119923_Screenshot%202026-11-14%20180156.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794654100498_Screenshot%202026-11-14%20180135.png",
+            "time": "02:45:00",
+            "date": "15/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794685500,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-29f594c50e_d7d1dfde_20261114.png?v=d7d1dfde",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
