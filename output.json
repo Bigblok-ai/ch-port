@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,79 +236,6 @@
           }
         },
         {
-          "id": "chtv-acc13aa43f",
-          "name": "Edward Koyongian vs Oliver Szolnoki | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-acc13aa43f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-acc13aa43f",
-                  "name": "Edward Koyongian vs Oliver Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-acc13aa43f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-acc13aa43f",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10231/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 11:00",
-            "team_a": "Edward Koyongian",
-            "team_b": "Oliver Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794599351370_Oliver%20Szolnoki.jpg",
-            "time": "11:00:00",
-            "date": "14/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794628800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-acc13aa43f_3bc03c53_20261114.png?v=3bc03c53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-4f772b799e",
           "name": "Dương Quốc Hoàng vs Marvin Asis | 13:30 14/11",
           "type": "single",
@@ -377,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4f772b799e_c7c89ce6_20261114.png?v=c7c89ce6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-0f3524df8f",
+          "name": "Chang Sheng Yi vs Carlo Biado | 13:30 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f3524df8f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0f3524df8f",
+                  "name": "Chang Sheng Yi vs Carlo Biado",
+                  "streams": [
+                    {
+                      "id": "st-0f3524df8f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f3524df8f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10238/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:30",
+            "team_a": "Chang Sheng Yi",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764454830667_Hui%20Jen%20Lin.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794605161685_CARLO%20BIADO.jpg",
+            "time": "13:30:00",
+            "date": "14/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794637800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0f3524df8f_e8dfda7c_20261114.png?v=e8dfda7c",
             "width": 1600,
             "height": 1200
           }
@@ -961,79 +961,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-639b059894_0c761783_20261114.png?v=0c761783",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0f3524df8f",
-          "name": "Chang Sheng Yi vs Carlo Biado | 13:30 14/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f3524df8f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0f3524df8f",
-                  "name": "Chang Sheng Yi vs Carlo Biado",
-                  "streams": [
-                    {
-                      "id": "st-0f3524df8f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f3524df8f",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10238/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 13:30",
-            "team_a": "Chang Sheng Yi",
-            "team_b": "Carlo Biado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764454830667_Hui%20Jen%20Lin.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794605161685_CARLO%20BIADO.jpg",
-            "time": "13:30:00",
-            "date": "14/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794637800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0f3524df8f_e8dfda7c_20261114.png?v=e8dfda7c",
             "width": 1600,
             "height": 1200
           }
