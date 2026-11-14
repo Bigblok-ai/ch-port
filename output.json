@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-786fe259b8",
-          "name": "Aloysius Yapp vs Đinh Chấn Kiệt | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-786fe259b8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-786fe259b8",
-                  "name": "Aloysius Yapp vs Đinh Chấn Kiệt",
-                  "streams": [
-                    {
-                      "id": "st-786fe259b8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-786fe259b8",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10252/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Đinh Chấn Kiệt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794640187692_Screenshot%202026-11-14%20140941.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794640203295_Screenshot%202026-10-15%20133326.png",
-            "time": "16:00:00",
-            "date": "14/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794646800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-786fe259b8_ecc2cb5d_20261114.png?v=ecc2cb5d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9a71e1eb3a",
           "name": "Anthony Raga vs Chang Tzu Chien | Bỉm Sữa",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9a71e1eb3a_c23fad62_20261114.png?v=c23fad62",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-786fe259b8",
+          "name": "Aloysius Yapp vs Đinh Chấn Kiệt | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-786fe259b8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-786fe259b8",
+                  "name": "Aloysius Yapp vs Đinh Chấn Kiệt",
+                  "streams": [
+                    {
+                      "id": "st-786fe259b8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-786fe259b8",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10252/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Đinh Chấn Kiệt",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794640187692_Screenshot%202026-11-14%20140941.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794640203295_Screenshot%202026-10-15%20133326.png",
+            "time": "16:00:00",
+            "date": "14/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1794646800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-786fe259b8_ecc2cb5d_20261114.png?v=ecc2cb5d",
             "width": 1600,
             "height": 1200
           }
@@ -377,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-55c2a56662_3d637b06_20261114.png?v=3d637b06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9ac0f983c1",
-          "name": "Albert Januarta vs Wang Hung Hsiang | 18:30 14/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ac0f983c1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9ac0f983c1",
-                  "name": "Albert Januarta vs Wang Hung Hsiang",
-                  "streams": [
-                    {
-                      "id": "st-9ac0f983c1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ac0f983c1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10263/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
-            "team_a": "Albert Januarta",
-            "team_b": "Wang Hung Hsiang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794649217543_Screenshot%202026-11-14%20164013.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794649268991_Screenshot%202026-11-14%20164105.png",
-            "time": "18:30:00",
-            "date": "14/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794655800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9ac0f983c1_dc30d181_20261114.png?v=dc30d181",
             "width": 1600,
             "height": 1200
           }
@@ -742,6 +669,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36d22b6390_92220806_20261114.png?v=92220806",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9ac0f983c1",
+          "name": "Albert Januarta vs Wang Hung Hsiang | 18:30 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ac0f983c1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9ac0f983c1",
+                  "name": "Albert Januarta vs Wang Hung Hsiang",
+                  "streams": [
+                    {
+                      "id": "st-9ac0f983c1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ac0f983c1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10263/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
+            "team_a": "Albert Januarta",
+            "team_b": "Wang Hung Hsiang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794649217543_Screenshot%202026-11-14%20164013.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794649268991_Screenshot%202026-11-14%20164105.png",
+            "time": "18:30:00",
+            "date": "14/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794655800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9ac0f983c1_dc30d181_20261114.png?v=dc30d181",
             "width": 1600,
             "height": 1200
           }
