@@ -17,154 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-eca7ea2e82",
-          "name": "Ngài Chuột vs Mất Bàn Tay | 13:30 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eca7ea2e82",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eca7ea2e82",
-                  "name": "Ngài Chuột vs Mất Bàn Tay",
-                  "streams": [
-                    {
-                      "id": "st-eca7ea2e82",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eca7ea2e82",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10297/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
-            "team_a": "Ngài Chuột",
-            "team_b": "Mất Bàn Tay",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794721268584_Mickey%20Krause.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794721272796_Screenshot%202026-11-15%20123442.png",
-            "time": "13:30:00",
-            "date": "15/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794724200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eca7ea2e82_f1251853_20261115.png?v=f1251853",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b048438e7a",
-          "name": "YAP BÉO vs Jerson Cumayas | 13:30 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b048438e7a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b048438e7a",
-                  "name": "YAP BÉO vs Jerson Cumayas",
-                  "streams": [
-                    {
-                      "id": "st-b048438e7a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b048438e7a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10295/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
-            "team_a": "YAP BÉO",
-            "team_b": "Jerson Cumayas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794720108001_Aloysius%20Yapp.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794720241272_Screenshot%202026-11-15%20122352.png",
-            "time": "13:30:00",
-            "date": "15/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794724200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b048438e7a_43167f3e_20261115.png?v=43167f3e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5d8dd6c878",
-          "name": "Johann Chua vs Michael Feliciano | 13:30 15/11",
+          "name": "Johann Chua vs Michael Feliciano | 13:30 15/11 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -191,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-5d8dd6c878",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10296/index.m3u8",
@@ -221,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794721112142_Screenshot%202026-11-15%20123828.png",
             "time": "13:30:00",
             "date": "15/11",
-            "blv": "",
+            "blv": "Kèn Kèn",
             "is_live": false,
             "time_sort": 1794724200,
             "cate_type": "billiards"
@@ -231,6 +85,225 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5d8dd6c878_ed71d761_20261115.png?v=ed71d761",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b048438e7a",
+          "name": "YAP BÉO vs Jerson Cumayas | 13:30 15/11 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b048438e7a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b048438e7a",
+                  "name": "YAP BÉO vs Jerson Cumayas",
+                  "streams": [
+                    {
+                      "id": "st-b048438e7a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b048438e7a",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10295/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
+            "team_a": "YAP BÉO",
+            "team_b": "Jerson Cumayas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794720108001_Aloysius%20Yapp.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794720241272_Screenshot%202026-11-15%20122352.png",
+            "time": "13:30:00",
+            "date": "15/11",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1794724200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b048438e7a_43167f3e_20261115.png?v=43167f3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-eca7ea2e82",
+          "name": "Ngài Chuột vs Mất Bàn Tay | 13:30 15/11 | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eca7ea2e82",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-eca7ea2e82",
+                  "name": "Ngài Chuột vs Mất Bàn Tay",
+                  "streams": [
+                    {
+                      "id": "st-eca7ea2e82",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eca7ea2e82",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10297/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
+            "team_a": "Ngài Chuột",
+            "team_b": "Mất Bàn Tay",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794721268584_Mickey%20Krause.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794721272796_Screenshot%202026-11-15%20123442.png",
+            "time": "13:30:00",
+            "date": "15/11",
+            "blv": "VÁNG",
+            "is_live": false,
+            "time_sort": 1794724200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eca7ea2e82_f1251853_20261115.png?v=f1251853",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-582f238312",
+          "name": "Edward Koyongian vs Lo Ho Sum | 13:30 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-582f238312",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-582f238312",
+                  "name": "Edward Koyongian vs Lo Ho Sum",
+                  "streams": [
+                    {
+                      "id": "st-582f238312",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-582f238312",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10298/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
+            "team_a": "Edward Koyongian",
+            "team_b": "Lo Ho Sum",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794722118254_Screenshot%202026-11-15%20125515.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794722098533_Screenshot%202026-11-15%20124313.png",
+            "time": "13:30:00",
+            "date": "15/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794724200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-582f238312_09c7e33e_20261115.png?v=09c7e33e",
             "width": 1600,
             "height": 1200
           }
