@@ -11,87 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-eca7ea2e82",
-          "name": "Ngài Chuột vs Chốt 9 Xịt | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eca7ea2e82",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eca7ea2e82",
-                  "name": "Ngài Chuột vs Chốt 9 Xịt",
-                  "streams": [
-                    {
-                      "id": "st-eca7ea2e82",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eca7ea2e82",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10297/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
-            "team_a": "Ngài Chuột",
-            "team_b": "Chốt 9 Xịt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794721268584_Mickey%20Krause.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794721272796_Screenshot%202026-11-15%20123442.png",
-            "time": "13:30:00",
-            "date": "15/11",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1794724200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eca7ea2e82_f1251853_20261115.png?v=f1251853",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-f45b0225d9",
-          "name": "Ngài Chuột vs Johann Chua | 16:00 15/11",
+          "name": "Ngài Chuột vs Johann Chua | 16:00 15/11 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -118,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-f45b0225d9",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10300/index.m3u8",
@@ -148,7 +75,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794730157005_Johann%20Chua.png",
             "time": "16:00:00",
             "date": "15/11",
-            "blv": "",
+            "blv": "Thập Cẩm",
             "is_live": false,
             "time_sort": 1794733200,
             "cate_type": "billiards"
@@ -164,7 +91,7 @@
         },
         {
           "id": "chtv-dd24287c37",
-          "name": "YAP BÉO vs Lo Ho Sum | 16:00 15/11",
+          "name": "YAP BÉO vs Lo Ho Sum | 16:00 15/11 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -191,7 +118,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-dd24287c37",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10299/index.m3u8",
@@ -221,7 +148,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794729651405_Screenshot%202026-11-15%20124313.png",
             "time": "16:00:00",
             "date": "15/11",
-            "blv": "",
+            "blv": "GIÀNG A PHỌ",
             "is_live": false,
             "time_sort": 1794733200,
             "cate_type": "billiards"
