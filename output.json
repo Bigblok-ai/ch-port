@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-db4049a09a",
-          "name": "Shayne Acebar vs Randy Pugaan | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db4049a09a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-db4049a09a",
-                  "name": "Shayne Acebar vs Randy Pugaan",
-                  "streams": [
-                    {
-                      "id": "st-db4049a09a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db4049a09a",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10307/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Shayne Acebar",
-            "team_b": "Randy Pugaan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794748729568_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794748728746_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "20:25:00",
-            "date": "15/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1794749100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db4049a09a_47736197_20261115.png?v=47736197",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-dd36d5d7ec",
           "name": "TATA CDO vs EMONG VALENZUELA | Thập Cẩm",
           "type": "single",
@@ -164,16 +91,16 @@
         },
         {
           "id": "chtv-73e1c60e3b",
-          "name": "Karding vs Pisok | 22:24 15/11 | GIÀNG A PHỌ",
+          "name": "Karding vs Pisok | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +149,7 @@
             "time": "22:24:00",
             "date": "15/11",
             "blv": "GIÀNG A PHỌ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794756240,
             "cate_type": "billiards"
           },
