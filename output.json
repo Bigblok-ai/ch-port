@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-dc039efdfc",
+          "name": "GENESESIS QUANO vs TUẤN VŨNG TÀU | 19:27 15/11 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc039efdfc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-dc039efdfc",
+                  "name": "GENESESIS QUANO vs TUẤN VŨNG TÀU",
+                  "streams": [
+                    {
+                      "id": "st-dc039efdfc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc039efdfc",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10306/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "GENESESIS QUANO",
+            "team_b": "TUẤN VŨNG TÀU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794745658055_Screenshot%202026-11-15%20192734.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794745669519_Screenshot%202026-10-15%20133326.png",
+            "time": "19:27:00",
+            "date": "15/11",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1794745620,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc039efdfc_2891aa86_20261115.png?v=2891aa86",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
