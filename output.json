@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,38 +90,38 @@
           }
         },
         {
-          "id": "chtv-5d8dd6c878",
-          "name": "Johann Chua vs Michael Feliciano | Kèn Kèn",
+          "id": "chtv-f45b0225d9",
+          "name": "1 vs Johann Chua | 16:00 15/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-5d8dd6c878",
+              "id": "src-f45b0225d9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5d8dd6c878",
-                  "name": "Johann Chua vs Michael Feliciano",
+                  "id": "ct-f45b0225d9",
+                  "name": "1 vs Johann Chua",
                   "streams": [
                     {
-                      "id": "st-5d8dd6c878",
+                      "id": "st-f45b0225d9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5d8dd6c878",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-f45b0225d9",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10296/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10300/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,23 +141,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Tứ Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
-            "team_a": "Johann Chua",
-            "team_b": "Michael Feliciano",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794721087439_Johann%20Chua.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794721112142_Screenshot%202026-11-15%20123828.png",
-            "time": "13:30:00",
+            "league": "Bán Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
+            "team_a": "1",
+            "team_b": "Johann Chua",
+            "logo_a": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794730157005_Johann%20Chua.png",
+            "time": "16:00:00",
             "date": "15/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794724200,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794733200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5d8dd6c878_ed71d761_20261115.png?v=ed71d761",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f45b0225d9_36013b00_20261115.png?v=36013b00",
             "width": 1600,
             "height": 1200
           }
