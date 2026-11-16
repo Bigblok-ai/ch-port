@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-5e203c6056",
+          "name": "ZHENG Xiaohuai vs ZHAO Jianbo | 15:30 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e203c6056",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5e203c6056",
+                  "name": "ZHENG Xiaohuai vs ZHAO Jianbo",
+                  "streams": [
+                    {
+                      "id": "st-5e203c6056",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5e203c6056",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10312/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝟮𝟬𝟮𝟲 𝗖𝗕𝗦𝗔 中國𝟵號球巡迴賽 (合肥站)",
+            "team_a": "ZHENG Xiaohuai",
+            "team_b": "ZHAO Jianbo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794791773811_photo_2026-11-16_08-14-14.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794791777071_photo_2026-11-16_08-14-21.jpg",
+            "time": "15:30:00",
+            "date": "16/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794817800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5e203c6056_3a16983f_20261116.png?v=3a16983f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
