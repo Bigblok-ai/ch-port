@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-8036ecec26",
-          "name": "Mark Davao 9/10 vs Kyle Amoroto | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8036ecec26",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8036ecec26",
-                  "name": "Mark Davao 9/10 vs Kyle Amoroto",
-                  "streams": [
-                    {
-                      "id": "st-8036ecec26",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8036ecec26",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10328/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Mark Davao 9/10",
-            "team_b": "Kyle Amoroto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794849948075_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794849941844_Screenshot%202026-11-17%20002537.png",
-            "time": "00:25:00",
-            "date": "17/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794849900,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8036ecec26_2ae98657_20261117.png?v=2ae98657",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-7bf2871f5f",
           "name": "Đúc vs Hà Lan | 02:45 17/11",
