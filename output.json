@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a5fdb226c2",
-          "name": "RICA RENDAL vs JAJA | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5fdb226c2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a5fdb226c2",
-                  "name": "RICA RENDAL vs JAJA",
-                  "streams": [
-                    {
-                      "id": "st-a5fdb226c2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5fdb226c2",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10324/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "RICA RENDAL",
-            "team_b": "JAJA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794832293680_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794832294337_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "19:31:00",
-            "date": "16/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794832260,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a5fdb226c2_d9b44471_20261116.png?v=d9b44471",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-7a52d66e6d",
           "name": "ĐỨC ANH JR vs QUANG CON | Kèn Kèn",
@@ -309,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-7bf2871f5f",
+          "name": "Đúc vs Hà Lan | 02:45 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7bf2871f5f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7bf2871f5f",
+                  "name": "Đúc vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-7bf2871f5f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bf2871f5f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10317/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Đúc",
+            "team_b": "Hà Lan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794822262944_Screenshot%202026-11-16%20164418.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794822291334_Screenshot%202026-11-16%20164448.png",
+            "time": "02:45:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794858300,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7bf2871f5f_2d318741_20261116.png?v=2d318741",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3d3a6e1440",
           "name": "Hy Lạp vs Serbia | 02:45 17/11",
           "type": "single",
@@ -450,79 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bac047e42d_732b54d3_20261116.png?v=732b54d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7bf2871f5f",
-          "name": "Đúc vs Hà Lan | 02:45 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7bf2871f5f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7bf2871f5f",
-                  "name": "Đúc vs Hà Lan",
-                  "streams": [
-                    {
-                      "id": "st-7bf2871f5f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7bf2871f5f",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10317/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Đúc",
-            "team_b": "Hà Lan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794822262944_Screenshot%202026-11-16%20164418.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794822291334_Screenshot%202026-11-16%20164448.png",
-            "time": "02:45:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794858300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7bf2871f5f_2d318741_20261116.png?v=2d318741",
             "width": 1600,
             "height": 1200
           }
