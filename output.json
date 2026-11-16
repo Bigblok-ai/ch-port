@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a963059a0e",
-          "name": "owat vs piosok | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a963059a0e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a963059a0e",
-                  "name": "owat vs piosok",
-                  "streams": [
-                    {
-                      "id": "st-a963059a0e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a963059a0e",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10326/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "owat",
-            "team_b": "piosok",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794841285707_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794841286311_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "22:00:00",
-            "date": "16/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794841200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a963059a0e_e3bce070_20261117.png?v=e3bce070",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d1c48f4441",
           "name": "EDWIN 'ITIK' GAMAS vs JED BATA | Kèn Kèn",
