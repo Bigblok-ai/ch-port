@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b707304f5_52f2ad57_20261116.png?v=52f2ad57",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-707f266e6f",
+          "name": "LIU Shasha vs WANG Xiaotong | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-707f266e6f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-707f266e6f",
+                  "name": "LIU Shasha vs WANG Xiaotong",
+                  "streams": [
+                    {
+                      "id": "st-707f266e6f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-707f266e6f",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10315/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 CBSA 中國9號球巡迴賽 (合肥站)",
+            "team_a": "LIU Shasha",
+            "team_b": "WANG Xiaotong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794808775966_Trung%20Qu%E1%BB%91c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794808775599_Trung%20Qu%E1%BB%91c.png",
+            "time": "13:00:00",
+            "date": "16/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1794808800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-707f266e6f_33a142c7_20261116.png?v=33a142c7",
             "width": 1600,
             "height": 1200
           }
