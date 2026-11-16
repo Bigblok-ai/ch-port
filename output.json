@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5e203c6056_3a16983f_20261116.png?v=3a16983f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f2cbb2a86d",
+          "name": "duy đen vs hắc hổ | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2cbb2a86d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f2cbb2a86d",
+                  "name": "duy đen vs hắc hổ",
+                  "streams": [
+                    {
+                      "id": "st-f2cbb2a86d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2cbb2a86d",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10320/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "duy đen",
+            "team_b": "hắc hổ",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794824768318_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794824768713_Screenshot%202026-10-15%20133326.png",
+            "time": "17:25:00",
+            "date": "16/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1794824700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f2cbb2a86d_0583ddbd_20261116.png?v=0583ddbd",
             "width": 1600,
             "height": 1200
           }
