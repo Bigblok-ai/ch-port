@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-92699057e5",
-          "name": "hắc hổ vs khanh trần | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-92699057e5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-92699057e5",
-                  "name": "hắc hổ vs khanh trần",
-                  "streams": [
-                    {
-                      "id": "st-92699057e5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-92699057e5",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10322/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "hắc hổ",
-            "team_b": "khanh trần",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794830921897_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794830921334_Screenshot%202026-10-15%20133326.png",
-            "time": "19:05:08",
-            "date": "16/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794830708,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-92699057e5_6146571e_20261116.png?v=6146571e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-aa5dd24043",
           "name": "ALEX PAGULAYAN vs KYLE TUBINO | Bỉm Sữa",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a5fdb226c2_d9b44471_20261116.png?v=d9b44471",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7a52d66e6d",
+          "name": "ĐỨC ANH JR vs QUANG CON | 20:28 16/11 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a52d66e6d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7a52d66e6d",
+                  "name": "ĐỨC ANH JR vs QUANG CON",
+                  "streams": [
+                    {
+                      "id": "st-7a52d66e6d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a52d66e6d",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10325/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "ĐỨC ANH JR",
+            "team_b": "QUANG CON",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794835765568_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794835766031_Screenshot%202026-10-15%20133326.png",
+            "time": "20:28:00",
+            "date": "16/11",
+            "blv": "Kèn Kèn",
+            "is_live": false,
+            "time_sort": 1794835680,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7a52d66e6d_ba29738d_20261116.png?v=ba29738d",
             "width": 1600,
             "height": 1200
           }
