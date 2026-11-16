@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-badfa82497",
-          "name": "Tây Ban Nha vs Anh | Thập Cẩm",
+          "id": "chtv-7b707304f5",
+          "name": "KO Ping-Chung vs XU Xiaocong | 13:00 16/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-badfa82497",
+              "id": "src-7b707304f5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-badfa82497",
-                  "name": "Tây Ban Nha vs Anh",
+                  "id": "ct-7b707304f5",
+                  "name": "KO Ping-Chung vs XU Xiaocong",
                   "streams": [
                     {
-                      "id": "st-badfa82497",
+                      "id": "st-7b707304f5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-badfa82497",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-7b707304f5",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10305/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10311/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Tây Ban Nha",
-            "team_b": "Anh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794739261544_Screenshot%202026-11-15%20174057.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794739288032_Screenshot%202026-11-15%20174121.png",
-            "time": "02:45:00",
+            "league": "𝟮𝟬𝟮𝟲 𝗖𝗕𝗦𝗔 中國𝟵號球巡迴賽 (合肥站)",
+            "team_a": "KO Ping-Chung",
+            "team_b": "XU Xiaocong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794791468814_KO%20PING%20CHUNG%201.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794791573032_photo_2026-11-16_08-12-42.jpg",
+            "time": "13:00:00",
             "date": "16/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794771900,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794808800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-badfa82497_0da478ce_20261116.png?v=0da478ce",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b707304f5_52f2ad57_20261116.png?v=52f2ad57",
             "width": 1600,
             "height": 1200
           }
