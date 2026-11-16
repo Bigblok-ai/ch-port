@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0a483e253c_af0dd87b_20261116.png?v=af0dd87b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7b707304f5",
-          "name": "KO Ping-Chung vs XU Xiaocong | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b707304f5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7b707304f5",
-                  "name": "KO Ping-Chung vs XU Xiaocong",
-                  "streams": [
-                    {
-                      "id": "st-7b707304f5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b707304f5",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10311/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝟮𝟬𝟮𝟲 𝗖𝗕𝗦𝗔 中國𝟵號球巡迴賽 (合肥站)",
-            "team_a": "KO Ping-Chung",
-            "team_b": "XU Xiaocong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794791468814_KO%20PING%20CHUNG%201.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794791573032_photo_2026-11-16_08-12-42.jpg",
-            "time": "13:00:00",
-            "date": "16/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794808800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b707304f5_52f2ad57_20261116.png?v=52f2ad57",
             "width": 1600,
             "height": 1200
           }
