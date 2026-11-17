@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-c26e83a2a8",
-          "name": "Đan Mạch vs Na Uy | 02:45 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c26e83a2a8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c26e83a2a8",
-                  "name": "Đan Mạch vs Na Uy",
-                  "streams": [
-                    {
-                      "id": "st-c26e83a2a8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c26e83a2a8",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10361/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Đan Mạch",
-            "team_b": "Na Uy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794908144122_Screenshot%202026-11-17%20163541.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794908169159_Screenshot%202026-11-17%20163604.png",
-            "time": "02:45:00",
-            "date": "18/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794944700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c26e83a2a8_9aa512c5_20261118.png?v=9aa512c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-79cf9c5e1b",
           "name": "Wales vs Bồ Đào Nha | 02:45 18/11",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79cf9c5e1b_ba1fb08e_20261118.png?v=ba1fb08e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c26e83a2a8",
+          "name": "Đan Mạch vs Na Uy | 02:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c26e83a2a8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c26e83a2a8",
+                  "name": "Đan Mạch vs Na Uy",
+                  "streams": [
+                    {
+                      "id": "st-c26e83a2a8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c26e83a2a8",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10361/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Đan Mạch",
+            "team_b": "Na Uy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794908144122_Screenshot%202026-11-17%20163541.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794908169159_Screenshot%202026-11-17%20163604.png",
+            "time": "02:45:00",
+            "date": "18/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794944700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c26e83a2a8_9aa512c5_20261118.png?v=9aa512c5",
             "width": 1600,
             "height": 1200
           }
