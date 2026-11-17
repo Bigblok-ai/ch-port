@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-9051250390",
+          "name": "Mickey Krause vs Worratat Sittisaranwattachai | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9051250390",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9051250390",
+                  "name": "Mickey Krause vs Worratat Sittisaranwattachai",
+                  "streams": [
+                    {
+                      "id": "st-9051250390",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9051250390",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10355/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Mickey Krause",
+            "team_b": "Worratat Sittisaranwattachai",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794903656399_Mickey%20Krause.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794903688652_Screenshot%202026-11-17%20131246.png",
+            "time": "17:00:00",
+            "date": "17/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794909600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9051250390_014aa145_20261117.png?v=014aa145",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-db789a4990",
           "name": "Wu Kun Lin vs Preecha Boonmoung | 16:00 17/11",
           "type": "single",
@@ -231,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db789a4990_7d87b95d_20261117.png?v=7d87b95d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-59c9ead13a",
-          "name": "Oliver Szolnoki vs Kyumin Kyoung | 16:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59c9ead13a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-59c9ead13a",
-                  "name": "Oliver Szolnoki vs Kyumin Kyoung",
-                  "streams": [
-                    {
-                      "id": "st-59c9ead13a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59c9ead13a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10351/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Kyumin Kyoung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794903336274_Oliver%20Szolonki.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794903346243_H%C3%A0n.png",
-            "time": "16:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794906000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-59c9ead13a_e2c8e9e5_20261117.png?v=e2c8e9e5",
             "width": 1600,
             "height": 1200
           }
@@ -382,8 +382,8 @@
           }
         },
         {
-          "id": "chtv-9051250390",
-          "name": "Mickey Krause vs Worratat Sittisaranwattachai | 17:00 17/11",
+          "id": "chtv-59c9ead13a",
+          "name": "Oliver Szolnoki vs Kyumin Kyoung | 16:00 17/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +397,23 @@
           ],
           "sources": [
             {
-              "id": "src-9051250390",
+              "id": "src-59c9ead13a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9051250390",
-                  "name": "Mickey Krause vs Worratat Sittisaranwattachai",
+                  "id": "ct-59c9ead13a",
+                  "name": "Oliver Szolnoki vs Kyumin Kyoung",
                   "streams": [
                     {
-                      "id": "st-9051250390",
+                      "id": "st-59c9ead13a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9051250390",
+                          "id": "lnk-59c9ead13a",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10355/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10351/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -434,22 +434,22 @@
           ],
           "org_metadata": {
             "league": "Universal Bangkok Open 2026",
-            "team_a": "Mickey Krause",
-            "team_b": "Worratat Sittisaranwattachai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794903656399_Mickey%20Krause.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794903688652_Screenshot%202026-11-17%20131246.png",
-            "time": "17:00:00",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Kyumin Kyoung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794903336274_Oliver%20Szolonki.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794903346243_H%C3%A0n.png",
+            "time": "16:00:00",
             "date": "17/11",
             "blv": "",
             "is_live": false,
-            "time_sort": 1794909600,
+            "time_sort": 1794906000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9051250390_014aa145_20261117.png?v=014aa145",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-59c9ead13a_e2c8e9e5_20261117.png?v=e2c8e9e5",
             "width": 1600,
             "height": 1200
           }
