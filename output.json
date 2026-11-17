@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-d20243c189",
+          "name": "Hamza Waidi vs Chang Tzu Chien | 18:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d20243c189",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d20243c189",
+                  "name": "Hamza Waidi vs Chang Tzu Chien",
+                  "streams": [
+                    {
+                      "id": "st-d20243c189",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d20243c189",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10368/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Hamza Waidi",
+            "team_b": "Chang Tzu Chien",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794911114226_Screenshot%202026-11-17%20172511.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794911152828_Screenshot%202026-11-11%20150046.png",
+            "time": "18:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794913200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d20243c189_bea9b16a_20261117.png?v=bea9b16a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7483efeb4c",
           "name": "Irsal Afrinneza Nasution vs Marcel Price | 18:00 17/11",
           "type": "single",
@@ -596,79 +669,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c7dbeb2d27_4d7a3358_20261117.png?v=4d7a3358",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d20243c189",
-          "name": "Hamza Waidi vs Chang Tzu Chien | 18:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d20243c189",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d20243c189",
-                  "name": "Hamza Waidi vs Chang Tzu Chien",
-                  "streams": [
-                    {
-                      "id": "st-d20243c189",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d20243c189",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10368/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Hamza Waidi",
-            "team_b": "Chang Tzu Chien",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794911114226_Screenshot%202026-11-17%20172511.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794911152828_Screenshot%202026-11-11%20150046.png",
-            "time": "18:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794913200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d20243c189_bea9b16a_20261117.png?v=bea9b16a",
             "width": 1600,
             "height": 1200
           }
