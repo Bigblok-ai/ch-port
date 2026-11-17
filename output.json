@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-2a696b442d",
+          "name": "Phương nam vs tiến minh | 22:33 17/11 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a696b442d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2a696b442d",
+                  "name": "Phương nam vs tiến minh",
+                  "streams": [
+                    {
+                      "id": "st-2a696b442d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a696b442d",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10387/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "Phương nam",
+            "team_b": "tiến minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794929637176_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794929636792_Screenshot%202026-10-15%20133326.png",
+            "time": "22:33:00",
+            "date": "17/11",
+            "blv": "Kèn Kèn",
+            "is_live": false,
+            "time_sort": 1794929580,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a696b442d_748dce0f_20261117.png?v=748dce0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-c26e83a2a8",
           "name": "Đan Mạch vs Na Uy | 02:45 18/11",
           "type": "single",
