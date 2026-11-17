@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ad956a9272",
-          "name": "Fraser Patrick vs Jerson Cumayas | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad956a9272",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ad956a9272",
-                  "name": "Fraser Patrick vs Jerson Cumayas",
-                  "streams": [
-                    {
-                      "id": "st-ad956a9272",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad956a9272",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10377/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Fraser Patrick",
-            "team_b": "Jerson Cumayas",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794916390840_Screenshot%202026-11-17%20185306.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794916423715_Screenshot%202026-11-17%20185340.png",
-            "time": "20:00:00",
-            "date": "17/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1794920400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ad956a9272_1a95b6e2_20261117.png?v=1a95b6e2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-eb596bfd49",
           "name": "Jefrey Roda vs Assis Tadique | Bỉm Sữa",
@@ -163,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-ad956a9272",
+          "name": "Fraser Patrick vs Jerson Cumayas | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad956a9272",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ad956a9272",
+                  "name": "Fraser Patrick vs Jerson Cumayas",
+                  "streams": [
+                    {
+                      "id": "st-ad956a9272",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad956a9272",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10377/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Fraser Patrick",
+            "team_b": "Jerson Cumayas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794916390840_Screenshot%202026-11-17%20185306.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794916423715_Screenshot%202026-11-17%20185340.png",
+            "time": "20:00:00",
+            "date": "17/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1794920400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ad956a9272_1a95b6e2_20261117.png?v=1a95b6e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-765aa9ff04",
           "name": "Hsieh Chia Chen vs Michael Quinay | Tào A Man",
           "type": "single",
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-765aa9ff04_961073c8_20261117.png?v=961073c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ae0cc09897",
+          "name": "OWAT vs PISOK | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae0cc09897",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ae0cc09897",
+                  "name": "OWAT vs PISOK",
+                  "streams": [
+                    {
+                      "id": "st-ae0cc09897",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae0cc09897",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10384/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "OWAT",
+            "team_b": "PISOK",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794924404547_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794924405105_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "21:06:00",
+            "date": "17/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1794924360,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ae0cc09897_f4941d12_20261117.png?v=f4941d12",
             "width": 1600,
             "height": 1200
           }
