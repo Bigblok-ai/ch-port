@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-85d6a13129",
-          "name": "Chang Tzu Chien vs Andri Januarta | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85d6a13129",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-85d6a13129",
-                  "name": "Chang Tzu Chien vs Andri Januarta",
-                  "streams": [
-                    {
-                      "id": "st-85d6a13129",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-85d6a13129",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10340/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Chang Tzu Chien",
-            "team_b": "Andri Januarta",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794888847454_%C4%90%C3%A0i%20Loan.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794888847043_Indonesia.png",
-            "time": "12:00:00",
-            "date": "17/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794891600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-85d6a13129_b8b7603d_20261117.png?v=b8b7603d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-175b2953af",
           "name": "John Vincent Vicedo vs Ahmad Aldulaimi | Kèn Kèn",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-175b2953af_9a16aabb_20261117.png?v=9a16aabb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fa7628dd60",
+          "name": "Michael Baoanan vs Atsuhiro Saito | 14:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa7628dd60",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fa7628dd60",
+                  "name": "Michael Baoanan vs Atsuhiro Saito",
+                  "streams": [
+                    {
+                      "id": "st-fa7628dd60",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa7628dd60",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10347/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Michael Baoanan",
+            "team_b": "Atsuhiro Saito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794896126462_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794896125758_Nh%E1%BA%ADt.png",
+            "time": "14:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794898800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fa7628dd60_ccb144e9_20261117.png?v=ccb144e9",
             "width": 1600,
             "height": 1200
           }
@@ -669,79 +669,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-077d90d383_b37e77b8_20261117.png?v=b37e77b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fa7628dd60",
-          "name": "Michael Baoanan vs Atsuhiro Saito | 14:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa7628dd60",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fa7628dd60",
-                  "name": "Michael Baoanan vs Atsuhiro Saito",
-                  "streams": [
-                    {
-                      "id": "st-fa7628dd60",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa7628dd60",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10347/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Michael Baoanan",
-            "team_b": "Atsuhiro Saito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794896126462_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794896125758_Nh%E1%BA%ADt.png",
-            "time": "14:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794898800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fa7628dd60_ccb144e9_20261117.png?v=ccb144e9",
             "width": 1600,
             "height": 1200
           }
