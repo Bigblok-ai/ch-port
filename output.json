@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,6 +90,152 @@
           }
         },
         {
+          "id": "chtv-5488995a85",
+          "name": "Ankit Malhotra vs Tinnaphob Wangtananont | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5488995a85",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5488995a85",
+                  "name": "Ankit Malhotra vs Tinnaphob Wangtananont",
+                  "streams": [
+                    {
+                      "id": "st-5488995a85",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5488995a85",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10331/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Ankit Malhotra",
+            "team_b": "Tinnaphob Wangtananont",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794879097996_Algeria.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766404127181_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).png",
+            "time": "10:00:00",
+            "date": "17/11",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1794884400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5488995a85_adae823a_20261117.png?v=adae823a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-355764701f",
+          "name": "Ye Jyun Hong vs Edward Koyongian | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-355764701f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-355764701f",
+                  "name": "Ye Jyun Hong vs Edward Koyongian",
+                  "streams": [
+                    {
+                      "id": "st-355764701f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-355764701f",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10332/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Ye Jyun Hong",
+            "team_b": "Edward Koyongian",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794879346867_%C4%90%C3%A0i%20Loan.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
+            "time": "10:00:00",
+            "date": "17/11",
+            "blv": "VÁNG",
+            "is_live": true,
+            "time_sort": 1794884400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-355764701f_765551ca_20261117.png?v=765551ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b5f54d2898",
           "name": "Hwang Yong vs Woojae Kim | 10:00 17/11",
           "type": "single",
@@ -163,152 +309,6 @@
           }
         },
         {
-          "id": "chtv-5488995a85",
-          "name": "Ankit Malhotra vs Tinnaphob Wangtananont | 10:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5488995a85",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5488995a85",
-                  "name": "Ankit Malhotra vs Tinnaphob Wangtananont",
-                  "streams": [
-                    {
-                      "id": "st-5488995a85",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5488995a85",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10331/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Ankit Malhotra",
-            "team_b": "Tinnaphob Wangtananont",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794879097996_Algeria.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766404127181_t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).png",
-            "time": "10:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794884400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5488995a85_adae823a_20261117.png?v=adae823a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-355764701f",
-          "name": "Ye Jyun Hong vs Edward Koyongian | 10:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-355764701f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-355764701f",
-                  "name": "Ye Jyun Hong vs Edward Koyongian",
-                  "streams": [
-                    {
-                      "id": "st-355764701f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-355764701f",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10332/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Ye Jyun Hong",
-            "team_b": "Edward Koyongian",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794879346867_%C4%90%C3%A0i%20Loan.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
-            "time": "10:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794884400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-355764701f_765551ca_20261117.png?v=765551ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-911367669d",
           "name": "Rio Pandu Jatmiko vs Lyu Chenwei | 10:00 17/11",
           "type": "single",
@@ -377,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-911367669d_e2e559f5_20261117.png?v=e2e559f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bb0e099955",
-          "name": "Hoàng Thái Duy vs Dũng Moi | 10:30 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb0e099955",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bb0e099955",
-                  "name": "Hoàng Thái Duy vs Dũng Moi",
-                  "streams": [
-                    {
-                      "id": "st-bb0e099955",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bb0e099955",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10336/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIX OPEN",
-            "team_a": "Hoàng Thái Duy",
-            "team_b": "Dũng Moi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794885002513_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794885002236_Vi%E1%BB%87t%20Nam.png",
-            "time": "10:30:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794886200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb0e099955_defe36ce_20261117.png?v=defe36ce",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +523,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-83d7f9f63c_6133f755_20261117.png?v=6133f755",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bb0e099955",
+          "name": "Hoàng Thái Duy vs Dũng Moi | 10:30 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb0e099955",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bb0e099955",
+                  "name": "Hoàng Thái Duy vs Dũng Moi",
+                  "streams": [
+                    {
+                      "id": "st-bb0e099955",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb0e099955",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10336/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIX OPEN",
+            "team_a": "Hoàng Thái Duy",
+            "team_b": "Dũng Moi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794885002513_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794885002236_Vi%E1%BB%87t%20Nam.png",
+            "time": "10:30:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794886200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb0e099955_defe36ce_20261117.png?v=defe36ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1ef48c4d3f",
+          "name": "Nguyễn Hoàng Minh Tài vs Vũ Hoàng Minh | 10:30 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ef48c4d3f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1ef48c4d3f",
+                  "name": "Nguyễn Hoàng Minh Tài vs Vũ Hoàng Minh",
+                  "streams": [
+                    {
+                      "id": "st-1ef48c4d3f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ef48c4d3f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10337/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIX OPEN",
+            "team_a": "Nguyễn Hoàng Minh Tài",
+            "team_b": "Vũ Hoàng Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794885081179_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794885080803_Vi%E1%BB%87t%20Nam.png",
+            "time": "10:30:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794886200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1ef48c4d3f_420ffe70_20261117.png?v=420ffe70",
             "width": 1600,
             "height": 1200
           }
