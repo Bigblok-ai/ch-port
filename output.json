@@ -234,6 +234,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-b0b3db854a",
+          "name": "Kiên Pháp vs Nguyễn Viết Tâm | 15:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0b3db854a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b0b3db854a",
+                  "name": "Kiên Pháp vs Nguyễn Viết Tâm",
+                  "streams": [
+                    {
+                      "id": "st-b0b3db854a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0b3db854a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10350/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIX OPEN",
+            "team_a": "Kiên Pháp",
+            "team_b": "Nguyễn Viết Tâm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794901248669_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794901248399_Vi%E1%BB%87t%20Nam.png",
+            "time": "15:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794902400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b0b3db854a_d1e617dc_20261117.png?v=d1e617dc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
