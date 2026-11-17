@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-61359e96b3_8b755bda_20261117.png?v=8b755bda",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9051250390",
-          "name": "Mickey Krause vs Worratat Sittisaranwattachai | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9051250390",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9051250390",
-                  "name": "Mickey Krause vs Worratat Sittisaranwattachai",
-                  "streams": [
-                    {
-                      "id": "st-9051250390",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9051250390",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10355/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Mickey Krause",
-            "team_b": "Worratat Sittisaranwattachai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794903656399_Mickey%20Krause.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794903688652_Screenshot%202026-11-17%20131246.png",
-            "time": "17:00:00",
-            "date": "17/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794909600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9051250390_014aa145_20261117.png?v=014aa145",
             "width": 1600,
             "height": 1200
           }
@@ -309,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-b5321e37da",
+          "name": "Anthony Raga vs John Drahcir Mauricio | 18:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5321e37da",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b5321e37da",
+                  "name": "Anthony Raga vs John Drahcir Mauricio",
+                  "streams": [
+                    {
+                      "id": "st-b5321e37da",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b5321e37da",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10367/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Anthony Raga",
+            "team_b": "John Drahcir Mauricio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794911028612_Screenshot%202026-11-17%20172344.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794911053346_Screenshot%202026-11-17%20172410.png",
+            "time": "18:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794913200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b5321e37da_66d1f06d_20261117.png?v=66d1f06d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-caac206da7",
           "name": "Carlo Biado vs Billy Robiansyah | 18:00 17/11",
           "type": "single",
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-caac206da7_44778cad_20261117.png?v=44778cad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bb38373d1f",
+          "name": "Aleksandar Atanasov vs Jeffry Zen | 18:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb38373d1f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bb38373d1f",
+                  "name": "Aleksandar Atanasov vs Jeffry Zen",
+                  "streams": [
+                    {
+                      "id": "st-bb38373d1f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb38373d1f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10366/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Aleksandar Atanasov",
+            "team_b": "Jeffry Zen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794910939509_Screenshot%202026-11-17%20172212.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794910977239_Screenshot%202026-11-17%20172253.png",
+            "time": "18:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794913200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb38373d1f_5827fb96_20261117.png?v=5827fb96",
             "width": 1600,
             "height": 1200
           }
