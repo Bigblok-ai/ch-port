@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,16 +91,16 @@
         },
         {
           "id": "chtv-175b2953af",
-          "name": "John Vincent Vicedo vs Ahmad Aldulaimi | 12:00 17/11",
+          "name": "John Vincent Vicedo vs Ahmad Aldulaimi | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -118,7 +118,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-175b2953af",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10342/index.m3u8",
@@ -148,8 +148,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794889004937_Kuwait.png",
             "time": "12:00:00",
             "date": "17/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Kèn Kèn",
+            "is_live": true,
             "time_sort": 1794891600,
             "cate_type": "billiards"
           },
@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-85d6a13129",
+          "name": "Chang Tzu Chien vs Andri Januarta | 12:00 17/11 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85d6a13129",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-85d6a13129",
+                  "name": "Chang Tzu Chien vs Andri Januarta",
+                  "streams": [
+                    {
+                      "id": "st-85d6a13129",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-85d6a13129",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10340/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Chang Tzu Chien",
+            "team_b": "Andri Januarta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794888847454_%C4%90%C3%A0i%20Loan.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794888847043_Indonesia.png",
+            "time": "12:00:00",
+            "date": "17/11",
+            "blv": "Thập Cẩm",
+            "is_live": false,
+            "time_sort": 1794891600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-85d6a13129_b8b7603d_20261117.png?v=b8b7603d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-32ed63eb40",
           "name": "Kim Su Ung vs Assis Tadique | 12:00 17/11",
           "type": "single",
@@ -304,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-32ed63eb40_2dbd0206_20261117.png?v=2dbd0206",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-85d6a13129",
-          "name": "Chang Tzu Chien vs Andri Januarta | 12:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85d6a13129",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-85d6a13129",
-                  "name": "Chang Tzu Chien vs Andri Januarta",
-                  "streams": [
-                    {
-                      "id": "st-85d6a13129",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-85d6a13129",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10340/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Chang Tzu Chien",
-            "team_b": "Andri Januarta",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794888847454_%C4%90%C3%A0i%20Loan.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794888847043_Indonesia.png",
-            "time": "12:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794891600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-85d6a13129_b8b7603d_20261117.png?v=b8b7603d",
             "width": 1600,
             "height": 1200
           }
