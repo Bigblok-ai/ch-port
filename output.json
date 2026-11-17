@@ -309,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-79cf9c5e1b",
+          "name": "Wales vs Bồ Đào Nha | 02:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79cf9c5e1b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-79cf9c5e1b",
+                  "name": "Wales vs Bồ Đào Nha",
+                  "streams": [
+                    {
+                      "id": "st-79cf9c5e1b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-79cf9c5e1b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10362/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Wales",
+            "team_b": "Bồ Đào Nha",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794908211903_Screenshot%202026-11-17%20163648.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794908233444_Screenshot%202026-11-17%20163709.png",
+            "time": "02:45:00",
+            "date": "18/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794944700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79cf9c5e1b_ba1fb08e_20261117.png?v=ba1fb08e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-bb1cc14547",
           "name": "Ba Lan vs Thụy Điển | 02:45 18/11",
           "type": "single",
@@ -450,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c26e83a2a8_9aa512c5_20261117.png?v=9aa512c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-79cf9c5e1b",
-          "name": "Wales vs Bồ Đào Nha | 02:45 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79cf9c5e1b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-79cf9c5e1b",
-                  "name": "Wales vs Bồ Đào Nha",
-                  "streams": [
-                    {
-                      "id": "st-79cf9c5e1b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79cf9c5e1b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10362/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Wales",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794908211903_Screenshot%202026-11-17%20163648.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794908233444_Screenshot%202026-11-17%20163709.png",
-            "time": "02:45:00",
-            "date": "18/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794944700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79cf9c5e1b_ba1fb08e_20261117.png?v=ba1fb08e",
             "width": 1600,
             "height": 1200
           }
