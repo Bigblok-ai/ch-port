@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-96ee3a33da",
+          "name": "Jeffrey De Luna vs Manfred Ruhfass | 20:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-96ee3a33da",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-96ee3a33da",
+                  "name": "Jeffrey De Luna vs Manfred Ruhfass",
+                  "streams": [
+                    {
+                      "id": "st-96ee3a33da",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96ee3a33da",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10380/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Manfred Ruhfass",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794916622268_Screenshot%202026-11-17%20185652.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794916646941_Screenshot%202026-11-17%20185724.png",
+            "time": "20:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794920400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-96ee3a33da_ea265e1e_20261117.png?v=ea265e1e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3892a14c95",
           "name": "Patric Jay Gonzales vs Sompol Saetang | 20:00 17/11",
           "type": "single",
@@ -888,79 +961,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-29a2cd71bf_3713782b_20261117.png?v=3713782b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-96ee3a33da",
-          "name": "Jeffrey De Luna vs Manfred Ruhfass | 20:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-96ee3a33da",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-96ee3a33da",
-                  "name": "Jeffrey De Luna vs Manfred Ruhfass",
-                  "streams": [
-                    {
-                      "id": "st-96ee3a33da",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96ee3a33da",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10380/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Manfred Ruhfass",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794916622268_Screenshot%202026-11-17%20185652.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794916646941_Screenshot%202026-11-17%20185724.png",
-            "time": "20:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794920400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-96ee3a33da_ea265e1e_20261117.png?v=ea265e1e",
             "width": 1600,
             "height": 1200
           }
