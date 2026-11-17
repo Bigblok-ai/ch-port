@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,38 +236,38 @@
           }
         },
         {
-          "id": "chtv-96ee3a33da",
-          "name": "Jeffrey De Luna vs Manfred Ruhfass | 20:00 17/11",
+          "id": "chtv-765aa9ff04",
+          "name": "Hsieh Chia Chen vs Michael Quinay | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-96ee3a33da",
+              "id": "src-765aa9ff04",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-96ee3a33da",
-                  "name": "Jeffrey De Luna vs Manfred Ruhfass",
+                  "id": "ct-765aa9ff04",
+                  "name": "Hsieh Chia Chen vs Michael Quinay",
                   "streams": [
                     {
-                      "id": "st-96ee3a33da",
+                      "id": "st-765aa9ff04",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-96ee3a33da",
-                          "name": "Stream",
+                          "id": "lnk-765aa9ff04",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10380/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10375/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,14 +288,14 @@
           ],
           "org_metadata": {
             "league": "Universal Bangkok Open 2026",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Manfred Ruhfass",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794916622268_Screenshot%202026-11-17%20185652.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794916646941_Screenshot%202026-11-17%20185724.png",
+            "team_a": "Hsieh Chia Chen",
+            "team_b": "Michael Quinay",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794916232739_Screenshot%202026-11-17%20185029.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794916256978_Screenshot%202026-11-17%20185053.png",
             "time": "20:00:00",
             "date": "17/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Tào A Man",
+            "is_live": true,
             "time_sort": 1794920400,
             "cate_type": "billiards"
           },
@@ -303,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-96ee3a33da_ea265e1e_20261117.png?v=ea265e1e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-765aa9ff04_961073c8_20261117.png?v=961073c8",
             "width": 1600,
             "height": 1200
           }
@@ -601,79 +601,6 @@
           }
         },
         {
-          "id": "chtv-765aa9ff04",
-          "name": "Hsieh Chia Chen vs Michael Quinay | 20:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-765aa9ff04",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-765aa9ff04",
-                  "name": "Hsieh Chia Chen vs Michael Quinay",
-                  "streams": [
-                    {
-                      "id": "st-765aa9ff04",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-765aa9ff04",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10375/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Hsieh Chia Chen",
-            "team_b": "Michael Quinay",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794916232739_Screenshot%202026-11-17%20185029.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794916256978_Screenshot%202026-11-17%20185053.png",
-            "time": "20:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794920400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-765aa9ff04_961073c8_20261117.png?v=961073c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-eb596bfd49",
           "name": "Jefrey Roda vs Assis Tadique | 20:00 17/11",
           "type": "single",
@@ -961,6 +888,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-29a2cd71bf_3713782b_20261117.png?v=3713782b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-96ee3a33da",
+          "name": "Jeffrey De Luna vs Manfred Ruhfass | 20:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-96ee3a33da",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-96ee3a33da",
+                  "name": "Jeffrey De Luna vs Manfred Ruhfass",
+                  "streams": [
+                    {
+                      "id": "st-96ee3a33da",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96ee3a33da",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10380/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Jeffrey De Luna",
+            "team_b": "Manfred Ruhfass",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794916622268_Screenshot%202026-11-17%20185652.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794916646941_Screenshot%202026-11-17%20185724.png",
+            "time": "20:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794920400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-96ee3a33da_ea265e1e_20261117.png?v=ea265e1e",
             "width": 1600,
             "height": 1200
           }
