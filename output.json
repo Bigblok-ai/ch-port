@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-0de5dd8984",
+          "name": "Jerico Banares vs Soumik Banerjee | 10:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0de5dd8984",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0de5dd8984",
+                  "name": "Jerico Banares vs Soumik Banerjee",
+                  "streams": [
+                    {
+                      "id": "st-0de5dd8984",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0de5dd8984",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10333/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Jerico Banares",
+            "team_b": "Soumik Banerjee",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794883291023_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794883290638_Singapore.png",
+            "time": "10:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794884400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0de5dd8984_04c9e28f_20261117.png?v=04c9e28f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-5488995a85",
           "name": "Ankit Malhotra vs Tinnaphob Wangtananont | 10:00 17/11",
           "type": "single",
