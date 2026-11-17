@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -237,16 +237,16 @@
         },
         {
           "id": "chtv-2a696b442d",
-          "name": "Phương nam vs tiến minh | 22:33 17/11 | Kèn Kèn",
+          "name": "Phương nam vs xuân nghệ an | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -256,7 +256,7 @@
               "contents": [
                 {
                   "id": "ct-2a696b442d",
-                  "name": "Phương nam vs tiến minh",
+                  "name": "Phương nam vs xuân nghệ an",
                   "streams": [
                     {
                       "id": "st-2a696b442d",
@@ -289,13 +289,13 @@
           "org_metadata": {
             "league": "top top",
             "team_a": "Phương nam",
-            "team_b": "tiến minh",
+            "team_b": "xuân nghệ an",
             "logo_a": "https://cdn-choangtv.com/img/logo/1794929637176_Screenshot%202026-10-15%20133326.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1794929636792_Screenshot%202026-10-15%20133326.png",
             "time": "22:33:00",
             "date": "17/11",
             "blv": "Kèn Kèn",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794929580,
             "cate_type": "billiards"
           },
@@ -304,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a696b442d_748dce0f_20261117.png?v=748dce0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bb1cc14547",
+          "name": "Ba Lan vs Thụy Điển | 02:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb1cc14547",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bb1cc14547",
+                  "name": "Ba Lan vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-bb1cc14547",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb1cc14547",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10363/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Ba Lan",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794908286709_Screenshot%202026-11-17%20163803.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794908312566_Screenshot%202026-11-17%20163827.png",
+            "time": "02:45:00",
+            "date": "18/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794944700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb1cc14547_cdcac014_20261117.png?v=cdcac014",
             "width": 1600,
             "height": 1200
           }
@@ -450,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79cf9c5e1b_ba1fb08e_20261117.png?v=ba1fb08e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bb1cc14547",
-          "name": "Ba Lan vs Thụy Điển | 02:45 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb1cc14547",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bb1cc14547",
-                  "name": "Ba Lan vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-bb1cc14547",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bb1cc14547",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10363/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Ba Lan",
-            "team_b": "Thụy Điển",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794908286709_Screenshot%202026-11-17%20163803.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794908312566_Screenshot%202026-11-17%20163827.png",
-            "time": "02:45:00",
-            "date": "18/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794944700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb1cc14547_cdcac014_20261117.png?v=cdcac014",
             "width": 1600,
             "height": 1200
           }
