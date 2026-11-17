@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-355764701f",
-          "name": "Ye Jyun Hong vs Edward Koyongian | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-355764701f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-355764701f",
-                  "name": "Ye Jyun Hong vs Edward Koyongian",
-                  "streams": [
-                    {
-                      "id": "st-355764701f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-355764701f",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10332/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Ye Jyun Hong",
-            "team_b": "Edward Koyongian",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794879346867_%C4%90%C3%A0i%20Loan.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
-            "time": "10:00:00",
-            "date": "17/11",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1794884400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-355764701f_765551ca_20261117.png?v=765551ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-bb0e099955",
           "name": "Hoàng Thái Duy vs Dũng Moi | Thập Cẩm",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-175b2953af",
-          "name": "John Vincent Vicedo vs Ahmad Aldulaimi | 12:00 17/11",
+          "id": "chtv-3e0e84ee52",
+          "name": "Sean Mark Malayan vs Dennis Orcollo | 12:00 17/11 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +105,23 @@
           ],
           "sources": [
             {
-              "id": "src-175b2953af",
+              "id": "src-3e0e84ee52",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-175b2953af",
-                  "name": "John Vincent Vicedo vs Ahmad Aldulaimi",
+                  "id": "ct-3e0e84ee52",
+                  "name": "Sean Mark Malayan vs Dennis Orcollo",
                   "streams": [
                     {
-                      "id": "st-175b2953af",
+                      "id": "st-3e0e84ee52",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-175b2953af",
-                          "name": "Stream",
+                          "id": "lnk-3e0e84ee52",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10342/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10338/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,13 +142,13 @@
           ],
           "org_metadata": {
             "league": "Universal Bangkok Open 2026",
-            "team_a": "John Vincent Vicedo",
-            "team_b": "Ahmad Aldulaimi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794889005268_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794889004937_Kuwait.png",
+            "team_a": "Sean Mark Malayan",
+            "team_b": "Dennis Orcollo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794888688611_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794888688331_Philippines.png",
             "time": "12:00:00",
             "date": "17/11",
-            "blv": "",
+            "blv": "Lee Min Hoo",
             "is_live": false,
             "time_sort": 1794891600,
             "cate_type": "billiards"
@@ -230,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-175b2953af_9a16aabb_20261117.png?v=9a16aabb",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3e0e84ee52_ce1add3e_20261117.png?v=ce1add3e",
             "width": 1600,
             "height": 1200
           }
@@ -382,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-3e0e84ee52",
-          "name": "Sean Mark Malayan vs Dennis Orcollo | 12:00 17/11",
+          "id": "chtv-175b2953af",
+          "name": "John Vincent Vicedo vs Ahmad Aldulaimi | 12:00 17/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-3e0e84ee52",
+              "id": "src-175b2953af",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3e0e84ee52",
-                  "name": "Sean Mark Malayan vs Dennis Orcollo",
+                  "id": "ct-175b2953af",
+                  "name": "John Vincent Vicedo vs Ahmad Aldulaimi",
                   "streams": [
                     {
-                      "id": "st-3e0e84ee52",
+                      "id": "st-175b2953af",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3e0e84ee52",
+                          "id": "lnk-175b2953af",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10338/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10342/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -434,10 +361,10 @@
           ],
           "org_metadata": {
             "league": "Universal Bangkok Open 2026",
-            "team_a": "Sean Mark Malayan",
-            "team_b": "Dennis Orcollo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794888688611_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794888688331_Philippines.png",
+            "team_a": "John Vincent Vicedo",
+            "team_b": "Ahmad Aldulaimi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794889005268_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794889004937_Kuwait.png",
             "time": "12:00:00",
             "date": "17/11",
             "blv": "",
@@ -449,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3e0e84ee52_ce1add3e_20261117.png?v=ce1add3e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-175b2953af_9a16aabb_20261117.png?v=9a16aabb",
             "width": 1600,
             "height": 1200
           }
