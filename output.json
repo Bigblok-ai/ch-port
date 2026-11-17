@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-ff8de58f16",
-          "name": "Aloysius Yapp vs Hwang Yong | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff8de58f16",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ff8de58f16",
-                  "name": "Aloysius Yapp vs Hwang Yong",
-                  "streams": [
-                    {
-                      "id": "st-ff8de58f16",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff8de58f16",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10343/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Hwang Yong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794895905380_Aloysius%20Yapp.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794895919021_H%C3%A0n.png",
-            "time": "14:00:00",
-            "date": "17/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794898800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff8de58f16_92394ad0_20261117.png?v=92394ad0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-fa7628dd60",
           "name": "Michael Baoanan vs Atsuhiro Saito | Thập Cẩm",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fa7628dd60_ccb144e9_20261117.png?v=ccb144e9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ff8de58f16",
+          "name": "Aloysius Yapp vs Hwang Yong | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff8de58f16",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ff8de58f16",
+                  "name": "Aloysius Yapp vs Hwang Yong",
+                  "streams": [
+                    {
+                      "id": "st-ff8de58f16",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff8de58f16",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10343/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Hwang Yong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794895905380_Aloysius%20Yapp.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794895919021_H%C3%A0n.png",
+            "time": "14:00:00",
+            "date": "17/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794898800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff8de58f16_92394ad0_20261117.png?v=92394ad0",
             "width": 1600,
             "height": 1200
           }
