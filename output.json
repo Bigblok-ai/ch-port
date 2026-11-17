@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-ff8de58f16",
-          "name": "Aloysius Yapp vs Hwang Yong | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff8de58f16",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ff8de58f16",
-                  "name": "Aloysius Yapp vs Hwang Yong",
-                  "streams": [
-                    {
-                      "id": "st-ff8de58f16",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff8de58f16",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10343/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Hwang Yong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794895905380_Aloysius%20Yapp.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794895919021_H%C3%A0n.png",
-            "time": "14:00:00",
-            "date": "17/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1794898800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff8de58f16_92394ad0_20261117.png?v=92394ad0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-fa7628dd60",
           "name": "Michael Baoanan vs Atsuhiro Saito | Thập Cẩm",
           "type": "single",
@@ -163,111 +90,38 @@
           }
         },
         {
-          "id": "chtv-b0b3db854a",
-          "name": "Kiên Pháp vs Nguyễn Viết Tâm | 15:00 17/11",
+          "id": "chtv-ff8de58f16",
+          "name": "Aloysius Yapp vs Hwang Yong | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-b0b3db854a",
+              "id": "src-ff8de58f16",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b0b3db854a",
-                  "name": "Kiên Pháp vs Nguyễn Viết Tâm",
+                  "id": "ct-ff8de58f16",
+                  "name": "Aloysius Yapp vs Hwang Yong",
                   "streams": [
                     {
-                      "id": "st-b0b3db854a",
+                      "id": "st-ff8de58f16",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b0b3db854a",
-                          "name": "Stream",
+                          "id": "lnk-ff8de58f16",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10350/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIX OPEN",
-            "team_a": "Kiên Pháp",
-            "team_b": "Nguyễn Viết Tâm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794901248669_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794901248399_Vi%E1%BB%87t%20Nam.png",
-            "time": "15:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794902400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b0b3db854a_d1e617dc_20261117.png?v=d1e617dc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-59c9ead13a",
-          "name": "Oliver Szolnoki vs Kyumin Kyoung | 16:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59c9ead13a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-59c9ead13a",
-                  "name": "Oliver Szolnoki vs Kyumin Kyoung",
-                  "streams": [
-                    {
-                      "id": "st-59c9ead13a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59c9ead13a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10351/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10343/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,22 +142,22 @@
           ],
           "org_metadata": {
             "league": "Universal Bangkok Open 2026",
-            "team_a": "Oliver Szolnoki",
-            "team_b": "Kyumin Kyoung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794903336274_Oliver%20Szolonki.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794903346243_H%C3%A0n.png",
-            "time": "16:00:00",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Hwang Yong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794895905380_Aloysius%20Yapp.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794895919021_H%C3%A0n.png",
+            "time": "14:00:00",
             "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794906000,
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794898800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-59c9ead13a_e2c8e9e5_20261117.png?v=e2c8e9e5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff8de58f16_92394ad0_20261117.png?v=92394ad0",
             "width": 1600,
             "height": 1200
           }
@@ -382,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-59c9ead13a",
+          "name": "Oliver Szolnoki vs Kyumin Kyoung | 16:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59c9ead13a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-59c9ead13a",
+                  "name": "Oliver Szolnoki vs Kyumin Kyoung",
+                  "streams": [
+                    {
+                      "id": "st-59c9ead13a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-59c9ead13a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10351/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Oliver Szolnoki",
+            "team_b": "Kyumin Kyoung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794903336274_Oliver%20Szolonki.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794903346243_H%C3%A0n.png",
+            "time": "16:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794906000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-59c9ead13a_e2c8e9e5_20261117.png?v=e2c8e9e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-55db7c905a",
           "name": "Aivhan Maluto vs Min Hu Baek | 16:00 17/11",
           "type": "single",
@@ -450,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-55db7c905a_7b161b2e_20261117.png?v=7b161b2e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-76ecb523c4",
-          "name": "Christopher Alexander vs Jaycee Cordova Garcia | 16:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76ecb523c4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-76ecb523c4",
-                  "name": "Christopher Alexander vs Jaycee Cordova Garcia",
-                  "streams": [
-                    {
-                      "id": "st-76ecb523c4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76ecb523c4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10352/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Christopher Alexander",
-            "team_b": "Jaycee Cordova Garcia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794903498901_VQ%20Anh.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794903498622_Philippines.png",
-            "time": "16:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794906000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-76ecb523c4_a6d9c282_20261117.png?v=a6d9c282",
             "width": 1600,
             "height": 1200
           }
@@ -601,79 +455,6 @@
           }
         },
         {
-          "id": "chtv-9051250390",
-          "name": "Mickey Krause vs Worratat Sittisaranwattachai | 17:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9051250390",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9051250390",
-                  "name": "Mickey Krause vs Worratat Sittisaranwattachai",
-                  "streams": [
-                    {
-                      "id": "st-9051250390",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9051250390",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10355/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Mickey Krause",
-            "team_b": "Worratat Sittisaranwattachai",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794903656399_Mickey%20Krause.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794903688652_Screenshot%202026-11-17%20131246.png",
-            "time": "17:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794909600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9051250390_014aa145_20261117.png?v=014aa145",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-911c837513",
           "name": "Roland Garcia vs Han Yu | 17:00 17/11",
           "type": "single",
@@ -742,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-911c837513_5e26a264_20261117.png?v=5e26a264",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9051250390",
+          "name": "Mickey Krause vs Worratat Sittisaranwattachai | 17:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9051250390",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9051250390",
+                  "name": "Mickey Krause vs Worratat Sittisaranwattachai",
+                  "streams": [
+                    {
+                      "id": "st-9051250390",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9051250390",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10355/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Mickey Krause",
+            "team_b": "Worratat Sittisaranwattachai",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794903656399_Mickey%20Krause.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794903688652_Screenshot%202026-11-17%20131246.png",
+            "time": "17:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794909600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9051250390_014aa145_20261117.png?v=014aa145",
             "width": 1600,
             "height": 1200
           }
