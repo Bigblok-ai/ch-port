@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7483efeb4c_b45fa3ad_20261117.png?v=b45fa3ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6982ed6166",
-          "name": "CAO Jin vs Edwin GAMAS | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6982ed6166",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6982ed6166",
-                  "name": "CAO Jin vs Edwin GAMAS",
-                  "streams": [
-                    {
-                      "id": "st-6982ed6166",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6982ed6166",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10373/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 獨牙橫琴中式九球公開賽",
-            "team_a": "CAO Jin",
-            "team_b": "Edwin GAMAS",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794915363256_Screenshot%202026-11-13%20140733.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794915384874_Screenshot%202026-11-17%20183621.png",
-            "time": "18:35:00",
-            "date": "17/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794915300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6982ed6166_897142b0_20261117.png?v=897142b0",
             "width": 1600,
             "height": 1200
           }
@@ -304,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-765aa9ff04_961073c8_20261117.png?v=961073c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-45c0bc6c3a",
-          "name": "Jonas Magpantay vs Sean Mark Malayan | 20:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45c0bc6c3a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-45c0bc6c3a",
-                  "name": "Jonas Magpantay vs Sean Mark Malayan",
-                  "streams": [
-                    {
-                      "id": "st-45c0bc6c3a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45c0bc6c3a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10382/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Jonas Magpantay",
-            "team_b": "Sean Mark Malayan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794916786421_Screenshot%202026-11-17%20185942.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794916812939_Screenshot%202026-11-17%20190008.png",
-            "time": "20:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794920400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-45c0bc6c3a_ccfa9dd0_20261117.png?v=ccfa9dd0",
             "width": 1600,
             "height": 1200
           }
@@ -961,6 +815,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-25518d3aac_e17c3c0d_20261117.png?v=e17c3c0d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-45c0bc6c3a",
+          "name": "Jonas Magpantay vs Sean Mark Malayan | 20:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45c0bc6c3a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-45c0bc6c3a",
+                  "name": "Jonas Magpantay vs Sean Mark Malayan",
+                  "streams": [
+                    {
+                      "id": "st-45c0bc6c3a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-45c0bc6c3a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10382/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Jonas Magpantay",
+            "team_b": "Sean Mark Malayan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794916786421_Screenshot%202026-11-17%20185942.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794916812939_Screenshot%202026-11-17%20190008.png",
+            "time": "20:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794920400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-45c0bc6c3a_ccfa9dd0_20261117.png?v=ccfa9dd0",
             "width": 1600,
             "height": 1200
           }
