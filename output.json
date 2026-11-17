@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ae0cc09897",
-          "name": "OWAT vs PISOK | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae0cc09897",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ae0cc09897",
-                  "name": "OWAT vs PISOK",
-                  "streams": [
-                    {
-                      "id": "st-ae0cc09897",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ae0cc09897",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10384/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "OWAT",
-            "team_b": "PISOK",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794924404547_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794924405105_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "21:06:00",
-            "date": "17/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794924360,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ae0cc09897_f4941d12_20261118.png?v=f4941d12",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d0e137f9f3",
           "name": "JEKJEK KABANKALAN vs KEIFER DUMAGUETE | SÊ KÔÔ",
