@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-61359e96b3",
-          "name": "Chris Melling vs Jerico Banares | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61359e96b3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-61359e96b3",
-                  "name": "Chris Melling vs Jerico Banares",
-                  "streams": [
-                    {
-                      "id": "st-61359e96b3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-61359e96b3",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10356/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Chris Melling",
-            "team_b": "Jerico Banares",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794903727038_VQ%20Anh.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794903726785_Philippines.png",
-            "time": "16:00:00",
-            "date": "17/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794906000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-61359e96b3_8b755bda_20261117.png?v=8b755bda",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-64bf2eb5fc",
           "name": "Luo huilian vs Lai kunzhang | Bỉm Sữa",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-64bf2eb5fc_fdbfea39_20261117.png?v=fdbfea39",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-caac206da7",
+          "name": "Carlo Biado vs Billy Robiansyah | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-caac206da7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-caac206da7",
+                  "name": "Carlo Biado vs Billy Robiansyah",
+                  "streams": [
+                    {
+                      "id": "st-caac206da7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-caac206da7",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10365/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Carlo Biado",
+            "team_b": "Billy Robiansyah",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794910638825_Screenshot%202026-11-17%20171715.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794910674599_Screenshot%202026-11-17%20171751.png",
+            "time": "18:00:00",
+            "date": "17/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1794913200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-caac206da7_44778cad_20261117.png?v=44778cad",
             "width": 1600,
             "height": 1200
           }
@@ -309,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-7483efeb4c",
-          "name": "Irsal Afrinneza Nasution vs Marcel Price | 18:00 17/11",
+          "id": "chtv-5da360c9f1",
+          "name": "Marvin Asis vs Mohammad Mohibul Hasan | 18:00 17/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-7483efeb4c",
+              "id": "src-5da360c9f1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7483efeb4c",
-                  "name": "Irsal Afrinneza Nasution vs Marcel Price",
+                  "id": "ct-5da360c9f1",
+                  "name": "Marvin Asis vs Mohammad Mohibul Hasan",
                   "streams": [
                     {
-                      "id": "st-7483efeb4c",
+                      "id": "st-5da360c9f1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7483efeb4c",
+                          "id": "lnk-5da360c9f1",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10371/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10372/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,10 +361,10 @@
           ],
           "org_metadata": {
             "league": "Universal Bangkok Open 2026",
-            "team_a": "Irsal Afrinneza Nasution",
-            "team_b": "Marcel Price",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794911481383_Screenshot%202026-11-17%20173118.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794911508354_Screenshot%202026-11-17%20173143.png",
+            "team_a": "Marvin Asis",
+            "team_b": "Mohammad Mohibul Hasan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794911552605_Screenshot%202026-11-17%20173225.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794911602112_Screenshot%202026-11-17%20173316.png",
             "time": "18:00:00",
             "date": "17/11",
             "blv": "",
@@ -376,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7483efeb4c_b45fa3ad_20261117.png?v=b45fa3ad",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5da360c9f1_18e00739_20261117.png?v=18e00739",
             "width": 1600,
             "height": 1200
           }
@@ -455,152 +455,6 @@
           }
         },
         {
-          "id": "chtv-5da360c9f1",
-          "name": "Marvin Asis vs Mohammad Mohibul Hasan | 18:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5da360c9f1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5da360c9f1",
-                  "name": "Marvin Asis vs Mohammad Mohibul Hasan",
-                  "streams": [
-                    {
-                      "id": "st-5da360c9f1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5da360c9f1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10372/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Marvin Asis",
-            "team_b": "Mohammad Mohibul Hasan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794911552605_Screenshot%202026-11-17%20173225.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794911602112_Screenshot%202026-11-17%20173316.png",
-            "time": "18:00:00",
-            "date": "17/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794913200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5da360c9f1_18e00739_20261117.png?v=18e00739",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-caac206da7",
-          "name": "Carlo Biado vs Billy Robiansyah | 18:00 17/11 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-caac206da7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-caac206da7",
-                  "name": "Carlo Biado vs Billy Robiansyah",
-                  "streams": [
-                    {
-                      "id": "st-caac206da7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-caac206da7",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10365/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026",
-            "team_a": "Carlo Biado",
-            "team_b": "Billy Robiansyah",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794910638825_Screenshot%202026-11-17%20171715.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794910674599_Screenshot%202026-11-17%20171751.png",
-            "time": "18:00:00",
-            "date": "17/11",
-            "blv": "Lee Min Hoo",
-            "is_live": false,
-            "time_sort": 1794913200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-caac206da7_44778cad_20261117.png?v=44778cad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-d20243c189",
           "name": "Hamza Waidi vs Chang Tzu Chien | 18:00 17/11",
           "type": "single",
@@ -669,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d20243c189_bea9b16a_20261117.png?v=bea9b16a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7483efeb4c",
+          "name": "Irsal Afrinneza Nasution vs Marcel Price | 18:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7483efeb4c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7483efeb4c",
+                  "name": "Irsal Afrinneza Nasution vs Marcel Price",
+                  "streams": [
+                    {
+                      "id": "st-7483efeb4c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7483efeb4c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10371/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Irsal Afrinneza Nasution",
+            "team_b": "Marcel Price",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794911481383_Screenshot%202026-11-17%20173118.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794911508354_Screenshot%202026-11-17%20173143.png",
+            "time": "18:00:00",
+            "date": "17/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794913200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7483efeb4c_b45fa3ad_20261117.png?v=b45fa3ad",
             "width": 1600,
             "height": 1200
           }
