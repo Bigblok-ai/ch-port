@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-64bf2eb5fc",
+          "name": "Luo huilian vs Lai kunzhang | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64bf2eb5fc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-64bf2eb5fc",
+                  "name": "Luo huilian vs Lai kunzhang",
+                  "streams": [
+                    {
+                      "id": "st-64bf2eb5fc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64bf2eb5fc",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10364/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 獨牙橫琴中式九球公開賽",
+            "team_a": "Luo huilian",
+            "team_b": "Lai kunzhang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794910472682_Screenshot%202026-11-09%20140328.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794910479713_Screenshot%202026-11-09%20140328.png",
+            "time": "17:13:00",
+            "date": "17/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1794910380,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-64bf2eb5fc_fdbfea39_20261117.png?v=fdbfea39",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-911c837513",
           "name": "Roland Garcia vs Han Yu | 17:00 17/11",
           "type": "single",
@@ -236,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-64bf2eb5fc",
-          "name": "Luo huilian vs Lai kunzhang | 17:13 17/11 | Bỉm Sữa",
+          "id": "chtv-caac206da7",
+          "name": "Carlo Biado vs Billy Robiansyah | 18:00 17/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-64bf2eb5fc",
+              "id": "src-caac206da7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-64bf2eb5fc",
-                  "name": "Luo huilian vs Lai kunzhang",
+                  "id": "ct-caac206da7",
+                  "name": "Carlo Biado vs Billy Robiansyah",
                   "streams": [
                     {
-                      "id": "st-64bf2eb5fc",
+                      "id": "st-caac206da7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-64bf2eb5fc",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-caac206da7",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10364/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10365/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,23 +360,23 @@
             }
           ],
           "org_metadata": {
-            "league": "2026 獨牙橫琴中式九球公開賽",
-            "team_a": "Luo huilian",
-            "team_b": "Lai kunzhang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794910472682_Screenshot%202026-11-09%20140328.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794910479713_Screenshot%202026-11-09%20140328.png",
-            "time": "17:13:00",
+            "league": "Universal Bangkok Open 2026",
+            "team_a": "Carlo Biado",
+            "team_b": "Billy Robiansyah",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794910638825_Screenshot%202026-11-17%20171715.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794910674599_Screenshot%202026-11-17%20171751.png",
+            "time": "18:00:00",
             "date": "17/11",
-            "blv": "Bỉm Sữa",
+            "blv": "",
             "is_live": false,
-            "time_sort": 1794910380,
+            "time_sort": 1794913200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-64bf2eb5fc_fdbfea39_20261117.png?v=fdbfea39",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-caac206da7_44778cad_20261117.png?v=44778cad",
             "width": 1600,
             "height": 1200
           }
