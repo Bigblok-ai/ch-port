@@ -17,6 +17,79 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-d27f196423",
+          "name": "TKON uy tín vs Ngô Hồng Thắng | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d27f196423",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d27f196423",
+                  "name": "TKON uy tín vs Ngô Hồng Thắng",
+                  "streams": [
+                    {
+                      "id": "st-d27f196423",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d27f196423",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10392/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
+            "team_a": "TKON uy tín",
+            "team_b": "Ngô Hồng Thắng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "10:30:00",
+            "date": "18/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1794972600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d27f196423_bb6bc433_20261118.png?v=bb6bc433",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b71a01ed39",
           "name": "Hoàng Minh Tài vs Xuân Nghệ An | SÊ KÔÔ",
           "type": "single",
@@ -85,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b71a01ed39_ef434ece_20261118.png?v=ef434ece",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-01d16d2296",
-          "name": "Bình Trọc vs TiếnMinh  Raumá | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-01d16d2296",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-01d16d2296",
-                  "name": "Bình Trọc vs TiếnMinh  Raumá",
-                  "streams": [
-                    {
-                      "id": "st-01d16d2296",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01d16d2296",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10390/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
-            "team_a": "Bình Trọc",
-            "team_b": "TiếnMinh  Raumá",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794966669044_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794966680282_Ti%E1%BA%BFn%20Minh%20TH.jpg",
-            "time": "10:30:00",
-            "date": "18/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794972600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-01d16d2296_08717abb_20261118.png?v=08717abb",
             "width": 1600,
             "height": 1200
           }
@@ -236,8 +236,8 @@
           }
         },
         {
-          "id": "chtv-d27f196423",
-          "name": "TKON uy tín vs Ngô Hồng Thắng | Bỉm Sữa",
+          "id": "chtv-01d16d2296",
+          "name": "Bình Trọc vs TiếnMinh  Raumá | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +251,23 @@
           ],
           "sources": [
             {
-              "id": "src-d27f196423",
+              "id": "src-01d16d2296",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d27f196423",
-                  "name": "TKON uy tín vs Ngô Hồng Thắng",
+                  "id": "ct-01d16d2296",
+                  "name": "Bình Trọc vs TiếnMinh  Raumá",
                   "streams": [
                     {
-                      "id": "st-d27f196423",
+                      "id": "st-01d16d2296",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d27f196423",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-01d16d2296",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10392/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10390/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,13 +288,13 @@
           ],
           "org_metadata": {
             "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
-            "team_a": "TKON uy tín",
-            "team_b": "Ngô Hồng Thắng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "Bình Trọc",
+            "team_b": "TiếnMinh  Raumá",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794966669044_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794966680282_Ti%E1%BA%BFn%20Minh%20TH.jpg",
             "time": "10:30:00",
             "date": "18/11",
-            "blv": "Bỉm Sữa",
+            "blv": "Thập Cẩm",
             "is_live": true,
             "time_sort": 1794972600,
             "cate_type": "billiards"
@@ -303,80 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d27f196423_bb6bc433_20261118.png?v=bb6bc433",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ad03e38029",
-          "name": "Nguyễn Thanh Tùng vs Hoàng Thái Duy | 10:30 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad03e38029",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ad03e38029",
-                  "name": "Nguyễn Thanh Tùng vs Hoàng Thái Duy",
-                  "streams": [
-                    {
-                      "id": "st-ad03e38029",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad03e38029",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10394/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
-            "team_a": "Nguyễn Thanh Tùng",
-            "team_b": "Hoàng Thái Duy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:30:00",
-            "date": "18/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794972600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ad03e38029_d4e8244d_20261118.png?v=d4e8244d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-01d16d2296_08717abb_20261118.png?v=08717abb",
             "width": 1600,
             "height": 1200
           }
