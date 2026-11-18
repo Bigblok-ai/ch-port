@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,38 +90,38 @@
           }
         },
         {
-          "id": "chtv-1aaa04f67f",
-          "name": "Đỗ Thế Kiên vs Lê Đức Thành | Kèn Kèn",
+          "id": "chtv-5dd1a1c01d",
+          "name": "Đãng BN vs Nguyễn Hoàng Tuấn | 13:30 18/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-1aaa04f67f",
+              "id": "src-5dd1a1c01d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1aaa04f67f",
-                  "name": "Đỗ Thế Kiên vs Lê Đức Thành",
+                  "id": "ct-5dd1a1c01d",
+                  "name": "Đãng BN vs Nguyễn Hoàng Tuấn",
                   "streams": [
                     {
-                      "id": "st-1aaa04f67f",
+                      "id": "st-5dd1a1c01d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1aaa04f67f",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-5dd1a1c01d",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10398/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10400/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -142,29 +142,29 @@
           ],
           "org_metadata": {
             "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
-            "team_a": "Đỗ Thế Kiên",
-            "team_b": "Lê Đức Thành",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794976556615_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794976556334_Vi%E1%BB%87t%20Nam.png",
-            "time": "12:30:00",
+            "team_a": "Đãng BN",
+            "team_b": "Nguyễn Hoàng Tuấn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794982696216_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794982695917_Vi%E1%BB%87t%20Nam.png",
+            "time": "13:30:00",
             "date": "18/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794979800,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794983400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1aaa04f67f_9f2901c0_20261118.png?v=9f2901c0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5dd1a1c01d_08f892e0_20261118.png?v=08f892e0",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-18d1d1a840",
-          "name": "Nguyễn Mạnh Dũng vs Hoàng Thái Duy | 13:30 18/11",
+          "name": "Nguyễn Mạnh Dũng vs Hoàng Thái Duy | 13:30 18/11 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -191,7 +191,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-18d1d1a840",
-                          "name": "Stream",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10401/index.m3u8",
@@ -221,7 +221,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794982755374_Vi%E1%BB%87t%20Nam.png",
             "time": "13:30:00",
             "date": "18/11",
-            "blv": "",
+            "blv": "Lee Min Hoo",
             "is_live": false,
             "time_sort": 1794983400,
             "cate_type": "billiards"
@@ -310,7 +310,7 @@
         },
         {
           "id": "chtv-0abe6c9a30",
-          "name": "Đỗ Anh Tuấn vs Trịnh Văn Bình | 13:30 18/11",
+          "name": "Đỗ Anh Tuấn vs Trịnh Văn Bình | 13:30 18/11 | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -337,7 +337,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-0abe6c9a30",
-                          "name": "Stream",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10399/index.m3u8",
@@ -367,7 +367,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794982596260_Vi%E1%BB%87t%20Nam.png",
             "time": "13:30:00",
             "date": "18/11",
-            "blv": "",
+            "blv": "Kèn Kèn",
             "is_live": false,
             "time_sort": 1794983400,
             "cate_type": "billiards"
@@ -377,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0abe6c9a30_76bbc1f1_20261118.png?v=76bbc1f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5dd1a1c01d",
-          "name": "Đãng BN vs Nguyễn Hoàng Tuấn | 13:30 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5dd1a1c01d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5dd1a1c01d",
-                  "name": "Đãng BN vs Nguyễn Hoàng Tuấn",
-                  "streams": [
-                    {
-                      "id": "st-5dd1a1c01d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5dd1a1c01d",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10400/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
-            "team_a": "Đãng BN",
-            "team_b": "Nguyễn Hoàng Tuấn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794982696216_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794982695917_Vi%E1%BB%87t%20Nam.png",
-            "time": "13:30:00",
-            "date": "18/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794983400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5dd1a1c01d_08f892e0_20261118.png?v=08f892e0",
             "width": 1600,
             "height": 1200
           }
