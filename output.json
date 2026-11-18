@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-634e007dd5_ec524fc0_20261118.png?v=ec524fc0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7543569d5d",
+          "name": "Lương Chí Dũng vs Chu Việt Hoàng | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7543569d5d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7543569d5d",
+                  "name": "Lương Chí Dũng vs Chu Việt Hoàng",
+                  "streams": [
+                    {
+                      "id": "st-7543569d5d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7543569d5d",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10395/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
+            "team_a": "Lương Chí Dũng",
+            "team_b": "Chu Việt Hoàng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794969349172_L%C6%B0%C6%A1ng%20Ch%C3%AD%20D%C5%A9ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794969365110_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
+            "time": "12:30:00",
+            "date": "18/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1794979800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7543569d5d_eeb9c2cd_20261118.png?v=eeb9c2cd",
             "width": 1600,
             "height": 1200
           }
@@ -304,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6c1d640ed_5e87b017_20261118.png?v=5e87b017",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7543569d5d",
-          "name": "Lương Chí Dũng vs Chu Việt Hoàng | 12:30 18/11 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7543569d5d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7543569d5d",
-                  "name": "Lương Chí Dũng vs Chu Việt Hoàng",
-                  "streams": [
-                    {
-                      "id": "st-7543569d5d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7543569d5d",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10395/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
-            "team_a": "Lương Chí Dũng",
-            "team_b": "Chu Việt Hoàng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794969349172_L%C6%B0%C6%A1ng%20Ch%C3%AD%20D%C5%A9ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794969365110_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "time": "12:30:00",
-            "date": "18/11",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1794979800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7543569d5d_eeb9c2cd_20261118.png?v=eeb9c2cd",
             "width": 1600,
             "height": 1200
           }
