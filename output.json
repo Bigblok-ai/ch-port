@@ -234,6 +234,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-4147c1f82f",
+          "name": "Bora Duru vs Đỗ Thế Kiên | 15:00 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4147c1f82f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4147c1f82f",
+                  "name": "Bora Duru vs Đỗ Thế Kiên",
+                  "streams": [
+                    {
+                      "id": "st-4147c1f82f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4147c1f82f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10404/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
+            "team_a": "Bora Duru",
+            "team_b": "Đỗ Thế Kiên",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794986528732_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794986528435_Vi%E1%BB%87t%20Nam.png",
+            "time": "15:00:00",
+            "date": "18/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794988800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4147c1f82f_a5726285_20261118.png?v=a5726285",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
