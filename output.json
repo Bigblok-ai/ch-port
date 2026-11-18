@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-bb11cde7f2",
-          "name": "Đỗ Thế Kiên vs Lương Chí Dũng | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb11cde7f2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bb11cde7f2",
-                  "name": "Đỗ Thế Kiên vs Lương Chí Dũng",
-                  "streams": [
-                    {
-                      "id": "st-bb11cde7f2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bb11cde7f2",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10408/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIX OPEN POOL CHAMPIONSHIP 2026",
-            "team_a": "Đỗ Thế Kiên",
-            "team_b": "Lương Chí Dũng",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794996411373_Screenshot%202026-10-15%20133326.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794996412298_Screenshot%202026-10-15%20133326.png",
-            "time": "17:30:00",
-            "date": "18/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1794997800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb11cde7f2_31d7ce94_20261118.png?v=31d7ce94",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-b0b1f0c06a",
           "name": "Edwin Gamas vs Jed Bata 610 | Kèn Kèn",
