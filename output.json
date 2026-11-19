@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7eccc9dd8_28e09424_20261119.png?v=28e09424",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-21fc0e34d0",
-          "name": "Han Yu vs Julien Souilleux | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-21fc0e34d0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-21fc0e34d0",
-                  "name": "Han Yu vs Julien Souilleux",
-                  "streams": [
-                    {
-                      "id": "st-21fc0e34d0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21fc0e34d0",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10434/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Han Yu",
-            "team_b": "Julien Souilleux",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795068446265_Trung%20Qu%E1%BB%91c.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795068445864_Ph%C3%A1p.png",
-            "time": "14:00:00",
-            "date": "19/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1795071600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-21fc0e34d0_0fff5780_20261119.png?v=0fff5780",
             "width": 1600,
             "height": 1200
           }
@@ -237,16 +164,16 @@
         },
         {
           "id": "chtv-6b635a357f",
-          "name": "Wu Kun Lin vs Pierfrancesco Garzia | 14:00 19/11",
+          "name": "Wu Kun Lin vs Pierfrancesco Garzia | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -264,7 +191,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-6b635a357f",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10433/index.m3u8",
@@ -294,8 +221,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795068386524_Italy.png",
             "time": "14:00:00",
             "date": "19/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Thập Cẩm",
+            "is_live": true,
             "time_sort": 1795071600,
             "cate_type": "billiards"
           },
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6b635a357f_3573f6f4_20261119.png?v=3573f6f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-21fc0e34d0",
+          "name": "Han Yu vs Julien Souilleux | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21fc0e34d0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-21fc0e34d0",
+                  "name": "Han Yu vs Julien Souilleux",
+                  "streams": [
+                    {
+                      "id": "st-21fc0e34d0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21fc0e34d0",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10434/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Han Yu",
+            "team_b": "Julien Souilleux",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795068446265_Trung%20Qu%E1%BB%91c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795068445864_Ph%C3%A1p.png",
+            "time": "14:00:00",
+            "date": "19/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795071600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-21fc0e34d0_0fff5780_20261119.png?v=0fff5780",
             "width": 1600,
             "height": 1200
           }
