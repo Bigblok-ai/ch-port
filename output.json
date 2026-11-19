@@ -11,96 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-9cd6ab3638",
-          "name": "Chang Sheng Yi vs Roy Wijaya | 10:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9cd6ab3638",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9cd6ab3638",
-                  "name": "Chang Sheng Yi vs Roy Wijaya",
-                  "streams": [
-                    {
-                      "id": "st-9cd6ab3638",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9cd6ab3638",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10427/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Chang Sheng Yi",
-            "team_b": "Roy Wijaya",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764454665939_Hui%20Jen%20Lin.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
-            "time": "10:00:00",
-            "date": "19/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795057200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9cd6ab3638_18c760d9_20261119.png?v=18c760d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e7fba7b35f",
-          "name": "Albert Januarta vs Jovan Wedana | 10:00 19/11",
+          "name": "Albert Januarta vs Jovan Wedana | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -118,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-e7fba7b35f",
-                          "name": "Stream",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10424/index.m3u8",
@@ -148,8 +75,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1769287681496_2008.png",
             "time": "10:00:00",
             "date": "19/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Tào A Man",
+            "is_live": true,
             "time_sort": 1795057200,
             "cate_type": "billiards"
           },
@@ -164,16 +91,16 @@
         },
         {
           "id": "chtv-3b6de8633e",
-          "name": "Carlo Biado vs Jefry Zen | 10:00 19/11",
+          "name": "Carlo Biado vs Jefry Zen | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -191,7 +118,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-3b6de8633e",
-                          "name": "Stream",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10422/index.m3u8",
@@ -221,8 +148,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1769287503184_2008.png",
             "time": "10:00:00",
             "date": "19/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Bỉm Sữa",
+            "is_live": true,
             "time_sort": 1795057200,
             "cate_type": "billiards"
           },
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3b6de8633e_34690ca3_20261119.png?v=34690ca3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9cd6ab3638",
+          "name": "Chang Sheng Yi vs Roy Wijaya | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9cd6ab3638",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9cd6ab3638",
+                  "name": "Chang Sheng Yi vs Roy Wijaya",
+                  "streams": [
+                    {
+                      "id": "st-9cd6ab3638",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9cd6ab3638",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10427/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Chang Sheng Yi",
+            "team_b": "Roy Wijaya",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764454665939_Hui%20Jen%20Lin.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1766638122501_HUY.jpg",
+            "time": "10:00:00",
+            "date": "19/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1795057200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9cd6ab3638_18c760d9_20261119.png?v=18c760d9",
             "width": 1600,
             "height": 1200
           }
