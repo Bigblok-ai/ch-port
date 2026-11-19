@@ -307,6 +307,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-018565e7ec",
+          "name": "Đỗ Thế Kiên vs Hoàng Minh Tài | 17:00 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-018565e7ec",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-018565e7ec",
+                  "name": "Đỗ Thế Kiên vs Hoàng Minh Tài",
+                  "streams": [
+                    {
+                      "id": "st-018565e7ec",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-018565e7ec",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10437/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Đỗ Thế Kiên",
+            "team_b": "Hoàng Minh Tài",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795073735584_Ki%C3%AAn%20Ph%C3%A1p%20.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795073739086_Ho%C3%A0ng%20Minh%20T%C3%A0i.png",
+            "time": "17:00:00",
+            "date": "19/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795082400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-018565e7ec_64da969c_20261119.png?v=64da969c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
