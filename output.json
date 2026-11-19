@@ -309,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-76802b70e6",
+          "name": "Billy Robiansyah vs Carlo Biado | 12:00 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76802b70e6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-76802b70e6",
+                  "name": "Billy Robiansyah vs Carlo Biado",
+                  "streams": [
+                    {
+                      "id": "st-76802b70e6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-76802b70e6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10430/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Billy Robiansyah",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795062903818_Indonesia.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795062903482_Philippines.png",
+            "time": "12:00:00",
+            "date": "19/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795064400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-76802b70e6_55371070_20261119.png?v=55371070",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-e7eccc9dd8",
           "name": "Kiên Pháp vs Vũ Văn Minh | 13:30 19/11",
           "type": "single",
