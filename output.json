@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-83c48ed1bb",
-          "name": "James Aranas vs Julian Serradilla | 19:00 19/11",
+          "id": "chtv-fada65382a",
+          "name": "Albert Januarta vs Marvin Asis | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-83c48ed1bb",
+              "id": "src-fada65382a",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-83c48ed1bb",
-                  "name": "James Aranas vs Julian Serradilla",
+                  "id": "ct-fada65382a",
+                  "name": "Albert Januarta vs Marvin Asis",
                   "streams": [
                     {
-                      "id": "st-83c48ed1bb",
+                      "id": "st-fada65382a",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-83c48ed1bb",
-                          "name": "Stream",
+                          "id": "lnk-fada65382a",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10452/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10453/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,14 +215,14 @@
           ],
           "org_metadata": {
             "league": "Universal Bangkok Open 2026!",
-            "team_a": "James Aranas",
-            "team_b": "Julian Serradilla",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795086833996_Screenshot%202026-11-19%20181349.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795086897389_Screenshot%202026-11-19%20181445.png",
+            "team_a": "Albert Januarta",
+            "team_b": "Marvin Asis",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795087696290_Screenshot%202026-11-19%20182811.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795087718101_Screenshot%202026-11-19%20182832.png",
             "time": "19:00:00",
             "date": "19/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Kèn Kèn",
+            "is_live": true,
             "time_sort": 1795089600,
             "cate_type": "billiards"
           },
@@ -230,80 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-83c48ed1bb_cfa3b1f2_20261119.png?v=cfa3b1f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ff4b478768",
-          "name": "Jefrey Roda vs Jaycee Cordova Garcia | 19:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff4b478768",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ff4b478768",
-                  "name": "Jefrey Roda vs Jaycee Cordova Garcia",
-                  "streams": [
-                    {
-                      "id": "st-ff4b478768",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff4b478768",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10451/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026!",
-            "team_a": "Jefrey Roda",
-            "team_b": "Jaycee Cordova Garcia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795086594147_Screenshot%202026-11-19%20180949.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795086627779_Screenshot%202026-11-19%20181023.png",
-            "time": "19:00:00",
-            "date": "19/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795089600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff4b478768_e3ba0b55_20261119.png?v=e3ba0b55",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fada65382a_dbb83443_20261119.png?v=dbb83443",
             "width": 1600,
             "height": 1200
           }
@@ -528,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-fada65382a",
-          "name": "Albert Januarta vs Marvin Asis | 19:00 19/11",
+          "id": "chtv-83c48ed1bb",
+          "name": "James Aranas vs Julian Serradilla | 19:00 19/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -543,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-fada65382a",
+              "id": "src-83c48ed1bb",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-fada65382a",
-                  "name": "Albert Januarta vs Marvin Asis",
+                  "id": "ct-83c48ed1bb",
+                  "name": "James Aranas vs Julian Serradilla",
                   "streams": [
                     {
-                      "id": "st-fada65382a",
+                      "id": "st-83c48ed1bb",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-fada65382a",
+                          "id": "lnk-83c48ed1bb",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10453/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10452/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -580,10 +507,10 @@
           ],
           "org_metadata": {
             "league": "Universal Bangkok Open 2026!",
-            "team_a": "Albert Januarta",
-            "team_b": "Marvin Asis",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795087696290_Screenshot%202026-11-19%20182811.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795087718101_Screenshot%202026-11-19%20182832.png",
+            "team_a": "James Aranas",
+            "team_b": "Julian Serradilla",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795086833996_Screenshot%202026-11-19%20181349.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795086897389_Screenshot%202026-11-19%20181445.png",
             "time": "19:00:00",
             "date": "19/11",
             "blv": "",
@@ -595,7 +522,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fada65382a_dbb83443_20261119.png?v=dbb83443",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-83c48ed1bb_cfa3b1f2_20261119.png?v=cfa3b1f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ff4b478768",
+          "name": "Jefrey Roda vs Jaycee Cordova Garcia | 19:00 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff4b478768",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ff4b478768",
+                  "name": "Jefrey Roda vs Jaycee Cordova Garcia",
+                  "streams": [
+                    {
+                      "id": "st-ff4b478768",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff4b478768",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10451/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026!",
+            "team_a": "Jefrey Roda",
+            "team_b": "Jaycee Cordova Garcia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795086594147_Screenshot%202026-11-19%20180949.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795086627779_Screenshot%202026-11-19%20181023.png",
+            "time": "19:00:00",
+            "date": "19/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795089600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff4b478768_e3ba0b55_20261119.png?v=e3ba0b55",
             "width": 1600,
             "height": 1200
           }
