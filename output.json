@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-e7eccc9dd8",
-          "name": "Hết Thuốc vs Vũ Văn Minh | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e7eccc9dd8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e7eccc9dd8",
-                  "name": "Hết Thuốc vs Vũ Văn Minh",
-                  "streams": [
-                    {
-                      "id": "st-e7eccc9dd8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7eccc9dd8",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10421/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗦𝗜𝗫 𝗢𝗣𝗘𝗡 𝗣𝗢𝗢𝗟 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣 𝟮𝟬𝟮𝟲",
-            "team_a": "Hết Thuốc",
-            "team_b": "Vũ Văn Minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795047621083_Ki%C3%AAn%20Ph%C3%A1p%20.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795047560843_V%C5%A9%20V%C4%83n%20Minh.png",
-            "time": "13:30:00",
-            "date": "19/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1795069800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7eccc9dd8_28e09424_20261119.png?v=28e09424",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-bf3f30e7b4",
           "name": "Derin Asaku Sitorus vs Carlo Biado | Bỉm Sữa",
@@ -231,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-486755679a_0e52f2a0_20261119.png?v=0e52f2a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ef507d316a",
-          "name": "Alexis Ferrer vs Chen Chen Wei | 16:42 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef507d316a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ef507d316a",
-                  "name": "Alexis Ferrer vs Chen Chen Wei",
-                  "streams": [
-                    {
-                      "id": "st-ef507d316a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef507d316a",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10440/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026!",
-            "team_a": "Alexis Ferrer",
-            "team_b": "Chen Chen Wei",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795081431803_Screenshot%202026-11-19%20164347.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795081450875_Screenshot%202026-11-19%20164403.png",
-            "time": "16:42:00",
-            "date": "19/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795081320,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ef507d316a_40b1741e_20261119.png?v=40b1741e",
             "width": 1600,
             "height": 1200
           }
@@ -455,81 +309,8 @@
           }
         },
         {
-          "id": "chtv-018565e7ec",
-          "name": "Đỗ Thế Kiên vs Hoàng Minh Tài | 17:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-018565e7ec",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-018565e7ec",
-                  "name": "Đỗ Thế Kiên vs Hoàng Minh Tài",
-                  "streams": [
-                    {
-                      "id": "st-018565e7ec",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-018565e7ec",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10437/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗦𝗜𝗫 𝗢𝗣𝗘𝗡 𝗣𝗢𝗢𝗟 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣 𝟮𝟬𝟮𝟲",
-            "team_a": "Đỗ Thế Kiên",
-            "team_b": "Hoàng Minh Tài",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795073735584_Ki%C3%AAn%20Ph%C3%A1p%20.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795073739086_Ho%C3%A0ng%20Minh%20T%C3%A0i.png",
-            "time": "17:00:00",
-            "date": "19/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795082400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-018565e7ec_64da969c_20261119.png?v=64da969c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9a53f8ab44",
-          "name": "Vũ Văn Minh vs Hoàng Minh Tài | 17:30 19/11",
+          "name": "Vũ Văn Minh vs Hoàng Minh Tài | 17:30 19/11 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -556,7 +337,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-9a53f8ab44",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10445/index.m3u8",
@@ -586,7 +367,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795082570344_Ho%C3%A0ng%20Minh%20T%C3%A0i.png",
             "time": "17:30:00",
             "date": "19/11",
-            "blv": "",
+            "blv": "Thập Cẩm",
             "is_live": false,
             "time_sort": 1795084200,
             "cate_type": "billiards"
