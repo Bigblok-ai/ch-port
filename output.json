@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-66436b1e30",
+          "name": "Shayne Acebar vs Kenjie Reyes | 20:43 19/11 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66436b1e30",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-66436b1e30",
+                  "name": "Shayne Acebar vs Kenjie Reyes",
+                  "streams": [
+                    {
+                      "id": "st-66436b1e30",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66436b1e30",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10458/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Shayne Acebar",
+            "team_b": "Kenjie Reyes",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795095817590_Screenshot%202026-11-19%20180441.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795095818774_Screenshot%202026-11-19%20180441.png",
+            "time": "20:43:00",
+            "date": "19/11",
+            "blv": "Kèn Kèn",
+            "is_live": false,
+            "time_sort": 1795095780,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66436b1e30_a4b09610_20261119.png?v=a4b09610",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-56fedea854",
           "name": "Boston River vs Deportivo Maldonado | 02:30 20/11",
           "type": "single",
