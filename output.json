@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-12fbfc00f1",
-          "name": "CARDING vs GEO | Thập Cẩm",
+          "id": "chtv-6b2b2152e1",
+          "name": "Đãng BN vs Hoàng Minh Tài | 11:00 19/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-12fbfc00f1",
+              "id": "src-6b2b2152e1",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-12fbfc00f1",
-                  "name": "CARDING vs GEO",
+                  "id": "ct-6b2b2152e1",
+                  "name": "Đãng BN vs Hoàng Minh Tài",
                   "streams": [
                     {
-                      "id": "st-12fbfc00f1",
+                      "id": "st-6b2b2152e1",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-12fbfc00f1",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-6b2b2152e1",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10418/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10420/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "CARDING",
-            "team_b": "GEO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795018619983_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795018624308_Philippines.png",
-            "time": "23:16:00",
-            "date": "18/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795018560,
+            "league": "𝗦𝗜𝗫 𝗢𝗣𝗘𝗡 𝗣𝗢𝗢𝗟 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣 𝟮𝟬𝟮𝟲",
+            "team_a": "Đãng BN",
+            "team_b": "Hoàng Minh Tài",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795047423109_%C4%90%C3%83NG%20BN.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795047469235_Ho%C3%A0ng%20Minh%20T%C3%A0i.png",
+            "time": "11:00:00",
+            "date": "19/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795060800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-12fbfc00f1_8b3b9556_20261119.png?v=8b3b9556",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6b2b2152e1_f4663090_20261119.png?v=f4663090",
             "width": 1600,
             "height": 1200
           }
