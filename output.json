@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7eccc9dd8_28e09424_20261119.png?v=28e09424",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9a7b736c4a",
-          "name": "Passakorn Suwannawat vs Oliver Szolnoki | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a7b736c4a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9a7b736c4a",
-                  "name": "Passakorn Suwannawat vs Oliver Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-9a7b736c4a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a7b736c4a",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10435/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Passakorn Suwannawat",
-            "team_b": "Oliver Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795068478249_Screenshot%202026-11-17%20131246.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795068502246_Oliver%20Szolonki.png",
-            "time": "14:00:00",
-            "date": "19/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1795071600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9a7b736c4a_d756cc58_20261119.png?v=d756cc58",
             "width": 1600,
             "height": 1200
           }
