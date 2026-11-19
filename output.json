@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7eccc9dd8_28e09424_20261119.png?v=28e09424",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bf3f30e7b4",
+          "name": "Derin Asaku Sitorus vs Carlo Biado | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf3f30e7b4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bf3f30e7b4",
+                  "name": "Derin Asaku Sitorus vs Carlo Biado",
+                  "streams": [
+                    {
+                      "id": "st-bf3f30e7b4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf3f30e7b4",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10441/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026!",
+            "team_a": "Derin Asaku Sitorus",
+            "team_b": "Carlo Biado",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795081545130_Screenshot%202026-11-19%20164540.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795081525440_Screenshot%202026-11-19%20164519.png",
+            "time": "16:44:00",
+            "date": "19/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795081440,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bf3f30e7b4_a3785ab5_20261119.png?v=a3785ab5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-486755679a",
+          "name": "Mickey Krause vs Jonas Magpantay | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-486755679a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-486755679a",
+                  "name": "Mickey Krause vs Jonas Magpantay",
+                  "streams": [
+                    {
+                      "id": "st-486755679a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486755679a",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10442/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Universal Bangkok Open 2026!",
+            "team_a": "Mickey Krause",
+            "team_b": "Jonas Magpantay",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795081635872_Screenshot%202026-11-19%20164711.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795081666932_Screenshot%202026-11-19%20164742.png",
+            "time": "16:46:00",
+            "date": "19/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1795081560,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-486755679a_0e52f2a0_20261119.png?v=0e52f2a0",
             "width": 1600,
             "height": 1200
           }
@@ -231,152 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ef507d316a_40b1741e_20261119.png?v=40b1741e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bf3f30e7b4",
-          "name": "Derin Asaku Sitorus vs Carlo Biado | 16:44 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf3f30e7b4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bf3f30e7b4",
-                  "name": "Derin Asaku Sitorus vs Carlo Biado",
-                  "streams": [
-                    {
-                      "id": "st-bf3f30e7b4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf3f30e7b4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10441/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026!",
-            "team_a": "Derin Asaku Sitorus",
-            "team_b": "Carlo Biado",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795081545130_Screenshot%202026-11-19%20164540.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795081525440_Screenshot%202026-11-19%20164519.png",
-            "time": "16:44:00",
-            "date": "19/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795081440,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bf3f30e7b4_a3785ab5_20261119.png?v=a3785ab5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-486755679a",
-          "name": "Mickey Krause vs Jonas Magpantay | 16:46 19/11 | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-486755679a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-486755679a",
-                  "name": "Mickey Krause vs Jonas Magpantay",
-                  "streams": [
-                    {
-                      "id": "st-486755679a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-486755679a",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10442/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Universal Bangkok Open 2026!",
-            "team_a": "Mickey Krause",
-            "team_b": "Jonas Magpantay",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795081635872_Screenshot%202026-11-19%20164711.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795081666932_Screenshot%202026-11-19%20164742.png",
-            "time": "16:46:00",
-            "date": "19/11",
-            "blv": "Kèn Kèn",
-            "is_live": false,
-            "time_sort": 1795081560,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-486755679a_0e52f2a0_20261119.png?v=0e52f2a0",
             "width": 1600,
             "height": 1200
           }
