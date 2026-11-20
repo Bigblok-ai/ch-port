@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-328eefe741",
-          "name": "Jerico Banares vs Ronel Nalaunan | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-328eefe741",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-328eefe741",
-                  "name": "Jerico Banares vs Ronel Nalaunan",
-                  "streams": [
-                    {
-                      "id": "st-328eefe741",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-328eefe741",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10473/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Jerico Banares",
-            "team_b": "Ronel Nalaunan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795149318068_Screenshot%202026-11-20%20113512.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795149869886_Philippines.png",
-            "time": "12:30:00",
-            "date": "20/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795152600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-328eefe741_8452a728_20261120.png?v=8452a728",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-db9dc0a73e",
           "name": "Carlo Biado vs Andri Januarta | Bỉm Sữa",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-08fcb1d383_c0c14bca_20261120.png?v=c0c14bca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-328eefe741",
+          "name": "Jerico Banares vs Ronel Nalaunan | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-328eefe741",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-328eefe741",
+                  "name": "Jerico Banares vs Ronel Nalaunan",
+                  "streams": [
+                    {
+                      "id": "st-328eefe741",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-328eefe741",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10473/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Jerico Banares",
+            "team_b": "Ronel Nalaunan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795149318068_Screenshot%202026-11-20%20113512.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795149869886_Philippines.png",
+            "time": "12:30:00",
+            "date": "20/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1795152600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-328eefe741_8452a728_20261120.png?v=8452a728",
             "width": 1600,
             "height": 1200
           }
