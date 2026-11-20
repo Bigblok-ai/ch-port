@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-db9dc0a73e",
-          "name": "Carlo Biado vs Andri Januarta | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db9dc0a73e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-db9dc0a73e",
-                  "name": "Carlo Biado vs Andri Januarta",
-                  "streams": [
-                    {
-                      "id": "st-db9dc0a73e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db9dc0a73e",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10477/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Carlo Biado",
-            "team_b": "Andri Januarta",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795151369971_Carlo%20Biado.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795151068197_Indonesia.png",
-            "time": "12:30:00",
-            "date": "20/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1795152600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db9dc0a73e_21aaa287_20261120.png?v=21aaa287",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-328eefe741",
           "name": "Jerico Banares vs Ronel Nalaunan | Thập Cẩm",
           "type": "single",
@@ -304,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-08fcb1d383_c0c14bca_20261120.png?v=c0c14bca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-db9dc0a73e",
+          "name": "Carlo Biado vs Andri Januarta | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db9dc0a73e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-db9dc0a73e",
+                  "name": "Carlo Biado vs Andri Januarta",
+                  "streams": [
+                    {
+                      "id": "st-db9dc0a73e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db9dc0a73e",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10477/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Carlo Biado",
+            "team_b": "Andri Januarta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795151369971_Carlo%20Biado.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795151068197_Indonesia.png",
+            "time": "12:30:00",
+            "date": "20/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795152600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db9dc0a73e_21aaa287_20261120.png?v=21aaa287",
             "width": 1600,
             "height": 1200
           }
