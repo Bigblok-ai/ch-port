@@ -17,6 +17,152 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-db9dc0a73e",
+          "name": "1 vs Andri Januarta | 12:30 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db9dc0a73e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-db9dc0a73e",
+                  "name": "1 vs Andri Januarta",
+                  "streams": [
+                    {
+                      "id": "st-db9dc0a73e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db9dc0a73e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10477/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "1",
+            "team_b": "Andri Januarta",
+            "logo_a": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795151068197_Indonesia.png",
+            "time": "12:30:00",
+            "date": "20/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795152600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db9dc0a73e_e084cf21_20261120.png?v=e084cf21",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a198dd5e20",
+          "name": "1 vs Wu Kun Lin | 12:30 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a198dd5e20",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a198dd5e20",
+                  "name": "1 vs Wu Kun Lin",
+                  "streams": [
+                    {
+                      "id": "st-a198dd5e20",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a198dd5e20",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10476/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "1",
+            "team_b": "Wu Kun Lin",
+            "logo_a": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795151039049_%C4%90%C3%A0i%20Loan.png",
+            "time": "12:30:00",
+            "date": "20/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795152600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a198dd5e20_31308cdf_20261120.png?v=31308cdf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-1aec295609",
           "name": "Assis Tadique vs Jeffrey Ignacio | 12:30 20/11",
           "type": "single",
@@ -231,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2ed5187ab7_cf28b374_20261120.png?v=cf28b374",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-08fcb1d383",
+          "name": "Aloysius Yapp vs Lo Ho Sum | 12:30 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08fcb1d383",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-08fcb1d383",
+                  "name": "Aloysius Yapp vs Lo Ho Sum",
+                  "streams": [
+                    {
+                      "id": "st-08fcb1d383",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08fcb1d383",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10475/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Lo Ho Sum",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795150864022_Aloysius%20Yapp.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795150900067_Screenshot%202026-11-20%20120132.png",
+            "time": "12:30:00",
+            "date": "20/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795152600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-08fcb1d383_c0c14bca_20261120.png?v=c0c14bca",
             "width": 1600,
             "height": 1200
           }
