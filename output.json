@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-a62747b6be",
-          "name": "Albert Januarta vs Oliver Szolnoki | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a62747b6be",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a62747b6be",
-                  "name": "Albert Januarta vs Oliver Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-a62747b6be",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a62747b6be",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10469/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Albert Januarta",
-            "team_b": "Oliver Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141286603_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141289405_Oliver%20Szolnoki.jpg",
-            "time": "10:00:00",
-            "date": "20/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1795143600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a62747b6be_09383346_20261120.png?v=09383346",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-88bda13730",
           "name": "Wu Kun Lin vs Edward Koyongian | Bỉm Sữa",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-88bda13730_e6665bd4_20261120.png?v=e6665bd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a62747b6be",
+          "name": "Albert Januarta vs Oliver Szolnoki | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a62747b6be",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a62747b6be",
+                  "name": "Albert Januarta vs Oliver Szolnoki",
+                  "streams": [
+                    {
+                      "id": "st-a62747b6be",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a62747b6be",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10469/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Albert Januarta",
+            "team_b": "Oliver Szolnoki",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795141286603_ALBERT%20JANUARTA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795141289405_Oliver%20Szolnoki.jpg",
+            "time": "10:00:00",
+            "date": "20/11",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1795143600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a62747b6be_09383346_20261120.png?v=09383346",
             "width": 1600,
             "height": 1200
           }
@@ -309,79 +309,6 @@
           }
         },
         {
-          "id": "chtv-66b335ca81",
-          "name": "Alexis Ferrer vs Lo Ho Sum | 10:00 20/11 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66b335ca81",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-66b335ca81",
-                  "name": "Alexis Ferrer vs Lo Ho Sum",
-                  "streams": [
-                    {
-                      "id": "st-66b335ca81",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66b335ca81",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10463/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Alexis Ferrer",
-            "team_b": "Lo Ho Sum",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141069825_ALEXIS%20FERRER.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141072442_LO%20HO%20SUM.jpg",
-            "time": "10:00:00",
-            "date": "20/11",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "time_sort": 1795143600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66b335ca81_a703d7b9_20261120.png?v=a703d7b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-cd06a29701",
           "name": "Andri Januarta vs Roland Garcia | 10:00 20/11 | Bỉm Sữa",
           "type": "single",
@@ -450,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd06a29701_459fa10a_20261120.png?v=459fa10a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-66b335ca81",
+          "name": "Alexis Ferrer vs Lo Ho Sum | 10:00 20/11 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66b335ca81",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-66b335ca81",
+                  "name": "Alexis Ferrer vs Lo Ho Sum",
+                  "streams": [
+                    {
+                      "id": "st-66b335ca81",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66b335ca81",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10463/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Alexis Ferrer",
+            "team_b": "Lo Ho Sum",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795141069825_ALEXIS%20FERRER.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795141072442_LO%20HO%20SUM.jpg",
+            "time": "10:00:00",
+            "date": "20/11",
+            "blv": "Thập Cẩm",
+            "is_live": false,
+            "time_sort": 1795143600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-66b335ca81_a703d7b9_20261120.png?v=a703d7b9",
             "width": 1600,
             "height": 1200
           }
@@ -528,8 +528,8 @@
           }
         },
         {
-          "id": "chtv-bfac158d90",
-          "name": "Anthony Raga vs Genesis Ouano | 10:00 20/11",
+          "id": "chtv-7f259d260c",
+          "name": "Carlo Biado vs Aivhan Maluto | 10:00 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -543,23 +543,23 @@
           ],
           "sources": [
             {
-              "id": "src-bfac158d90",
+              "id": "src-7f259d260c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-bfac158d90",
-                  "name": "Anthony Raga vs Genesis Ouano",
+                  "id": "ct-7f259d260c",
+                  "name": "Carlo Biado vs Aivhan Maluto",
                   "streams": [
                     {
-                      "id": "st-bfac158d90",
+                      "id": "st-7f259d260c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bfac158d90",
+                          "id": "lnk-7f259d260c",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10467/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10464/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -580,10 +580,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Anthony Raga",
-            "team_b": "Genesis Ouano",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141197881_Anthony%20Raga.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141216547_Genesis%20Ouano.jpg",
+            "team_a": "Carlo Biado",
+            "team_b": "Aivhan Maluto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795141121762_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795141118893_AIVHAN%20MALUTO.jpg",
             "time": "10:00:00",
             "date": "20/11",
             "blv": "",
@@ -595,7 +595,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfac158d90_f51acc58_20261120.png?v=f51acc58",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7f259d260c_2d954334_20261120.png?v=2d954334",
             "width": 1600,
             "height": 1200
           }
@@ -674,8 +674,8 @@
           }
         },
         {
-          "id": "chtv-7f259d260c",
-          "name": "Carlo Biado vs Aivhan Maluto | 10:00 20/11",
+          "id": "chtv-bfac158d90",
+          "name": "Anthony Raga vs Genesis Ouano | 10:00 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -689,23 +689,23 @@
           ],
           "sources": [
             {
-              "id": "src-7f259d260c",
+              "id": "src-bfac158d90",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-7f259d260c",
-                  "name": "Carlo Biado vs Aivhan Maluto",
+                  "id": "ct-bfac158d90",
+                  "name": "Anthony Raga vs Genesis Ouano",
                   "streams": [
                     {
-                      "id": "st-7f259d260c",
+                      "id": "st-bfac158d90",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-7f259d260c",
+                          "id": "lnk-bfac158d90",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10464/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10467/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -726,10 +726,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Carlo Biado",
-            "team_b": "Aivhan Maluto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141121762_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141118893_AIVHAN%20MALUTO.jpg",
+            "team_a": "Anthony Raga",
+            "team_b": "Genesis Ouano",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795141197881_Anthony%20Raga.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795141216547_Genesis%20Ouano.jpg",
             "time": "10:00:00",
             "date": "20/11",
             "blv": "",
@@ -741,7 +741,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7f259d260c_2d954334_20261120.png?v=2d954334",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfac158d90_f51acc58_20261120.png?v=f51acc58",
             "width": 1600,
             "height": 1200
           }
