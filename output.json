@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-48e202781c",
-          "name": "Aloysius Yapp vs Wang Hung Hsiang | VÁNG",
+          "id": "chtv-1aec295609",
+          "name": "Assis Tadique vs Jeffrey Ignacio | 12:30 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-48e202781c",
+              "id": "src-1aec295609",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-48e202781c",
-                  "name": "Aloysius Yapp vs Wang Hung Hsiang",
+                  "id": "ct-1aec295609",
+                  "name": "Assis Tadique vs Jeffrey Ignacio",
                   "streams": [
                     {
-                      "id": "st-48e202781c",
+                      "id": "st-1aec295609",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-48e202781c",
-                          "name": "VÁNG",
+                          "id": "lnk-1aec295609",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10462/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10472/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,96 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Wang Hung Hsiang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141018180_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141009524_Wang%20Hung%20Hsiang.jpg",
-            "time": "10:00:00",
+            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Assis Tadique",
+            "team_b": "Jeffrey Ignacio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795149089155_Screenshot%202026-11-20%20113122.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795150034048_Screenshot%202026-11-20%20114703.png",
+            "time": "12:30:00",
             "date": "20/11",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1795143600,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795152600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-48e202781c_84575334_20261120.png?v=84575334",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a62747b6be",
-          "name": "Albert Januarta vs Oliver Szolnoki | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a62747b6be",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a62747b6be",
-                  "name": "Albert Januarta vs Oliver Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-a62747b6be",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a62747b6be",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10469/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Albert Januarta",
-            "team_b": "Oliver Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141286603_ALBERT%20JANUARTA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141289405_Oliver%20Szolnoki.jpg",
-            "time": "10:00:00",
-            "date": "20/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1795143600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a62747b6be_09383346_20261120.png?v=09383346",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1aec295609_b29e16f6_20261120.png?v=b29e16f6",
             "width": 1600,
             "height": 1200
           }
@@ -236,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-1aec295609",
-          "name": "Assis Tadique vs Jeffrey Ignacio | 12:30 20/11",
+          "id": "chtv-2ed5187ab7",
+          "name": "Albert Januarta vs 1 | 12:30 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -251,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-1aec295609",
+              "id": "src-2ed5187ab7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1aec295609",
-                  "name": "Assis Tadique vs Jeffrey Ignacio",
+                  "id": "ct-2ed5187ab7",
+                  "name": "Albert Januarta vs 1",
                   "streams": [
                     {
-                      "id": "st-1aec295609",
+                      "id": "st-2ed5187ab7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1aec295609",
+                          "id": "lnk-2ed5187ab7",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10472/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10474/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -288,10 +215,10 @@
           ],
           "org_metadata": {
             "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Assis Tadique",
-            "team_b": "Jeffrey Ignacio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795149089155_Screenshot%202026-11-20%20113122.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795150034048_Screenshot%202026-11-20%20114703.png",
+            "team_a": "Albert Januarta",
+            "team_b": "1",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795150605772_Albert%20Januarta.png",
+            "logo_b": "",
             "time": "12:30:00",
             "date": "20/11",
             "blv": "",
@@ -303,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1aec295609_b29e16f6_20261120.png?v=b29e16f6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2ed5187ab7_cf28b374_20261120.png?v=cf28b374",
             "width": 1600,
             "height": 1200
           }
