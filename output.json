@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-2d95829276",
-          "name": "duy đen vs duy phan | GIÀNG A PHỌ",
+          "id": "chtv-23567ce0a7",
+          "name": "duy đen vs đối hạng F | 01:09 21/11 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-2d95829276",
+              "id": "src-23567ce0a7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2d95829276",
-                  "name": "duy đen vs duy phan",
+                  "id": "ct-23567ce0a7",
+                  "name": "duy đen vs đối hạng F",
                   "streams": [
                     {
-                      "id": "st-2d95829276",
+                      "id": "st-23567ce0a7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2d95829276",
+                          "id": "lnk-23567ce0a7",
                           "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10492/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10493/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -70,21 +70,21 @@
           "org_metadata": {
             "league": "top top",
             "team_a": "duy đen",
-            "team_b": "duy phan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795193826361_Screenshot%202026-11-19%20180418.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795193826882_Screenshot%202026-11-19%20180418.png",
-            "time": "23:56:00",
-            "date": "20/11",
+            "team_b": "đối hạng F",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795198218513_Screenshot%202026-11-19%20180418.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795198218892_Screenshot%202026-11-19%20180418.png",
+            "time": "01:09:00",
+            "date": "21/11",
             "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1795193760,
+            "is_live": false,
+            "time_sort": 1795198140,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2d95829276_e65b7a67_20261121.png?v=e65b7a67",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-23567ce0a7_80a246f5_20261121.png?v=80a246f5",
             "width": 1600,
             "height": 1200
           }
