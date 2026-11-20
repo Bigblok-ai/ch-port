@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-2d95829276",
+          "name": "duy đen vs duy phan | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d95829276",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2d95829276",
+                  "name": "duy đen vs duy phan",
+                  "streams": [
+                    {
+                      "id": "st-2d95829276",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d95829276",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10492/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "duy đen",
+            "team_b": "duy phan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795193826361_Screenshot%202026-11-19%20180418.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795193826882_Screenshot%202026-11-19%20180418.png",
+            "time": "23:56:00",
+            "date": "20/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1795193760,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2d95829276_e65b7a67_20261121.png?v=e65b7a67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-2b3fd413bd",
           "name": "FC Annecy vs Clermont Foot 63 | 02:00 21/11",
@@ -84,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2b3fd413bd_f37f51dd_20261120.png?v=f37f51dd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2b3fd413bd_f37f51dd_20261121.png?v=f37f51dd",
             "width": 1600,
             "height": 1200
           }
@@ -157,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-23203207f0_d4c818e6_20261120.png?v=d4c818e6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-23203207f0_d4c818e6_20261121.png?v=d4c818e6",
             "width": 1600,
             "height": 1200
           }
@@ -230,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-40a9783b93_9ed5c5f6_20261120.png?v=9ed5c5f6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-40a9783b93_9ed5c5f6_20261121.png?v=9ed5c5f6",
             "width": 1600,
             "height": 1200
           }
