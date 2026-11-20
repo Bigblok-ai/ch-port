@@ -234,6 +234,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-bbc2a2a793",
+          "name": "1 vs Ronel Nalaunan | 15:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbc2a2a793",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bbc2a2a793",
+                  "name": "1 vs Ronel Nalaunan",
+                  "streams": [
+                    {
+                      "id": "st-bbc2a2a793",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bbc2a2a793",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10478/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "1",
+            "team_b": "Ronel Nalaunan",
+            "logo_a": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795158040126_Philippines.png",
+            "time": "15:00:00",
+            "date": "20/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795161600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bbc2a2a793_73ba3bbe_20261120.png?v=73ba3bbe",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
