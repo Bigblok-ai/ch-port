@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "chtv-631496befc",
-          "name": "Jonas Magpantay vs Jerico Banares | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-631496befc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-631496befc",
-                  "name": "Jonas Magpantay vs Jerico Banares",
-                  "streams": [
-                    {
-                      "id": "st-631496befc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-631496befc",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10466/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Jonas Magpantay",
-            "team_b": "Jerico Banares",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141164831_JONAS%20MAGPANTAY.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141172198_Jerico%20Ba%C3%B1ares.jpg",
-            "time": "10:00:00",
-            "date": "20/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795143600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-631496befc_70f73e25_20261120.png?v=70f73e25",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a62747b6be",
           "name": "Albert Januarta vs Oliver Szolnoki | Tào A Man",
           "type": "single",
@@ -236,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-88bda13730",
-          "name": "Wu Kun Lin vs Edward Koyongian | Bỉm Sữa",
+          "id": "chtv-1aec295609",
+          "name": "Assis Tadique vs Jeffrey Ignacio | 12:30 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-88bda13730",
+              "id": "src-1aec295609",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-88bda13730",
-                  "name": "Wu Kun Lin vs Edward Koyongian",
+                  "id": "ct-1aec295609",
+                  "name": "Assis Tadique vs Jeffrey Ignacio",
                   "streams": [
                     {
-                      "id": "st-88bda13730",
+                      "id": "st-1aec295609",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-88bda13730",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-1aec295609",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10471/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10472/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -287,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Wu Kun Lin",
-            "team_b": "Edward Koyongian",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795144052101_%C4%90%C3%A0i%20Loan.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795144051715_Indonesia.png",
-            "time": "10:00:00",
+            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Assis Tadique",
+            "team_b": "Jeffrey Ignacio",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795149089155_Screenshot%202026-11-20%20113122.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795149100008_Philippines.png",
+            "time": "12:30:00",
             "date": "20/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1795143600,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795152600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-88bda13730_e6665bd4_20261120.png?v=e6665bd4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1aec295609_93c396c8_20261120.png?v=93c396c8",
             "width": 1600,
             "height": 1200
           }
