@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-328eefe741",
+          "name": "Jerico Banares vs Ronel Nalaunan | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-328eefe741",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-328eefe741",
+                  "name": "Jerico Banares vs Ronel Nalaunan",
+                  "streams": [
+                    {
+                      "id": "st-328eefe741",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-328eefe741",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10473/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Jerico Banares",
+            "team_b": "Ronel Nalaunan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795149318068_Screenshot%202026-11-20%20113512.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795149869886_Philippines.png",
+            "time": "12:30:00",
+            "date": "20/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1795152600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-328eefe741_8452a728_20261120.png?v=8452a728",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-a198dd5e20",
           "name": "1 vs Wu Kun Lin | 12:30 20/11",
@@ -163,81 +236,8 @@
           }
         },
         {
-          "id": "chtv-328eefe741",
-          "name": "Jerico Banares vs Ronel Nalaunan | 12:30 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-328eefe741",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-328eefe741",
-                  "name": "Jerico Banares vs Ronel Nalaunan",
-                  "streams": [
-                    {
-                      "id": "st-328eefe741",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-328eefe741",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10473/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Jerico Banares",
-            "team_b": "Ronel Nalaunan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795149318068_Screenshot%202026-11-20%20113512.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795149869886_Philippines.png",
-            "time": "12:30:00",
-            "date": "20/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795152600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-328eefe741_8452a728_20261120.png?v=8452a728",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-2ed5187ab7",
-          "name": "Albert Januarta vs 1 | 12:30 20/11",
+          "name": "Albert Januarta vs Sean Mark Malayan | 12:30 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -256,7 +256,7 @@
               "contents": [
                 {
                   "id": "ct-2ed5187ab7",
-                  "name": "Albert Januarta vs 1",
+                  "name": "Albert Januarta vs Sean Mark Malayan",
                   "streams": [
                     {
                       "id": "st-2ed5187ab7",
@@ -289,9 +289,9 @@
           "org_metadata": {
             "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
             "team_a": "Albert Januarta",
-            "team_b": "1",
+            "team_b": "Sean Mark Malayan",
             "logo_a": "https://cdn-choangtv.com/img/logo/1795150605772_Albert%20Januarta.png",
-            "logo_b": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795151818940_Philippines.png",
             "time": "12:30:00",
             "date": "20/11",
             "blv": "",
@@ -303,14 +303,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2ed5187ab7_cf28b374_20261120.png?v=cf28b374",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2ed5187ab7_ed66ae4b_20261120.png?v=ed66ae4b",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "chtv-08fcb1d383",
-          "name": "Aloysius Yapp vs Lo Ho Sum | 12:30 20/11",
+          "name": "Aloysius Yapp vs Lo Ho Sum | 12:30 20/11 | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -337,7 +337,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-08fcb1d383",
-                          "name": "Stream",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10475/index.m3u8",
@@ -367,7 +367,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795150900067_Screenshot%202026-11-20%20120132.png",
             "time": "12:30:00",
             "date": "20/11",
-            "blv": "",
+            "blv": "VÁNG",
             "is_live": false,
             "time_sort": 1795152600,
             "cate_type": "billiards"
@@ -383,7 +383,7 @@
         },
         {
           "id": "chtv-db9dc0a73e",
-          "name": "Carlo Biado vs Andri Januarta | 12:30 20/11",
+          "name": "Carlo Biado vs Andri Januarta | 12:30 20/11 | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -410,7 +410,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-db9dc0a73e",
-                          "name": "Stream",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10477/index.m3u8",
@@ -440,7 +440,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795151068197_Indonesia.png",
             "time": "12:30:00",
             "date": "20/11",
-            "blv": "",
+            "blv": "Bỉm Sữa",
             "is_live": false,
             "time_sort": 1795152600,
             "cate_type": "billiards"
