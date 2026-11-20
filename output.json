@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,8 +236,81 @@
           }
         },
         {
+          "id": "chtv-cd06a29701",
+          "name": "Andri Januarta vs Roland Garcia | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd06a29701",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cd06a29701",
+                  "name": "Andri Januarta vs Roland Garcia",
+                  "streams": [
+                    {
+                      "id": "st-cd06a29701",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd06a29701",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10465/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Andri Januarta",
+            "team_b": "Roland Garcia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795141144512_Andri%20Januarta.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795141141834_Roland%20Garcia.jpg",
+            "time": "10:00:00",
+            "date": "20/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795143600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd06a29701_459fa10a_20261120.png?v=459fa10a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-631496befc",
-          "name": "Jonas Magpantay vs Jerico Banares | 10:00 20/11",
+          "name": "Jonas Magpantay vs Jerico Banares | 10:00 20/11 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -264,7 +337,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-631496befc",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10466/index.m3u8",
@@ -294,7 +367,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795141172198_Jerico%20Ba%C3%B1ares.jpg",
             "time": "10:00:00",
             "date": "20/11",
-            "blv": "",
+            "blv": "Thập Cẩm",
             "is_live": false,
             "time_sort": 1795143600,
             "cate_type": "billiards"
@@ -304,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-631496befc_70f73e25_20261120.png?v=70f73e25",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bfac158d90",
-          "name": "Anthony Raga vs Genesis Ouano | 10:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bfac158d90",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bfac158d90",
-                  "name": "Anthony Raga vs Genesis Ouano",
-                  "streams": [
-                    {
-                      "id": "st-bfac158d90",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bfac158d90",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10467/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Anthony Raga",
-            "team_b": "Genesis Ouano",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141197881_Anthony%20Raga.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141216547_Genesis%20Ouano.jpg",
-            "time": "10:00:00",
-            "date": "20/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795143600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfac158d90_f51acc58_20261120.png?v=f51acc58",
             "width": 1600,
             "height": 1200
           }
@@ -528,79 +528,6 @@
           }
         },
         {
-          "id": "chtv-cd06a29701",
-          "name": "Andri Januarta vs Roland Garcia | 10:00 20/11 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd06a29701",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cd06a29701",
-                  "name": "Andri Januarta vs Roland Garcia",
-                  "streams": [
-                    {
-                      "id": "st-cd06a29701",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd06a29701",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10465/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Andri Januarta",
-            "team_b": "Roland Garcia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795141144512_Andri%20Januarta.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795141141834_Roland%20Garcia.jpg",
-            "time": "10:00:00",
-            "date": "20/11",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "time_sort": 1795143600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd06a29701_459fa10a_20261120.png?v=459fa10a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b4bff174c6",
           "name": "Assis Tadique vs Phetmalaikul | 10:00 20/11",
           "type": "single",
@@ -669,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b4bff174c6_22794a89_20261120.png?v=22794a89",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bfac158d90",
+          "name": "Anthony Raga vs Genesis Ouano | 10:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bfac158d90",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bfac158d90",
+                  "name": "Anthony Raga vs Genesis Ouano",
+                  "streams": [
+                    {
+                      "id": "st-bfac158d90",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bfac158d90",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10467/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Anthony Raga",
+            "team_b": "Genesis Ouano",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795141197881_Anthony%20Raga.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795141216547_Genesis%20Ouano.jpg",
+            "time": "10:00:00",
+            "date": "20/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795143600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfac158d90_f51acc58_20261120.png?v=f51acc58",
             "width": 1600,
             "height": 1200
           }
