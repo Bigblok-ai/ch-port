@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-a198dd5e20",
-          "name": "Tan Guo En Nicholas vs Wu Kun Lin | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a198dd5e20",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a198dd5e20",
-                  "name": "Tan Guo En Nicholas vs Wu Kun Lin",
-                  "streams": [
-                    {
-                      "id": "st-a198dd5e20",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a198dd5e20",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10476/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Last 16 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Tan Guo En Nicholas",
-            "team_b": "Wu Kun Lin",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795154629631_Singapore.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795151039049_%C4%90%C3%A0i%20Loan.png",
-            "time": "12:30:00",
-            "date": "20/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1795152600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a198dd5e20_f87073f9_20261120.png?v=f87073f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-08fcb1d383",
           "name": "Aloysius Yapp vs Lo Ho Sum | VÁNG",
@@ -237,7 +164,7 @@
         },
         {
           "id": "chtv-2f5609a413",
-          "name": "1 vs 1 | 15:00 20/11",
+          "name": "1 vs Wu Kun Lin | 15:00 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -256,7 +183,7 @@
               "contents": [
                 {
                   "id": "ct-2f5609a413",
-                  "name": "1 vs 1",
+                  "name": "1 vs Wu Kun Lin",
                   "streams": [
                     {
                       "id": "st-2f5609a413",
@@ -289,9 +216,9 @@
           "org_metadata": {
             "league": "Tứ Kết 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
             "team_a": "1",
-            "team_b": "1",
+            "team_b": "Wu Kun Lin",
             "logo_a": "",
-            "logo_b": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795161089935_%C4%90%C3%A0i%20Loan.png",
             "time": "15:00:00",
             "date": "20/11",
             "blv": "",
@@ -303,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2f5609a413_6654c734_20261120.png?v=6654c734",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2f5609a413_798b37a2_20261120.png?v=798b37a2",
             "width": 1600,
             "height": 1200
           }
