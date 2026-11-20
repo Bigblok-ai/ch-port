@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-2e5aa6d828",
-          "name": "KO PING HAN vs LIU CHEN YU | 19:09 20/11",
+          "id": "chtv-48e13fbb15",
+          "name": "duy đen chấp số 4 vs đánh đôi với đối hạng H | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-2e5aa6d828",
+              "id": "src-48e13fbb15",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2e5aa6d828",
-                  "name": "KO PING HAN vs LIU CHEN YU",
+                  "id": "ct-48e13fbb15",
+                  "name": "duy đen chấp số 4 vs đánh đôi với đối hạng H",
                   "streams": [
                     {
-                      "id": "st-2e5aa6d828",
+                      "id": "st-48e13fbb15",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2e5aa6d828",
-                          "name": "Stream",
+                          "id": "lnk-48e13fbb15",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10485/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10486/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "2026 獨牙中式九球公開賽 廣東橫琴站 第",
-            "team_a": "KO PING HAN",
-            "team_b": "LIU CHEN YU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795176610129_Screenshot%202026-11-20%20191002.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795176660957_Screenshot%202026-11-20%20191052.png",
-            "time": "19:09:00",
+            "league": "top top",
+            "team_a": "duy đen chấp số 4",
+            "team_b": "đánh đôi với đối hạng H",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795178215179_Screenshot%202026-11-19%20180418.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795178215672_Screenshot%202026-11-19%20180418.png",
+            "time": "19:36:00",
             "date": "20/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795176540,
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1795178160,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2e5aa6d828_471ac367_20261120.png?v=471ac367",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-48e13fbb15_a8ff3915_20261120.png?v=a8ff3915",
             "width": 1600,
             "height": 1200
           }
