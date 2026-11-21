@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-40a9783b93",
-          "name": "Bayern Munich vs FC Koln | Thập Cẩm",
+          "id": "chtv-e317c5667c",
+          "name": "Wu Kun Lin vs Andri Januarta | 11:00 21/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-40a9783b93",
+              "id": "src-e317c5667c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-40a9783b93",
-                  "name": "Bayern Munich vs FC Koln",
+                  "id": "ct-e317c5667c",
+                  "name": "Wu Kun Lin vs Andri Januarta",
                   "streams": [
                     {
-                      "id": "st-40a9783b93",
+                      "id": "st-e317c5667c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-40a9783b93",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-e317c5667c",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10482/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10494/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,96 @@
             }
           ],
           "org_metadata": {
-            "league": "Bóng Bánh",
-            "team_a": "Bayern Munich",
-            "team_b": "FC Koln",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795169494029_Screenshot%202026-11-20%20171129.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795169342124_Screenshot%202026-11-20%20170854.png",
-            "time": "02:30:00",
+            "league": "BÁN KẾT  𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Wu Kun Lin",
+            "team_b": "Andri Januarta",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795227668960_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795227665744_Andri%20Januarta.jpg",
+            "time": "11:00:00",
             "date": "21/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795203000,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795233600,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-40a9783b93_9ed5c5f6_20261121.png?v=9ed5c5f6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e317c5667c_1b04e585_20261121.png?v=1b04e585",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b5978dfc14",
+          "name": "Genesis Ouano vs Jaycee Cordova Garcia | 14:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5978dfc14",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b5978dfc14",
+                  "name": "Genesis Ouano vs Jaycee Cordova Garcia",
+                  "streams": [
+                    {
+                      "id": "st-b5978dfc14",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b5978dfc14",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10495/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT  𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
+            "team_a": "Genesis Ouano",
+            "team_b": "Jaycee Cordova Garcia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795227780772_Genesis%20Ouano.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795227783798_Jaycee%20Cordova%20Garcia.jpg",
+            "time": "14:00:00",
+            "date": "21/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795244400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b5978dfc14_68f68d2c_20261121.png?v=68f68d2c",
             "width": 1600,
             "height": 1200
           }
