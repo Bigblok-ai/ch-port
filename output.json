@@ -11,23 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-5999858e05",
-          "name": "Wu Kun Lin vs Genesis Ouano | 17:00 21/11",
+          "name": "Wu Kun Lin vs Genesis Ouano | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -45,7 +45,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-5999858e05",
-                          "name": "Stream",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10505/index.m3u8",
@@ -75,8 +75,8 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795253536487_Screenshot%202026-11-21%20163210.png",
             "time": "17:00:00",
             "date": "21/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Bỉm Sữa",
+            "is_live": true,
             "time_sort": 1795255200,
             "cate_type": "billiards"
           },
