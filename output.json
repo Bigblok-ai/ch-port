@@ -11,87 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-b5978dfc14",
-          "name": "Genesis Ouano vs Jaycee Cordova Garcia | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5978dfc14",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b5978dfc14",
-                  "name": "Genesis Ouano vs Jaycee Cordova Garcia",
-                  "streams": [
-                    {
-                      "id": "st-b5978dfc14",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b5978dfc14",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10495/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BÁN KẾT  𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "Genesis Ouano",
-            "team_b": "Jaycee Cordova Garcia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795227780772_Genesis%20Ouano.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795227783798_Jaycee%20Cordova%20Garcia.jpg",
-            "time": "14:00:00",
-            "date": "21/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1795244400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b5978dfc14_68f68d2c_20261121.png?v=68f68d2c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5999858e05",
-          "name": "Wu Kun Lin vs 1 | 17:00 21/11",
+          "name": "Wu Kun Lin vs Genesis Ouano | 17:00 21/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -110,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-5999858e05",
-                  "name": "Wu Kun Lin vs 1",
+                  "name": "Wu Kun Lin vs Genesis Ouano",
                   "streams": [
                     {
                       "id": "st-5999858e05",
@@ -143,9 +70,9 @@
           "org_metadata": {
             "league": "CHUNG KẾT 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
             "team_a": "Wu Kun Lin",
-            "team_b": "1",
+            "team_b": "Genesis Ouano",
             "logo_a": "https://cdn-choangtv.com/img/logo/1795248345699_Screenshot%202026-11-21%20150542.png",
-            "logo_b": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795253536487_Screenshot%202026-11-21%20163210.png",
             "time": "17:00:00",
             "date": "21/11",
             "blv": "",
@@ -157,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5999858e05_2ebbc11f_20261121.png?v=2ebbc11f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5999858e05_fc6a4f2b_20261121.png?v=fc6a4f2b",
             "width": 1600,
             "height": 1200
           }
