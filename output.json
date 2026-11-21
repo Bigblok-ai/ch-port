@@ -526,6 +526,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-f73c0e36de",
+          "name": "Võ Nguyễn Ngọc Linh vs Aleksandra Stepakova | 21:15 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f73c0e36de",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f73c0e36de",
+                  "name": "Võ Nguyễn Ngọc Linh vs Aleksandra Stepakova",
+                  "streams": [
+                    {
+                      "id": "st-f73c0e36de",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f73c0e36de",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10501/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 6 | LION CHAMPIONSHIP LC37",
+            "team_a": "Võ Nguyễn Ngọc Linh",
+            "team_b": "Aleksandra Stepakova",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795242325957_Screenshot%202026-11-21%20132516.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795242325632_Screenshot%202026-11-21%20132520.png",
+            "time": "21:15:00",
+            "date": "21/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795270500,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f73c0e36de_e1b0758c_20261121.png?v=e1b0758c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
