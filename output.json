@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-7a82e142fc",
-          "name": "Man City vs Fulham | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a82e142fc",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7a82e142fc",
-                  "name": "Man City vs Fulham",
-                  "streams": [
-                    {
-                      "id": "st-7a82e142fc",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a82e142fc",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10506/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Man City",
-            "team_b": "Fulham",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795254352063_Screenshot%202026-11-21%20164541.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795254391786_Screenshot%202026-11-21%20164622.png",
-            "time": "19:30:00",
-            "date": "21/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795264200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7a82e142fc_abf101d5_20261121.png?v=abf101d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-16e848528c",
           "name": "BINO BALINGASAG vs GAMAY ZAMBOANGA | Đại Kê",
@@ -163,8 +90,8 @@
           }
         },
         {
-          "id": "chtv-021778535e",
-          "name": "Sloan Piere Samuel Venter vs Jeanne-Pierre Ian Opperman | GIÀNG A PHỌ",
+          "id": "chtv-d0cb61dcae",
+          "name": "Hoàng Tiến Trung vs Renaud Michel Andre Gurgui | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -174,79 +101,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-021778535e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-021778535e",
-                  "name": "Sloan Piere Samuel Venter vs Jeanne-Pierre Ian Opperman",
-                  "streams": [
-                    {
-                      "id": "st-021778535e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-021778535e",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10499/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trận 4 | LION CHAMPIONSHIP LC37",
-            "team_a": "Sloan Piere Samuel Venter",
-            "team_b": "Jeanne-Pierre Ian Opperman",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795242104041_Screenshot%202026-11-21%20132134.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795242103700_Screenshot%202026-11-21%20132138.png",
-            "time": "20:45:00",
-            "date": "21/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1795268700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-021778535e_e86df9bf_20261121.png?v=e86df9bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d0cb61dcae",
-          "name": "Hoàng Tiến Trung vs Renaud Michel Andre Gurgui | 21:00 21/11 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -295,7 +149,7 @@
             "time": "21:00:00",
             "date": "21/11",
             "blv": "GIÀNG A PHỌ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795269600,
             "cate_type": "billiards"
           },
