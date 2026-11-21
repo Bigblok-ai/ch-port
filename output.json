@@ -745,6 +745,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-a1808e82d3",
+          "name": "Lê Hoàng Đức vs Bùi Đình Khải | 22:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1808e82d3",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a1808e82d3",
+                  "name": "Lê Hoàng Đức vs Bùi Đình Khải",
+                  "streams": [
+                    {
+                      "id": "st-a1808e82d3",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1808e82d3",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10504/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 9 | LION CHAMPIONSHIP LC37",
+            "team_a": "Lê Hoàng Đức",
+            "team_b": "Bùi Đình Khải",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795242739847_Screenshot%202026-11-21%20133039.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795242739490_Screenshot%202026-11-21%20133042.png",
+            "time": "22:00:00",
+            "date": "21/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795273200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a1808e82d3_53a49128_20261121.png?v=53a49128",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
