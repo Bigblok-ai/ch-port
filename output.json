@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-032d0ae8d6",
+          "name": "Hoàng Sao vs Hoàng PT | 13:00 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-032d0ae8d6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-032d0ae8d6",
+                  "name": "Hoàng Sao vs Hoàng PT",
+                  "streams": [
+                    {
+                      "id": "st-032d0ae8d6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-032d0ae8d6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10516/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Đại Hội Thể Thao Việt Nam",
+            "team_a": "Hoàng Sao",
+            "team_b": "Hoàng PT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795325181954_Ho%C3%A0ng%20Sao.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795325214031_Screenshot%202026-11-22%20122646.png",
+            "time": "13:00:00",
+            "date": "22/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795327200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-032d0ae8d6_f824917e_20261122.png?v=f824917e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
