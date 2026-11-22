@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-032d0ae8d6",
-          "name": "Hoàng Sao vs Hoàng PT | Bỉm Sữa",
+          "id": "chtv-01e65af180",
+          "name": "Phạm Phương Nam vs Nguyễn Hoàng Phong | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-032d0ae8d6",
+              "id": "src-01e65af180",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-032d0ae8d6",
-                  "name": "Hoàng Sao vs Hoàng PT",
+                  "id": "ct-01e65af180",
+                  "name": "Phạm Phương Nam vs Nguyễn Hoàng Phong",
                   "streams": [
                     {
-                      "id": "st-032d0ae8d6",
+                      "id": "st-01e65af180",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-032d0ae8d6",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-01e65af180",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10516/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10523/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,96 @@
             }
           ],
           "org_metadata": {
-            "league": "Đại Hội Thể Thao Việt Nam",
-            "team_a": "Hoàng Sao",
-            "team_b": "Hoàng PT",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795325181954_Ho%C3%A0ng%20Sao.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795325214031_Screenshot%202026-11-22%20122646.png",
-            "time": "13:00:00",
+            "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
+            "team_a": "Phạm Phương Nam",
+            "team_b": "Nguyễn Hoàng Phong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795334955917_Screenshot%202026-11-22%20150900.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795334955332_Screenshot%202026-11-22%20150838.png",
+            "time": "16:00:00",
             "date": "22/11",
-            "blv": "Bỉm Sữa",
+            "blv": "Đại Kê",
             "is_live": true,
-            "time_sort": 1795327200,
+            "time_sort": 1795338000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-032d0ae8d6_f824917e_20261122.png?v=f824917e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-01e65af180_a10001f8_20261122.png?v=a10001f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-eb3dc4e204",
+          "name": "Trịnh Đức Hiệu vs Nguyễn Tiến Minh | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb3dc4e204",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-eb3dc4e204",
+                  "name": "Trịnh Đức Hiệu vs Nguyễn Tiến Minh",
+                  "streams": [
+                    {
+                      "id": "st-eb3dc4e204",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eb3dc4e204",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10521/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
+            "team_a": "Trịnh Đức Hiệu",
+            "team_b": "Nguyễn Tiến Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795335209412_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795335209120_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "22/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1795338000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eb3dc4e204_9979d4ea_20261122.png?v=9979d4ea",
             "width": 1600,
             "height": 1200
           }
@@ -164,7 +237,7 @@
         },
         {
           "id": "chtv-43f36d40a7",
-          "name": "Lô Văn Xuân vs 1 | 16:00 22/11",
+          "name": "Lô Văn Xuân vs Hoàng PT | 16:00 22/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -183,7 +256,7 @@
               "contents": [
                 {
                   "id": "ct-43f36d40a7",
-                  "name": "Lô Văn Xuân vs 1",
+                  "name": "Lô Văn Xuân vs Hoàng PT",
                   "streams": [
                     {
                       "id": "st-43f36d40a7",
@@ -216,9 +289,9 @@
           "org_metadata": {
             "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
             "team_a": "Lô Văn Xuân",
-            "team_b": "1",
+            "team_b": "Hoàng PT",
             "logo_a": "https://cdn-choangtv.com/img/logo/1795335249311_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795338325417_Screenshot%202026-11-22%20160518.png",
             "time": "16:00:00",
             "date": "22/11",
             "blv": "",
@@ -230,153 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43f36d40a7_6cf42d5f_20261122.png?v=6cf42d5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-eb3dc4e204",
-          "name": "Trịnh Đức Hiệu vs Nguyễn Tiến Minh | 16:00 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb3dc4e204",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-eb3dc4e204",
-                  "name": "Trịnh Đức Hiệu vs Nguyễn Tiến Minh",
-                  "streams": [
-                    {
-                      "id": "st-eb3dc4e204",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eb3dc4e204",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10521/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
-            "team_a": "Trịnh Đức Hiệu",
-            "team_b": "Nguyễn Tiến Minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795335209412_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795335209120_Vi%E1%BB%87t%20Nam.png",
-            "time": "16:00:00",
-            "date": "22/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795338000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eb3dc4e204_9979d4ea_20261122.png?v=9979d4ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-01e65af180",
-          "name": "Phạm Phương Nam vs Nguyễn Hoàng Phong | 16:00 22/11 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-01e65af180",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-01e65af180",
-                  "name": "Phạm Phương Nam vs Nguyễn Hoàng Phong",
-                  "streams": [
-                    {
-                      "id": "st-01e65af180",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01e65af180",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10523/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
-            "team_a": "Phạm Phương Nam",
-            "team_b": "Nguyễn Hoàng Phong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795334955917_Screenshot%202026-11-22%20150900.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795334955332_Screenshot%202026-11-22%20150838.png",
-            "time": "16:00:00",
-            "date": "22/11",
-            "blv": "Đại Kê",
-            "is_live": false,
-            "time_sort": 1795338000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-01e65af180_a10001f8_20261122.png?v=a10001f8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43f36d40a7_cdd48845_20261122.png?v=cdd48845",
             "width": 1600,
             "height": 1200
           }
