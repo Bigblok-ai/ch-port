@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-3c5a8bb10d",
+          "name": "Thiện Lương vs Hoàng Sao | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c5a8bb10d",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3c5a8bb10d",
+                  "name": "Thiện Lương vs Hoàng Sao",
+                  "streams": [
+                    {
+                      "id": "st-3c5a8bb10d",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c5a8bb10d",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10511/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Đại Hội Thể Thao Việt Nam",
+            "team_a": "Thiện Lương",
+            "team_b": "Hoàng Sao",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795310968200_Thi%E1%BB%87n%20L%C6%B0%C6%A1ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795310967809_Ho%C3%A0ng%20Sao.png",
+            "time": "09:00:00",
+            "date": "22/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1795312800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3c5a8bb10d_c80dc255_20261122.png?v=c80dc255",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-484bddda67",
           "name": "Nguyễn Hoàng Phong vs Nguyễn Phúc Long | 09:00 22/11 | Thập Cẩm",
@@ -85,79 +158,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-484bddda67_7b1431fc_20261122.png?v=7b1431fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3c5a8bb10d",
-          "name": "Thiện Lương vs Hoàng Sao | 09:00 22/11 | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c5a8bb10d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3c5a8bb10d",
-                  "name": "Thiện Lương vs Hoàng Sao",
-                  "streams": [
-                    {
-                      "id": "st-3c5a8bb10d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c5a8bb10d",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10511/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Đại Hội Thể Thao Việt Nam",
-            "team_a": "Thiện Lương",
-            "team_b": "Hoàng Sao",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795310968200_Thi%E1%BB%87n%20L%C6%B0%C6%A1ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795310967809_Ho%C3%A0ng%20Sao.png",
-            "time": "09:00:00",
-            "date": "22/11",
-            "blv": "Lee Min Hoo",
-            "is_live": false,
-            "time_sort": 1795312800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3c5a8bb10d_c80dc255_20261122.png?v=c80dc255",
             "width": 1600,
             "height": 1200
           }
