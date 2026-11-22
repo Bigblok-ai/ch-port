@@ -90,81 +90,8 @@
           }
         },
         {
-          "id": "chtv-01e65af180",
-          "name": "Phạm Phương Nam vs Nguyễn Hoàng Phong | 16:00 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-01e65af180",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-01e65af180",
-                  "name": "Phạm Phương Nam vs Nguyễn Hoàng Phong",
-                  "streams": [
-                    {
-                      "id": "st-01e65af180",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01e65af180",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10523/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
-            "team_a": "Phạm Phương Nam",
-            "team_b": "Nguyễn Hoàng Phong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795334955917_Screenshot%202026-11-22%20150900.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795334955332_Screenshot%202026-11-22%20150838.png",
-            "time": "16:00:00",
-            "date": "22/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795338000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-01e65af180_a10001f8_20261122.png?v=a10001f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-2e5b7cdf68",
-          "name": "Trịnh Văn Bình vs Phan Văn Kiên | 16:00 22/11",
+          "name": "Trịnh Văn Bình vs Phan Văn Kiên | 16:00 22/11 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -191,7 +118,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-2e5b7cdf68",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10524/index.m3u8",
@@ -221,7 +148,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795335175108_Vi%E1%BB%87t%20Nam.png",
             "time": "16:00:00",
             "date": "22/11",
-            "blv": "",
+            "blv": "GIÀNG A PHỌ",
             "is_live": false,
             "time_sort": 1795338000,
             "cate_type": "billiards"
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2e5b7cdf68_5f11facc_20261122.png?v=5f11facc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-43f36d40a7",
+          "name": "Lô Văn Xuân vs 1 | 16:00 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43f36d40a7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-43f36d40a7",
+                  "name": "Lô Văn Xuân vs 1",
+                  "streams": [
+                    {
+                      "id": "st-43f36d40a7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43f36d40a7",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10522/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
+            "team_a": "Lô Văn Xuân",
+            "team_b": "1",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795335249311_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "",
+            "time": "16:00:00",
+            "date": "22/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795338000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43f36d40a7_6cf42d5f_20261122.png?v=6cf42d5f",
             "width": 1600,
             "height": 1200
           }
@@ -309,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-43f36d40a7",
-          "name": "Lô Văn Xuân vs 1 | 16:00 22/11",
+          "id": "chtv-01e65af180",
+          "name": "Phạm Phương Nam vs Nguyễn Hoàng Phong | 16:00 22/11 | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -324,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-43f36d40a7",
+              "id": "src-01e65af180",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-43f36d40a7",
-                  "name": "Lô Văn Xuân vs 1",
+                  "id": "ct-01e65af180",
+                  "name": "Phạm Phương Nam vs Nguyễn Hoàng Phong",
                   "streams": [
                     {
-                      "id": "st-43f36d40a7",
+                      "id": "st-01e65af180",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-43f36d40a7",
-                          "name": "Stream",
+                          "id": "lnk-01e65af180",
+                          "name": "Đại Kê",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10522/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10523/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,13 +361,13 @@
           ],
           "org_metadata": {
             "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
-            "team_a": "Lô Văn Xuân",
-            "team_b": "1",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795335249311_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "",
+            "team_a": "Phạm Phương Nam",
+            "team_b": "Nguyễn Hoàng Phong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795334955917_Screenshot%202026-11-22%20150900.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795334955332_Screenshot%202026-11-22%20150838.png",
             "time": "16:00:00",
             "date": "22/11",
-            "blv": "",
+            "blv": "Đại Kê",
             "is_live": false,
             "time_sort": 1795338000,
             "cate_type": "billiards"
@@ -376,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43f36d40a7_6cf42d5f_20261122.png?v=6cf42d5f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-01e65af180_a10001f8_20261122.png?v=a10001f8",
             "width": 1600,
             "height": 1200
           }
