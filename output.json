@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -164,16 +164,16 @@
         },
         {
           "id": "chtv-0a622ec8f4",
-          "name": "văn sinh vs duy nhỏ | 20:53 22/11 | Thập Cẩm",
+          "name": "văn sinh vs duy nhỏ | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +222,7 @@
             "time": "20:53:00",
             "date": "22/11",
             "blv": "Thập Cẩm",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795355580,
             "cate_type": "billiards"
           },
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3d47f78ca1_60a63898_20261122.png?v=60a63898",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-062e15e7b5",
+          "name": "Getafe vs Atletico | 03:00 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-062e15e7b5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-062e15e7b5",
+                  "name": "Getafe vs Atletico",
+                  "streams": [
+                    {
+                      "id": "st-062e15e7b5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-062e15e7b5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10527/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Getafe",
+            "team_b": "Atletico",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795342939744_Screenshot%202026-11-22%20172212.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795342992997_Screenshot%202026-11-22%20172306.png",
+            "time": "03:00:00",
+            "date": "23/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795377600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-062e15e7b5_83523db8_20261122.png?v=83523db8",
             "width": 1600,
             "height": 1200
           }
