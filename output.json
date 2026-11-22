@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-1d141dd67b",
-          "name": "sài tiến vs huy cận | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d141dd67b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1d141dd67b",
-                  "name": "sài tiến vs huy cận",
-                  "streams": [
-                    {
-                      "id": "st-1d141dd67b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d141dd67b",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10538/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "sài tiến",
-            "team_b": "huy cận",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795360951418_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795360951132_Vi%E1%BB%87t%20Nam.png",
-            "time": "22:22:00",
-            "date": "22/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1795360920,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1d141dd67b_c9c51e54_20261122.png?v=c9c51e54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d4e8d165c5",
           "name": "EDWIN GAMAS vs ALLAN IBAAN | Tào A Man",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-02b16a372b_e06f63d9_20261122.png?v=e06f63d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-378175b96e",
+          "name": "sài tiến vs duy tân | 23:50 22/11 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-378175b96e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-378175b96e",
+                  "name": "sài tiến vs duy tân",
+                  "streams": [
+                    {
+                      "id": "st-378175b96e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378175b96e",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10540/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "sài tiến",
+            "team_b": "duy tân",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795366274470_Screenshot%202026-11-19%20180418.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795366274983_Screenshot%202026-11-19%20180418.png",
+            "time": "23:50:00",
+            "date": "22/11",
+            "blv": "Kèn Kèn",
+            "is_live": false,
+            "time_sort": 1795366200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-378175b96e_523a65ce_20261122.png?v=523a65ce",
             "width": 1600,
             "height": 1200
           }
