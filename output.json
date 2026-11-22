@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-1fe97a27db",
+          "name": "Trịnh Văn Bình vs Phan Văn Kiên | 16:00 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1fe97a27db",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1fe97a27db",
+                  "name": "Trịnh Văn Bình vs Phan Văn Kiên",
+                  "streams": [
+                    {
+                      "id": "st-1fe97a27db",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1fe97a27db",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10520/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
+            "team_a": "Trịnh Văn Bình",
+            "team_b": "Phan Văn Kiên",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795335173448_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795335175108_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00:00",
+            "date": "22/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795338000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1fe97a27db_5f11facc_20261122.png?v=5f11facc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-eb3dc4e204",
           "name": "Trịnh Đức Hiệu vs Nguyễn Tiến Minh | 16:00 22/11",
           "type": "single",
@@ -158,79 +231,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eb3dc4e204_9979d4ea_20261122.png?v=9979d4ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1fe97a27db",
-          "name": "Trịnh Văn Bình vs Phạm Văn Kiên | 16:00 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1fe97a27db",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1fe97a27db",
-                  "name": "Trịnh Văn Bình vs Phạm Văn Kiên",
-                  "streams": [
-                    {
-                      "id": "st-1fe97a27db",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1fe97a27db",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10520/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT Đại Hội Thể Thao Việt Nam",
-            "team_a": "Trịnh Văn Bình",
-            "team_b": "Phạm Văn Kiên",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795335173448_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795335175108_Vi%E1%BB%87t%20Nam.png",
-            "time": "16:00:00",
-            "date": "22/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795338000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1fe97a27db_5f11facc_20261122.png?v=5f11facc",
             "width": 1600,
             "height": 1200
           }
