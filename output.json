@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-a2f3da252e",
-          "name": "Newcastle vs Arsenal | GIÀNG A PHỌ",
+          "id": "chtv-3c5a8bb10d",
+          "name": "Thiện Lương vs Hoàng Sao | 09:00 22/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-a2f3da252e",
+              "id": "src-3c5a8bb10d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-a2f3da252e",
-                  "name": "Newcastle vs Arsenal",
+                  "id": "ct-3c5a8bb10d",
+                  "name": "Thiện Lương vs Hoàng Sao",
                   "streams": [
                     {
-                      "id": "st-a2f3da252e",
+                      "id": "st-3c5a8bb10d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a2f3da252e",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-3c5a8bb10d",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10509/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10511/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Newcastle",
-            "team_b": "Arsenal",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795254652064_Screenshot%202026-11-21%20165043.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795254718962_Screenshot%202026-11-21%20165150.png",
-            "time": "00:30:00",
+            "league": "Đại Hội Thể Thao Việt Nam",
+            "team_a": "Thiện Lương",
+            "team_b": "Hoàng Sao",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795310968200_Thi%E1%BB%87n%20L%C6%B0%C6%A1ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795310967809_Ho%C3%A0ng%20Sao.png",
+            "time": "09:00:00",
             "date": "22/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1795282200,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795312800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a2f3da252e_8b1e655b_20261122.png?v=8b1e655b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3c5a8bb10d_c80dc255_20261122.png?v=c80dc255",
             "width": 1600,
             "height": 1200
           }
