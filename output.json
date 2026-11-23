@@ -11,23 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-3fa9de6d96",
-          "name": "Hoàng PT vs Bình Trọc | 10:00 23/11 | Lee Min Hoo",
+          "name": "Hoàng PT vs Bình Trọc | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "10:00:00",
             "date": "23/11",
             "blv": "Lee Min Hoo",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795402800,
             "cate_type": "billiards"
           },
@@ -91,16 +91,16 @@
         },
         {
           "id": "chtv-666729ce84",
-          "name": "Phong Nam vs Tiến Minh TH | 10:00 23/11 | GIÀNG A PHỌ",
+          "name": "Phong Nam vs Tiến Minh TH | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -149,7 +149,7 @@
             "time": "10:00:00",
             "date": "23/11",
             "blv": "GIÀNG A PHỌ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795402800,
             "cate_type": "billiards"
           },
