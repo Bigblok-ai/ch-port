@@ -382,6 +382,79 @@
           }
         },
         {
+          "id": "chtv-d8b5411ab4",
+          "name": "Corey Deuel vs Mario He | 00:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8b5411ab4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d8b5411ab4",
+                  "name": "Corey Deuel vs Mario He",
+                  "streams": [
+                    {
+                      "id": "st-d8b5411ab4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8b5411ab4",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10573/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "san antonio",
+            "team_a": "Corey Deuel",
+            "team_b": "Mario He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795452531414_Screenshot%202026-11-23%20234841.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795452558589_Screenshot%202026-11-23%20234909.png",
+            "time": "00:00:00",
+            "date": "24/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795453200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8b5411ab4_866e4fcd_20261123.png?v=866e4fcd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-7caa58e59a",
           "name": "Roberto Gomez vs Douglas Byrd | 00:00 24/11",
           "type": "single",
