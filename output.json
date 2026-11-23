@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -164,16 +164,16 @@
         },
         {
           "id": "chtv-629f016eb8",
-          "name": "CHEN LISHENG vs LIU RI TENG | 19:10 23/11 | Lee Min Hoo",
+          "name": "CHEN LISHENG vs LIU RI TENG | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +222,7 @@
             "time": "19:10:00",
             "date": "23/11",
             "blv": "Lee Min Hoo",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795435800,
             "cate_type": "billiards"
           },
@@ -231,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-629f016eb8_89b02bda_20261123.png?v=89b02bda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-009e8c3d7a",
+          "name": "WANG XI PENG vs CHU BING JIE | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-009e8c3d7a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-009e8c3d7a",
+                  "name": "WANG XI PENG vs CHU BING JIE",
+                  "streams": [
+                    {
+                      "id": "st-009e8c3d7a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-009e8c3d7a",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10560/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "HENGQIN DUYA LEGENDS GOLDEN NINE OPEN",
+            "team_a": "WANG XI PENG",
+            "team_b": "CHU BING JIE",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795435913351_Screenshot%202026-11-20%20191052.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795435919714_Screenshot%202026-11-20%20191052.png",
+            "time": "19:11:00",
+            "date": "23/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1795435860,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-009e8c3d7a_4da25c00_20261123.png?v=4da25c00",
             "width": 1600,
             "height": 1200
           }
