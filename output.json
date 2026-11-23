@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-60f2dd9ad0",
+          "name": "Hoàng PT vs Phong Nam | 14:00 23/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60f2dd9ad0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-60f2dd9ad0",
+                  "name": "Hoàng PT vs Phong Nam",
+                  "streams": [
+                    {
+                      "id": "st-60f2dd9ad0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60f2dd9ad0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10544/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗖𝗵𝗼𝗮́𝗻𝗴 𝗧𝗩 𝗻𝗵𝗮̀ 𝗰𝗮́𝗶 𝗱𝗲̂́𝗻 𝘁𝘂̛̀ 𝗜𝗰𝗲𝗹𝗮𝗻𝗱 | CHUNG KẾT",
+            "team_a": "Hoàng PT",
+            "team_b": "Phong Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795410586307_Screenshot%202026-11-22%20122646.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795410586133_Screenshot%202026-11-22%20150838.png",
+            "time": "14:00:00",
+            "date": "23/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795417200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60f2dd9ad0_215a8ecd_20261123.png?v=215a8ecd",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
