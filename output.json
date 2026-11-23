@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-b1511c05e4",
-          "name": "Meynard TIPAWAN vs Hayato HIJIKATA | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b1511c05e4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b1511c05e4",
-                  "name": "Meynard TIPAWAN vs Hayato HIJIKATA",
-                  "streams": [
-                    {
-                      "id": "st-b1511c05e4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b1511c05e4",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10543/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Japan Championship",
-            "team_a": "Meynard TIPAWAN",
-            "team_b": "Hayato HIJIKATA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795410366301_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795410365977_Nh%E1%BA%ADt.png",
-            "time": "12:05:00",
-            "date": "23/11",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1795410300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b1511c05e4_6d6f2e79_20261123.png?v=6d6f2e79",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-643d10dd33",
           "name": "JOHANN CHUA vs WANG ZHE | Thập Cẩm",
           "type": "single",
@@ -310,16 +237,16 @@
         },
         {
           "id": "chtv-60f2dd9ad0",
-          "name": "Hoàng PT vs Phong Nam | 14:00 23/11 | Lee Min Hoo",
+          "name": "Hoàng PT vs Phong Nam | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -368,7 +295,7 @@
             "time": "14:00:00",
             "date": "23/11",
             "blv": "Lee Min Hoo",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795417200,
             "cate_type": "billiards"
           },
