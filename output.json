@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-666729ce84_3a8aa201_20261123.png?v=3a8aa201",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3fa9de6d96",
-          "name": "Hoàng PT vs Bình Trọc | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3fa9de6d96",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3fa9de6d96",
-                  "name": "Hoàng PT vs Bình Trọc",
-                  "streams": [
-                    {
-                      "id": "st-3fa9de6d96",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3fa9de6d96",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10542/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗖𝗵𝗼𝗮́𝗻𝗴 𝗧𝗩 𝗻𝗵𝗮̀ 𝗰𝗮́𝗶 𝗱𝗲̂́𝗻 𝘁𝘂̛̀ 𝗜𝗰𝗲𝗹𝗮𝗻𝗱 | Bán kết 2",
-            "team_a": "Hoàng PT",
-            "team_b": "Bình Trọc",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795390145125_Ho%C3%A0ng%20PT.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795390133902_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
-            "time": "10:00:00",
-            "date": "23/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1795402800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3fa9de6d96_bd482ae0_20261123.png?v=bd482ae0",
             "width": 1600,
             "height": 1200
           }
