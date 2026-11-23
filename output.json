@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-9fedc3dbc3",
-          "name": "QUANG CON vs TAM BẮC NINH | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9fedc3dbc3",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9fedc3dbc3",
-                  "name": "QUANG CON vs TAM BẮC NINH",
-                  "streams": [
-                    {
-                      "id": "st-9fedc3dbc3",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9fedc3dbc3",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10566/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "QUANG CON",
-            "team_b": "TAM BẮC NINH",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795438873200_Screenshot%202026-11-23%20200103.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795438884229_Screenshot%202026-11-23%20200118.png",
-            "time": "20:00:00",
-            "date": "23/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1795438800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9fedc3dbc3_51288bd1_20261123.png?v=51288bd1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-58da693d05",
           "name": "Vietnam U17 vs New Zealand U17 | Thập Cẩm",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58da693d05_451cedbf_20261123.png?v=451cedbf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-934abf953c",
+          "name": "Ralf Souquet vs Arabdho Majumder | 00:00 24/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-934abf953c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-934abf953c",
+                  "name": "Ralf Souquet vs Arabdho Majumder",
+                  "streams": [
+                    {
+                      "id": "st-934abf953c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-934abf953c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10568/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "san antonio",
+            "team_a": "Ralf Souquet",
+            "team_b": "Arabdho Majumder",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795448968274_Screenshot%202026-11-23%20224921.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795448930734_Screenshot%202026-11-23%20224844.png",
+            "time": "00:00:00",
+            "date": "24/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795453200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-934abf953c_358e9fe1_20261123.png?v=358e9fe1",
             "width": 1600,
             "height": 1200
           }
@@ -450,79 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7caa58e59a_4e8d9842_20261123.png?v=4e8d9842",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-934abf953c",
-          "name": "Ralf Souquet vs Arabdho Majumder | 00:00 24/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-934abf953c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-934abf953c",
-                  "name": "Ralf Souquet vs Arabdho Majumder",
-                  "streams": [
-                    {
-                      "id": "st-934abf953c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-934abf953c",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10568/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "san antonio",
-            "team_a": "Ralf Souquet",
-            "team_b": "Arabdho Majumder",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795448968274_Screenshot%202026-11-23%20224921.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795448930734_Screenshot%202026-11-23%20224844.png",
-            "time": "00:00:00",
-            "date": "24/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795453200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-934abf953c_358e9fe1_20261123.png?v=358e9fe1",
             "width": 1600,
             "height": 1200
           }
