@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-60f2dd9ad0",
-          "name": "Hoàng PT vs Phong Nam | Lee Min Hoo",
+          "id": "chtv-7192416e26",
+          "name": "LIKE vs CHAO LU MEN | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,79 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60f2dd9ad0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-60f2dd9ad0",
-                  "name": "Hoàng PT vs Phong Nam",
-                  "streams": [
-                    {
-                      "id": "st-60f2dd9ad0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-60f2dd9ad0",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10544/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗖𝗵𝗼𝗮́𝗻𝗴 𝗧𝗩 𝗻𝗵𝗮̀ 𝗰𝗮́𝗶 𝗱𝗲̂́𝗻 𝘁𝘂̛̀ 𝗜𝗰𝗲𝗹𝗮𝗻𝗱 | CHUNG KẾT",
-            "team_a": "Hoàng PT",
-            "team_b": "Phong Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795410586307_Screenshot%202026-11-22%20122646.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795410586133_Screenshot%202026-11-22%20150838.png",
-            "time": "14:00:00",
-            "date": "23/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1795417200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-60f2dd9ad0_215a8ecd_20261123.png?v=215a8ecd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7192416e26",
-          "name": "LIKE vs CHAO LU MEN | 15:54 23/11 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -149,7 +76,7 @@
             "time": "15:54:00",
             "date": "23/11",
             "blv": "Bỉm Sữa",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795424040,
             "cate_type": "billiards"
           },
@@ -158,6 +85,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7192416e26_823d1042_20261123.png?v=823d1042",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-41dbc2e8d5",
+          "name": "Raymund Faraon vs Li Junxi 黎駿熙 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41dbc2e8d5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-41dbc2e8d5",
+                  "name": "Raymund Faraon vs Li Junxi 黎駿熙",
+                  "streams": [
+                    {
+                      "id": "st-41dbc2e8d5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41dbc2e8d5",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10549/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 獨牙橫琴中式九球公開賽 Duya Golden Nine Hengqin Open",
+            "team_a": "Raymund Faraon",
+            "team_b": "Li Junxi 黎駿熙",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795424272145_Screenshot%202026-11-23%20155740.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795424280157_Screenshot%202026-11-23%20155740.png",
+            "time": "15:56:00",
+            "date": "23/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1795424160,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-41dbc2e8d5_050bd677_20261123.png?v=050bd677",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-97ed5a3c9e",
+          "name": "Raymund Faraon vs Li Junxi | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97ed5a3c9e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-97ed5a3c9e",
+                  "name": "Raymund Faraon vs Li Junxi",
+                  "streams": [
+                    {
+                      "id": "st-97ed5a3c9e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-97ed5a3c9e",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10550/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 獨牙橫琴中式九球公開賽 Duya Golden Nine Hengqin Open",
+            "team_a": "Raymund Faraon",
+            "team_b": "Li Junxi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795424314005_Trung%20Qu%E1%BB%91c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795424313753_Trung%20Qu%E1%BB%91c.png",
+            "time": "15:58:00",
+            "date": "23/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1795424280,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-97ed5a3c9e_8b13f8d1_20261123.png?v=8b13f8d1",
             "width": 1600,
             "height": 1200
           }
