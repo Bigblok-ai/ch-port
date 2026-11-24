@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-96113be8ae",
+          "name": "Silviana Lu vs April Larson | 00:00 25/11 | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-96113be8ae",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-96113be8ae",
+                  "name": "Silviana Lu vs April Larson",
+                  "streams": [
+                    {
+                      "id": "st-96113be8ae",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96113be8ae",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10604/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "san antonio",
+            "team_a": "Silviana Lu",
+            "team_b": "April Larson",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795539263036_Screenshot%202026-11-24%20235417.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795539286310_Screenshot%202026-11-24%20235440.png",
+            "time": "00:00:00",
+            "date": "25/11",
+            "blv": "Kèn Kèn",
+            "is_live": false,
+            "time_sort": 1795539600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-96113be8ae_1fea9ac9_20261124.png?v=1fea9ac9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-902163545b",
           "name": "Arsenal vs Dortmund | 03:00 25/11",
           "type": "single",
