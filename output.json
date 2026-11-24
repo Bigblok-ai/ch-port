@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9dc676a909_252cb56f_20261124.png?v=252cb56f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b692264757",
+          "name": "đôi duy đen vs đối đôi | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b692264757",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b692264757",
+                  "name": "đôi duy đen vs đối đôi",
+                  "streams": [
+                    {
+                      "id": "st-b692264757",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b692264757",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10590/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "đôi duy đen",
+            "team_b": "đối đôi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795522486444_Screenshot%202026-11-19%20180418.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795522486950_Screenshot%202026-11-19%20180418.png",
+            "time": "19:13:00",
+            "date": "24/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1795522380,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b692264757_e51d5aa0_20261124.png?v=e51d5aa0",
             "width": 1600,
             "height": 1200
           }
