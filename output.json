@@ -11,169 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-bc3124e017",
-          "name": "QUANG CON vs VĂN SINH | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc3124e017",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bc3124e017",
-                  "name": "QUANG CON vs VĂN SINH",
-                  "streams": [
-                    {
-                      "id": "st-bc3124e017",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc3124e017",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10588/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "topt top",
-            "team_a": "QUANG CON",
-            "team_b": "VĂN SINH",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795510708405_Screenshot%202026-11-19%20180418.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795510708040_Screenshot%202026-11-19%20180418.png",
-            "time": "15:58:00",
-            "date": "24/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795510680,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc3124e017_c5983bff_20261124.png?v=c5983bff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ba4cfc97c9",
-          "name": "Ko Ping-Chung vs Phone Myint Kyaw | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba4cfc97c9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ba4cfc97c9",
-                  "name": "Ko Ping-Chung vs Phone Myint Kyaw",
-                  "streams": [
-                    {
-                      "id": "st-ba4cfc97c9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ba4cfc97c9",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10587/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2026 獨牙橫琴中式九球公開賽",
-            "team_a": "Ko Ping-Chung",
-            "team_b": "Phone Myint Kyaw",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795514914235_Screenshot%202026-11-24%20170817.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795514954765_Screenshot%202026-11-24%20170911.png",
-            "time": "17:08:00",
-            "date": "24/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1795514880,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ba4cfc97c9_e58bbea6_20261124.png?v=e58bbea6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-9dc676a909",
-          "name": "ASSIS TADIQUE vs MARK DAVAO | 18:56 24/11 | VÁNG",
+          "name": "ASSIS TADIQUE vs MARK DAVAO | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +76,7 @@
             "time": "18:56:00",
             "date": "24/11",
             "blv": "VÁNG",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795521360,
             "cate_type": "billiards"
           },
