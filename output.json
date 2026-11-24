@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5b68a2eca1_c5983bff_20261124.png?v=c5983bff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ba4cfc97c9",
+          "name": "Ko Ping-Chung vs Phone Myint Kyaw | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba4cfc97c9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ba4cfc97c9",
+                  "name": "Ko Ping-Chung vs Phone Myint Kyaw",
+                  "streams": [
+                    {
+                      "id": "st-ba4cfc97c9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ba4cfc97c9",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10587/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 獨牙橫琴中式九球公開賽",
+            "team_a": "Ko Ping-Chung",
+            "team_b": "Phone Myint Kyaw",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795514914235_Screenshot%202026-11-24%20170817.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795514954765_Screenshot%202026-11-24%20170911.png",
+            "time": "17:08:00",
+            "date": "24/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795514880,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ba4cfc97c9_e58bbea6_20261124.png?v=e58bbea6",
             "width": 1600,
             "height": 1200
           }
