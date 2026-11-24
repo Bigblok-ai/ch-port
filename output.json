@@ -11,14 +11,87 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-cad1028105",
+          "name": "Ko Pin-Yi vs Shan Hongyu | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cad1028105",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cad1028105",
+                  "name": "Ko Pin-Yi vs Shan Hongyu",
+                  "streams": [
+                    {
+                      "id": "st-cad1028105",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cad1028105",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10580/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 獨牙橫琴中式九球公開賽",
+            "team_a": "Ko Pin-Yi",
+            "team_b": "Shan Hongyu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795498842730_Screenshot%202026-11-24%20124038.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795498898666_Trung%20Qu%E1%BB%91c.png",
+            "time": "13:00:00",
+            "date": "24/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795500000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cad1028105_1da563b6_20261124.png?v=1da563b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-61ce2562f6",
-          "name": "Trung Nấm Thầy Kiên vs Thiện Lương Nam Tạ | 14:00 24/11",
+          "name": "Trung Nấm Thầy Kiên vs Thiện Lương Nam Tạ | 14:00 24/11 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +118,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-61ce2562f6",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10574/index.m3u8",
@@ -75,7 +148,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795486414738_Screenshot%202026-11-24%20091323.png",
             "time": "14:00:00",
             "date": "24/11",
-            "blv": "",
+            "blv": "Thập Cẩm",
             "is_live": false,
             "time_sort": 1795503600,
             "cate_type": "billiards"
@@ -91,7 +164,7 @@
         },
         {
           "id": "chtv-0fd80a419e",
-          "name": "Tkon Hoàng Phong vs Hoàng VT Sở Phát | 14:00 24/11",
+          "name": "Tkon Hoàng Phong vs Hoàng VT Sở Phát | 14:00 24/11 | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -118,7 +191,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-0fd80a419e",
-                          "name": "Stream",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10575/index.m3u8",
@@ -148,7 +221,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795486583039_Screenshot%202026-11-24%20091609.png",
             "time": "14:00:00",
             "date": "24/11",
-            "blv": "",
+            "blv": "Tào A Man",
             "is_live": false,
             "time_sort": 1795503600,
             "cate_type": "billiards"
@@ -237,7 +310,7 @@
         },
         {
           "id": "chtv-710c4c7041",
-          "name": "Ngọc Hùng- Văn Nam vs Ngọc Nhuận - Hồng Thắng | 14:00 24/11",
+          "name": "Ngọc Hùng- Văn Nam vs Ngọc Nhuận - Hồng Thắng | 14:00 24/11 | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -264,7 +337,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-710c4c7041",
-                          "name": "Stream",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10577/index.m3u8",
@@ -294,7 +367,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1795488285351_Vi%E1%BB%87t%20Nam.png",
             "time": "14:00:00",
             "date": "24/11",
-            "blv": "",
+            "blv": "Lee Min Hoo",
             "is_live": false,
             "time_sort": 1795503600,
             "cate_type": "billiards"
