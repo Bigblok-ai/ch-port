@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-0fd80a419e",
+          "name": "Tkon Hoàng Phong vs Hoàng VT Sở Phát | Tào A Man",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fd80a419e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0fd80a419e",
+                  "name": "Tkon Hoàng Phong vs Hoàng VT Sở Phát",
+                  "streams": [
+                    {
+                      "id": "st-0fd80a419e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fd80a419e",
+                          "name": "Tào A Man",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10575/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗠𝗲𝗻’𝘀 𝗱𝗼𝘂𝗯𝗹𝗲𝘀 𝗾𝘂𝗮𝗿𝘁𝗲𝗿𝗳𝗶𝗻𝗮𝗹𝘀",
+            "team_a": "Tkon Hoàng Phong",
+            "team_b": "Hoàng VT Sở Phát",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795486500752_Screenshot%202026-11-24%20091452.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795486583039_Screenshot%202026-11-24%20091609.png",
+            "time": "14:00:00",
+            "date": "24/11",
+            "blv": "Tào A Man",
+            "is_live": true,
+            "time_sort": 1795503600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0fd80a419e_43111ef4_20261124.png?v=43111ef4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-61ce2562f6",
           "name": "Trung Nấm Thầy Kiên vs Thiện Lương Nam Tạ | Thập Cẩm",
           "type": "single",
@@ -163,6 +236,79 @@
           }
         },
         {
+          "id": "chtv-6660ad6343",
+          "name": "Quach Vĩ Nam - Lâm Hoàng Minh vs Trịnh Đức Hiếu - Đinh Văn Lực | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6660ad6343",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6660ad6343",
+                  "name": "Quach Vĩ Nam - Lâm Hoàng Minh vs Trịnh Đức Hiếu - Đinh Văn Lực",
+                  "streams": [
+                    {
+                      "id": "st-6660ad6343",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6660ad6343",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10576/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗠𝗲𝗻’𝘀 𝗱𝗼𝘂𝗯𝗹𝗲𝘀 𝗾𝘂𝗮𝗿𝘁𝗲𝗿𝗳𝗶𝗻𝗮𝗹𝘀",
+            "team_a": "Quach Vĩ Nam - Lâm Hoàng Minh",
+            "team_b": "Trịnh Đức Hiếu - Đinh Văn Lực",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795488285806_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795488285351_Vi%E1%BB%87t%20Nam.png",
+            "time": "14:00:00",
+            "date": "24/11",
+            "blv": "VÁNG",
+            "is_live": true,
+            "time_sort": 1795503600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6660ad6343_c8d576ae_20261124.png?v=c8d576ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-710c4c7041",
           "name": "Ngọc Hùng- Văn Nam vs Ngọc Nhuận - Hồng Thắng | Lee Min Hoo",
           "type": "single",
@@ -231,152 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-710c4c7041_c8d576ae_20261124.png?v=c8d576ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-0fd80a419e",
-          "name": "Tkon Hoàng Phong vs Hoàng VT Sở Phát | 14:00 24/11 | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0fd80a419e",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0fd80a419e",
-                  "name": "Tkon Hoàng Phong vs Hoàng VT Sở Phát",
-                  "streams": [
-                    {
-                      "id": "st-0fd80a419e",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fd80a419e",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10575/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗠𝗲𝗻’𝘀 𝗱𝗼𝘂𝗯𝗹𝗲𝘀 𝗾𝘂𝗮𝗿𝘁𝗲𝗿𝗳𝗶𝗻𝗮𝗹𝘀",
-            "team_a": "Tkon Hoàng Phong",
-            "team_b": "Hoàng VT Sở Phát",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795486500752_Screenshot%202026-11-24%20091452.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795486583039_Screenshot%202026-11-24%20091609.png",
-            "time": "14:00:00",
-            "date": "24/11",
-            "blv": "Tào A Man",
-            "is_live": false,
-            "time_sort": 1795503600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0fd80a419e_43111ef4_20261124.png?v=43111ef4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6660ad6343",
-          "name": "Quach Vĩ Nam - Lâm Hoàng Minh vs Trịnh Đức Hiếu - Đinh Văn Lực | 14:00 24/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6660ad6343",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6660ad6343",
-                  "name": "Quach Vĩ Nam - Lâm Hoàng Minh vs Trịnh Đức Hiếu - Đinh Văn Lực",
-                  "streams": [
-                    {
-                      "id": "st-6660ad6343",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6660ad6343",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10576/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗠𝗲𝗻’𝘀 𝗱𝗼𝘂𝗯𝗹𝗲𝘀 𝗾𝘂𝗮𝗿𝘁𝗲𝗿𝗳𝗶𝗻𝗮𝗹𝘀",
-            "team_a": "Quach Vĩ Nam - Lâm Hoàng Minh",
-            "team_b": "Trịnh Đức Hiếu - Đinh Văn Lực",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795488285806_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795488285351_Vi%E1%BB%87t%20Nam.png",
-            "time": "14:00:00",
-            "date": "24/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795503600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6660ad6343_c8d576ae_20261124.png?v=c8d576ae",
             "width": 1600,
             "height": 1200
           }
