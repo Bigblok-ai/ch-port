@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-f3b7991876",
+          "name": "Thiện Lương - Nam Tạ vs Hồng Thắng - Ngọc Nhuận | 14:00 25/11 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3b7991876",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f3b7991876",
+                  "name": "Thiện Lương - Nam Tạ vs Hồng Thắng - Ngọc Nhuận",
+                  "streams": [
+                    {
+                      "id": "st-f3b7991876",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3b7991876",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10608/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗠𝗲𝗻’𝘀 𝗱𝗼𝘂𝗯𝗹𝗲𝘀 𝗾𝘂𝗮𝗿𝘁𝗲𝗿𝗳𝗶𝗻𝗮𝗹𝘀 CHUNG KẾT",
+            "team_a": "Thiện Lương - Nam Tạ",
+            "team_b": "Hồng Thắng - Ngọc Nhuận",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795579843739_Screenshot%202026-11-25%20080648.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795579843289_Screenshot%202026-11-25%20081030.png",
+            "time": "14:00:00",
+            "date": "25/11",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1795590000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f3b7991876_16ee1365_20261125.png?v=16ee1365",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
