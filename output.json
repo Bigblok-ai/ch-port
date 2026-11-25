@@ -11,11 +11,230 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-e41aee7f86",
+          "name": "Sporting vs Manchester United | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e41aee7f86",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e41aee7f86",
+                  "name": "Sporting vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-e41aee7f86",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e41aee7f86",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10619/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Sporting",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795600881537_Screenshot%202026-11-25%20170116.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795600926603_Screenshot%202026-11-25%20170201.png",
+            "time": "03:00:00",
+            "date": "26/11",
+            "blv": "VÁNG",
+            "is_live": true,
+            "time_sort": 1795636800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e41aee7f86_8fafaf20_20261126.png?v=8fafaf20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-14ec95c0e1",
+          "name": "Lille vs bayern munich | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14ec95c0e1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-14ec95c0e1",
+                  "name": "Lille vs bayern munich",
+                  "streams": [
+                    {
+                      "id": "st-14ec95c0e1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14ec95c0e1",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10617/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Lille",
+            "team_b": "bayern munich",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795600714168_Screenshot%202026-11-25%20165829.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795600743031_Screenshot%202026-11-25%20165857.png",
+            "time": "03:00:00",
+            "date": "26/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1795636800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14ec95c0e1_9be1b60f_20261126.png?v=9be1b60f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-424a9e18f8",
+          "name": "Paris Saint-Germain vs AS Roma | 03:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-424a9e18f8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-424a9e18f8",
+                  "name": "Paris Saint-Germain vs AS Roma",
+                  "streams": [
+                    {
+                      "id": "st-424a9e18f8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-424a9e18f8",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10618/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Paris Saint-Germain",
+            "team_b": "AS Roma",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795600815239_Screenshot%202026-11-25%20170010.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795600835648_Screenshot%202026-11-25%20170030.png",
+            "time": "03:00:00",
+            "date": "26/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795636800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-424a9e18f8_9c7009e0_20261126.png?v=9c7009e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-071ef36395",
           "name": "Club Brugge vs Liverpool | 03:00 26/11",
@@ -158,225 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b336298fd3_d3243dee_20261126.png?v=d3243dee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e41aee7f86",
-          "name": "Sporting vs Manchester United | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e41aee7f86",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e41aee7f86",
-                  "name": "Sporting vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-e41aee7f86",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e41aee7f86",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10619/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Sporting",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795600881537_Screenshot%202026-11-25%20170116.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795600926603_Screenshot%202026-11-25%20170201.png",
-            "time": "03:00:00",
-            "date": "26/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795636800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e41aee7f86_8fafaf20_20261126.png?v=8fafaf20",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-14ec95c0e1",
-          "name": "Lille vs bayern munich | 03:00 26/11 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14ec95c0e1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-14ec95c0e1",
-                  "name": "Lille vs bayern munich",
-                  "streams": [
-                    {
-                      "id": "st-14ec95c0e1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14ec95c0e1",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10617/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Lille",
-            "team_b": "bayern munich",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795600714168_Screenshot%202026-11-25%20165829.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795600743031_Screenshot%202026-11-25%20165857.png",
-            "time": "03:00:00",
-            "date": "26/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": false,
-            "time_sort": 1795636800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14ec95c0e1_9be1b60f_20261126.png?v=9be1b60f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-424a9e18f8",
-          "name": "Paris Saint-Germain vs AS Roma | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-424a9e18f8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-424a9e18f8",
-                  "name": "Paris Saint-Germain vs AS Roma",
-                  "streams": [
-                    {
-                      "id": "st-424a9e18f8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-424a9e18f8",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10618/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Paris Saint-Germain",
-            "team_b": "AS Roma",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795600815239_Screenshot%202026-11-25%20170010.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795600835648_Screenshot%202026-11-25%20170030.png",
-            "time": "03:00:00",
-            "date": "26/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795636800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-424a9e18f8_9c7009e0_20261126.png?v=9c7009e0",
             "width": 1600,
             "height": 1200
           }
