@@ -309,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-4bb09562c1",
+          "name": "PISOK MAYNILA vs LAURO TEAM KLA | 19:35 25/11 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4bb09562c1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4bb09562c1",
+                  "name": "PISOK MAYNILA vs LAURO TEAM KLA",
+                  "streams": [
+                    {
+                      "id": "st-4bb09562c1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4bb09562c1",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10620/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "PISOK MAYNILA",
+            "team_b": "LAURO TEAM KLA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795610129042_Screenshot%202026-11-24%20165734.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795610129183_Screenshot%202026-11-24%20165734.png",
+            "time": "19:35:00",
+            "date": "25/11",
+            "blv": "Thập Cẩm",
+            "is_live": false,
+            "time_sort": 1795610100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4bb09562c1_34c5af1b_20261125.png?v=34c5af1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-90d175b531",
           "name": "Sabah FK vs Barcelona | 00:45 26/11",
           "type": "single",
