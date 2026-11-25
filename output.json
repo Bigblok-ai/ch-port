@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-90d175b531",
-          "name": "Sabah FK vs Barcelona | Thập Cẩm",
+          "id": "chtv-071ef36395",
+          "name": "Club Brugge vs Liverpool | 03:00 26/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-90d175b531",
+              "id": "src-071ef36395",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-90d175b531",
-                  "name": "Sabah FK vs Barcelona",
+                  "id": "ct-071ef36395",
+                  "name": "Club Brugge vs Liverpool",
                   "streams": [
                     {
-                      "id": "st-90d175b531",
+                      "id": "st-071ef36395",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-90d175b531",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-071ef36395",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10614/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10616/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,22 +69,22 @@
           ],
           "org_metadata": {
             "league": "bóng bánh",
-            "team_a": "Sabah FK",
-            "team_b": "Barcelona",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795600419469_Screenshot%202026-11-25%20165333.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795600442465_Screenshot%202026-11-25%20165357.png",
-            "time": "00:45:00",
+            "team_a": "Club Brugge",
+            "team_b": "Liverpool",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795600604288_Screenshot%202026-11-25%20165639.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795600634851_Screenshot%202026-11-25%20165707.png",
+            "time": "03:00:00",
             "date": "26/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795628700,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795636800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d175b531_fa10107b_20261126.png?v=fa10107b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-071ef36395_0dc77136_20261126.png?v=0dc77136",
             "width": 1600,
             "height": 1200
           }
@@ -377,79 +377,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-424a9e18f8_9c7009e0_20261126.png?v=9c7009e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-071ef36395",
-          "name": "Club Brugge vs Liverpool | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-071ef36395",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-071ef36395",
-                  "name": "Club Brugge vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-071ef36395",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-071ef36395",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10616/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Club Brugge",
-            "team_b": "Liverpool",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795600604288_Screenshot%202026-11-25%20165639.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795600634851_Screenshot%202026-11-25%20165707.png",
-            "time": "03:00:00",
-            "date": "26/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795636800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-071ef36395_0dc77136_20261126.png?v=0dc77136",
             "width": 1600,
             "height": 1200
           }
