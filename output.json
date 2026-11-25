@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,38 +163,38 @@
           }
         },
         {
-          "id": "chtv-e5de679e7b",
-          "name": "kiên con vs dũng per | GIÀNG A PHỌ",
+          "id": "chtv-e41aee7f86",
+          "name": "Sporting vs Manchester United | 03:00 26/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-e5de679e7b",
+              "id": "src-e41aee7f86",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-e5de679e7b",
-                  "name": "kiên con vs dũng per",
+                  "id": "ct-e41aee7f86",
+                  "name": "Sporting vs Manchester United",
                   "streams": [
                     {
-                      "id": "st-e5de679e7b",
+                      "id": "st-e41aee7f86",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-e5de679e7b",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-e41aee7f86",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10628/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10619/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "top top",
-            "team_a": "kiên con",
-            "team_b": "dũng per",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795629391711_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795629392241_Vi%E1%BB%87t%20Nam.png",
-            "time": "00:56:00",
+            "league": "bóng bánh",
+            "team_a": "Sporting",
+            "team_b": "Manchester United",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795600881537_Screenshot%202026-11-25%20170116.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795600926603_Screenshot%202026-11-25%20170201.png",
+            "time": "03:00:00",
             "date": "26/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1795629360,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795636800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e5de679e7b_66617912_20261126.png?v=66617912",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e41aee7f86_8fafaf20_20261126.png?v=8fafaf20",
             "width": 1600,
             "height": 1200
           }
@@ -309,79 +309,6 @@
           }
         },
         {
-          "id": "chtv-071ef36395",
-          "name": "Club Brugge vs Liverpool | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-071ef36395",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-071ef36395",
-                  "name": "Club Brugge vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-071ef36395",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-071ef36395",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10616/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Club Brugge",
-            "team_b": "Liverpool",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795600604288_Screenshot%202026-11-25%20165639.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795600634851_Screenshot%202026-11-25%20165707.png",
-            "time": "03:00:00",
-            "date": "26/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795636800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-071ef36395_0dc77136_20261126.png?v=0dc77136",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-424a9e18f8",
           "name": "Paris Saint-Germain vs AS Roma | 03:00 26/11",
           "type": "single",
@@ -455,6 +382,79 @@
           }
         },
         {
+          "id": "chtv-071ef36395",
+          "name": "Club Brugge vs Liverpool | 03:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-071ef36395",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-071ef36395",
+                  "name": "Club Brugge vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-071ef36395",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-071ef36395",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10616/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Club Brugge",
+            "team_b": "Liverpool",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795600604288_Screenshot%202026-11-25%20165639.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795600634851_Screenshot%202026-11-25%20165707.png",
+            "time": "03:00:00",
+            "date": "26/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795636800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-071ef36395_0dc77136_20261126.png?v=0dc77136",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b336298fd3",
           "name": "atletico madrid vs Viking FK | 03:00 26/11",
           "type": "single",
@@ -523,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b336298fd3_d3243dee_20261126.png?v=d3243dee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e41aee7f86",
-          "name": "Sporting vs Manchester United | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e41aee7f86",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e41aee7f86",
-                  "name": "Sporting vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-e41aee7f86",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e41aee7f86",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10619/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Sporting",
-            "team_b": "Manchester United",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795600881537_Screenshot%202026-11-25%20170116.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795600926603_Screenshot%202026-11-25%20170201.png",
-            "time": "03:00:00",
-            "date": "26/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795636800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e41aee7f86_8fafaf20_20261126.png?v=8fafaf20",
             "width": 1600,
             "height": 1200
           }
