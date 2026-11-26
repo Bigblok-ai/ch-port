@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,152 @@
           }
         },
         {
+          "id": "chtv-041b0b8923",
+          "name": "Zhao Jianbo vs Wu Zhenyu | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-041b0b8923",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-041b0b8923",
+                  "name": "Zhao Jianbo vs Wu Zhenyu",
+                  "streams": [
+                    {
+                      "id": "st-041b0b8923",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-041b0b8923",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10641/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "GIẢI CHINA",
+            "team_a": "Zhao Jianbo",
+            "team_b": "Wu Zhenyu",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795683291996_Screenshot%202026-11-24%20165812.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795683295205_Screenshot%202026-11-24%20165812.png",
+            "time": "15:54:00",
+            "date": "26/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795683240,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-041b0b8923_7b8af7b1_20261126.png?v=7b8af7b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-650d73e156",
+          "name": "Ko Pin-Yi vs Ko Ping-Chung | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-650d73e156",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-650d73e156",
+                  "name": "Ko Pin-Yi vs Ko Ping-Chung",
+                  "streams": [
+                    {
+                      "id": "st-650d73e156",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-650d73e156",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10639/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "GIẢI CHINA TỨ KẾT",
+            "team_a": "Ko Pin-Yi",
+            "team_b": "Ko Ping-Chung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795682424119_Screenshot%202026-11-26%20154011.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795682423796_Screenshot%202026-11-26%20154015.png",
+            "time": "16:00:00",
+            "date": "26/11",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "time_sort": 1795683600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-650d73e156_9010fb08_20261126.png?v=9010fb08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-8ffca3d5a6",
           "name": "ZHANG KUNPENG vs ZHOU CHUANGDONG | GIÀNG A PHỌ",
           "type": "single",
@@ -304,152 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-27633a473e_20b04801_20261126.png?v=20b04801",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-041b0b8923",
-          "name": "Zhao Jianbo vs Wu Zhenyu | 15:54 26/11 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-041b0b8923",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-041b0b8923",
-                  "name": "Zhao Jianbo vs Wu Zhenyu",
-                  "streams": [
-                    {
-                      "id": "st-041b0b8923",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-041b0b8923",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10641/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GIẢI CHINA",
-            "team_a": "Zhao Jianbo",
-            "team_b": "Wu Zhenyu",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795683291996_Screenshot%202026-11-24%20165812.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795683295205_Screenshot%202026-11-24%20165812.png",
-            "time": "15:54:00",
-            "date": "26/11",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1795683240,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-041b0b8923_7b8af7b1_20261126.png?v=7b8af7b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-650d73e156",
-          "name": "Ko Pin-Yi vs Ko Ping-Chung | 16:00 26/11 | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-650d73e156",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-650d73e156",
-                  "name": "Ko Pin-Yi vs Ko Ping-Chung",
-                  "streams": [
-                    {
-                      "id": "st-650d73e156",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-650d73e156",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10639/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GIẢI CHINA TỨ KẾT",
-            "team_a": "Ko Pin-Yi",
-            "team_b": "Ko Ping-Chung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795682424119_Screenshot%202026-11-26%20154011.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795682423796_Screenshot%202026-11-26%20154015.png",
-            "time": "16:00:00",
-            "date": "26/11",
-            "blv": "BÚN CHÓ",
-            "is_live": false,
-            "time_sort": 1795683600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-650d73e156_9010fb08_20261126.png?v=9010fb08",
             "width": 1600,
             "height": 1200
           }
