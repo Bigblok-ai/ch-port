@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-b8cf6b7635",
+          "name": "Si Xiaoyu vs Ko Pin-Yi | 11:00 26/11 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8cf6b7635",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b8cf6b7635",
+                  "name": "Si Xiaoyu vs Ko Pin-Yi",
+                  "streams": [
+                    {
+                      "id": "st-b8cf6b7635",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8cf6b7635",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10632/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "GIẢI CHINA",
+            "team_a": "Si Xiaoyu",
+            "team_b": "Ko Pin-Yi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795659011003_Screenshot%202026-11-26%20090955.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795659010725_Screenshot%202026-11-26%20090959.png",
+            "time": "11:00:00",
+            "date": "26/11",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1795665600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b8cf6b7635_445c988e_20261126.png?v=445c988e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-1cdc2a6d68",
           "name": "PHƯƠNG LINH vs YẾN VI | 11:00 26/11",
           "type": "single",
