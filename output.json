@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-c346bd4796",
-          "name": "Nguyễn Trà My vs Lê Hồng Nhung | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c346bd4796",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c346bd4796",
-                  "name": "Nguyễn Trà My vs Lê Hồng Nhung",
-                  "streams": [
-                    {
-                      "id": "st-c346bd4796",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c346bd4796",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10635/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ĐẠI HỘI THỂ THAO TỨ KẾT NỮ",
-            "team_a": "Nguyễn Trà My",
-            "team_b": "Lê Hồng Nhung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795673332869_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795673332417_Vi%E1%BB%87t%20Nam.png",
-            "time": "15:00:00",
-            "date": "26/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1795680000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c346bd4796_dc062da5_20261126.png?v=dc062da5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-26981a6715",
           "name": "Huế Trân vs Nguyễn Thị Yến Nhi | GIÀNG A PHỌ",
           "type": "single",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-26981a6715_79560d0b_20261126.png?v=79560d0b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c346bd4796",
+          "name": "Nguyễn Trà My vs Lê Hồng Nhung | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c346bd4796",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c346bd4796",
+                  "name": "Nguyễn Trà My vs Lê Hồng Nhung",
+                  "streams": [
+                    {
+                      "id": "st-c346bd4796",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c346bd4796",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10635/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ĐẠI HỘI THỂ THAO TỨ KẾT NỮ",
+            "team_a": "Nguyễn Trà My",
+            "team_b": "Lê Hồng Nhung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795673332869_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795673332417_Vi%E1%BB%87t%20Nam.png",
+            "time": "15:00:00",
+            "date": "26/11",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1795680000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c346bd4796_dc062da5_20261126.png?v=dc062da5",
             "width": 1600,
             "height": 1200
           }
