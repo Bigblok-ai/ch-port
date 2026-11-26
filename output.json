@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-fbef084044",
+          "name": "Jakub Chrobot vs Gabriel Aspholm | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbef084044",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fbef084044",
+                  "name": "Jakub Chrobot vs Gabriel Aspholm",
+                  "streams": [
+                    {
+                      "id": "st-fbef084044",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fbef084044",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10654/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "chung kết u19 thế giớ",
+            "team_a": "Jakub Chrobot",
+            "team_b": "Gabriel Aspholm",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795705023102_Screenshot%202026-11-26%20215656.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795705088187_Screenshot%202026-11-26%20215802.png",
+            "time": "21:56:00",
+            "date": "26/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1795704960,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fbef084044_00158783_20261126.png?v=00158783",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-406fa68b5c",
           "name": "QUANG CON vs TAM BẮC NINH | Thập Cẩm",
           "type": "single",
@@ -231,6 +304,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-406fa68b5c_66f96f77_20261126.png?v=66f96f77",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c95330d813",
+          "name": "cadenlau vs okumura | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c95330d813",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c95330d813",
+                  "name": "cadenlau vs okumura",
+                  "streams": [
+                    {
+                      "id": "st-c95330d813",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c95330d813",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10655/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "cadenlau",
+            "team_b": "okumura",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795705266540_Screenshot%202026-11-26%20220100.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795705182967_Screenshot%202026-11-24%20211823.png",
+            "time": "22:00:00",
+            "date": "26/11",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "time_sort": 1795705200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c95330d813_77c2674e_20261126.png?v=77c2674e",
             "width": 1600,
             "height": 1200
           }
