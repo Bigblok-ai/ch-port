@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-434799f1c0",
+          "name": "ZHAO YANHAO vs KO PING CHUNG | 11:00 26/11 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-434799f1c0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-434799f1c0",
+                  "name": "ZHAO YANHAO vs KO PING CHUNG",
+                  "streams": [
+                    {
+                      "id": "st-434799f1c0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-434799f1c0",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10634/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "GIẢI CHINA",
+            "team_a": "ZHAO YANHAO",
+            "team_b": "KO PING CHUNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795666331837_Trung%20Qu%E1%BB%91c.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795666312984_Screenshot%202026-11-26%20111146.png",
+            "time": "11:00:00",
+            "date": "26/11",
+            "blv": "BÚN CHÓ",
+            "is_live": false,
+            "time_sort": 1795665600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-434799f1c0_5a1a37af_20261126.png?v=5a1a37af",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-1cdc2a6d68",
           "name": "PHƯƠNG LINH vs YẾN VI | 11:00 26/11",
           "type": "single",
