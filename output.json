@@ -528,6 +528,79 @@
           }
         },
         {
+          "id": "chtv-0504d32b29",
+          "name": "JERICO BANARES vs DUHATAN 3.5.7.10 +BREAK | 19:57 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0504d32b29",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-0504d32b29",
+                  "name": "JERICO BANARES vs DUHATAN 3.5.7.10 +BREAK",
+                  "streams": [
+                    {
+                      "id": "st-0504d32b29",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0504d32b29",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10652/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "JERICO BANARES",
+            "team_b": "DUHATAN 3.5.7.10 +BREAK",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795697917469_Screenshot%202026-11-24%20165734.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795697918162_Screenshot%202026-11-24%20165734.png",
+            "time": "19:57:00",
+            "date": "26/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795697820,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0504d32b29_56f6e577_20261126.png?v=56f6e577",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-ebe27a7d0a",
           "name": "Vietnam U17 vs Mali U17 | 20:00 26/11 | VÁNG",
           "type": "single",
