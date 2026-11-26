@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-efa2cd4bac_c5d47df0_20261127.png?v=c5d47df0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-ff69f9e350",
-          "name": "Olympiacos vs AC Milan | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff69f9e350",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ff69f9e350",
-                  "name": "Olympiacos vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-ff69f9e350",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff69f9e350",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10643/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Olympiacos",
-            "team_b": "AC Milan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795686017327_Screenshot%202026-11-26%20164011.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795685995198_Screenshot%202026-11-26%20163949.png",
-            "time": "00:45:00",
-            "date": "27/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795715100,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ff69f9e350_41ac35a8_20261127.png?v=41ac35a8",
             "width": 1600,
             "height": 1200
           }
