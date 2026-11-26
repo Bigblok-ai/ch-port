@@ -11,96 +11,23 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-1cdc2a6d68",
-          "name": "PHƯƠNG LINH vs YẾN VI | 11:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1cdc2a6d68",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1cdc2a6d68",
-                  "name": "PHƯƠNG LINH vs YẾN VI",
-                  "streams": [
-                    {
-                      "id": "st-1cdc2a6d68",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cdc2a6d68",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10631/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ĐẠI HỘI THỂ THAO",
-            "team_a": "PHƯƠNG LINH",
-            "team_b": "YẾN VI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795657413542_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795657413121_Vi%E1%BB%87t%20Nam.png",
-            "time": "11:00:00",
-            "date": "26/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795665600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1cdc2a6d68_5315710b_20261126.png?v=5315710b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-b8cf6b7635",
-          "name": "Si Xiaoyu vs Ko Pin-Yi | 11:00 26/11 | Lee Min Hoo",
+          "name": "Si Xiaoyu vs Ko Pin-Yi | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -149,7 +76,7 @@
             "time": "11:00:00",
             "date": "26/11",
             "blv": "Lee Min Hoo",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1795665600,
             "cate_type": "billiards"
           },
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-13eb46234f_1239ee7f_20261126.png?v=1239ee7f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1cdc2a6d68",
+          "name": "PHƯƠNG LINH vs YẾN VI | 11:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cdc2a6d68",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1cdc2a6d68",
+                  "name": "PHƯƠNG LINH vs YẾN VI",
+                  "streams": [
+                    {
+                      "id": "st-1cdc2a6d68",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cdc2a6d68",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10631/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ĐẠI HỘI THỂ THAO",
+            "team_a": "PHƯƠNG LINH",
+            "team_b": "YẾN VI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795657413542_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795657413121_Vi%E1%BB%87t%20Nam.png",
+            "time": "11:00:00",
+            "date": "26/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795665600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1cdc2a6d68_5315710b_20261126.png?v=5315710b",
             "width": 1600,
             "height": 1200
           }
