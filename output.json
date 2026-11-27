@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-b08ecbd5f1",
-          "name": "Juventus vs Omonia Nicosia | GIÀNG A PHỌ",
+          "id": "chtv-a7f92bbae8",
+          "name": "Huế Trân vs Lê Hồng Nhung | 09:00 27/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-b08ecbd5f1",
+              "id": "src-a7f92bbae8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-b08ecbd5f1",
-                  "name": "Juventus vs Omonia Nicosia",
+                  "id": "ct-a7f92bbae8",
+                  "name": "Huế Trân vs Lê Hồng Nhung",
                   "streams": [
                     {
-                      "id": "st-b08ecbd5f1",
+                      "id": "st-a7f92bbae8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b08ecbd5f1",
-                          "name": "GIÀNG A PHỌ",
+                          "id": "lnk-a7f92bbae8",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10644/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10660/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,23 +68,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Juventus",
-            "team_b": "Omonia Nicosia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795685283037_Screenshot%202026-11-26%20162756.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795685314735_Screenshot%202026-11-26%20162827.png",
-            "time": "03:00:00",
+            "league": "ĐẠI HỘI THỂ THAO BÁN KẾT NỮ",
+            "team_a": "Huế Trân",
+            "team_b": "Lê Hồng Nhung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795741197176_Screenshot%202026-11-27%20075943.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795741196812_Screenshot%202026-11-27%20075948.png",
+            "time": "09:00:00",
             "date": "27/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1795723200,
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795744800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b08ecbd5f1_ea80b5e1_20261127.png?v=ea80b5e1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a7f92bbae8_2ebc00f2_20261127.png?v=2ebc00f2",
             "width": 1600,
             "height": 1200
           }
