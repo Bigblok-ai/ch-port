@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-d422e4c084",
-          "name": "Xuân Vàng vs Yến Vi | BÚN CHÓ",
+          "id": "chtv-68f7e9fee5",
+          "name": "Huế Trân vs Lê Hồng Nhung",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-d422e4c084",
+              "id": "src-68f7e9fee5",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d422e4c084",
-                  "name": "Xuân Vàng vs Yến Vi",
+                  "id": "ct-68f7e9fee5",
+                  "name": "Huế Trân vs Lê Hồng Nhung",
                   "streams": [
                     {
-                      "id": "st-d422e4c084",
+                      "id": "st-68f7e9fee5",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d422e4c084",
-                          "name": "BÚN CHÓ",
+                          "id": "lnk-68f7e9fee5",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10661/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10663/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,14 +68,14 @@
             }
           ],
           "org_metadata": {
-            "league": "ĐẠI HỘI THỂ THAO BÁN KẾT NỮ",
-            "team_a": "Xuân Vàng",
-            "team_b": "Yến Vi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795741295446_Screenshot%202026-11-27%20080124.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795741295097_Screenshot%202026-11-27%20080128.png",
+            "league": "𝗗𝗔̣𝗜 𝗛𝗢̣̂𝗜 𝗧𝗛𝗘̂̉ 𝗧𝗛𝗔𝗢 𝗕𝗔́𝗡 𝗞𝗘̂́𝗧 𝗡𝗨̛̃",
+            "team_a": "Huế Trân",
+            "team_b": "Lê Hồng Nhung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795744094820_1795741197176_Screenshot%202026-11-27%20075943.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795744097894_1795741196812_Screenshot%202026-11-27%20075948.png",
             "time": "09:00:00",
             "date": "27/11",
-            "blv": "BÚN CHÓ",
+            "blv": "",
             "is_live": true,
             "time_sort": 1795744800,
             "cate_type": "billiards"
@@ -84,7 +84,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d422e4c084_37a0f4b9_20261127.png?v=37a0f4b9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-68f7e9fee5_c1c723a9_20261127.png?v=c1c723a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d0652151f6",
+          "name": "Xuân Vàng vs Yến Vi",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0652151f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d0652151f6",
+                  "name": "Xuân Vàng vs Yến Vi",
+                  "streams": [
+                    {
+                      "id": "st-d0652151f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0652151f6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10662/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗗𝗔̣𝗜 𝗛𝗢̣̂𝗜 𝗧𝗛𝗘̂̉ 𝗧𝗛𝗔𝗢 𝗕𝗔́𝗡 𝗞𝗘̂́𝗧 𝗡𝗨̛̃",
+            "team_a": "Xuân Vàng",
+            "team_b": "Yến Vi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795744063082_1795741295446_Screenshot%202026-11-27%20080124.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795744069498_1795741295097_Screenshot%202026-11-27%20080128.png",
+            "time": "09:00:00",
+            "date": "27/11",
+            "blv": "",
+            "is_live": true,
+            "time_sort": 1795744800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d0652151f6_b52e74fa_20261127.png?v=b52e74fa",
             "width": 1600,
             "height": 1200
           }
@@ -158,6 +231,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a7f92bbae8_2ebc00f2_20261127.png?v=2ebc00f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d422e4c084",
+          "name": "Xuân Vàng vs Yến Vi | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d422e4c084",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d422e4c084",
+                  "name": "Xuân Vàng vs Yến Vi",
+                  "streams": [
+                    {
+                      "id": "st-d422e4c084",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d422e4c084",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10661/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ĐẠI HỘI THỂ THAO BÁN KẾT NỮ",
+            "team_a": "Xuân Vàng",
+            "team_b": "Yến Vi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795741295446_Screenshot%202026-11-27%20080124.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795741295097_Screenshot%202026-11-27%20080128.png",
+            "time": "09:00:00",
+            "date": "27/11",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "time_sort": 1795744800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d422e4c084_37a0f4b9_20261127.png?v=37a0f4b9",
             "width": 1600,
             "height": 1200
           }
