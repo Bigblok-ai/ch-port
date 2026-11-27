@@ -90,6 +90,79 @@
           }
         },
         {
+          "id": "chtv-19ff614bd5",
+          "name": "Team USA vs Team Europe | 01:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19ff614bd5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-19ff614bd5",
+                  "name": "Team USA vs Team Europe",
+                  "streams": [
+                    {
+                      "id": "st-19ff614bd5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19ff614bd5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10690/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mosconi Cup",
+            "team_a": "Team USA",
+            "team_b": "Team Europe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795799127961_Screenshot%202026-11-28%20000520.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795799144290_Screenshot%202026-11-28%20000538.png",
+            "time": "01:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795802400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19ff614bd5_4a46beaa_20261128.png?v=4a46beaa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-31a6989194",
           "name": "Fedor Gorst -Justin Bergman vs Francisco Sánchez Ruiz-Joshua Filler | 02:00 28/11",
           "type": "single",
