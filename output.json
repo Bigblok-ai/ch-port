@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-2219c0940b",
-          "name": "DAI YONG vs Zhao Jianbo | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2219c0940b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2219c0940b",
-                  "name": "DAI YONG vs Zhao Jianbo",
-                  "streams": [
-                    {
-                      "id": "st-2219c0940b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2219c0940b",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10664/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GIẢI CHINA BÁN KẾT",
-            "team_a": "DAI YONG",
-            "team_b": "Zhao Jianbo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795745101488_Trung%20Qu%E1%BB%91c.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795745101072_Trung%20Qu%E1%BB%91c.png",
-            "time": "11:00:00",
-            "date": "27/11",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1795752000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2219c0940b_5c62b5e9_20261127.png?v=5c62b5e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-22d372ca81",
           "name": "Huế Trân vs Yến Vi | BÚN CHÓ",
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-22d372ca81_368256d8_20261127.png?v=368256d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-93e85fd1a4",
+          "name": "Ko Ping-Chung vs Zhang Kunpeng | 17:00 27/11 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-93e85fd1a4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-93e85fd1a4",
+                  "name": "Ko Ping-Chung vs Zhang Kunpeng",
+                  "streams": [
+                    {
+                      "id": "st-93e85fd1a4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-93e85fd1a4",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10666/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "GIẢI CHINA BÁN KẾT",
+            "team_a": "Ko Ping-Chung",
+            "team_b": "Zhang Kunpeng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795765737186_Screenshot%202026-11-27%20144838.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795765737442_Screenshot%202026-11-27%20144841.png",
+            "time": "17:00:00",
+            "date": "27/11",
+            "blv": "Bỉm Sữa",
+            "is_live": false,
+            "time_sort": 1795773600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-93e85fd1a4_0e99120f_20261127.png?v=0e99120f",
             "width": 1600,
             "height": 1200
           }
