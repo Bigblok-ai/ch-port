@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-93e85fd1a4_0e99120f_20261127.png?v=0e99120f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-02cb3d0348",
+          "name": "ryan dalay vs reymar antallan | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02cb3d0348",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-02cb3d0348",
+                  "name": "ryan dalay vs reymar antallan",
+                  "streams": [
+                    {
+                      "id": "st-02cb3d0348",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02cb3d0348",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10669/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "ryan dalay",
+            "team_b": "reymar antallan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795777683089_Screenshot%202026-11-24%20165734.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795777683414_Screenshot%202026-11-24%20165734.png",
+            "time": "18:07:00",
+            "date": "27/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1795777620,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-02cb3d0348_fe26b14c_20261127.png?v=fe26b14c",
             "width": 1600,
             "height": 1200
           }
