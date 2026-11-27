@@ -88,6 +88,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-d422e4c084",
+          "name": "Xuân Vàng vs Yến Vi | 09:00 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d422e4c084",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d422e4c084",
+                  "name": "Xuân Vàng vs Yến Vi",
+                  "streams": [
+                    {
+                      "id": "st-d422e4c084",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d422e4c084",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10661/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ĐẠI HỘI THỂ THAO BÁN KẾT NỮ",
+            "team_a": "Xuân Vàng",
+            "team_b": "Yến Vi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795741295446_Screenshot%202026-11-27%20080124.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795741295097_Screenshot%202026-11-27%20080128.png",
+            "time": "09:00:00",
+            "date": "27/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795744800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d422e4c084_37a0f4b9_20261127.png?v=37a0f4b9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
