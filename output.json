@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-fe30f9f463",
-          "name": "Kristina Tkach vs Kelly Fisher | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe30f9f463",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fe30f9f463",
-                  "name": "Kristina Tkach vs Kelly Fisher",
-                  "streams": [
-                    {
-                      "id": "st-fe30f9f463",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fe30f9f463",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10678/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "San Antonio",
-            "team_a": "Kristina Tkach",
-            "team_b": "Kelly Fisher",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791522296_Screenshot%202026-11-27%20215836.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791536318_Screenshot%202026-11-27%20215850.png",
-            "time": "00:00:00",
-            "date": "27/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1795712400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fe30f9f463_4e56d971_20261127.png?v=4e56d971",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-2308cf7cfb",
           "name": "B.BRYANT vs S.SEO | SÊ KÔÔ",
@@ -157,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2308cf7cfb_51421b4a_20261127.png?v=51421b4a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2308cf7cfb_51421b4a_20261128.png?v=51421b4a",
             "width": 1600,
             "height": 1200
           }
@@ -230,518 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6a9eb4d394_e9675fa4_20261127.png?v=e9675fa4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d8758c7274",
-          "name": "Olivér Szolnoki vs Radoslaw Babica | 00:00 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8758c7274",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d8758c7274",
-                  "name": "Olivér Szolnoki vs Radoslaw Babica",
-                  "streams": [
-                    {
-                      "id": "st-d8758c7274",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d8758c7274",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10677/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "san-antonio",
-            "team_a": "Olivér Szolnoki",
-            "team_b": "Radoslaw Babica",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791327107_Screenshot%202026-11-27%20215521.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791341676_Screenshot%202026-11-27%20215536.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8758c7274_8482eb08_20261127.png?v=8482eb08",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fd377cab88",
-          "name": "Aloysius Yapp vs Wiktor Zieliński | 00:00 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd377cab88",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fd377cab88",
-                  "name": "Aloysius Yapp vs Wiktor Zieliński",
-                  "streams": [
-                    {
-                      "id": "st-fd377cab88",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd377cab88",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10679/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "San Antonio",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Wiktor Zieliński",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791595791_Screenshot%202026-11-27%20215950.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791626345_Screenshot%202026-11-27%20220020.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fd377cab88_d0e58fdf_20261127.png?v=d0e58fdf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f47efcca49",
-          "name": "Wu Kun Lin vs Ralf Souquet | 00:00 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f47efcca49",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f47efcca49",
-                  "name": "Wu Kun Lin vs Ralf Souquet",
-                  "streams": [
-                    {
-                      "id": "st-f47efcca49",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f47efcca49",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10681/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "San Antonio",
-            "team_a": "Wu Kun Lin",
-            "team_b": "Ralf Souquet",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791717074_Screenshot%202026-11-27%20220151.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791733962_Screenshot%202026-11-27%20220207.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f47efcca49_2dfa821d_20261127.png?v=2dfa821d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-928412aa74",
-          "name": "Gerson Martinez Boza vs Hsieh Chia Chen | 00:00 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-928412aa74",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-928412aa74",
-                  "name": "Gerson Martinez Boza vs Hsieh Chia Chen",
-                  "streams": [
-                    {
-                      "id": "st-928412aa74",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-928412aa74",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10683/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "San Antonio",
-            "team_a": "Gerson Martinez Boza",
-            "team_b": "Hsieh Chia Chen",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791825127_Screenshot%202026-11-27%20220339.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791844524_Screenshot%202026-11-27%20220359.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-928412aa74_bda78cd2_20261127.png?v=bda78cd2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4f92a4cdd5",
-          "name": "Daniel Macioł vs Roberto Gomez | 00:00 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4f92a4cdd5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4f92a4cdd5",
-                  "name": "Daniel Macioł vs Roberto Gomez",
-                  "streams": [
-                    {
-                      "id": "st-4f92a4cdd5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f92a4cdd5",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10684/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "San Antonio",
-            "team_a": "Daniel Macioł",
-            "team_b": "Roberto Gomez",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791871868_Screenshot%202026-11-27%20220426.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791893197_Screenshot%202026-11-27%20220446.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4f92a4cdd5_3b93bbad_20261127.png?v=3b93bbad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-50c11c72e2",
-          "name": "Robbie Capito vs Billy Thorpe | 00:00 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50c11c72e2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-50c11c72e2",
-                  "name": "Robbie Capito vs Billy Thorpe",
-                  "streams": [
-                    {
-                      "id": "st-50c11c72e2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-50c11c72e2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10682/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "San Antonio",
-            "team_a": "Robbie Capito",
-            "team_b": "Billy Thorpe",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791766261_Screenshot%202026-11-27%20220240.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791785581_Screenshot%202026-11-27%20220259.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-50c11c72e2_a1078255_20261127.png?v=a1078255",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-2a2d15cfa1",
-          "name": "Wojciech Szewczyk vs Felix Vogel | 00:00 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2a2d15cfa1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2a2d15cfa1",
-                  "name": "Wojciech Szewczyk vs Felix Vogel",
-                  "streams": [
-                    {
-                      "id": "st-2a2d15cfa1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a2d15cfa1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10676/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "san-antonio",
-            "team_a": "Wojciech Szewczyk",
-            "team_b": "Felix Vogel",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791250681_Screenshot%202026-11-27%20215359.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791271701_Screenshot%202026-11-27%20215425.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a2d15cfa1_cc66cfa3_20261127.png?v=cc66cfa3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6a9eb4d394_e9675fa4_20261128.png?v=e9675fa4",
             "width": 1600,
             "height": 1200
           }
@@ -814,7 +230,518 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3ed3a212d7_968e45a3_20261127.png?v=968e45a3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3ed3a212d7_968e45a3_20261128.png?v=968e45a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d8758c7274",
+          "name": "Olivér Szolnoki vs Radoslaw Babica | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8758c7274",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d8758c7274",
+                  "name": "Olivér Szolnoki vs Radoslaw Babica",
+                  "streams": [
+                    {
+                      "id": "st-d8758c7274",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8758c7274",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10677/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "san-antonio",
+            "team_a": "Olivér Szolnoki",
+            "team_b": "Radoslaw Babica",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791327107_Screenshot%202026-11-27%20215521.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791341676_Screenshot%202026-11-27%20215536.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8758c7274_8482eb08_20261128.png?v=8482eb08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fd377cab88",
+          "name": "Aloysius Yapp vs Wiktor Zieliński | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd377cab88",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fd377cab88",
+                  "name": "Aloysius Yapp vs Wiktor Zieliński",
+                  "streams": [
+                    {
+                      "id": "st-fd377cab88",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd377cab88",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10679/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Wiktor Zieliński",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791595791_Screenshot%202026-11-27%20215950.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791626345_Screenshot%202026-11-27%20220020.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fd377cab88_d0e58fdf_20261128.png?v=d0e58fdf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-f47efcca49",
+          "name": "Wu Kun Lin vs Ralf Souquet | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f47efcca49",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-f47efcca49",
+                  "name": "Wu Kun Lin vs Ralf Souquet",
+                  "streams": [
+                    {
+                      "id": "st-f47efcca49",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f47efcca49",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10681/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "Wu Kun Lin",
+            "team_b": "Ralf Souquet",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791717074_Screenshot%202026-11-27%20220151.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791733962_Screenshot%202026-11-27%20220207.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f47efcca49_2dfa821d_20261128.png?v=2dfa821d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-50c11c72e2",
+          "name": "Robbie Capito vs Billy Thorpe | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50c11c72e2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-50c11c72e2",
+                  "name": "Robbie Capito vs Billy Thorpe",
+                  "streams": [
+                    {
+                      "id": "st-50c11c72e2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-50c11c72e2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10682/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "Robbie Capito",
+            "team_b": "Billy Thorpe",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791766261_Screenshot%202026-11-27%20220240.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791785581_Screenshot%202026-11-27%20220259.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-50c11c72e2_a1078255_20261128.png?v=a1078255",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4f92a4cdd5",
+          "name": "Daniel Macioł vs Roberto Gomez | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f92a4cdd5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4f92a4cdd5",
+                  "name": "Daniel Macioł vs Roberto Gomez",
+                  "streams": [
+                    {
+                      "id": "st-4f92a4cdd5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4f92a4cdd5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10684/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "Daniel Macioł",
+            "team_b": "Roberto Gomez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791871868_Screenshot%202026-11-27%20220426.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791893197_Screenshot%202026-11-27%20220446.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4f92a4cdd5_3b93bbad_20261128.png?v=3b93bbad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-928412aa74",
+          "name": "Gerson Martinez Boza vs Hsieh Chia Chen | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-928412aa74",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-928412aa74",
+                  "name": "Gerson Martinez Boza vs Hsieh Chia Chen",
+                  "streams": [
+                    {
+                      "id": "st-928412aa74",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-928412aa74",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10683/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "Gerson Martinez Boza",
+            "team_b": "Hsieh Chia Chen",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791825127_Screenshot%202026-11-27%20220339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791844524_Screenshot%202026-11-27%20220359.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-928412aa74_bda78cd2_20261128.png?v=bda78cd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-2a2d15cfa1",
+          "name": "Wojciech Szewczyk vs Felix Vogel | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a2d15cfa1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-2a2d15cfa1",
+                  "name": "Wojciech Szewczyk vs Felix Vogel",
+                  "streams": [
+                    {
+                      "id": "st-2a2d15cfa1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a2d15cfa1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10676/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "san-antonio",
+            "team_a": "Wojciech Szewczyk",
+            "team_b": "Felix Vogel",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791250681_Screenshot%202026-11-27%20215359.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791271701_Screenshot%202026-11-27%20215425.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a2d15cfa1_cc66cfa3_20261128.png?v=cc66cfa3",
             "width": 1600,
             "height": 1200
           }
@@ -887,7 +814,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-31a6989194_be7acd2b_20261127.png?v=be7acd2b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-31a6989194_be7acd2b_20261128.png?v=be7acd2b",
             "width": 1600,
             "height": 1200
           }
@@ -960,7 +887,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a668a3a438_a685d6e2_20261127.png?v=a685d6e2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a668a3a438_a685d6e2_20261128.png?v=a685d6e2",
             "width": 1600,
             "height": 1200
           }
@@ -1033,7 +960,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b5ccbd8cea_a0655fd0_20261127.png?v=a0655fd0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b5ccbd8cea_a0655fd0_20261128.png?v=a0655fd0",
             "width": 1600,
             "height": 1200
           }
@@ -1106,7 +1033,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d7d8050c0c_11c45854_20261127.png?v=11c45854",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d7d8050c0c_11c45854_20261128.png?v=11c45854",
             "width": 1600,
             "height": 1200
           }
