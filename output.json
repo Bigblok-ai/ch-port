@@ -11,11 +11,84 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-fe30f9f463",
+          "name": "Kristina Tkach vs Kelly Fisher | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe30f9f463",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fe30f9f463",
+                  "name": "Kristina Tkach vs Kelly Fisher",
+                  "streams": [
+                    {
+                      "id": "st-fe30f9f463",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe30f9f463",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10678/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "Kristina Tkach",
+            "team_b": "Kelly Fisher",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791522296_Screenshot%202026-11-27%20215836.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791536318_Screenshot%202026-11-27%20215850.png",
+            "time": "00:00:00",
+            "date": "27/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795712400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fe30f9f463_4e56d971_20261127.png?v=4e56d971",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-608cfd3731",
           "name": "JEFFREY DE LUNA vs MUNO | Kèn Kèn",
@@ -304,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8758c7274_8482eb08_20261127.png?v=8482eb08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fd377cab88",
+          "name": "Aloysius Yapp vs Wiktor Zieliński | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd377cab88",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fd377cab88",
+                  "name": "Aloysius Yapp vs Wiktor Zieliński",
+                  "streams": [
+                    {
+                      "id": "st-fd377cab88",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd377cab88",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10679/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Wiktor Zieliński",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791595791_Screenshot%202026-11-27%20215950.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791626345_Screenshot%202026-11-27%20220020.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fd377cab88_d0e58fdf_20261127.png?v=d0e58fdf",
             "width": 1600,
             "height": 1200
           }
