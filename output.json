@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,111 +236,38 @@
           }
         },
         {
-          "id": "chtv-d8758c7274",
-          "name": "Olivér Szolnoki vs Radoslaw Babica | 00:00 28/11",
+          "id": "chtv-2308cf7cfb",
+          "name": "B.BRYANT vs S.SEO | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-d8758c7274",
+              "id": "src-2308cf7cfb",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d8758c7274",
-                  "name": "Olivér Szolnoki vs Radoslaw Babica",
+                  "id": "ct-2308cf7cfb",
+                  "name": "B.BRYANT vs S.SEO",
                   "streams": [
                     {
-                      "id": "st-d8758c7274",
+                      "id": "st-2308cf7cfb",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d8758c7274",
-                          "name": "Stream",
+                          "id": "lnk-2308cf7cfb",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10677/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "san-antonio",
-            "team_a": "Olivér Szolnoki",
-            "team_b": "Radoslaw Babica",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791327107_Screenshot%202026-11-27%20215521.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791341676_Screenshot%202026-11-27%20215536.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8758c7274_8482eb08_20261127.png?v=8482eb08",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-fd377cab88",
-          "name": "Aloysius Yapp vs Wiktor Zieliński | 00:00 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd377cab88",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fd377cab88",
-                  "name": "Aloysius Yapp vs Wiktor Zieliński",
-                  "streams": [
-                    {
-                      "id": "st-fd377cab88",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd377cab88",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10679/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10685/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -361,22 +288,22 @@
           ],
           "org_metadata": {
             "league": "San Antonio",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Wiktor Zieliński",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795791595791_Screenshot%202026-11-27%20215950.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795791626345_Screenshot%202026-11-27%20220020.png",
-            "time": "00:00:00",
-            "date": "28/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795798800,
+            "team_a": "B.BRYANT",
+            "team_b": "S.SEO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795792581866_Screenshot%202026-11-27%20221617.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795792546089_Screenshot%202026-11-27%20221540.png",
+            "time": "22:15:00",
+            "date": "27/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1795792500,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fd377cab88_d0e58fdf_20261127.png?v=d0e58fdf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2308cf7cfb_51421b4a_20261127.png?v=51421b4a",
             "width": 1600,
             "height": 1200
           }
@@ -674,6 +601,79 @@
           }
         },
         {
+          "id": "chtv-fd377cab88",
+          "name": "Aloysius Yapp vs Wiktor Zieliński | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd377cab88",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fd377cab88",
+                  "name": "Aloysius Yapp vs Wiktor Zieliński",
+                  "streams": [
+                    {
+                      "id": "st-fd377cab88",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd377cab88",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10679/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "San Antonio",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Wiktor Zieliński",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791595791_Screenshot%202026-11-27%20215950.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791626345_Screenshot%202026-11-27%20220020.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fd377cab88_d0e58fdf_20261127.png?v=d0e58fdf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-2a2d15cfa1",
           "name": "Wojciech Szewczyk vs Felix Vogel | 00:00 28/11",
           "type": "single",
@@ -815,6 +815,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3ed3a212d7_968e45a3_20261127.png?v=968e45a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d8758c7274",
+          "name": "Olivér Szolnoki vs Radoslaw Babica | 00:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8758c7274",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d8758c7274",
+                  "name": "Olivér Szolnoki vs Radoslaw Babica",
+                  "streams": [
+                    {
+                      "id": "st-d8758c7274",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8758c7274",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10677/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "san-antonio",
+            "team_a": "Olivér Szolnoki",
+            "team_b": "Radoslaw Babica",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795791327107_Screenshot%202026-11-27%20215521.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795791341676_Screenshot%202026-11-27%20215536.png",
+            "time": "00:00:00",
+            "date": "28/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795798800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d8758c7274_8482eb08_20261127.png?v=8482eb08",
             "width": 1600,
             "height": 1200
           }
