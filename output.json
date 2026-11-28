@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-31c314cf03",
-          "name": "QUANG CON vs TÙNG KỀU | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31c314cf03",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-31c314cf03",
-                  "name": "QUANG CON vs TÙNG KỀU",
-                  "streams": [
-                    {
-                      "id": "st-31c314cf03",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31c314cf03",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10716/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "QUANG CON",
-            "team_b": "TÙNG KỀU",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795873043555_Screenshot%202026-11-28%20203715.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795873026972_Screenshot%202026-11-28%20203659.png",
-            "time": "20:36:00",
-            "date": "28/11",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1795872960,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-31c314cf03_dd3d322e_20261128.png?v=dd3d322e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-38e21c3d86",
           "name": "PBS Filler / Zielinski vs PBS Han Yu / Wu KL | BÚN CHÓ",
@@ -382,8 +309,8 @@
           }
         },
         {
-          "id": "chtv-daa2c64a92",
-          "name": "Paris Saint-Germain vs Lorient | 02:45 29/11",
+          "id": "chtv-52d67d910e",
+          "name": "QUANG CON vs TÙNG KỀU | 22:23 28/11 | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +324,23 @@
           ],
           "sources": [
             {
-              "id": "src-daa2c64a92",
+              "id": "src-52d67d910e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-daa2c64a92",
-                  "name": "Paris Saint-Germain vs Lorient",
+                  "id": "ct-52d67d910e",
+                  "name": "QUANG CON vs TÙNG KỀU",
                   "streams": [
                     {
-                      "id": "st-daa2c64a92",
+                      "id": "st-52d67d910e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-daa2c64a92",
-                          "name": "Stream",
+                          "id": "lnk-52d67d910e",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10709/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10720/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -433,23 +360,23 @@
             }
           ],
           "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Paris Saint-Germain",
-            "team_b": "Lorient",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795859245213_Screenshot%202026-11-28%20164719.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795859271458_Screenshot%202026-11-28%20164744.png",
-            "time": "02:45:00",
-            "date": "29/11",
-            "blv": "",
+            "league": "top top",
+            "team_a": "QUANG CON",
+            "team_b": "TÙNG KỀU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795873043555_Screenshot%202026-11-28%20203715.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795873026972_Screenshot%202026-11-28%20203659.png",
+            "time": "22:23:00",
+            "date": "28/11",
+            "blv": "Thập Cẩm",
             "is_live": false,
-            "time_sort": 1795895100,
+            "time_sort": 1795879380,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-daa2c64a92_c9a8177c_20261128.png?v=c9a8177c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-52d67d910e_dd3d322e_20261128.png?v=dd3d322e",
             "width": 1600,
             "height": 1200
           }
@@ -523,6 +450,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-73c6fa731a_2a1f2904_20261128.png?v=2a1f2904",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-daa2c64a92",
+          "name": "Paris Saint-Germain vs Lorient | 02:45 29/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-daa2c64a92",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-daa2c64a92",
+                  "name": "Paris Saint-Germain vs Lorient",
+                  "streams": [
+                    {
+                      "id": "st-daa2c64a92",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-daa2c64a92",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10709/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Paris Saint-Germain",
+            "team_b": "Lorient",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795859245213_Screenshot%202026-11-28%20164719.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795859271458_Screenshot%202026-11-28%20164744.png",
+            "time": "02:45:00",
+            "date": "29/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795895100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-daa2c64a92_c9a8177c_20261128.png?v=c9a8177c",
             "width": 1600,
             "height": 1200
           }
