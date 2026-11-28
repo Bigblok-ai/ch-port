@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,6 +163,79 @@
           }
         },
         {
+          "id": "chtv-5a8cc58a7c",
+          "name": "Phan Văn Kiên vs Hoàng Sao | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a8cc58a7c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5a8cc58a7c",
+                  "name": "Phan Văn Kiên vs Hoàng Sao",
+                  "streams": [
+                    {
+                      "id": "st-5a8cc58a7c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5a8cc58a7c",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10698/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "🏆 𝗗𝗮̣𝗶 𝗵𝗼̣̂𝗶 𝗧𝗵𝗲̂̉ 𝘁𝗵𝗮𝗼 𝘁𝗼𝗮̀𝗻 𝗾𝘂𝗼̂́𝗰 𝗹𝗮̂̀𝗻 𝘁𝗵𝘂̛́ 𝗫 – 𝟮𝟬𝟮𝟲",
+            "team_a": "Phan Văn Kiên",
+            "team_b": "Hoàng Sao",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795842352811_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795842352514_Ho%C3%A0ng%20Sao.png",
+            "time": "13:00:00",
+            "date": "28/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1795845600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5a8cc58a7c_2861710a_20261128.png?v=2861710a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3d98b1d0f0",
           "name": "Hồ Đức Thắng vs Đặng Thành Kiên | 13:00 28/11",
           "type": "single",
@@ -231,79 +304,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3d98b1d0f0_cd11880b_20261128.png?v=cd11880b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-5a8cc58a7c",
-          "name": "Phan Văn Kiên vs Hoàng Sao | 13:00 28/11 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a8cc58a7c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5a8cc58a7c",
-                  "name": "Phan Văn Kiên vs Hoàng Sao",
-                  "streams": [
-                    {
-                      "id": "st-5a8cc58a7c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5a8cc58a7c",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10698/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "🏆 𝗗𝗮̣𝗶 𝗵𝗼̣̂𝗶 𝗧𝗵𝗲̂̉ 𝘁𝗵𝗮𝗼 𝘁𝗼𝗮̀𝗻 𝗾𝘂𝗼̂́𝗰 𝗹𝗮̂̀𝗻 𝘁𝗵𝘂̛́ 𝗫 – 𝟮𝟬𝟮𝟲",
-            "team_a": "Phan Văn Kiên",
-            "team_b": "Hoàng Sao",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795842352811_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795842352514_Ho%C3%A0ng%20Sao.png",
-            "time": "13:00:00",
-            "date": "28/11",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1795845600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5a8cc58a7c_2861710a_20261128.png?v=2861710a",
             "width": 1600,
             "height": 1200
           }
