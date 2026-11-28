@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -158,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7849596e3c_65025308_20261128.png?v=65025308",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-31c314cf03",
+          "name": "QUANG CON vs TÙNG KỀU | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-31c314cf03",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-31c314cf03",
+                  "name": "QUANG CON vs TÙNG KỀU",
+                  "streams": [
+                    {
+                      "id": "st-31c314cf03",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31c314cf03",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10716/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "QUANG CON",
+            "team_b": "TÙNG KỀU",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795873043555_Screenshot%202026-11-28%20203715.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795873026972_Screenshot%202026-11-28%20203659.png",
+            "time": "20:36:00",
+            "date": "28/11",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1795872960,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-31c314cf03_dd3d322e_20261128.png?v=dd3d322e",
             "width": 1600,
             "height": 1200
           }
