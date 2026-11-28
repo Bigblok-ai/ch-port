@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aa7573f131_d933ae47_20261128.png?v=d933ae47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1e2e51f279",
-          "name": "JOHANN CHUA vs BURGER | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e2e51f279",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1e2e51f279",
-                  "name": "JOHANN CHUA vs BURGER",
-                  "streams": [
-                    {
-                      "id": "st-1e2e51f279",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1e2e51f279",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10704/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "JOHANN CHUA",
-            "team_b": "BURGER",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795856209729_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795856209998_Philippines.png",
-            "time": "15:56:00",
-            "date": "28/11",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "time_sort": 1795856160,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1e2e51f279_4dfefbe3_20261128.png?v=4dfefbe3",
             "width": 1600,
             "height": 1200
           }
