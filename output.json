@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -309,6 +309,79 @@
           }
         },
         {
+          "id": "chtv-bc20f55fd7",
+          "name": "Man United vs Brentford | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bc20f55fd7",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bc20f55fd7",
+                  "name": "Man United vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-bc20f55fd7",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc20f55fd7",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10706/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Man United",
+            "team_b": "Brentford",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795858460376_Screenshot%202026-11-28%20163408.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795858489728_Screenshot%202026-11-28%20163443.png",
+            "time": "22:00:00",
+            "date": "28/11",
+            "blv": "VÁNG",
+            "is_live": true,
+            "time_sort": 1795878000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc20f55fd7_118d9e28_20261128.png?v=118d9e28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-0a0ed10114",
           "name": "Hamburger SV vs bayern munich | 21:30 28/11",
           "type": "single",
@@ -450,79 +523,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e19b5499a5_64eb48c8_20261128.png?v=64eb48c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bc20f55fd7",
-          "name": "Man United vs Brentford | 22:00 28/11 | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc20f55fd7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bc20f55fd7",
-                  "name": "Man United vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-bc20f55fd7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc20f55fd7",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10706/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Man United",
-            "team_b": "Brentford",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795858460376_Screenshot%202026-11-28%20163408.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795858489728_Screenshot%202026-11-28%20163443.png",
-            "time": "22:00:00",
-            "date": "28/11",
-            "blv": "VÁNG",
-            "is_live": false,
-            "time_sort": 1795878000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc20f55fd7_118d9e28_20261128.png?v=118d9e28",
             "width": 1600,
             "height": 1200
           }
