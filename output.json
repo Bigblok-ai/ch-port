@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,8 +163,8 @@
           }
         },
         {
-          "id": "chtv-1fd47c69e5",
-          "name": "hà thành vs trường sơn pool | Kèn Kèn",
+          "id": "chtv-38e21c3d86",
+          "name": "PBS Filler / Zielinski vs PBS Han Yu / Wu KL | BÚN CHÓ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,23 +178,23 @@
           ],
           "sources": [
             {
-              "id": "src-1fd47c69e5",
+              "id": "src-38e21c3d86",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1fd47c69e5",
-                  "name": "hà thành vs trường sơn pool",
+                  "id": "ct-38e21c3d86",
+                  "name": "PBS Filler / Zielinski vs PBS Han Yu / Wu KL",
                   "streams": [
                     {
-                      "id": "st-1fd47c69e5",
+                      "id": "st-38e21c3d86",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1fd47c69e5",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-38e21c3d86",
+                          "name": "BÚN CHÓ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10717/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10718/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -214,23 +214,96 @@
             }
           ],
           "org_metadata": {
-            "league": "top top",
-            "team_a": "hà thành",
-            "team_b": "trường sơn pool",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795874546037_Screenshot%202026-11-19%20180418.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795874549392_Screenshot%202026-11-19%20180418.png",
-            "time": "21:02:00",
+            "league": "san-antonio",
+            "team_a": "PBS Filler / Zielinski",
+            "team_b": "PBS Han Yu / Wu KL",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795876630521_Screenshot%202026-11-27%20215836.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795876634733_Screenshot%202026-11-27%20215850.png",
+            "time": "21:37:00",
             "date": "28/11",
-            "blv": "Kèn Kèn",
+            "blv": "BÚN CHÓ",
             "is_live": true,
-            "time_sort": 1795874520,
+            "time_sort": 1795876620,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1fd47c69e5_397e5f94_20261128.png?v=397e5f94",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-38e21c3d86_3ddebf99_20261128.png?v=3ddebf99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-fdfde2db78",
+          "name": "jerson cumajas vs camomot | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fdfde2db78",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fdfde2db78",
+                  "name": "jerson cumajas vs camomot",
+                  "streams": [
+                    {
+                      "id": "st-fdfde2db78",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fdfde2db78",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10719/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "jerson cumajas",
+            "team_b": "camomot",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795876735853_Screenshot%202026-11-24%20165734.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795876738388_Screenshot%202026-11-24%20165734.png",
+            "time": "21:38:00",
+            "date": "28/11",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1795876680,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fdfde2db78_287a5963_20261128.png?v=287a5963",
             "width": 1600,
             "height": 1200
           }
@@ -309,79 +382,6 @@
           }
         },
         {
-          "id": "chtv-bc20f55fd7",
-          "name": "Man United vs Brentford | 22:00 28/11 | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bc20f55fd7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bc20f55fd7",
-                  "name": "Man United vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-bc20f55fd7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc20f55fd7",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10706/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Man United",
-            "team_b": "Brentford",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795858460376_Screenshot%202026-11-28%20163408.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795858489728_Screenshot%202026-11-28%20163443.png",
-            "time": "22:00:00",
-            "date": "28/11",
-            "blv": "VÁNG",
-            "is_live": false,
-            "time_sort": 1795878000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc20f55fd7_118d9e28_20261128.png?v=118d9e28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-e19b5499a5",
           "name": "Leeds United vs Coventry City | 22:00 28/11",
           "type": "single",
@@ -455,8 +455,8 @@
           }
         },
         {
-          "id": "chtv-73c6fa731a",
-          "name": "Inter Milan vs Genoa CFC | 02:45 29/11",
+          "id": "chtv-bc20f55fd7",
+          "name": "Man United vs Brentford | 22:00 28/11 | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -470,23 +470,23 @@
           ],
           "sources": [
             {
-              "id": "src-73c6fa731a",
+              "id": "src-bc20f55fd7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-73c6fa731a",
-                  "name": "Inter Milan vs Genoa CFC",
+                  "id": "ct-bc20f55fd7",
+                  "name": "Man United vs Brentford",
                   "streams": [
                     {
-                      "id": "st-73c6fa731a",
+                      "id": "st-bc20f55fd7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-73c6fa731a",
-                          "name": "Stream",
+                          "id": "lnk-bc20f55fd7",
+                          "name": "VÁNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10708/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10706/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,22 +507,22 @@
           ],
           "org_metadata": {
             "league": "bóng bánh",
-            "team_a": "Inter Milan",
-            "team_b": "Genoa CFC",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795859076690_Screenshot%202026-11-28%20164431.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795859113296_Screenshot%202026-11-28%20164507.png",
-            "time": "02:45:00",
-            "date": "29/11",
-            "blv": "",
+            "team_a": "Man United",
+            "team_b": "Brentford",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795858460376_Screenshot%202026-11-28%20163408.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795858489728_Screenshot%202026-11-28%20163443.png",
+            "time": "22:00:00",
+            "date": "28/11",
+            "blv": "VÁNG",
             "is_live": false,
-            "time_sort": 1795895100,
+            "time_sort": 1795878000,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-73c6fa731a_2a1f2904_20261128.png?v=2a1f2904",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bc20f55fd7_118d9e28_20261128.png?v=118d9e28",
             "width": 1600,
             "height": 1200
           }
@@ -596,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-daa2c64a92_c9a8177c_20261128.png?v=c9a8177c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-73c6fa731a",
+          "name": "Inter Milan vs Genoa CFC | 02:45 29/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73c6fa731a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-73c6fa731a",
+                  "name": "Inter Milan vs Genoa CFC",
+                  "streams": [
+                    {
+                      "id": "st-73c6fa731a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-73c6fa731a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10708/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Inter Milan",
+            "team_b": "Genoa CFC",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795859076690_Screenshot%202026-11-28%20164431.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795859113296_Screenshot%202026-11-28%20164507.png",
+            "time": "02:45:00",
+            "date": "29/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795895100,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-73c6fa731a_2a1f2904_20261128.png?v=2a1f2904",
             "width": 1600,
             "height": 1200
           }
